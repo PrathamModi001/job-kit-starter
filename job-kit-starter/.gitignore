@@ -1,0 +1,9 @@
+node_modules/
+dist/
+output/*/
+!output/job-search/
+output/job-search/digest*.md
+output/job-search/seen_*.json
+output/job-search/waas_jobs.json
+*.pdf
+.DS_Store

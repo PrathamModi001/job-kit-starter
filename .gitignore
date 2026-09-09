@@ -1,0 +1,51 @@
+# Playwright MCP runtime artifacts (logs, snapshots, screenshots from browser sessions)
+.playwright-mcp/
+
+# Claude local settings and internal wrapper artifacts
+.claude/settings.local.json
+.claude/.headroom_wrap_*
+**/settings.local.json
+**/.headroom_wrap_*
+
+# Node & Frontend dependencies and build output
+node_modules/
+dist/
+build/
+.cache/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# LaTeX output files (for resume builds)
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+*.pdf
+
+# Job search transient outputs
+output/*/
+!output/job-search/
+output/job-search/digest*.md
+output/job-search/seen_*.json
+output/job-search/waas_jobs.json
