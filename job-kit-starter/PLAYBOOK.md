@@ -25,10 +25,12 @@ Set up strong profiles on the user's regional platforms (in India: Naukri, Insta
 
 ## Phase 2 — Daily scan (say "do the daily scan")
 
+All sources are capped to postings from the **last 7 days** (see CLAUDE.md "Recency filter") — older leads never reach the digest, so there's no need to manually date-check results.
+
 Sources, in order:
-1. `python3 hn_scan.py` — HN Who is Hiring (seen-index; CSV-deduped).
-2. `python3 job_hunt.py` — ~90 ATS boards. Edit the company list in the script to the user's targets.
-3. `python3 job_hunt_india.py` — JobSpy over Indeed+LinkedIn. Edit queries/location for the user.
+1. `python3 hn_scan.py` — HN Who is Hiring (seen-index; CSV-deduped; always the latest thread).
+2. `python3 job_hunt.py` — ~90 ATS boards, last 7 days (`--days N` to widen). Edit the company list in the script to the user's targets.
+3. `python3 job_hunt_india.py` — JobSpy over Indeed+LinkedIn, last 7 days (`hours_old`, arg 1). Edit queries/location for the user.
 4. Browser feeds via Playwright:
    - Match-feed platforms (e.g., Instahyre `candidate/opportunities/?matching=true`): scroll-collect all cards, diff vs. previously seen + CSV.
    - Naukri-style search with `jobAge=1` (last 24h) for "backend engineer" / "[lane] engineer" in the user's city.

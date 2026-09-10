@@ -125,18 +125,25 @@ Templates load `mhchem`. `\ce{H2O}` for formulas, `$\beta$` for Greek, `$\sim$` 
 2. Read memory `MEMORY.md`. Convert relative dates to absolute.
 
 ### Candidate bar (SCOPE — assess every lead against this; skip fast if it fails)
-> Anjali Sikarwar — 2026 CS (Hons., AIML) grad, fresh off Capgemini .NET training. First full-time role.
-- **Eligibility:** India. Remote-in-India preferred, but fully open to **relocating anywhere in India** (Bangalore, Hyderabad, Pune, NCR, Chennai, etc.). Indian citizen — no sponsorship needed. International remote is a bonus, not a requirement.
-- **Comp:** Fresher targeting **8–10 LPA** (floor ~8 LPA; quote 10 on forms). Priority order: land a strong first role > comp > location. Roles clearly below ~8 LPA are lower priority but not auto-skipped if the role/company is strong.
-- **High-pay override:** n/a for now (entry level).
-- **Focus area:** **Primary lanes (equal priority): Full-Stack Developer · Software Developer/Engineer · AI/ML Engineer.** She brings a real toolbox — .NET 8/C#/ASP.NET Core/EF Core/SQL Server on the backend, React/Node/JS on the front end, and CV/NLP/GenAI (TensorFlow/PyTorch/OpenCV/BERT) for AI/ML — but the TARGET is broad full-stack / general software / AI-ML roles, NOT ".NET developer" specifically. Treat pure/senior .NET-only postings as lower priority than full-stack, general SDE, and AI/ML roles. Nothing is a hard gate — cast wide.
-- **Level:** **New-grad / 0–1 YOE.** Target: Graduate Engineer Trainee, Associate/Junior Software Engineer, .NET Developer, SDE-1, ML Engineer (entry). Skip roles hard-gated at 3+ YOE or Senior/Lead/Architect titles.
-- **Type:** Any legitimate employer is fine for a first role — but **prefer product companies and established/stable firms** over pure IT-services body-shops. Hard skip: staffing/consultancy shops, commission-only, MLM-ish, or unpaid postings.
+> Pratham Modi — B.Tech CSE (GPA 9.20), 2+ YOE backend engineer, currently at C3iHub (IIT Kanpur).
+- **Eligibility:** India-based roles or remote (India or international-remote-friendly). Indian passport/citizen — no sponsorship needed. Open to relocating to: Pune, Mumbai, Hyderabad/Secunderabad, Gurgaon/Gurugram, Bangalore/Bengaluru, Ahmedabad. Skip roles outside these cities/regions unless remote.
+- **Comp:** Current CTC 12 LPA. Target **18–20 LPA, hard floor 18 LPA — skip anything clearly below.**
+- **High-pay override:** Roles clearing ~25+ LPA are worth surfacing even outside preferred locations/lanes.
+- **Focus area:** **Primary lanes (equal priority): Software Developer · Full-Stack Developer · Node.js Backend Developer**, plus adjacent backend/distributed-systems roles. Core strength: Node.js/Express, Python/FastAPI, Kafka, Redis, MongoDB/PostgreSQL, AWS, microservices, observability (OpenTelemetry/Prometheus/Grafana). Also has React/Next.js and AI/RAG (LangGraph, vector DBs) exposure. Prioritize backend-heavy and full-stack roles; AI/ML-infra roles are a bonus fit, not primary.
+- **Level:** **Actual experience: 1yr 3mo full-time + 9mo internship (~2yr total).** Target postings gated at **0–2 YOE or 0–3 YOE** — both are fair matches. Skip roles requiring 4+ YOE or Senior/Staff/Principal/Architect/Lead titles.
+- **Type:** Prefer product companies and well-funded startups with real engineering scope over pure IT-services/staffing shops. Hard skip: commission-only, unpaid, MLM-ish postings.
+
+### Recency filter — postings must be ≤7 days old
+All three scan tools default to a **1-week window** and drop anything older automatically:
+- `job_hunt.py` filters on each ATS's own posted/updated date (GH `updated_at`, Ashby `publishedAt`, Lever `createdAt`); override with `--days N`. Sources with no date field (Aiven, Arbeitnow, HN) can't be filtered and pass through as-is.
+- `job_hunt_india.py` passes `hours_old=168` to JobSpy by default; override via `python3 job_hunt_india.py <hours>`.
+- `hn_scan.py` is already recency-bound — it only reads the single latest monthly "Who is hiring?" thread.
+- Browser match-feeds: use each platform's own recency filter/sort (e.g. Naukri `jobAge=7`) when triaging manually.
 
 ### Daily scan tools (run from repo root; each keeps a seen-index so re-runs show only NEW)
 - `python3 hn_scan.py` — HN "Who is hiring?"; excludes companies already in the CSV.
-- `python3 job_hunt.py` — ~90 company ATS boards + YC → `output/job-search/digest.md`.
-- `python3 job_hunt_india.py` — Indeed+LinkedIn via JobSpy → `output/job-search/digest_india.md`. (Edit queries/country for your region.)
+- `python3 job_hunt.py` — ~90 company ATS boards + YC, last 7 days → `output/job-search/digest.md`.
+- `python3 job_hunt_india.py` — Indeed+LinkedIn via JobSpy, last 7 days → `output/job-search/digest_india.md`. (Edit queries/country for your region.)
 - `python3 waas_scan.py` — Work-at-a-Startup (login-gated; see PLAYBOOK for the browser flow). ~5 applications/week cap — spend slots on best-fit only.
 - Browser feeds (Playwright): platform match-feeds like Instahyre/Cutshort/Naukri or your region's equivalents — see PLAYBOOK.
 - Present results **triaged against the bar**, not raw dumps. Flag dupes-already-in-pipeline honestly.

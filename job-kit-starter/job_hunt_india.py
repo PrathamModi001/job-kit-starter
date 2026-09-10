@@ -21,46 +21,54 @@ HOURS_OLD = int(sys.argv[1]) if len(sys.argv) > 1 else 168  # default last 7 day
 RESULTS = 30
 
 # (site, search_term, is_remote, location)
-# Tuned for Anjali: FULL-STACK / SOFTWARE DEVELOPER / AI-ML first (NOT ".NET developer").
-# .NET/C#/React are tools she brings; the search targets broad full-stack + SDE + AI/ML, fresher/entry, Bengaluru+India.
+# Tuned for Pratham: Node.js Backend / Full-Stack / Software Developer first, 1-3 YOE band.
+# React/Next.js and AI-RAG exposure are supporting skills, not the driver.
 QUERIES = [
-    ("indeed",   "full stack developer",          False, "Bengaluru, India"),
+    ("indeed",   "backend developer node",        False, "Bengaluru, India"),
     ("indeed",   "software developer",            False, "Bengaluru, India"),
-    ("indeed",   "software engineer fresher",     False, "Bengaluru, India"),
-    ("indeed",   "full stack developer react",    False, "India"),
-    ("indeed",   "ai ml engineer",                False, "India"),
-    ("indeed",   "machine learning engineer",     False, "India"),
-    ("indeed",   "software developer",            True,  "India"),   # remote-biased
+    ("indeed",   "full stack developer",          False, "Bengaluru, India"),
+    ("indeed",   "backend engineer",              False, "India"),
+    ("indeed",   "node.js developer",             False, "India"),
+    ("indeed",   "software engineer backend",     False, "India"),
+    ("indeed",   "backend developer",             True,  "India"),   # remote-biased
+    ("linkedin", "backend developer node",        False, "India"),
+    ("linkedin", "software developer",            False, "India"),
     ("linkedin", "full stack developer",          False, "India"),
-    ("linkedin", "software engineer fresher",     False, "India"),
-    ("linkedin", "associate software engineer",   False, "India"),
-    ("linkedin", "ai ml engineer",                False, "India"),
-    ("linkedin", "full stack developer remote",   True,  "India"),
+    ("linkedin", "backend engineer",              False, "India"),
+    ("linkedin", "node.js backend remote",        True,  "India"),
 ]
 
 # --- scoring keywords ---
 POS = {
-    # primary lanes: full-stack / general software / AI-ML
-    "full stack": 5, "fullstack": 5, "full-stack": 5,
-    "software engineer": 4, "software developer": 4, "software development": 3,
-    "ai": 3, " ai/ml": 4, "ai/ml": 4, "ml engineer": 4, "machine learning": 4, "deep learning": 3,
-    "computer vision": 3, "nlp": 3, "genai": 3, "generative ai": 3, "llm": 3, "data scien": 2,
-    "react": 4, "node": 3, "nodejs": 3, "javascript": 3, "typescript": 3, "angular": 3,
-    "python": 3, "tensorflow": 3, "pytorch": 3, "rest": 2, "api": 2, "backend": 2, "frontend": 2,
-    # supporting skills she has (positive but NOT the driver)
-    ".net": 2, "dotnet": 2, "c#": 2, "asp.net": 2, "web api": 2, "ef core": 1, "sql server": 1,
-    "sql": 1, "azure": 2, "microservice": 2, "microservices": 2, "mongodb": 1, "postgres": 1,
+    # primary lanes: backend / node / full-stack / general software
+    "backend": 5, "back-end": 5, "back end": 5, "node": 5, "nodejs": 5, "node.js": 5,
+    "express": 4, "full stack": 4, "fullstack": 4, "full-stack": 4,
+    "software engineer": 3, "software developer": 3, "software development": 2,
+    "microservice": 3, "microservices": 3, "distributed system": 3, "kafka": 3, "redis": 2,
+    "mongodb": 2, "postgres": 2, "aws": 2, "docker": 2, "kubernetes": 2,
+    "react": 2, "next.js": 2, "nextjs": 2, "typescript": 2, "javascript": 2,
+    "python": 2, "fastapi": 2, "rest": 2, "api": 2, "graphql": 1,
+    # AI/RAG exposure — bonus fit, not primary lane
+    "rag": 2, "langgraph": 2, "vector db": 2, "llm": 1, "genai": 1,
     # level fit
-    "fresher": 3, "entry level": 3, "graduate engineer": 3, "trainee": 2, "associate": 2, "junior": 2,
-    "0-1 year": 3, "0-2 year": 3, "0 to 2 year": 3,
+    "0-1 year": 3, "0-2 year": 3, "0 to 2 year": 3, "1-3 year": 4, "1 to 3 year": 4,
+    "2-4 year": 3, "junior": 1, "associate": 1,
 }
 NEG = {
+    # hard skip: wrong exp level for 0-3 YOE target
+    "sde 2": -10, "sde ii": -10, "software development engineer ii": -10, "sde2": -10,
+    "sde3": -10, "sde iii": -10, "mts 2": -10, "mts-2": -10, "mts2": -10, "mts-3": -10,
+    # hard skip: java (not in primary stack)
+    "java": -8, " java ": -8,
+    # other skips
     "qa ": -5, "test engineer": -5, "manual test": -7, "sdet": -3,
     "salesforce": -6, "sap ": -6, "sap-": -6,
     "sales ": -5, "wordpress": -6, "php": -3, "intern ": -3, "internship": -3,
+    ".net": -3, "dotnet": -3, "c#": -3, "asp.net": -3,
+    "android developer": -3, "ios developer": -3,
     "manager": -3, "principal": -3, "staff engineer": -2, "architect": -2,
     "10+ years": -6, "12+ years": -7, "8+ years": -4, "7+ years": -3, "6+ years": -2,
-    "5+ years": -1, "android developer": -1, "ios developer": -1,
+    "5+ years": -2, "4+ years": -1,
 }
 
 def already_applied_companies():
@@ -93,12 +101,12 @@ def score(row):
             s += v
     if row.get("is_remote") is True:
         s += 4
-    # seniority sweet-spot for a fresher: reward 0-2 yrs / entry level, penalize high-YOE gates
-    if re.search(r"\b0\s*(?:-|to)?\s*[12]?\s*year|\bentry[- ]level|\bfresher|\bgraduate\b", hay):
+    # seniority sweet-spot for ~2 YOE: reward 0-3 yr gates, penalize high-YOE / senior titles
+    if re.search(r"\b[0-3]\s*(?:-|to)?\s*[1-3]?\s*year|\b0\s*(?:-|to)?\s*[12]?\s*year", hay):
         s += 3
-    elif re.search(r"\b[12]\s*(?:-|to)?\s*[23]?\s*year", hay):
-        s += 1
-    if re.search(r"\b([7-9]|1\d)\+?\s*year", hay):  # 7+ years = too senior
+    if re.search(r"\bsenior\b|\blead\b|\bstaff\b|\bprincipal\b", hay):
+        s -= 4
+    if re.search(r"\b([4-9]|1\d)\+?\s*year", hay):  # 4+ years = above the target band
         s -= 3
     return s
 

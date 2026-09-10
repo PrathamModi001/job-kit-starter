@@ -13,12 +13,13 @@ Usage:
   python3 job_hunt.py            # show only NEW matches since last run
   python3 job_hunt.py --all      # show all current matches (don't hide seen)
   python3 job_hunt.py --min 4    # only score >= 4
+  python3 job_hunt.py --days 7   # only postings updated in the last N days (default 7)
   python3 job_hunt.py --no-save  # don't update seen.json (dry run)
 
 Edit SOURCES below to add/remove companies. No external deps.
 """
 import json, re, sys, urllib.request, urllib.error, html, os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeout
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -152,7 +153,8 @@ def fetch_gh(slug):
                "loc": (j.get("location") or {}).get("name", ""),
                "url": j.get("absolute_url", ""),
                "desc": strip_html(j.get("content", "")),
-               "id": str(j.get("id"))}
+               "id": str(j.get("id")),
+               "posted": j.get("updated_at")}
 
 def fetch_ashby(slug):
     data = json.loads(get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true"))
@@ -165,7 +167,8 @@ def fetch_ashby(slug):
             loc = f"{loc} ({sec})"
         yield {"title": j.get("title", ""), "loc": loc,
                "url": j.get("jobUrl", ""), "desc": j.get("descriptionPlain", "") or "",
-               "id": j.get("id") or j.get("jobUrl", "")}
+               "id": j.get("id") or j.get("jobUrl", ""),
+               "posted": j.get("publishedAt")}
 
 def fetch_lever(slug):
     data = json.loads(get(f"https://api.lever.co/v0/postings/{slug}?mode=json"))
@@ -181,7 +184,8 @@ def fetch_lever(slug):
             loc = (loc + " / Remote").strip(" /")
         yield {"title": j.get("text", ""), "loc": loc, "url": j.get("hostedUrl", ""),
                "desc": j.get("descriptionPlain") or strip_html(j.get("description", "")),
-               "id": j.get("id", "")}
+               "id": j.get("id", ""),
+               "posted": j.get("createdAt")}  # epoch ms
 
 def fetch_aiven(_):
     h = get("https://aiven.io/careers/job")
@@ -231,8 +235,27 @@ def min_years(desc):
     ys = [int(x) for x in YEARS.findall(desc)]
     return min(ys) if ys else None
 
+def parse_posted(v):
+    # GH/Ashby give ISO8601, Lever gives epoch ms. No date (aiven/arbeitnow) or thread-based
+    # (HN, already only the latest monthly thread) -> None, meaning "can't filter, keep it".
+    if v is None:
+        return None
+    try:
+        if isinstance(v, (int, float)):
+            return datetime.fromtimestamp(v / 1000, tz=timezone.utc)
+        return datetime.fromisoformat(str(v).replace("Z", "+00:00"))
+    except Exception:
+        return None
+
 def score(title, desc, loc):
     blob = (title + " " + desc).lower()
+    # hard skip: wrong exp level for 0-3 YOE target
+    if re.search(r"\b(sde\s*[23]|sde\s*ii+|software development engineer\s*ii+|sde[23]|"
+                 r"mts\s*[23]|mts-[23]|mts[23]|member of technical staff [23])\b", blob, re.I):
+        return -50  # hard skip signal
+    # hard skip: java (not in primary stack)
+    if re.search(r"\bjava\b", blob, re.I):
+        return -50  # hard skip signal
     s = sum(2 for k in STACK if k in blob)
     if re.search(r"\b(back[- ]?end|platform|infra)", title, re.I): s += 3
     if any(k in blob for k in ("llm", "ai infra", "genai", "rag", "agent")): s += 3
@@ -255,6 +278,11 @@ def main():
     if "--min" in args:
         try: min_s = int(args[args.index("--min") + 1])
         except Exception: pass
+    days = 7
+    if "--days" in args:
+        try: days = int(args[args.index("--days") + 1])
+        except Exception: pass
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
 
     os.makedirs(OUT, exist_ok=True)
     seen = set()
@@ -292,6 +320,9 @@ def main():
             my = min_years(job["desc"])
             if my is not None and my > MAX_YEARS:
                 continue
+            posted = parse_posted(job.get("posted"))
+            if posted is not None and posted < cutoff:
+                continue
             reg = region(job["loc"], job["desc"])
             if india_only and reg == "locked":
                 continue
@@ -321,7 +352,8 @@ def main():
           for k in ("india", "remote", "locked", "unknown")}
     ts = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
     lines = [f"# Job digest — {ts}", "",
-             f"Scanned {len(SOURCES)} sources · {len(matches)} matches total · "
+             f"Scanned {len(SOURCES)} sources (last {days}d, where the source reports a date) · "
+             f"{len(matches)} matches total · "
              f"**{new_count} new** · showing {'all' if show_all else 'new only'} "
              f"(min score {min_s}{', India-eligible only' if india_only else ''}).",
              f"Region: 🇮🇳 {rc['india']} India · 🌍 {rc['remote']} remote · "
@@ -353,5 +385,14 @@ def main():
     sys.stdout.flush()
     os._exit(0)
 
+def _self_check():
+    assert parse_posted(None) is None
+    assert parse_posted("2026-08-31T17:56:36-04:00").tzinfo is not None
+    now_ms = datetime.now(timezone.utc).timestamp() * 1000
+    assert parse_posted(now_ms) > datetime.now(timezone.utc) - timedelta(minutes=1)
+    assert parse_posted("not-a-date") is None
+
 if __name__ == "__main__":
+    if "--self-check" in sys.argv:
+        _self_check(); print("ok"); sys.exit(0)
     main()

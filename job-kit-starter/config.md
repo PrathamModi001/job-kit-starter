@@ -6,40 +6,51 @@
 
 ## Personal Info
 
-- **Name:** Anjali Sikarwar
+- **Name:** Pratham Modi
 - **Degree suffix:** (none)
-- **Email:** anjalisikarwar10@gmail.com
-- **Phone:** +91-7505144972
-- **Location:** Bengaluru, India
-- **LinkedIn:** https://www.linkedin.com/in/anjali-sikarwar/
-- **GitHub:** https://github.com/anjsik22
+- **Email:** prathammodi001@gmail.com
+- **Phone:** +91-9033393729
+- **Location:** Koramangala, Bengaluru, India
+- **LinkedIn:** https://www.linkedin.com/in/prathammodii001/
+- **GitHub:** https://github.com/PrathamModi001
 - **Website:** none
 - **Google Scholar:** none
 - **ORCID:** none
 
 ---
 
+## Preferred Job Platforms
+> Login via the real Chrome browser (claude-in-chrome), one-time per site — session persists in your normal Chrome profile/cookies, no re-login needed per run.
+- Wellfound
+- Instahyre
+- Cutshort
+- Indeed
+- Jobfound
+- Naukri (Premium subscription — prioritize for profile optimization, better recruiter visibility)
+
+---
+
 ## Application-Form Facts (reused constantly — collect once during onboarding)
 
-- **Current CTC / salary:** Fresher — N/A (no prior full-time employment)
-- **Expected CTC we quote on forms:** 8–10 LPA (fresher; quote 10, will consider from 8)
-- **Home address (for ATS forms):** HSR Layout, Bengaluru, 560034
-- **Citizenship / passport:** India
+- **Current CTC / salary:** 12 LPA
+- **Expected CTC we quote on forms:** 18–20 LPA (floor 18 LPA, target 20 LPA)
+- **Home address (for ATS forms):** 395 5th Avenue, Teachers Colony, Koramangala, Bengaluru
+- **Citizenship / passport:** India (Indian passport)
 - **Needs sponsorship in home country:** no
 - **Notice period:** Immediate
-- **Date of birth:** 01/04/2004
-- **Gender (voluntary-disclosure forms):** Female
+- **Date of birth:** 23/01/2003
+- **Gender (voluntary-disclosure forms):** Male
 - **Background checks:** OK
-- **Email signature for outreach:** Best, / Anjali Sikarwar / anjalisikarwar10@gmail.com
+- **Email signature for outreach:** Best, / Pratham Modi / prathammodi001@gmail.com
 
 ---
 
 ## Document Preferences
 
-- **Resume pages:** 1 (fresher / <5 YOE)
+- **Resume pages:** 1
 - **CV pages:** n/a (industry-only)
 - **Resume bullet variant:** 2L default
-- **Skills config (resume):** 4-3-2-2-2
+- **Skills config (resume):** matches base LaTeX resume grouping (Languages / Backend / Frontend / Databases / Messaging / AI-ML / Cloud-DevOps-Observability / Architecture)
 - **Immigration line:** no
 
 ---
@@ -48,6 +59,6 @@
 
 > Anything here constrains what resumes may claim. Fill honestly.
 
-- **Publications actually under review:** none
-- **Internal tools (NOT peer-reviewed / NOT public):** HR Management System, Cruise Ticket Booking, SmartBank, Yoga Hand Mudra Detection, Voice-Enabled Web GIS — all training/academic/personal projects, not peer-reviewed or productionized.
-- **Shared/team work (use hedged verbs):** Bhartiya Antariksh Hackathon 2024 and Infosys SpringBoard Ideathon 2024 were team efforts — use hedged verbs (Contributed / Supported) for anything not solely built by Anjali.
+- **Publications actually under review:** none. Published: paper at INDIACom 2024 (IEEE Xplore: https://ieeexplore.ieee.org/document/10498330/) — title/author-position not yet confirmed, see SKILL_PROFILE.md Publications.
+- **Internal tools (NOT peer-reviewed / NOT public):** C3iHub LMS platform, IITK hackathon platform, Playpower AI tutoring platform — employer-owned production systems, not public/open-source.
+- **Shared/team work (use hedged verbs):** none flagged yet — confirm if any C3iHub/Playpower work was team-shared vs. solely owned before claiming full-ownership verbs.

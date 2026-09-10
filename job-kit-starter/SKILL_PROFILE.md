@@ -1,4 +1,4 @@
-# Master Profile (SKILL_PROFILE) — Anjali Sikarwar
+# Master Profile (SKILL_PROFILE) — Pratham Modi
 
 > The "brag doc" — single source of truth for every fact about the career.
 > Every tailored resume is generated FROM this file.
@@ -10,61 +10,73 @@
 ---
 
 ## Summary
-Full-stack software developer and 2026 Computer Science (Hons., AIML) graduate from
-Chandigarh University. Builds end to end — React/JavaScript front ends over C#/.NET 8 &
-ASP.NET Core Web API back ends with EF Core and SQL Server (hardened in a competitive
-Capgemini industry training) — and brings a genuine applied-AI/ML background (computer
-vision, NLP, GenAI) from academic and hackathon projects.
-Target lanes (equal priority): **Full-Stack Developer · Software Developer/Engineer · AI/ML Engineer**.
+Backend-focused software engineer with 2+ years in production. Led backend development of an
+LMS platform serving 50K+ users at C3iHub (IIT Kanpur), spanning event-driven microservices,
+distributed tracing, and cloud infrastructure. Strong in Node.js, Python, Kafka, Redis, and AWS.
+Experienced owning systems end-to-end across backend, DevOps, and AI integration.
+Target lanes (equal priority): **Software Developer · Full-Stack Developer · Node.js Backend Developer** and adjacent backend/distributed-systems roles.
 
 ## Experience
 
-### Software Engineering Trainee — Capgemini .NET Core & Azure Training Program · Jan 2026 – May 2026
-- Selected for a competitive industry .NET training covering C#/.NET 8, ASP.NET Core, EF Core, SQL Server, Azure, and microservices, with weekly assignments and graded assessments.
-- Built several hands-on projects end to end — SmartBank (microservices banking), Cruise Ticket Booking, and an HR Management System as the final evaluation project.
-- Stack: C# 12, .NET 8 / .NET Core, ASP.NET Core MVC & Web API, Razor Pages, EF Core, LINQ, SQL Server / Azure SQL, YARP, JWT, xUnit/NUnit, Azure DevOps.
+### Software Development Engineer — C3iHub, IIT Kanpur · Jul 2025 – Present · Kanpur, India
+- Architected core LMS backend serving 50K+ users across microservices for auth, notifications, and content delivery using Express.js, MongoDB, Redis, and Socket.IO, achieving 99.9% uptime at 10,000+ concurrent connections.
+- Reduced cloud storage costs 60% (~Rs. 4.8L/year) via S3 Object Lock, Glacier Instant Retrieval, and a 2-tier S3 backup strategy; cut MongoDB p99 latency from 450ms → 135ms through compound indexing, horizontal sharding, and Redis caching.
+- Engineered event-driven notification pipeline handling 75K+ daily events at 99.5% delivery reliability using Kafka, BullMQ, and Redis Pub/Sub — guaranteed at-least-once delivery with consumer-side deduplication.
+- Improved incident response time 85% by deploying distributed tracing across 15+ services using OpenTelemetry, Prometheus, and Grafana; defined alerting SLOs across cross-functional teams.
+- Led development of the official IITK hackathon platform onboarding 10K+ participants pan-India; productized into multi-tenant SaaS serving both public and private corporate deployments with RBAC.
+- Built real-time collaborative round engine handling 2,000+ concurrent WebSocket sessions via Django Channels (ASGI) and Redis channel groups — idempotent submission handling and race-condition-safe team answer sync with timer-enforced auto-submit.
+
+### Software Development Engineer — Playpower Labs · Nov 2024 – Jun 2025 · Remote
+- Developed AI tutoring platform using Next.js with SSR/ISR and React Server Components alongside FastAPI microservices, supporting 500+ concurrent WebSocket sessions with sub-100ms response times.
+- Increased user session depth by 35% by integrating ChromaDB vector search over 10K+ documents via a RAG pipeline, achieving sub-200ms retrieval latency at p95.
+- Cut document retrieval latency by 47% (340ms to 180ms) with a PDF ingestion pipeline using 512-token chunking, OpenAI text-embedding-3-small, and HNSW-indexed ChromaDB.
+- Reduced release cycle time by 65% by implementing blue-green CI/CD on AWS with GitHub Actions and automated rollback triggers for zero-downtime deployments.
 
 ## Projects
 
-- **HR Management System** — C#, .NET 8, ASP.NET Core, EF Core, JWT (May 2026). Web API + Razor MVC with JWT auth and role-based access (HR Admin / Employee). DB-first EF Core data layer with a generic repository, FluentValidation, AutoMapper, and custom exceptions exposing RESTful CRUD endpoints. *(Capgemini final evaluation project.)*
-- **Cruise Ticket Booking Service** — C#, .NET 8, ASP.NET Core, YARP, EF Core, JWT (Jan–Apr 2026). .NET 8 microservices platform with a YARP API gateway routing JWT-secured requests to Auth, Trip, Cabin, Itinerary, Booking, and Payment services. Booking flow (cabin availability, passenger management, itemized fare/refund lifecycle) via EF Core and typed HttpClient calls across services.
-- **Yoga Hand Mudra Detection** — Python, TensorFlow, Keras, OpenCV, MediaPipe (Aug–Oct 2025). Real-time CNN + MediaPipe system detecting 25 yoga hand mudras at **96.3% accuracy**, with visual + audio feedback for finger-alignment correction.
-- **Voice-Enabled Web GIS Application** — JavaScript, OpenLayers, Python, BERT, LLaMA (Jul–Aug 2024). Natural-language voice commands for map interactions (zoom, pan, layer switching across satellite/terrain/Bhuvan views); POI layers and weather integration with error handling for diverse inputs.
+- **Autonomous Invoice Processing Platform** — Kafka, Redis Streams, FastAPI, PostgreSQL. Hackathon Winner. Event-driven platform automating invoice intake across 3 channels (Gmail API, WhatsApp Business API, Google Drive) with automated validation, deduplication, full audit trail. Fault-tolerant microservices with consumer groups, dead-letter queues, exponential backoff retry, RBAC-based human review workflow. GitHub: PrathamModi001/apex-invoice-processing
+- **DeployMind: AI-Powered GitOps Platform** — Python, FastAPI, CrewAI, Redis, Docker, Kubernetes. Personal project. GitOps platform automating deployments from GitHub to EC2 and Kubernetes (EKS/GKE) via a 3-agent AI pipeline (security audit, build, deploy) using CrewAI, with conditional rollback on security gate failure. Rolling, Canary (graduated traffic shifting with auto-rollback), and Blue-Green deployment strategies with Redis-backed queue, distributed locking, 200+ unit/integration/E2E tests. GitHub: PrathamModi001/DeployMind
+- **Mnemoniq: Multi-Tier Memory AI Agent** — FastAPI, LangGraph, PostgreSQL, Qdrant, Redis. Personal project. Three-tier memory system (working, episodic, knowledge graph) for a conversational AI agent orchestrated via a LangGraph multi-agent pipeline, cutting injected context tokens 38% versus naive full-history buffering. Qdrant/ChromaDB vector retrieval combined with NetworkX knowledge-graph traversal (Hebbian edge reinforcement, GraphRAG/HippoRAG-style scoring) behind a FastAPI + SSE backend with PostgreSQL and Redis-backed sessions; validated with a RAGAS-inspired eval harness across relevance, faithfulness, token efficiency. GitHub: PrathamModi001/Mnemoniq
 
 ## Education
-- B.E. Computer Science (Hons.), Specialization in AI & ML — Chandigarh University (2022–2026), **CGPA 8.18**
-- Senior Secondary (CBSE), Kendriya Vidyalaya Aligarh (2020–2021) — **96.8%**
-- Secondary (CBSE, 10th), Kendriya Vidyalaya Aligarh (2018–2019) — **91.4%**
+- B.Tech, Computer Science and Engineering — Pandit Deendayal Energy University (2021–2025), GPA 9.20/10
 
 ## Skills (grouped)
-- **Languages:** C# 12.0, T-SQL / SQL, JavaScript (ES6+), Python, C++, C, Java, HTML5, CSS3
-- **.NET & Platform:** .NET 8.0 / .NET Core, ASP.NET Core MVC, ASP.NET Core Web API, Razor Pages, .NET Standard Libraries, Microservices, JWT, YARP
-- **Data Access & Databases:** Entity Framework Core, LINQ, SQL Server / RDBMS, Azure SQL Database, Azure Cosmos DB (NoSQL), MySQL, PostgreSQL, MongoDB, SSMS
-- **Libraries & Tools:** AutoMapper, FluentValidation, Serilog, NLog, Swagger / OpenAPI, Postman, NuGet
-- **Testing:** xUnit, NUnit
-- **Cloud & DevOps:** Azure, Azure DevOps, Git
-- **AI/ML:** TensorFlow, PyTorch, Keras, OpenCV, MediaPipe, GPT, BERT, LLaMA, YOLO, NLP, Computer Vision, Generative AI
-- **Web (secondary):** React, Bootstrap, Node.js, Express.js, Flask, FastAPI
+- **Languages:** Python, JavaScript, TypeScript, Java, C++, SQL
+- **Backend:** Node.js, Express.js, FastAPI, Socket.IO, RESTful APIs, WebSocket, GraphQL, Nginx
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Databases:** PostgreSQL, MongoDB, Redis, DynamoDB
+- **Messaging:** Kafka, BullMQ, Redis Streams, Redis Pub/Sub, Event-Driven Architecture
+- **AI/ML:** Multi-Agent Systems (CrewAI, LangGraph), RAG Pipelines, Vector Databases (ChromaDB, Qdrant), Knowledge Graphs (NetworkX), LLM Integration
+- **Cloud, DevOps & Observability:** AWS (EC2, S3, Lambda, EKS, IAM, ECR), Docker, Kubernetes, Terraform, GitHub Actions, CI/CD, OpenTelemetry, Prometheus, Grafana, Distributed Tracing
+- **Architecture:** Microservices, Distributed Systems, System Design, Scalable Backend, High-Throughput Systems
 
 ## Achievements / Awards
-- **Grand Finalist** — Bhartiya Antariksh Hackathon 2024 (AI-driven space-tech solution using satellite data). *(Team project.)*
-- **Winner** — Infosys SpringBoard Ideathon 2024 (scalable tech model for sustainability in education). *(Team project.)*
-- Ranked in the **top 1.5% nationwide** in CBSE Class 12 among all Kendriya Vidyalayas.
+- Hackathon Winner — Autonomous Invoice Processing Platform
+
+## Publications
+- Paper published at the 11th International Conference on Computing for Sustainable Global Development (INDIACom), 2024. IEEE Xplore: https://ieeexplore.ieee.org/document/10498330/
+  - NEEDS CONFIRMATION: exact paper title, author order/position, co-authors — get from user before citing on any resume/CL.
 
 ## Certifications
-- Azure AI Fundamentals (Microsoft)
-- Deloitte Australia Data Analytics Job Simulation (Forage)
-- Career Essentials in Generative AI (LinkedIn)
-- Python for Everybody & Introduction to Generative AI (Coursera)
+[none on file yet — add if any]
 
 ## Load-Bearing Facts (pin the current numbers here; grep for stale copies before every send)
-- CGPA = 8.18 (Chandigarh University, B.E. CSE Hons. AIML)
-- Yoga Hand Mudra Detection accuracy = 96.3%; detects 25 mudras
-- CBSE Class 12 = 96.8% (top 1.5% nationwide among KVs); Class 10 = 91.4%
-- Cruise Booking microservices: 6 services behind a YARP gateway (Auth, Trip, Cabin, Itinerary, Booking, Payment)
-- Capgemini training window: Jan 2026 – May 2026
-- GitHub URL = https://github.com/anjsik22
-- BASE resume (full-stack) = `output/_base/base_fullstack_resume.tex` → `Anjali_Sikarwar_Resume.pdf` (1 page, verified 2026-07-21). Clone this per JD; swap ONLY tagline + Summary, keep every fact identical. Compile: `tectonic -c minimal <file>.tex` (resume.cls must sit beside the .tex).
+- GPA = 9.20/10 (Pandit Deendayal Energy University, B.Tech CSE)
+- C3iHub LMS: 50K+ users, 99.9% uptime, 10,000+ concurrent connections
+- C3iHub storage cost cut 60% (~Rs. 4.8L/year); MongoDB p99 450ms → 135ms
+- C3iHub notification pipeline: 75K+ daily events, 99.5% delivery reliability
+- C3iHub observability: incident response time down 85%, tracing across 15+ services
+- C3iHub hackathon platform: 10K+ participants pan-India
+- C3iHub collaborative engine: 2,000+ concurrent WebSocket sessions
+- Playpower AI tutor: 500+ concurrent WebSocket sessions, sub-100ms responses
+- Playpower RAG: session depth +35%, 10K+ documents, sub-200ms p95 retrieval
+- Playpower ingestion: retrieval latency 340ms → 180ms (-47%)
+- Playpower CI/CD: release cycle time -65%, blue-green zero-downtime
+- Mnemoniq: context tokens -38% vs. naive full-history buffering
+- DeployMind: 200+ unit/integration/E2E tests
+- GitHub URL = https://github.com/PrathamModi001
+- BASE resume source: user-provided LaTeX (Roboto font, single-column, sections: Summary/Experience/Projects/Technical Skills/Education) — port into resume_builder/templates/ as the FIXED base before first /make-resume run.
 
 ## Log (append new wins here, fold up later)
-- 2026-07-21 Profile created from resume + Capgemini training skills update.
+- 2026-09-09 Profile created from user-supplied LaTeX resume.
