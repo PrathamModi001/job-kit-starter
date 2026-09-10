@@ -92,6 +92,13 @@ def load_seen():
 def score(row):
     hay = " ".join(str(row.get(k, "")) for k in ("title", "company", "description")).lower()
     hay = " " + re.sub(r"[^a-z0-9+.# ]", " ", hay) + " "
+
+    # hard skip: Java, SDE 2/3, MTS-2/3 (not in 0-3 YOE target)
+    if re.search(r"\bjava\b", hay):
+        return -50  # hard skip — not in primary stack
+    if re.search(r"\b(?:sde\s*[23]|sde\s*ii+|sde[23]|mts\s*[23]|mts-[23]|mts[23])\b", hay):
+        return -50  # hard skip — mid-level, above 0-3 YOE target
+
     s = 0
     for k, v in POS.items():
         if k in hay:
@@ -184,6 +191,8 @@ def main():
     # update seen
     json.dump(sorted(set(seen) | set(df["job_url"].dropna())), open(SEEN_PATH, "w"), indent=0)
 
+    import sys
+    sys.stdout.reconfigure(encoding='utf-8')
     print("SCRAPE LOG:")
     for l in log:
         print("  " + l)
