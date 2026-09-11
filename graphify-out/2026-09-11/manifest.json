@@ -12,21 +12,21 @@
     "semantic_hash": "6ff5bd6421dc2f3dc3d91a69429fca95"
   },
   "job-kit-starter/job_hunt.py": {
-    "mtime": 1789051229.3247166,
-    "seen": 1789115069.1657815,
-    "ast_hash": "9a0db90c690bc95acc387a8132f5d559",
+    "mtime": 1789039656.727525,
+    "seen": 1789039716.395068,
+    "ast_hash": "bd1ee0db0112ea3182ace482be113291",
     "semantic_hash": ""
   },
   "job-kit-starter/job_hunt_india.py": {
-    "mtime": 1789051199.845852,
-    "seen": 1789115069.1657827,
-    "ast_hash": "1ce4dbc4fd65bc3d9876e21ebaa27376",
+    "mtime": 1789039686.010846,
+    "seen": 1789039716.3950694,
+    "ast_hash": "d18f2d7faf0d5b5a0ac3888d762d1b67",
     "semantic_hash": ""
   },
   "job-kit-starter/output/job-search/seen.json": {
-    "mtime": 1789112865.6676388,
-    "seen": 1789115069.1657836,
-    "ast_hash": "3cf8eaebca0ef7b203d364fbd758b2c0",
+    "mtime": 1789028894.750063,
+    "seen": 1789039716.3950706,
+    "ast_hash": "e128c2437a2e73d941ffec554265ed1e",
     "semantic_hash": ""
   },
   "job-kit-starter/resume.cls": {
@@ -84,10 +84,10 @@
     "semantic_hash": "4bacdb467f88c9788c12e05eae4f2d40"
   },
   "job-kit-starter/tracker/src/meta.json": {
-    "mtime": 1789115064.8125498,
-    "seen": 1789115069.1657925,
-    "ast_hash": "63f7c6842e40bbe059ab5a06670315c8",
-    "semantic_hash": ""
+    "mtime": 1788764465.6283185,
+    "seen": 1788946683.6309655,
+    "ast_hash": "8081b8a0dd84dfdd929da54d90353ab4",
+    "semantic_hash": "8081b8a0dd84dfdd929da54d90353ab4"
   },
   "job-kit-starter/tracker/vite.config.js": {
     "mtime": 1788764450.26019,
@@ -174,9 +174,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/CLAUDE.md": {
-    "mtime": 1789106885.8888063,
-    "seen": 1789115069.1658058,
-    "ast_hash": "9362f82080f8bf4e562258668dd9f0a6",
+    "mtime": 1789039693.7846057,
+    "seen": 1789039716.395092,
+    "ast_hash": "16bda954d43db8b1150147a7b04062e3",
     "semantic_hash": ""
   },
   "job-kit-starter/DOCS.md": {
@@ -186,9 +186,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/PLAYBOOK.md": {
-    "mtime": 1789106888.3644905,
-    "seen": 1789115069.165807,
-    "ast_hash": "e0e4f5eeadeaa3f6b9877659eb864bdf",
+    "mtime": 1789039698.9636538,
+    "seen": 1789039716.3950932,
+    "ast_hash": "057db6c25af457c49e1150065ae470d7",
     "semantic_hash": ""
   },
   "job-kit-starter/QUICKSTART.md": {
@@ -216,9 +216,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/config.md": {
-    "mtime": 1789051431.1586504,
-    "seen": 1789115069.1658103,
-    "ast_hash": "cd39923f8d4c89f6692c3454bfcdc2f9",
+    "mtime": 1788954950.4237618,
+    "seen": 1789026173.6436496,
+    "ast_hash": "465482d2ad467d4270deb22f58742f36",
     "semantic_hash": ""
   },
   "job-kit-starter/resume_builder/examples/bundles/example_bundle.md": {
@@ -321,12 +321,6 @@
     "mtime": 1789027417.3019972,
     "seen": 1789027449.0252833,
     "ast_hash": "a4e1d87c6585d52f5f671842206d5e88",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/tracker/src/data.json": {
-    "mtime": 1789115064.8125498,
-    "seen": 1789115069.1657908,
-    "ast_hash": "a91211e19226daf277f55e461972353d",
     "semantic_hash": ""
   }
 }

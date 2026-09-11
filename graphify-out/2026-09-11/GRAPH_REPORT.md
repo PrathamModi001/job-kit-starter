@@ -1,7 +1,7 @@
-# Graph Report - job-kit-starter  (2026-09-11)
+# Graph Report - job-kit-starter  (2026-09-10)
 
 ## Corpus Check
-- 51 files · ~45,233 words
+- 50 files · ~44,055 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ec8e35ac`
+- Built from commit: `cb1fa6ba`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -86,7 +86,7 @@ Nodes (23): dependencies, react, react-dom, devDependencies, vite, @vitejs/plugi
 
 ### Community 2 - "claude-job-kit — Project Instructions"
 Cohesion: 0.08
-Nodes (23): Accuracy Priority, Anti-Fabrication Rules, Application flow (per lead), Application Tracker, Candidate bar (SCOPE — assess every lead against this; skip fast if it fails), claude-job-kit — Project Instructions, ⛔ CRITICAL RULE — outbound submission policy (highest priority, overrides everything), Daily scan tools (run from repo root; each keeps a seen-index so re-runs show only NEW) (+15 more)
+Nodes (23): Accuracy Priority, Anti-Fabrication Rules, Application flow (per lead), Application Tracker, Candidate bar (SCOPE — assess every lead against this; skip fast if it fails), claude-job-kit — Project Instructions, ⛔ CRITICAL RULE — NEVER AUTO-SUBMIT (highest priority, overrides everything), Daily scan tools (run from repo root; each keeps a seen-index so re-runs show only NEW) (+15 more)
 
 ### Community 3 - "Resume & CV Generation — Reference"
 Cohesion: 0.11
@@ -130,7 +130,7 @@ Nodes (14): Final: Status Report, KB Build Status, >>>>>> MANDATORY STOP <<<<<<,
 
 ### Community 13 - "PLAYBOOK — the full job-search campaign, end to end"
 Cohesion: 0.14
-Nodes (13): After every apply batch, ATS recipes (every quirk here was hit in production), Phase 0 — Setup (first session), Phase 1 — Platform profiles (do these early; they compound), Phase 2 — Daily scan (say "do the daily scan"), Phase 3 — Applying (auto-submit allowed once a lead clears the bar; see CLAUDE.md top rule), Phase 4 — Cold email outreach (startups without open roles), Phase 5 — X/Twitter cold DMs (+5 more)
+Nodes (13): After every apply batch, ATS recipes (every quirk here was hit in production), Phase 0 — Setup (first session), Phase 1 — Platform profiles (do these early; they compound), Phase 2 — Daily scan (say "do the daily scan"), Phase 3 — Applying (per-recipient approval ALWAYS; see CLAUDE.md top rule), Phase 4 — Cold email outreach (startups without open roles), Phase 5 — X/Twitter cold DMs (+5 more)
 
 ### Community 14 - "Master Profile (SKILL_PROFILE) — Pratham Modi"
 Cohesion: 0.14

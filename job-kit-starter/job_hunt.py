@@ -96,12 +96,11 @@ SOURCES = [
 ROLE_INCLUDE = re.compile(
     r"\b(full[- ]?stack|software eng|software developer|application developer|"
     r"back[- ]?end|front[- ]?end|web developer|product eng|services eng|api eng|"
-    r"ml engineer|machine learning|ai engineer|applied ai|deep learning|"
-    r"computer vision|nlp engineer|data scien|"
-    r"platform|distributed|systems eng|developer experience|\.net|dotnet|c#|"
+    r"platform|distributed|systems eng|developer experience|"
     r"associate software|graduate engineer|junior (?:software|developer|engineer)|trainee)\b", re.I)
 ROLE_EXCLUDE = re.compile(
-    r"\b(manager|director|head|vp|president|principal|\bstaff\b|sales|account|"
+    r"\b(manager|director|head|vp|president|principal|\bstaff\b|\bsenior\b|\blead\b|"
+    r"architect|sales|account|"
     r"marketing|recruit|talent|people ops|legal|finance|content|writer|"
     r"evangelist|advocate|designer|design eng|intern|analyst|support|success|"
     r"solutions eng|field|security|data scien|ml research|research scien|"
@@ -109,10 +108,8 @@ ROLE_EXCLUDE = re.compile(
 
 STACK = ["full stack", "full-stack", "react", "node", "typescript", "javascript",
          "angular", "python", "rest api", "sql", "web developer",
-         "machine learning", "ml", "tensorflow", "pytorch", "computer vision",
-         "nlp", "deep learning", "llm", "genai", "rag", "agent", "data scien",
-         ".net", "dotnet", "c#", "asp.net", "web api", "azure", "microservice",
-         "postgres", "mongodb", "docker", "microservices"]
+         "llm", "genai", "rag", "agent",  # AI-RAG bonus fit, not primary — see CLAUDE.md bar
+         "microservice", "postgres", "mongodb", "docker", "microservices"]
 LOC_INDIA  = re.compile(r"\b(india|bengaluru|bangalore|hyderabad|pune|gurgaon|gurugram|noida|delhi|mumbai|chennai|apac)\b", re.I)
 LOC_REMOTE = re.compile(r"\b(remote|anywhere|worldwide|distributed|work from home)\b", re.I)
 # strong "remote with no borders" signal
@@ -134,7 +131,7 @@ def region(loc, desc=""):
     if LOC_REMOTE.search(loc): return "remote"
     return "unknown"
 YEARS = re.compile(r"(\d{1,2})\s*\+?\s*years", re.I)
-MAX_YEARS = 4  # he's ~3; allow up to 4+, drop 5+
+MAX_YEARS = 3  # bar: hard-skip roles requiring 4+ YOE; he's ~2
 
 UA = {"User-Agent": "Mozilla/5.0 (job_hunt)"}
 
@@ -255,6 +252,9 @@ def score(title, desc, loc):
         return -50  # hard skip signal
     # hard skip: java (not in primary stack)
     if re.search(r"\bjava\b", blob, re.I):
+        return -50  # hard skip signal
+    # hard skip: ruby on rails (not liked, per user request)
+    if re.search(r"\bruby\s*on\s*rails\b|\bruby\b|\brails\b", blob, re.I):
         return -50  # hard skip signal
     s = sum(2 for k in STACK if k in blob)
     if re.search(r"\b(back[- ]?end|platform|infra)", title, re.I): s += 3

@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
 India-aggregator job scan (complements job_hunt.py, which only hits company ATS boards).
-Scrapes Indeed-India + LinkedIn-India via JobSpy, scores by your stack, dedupes against
+Scrapes Indeed-India via JobSpy, scores by your stack, dedupes against
 already-applied companies (applications.csv) and prior runs (seen_india.json), writes a digest.
 
 Naukri / Glassdoor / Google block scrapers from this environment, so they're skipped.
+LinkedIn is excluded by request — do not re-add it as a source.
 """
 import json, os, re, warnings, sys
 from datetime import datetime, timezone
@@ -31,11 +32,6 @@ QUERIES = [
     ("indeed",   "node.js developer",             False, "India"),
     ("indeed",   "software engineer backend",     False, "India"),
     ("indeed",   "backend developer",             True,  "India"),   # remote-biased
-    ("linkedin", "backend developer node",        False, "India"),
-    ("linkedin", "software developer",            False, "India"),
-    ("linkedin", "full stack developer",          False, "India"),
-    ("linkedin", "backend engineer",              False, "India"),
-    ("linkedin", "node.js backend remote",        True,  "India"),
 ]
 
 # --- scoring keywords ---
@@ -64,7 +60,6 @@ NEG = {
     "qa ": -5, "test engineer": -5, "manual test": -7, "sdet": -3,
     "salesforce": -6, "sap ": -6, "sap-": -6,
     "sales ": -5, "wordpress": -6, "php": -3, "intern ": -3, "internship": -3,
-    ".net": -3, "dotnet": -3, "c#": -3, "asp.net": -3,
     "android developer": -3, "ios developer": -3,
     "manager": -3, "principal": -3, "staff engineer": -2, "architect": -2,
     "10+ years": -6, "12+ years": -7, "8+ years": -4, "7+ years": -3, "6+ years": -2,
@@ -98,6 +93,12 @@ def score(row):
         return -50  # hard skip — not in primary stack
     if re.search(r"\b(?:sde\s*[23]|sde\s*ii+|sde[23]|mts\s*[23]|mts-[23]|mts[23])\b", hay):
         return -50  # hard skip — mid-level, above 0-3 YOE target
+    if re.search(r"\bc\+\+|\.net\b|dotnet|\bc#\b|asp\.net\b", hay):
+        return -50  # hard skip — not in primary stack (.NET/C#/C++)
+    if re.search(r"\bruby\s*on\s*rails\b|\bruby\b|\brails\b", hay):
+        return -50  # hard skip — not liked, per user request
+    if re.search(r"\bsenior\b|\blead\b|\bstaff\b|\bprincipal\b|\barchitect\b", hay):
+        return -50  # hard skip — level above the 0-3 YOE target
 
     s = 0
     for k, v in POS.items():
@@ -108,11 +109,10 @@ def score(row):
             s += v
     if row.get("is_remote") is True:
         s += 4
-    # seniority sweet-spot for ~2 YOE: reward 0-3 yr gates, penalize high-YOE / senior titles
+    # seniority sweet-spot for ~2 YOE: reward 0-3 yr gates (senior/lead/staff/principal/architect
+    # already hard-skipped above)
     if re.search(r"\b[0-3]\s*(?:-|to)?\s*[1-3]?\s*year|\b0\s*(?:-|to)?\s*[12]?\s*year", hay):
         s += 3
-    if re.search(r"\bsenior\b|\blead\b|\bstaff\b|\bprincipal\b", hay):
-        s -= 4
     if re.search(r"\b([4-9]|1\d)\+?\s*year", hay):  # 4+ years = above the target band
         s -= 3
     return s
@@ -168,7 +168,7 @@ def main():
     stamp = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
     lines = [f"# India-aggregator digest — {stamp}",
              "",
-             f"Indeed-India + LinkedIn-India · last {HOURS_OLD}h · score >= 4 · "
+             f"Indeed-India · last {HOURS_OLD}h · score >= 4 · "
              f"{len(df)} relevant ({len(rows_new)} new).  _Naukri/Glassdoor/Google block scrapers, skipped._",
              "",
              "| Score | Role | Company | Location | Remote | Comp | Link | Note |",

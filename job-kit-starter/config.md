@@ -25,8 +25,10 @@
 - Instahyre
 - Cutshort
 - Indeed
-- Jobfound
+- Jobfound — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time`
 - Naukri (Premium subscription — prioritize for profile optimization, better recruiter visibility)
+
+**LinkedIn is excluded as a job-search source by request — never scan/search it for leads.**
 
 ---
 

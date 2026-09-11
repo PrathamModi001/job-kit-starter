@@ -39,7 +39,7 @@ Sources, in order:
 
 Expect diminishing returns after the first week — fresh supply at one level/city is finite. When scans go quiet, the highest-value work moves to reply-checking and outreach.
 
-## Phase 3 — Applying (per-recipient approval ALWAYS; see CLAUDE.md top rule)
+## Phase 3 — Applying (auto-submit allowed once a lead clears the bar; see CLAUDE.md top rule)
 
 ### Resume variant system
 - ONE base `.tex` (backend or whatever the user's core lane is). For each application lane, copy it and swap ONLY the header tagline + summary paragraph (keep every fact identical). Typical variants: backend base / AI-engineer / fullstack.

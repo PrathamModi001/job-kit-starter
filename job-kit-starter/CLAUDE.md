@@ -5,13 +5,11 @@
 
 ---
 
-## ⛔ CRITICAL RULE — NEVER AUTO-SUBMIT (highest priority, overrides everything)
+## ⛔ CRITICAL RULE — outbound submission policy (highest priority, overrides everything)
 
-**NEVER submit a job application, send an email/DM, or perform any outbound submission on the user's behalf without the user EXPLICITLY naming and approving that specific company/recipient in the current request.**
+**Job applications (native platform "Apply" / ATS forms): auto-submit is ALLOWED.** Once a lead clears the Candidate bar triage, fill the form and click the final Submit/Apply — no per-company approval needed. Still log every submission to the CSV so it's auditable.
 
-- It is fine to **find, draft, and fully fill** application forms (incl. via Playwright) — but **STOP before the final submit/send** every time.
-- Do **not** treat a general "apply to places" or "yes" as blanket authorization. Authorization is **per recipient**: the user must name the specific company/role to submit to. (A user-approved named LIST — "apply to these 5" — counts as per-recipient approval for those 5.)
-- Never auto-submit to targets the agent selected itself (e.g., from a scan digest).
+**Cold emails / DMs (outreach to recruiters, founders, hiring managers): NEVER auto-send.** Draft into Gmail (or the DM composer) and stop — the user hits send themselves, always. This applies regardless of how the recipient was found (scan digest, cold-outreach research, etc.).
 
 ---
 
@@ -126,11 +124,12 @@ Templates load `mhchem`. `\ce{H2O}` for formulas, `$\beta$` for Greek, `$\sim$` 
 
 ### Candidate bar (SCOPE — assess every lead against this; skip fast if it fails)
 > Pratham Modi — B.Tech CSE (GPA 9.20), 2+ YOE backend engineer, currently at C3iHub (IIT Kanpur).
-- **Eligibility:** India-based roles or remote (India or international-remote-friendly). Indian passport/citizen — no sponsorship needed. Open to relocating to: Pune, Mumbai, Hyderabad/Secunderabad, Gurgaon/Gurugram, Bangalore/Bengaluru, Ahmedabad. Skip roles outside these cities/regions unless remote.
+- **Eligibility:** **India-only, preferred locations only.** Role must be based in — or remote explicitly for — one of: Pune, Mumbai, Hyderabad/Secunderabad, Gurgaon/Gurugram, Bangalore/Bengaluru, Ahmedabad. Indian passport/citizen — no sponsorship needed. Hard skip anything outside these cities/regions, including worldwide/international-remote roles not explicitly open to India.
 - **Comp:** Current CTC 12 LPA. Target **18–20 LPA, hard floor 18 LPA — skip anything clearly below.**
-- **High-pay override:** Roles clearing ~25+ LPA are worth surfacing even outside preferred locations/lanes.
+- **High-pay override:** Roles clearing ~25+ LPA are worth surfacing even outside preferred lanes — but must still meet the India + preferred-city eligibility above.
 - **Focus area:** **Primary lanes (equal priority): Software Developer · Full-Stack Developer · Node.js Backend Developer**, plus adjacent backend/distributed-systems roles. Core strength: Node.js/Express, Python/FastAPI, Kafka, Redis, MongoDB/PostgreSQL, AWS, microservices, observability (OpenTelemetry/Prometheus/Grafana). Also has React/Next.js and AI/RAG (LangGraph, vector DBs) exposure. Prioritize backend-heavy and full-stack roles; AI/ML-infra roles are a bonus fit, not primary.
 - **Level:** **Actual experience: 1yr 3mo full-time + 9mo internship (~2yr total).** Target postings gated at **0–2 YOE or 0–3 YOE** — both are fair matches. Skip roles requiring 4+ YOE or Senior/Staff/Principal/Architect/Lead titles.
+- **Stack exclusions:** hard skip Java, .NET/C#/ASP.NET, C++, and **Ruby/Ruby on Rails** roles — none of these are in the stack (or liked), regardless of other keyword overlap.
 - **Type:** Prefer product companies and well-funded startups with real engineering scope over pure IT-services/staffing shops. Hard skip: commission-only, unpaid, MLM-ish postings.
 
 ### Recency filter — postings must be ≤7 days old
@@ -143,9 +142,10 @@ All three scan tools default to a **1-week window** and drop anything older auto
 ### Daily scan tools (run from repo root; each keeps a seen-index so re-runs show only NEW)
 - `python3 hn_scan.py` — HN "Who is hiring?"; excludes companies already in the CSV.
 - `python3 job_hunt.py` — ~90 company ATS boards + YC, last 7 days → `output/job-search/digest.md`.
-- `python3 job_hunt_india.py` — Indeed+LinkedIn via JobSpy, last 7 days → `output/job-search/digest_india.md`. (Edit queries/country for your region.)
+- `python3 job_hunt_india.py` — Indeed via JobSpy (India), last 7 days → `output/job-search/digest_india.md`. (Edit queries/country for your region. LinkedIn is excluded by request — never re-add it as a source.)
 - `python3 waas_scan.py` — Work-at-a-Startup (login-gated; see PLAYBOOK for the browser flow). ~5 applications/week cap — spend slots on best-fit only.
-- Browser feeds (Playwright): platform match-feeds like Instahyre/Cutshort/Naukri or your region's equivalents — see PLAYBOOK.
+- Browser feeds (Playwright/claude-in-chrome): platform match-feeds like Instahyre/Cutshort/Naukri or your region's equivalents — see PLAYBOOK. Also **jobfound.org** — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time`.
+- **LinkedIn is permanently excluded as a source — do not search or scan it, browser or scripted.**
 - Present results **triaged against the bar**, not raw dumps. Flag dupes-already-in-pipeline honestly.
 
 ### Application flow (per lead)
