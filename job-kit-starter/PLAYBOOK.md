@@ -5,8 +5,14 @@
 > what to do at every phase and records every hard-won automation quirk so you don't
 > re-learn them. CLAUDE.md holds the rules; this holds the HOW.
 >
-> Prereq for almost everything here: the **Playwright MCP** browser. The user logs into
-> job platforms in that browser once; you drive it afterwards.
+> Prereq for almost everything here: browser automation (**Playwright** if using AGY, or **Claude in Chrome** / Playwright MCP if using Claude).
+>
+> ### 🔐 Authentication & Session Persistence Protocol
+> - **NEVER logout accidentally** from any job platform or browser session.
+> - **Sign-in / Recovery:** If you encounter sign-in problems, expired sessions, or an accidental logout, authenticate into **`prathammodi001@gmail.com`**.
+> - **Google OAuth via Cursor:** Always click the "Sign in with Google" / OAuth SSO button with the cursor. **DO NOT** attempt to sign in via email/password input fields ("not signin via email").
+> - **Tooling:** Use **Playwright** when running under AGY, or **Claude in Chrome** (`claude-in-chrome`) when running under Claude.
+> - **Exception:** **jobfound** board (`jobfound.org`) does NOT require login. Do **NOT** log in on jobfound.
 
 ---
 
@@ -15,7 +21,7 @@
 1. Run the onboarding in CLAUDE.md: fill `config.md`, the Candidate bar, `SKILL_PROFILE.md`, and the application-form facts.
 2. Build the **base resume**: use `/make-resume` against a representative JD in the user's lane. Keep the resulting `.tex` as the BASE for all variants (see "Resume variant system" below).
 3. Verify the toolchain: `tectonic -c minimal` compiles, `pypdf` imports, `python3 job_hunt.py` runs.
-4. Ask the user to log into their job platforms in the Playwright browser (one at a time, as needed).
+4. Platforms stay logged in; if re-authentication is required on any portal, use Google OAuth into `prathammodi001@gmail.com` via cursor click (except jobfound which requires no login). Never logout accidentally.
 
 ## Phase 1 — Platform profiles (do these early; they compound)
 
@@ -35,7 +41,7 @@ Sources, in order:
    - Match-feed platforms (e.g., Instahyre `candidate/opportunities/?matching=true`): scroll-collect all cards, diff vs. previously seen + CSV.
    - Naukri-style search with `jobAge=1` (last 24h) for "backend engineer" / "[lane] engineer" in the user's city.
    - Cutshort-style matches page (`/profile/all-jobs?matchesfor=<id>` — the ID is in the user's profile URL).
-5. Triage EVERYTHING against the Candidate bar. Present a short table: lead / source / why. Skip-noise honestly (services firms, below-floor bands, wrong level, region-locked). Log genuinely good leads to the CSV via csv-logger (Status=Lead), then refresh the tracker.
+5. Triage EVERYTHING against the Candidate bar. Present a short table: lead / source / why. Skip-noise honestly (services firms, below-floor bands, wrong level, region-locked, frontend-only roles — frontend as part of full-stack is fine). Log genuinely good leads to the CSV via csv-logger (Status=Lead), then refresh the tracker.
 
 Expect diminishing returns after the first week — fresh supply at one level/city is finite. When scans go quiet, the highest-value work moves to reply-checking and outreach.
 
@@ -86,7 +92,19 @@ Expect diminishing returns after the first week — fresh supply at one level/ci
 
 **Instahyre**: card click opens a modal (`openApplyModal`) → Apply is `[ng-click*="submitChoice(opp, true)"]`. Quirks: modals are position:fixed so `offsetParent` is null — check `getComputedStyle(...).display` instead; a stale `noscroll` body class after an apply blocks the next modal (reload the feed page between applies); after applying, the NEXT match's modal auto-opens — close it via `.close` WITHOUT clicking Apply/Not-interested; clicking coordinates must be re-read after scrolling settles (stale rects land off-viewport). Verify: the card disappears from the feed.
 
-**Cutshort**: matches at `/profile/all-jobs?matchesfor=<id>`. Apply now → modal — VERIFY it says "You are applying for <role> at <company>" before clicking Send (the wrong card's modal can open). Employer screeners arrive as `[Questionnaire]` threads under candidate-conversations, but the "Voila" bot auto-submits them from the profile — the "awaiting" tab means awaiting EMPLOYER, not you.
+**Cutshort**: matches at `/profile/all-jobs?matchesfor=<id>`. Apply now → modal — VERIFY it says "You are applying for <role> at <company>" before clicking Send (the wrong card's modal can open if cards are not strictly scoped by container). Modal contains a note `textarea` and `Send` button. Status updates to "View conversation" once sent.
+
+**Indeed Smart Apply** (`smartapply.indeed.com`):
+- React 19 controlled inputs: Standard `.value = ...` fails silently. Always use `Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value')?.set.call(input, value)` followed by dispatching `input` and `change` events (`{ bubbles: true }`).
+- Resume selection: Radio button `input[type="radio"][name="resume-selection"]` must be clicked and checked.
+- Review Module: Upon reaching `/review-module`, Indeed takes ~5–6 seconds to render the application preview iframe. Poll for `Submit your application` button. Clicking it advances to `/post-apply` ("Your application was submitted").
+- Native Dialog Quirk: Leaving an incomplete Indeed application form triggers a browser `beforeunload` dialog ("Leave page?"). This blocks subsequent Playwright JS evaluations. Always register `browser_handle_dialog` (`{'accept': True}`) to clear any pending modal before navigation.
+
+**Wellfound Native Apply** (`wellfound.com/jobs/<id>`):
+- Direct 1-click apply: Navigate to the job URL, find and click `button, a` matching text `Apply`.
+- Modal note: Target `textarea, [name="note"], [name*="pitch"]`. Set tailored pitch note from `SKILL_PROFILE.md` facts, dispatch `input` and `change` events.
+- Submit: Find and click `button` containing `Send application`.
+- Verification: The page re-renders with `✓ Applied` (or `Applied`).
 
 **Freshteam** (`<co>.freshteam.com`): simple form + a reCAPTCHA labeled "Are you a Robot?". Checkbox-click the anchor frame (`#recaptcha-anchor`) — it usually passes without an image challenge. Verify "You have successfully applied".
 
@@ -102,7 +120,10 @@ csv-logger updates (Status=Applied + dated Next step + req IDs + credentials-fil
 1. **Research** with parallel subagents across angles: recent YC batches, regional funding news (last ~12 months, seed/Series A in the user's lane), accelerator cohorts, viral launches/build-in-public founders. Each returns structured JSON: company / what / why-fit / founders / guessed email / source.
 2. **Verify emails** before sending (email-prospecting connector if available) — fix guesses, drop dead ones.
 3. Per company: tailored resume variant + a SHORT honest email (openable hook referencing THEIR product, 3-4 lines of the user's most relevant receipts, link, minimal signature). No AI-sounding fluff.
-4. Draft into Gmail via the connector (drafts only — the USER hits send). Track in `output/job-search/outreach/startups_outreach.csv` with Status + dates.
+4. Draft into Gmail via the connector or browser URL parameter composition (drafts only — the USER hits send).
+   - **Gmail URL Draft Pattern:** `https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=<email>&su=<subject>&body=<body>`.
+   - Navigating to this URL in the authenticated browser automatically stages the compose window and auto-saves directly into Gmail Drafts, completely eliminating the risk of accidental auto-sending.
+   - Track in `job-kit-starter/output/job-search/outreach/startups_outreach.csv` with Status + dates.
 5. Follow-up pass ~4 days later: check for replies first, bump politely (drafts again), never re-pitch.
 
 ## Phase 5 — X/Twitter cold DMs

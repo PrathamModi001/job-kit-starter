@@ -5,11 +5,11 @@
   "3": "Resume & CV Generation — Reference",
   "4": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
   "5": "Achievements",
-  "6": "Documentation",
+  "6": "PlaywrightClient",
   "7": "/edit-resume",
   "8": "/make-resume",
   "9": "job_hunt.py",
-  "10": "claude-resume-kit",
+  "10": "Documentation",
   "11": "char_count.py",
   "12": "/setup-build-kb",
   "13": "PLAYBOOK — the full job-search campaign, end to end",
@@ -41,5 +41,12 @@
   "39": "templates/resume.cls",
   "40": "test_portal_logins.py",
   "41": "Job Hunt Profile & Operations Rule",
-  "42": "daily_scan.md"
+  "42": "daily_scan.md",
+  "43": "Authentication & Session Persistence Rule",
+  "44": "apply_brevo.js",
+  "45": "apply_hevo.js",
+  "46": "gen_brevo.py",
+  "47": "gen_hevo.py",
+  "48": "run_test.js",
+  "49": "claude-resume-kit"
 }

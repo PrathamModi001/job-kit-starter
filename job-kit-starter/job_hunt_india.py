@@ -18,7 +18,7 @@ OUT = os.path.join(ROOT, "output", "job-search")
 SEEN_PATH = os.path.join(OUT, "seen_india.json")
 CSV_PATH = os.path.join(OUT, "applications.csv")
 
-HOURS_OLD = int(sys.argv[1]) if len(sys.argv) > 1 else 168  # default last 7 days
+HOURS_OLD = int(sys.argv[1]) if len(sys.argv) > 1 else 24 * 365  # no recency cap (was 7 days)
 RESULTS = 30
 
 # (site, search_term, is_remote, location)
@@ -53,7 +53,8 @@ POS = {
 NEG = {
     # hard skip: wrong exp level for 0-3 YOE target
     "sde 2": -10, "sde ii": -10, "software development engineer ii": -10, "sde2": -10,
-    "sde3": -10, "sde iii": -10, "mts 2": -10, "mts-2": -10, "mts2": -10, "mts-3": -10,
+    "sde3": -10, "sde iii": -10, "product engineer ii": -10, "product engineer 2": -10,
+    "mts": -10, "member of technical staff": -10, "mts 2": -10, "mts-2": -10, "mts2": -10, "mts-3": -10,
     # hard skip: java (not in primary stack)
     "java": -8, " java ": -8,
     # other skips
@@ -91,12 +92,16 @@ def score(row):
     # hard skip: Java, SDE 2/3, MTS-2/3 (not in 0-3 YOE target)
     if re.search(r"\bjava\b", hay):
         return -50  # hard skip — not in primary stack
-    if re.search(r"\b(?:sde\s*[23]|sde\s*ii+|sde[23]|mts\s*[23]|mts-[23]|mts[23])\b", hay):
-        return -50  # hard skip — mid-level, above 0-3 YOE target
+    if re.search(r"\b(?:sde\s*[23]|sde\s*ii+|sde[23]|product engineer\s*ii+|product engineer\s*[23]|mts\b|mts\s*[123]|mts-[123]|mts[123]|member of technical staff)\b", hay):
+        return -50  # hard skip — mid-level / not in 0-3 YOE target
     if re.search(r"\bc\+\+|\.net\b|dotnet|\bc#\b|asp\.net\b", hay):
         return -50  # hard skip — not in primary stack (.NET/C#/C++)
     if re.search(r"\bruby\s*on\s*rails\b|\bruby\b|\brails\b", hay):
         return -50  # hard skip — not liked, per user request
+    # hard skip: frontend-specific / frontend-only roles (fine if full-stack or backend, but exclude frontend-only)
+    title = str(row.get("title", "")).lower()
+    if re.search(r"\b(front[- ]?end|ui\b|ui/ux)\b", title) and not re.search(r"\b(full[- ]?stack|back[- ]?end)\b", title):
+        return -50  # hard skip frontend-only roles
     if re.search(r"\bsenior\b|\blead\b|\bstaff\b|\bprincipal\b|\barchitect\b", hay):
         return -50  # hard skip — level above the 0-3 YOE target
 

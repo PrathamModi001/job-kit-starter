@@ -13,7 +13,7 @@ Usage:
   python3 job_hunt.py            # show only NEW matches since last run
   python3 job_hunt.py --all      # show all current matches (don't hide seen)
   python3 job_hunt.py --min 4    # only score >= 4
-  python3 job_hunt.py --days 7   # only postings updated in the last N days (default 7)
+  python3 job_hunt.py --days 7   # only postings updated in the last N days (default: no cap)
   python3 job_hunt.py --no-save  # don't update seen.json (dry run)
 
 Edit SOURCES below to add/remove companies. No external deps.
@@ -95,7 +95,7 @@ SOURCES = [
 
 ROLE_INCLUDE = re.compile(
     r"\b(full[- ]?stack|software eng|software developer|application developer|"
-    r"back[- ]?end|front[- ]?end|web developer|product eng|services eng|api eng|"
+    r"back[- ]?end|web developer|product eng|services eng|api eng|"
     r"platform|distributed|systems eng|developer experience|"
     r"associate software|graduate engineer|junior (?:software|developer|engineer)|trainee)\b", re.I)
 ROLE_EXCLUDE = re.compile(
@@ -248,13 +248,17 @@ def score(title, desc, loc):
     blob = (title + " " + desc).lower()
     # hard skip: wrong exp level for 0-3 YOE target
     if re.search(r"\b(sde\s*[23]|sde\s*ii+|software development engineer\s*ii+|sde[23]|"
-                 r"mts\s*[23]|mts-[23]|mts[23]|member of technical staff [23])\b", blob, re.I):
+                 r"product engineer\s*ii+|product engineer\s*[23]|"
+                 r"mts\b|mts\s*[123]|mts-[123]|mts[123]|member of technical staff)\b", blob, re.I):
         return -50  # hard skip signal
     # hard skip: java (not in primary stack)
     if re.search(r"\bjava\b", blob, re.I):
         return -50  # hard skip signal
     # hard skip: ruby on rails (not liked, per user request)
     if re.search(r"\bruby\s*on\s*rails\b|\bruby\b|\brails\b", blob, re.I):
+        return -50  # hard skip signal
+    # hard skip: frontend-specific / frontend-only roles (fine if full-stack or backend, but exclude frontend-only)
+    if re.search(r"\b(front[- ]?end|ui\b|ui/ux)\b", title, re.I) and not re.search(r"\b(full[- ]?stack|back[- ]?end)\b", title, re.I):
         return -50  # hard skip signal
     s = sum(2 for k in STACK if k in blob)
     if re.search(r"\b(back[- ]?end|platform|infra)", title, re.I): s += 3
@@ -278,7 +282,7 @@ def main():
     if "--min" in args:
         try: min_s = int(args[args.index("--min") + 1])
         except Exception: pass
-    days = 7
+    days = 3650  # no recency cap (was 7 days)
     if "--days" in args:
         try: days = int(args[args.index("--days") + 1])
         except Exception: pass

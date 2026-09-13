@@ -13,6 +13,19 @@
 
 ---
 
+## 🔐 CRITICAL RULE — Authentication, Session Persistence & Auto-Re-login
+
+- **Session Preservation:** NEVER logout accidentally from any job platform, browser session, or portal.
+- **Sign-In Recovery Protocol:** Whenever you encounter sign-in problems, expired sessions, or if accidentally logged out:
+  - **Target Account:** Always sign into the **`prathammodi001@gmail.com`** account.
+  - **Google OAuth via Cursor Click:** Use Google Sign-In via OAuth by clicking the "Sign in with Google" / OAuth button with the cursor. **DO NOT** sign in via email/password input fields ("not signin via email").
+  - **Tooling:**
+    - If running under **AGY (Antigravity)**: Perform OAuth sign-in via **Playwright**.
+    - If running under **Claude**: Perform OAuth sign-in via **Claude in Chrome** (`claude-in-chrome`).
+- **Board Exception:** Do **NOT** log in if it is the **jobfound** board (`jobfound.org`) — login is not needed.
+
+---
+
 ## 👋 FIRST-RUN ONBOARDING (do this proactively — don't make the user read docs)
 
 **At the start of a session, check whether this kit is still unconfigured.** It is unconfigured if `config.md` still contains placeholder text like `[Your Full Name]` / `[your@email.com]`, or `SKILL_PROFILE.md` still contains `[Title]` / `[Company]` placeholders.
@@ -128,23 +141,24 @@ Templates load `mhchem`. `\ce{H2O}` for formulas, `$\beta$` for Greek, `$\sim$` 
 - **Comp:** Current CTC 12 LPA. Target **18–20 LPA, hard floor 18 LPA — skip anything clearly below.**
 - **High-pay override:** Roles clearing ~25+ LPA are worth surfacing even outside preferred lanes — but must still meet the India + preferred-city eligibility above.
 - **Focus area:** **Primary lanes (equal priority): Software Developer · Full-Stack Developer · Node.js Backend Developer**, plus adjacent backend/distributed-systems roles. Core strength: Node.js/Express, Python/FastAPI, Kafka, Redis, MongoDB/PostgreSQL, AWS, microservices, observability (OpenTelemetry/Prometheus/Grafana). Also has React/Next.js and AI/RAG (LangGraph, vector DBs) exposure. Prioritize backend-heavy and full-stack roles; AI/ML-infra roles are a bonus fit, not primary.
-- **Level:** **Actual experience: 1yr 3mo full-time + 9mo internship (~2yr total).** Target postings gated at **0–2 YOE or 0–3 YOE** — both are fair matches. Skip roles requiring 4+ YOE or Senior/Staff/Principal/Architect/Lead titles.
+- **Frontend note & role exclusions:** **Exclude frontend-specific / frontend-only roles** (e.g. Frontend Engineer, Front-end Developer, UI Developer, React Developer). Also exclude **Product Engineer II** (and PE 2/II) and **Member of Technical Staff (MTS)** — these do not fall under the 0–3 YOE bracket. Having frontend skills/responsibilities as part of a full-stack or software developer role is completely fine, but do not focus on or pursue frontend-only jobs.
+- **Level:** **Actual experience: 1yr 3mo full-time + 9mo internship (~2yr total).** Target postings gated at **0–2 YOE or 0–3 YOE** — both are fair matches. Skip roles requiring 4+ YOE or Senior/Staff/Principal/Architect/Lead titles, as well as **Product Engineer II** and **Member of Technical Staff (MTS)**.
 - **Stack exclusions:** hard skip Java, .NET/C#/ASP.NET, C++, and **Ruby/Ruby on Rails** roles — none of these are in the stack (or liked), regardless of other keyword overlap.
 - **Type:** Prefer product companies and well-funded startups with real engineering scope over pure IT-services/staffing shops. Hard skip: commission-only, unpaid, MLM-ish postings.
 
-### Recency filter — postings must be ≤7 days old
-All three scan tools default to a **1-week window** and drop anything older automatically:
-- `job_hunt.py` filters on each ATS's own posted/updated date (GH `updated_at`, Ashby `publishedAt`, Lever `createdAt`); override with `--days N`. Sources with no date field (Aiven, Arbeitnow, HN) can't be filtered and pass through as-is.
-- `job_hunt_india.py` passes `hours_old=168` to JobSpy by default; override via `python3 job_hunt_india.py <hours>`.
-- `hn_scan.py` is already recency-bound — it only reads the single latest monthly "Who is hiring?" thread.
-- Browser match-feeds: use each platform's own recency filter/sort (e.g. Naukri `jobAge=7`) when triaging manually.
+### Recency filter — removed (2026-09-13), no cap on posting age
+Per user request, the ≤7-day recency cap was removed from both scripted scan tools:
+- `job_hunt.py` now defaults `--days` to 3650 (effectively unbounded); still filters on each ATS's own posted/updated date (GH `updated_at`, Ashby `publishedAt`, Lever `createdAt`) if you pass a smaller `--days N`. Sources with no date field (Aiven, Arbeitnow, HN) can't be filtered and pass through as-is.
+- `job_hunt_india.py` now defaults `hours_old` to 24*365 (effectively unbounded); override via `python3 job_hunt_india.py <hours>`.
+- `hn_scan.py` is unaffected — it only reads the single latest monthly "Who is hiring?" thread.
+- Browser match-feeds: no scripted recency cap either — apply platform sort/filter manually only if you want one.
 
 ### Daily scan tools (run from repo root; each keeps a seen-index so re-runs show only NEW)
 - `python3 hn_scan.py` — HN "Who is hiring?"; excludes companies already in the CSV.
 - `python3 job_hunt.py` — ~90 company ATS boards + YC, last 7 days → `output/job-search/digest.md`.
 - `python3 job_hunt_india.py` — Indeed via JobSpy (India), last 7 days → `output/job-search/digest_india.md`. (Edit queries/country for your region. LinkedIn is excluded by request — never re-add it as a source.)
 - `python3 waas_scan.py` — Work-at-a-Startup (login-gated; see PLAYBOOK for the browser flow). ~5 applications/week cap — spend slots on best-fit only.
-- Browser feeds (Playwright/claude-in-chrome): platform match-feeds like Instahyre/Cutshort/Naukri or your region's equivalents — see PLAYBOOK. Also **jobfound.org** — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time`.
+- Browser feeds (Playwright/claude-in-chrome): platform match-feeds like Instahyre/Cutshort/Naukri or your region's equivalents — see PLAYBOOK. Also **jobfound.org** — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time` (Note: jobfound does NOT require login; do not log in on jobfound).
 - **LinkedIn is permanently excluded as a source — do not search or scan it, browser or scripted.**
 - Present results **triaged against the bar**, not raw dumps. Flag dupes-already-in-pipeline honestly.
 
@@ -174,6 +188,13 @@ Update `applications.csv` (the per-lead **Next step** column carries current sta
 
 ## Application Tracker
 
-**All applications are logged in [`output/job-search/applications.csv`](output/job-search/applications.csv).**
+**All applications are logged in [`job-kit-starter/output/job-search/applications.csv`](output/job-search/applications.csv).**
+**All founder cold outreach is logged in [`job-kit-starter/output/job-search/outreach/startups_outreach.csv`](output/job-search/outreach/startups_outreach.csv).**
+
+> **CRITICAL INVARIANT — CANONICAL CSV PATHS (STRICT):**
+> These files (already existing and tracked under git status) are the ONLY authorized sources of truth.
+> NEVER create or write to a secondary or redundant `output/` folder at the top-level repository root.
+> There must always be exactly ONE `applications.csv` and ONE `startups_outreach.csv` in the entire codebase, located strictly at `job-kit-starter/output/job-search/applications.csv` and `job-kit-starter/output/job-search/outreach/startups_outreach.csv`.
+
 Columns: Company,Role,Location,Channel,Comp,Status,Added,Applied,Updated,Resume,Job URL,Next step.
 Statuses: Lead / Applied / Skipped / Closed. Update on every state change.

@@ -20,15 +20,24 @@
 ---
 
 ## Preferred Job Platforms
-> Login via the real Chrome browser (claude-in-chrome), one-time per site — session persists in your normal Chrome profile/cookies, no re-login needed per run.
+> Sessions persist in browser cookies/profile. NEVER logout accidentally. If sign-in problems or accidental logouts occur, re-authenticate into **prathammodi001@gmail.com** via Google OAuth by clicking the "Sign in with Google" button with the cursor (do NOT sign in via email/password input fields). Use Playwright if running in AGY, or Claude in Chrome (claude-in-chrome) if running in Claude.
 - Wellfound
 - Instahyre
 - Cutshort
 - Indeed
-- Jobfound — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time`
+- Jobfound — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time` (Note: Do NOT login to jobfound board; login is not needed)
 - Naukri (Premium subscription — prioritize for profile optimization, better recruiter visibility)
 
 **LinkedIn is excluded as a job-search source by request — never scan/search it for leads.**
+
+---
+
+## Target Roles & Preferences
+
+- **Primary Lanes:** Software Developer · Full-Stack Developer · Node.js Backend Developer (plus distributed systems).
+- **Frontend Note & Exclusions:** Exclude frontend-specific / frontend-only roles (e.g., pure Frontend Engineer, UI Developer, React Developer). It is fine if frontend skills are needed as part of a Full-Stack or Software Developer role, but do not focus on frontend-only jobs.
+- **Role Exclusions (Experience mismatch):** Exclude **Product Engineer II** (and PE 2) and **Member of Technical Staff (MTS)** — these do not fall under the 0–3 YOE bracket.
+- **Stack Exclusions:** Java, .NET/C#, C++, Ruby/Ruby on Rails.
 
 ---
 

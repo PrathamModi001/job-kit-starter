@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-09-11)
+# Graph Report - job-kit-starter  (2026-09-13)
 
 ## Corpus Check
-- 51 files · ~45,233 words
+- 58 files · ~48,315 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 440 nodes · 436 edges · 43 communities (32 shown, 8 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
+- 470 nodes · 469 edges · 50 communities (34 shown, 8 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ec8e35ac`
+- Built from commit: `3693fcd5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,11 +21,11 @@
 - Resume & CV Generation — Reference
 - Session: Whitfield University -- Assistant Professor, Computational Protein Engineering
 - Achievements
-- Documentation
+- PlaywrightClient
 - /edit-resume
 - /make-resume
 - job_hunt.py
-- claude-resume-kit
+- Documentation
 - char_count.py
 - /setup-build-kb
 - PLAYBOOK — the full job-search campaign, end to end
@@ -55,18 +55,20 @@
 - test_portal_logins.py
 - Job Hunt Profile & Operations Rule
 - daily_scan.md
+- Authentication & Session Persistence Rule
+- claude-resume-kit
 
 ## God Nodes (most connected - your core abstractions)
-1. `Resume & CV Generation — Reference` - 13 edges
-2. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
-3. `claude-job-kit — Project Instructions` - 11 edges
-4. `claude-resume-kit` - 11 edges
-5. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
-6. `Cover Letter Generation — Reference` - 11 edges
-7. `/make-resume` - 10 edges
-8. `Job-Search Operations Runbook` - 10 edges
-9. `Shared Operations — All Skills` - 10 edges
-10. `/edit-resume` - 9 edges
+1. `PlaywrightClient` - 13 edges
+2. `Resume & CV Generation — Reference` - 13 edges
+3. `claude-job-kit — Project Instructions` - 12 edges
+4. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
+5. `claude-resume-kit` - 11 edges
+6. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
+7. `Cover Letter Generation — Reference` - 11 edges
+8. `/make-resume` - 10 edges
+9. `Job-Search Operations Runbook` - 10 edges
+10. `Shared Operations — All Skills` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -74,7 +76,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (43 total, 8 thin omitted)
+## Communities (50 total, 8 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -86,7 +88,7 @@ Nodes (23): dependencies, react, react-dom, devDependencies, vite, @vitejs/plugi
 
 ### Community 2 - "claude-job-kit — Project Instructions"
 Cohesion: 0.08
-Nodes (23): Accuracy Priority, Anti-Fabrication Rules, Application flow (per lead), Application Tracker, Candidate bar (SCOPE — assess every lead against this; skip fast if it fails), claude-job-kit — Project Instructions, ⛔ CRITICAL RULE — outbound submission policy (highest priority, overrides everything), Daily scan tools (run from repo root; each keeps a seen-index so re-runs show only NEW) (+15 more)
+Nodes (24): Accuracy Priority, Anti-Fabrication Rules, Application flow (per lead), Application Tracker, Candidate bar (SCOPE — assess every lead against this; skip fast if it fails), claude-job-kit — Project Instructions, 🔐 CRITICAL RULE — Authentication, Session Persistence & Auto-Re-login, ⛔ CRITICAL RULE — outbound submission policy (highest priority, overrides everything) (+16 more)
 
 ### Community 3 - "Resume & CV Generation — Reference"
 Cohesion: 0.11
@@ -100,10 +102,6 @@ Nodes (14): 1. Install the prerequisites (one-time), 2. Open the kit in Claude C
 Cohesion: 0.10
 Nodes (19): Achievements, Achievements, Cross-Position Themes (for cover letters), Cross-Position Themes (for cover letters), Dates: Aug 2018 -- Jul 2023, Dates: Aug 2023 -- Present, L1: ML-Guided Enzyme Stability Screening, L2: Enzyme Solvent Tolerance Prediction (+11 more)
 
-### Community 6 - "Documentation"
-Cohesion: 0.12
-Nodes (17): Architecture, Concepts, Customization, Documentation, Everything in `config.md` (edit directly), Experience Files, FAQ, Key Design Decisions (+9 more)
-
 ### Community 7 - "/edit-resume"
 Cohesion: 0.12
 Nodes (15): Cover Letter Verification Gates (if CL was edited), /edit-resume, FIXED Sections — Refuse if Asked to Edit, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, Phase 1: Load Context, Phase 2: Diagnose & Plan Edits, Phase 3: Load Reference Files (only confirmed edits) (+7 more)
@@ -116,9 +114,9 @@ Nodes (16): Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2), CHAR 
 Cohesion: 0.23
 Nodes (17): fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn(), fetch_lever(), get(), loc_tag() (+9 more)
 
-### Community 10 - "claude-resume-kit"
+### Community 10 - "Documentation"
 Cohesion: 0.12
-Nodes (16): 1. Clone and configure, 2. Extract your papers, 3. Build your knowledge base, 4. Customize your LaTeX templates, 5. Generate for a job, claude-resume-kit, Contributing, Documentation (+8 more)
+Nodes (17): Architecture, Concepts, Customization, Documentation, Everything in `config.md` (edit directly), Experience Files, FAQ, Key Design Decisions (+9 more)
 
 ### Community 11 - "char_count.py"
 Cohesion: 0.20
@@ -169,8 +167,8 @@ Cohesion: 0.25
 Nodes (7): Collaboration & Scope, Deep Learning-Guided Screening of Thermostable Enzyme Variants for Industrial Biocatalysis, Key Results (with numbers), Metadata, Methods & Tools, Provenance, Resume Bullet Seeds
 
 ### Community 23 - "Configuration"
-Cohesion: 0.29
-Nodes (6): Application-Form Facts (reused constantly — collect once during onboarding), Configuration, Document Preferences, Personal Info, Preferred Job Platforms, Provenance Flags
+Cohesion: 0.25
+Nodes (7): Application-Form Facts (reused constantly — collect once during onboarding), Configuration, Document Preferences, Personal Info, Preferred Job Platforms, Provenance Flags, Target Roles & Preferences
 
 ### Community 24 - "Bundle: Academia"
 Cohesion: 0.29
@@ -200,29 +198,41 @@ Nodes (4): derive(), domain_name(), main(), Convert output/job-search/applicatio
 Cohesion: 0.50
 Nodes (3): Context Efficiency Notes, Session File Template, Template
 
+### Community 34 - "CLAUDE.md"
+Cohesion: 0.40
+Nodes (4): 🔐 Authentication, Session Persistence & Auto-Re-login Rule, 🎯 Candidate Bar & Role Focus, graphify, 📁 Single Source of Truth & Canonical CSV Paths (STRICT)
+
 ### Community 41 - "Job Hunt Profile & Operations Rule"
-Cohesion: 0.33
-Nodes (5): 📋 Application-Form Facts, 🎯 Candidate Bar (Pratham Modi), ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule, ✅ SUBMISSION RULE — AUTO-SUBMISSION AUTHORIZED FOR QUALIFYING MATCHES
+Cohesion: 0.29
+Nodes (6): 📋 Application-Form Facts, 🔐 Authentication & Session Persistence Rule, 🎯 Candidate Bar (Pratham Modi), ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule, ✅ SUBMISSION RULE — AUTO-SUBMISSION AUTHORIZED FOR QUALIFYING MATCHES
+
+### Community 43 - "Authentication & Session Persistence Rule"
+Cohesion: 0.40
+Nodes (4): Authentication & Session Persistence Rule, 🚫 Board Exception (jobfound), ⛔ Never Logout Accidentally, 🔐 Sign-In & Recovery Protocol
+
+### Community 49 - "claude-resume-kit"
+Cohesion: 0.12
+Nodes (16): 1. Clone and configure, 2. Extract your papers, 3. Build your knowledge base, 4. Customize your LaTeX templates, 5. Generate for a job, claude-resume-kit, Contributing, Documentation (+8 more)
 
 ## Knowledge Gaps
-- **273 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+268 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 319 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **282 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+277 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 335 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Documentation` connect `Documentation` to `Session: Whitfield University -- Assistant Professor, Computational Protein Engineering`?**
-  _High betweenness centrality (0.007) - this node is a cross-community bridge._
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **Why does `claude-resume-kit` connect `claude-resume-kit` to `Session: Whitfield University -- Assistant Professor, Computational Protein Engineering`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _273 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _282 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
   _Cohesion score 0.08262108262108261 - nodes in this community are weakly interconnected._
 - **Should `claude-job-kit — Project Instructions` be split into smaller, more focused modules?**
-  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `Resume & CV Generation — Reference` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
