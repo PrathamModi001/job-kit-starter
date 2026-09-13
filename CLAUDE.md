@@ -25,7 +25,7 @@ Rules:
 - **Frontend Note & Role Exclusions:** Exclude frontend-specific / frontend-only roles (e.g. Frontend Engineer, Front-end Developer, UI Developer, React Developer). Also exclude **Product Engineer II** and **Member of Technical Staff (MTS)** — these do not fall under the 0–3 YOE bracket. Having frontend skills as part of a full-stack or software developer role is fine, but do not focus on or apply to frontend-only jobs.
 - **Stack Exclusions:** Hard skip Java, .NET/C#/ASP.NET, C++, and Ruby/Ruby on Rails roles.
 - **Level & Comp:** 0–3 YOE, CTC target 18–20 LPA (hard floor 18 LPA). Skip 4+ YOE, Senior/Staff/Principal/Architect/Lead titles, Product Engineer II, and Member of Technical Staff.
-- **Locations:** India (Bangalore, Pune, Mumbai, Hyderabad, Gurgaon, Ahmedabad) or Remote.
+- **Locations:** India (Bangalore, Pune, Mumbai, Hyderabad, Gurgaon, Ahmedabad, Chennai) or Remote.
 
 ## 📁 Single Source of Truth & Canonical CSV Paths (STRICT)
 

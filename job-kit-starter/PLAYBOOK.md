@@ -102,6 +102,19 @@ Expect diminishing returns after the first week — fresh supply at one level/ci
 
 **Wellfound Native Apply** (`wellfound.com/jobs/<id>`):
 - Direct 1-click apply: Navigate to the job URL, find and click `button, a` matching text `Apply`.
+- **Location Preference Interstitial ("This job does not support the locations on your profile")**:
+  - Some postings show an interstitial location modal:
+    > "Is your profile up to date? Click here to verify how you will appear to recruiters.
+    > This job does not support the locations on your profile.
+    > Update your location preferences
+    > I am currently in…
+    > I can relocate to…
+    > [Location dropdown / option]"
+  - **Handling Procedure**:
+    1. Inspect the location requested by the job in the dropdown / prompt.
+    2. Cross-reference with the candidate's allowed location list: **Bengaluru (Bangalore), Pune, Mumbai, Hyderabad (Secunderabad), Gurgaon (Gurugram), Ahmedabad, Chennai, or Remote**.
+    3. **If matched:** Click **"I can relocate to…"**, select the matching location from the dropdown if not preselected, save/update preferences, and continue.
+    4. **If not matched:** Abort application and skip the role (do not compromise on location eligibility).
 - Modal note: Target `textarea, [name="note"], [name*="pitch"]`. Set tailored pitch note from `SKILL_PROFILE.md` facts, dispatch `input` and `change` events.
 - Submit: Find and click `button` containing `Send application`.
 - Verification: The page re-renders with `✓ Applied` (or `Applied`).

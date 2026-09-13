@@ -38,6 +38,8 @@
 - **Frontend Note & Exclusions:** Exclude frontend-specific / frontend-only roles (e.g., pure Frontend Engineer, UI Developer, React Developer). It is fine if frontend skills are needed as part of a Full-Stack or Software Developer role, but do not focus on frontend-only jobs.
 - **Role Exclusions (Experience mismatch):** Exclude **Product Engineer II** (and PE 2) and **Member of Technical Staff (MTS)** — these do not fall under the 0–3 YOE bracket.
 - **Stack Exclusions:** Java, .NET/C#, C++, Ruby/Ruby on Rails.
+- **Target Locations (Eligible Cities):** Bengaluru (Bangalore), Pune, Mumbai, Hyderabad (Secunderabad), Gurgaon (Gurugram), Ahmedabad, Chennai, or Remote (India).
+- **Wellfound Location Prompt Policy:** When Wellfound shows *"This job does not support the locations on your profile. Update your location preferences: I am currently in… / I can relocate to… [Location]"*, if the location shown/dropdown matches our Target Locations list above, click **"I can relocate to…"**, select the matching location, update/confirm, and proceed with the application note. Otherwise, skip the role.
 
 ---
 

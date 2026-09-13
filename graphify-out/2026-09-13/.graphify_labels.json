@@ -3,7 +3,7 @@
   "1": "package.json",
   "2": "claude-job-kit — Project Instructions",
   "3": "Resume & CV Generation — Reference",
-  "4": "claude-resume-kit",
+  "4": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
   "5": "Achievements",
   "6": "PlaywrightClient",
   "7": "/edit-resume",
@@ -48,5 +48,5 @@
   "46": "gen_brevo.py",
   "47": "gen_hevo.py",
   "48": "run_test.js",
-  "49": "triage_indeed.py"
+  "49": "claude-resume-kit"
 }

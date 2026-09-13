@@ -1832,7 +1832,7 @@
       "node_kind": "heading",
       "norm_label": "after every apply batch",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L115"
+      "source_location": "L128"
     },
     {
       "id": "job_kit_starter_playbook_ats_recipes_every_quirk_here_was_hit_in_production",
@@ -1904,7 +1904,7 @@
       "node_kind": "heading",
       "norm_label": "phase 4 \u2014 cold email outreach (startups without open roles)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L118"
+      "source_location": "L131"
     },
     {
       "id": "job_kit_starter_playbook_phase_5_x_twitter_cold_dms",
@@ -1916,7 +1916,7 @@
       "node_kind": "heading",
       "norm_label": "phase 5 \u2014 x/twitter cold dms",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L129"
+      "source_location": "L142"
     },
     {
       "id": "job_kit_starter_playbook_phase_6_public_tracker_cloudflare_pages",
@@ -1928,7 +1928,7 @@
       "node_kind": "heading",
       "norm_label": "phase 6 \u2014 public tracker (cloudflare pages)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L137"
+      "source_location": "L150"
     },
     {
       "id": "job_kit_starter_playbook_phase_7_cadence_and_priorities",
@@ -1940,7 +1940,7 @@
       "node_kind": "heading",
       "norm_label": "phase 7 \u2014 cadence and priorities",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L141"
+      "source_location": "L154"
     },
     {
       "id": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
@@ -3452,7 +3452,7 @@
       "node_kind": "heading",
       "norm_label": "application-form facts (reused constantly \u2014 collect once during onboarding)",
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L44"
+      "source_location": "L46"
     },
     {
       "id": "job_kit_starter_config_configuration",
@@ -3476,7 +3476,7 @@
       "node_kind": "heading",
       "norm_label": "document preferences",
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L59"
+      "source_location": "L61"
     },
     {
       "id": "job_kit_starter_config_personal_info",
@@ -3512,7 +3512,7 @@
       "node_kind": "heading",
       "norm_label": "provenance flags",
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L69"
+      "source_location": "L71"
     },
     {
       "id": "job_kit_starter_config_target_roles_preferences",
@@ -4552,7 +4552,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udccb application-form facts",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L24"
+      "source_location": "L25"
     },
     {
       "id": "agents_rules_job_hunt_profile_authentication_session_persistence_rule",
@@ -4564,7 +4564,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd10 authentication & session persistence rule",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L56"
+      "source_location": "L57"
     },
     {
       "id": "agents_rules_job_hunt_profile_candidate_bar_pratham_modi",
@@ -4588,7 +4588,7 @@
       "node_kind": "heading",
       "norm_label": "\u26a1 daily scan operations",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L35"
+      "source_location": "L36"
     },
     {
       "id": "agents_rules_job_hunt_profile_job_hunt_profile_operations_rule",
@@ -6372,7 +6372,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L24",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -6394,7 +6394,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L35",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -6405,7 +6405,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L56",
+      "source_location": "L57",
       "weight": 1.0
     },
     {
@@ -7604,7 +7604,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L44",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -7615,18 +7615,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L59",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_config_configuration",
-      "target": "job_kit_starter_config_provenance_flags",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/config.md",
-      "source_location": "L69",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -7638,6 +7627,17 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/config.md",
       "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_config_configuration",
+      "target": "job_kit_starter_config_provenance_flags",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/config.md",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -8022,7 +8022,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L115",
+      "source_location": "L128",
       "weight": 1.0
     },
     {
@@ -8066,7 +8066,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L118",
+      "source_location": "L131",
       "weight": 1.0
     },
     {
@@ -8077,7 +8077,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L129",
+      "source_location": "L142",
       "weight": 1.0
     },
     {
@@ -8088,7 +8088,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L137",
+      "source_location": "L150",
       "weight": 1.0
     },
     {
@@ -8099,7 +8099,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L141",
+      "source_location": "L154",
       "weight": 1.0
     },
     {
@@ -10861,5 +10861,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3693fcd5e5456d87e9226d2dc548a8329688a366"
+  "built_at_commit": "dda90bf9ef1c3e88ab5cd50d6745bdc25b334f67"
 }

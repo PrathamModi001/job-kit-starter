@@ -15,7 +15,8 @@
 - **Tech Stack:** Node.js, Express, Python, FastAPI, Kafka, Redis, MongoDB, PostgreSQL, AWS, Microservices, Observability (OpenTelemetry/Prometheus/Grafana), React/Next.js, LangGraph/RAG.
 - **Stack Exclusions:** Hard skip Java, .NET/C#/ASP.NET, C++, and Ruby/Ruby on Rails roles.
 - **Experience Level:** Postings gated at 0–2 YOE or 0–3 YOE. Skip roles requiring 4+ YOE, Senior/Staff/Principal/Architect/Lead titles, Product Engineer II, and Member of Technical Staff.
-- **Location Filter:** Koramangala, Bengaluru, India. Open to Bangalore, Pune, Mumbai, Hyderabad, Gurgaon, Ahmedabad, or Remote (India/international-friendly). Skip other locations unless remote.
+- **Location Filter:** Koramangala, Bengaluru, India. Open to Bangalore, Pune, Mumbai, Hyderabad, Gurgaon, Ahmedabad, Chennai, or Remote (India/international-friendly). Skip other locations unless remote.
+- **Wellfound Location Prompt Policy:** If Wellfound shows *"This job does not support the locations on your profile. Update your location preferences: I am currently in… / I can relocate to… [Location]"*, if the location in the dropdown matches the allowed list above, select **"I can relocate to…"**, confirm, and proceed with the application note. Otherwise, skip.
 - **Compensation:** Current CTC: 12 LPA. Target: 18–20 LPA (Floor: 18 LPA). Skip roles under 18 LPA. High-pay override: 25+ LPA is worth surfacing even outside preferred lanes/cities.
 - **Company Types:** Product companies, well-funded startups. Skip IT staffing/services firms and unpaid/commission-only roles.
 

@@ -1,11 +1,11 @@
 # Graph Report - job-kit-starter  (2026-09-13)
 
 ## Corpus Check
-- 116 files · ~80,202 words
+- 58 files · ~48,315 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 517 nodes · 559 edges · 50 communities (33 shown, 8 thin omitted)
+- 470 nodes · 469 edges · 50 communities (34 shown, 8 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
@@ -19,7 +19,7 @@
 - package.json
 - claude-job-kit — Project Instructions
 - Resume & CV Generation — Reference
-- claude-resume-kit
+- Session: Whitfield University -- Assistant Professor, Computational Protein Engineering
 - Achievements
 - PlaywrightClient
 - /edit-resume
@@ -56,9 +56,10 @@
 - Job Hunt Profile & Operations Rule
 - daily_scan.md
 - Authentication & Session Persistence Rule
+- claude-resume-kit
 
 ## God Nodes (most connected - your core abstractions)
-1. `PlaywrightClient` - 57 edges
+1. `PlaywrightClient` - 13 edges
 2. `Resume & CV Generation — Reference` - 13 edges
 3. `claude-job-kit — Project Instructions` - 12 edges
 4. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
@@ -93,9 +94,9 @@ Nodes (24): Accuracy Priority, Anti-Fabrication Rules, Application flow (per lea
 Cohesion: 0.11
 Nodes (18): Bold Width Penalty (COMPILE-VERIFIED), Char Verification Protocol (EVERY written element), Character Limits (HARD STOPS — ZERO TOLERANCE), Content Density Rules, CV (cv.cls), Experience Bullet Writing Protocol (Experience-File-First), Files to Upload (by format), Gap Assessment & Bridge Mappings (+10 more)
 
-### Community 4 - "claude-resume-kit"
-Cohesion: 0.06
-Nodes (30): 1. Install the prerequisites (one-time), 2. Open the kit in Claude Code, 3. Say hi, 4. Start applying, Quickstart, 1. Clone and configure, 2. Extract your papers, 3. Build your knowledge base (+22 more)
+### Community 4 - "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering"
+Cohesion: 0.11
+Nodes (14): 1. Install the prerequisites (one-time), 2. Open the kit in Claude Code, 3. Say hi, 4. Start applying, Quickstart, Decisions Log, Metadata, Phase 0: JD Analysis (+6 more)
 
 ### Community 5 - "Achievements"
 Cohesion: 0.10
@@ -209,16 +210,22 @@ Nodes (6): 📋 Application-Form Facts, 🔐 Authentication & Session Persistenc
 Cohesion: 0.40
 Nodes (4): Authentication & Session Persistence Rule, 🚫 Board Exception (jobfound), ⛔ Never Logout Accidentally, 🔐 Sign-In & Recovery Protocol
 
+### Community 49 - "claude-resume-kit"
+Cohesion: 0.12
+Nodes (16): 1. Clone and configure, 2. Extract your papers, 3. Build your knowledge base, 4. Customize your LaTeX templates, 5. Generate for a job, claude-resume-kit, Contributing, Documentation (+8 more)
+
 ## Knowledge Gaps
 - **282 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+277 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 337 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 335 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Documentation` connect `Documentation` to `claude-resume-kit`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **Why does `Documentation` connect `Documentation` to `Session: Whitfield University -- Assistant Professor, Computational Protein Engineering`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Why does `claude-resume-kit` connect `claude-resume-kit` to `Session: Whitfield University -- Assistant Professor, Computational Protein Engineering`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
   _282 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
@@ -229,5 +236,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `Resume & CV Generation — Reference` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
-- **Should `claude-resume-kit` be split into smaller, more focused modules?**
-  _Cohesion score 0.058823529411764705 - nodes in this community are weakly interconnected._

@@ -19,7 +19,7 @@ description: Execute the daily multi-channel job scan and triage matches against
    - **Jobfound Exception:** Do NOT log in on `jobfound.org` (no login needed).
 
 4. **Triage & Auto-Apply**:
-   - Filter strictly against the Candidate Bar: 0–3 YOE, Backend/Full-Stack, 18+ LPA, Bengaluru/Pune/Mumbai/Hyderabad/Gurgaon/Ahmedabad/Remote. Skip frontend-only / frontend-specific roles (frontend as part of full-stack is fine, but do not focus on frontend-only jobs).
+   - Filter strictly against the Candidate Bar: 0–3 YOE, Backend/Full-Stack, 18+ LPA, Bengaluru/Pune/Mumbai/Hyderabad/Gurgaon/Ahmedabad/Chennai/Remote. Skip frontend-only / frontend-specific roles (frontend as part of full-stack is fine, but do not focus on frontend-only jobs).
    - For all qualifying BULLSEYE / Strong Match roles:
      - Generate customized 1-page resume `.tex`, compile with `tectonic -c minimal`.
      - Autofill application fields and auto-submit via Playwright.
