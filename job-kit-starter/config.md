@@ -65,6 +65,25 @@
 - **Resume bullet variant:** 2L default
 - **Skills config (resume):** matches base LaTeX resume grouping (Languages / Backend / Frontend / Databases / Messaging / AI-ML / Cloud-DevOps-Observability / Architecture)
 - **Immigration line:** no
+- **Template:** `resume_builder/templates/swe_resume_template.tex` — THE only template for this project. Do NOT use `resume_template.tex`, `resume.cls`, `cv_template.tex`, or `cv.cls` — those are unmodified academic-CV scaffolding from the original kit (publications section, mhchem, protein-engineering example) and do not apply here.
+- **`resume_builder/templates/base_resume_reference.tex`** — a REFERENCE-ONLY copy of the actual, real, previously-used base resume (not a template to compile from or edit). It exists purely as ground truth for facts/wording if a KB file (`experience/*.md`) ever looks incomplete. All its bullet content is already reflected in `resume_builder/experience/*.md` — do not copy from this file directly, copy from the experience files.
+- **Bullet generation policy:** COPY-EXACT, not fresh-write. See `resume_builder/support/achievement_reframing_guide.md` — Bullet Generation Policy. This overrides the "write bullets FRESH per JD" instruction in `resume_reference.md`, which was written for an academic CV/paper-extraction workflow that doesn't apply to this 2-job profile.
+
+---
+
+## Role Types → Bundle Mapping
+
+> Read by `/make-resume` Phase 0 to pick the matching bundle. See
+> `resume_builder/support/achievement_reframing_guide.md` — Lane Selection
+> Decision Tree — for the full JD-to-lane matching rules.
+
+| Role Type | Bundle File |
+|---|---|
+| Backend / Node.js / Distributed Systems (primary lane) | `resume_builder/bundles/bundle_backend.md` |
+| Full-Stack (primary lane) | `resume_builder/bundles/bundle_fullstack.md` |
+| AI / Agentic Systems (bonus fit, not primary) | `resume_builder/bundles/bundle_ai.md` |
+
+**FIXED sections** (never regenerated per JD — copy verbatim from `swe_resume_template.tex` FIXED markers): Header (name/email/phone/GitHub/LinkedIn), Education, position company/title/dates lines.
 
 ---
 

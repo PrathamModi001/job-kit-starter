@@ -1,0 +1,161 @@
+% REFERENCE ONLY — not used by /make-resume or any skill.
+% This is the actual, real base resume Pratham has used/sent, preserved verbatim as
+% ground truth for facts and layout. The canonical template for generating NEW tailored
+% resumes is `swe_resume_template.tex` — see config.md Document Preferences.
+% Do not compile this into an application folder; do not treat as an editable template.
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage{geometry}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\input{glyphtounicode}
+\usepackage[sfdefault]{roboto}
+
+\hypersetup{pdfborder=0 0 0}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\geometry{top=0.15in, bottom=0.4in, left=0.55in, right=0.55in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlist[itemize]{noitemsep, topsep=1pt}
+
+\titleformat{\section}
+{\vspace{-4pt}\scshape\raggedright\large\bfseries}
+{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item \small{#1}}
+
+\newcommand{\resumeSubheading}[4]{
+\item
+\textbf{#1} \hfill \textbf{\small #2} \\
+\textit{\small #3} \hfill \textit{\small #4}
+\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+\item
+\small #1 \hfill \textbf{\small #2}
+\vspace{-4pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\begin{document}
+
+\begin{center}
+{\Huge \textbf{Pratham Modi}} \\
+\vspace{5pt}
+\small
+9033393729 $|$
+\href{mailto:prathammodi001@gmail.com}{prathammodi001@gmail.com} $|$
+\href{https://www.linkedin.com/in/prathammodii001/}{linkedin.com/in/prathammodii001} $|$
+\href{https://github.com/PrathamModi001}{github.com/PrathamModi001}
+\end{center}
+
+\vspace{-20pt}
+\section{Summary}
+\begin{itemize}[leftmargin=*]
+\item Backend-focused software engineer with \textbf{2+ year in production}. Led backend development of an \textbf{LMS platform serving 50K+ users} at C3iHub, spanning event-driven microservices, distributed tracing, and cloud infrastructure. Strong in \textbf{Node.js}, \textbf{Python}, \textbf{Kafka}, \textbf{Redis}, and \textbf{AWS}. Experienced owning systems end-to-end across backend, DevOps, and AI integration.
+\end{itemize}
+
+\vspace{-12pt}
+\section{Experience}
+\begin{itemize}[leftmargin=0in, label={}]
+
+\resumeSubheading
+{C3iHub, IIT Kanpur}{Jul 2025 -- Present}
+{Software Development Engineer}{Kanpur, India}
+\vspace{2pt}
+
+\begin{itemize}
+    \resumeItem{Architected core \textbf{LMS backend} serving \textbf{50K+ users} across microservices for auth, notifications, and content delivery using \textbf{Express.js}, \textbf{MongoDB}, \textbf{Redis}, and \textbf{Socket.IO}, achieving \textbf{99.9\% uptime} at \textbf{10,000+ concurrent connections}.}
+    \resumeItem{Reduced \textbf{cloud storage costs 60\%} ($\sim$Rs. 4.8L/year) via \textbf{S3 Object Lock}, \textbf{Glacier Instant Retrieval}, and a 2-tier S3 backup strategy; cut \textbf{MongoDB p99 latency} from \textbf{450ms $\rightarrow$ 135ms} through compound indexing, horizontal sharding, and \textbf{Redis caching}.}
+    \resumeItem{Engineered \textbf{event-driven notification pipeline} handling \textbf{75K+ daily events} at \textbf{99.5\% delivery reliability} using \textbf{Kafka}, \textbf{BullMQ}, and \textbf{Redis Pub/Sub} -- guaranteed at-least-once delivery with consumer-side deduplication.}
+    \resumeItem{Improved \textbf{incident response time 85\%} by deploying distributed tracing across \textbf{15+ services} using \textbf{OpenTelemetry}, \textbf{Prometheus}, and \textbf{Grafana}; defined alerting SLOs across cross-functional teams.}
+    \resumeItem{Led development of the \textbf{official IITK hackathon platform} onboarding \textbf{10K+ participants} pan-India; productized into multi-tenant \textbf{SaaS} serving both public and private corporate deployments with \textbf{RBAC}.}
+    \resumeItem{Built \textbf{real-time collaborative round engine} handling \textbf{2,000+ concurrent WebSocket sessions} via \textbf{Django Channels} (ASGI) and Redis channel groups -- idempotent submission handling and race-condition-safe team answer sync with timer-enforced auto-submit.}
+\end{itemize}
+
+\resumeSubheading
+{Playpower Labs}{Nov 2024 -- Jun 2025}
+{Software Development Engineer}{Remote}
+\begin{itemize}
+\vspace{2pt}
+  \resumeItem{Developed \textbf{AI tutoring platform} using \textbf{Next.js} with SSR/ISR and React Server Components alongside \textbf{FastAPI} microservices, supporting \textbf{500+ concurrent WebSocket sessions} with sub-100ms response times.}
+  \resumeItem{Increased \textbf{user session depth by 35\%} by integrating \textbf{ChromaDB} vector search over \textbf{10K+ documents} via a \textbf{RAG pipeline}, achieving \textbf{sub-200ms retrieval latency} at p95.}
+  \resumeItem{Cut \textbf{document retrieval latency by 47\%} (340ms to 180ms) with a PDF ingestion pipeline using 512-token chunking, \textbf{OpenAI text-embedding-3-small}, and HNSW-indexed \textbf{ChromaDB}.}
+  \resumeItem{Reduced \textbf{release cycle time by 65\%} by implementing blue-green CI/CD on \textbf{AWS} with \textbf{GitHub Actions} and automated rollback triggers for zero-downtime deployments.}
+\end{itemize}
+
+\end{itemize}
+
+\vspace{-12pt}
+\section{Projects}
+\begin{itemize}[leftmargin=0in, label={}]
+
+\resumeProjectHeading
+{\textbf{Autonomous Invoice Processing Platform} $|$ \emph{Kafka, Redis Streams, FastAPI, PostgreSQL}}{\href{https://github.com/PrathamModi001/apex-invoice-processing}{GitHub} $|$ Hackathon Winner}
+\begin{itemize}
+\vspace{2pt}
+  \resumeItem{Developed event-driven platform automating invoice intake across \textbf{3 channels} (Gmail API, WhatsApp Business API, Google Drive) with automated validation, deduplication, and full audit trail.}
+  \resumeItem{Implemented fault-tolerant microservices using \textbf{Kafka} and \textbf{Redis Streams} with consumer groups, dead-letter queues, exponential backoff retry, and RBAC-based human review workflow.}
+\end{itemize}
+
+\resumeProjectHeading
+{\textbf{DeployMind: AI-Powered GitOps Platform} $|$ \emph{Python, FastAPI, CrewAI, Redis, Docker, Kubernetes}}{\href{https://github.com/PrathamModi001/DeployMind}{GitHub} $|$ Personal Project}
+\begin{itemize}
+\vspace{2pt}
+  \resumeItem{Created GitOps platform automating deployments from GitHub to \textbf{EC2} and \textbf{Kubernetes} (EKS/GKE) via a 3-agent AI pipeline (security audit, build, deploy) using \textbf{CrewAI}, with conditional rollback on security gate failure.}
+  \resumeItem{Implemented Rolling, Canary (graduated traffic shifting with auto-rollback), and Blue-Green deployment strategies with Redis-backed queue, distributed locking, and \textbf{200+ unit, integration, and E2E tests}.}
+\end{itemize}
+
+\vspace{2pt}
+
+\resumeProjectHeading
+{\textbf{Mnemoniq: Multi-Tier Memory AI Agent} $|$ \emph{FastAPI, LangGraph, PostgreSQL, Qdrant, Redis}}{\href{https://github.com/PrathamModi001/Mnemoniq}{GitHub} $|$ Personal Project}
+\begin{itemize}
+\vspace{2pt}
+  \resumeItem{Built a three-tier memory system (working, episodic, knowledge graph) for a conversational AI agent orchestrated via a \textbf{LangGraph} multi-agent pipeline, cutting injected context tokens \textbf{38\%} versus naive full-history buffering.}
+  \resumeItem{Combined \textbf{Qdrant}/ChromaDB vector retrieval with NetworkX knowledge-graph traversal (Hebbian edge reinforcement, GraphRAG/HippoRAG-style scoring) behind a FastAPI + SSE backend with PostgreSQL and Redis-backed sessions; validated with a RAGAS-inspired eval harness across relevance, faithfulness, and token efficiency.}
+\end{itemize}
+
+\end{itemize}
+
+\vspace{-14pt}
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Languages:} Python, JavaScript, TypeScript, Java, C++, SQL $|$
+\textbf{Backend:} Node.js, Express.js, FastAPI, Socket.IO, RESTful APIs, WebSocket, GraphQL, Nginx $|$
+\textbf{Frontend:} Next.js, React, Tailwind CSS $|$
+\textbf{Databases:} PostgreSQL, MongoDB, Redis, DynamoDB $|$
+\textbf{Messaging:} Kafka, BullMQ, Redis Streams, Redis Pub/Sub, Event-Driven Architecture $|$
+\textbf{AI/ML:} Multi-Agent Systems (CrewAI, LangGraph), RAG Pipelines, Vector Databases (ChromaDB, Qdrant), Knowledge Graphs (NetworkX), LLM Integration $|$
+\textbf{Cloud, DevOps \& Observability:} AWS (EC2, S3, Lambda, EKS, IAM, ECR), Docker, Kubernetes, Terraform, GitHub Actions, CI/CD, OpenTelemetry, Prometheus, Grafana, Distributed Tracing $|$
+\textbf{Architecture:} Microservices, Distributed Systems, System Design, Scalable Backend, High-Throughput Systems
+\end{itemize}
+
+\vspace{-10pt}
+\section{Education}
+\begin{itemize}[leftmargin=0in, label={}]
+\resumeSubheading
+{Pandit Deendayal Energy University}{}
+{B.Tech, Computer Science and Engineering, GPA: 9.20/10}{}
+\end{itemize}
+
+\end{document}

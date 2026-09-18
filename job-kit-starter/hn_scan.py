@@ -69,6 +69,14 @@ stk = re.compile(r"\b(python|typescript|node|react|next\.?js|fastapi|postgres|go
 def company_of(t):
     return re.split(r"[|(—:]", t)[0].strip()[:42]
 
+EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+\.[a-z]{2,}", re.I)
+# words that make a matched address a placeholder, not a real inbox
+EMAIL_JUNK = re.compile(r"\b(example|test|noreply|no-reply|yourname|foo|domain)\b", re.I)
+
+def emails_of(t):
+    found = [m.group(0) for m in EMAIL_RE.finditer(t)]
+    return [e for e in dict.fromkeys(found) if not EMAIL_JUNK.search(e)]
+
 new_ids, matches_new, matches_all = [], [], []
 for c in comments:
     cid = str(c.get("id") or c.get("objectID") or "")
@@ -87,7 +95,7 @@ for c in comments:
     comp = company_of(t)
     if comp.lower() in seen_co:
         continue
-    rec = {"id": cid, "company": comp, "text": t[:360]}
+    rec = {"id": cid, "company": comp, "text": t[:360], "emails": emails_of(t)}
     matches_all.append(rec)
     if is_new:
         matches_new.append(rec)
@@ -102,7 +110,8 @@ print(f"=== {label} matches ===\n")
 if not show:
     print("(none)\n")
 for m in show:
-    print(f"### {m['company']}   [hn id {m['id']}]\n{m['text']} …\n")
+    tag = f"  emails: {', '.join(m['emails'])}" if m["emails"] else "  emails: (none found — use HN profile 'about'/contact link)"
+    print(f"### {m['company']}   [hn id {m['id']}]{tag}\n{m['text']} …\n")
 
 # --- persist index ---
 idx["comment_ids"] = sorted(known_ids | set(new_ids))

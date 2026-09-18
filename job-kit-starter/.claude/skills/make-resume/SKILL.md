@@ -23,8 +23,12 @@ Parse `$ARGUMENTS`:
 Read `config.md` Provenance Flags before generating any content. Verify every claim against that table.
 
 - Use the email from `config.md` Personal Info in all outputs
-- Resume bullets: ALL variable bullets are 2L (CV: 2L/3L mix OK, check `config.md` Document Preferences)
-- Source ALL bullet content from `resume_builder/experience/` files. Never fabricate.
+- Resume bullets: ALL variable bullets are 2L (this project is resume-only, no CV — see `config.md` Document Preferences)
+- Bullets are COPY-EXACT from `resume_builder/experience/` files, selected via the matching
+  `resume_builder/bundles/bundle_<lane>.md` Priority Matrix — see
+  `resume_builder/support/achievement_reframing_guide.md` Bullet Generation Policy.
+  Do NOT write bullet prose from scratch. Never fabricate.
+- Template: `resume_builder/templates/swe_resume_template.tex` ONLY — do not use `resume_template.tex`/`resume.cls`/`cv_template.tex`/`cv.cls` (unused academic-CV scaffolding, see `config.md` Document Preferences).
 - Run `python3 resume_builder/helpers/char_count.py` after each section — the tool is authoritative
 
 ---
@@ -75,7 +79,7 @@ Defaults:
 
 **Read these files:**
 1. The JD (from `$ARGUMENTS`)
-2. `resume_builder/reference/resume_reference.md` — Budget Card, Section Specs, Char Limits, Page Budgets
+2. `resume_builder/support/achievement_reframing_guide.md` — SWE Resume Budget (use this, NOT resume_reference.md's Quick Budget Card, which is calibrated for a different template)
 3. `config.md` — Role-Type Decision Tree to identify the matching bundle
 
 **Web Search (MANDATORY — 2-3 searches).** Load WebSearch via ToolSearch first.
@@ -121,12 +125,13 @@ Proceeding without confirmation misaligns the entire resume and requires full re
 **Re-read `output/<FolderName>/session_<name>.md`** — specifically Framing Strategy and ATS Keywords.
 
 **Read:**
-1. The matching bundle from `config.md` Role Types → `resume_builder/bundles/bundle_[role_type].md` — Section 1 (Priority Matrix)
-   - For hybrid JDs: read both bundles. Use primary for Priority Matrix, secondary for Reframing Map on 1-2 bridging bullets.
-2. All experience files from `resume_builder/experience/`
-3. `resume_builder/support/achievement_reframing_guide.md`
+1. The matching bundle from `config.md` Role Types → Bundle Mapping table (e.g. `resume_builder/bundles/bundle_backend.md`) — Section 3 (Experience Priority Matrix)
+   - For hybrid JDs: read both bundles per the Lane Selection Decision Tree in `achievement_reframing_guide.md`. Use primary lane's Priority Matrix; borrow at most 1-2 bullets from the secondary lane's HIGH tier if they don't violate the primary lane's caps (e.g. the 1-AI-bullet cap).
+2. All 3 experience files: `resume_builder/experience/experience_c3ihub.md`, `experience_playpower.md`, `experience_projects.md`
+3. `resume_builder/support/achievement_reframing_guide.md` — Bullet Generation Policy (governs what edits are/aren't allowed)
 4. `resume_builder/support/skills_taxonomy.md`
-5. `resume_builder/support/pub_metadata.md`
+
+There is no `pub_metadata.md` and no publications section in this project's template — do not look for one.
 
 **Present one table per position:**
 
@@ -142,7 +147,7 @@ Proceeding without confirmation misaligns the entire resume and requires full re
 **Legend:** `*` = recommended (HIGH on Priority Matrix + Direct JD match) | `o` = available (MEDIUM priority or Bridge match) | `x` = not recommended (LOW priority or Gap)
 
 **After all positions, show:**
-- Recommended set total vs budget (from Quick Budget Card in resume_reference.md)
+- Recommended set total vs budget (from SWE Resume Budget in `achievement_reframing_guide.md`)
 - Remaining budget slots and what could fill them
 - Forced exclusions per provenance flags
 - Focus directive impact (what changed vs Priority Matrix defaults)
@@ -164,7 +169,7 @@ If you proceed without confirmation, you will generate bullets the user didn't a
 
 **Re-read session file Bullet Plan section** to verify confirmed counts.
 
-- Check budget targets from `resume_builder/reference/resume_reference.md` Budget Card.
+- Check budget targets from `resume_builder/support/achievement_reframing_guide.md` SWE Resume Budget.
 - Show: `Budget: [N] bullets vs target [T]. PASS/FAIL`
 - **FAIL = do not proceed. Reconcile with user first.**
 
@@ -174,13 +179,13 @@ If you proceed without confirmation, you will generate bullets the user didn't a
 
 **Re-read to restore context after compaction:**
 1. `output/<FolderName>/session_<name>.md` (framing + confirmed bullet plan)
-2. `resume_builder/reference/critical_rules.md` — Character Limits, Bold Width Penalty, Orphan rules
+2. `resume_builder/reference/critical_rules.md` — Character Limits, Bold Width Penalty, Orphan rules (limits still apply; ignore any CV/publication-specific specs in that file — not used here)
 3. `resume_builder/support/ai_fingerprint_rules.md` — Banned words, structural rules, post-gen checklist
 
-**Read template:** `resume_builder/templates/resume_template.tex` or `cv_template.tex` + `.cls`
-FIXED sections (from `config.md` FIXED Sections) are template-locked — only generate VARIABLE sections (Summary, Skills, Experience bullets/headers).
+**Read template:** `resume_builder/templates/swe_resume_template.tex` (the ONLY template for this project — see `config.md` Document Preferences).
+FIXED sections (from `config.md` Role Types → Bundle Mapping, "FIXED sections" note) are template-locked — only generate VARIABLE sections (Tagline, Summary, Skills, Experience bullet selection/order, Project selection).
 
-**Read section specs:** `resume_builder/reference/resume_reference.md` — Section-by-Section Specs for your format
+**Read section specs:** `resume_builder/reference/resume_reference.md` — Character Limits and Page Fill Budgets only. Ignore Publications, CV, and resume.cls/Format-C-specific sections — not applicable to `swe_resume_template.tex`.
 
 **Generate section by section** (follow Section-by-Section Specs):
 1. Summary → check against session framing strategy
@@ -188,7 +193,7 @@ FIXED sections (from `config.md` FIXED Sections) are template-locked — only ge
 2. Technical Skills
    - Update Status → `Phase 2: Skills DONE`
 3. Each position's bullets → **CHAR COUNT GATE after each position**
-   - Position titles: bold theme + date must fit ONE line (see resume_reference.md). If wrapping, shorten title.
+   - Position headers (company/title/dates) are FIXED — copy verbatim from `experience_c3ihub.md` / `experience_playpower.md`, no per-JD theme customization (this project does not use the FLIPPED bold-theme format from `resume_reference.md` — that's specific to `resume.cls`, not `swe_resume_template.tex`).
    - After each position: Update Status → `Phase 2: [Position] DONE`
 4. **PAGE FILL GATE after all experience**
 
@@ -209,9 +214,10 @@ Resume: <= 3 lines white space on last page. CV: check rendered line target from
 
 ### COMPILE GATE
 ```bash
-pdflatex -interaction=nonstopmode -output-directory=output/<FolderName> output/<FolderName>/e2e_<name>_resume.tex
+tectonic -c minimal output/<FolderName>/e2e_<name>_resume.tex
+python3 -c "import pypdf; print(len(pypdf.PdfReader('output/<FolderName>/e2e_<name>_resume.pdf').pages))"  # must print 1
 ```
-Verify page counts match `config.md` Document Preferences. Use the Read tool to view compiled PDF — check orphans, header wrapping, page fill. **If FAIL: fix variable content, recompile.**
+Verify page count = 1 (per `config.md` Document Preferences). Use the Read tool to view compiled PDF — check orphans, header wrapping, page fill. **If FAIL: fix variable content, recompile.**
 
 Run the Post-Generation Verification checklist from `resume_builder/reference/resume_reference.md` before proceeding.
 

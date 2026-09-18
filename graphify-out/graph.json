@@ -233,6 +233,18 @@
       "source_location": "L69"
     },
     {
+      "id": "job_kit_starter_hn_scan_emails_of",
+      "label": "emails_of()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "hn_scan.py",
+      "file_type": "code",
+      "norm_label": "emails_of()",
+      "source_file": "job-kit-starter/hn_scan.py",
+      "source_location": "L76"
+    },
+    {
       "id": "job_kit_starter_hn_scan_get",
       "label": "get()",
       "_callable": true,
@@ -650,7 +662,7 @@
       "node_kind": "heading",
       "norm_label": "6a. anti-pattern checklist",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L255"
+      "source_location": "L263"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_6b_tailoring_signal_checklist",
@@ -662,7 +674,7 @@
       "node_kind": "heading",
       "norm_label": "6b. tailoring signal checklist",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L265"
+      "source_location": "L273"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_6c_context_specific_checks",
@@ -674,7 +686,7 @@
       "node_kind": "heading",
       "norm_label": "6c. context-specific checks",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L272"
+      "source_location": "L280"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_6d_cl_ats_keyword_check",
@@ -686,7 +698,7 @@
       "node_kind": "heading",
       "norm_label": "6d. cl ats keyword check",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L289"
+      "source_location": "L297"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_6e_structural_checks",
@@ -698,7 +710,7 @@
       "node_kind": "heading",
       "norm_label": "6e. structural checks",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L294"
+      "source_location": "L302"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_6f_package_cohesion_check",
@@ -710,7 +722,7 @@
       "node_kind": "heading",
       "norm_label": "6f. package cohesion check",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L302"
+      "source_location": "L310"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_assessment_matrix",
@@ -722,7 +734,7 @@
       "node_kind": "heading",
       "norm_label": "assessment matrix",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L186"
+      "source_location": "L194"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_build_the_lens",
@@ -734,7 +746,7 @@
       "node_kind": "heading",
       "norm_label": "build the lens",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L13"
+      "source_location": "L21"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_ceiling_analysis",
@@ -746,7 +758,7 @@
       "node_kind": "heading",
       "norm_label": "ceiling analysis",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L198"
+      "source_location": "L206"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_content_checks",
@@ -758,7 +770,7 @@
       "node_kind": "heading",
       "norm_label": "content checks",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L462"
+      "source_location": "L470"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
@@ -782,7 +794,7 @@
       "node_kind": "heading",
       "norm_label": "critique output template",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L311"
+      "source_location": "L319"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_mechanical_checks",
@@ -794,7 +806,7 @@
       "node_kind": "heading",
       "norm_label": "mechanical checks",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L456"
+      "source_location": "L464"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_output_and_persist_the_lens",
@@ -806,7 +818,7 @@
       "node_kind": "heading",
       "norm_label": "output and persist the lens",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L65"
+      "source_location": "L73"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_part_0_domain_specialist_lens_generate_before_the_five_perspectives",
@@ -818,7 +830,7 @@
       "node_kind": "heading",
       "norm_label": "part 0: domain-specialist lens (generate before the five perspectives)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L9"
+      "source_location": "L17"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_part_1_five_perspective_read_through",
@@ -830,7 +842,7 @@
       "node_kind": "heading",
       "norm_label": "part 1: five-perspective read-through",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L73"
+      "source_location": "L81"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_part_2_eight_dimension_scoring",
@@ -842,7 +854,7 @@
       "node_kind": "heading",
       "norm_label": "part 2: eight-dimension scoring",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L151"
+      "source_location": "L159"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_part_3_interview_likelihood_assessment",
@@ -854,7 +866,7 @@
       "node_kind": "heading",
       "norm_label": "part 3: interview likelihood assessment",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L182"
+      "source_location": "L190"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_part_4_actionable_improvements_ranked",
@@ -866,7 +878,7 @@
       "node_kind": "heading",
       "norm_label": "part 4: actionable improvements (ranked)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L210"
+      "source_location": "L218"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_part_5_interview_bridge_points",
@@ -878,7 +890,7 @@
       "node_kind": "heading",
       "norm_label": "part 5: interview bridge points",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L239"
+      "source_location": "L247"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_part_6_cover_letter_critique_context_aware",
@@ -890,7 +902,7 @@
       "node_kind": "heading",
       "norm_label": "part 6: cover letter critique (context-aware)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L251"
+      "source_location": "L259"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_part_6g_ai_fingerprint_scan",
@@ -902,7 +914,7 @@
       "node_kind": "heading",
       "norm_label": "part 6g: ai fingerprint scan",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L440"
+      "source_location": "L448"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_part_7_post_generation_verification",
@@ -914,7 +926,7 @@
       "node_kind": "heading",
       "norm_label": "part 7: post-generation verification",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L452"
+      "source_location": "L460"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_perspective_1_ats_robot_0_seconds_keyword_scan",
@@ -926,7 +938,7 @@
       "node_kind": "heading",
       "norm_label": "perspective 1: ats robot (0 seconds \u2014 keyword scan)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L77"
+      "source_location": "L85"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_perspective_2_recruiter_glance_10_seconds",
@@ -938,7 +950,7 @@
       "node_kind": "heading",
       "norm_label": "perspective 2: recruiter glance (10 seconds)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L90"
+      "source_location": "L98"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_perspective_3_hr_screen_30_seconds",
@@ -950,7 +962,7 @@
       "node_kind": "heading",
       "norm_label": "perspective 3: hr screen (30 seconds)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L105"
+      "source_location": "L113"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_perspective_4_hiring_manager_read_2_minutes",
@@ -962,7 +974,7 @@
       "node_kind": "heading",
       "norm_label": "perspective 4: hiring manager read (2 minutes)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L120"
+      "source_location": "L128"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_perspective_5_deep_technical_reviewer_10_minutes",
@@ -974,7 +986,7 @@
       "node_kind": "heading",
       "norm_label": "perspective 5: deep technical reviewer (10 minutes)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L135"
+      "source_location": "L143"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_structural_checks",
@@ -986,7 +998,7 @@
       "node_kind": "heading",
       "norm_label": "structural checks",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L470"
+      "source_location": "L478"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_tier_1_high_impact_each_worth_1_point",
@@ -998,7 +1010,7 @@
       "node_kind": "heading",
       "norm_label": "tier 1: high impact (each worth >= 1 point)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L214"
+      "source_location": "L222"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_tier_2_medium_impact_each_worth_0_3_0_9_points",
@@ -1010,7 +1022,7 @@
       "node_kind": "heading",
       "norm_label": "tier 2: medium impact (each worth 0.3-0.9 points)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L223"
+      "source_location": "L231"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_tier_3_cosmetic_diminishing_returns_each_worth_0_3_points",
@@ -1022,7 +1034,7 @@
       "node_kind": "heading",
       "norm_label": "tier 3: cosmetic / diminishing returns (each worth < 0.3 points)",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L229"
+      "source_location": "L237"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_verdict",
@@ -1034,7 +1046,7 @@
       "node_kind": "heading",
       "norm_label": "verdict",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L234"
+      "source_location": "L242"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework_when_to_use_multi_pass_vs_single_pass",
@@ -1046,7 +1058,7 @@
       "node_kind": "heading",
       "norm_label": "when to use multi-pass vs single-pass",
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L481"
+      "source_location": "L489"
     },
     {
       "id": "job_kit_starter_tracker_package",
@@ -1335,208 +1347,112 @@
       "source_location": "L18"
     },
     {
-      "id": "job_kit_starter_docs_architecture",
-      "label": "Architecture",
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template",
+      "label": "tier_b_template.md",
       "_origin": "ast",
       "community": 10,
-      "community_name": "Documentation",
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
       "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "architecture",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L7"
-    },
-    {
-      "id": "job_kit_starter_docs_concepts",
-      "label": "Concepts",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Documentation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "concepts",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L50"
-    },
-    {
-      "id": "job_kit_starter_docs_customization",
-      "label": "Customization",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Documentation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "customization",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L121"
-    },
-    {
-      "id": "job_kit_starter_docs_documentation",
-      "label": "Documentation",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Documentation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "documentation",
-      "source_file": "job-kit-starter/DOCS.md",
+      "node_kind": "page",
+      "norm_label": "tier_b_template.md",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_docs_everything_in_config_md_edit_directly",
-      "label": "Everything in `config.md` (edit directly)",
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template_body_skeleton_75_100_words_plain_text_no_html_tracking_links",
+      "label": "Body skeleton (75-100 words, plain text, no HTML/tracking links)",
       "_origin": "ast",
       "community": 10,
-      "community_name": "Documentation",
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "everything in `config.md` (edit directly)",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L123"
+      "norm_label": "body skeleton (75-100 words, plain text, no html/tracking links)",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L26"
     },
     {
-      "id": "job_kit_starter_docs_experience_files",
-      "label": "Experience Files",
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template_pre_approved_metric_pool_grounded_in_skill_profile_md_pick_never_paraphrase_numbers",
+      "label": "Pre-approved metric pool (grounded in SKILL_PROFILE.md \u2014 pick, never paraphrase numbers)",
       "_origin": "ast",
       "community": 10,
-      "community_name": "Documentation",
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "experience files",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L64"
+      "norm_label": "pre-approved metric pool (grounded in skill_profile.md \u2014 pick, never paraphrase numbers)",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L19"
     },
     {
-      "id": "job_kit_starter_docs_faq",
-      "label": "FAQ",
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template_slots_fill_from_a_2_minute_lookup_per_company_never_invent",
+      "label": "Slots (fill from a 2-minute lookup per company, never invent)",
       "_origin": "ast",
       "community": 10,
-      "community_name": "Documentation",
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "faq",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L187"
+      "norm_label": "slots (fill from a 2-minute lookup per company, never invent)",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L11"
     },
     {
-      "id": "job_kit_starter_docs_key_design_decisions",
-      "label": "Key Design Decisions",
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template_subject_line_variants_rotate_identical_subjects_across_a_batch_is_a_spam_clustering_signal",
+      "label": "Subject line variants (rotate \u2014 identical subjects across a batch is a spam-clustering signal)",
       "_origin": "ast",
       "community": 10,
-      "community_name": "Documentation",
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "key design decisions",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L174"
+      "norm_label": "subject line variants (rotate \u2014 identical subjects across a batch is a spam-clustering signal)",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L40"
     },
     {
-      "id": "job_kit_starter_docs_knowledge_base_built_by_skills_then_editable",
-      "label": "Knowledge Base (built by skills, then editable)",
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "label": "Tier B cold email \u2014 slot template (volume lane)",
       "_origin": "ast",
       "community": 10,
-      "community_name": "Documentation",
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "knowledge base (built by skills, then editable)",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L144"
+      "norm_label": "tier b cold email \u2014 slot template (volume lane)",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_docs_latex_templates_edit_directly",
-      "label": "LaTeX Templates (edit directly)",
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template_tracking",
+      "label": "Tracking",
       "_origin": "ast",
       "community": 10,
-      "community_name": "Documentation",
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "latex templates (edit directly)",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L136"
+      "norm_label": "tracking",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L57"
     },
     {
-      "id": "job_kit_starter_docs_provenance_flags",
-      "label": "Provenance Flags",
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template_volume_deliverability_rules",
+      "label": "Volume + deliverability rules",
       "_origin": "ast",
       "community": 10,
-      "community_name": "Documentation",
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "provenance flags",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L83"
+      "norm_label": "volume + deliverability rules",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L46"
     },
     {
-      "id": "job_kit_starter_docs_reference_docs_advanced",
-      "label": "Reference Docs (advanced)",
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template_why_a_template_at_all",
+      "label": "Why a template at all",
       "_origin": "ast",
       "community": 10,
-      "community_name": "Documentation",
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "reference docs (advanced)",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L153"
-    },
-    {
-      "id": "job_kit_starter_docs_role_type_bundles",
-      "label": "Role-Type Bundles",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Documentation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "role-type bundles",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L74"
-    },
-    {
-      "id": "job_kit_starter_docs_session_files",
-      "label": "Session Files",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Documentation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "session files",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L52"
-    },
-    {
-      "id": "job_kit_starter_docs_skill_prompts_advanced",
-      "label": "Skill Prompts (advanced)",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Documentation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "skill prompts (advanced)",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L163"
-    },
-    {
-      "id": "job_kit_starter_docs_the_critique_system",
-      "label": "The Critique System",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Documentation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "the critique system",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L91"
-    },
-    {
-      "id": "job_kit_starter_docs_three_session_workflow",
-      "label": "Three-Session Workflow",
-      "_origin": "ast",
-      "community": 10,
-      "community_name": "Documentation",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "three-session workflow",
-      "source_file": "job-kit-starter/DOCS.md",
-      "source_location": "L105"
+      "norm_label": "why a template at all",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L6"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_char_count",
@@ -1832,7 +1748,7 @@
       "node_kind": "heading",
       "norm_label": "after every apply batch",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L128"
+      "source_location": "L133"
     },
     {
       "id": "job_kit_starter_playbook_ats_recipes_every_quirk_here_was_hit_in_production",
@@ -1844,7 +1760,7 @@
       "node_kind": "heading",
       "norm_label": "ats recipes (every quirk here was hit in production)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L60"
+      "source_location": "L65"
     },
     {
       "id": "job_kit_starter_playbook_phase_0_setup_first_session",
@@ -1904,7 +1820,7 @@
       "node_kind": "heading",
       "norm_label": "phase 4 \u2014 cold email outreach (startups without open roles)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L131"
+      "source_location": "L136"
     },
     {
       "id": "job_kit_starter_playbook_phase_5_x_twitter_cold_dms",
@@ -1916,7 +1832,7 @@
       "node_kind": "heading",
       "norm_label": "phase 5 \u2014 x/twitter cold dms",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L142"
+      "source_location": "L157"
     },
     {
       "id": "job_kit_starter_playbook_phase_6_public_tracker_cloudflare_pages",
@@ -1928,7 +1844,7 @@
       "node_kind": "heading",
       "norm_label": "phase 6 \u2014 public tracker (cloudflare pages)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L150"
+      "source_location": "L165"
     },
     {
       "id": "job_kit_starter_playbook_phase_7_cadence_and_priorities",
@@ -1940,7 +1856,7 @@
       "node_kind": "heading",
       "norm_label": "phase 7 \u2014 cadence and priorities",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L154"
+      "source_location": "L169"
     },
     {
       "id": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
@@ -1967,6 +1883,42 @@
       "source_location": "L50"
     },
     {
+      "id": "job_kit_starter_playbook_shared_mechanics_both_tiers",
+      "label": "Shared mechanics (both tiers)",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "PLAYBOOK \u2014 the full job-search campaign, end to end",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "shared mechanics (both tiers)",
+      "source_file": "job-kit-starter/PLAYBOOK.md",
+      "source_location": "L150"
+    },
+    {
+      "id": "job_kit_starter_playbook_tier_a_bespoke_3_5_day",
+      "label": "Tier A \u2014 bespoke, 3-5/day",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "PLAYBOOK \u2014 the full job-search campaign, end to end",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "tier a \u2014 bespoke, 3-5/day",
+      "source_file": "job-kit-starter/PLAYBOOK.md",
+      "source_location": "L140"
+    },
+    {
+      "id": "job_kit_starter_playbook_tier_b_templated_with_slots_20_30_day_volume_lane",
+      "label": "Tier B \u2014 templated-with-slots, 20-30/day (volume lane)",
+      "_origin": "ast",
+      "community": 13,
+      "community_name": "PLAYBOOK \u2014 the full job-search campaign, end to end",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "tier b \u2014 templated-with-slots, 20-30/day (volume lane)",
+      "source_file": "job-kit-starter/PLAYBOOK.md",
+      "source_location": "L145"
+    },
+    {
       "id": "job_kit_starter_playbook_where_the_apply_button_leads_triage_on_click",
       "label": "Where the Apply button leads (triage on click)",
       "_origin": "ast",
@@ -1976,7 +1928,7 @@
       "node_kind": "heading",
       "norm_label": "where the apply button leads (triage on click)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L55"
+      "source_location": "L60"
     },
     {
       "id": "job_kit_starter_skill_profile",
@@ -2836,7 +2788,7 @@
       "node_kind": "heading",
       "norm_label": "accuracy priority",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L100"
+      "source_location": "L111"
     },
     {
       "id": "job_kit_starter_claude_anti_fabrication_rules",
@@ -2848,7 +2800,7 @@
       "node_kind": "heading",
       "norm_label": "anti-fabrication rules",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L96"
+      "source_location": "L107"
     },
     {
       "id": "job_kit_starter_claude_application_flow_per_lead",
@@ -2860,7 +2812,7 @@
       "node_kind": "heading",
       "norm_label": "application flow (per lead)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L165"
+      "source_location": "L176"
     },
     {
       "id": "job_kit_starter_claude_application_tracker",
@@ -2872,7 +2824,7 @@
       "node_kind": "heading",
       "norm_label": "application tracker",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L189"
+      "source_location": "L200"
     },
     {
       "id": "job_kit_starter_claude_candidate_bar_scope_assess_every_lead_against_this_skip_fast_if_it_fails",
@@ -2884,7 +2836,7 @@
       "node_kind": "heading",
       "norm_label": "candidate bar (scope \u2014 assess every lead against this; skip fast if it fails)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L138"
+      "source_location": "L149"
     },
     {
       "id": "job_kit_starter_claude_claude_job_kit_project_instructions",
@@ -2907,6 +2859,18 @@
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "\ud83d\udd10 critical rule \u2014 authentication, session persistence & auto-re-login",
+      "source_file": "job-kit-starter/CLAUDE.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "job_kit_starter_claude_critical_rule_mandatory_tailored_resume_for_every_application_strict",
+      "label": "\ud83d\udcc4 CRITICAL RULE \u2014 Mandatory Tailored Resume for Every Application (STRICT)",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "claude-job-kit \u2014 Project Instructions",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcc4 critical rule \u2014 mandatory tailored resume for every application (strict)",
       "source_file": "job-kit-starter/CLAUDE.md",
       "source_location": "L16"
     },
@@ -2932,7 +2896,7 @@
       "node_kind": "heading",
       "norm_label": "daily scan tools (run from repo root; each keeps a seen-index so re-runs show only new)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L156"
+      "source_location": "L167"
     },
     {
       "id": "job_kit_starter_claude_file_map",
@@ -2944,7 +2908,7 @@
       "node_kind": "heading",
       "norm_label": "file map",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L51"
+      "source_location": "L62"
     },
     {
       "id": "job_kit_starter_claude_first_run_onboarding_do_this_proactively_don_t_make_the_user_read_docs",
@@ -2956,7 +2920,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udc4b first-run onboarding (do this proactively \u2014 don't make the user read docs)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L29"
+      "source_location": "L40"
     },
     {
       "id": "job_kit_starter_claude_generation_rules",
@@ -2968,7 +2932,7 @@
       "node_kind": "heading",
       "norm_label": "generation rules",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L114"
+      "source_location": "L125"
     },
     {
       "id": "job_kit_starter_claude_integrity_non_negotiable",
@@ -2980,7 +2944,7 @@
       "node_kind": "heading",
       "norm_label": "integrity (non-negotiable)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L183"
+      "source_location": "L194"
     },
     {
       "id": "job_kit_starter_claude_job_search_operations_runbook",
@@ -2992,7 +2956,7 @@
       "node_kind": "heading",
       "norm_label": "job-search operations runbook",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L130"
+      "source_location": "L141"
     },
     {
       "id": "job_kit_starter_claude_latex_scientific_notation_mandatory",
@@ -3004,7 +2968,7 @@
       "node_kind": "heading",
       "norm_label": "latex scientific notation (mandatory)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L124"
+      "source_location": "L135"
     },
     {
       "id": "job_kit_starter_claude_provenance_discipline",
@@ -3016,7 +2980,7 @@
       "node_kind": "heading",
       "norm_label": "provenance discipline",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L103"
+      "source_location": "L114"
     },
     {
       "id": "job_kit_starter_claude_recency_filter_removed_2026_09_13_no_cap_on_posting_age",
@@ -3028,7 +2992,7 @@
       "node_kind": "heading",
       "norm_label": "recency filter \u2014 removed (2026-09-13), no cap on posting age",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L149"
+      "source_location": "L160"
     },
     {
       "id": "job_kit_starter_claude_resume_fact_consistency_invariant_hard_won_do_not_skip",
@@ -3040,7 +3004,7 @@
       "node_kind": "heading",
       "norm_label": "\u26a0\ufe0f resume-fact consistency invariant (hard-won \u2014 do not skip)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L172"
+      "source_location": "L183"
     },
     {
       "id": "job_kit_starter_claude_session_handoff",
@@ -3052,7 +3016,7 @@
       "node_kind": "heading",
       "norm_label": "session handoff",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L186"
+      "source_location": "L197"
     },
     {
       "id": "job_kit_starter_claude_session_startup",
@@ -3064,7 +3028,7 @@
       "node_kind": "heading",
       "norm_label": "session startup",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L134"
+      "source_location": "L145"
     },
     {
       "id": "job_kit_starter_claude_user_focus_directives",
@@ -3076,7 +3040,7 @@
       "node_kind": "heading",
       "norm_label": "user focus directives",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L86"
+      "source_location": "L97"
     },
     {
       "id": "job_kit_starter_claude_verb_discipline",
@@ -3088,7 +3052,7 @@
       "node_kind": "heading",
       "norm_label": "verb discipline",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L108"
+      "source_location": "L119"
     },
     {
       "id": "job_kit_starter_claude_verification_before_telling_the_user_a_resume_is_done",
@@ -3100,7 +3064,7 @@
       "node_kind": "heading",
       "norm_label": "verification (before telling the user a resume is done)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L175"
+      "source_location": "L186"
     },
     {
       "id": "job_kit_starter_claude_your_role",
@@ -3112,7 +3076,7 @@
       "node_kind": "heading",
       "norm_label": "your role",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L71"
+      "source_location": "L82"
     },
     {
       "id": "job_kit_starter_resume_builder_examples_example_config",
@@ -3512,7 +3476,19 @@
       "node_kind": "heading",
       "norm_label": "provenance flags",
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L71"
+      "source_location": "L90"
+    },
+    {
+      "id": "job_kit_starter_config_role_types_bundle_mapping",
+      "label": "Role Types \u2192 Bundle Mapping",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "Configuration",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "role types \u2192 bundle mapping",
+      "source_file": "job-kit-starter/config.md",
+      "source_location": "L74"
     },
     {
       "id": "job_kit_starter_config_target_roles_preferences",
@@ -4193,6 +4169,18 @@
       "source_location": "L22"
     },
     {
+      "id": "claude_critical_rule_mandatory_tailored_resume_for_every_application_strict",
+      "label": "\ud83d\udcc4 CRITICAL RULE \u2014 Mandatory Tailored Resume for Every Application (STRICT)",
+      "_origin": "ast",
+      "community": 34,
+      "community_name": "CLAUDE.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udcc4 critical rule \u2014 mandatory tailored resume for every application (strict)",
+      "source_file": "CLAUDE.md",
+      "source_location": "L36"
+    },
+    {
       "id": "claude_graphify",
       "label": "graphify",
       "_origin": "ast",
@@ -4308,7 +4296,7 @@
       "label": "DOCS.md",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "docs.md",
@@ -4316,11 +4304,215 @@
       "source_location": "L1"
     },
     {
+      "id": "job_kit_starter_docs_architecture",
+      "label": "Architecture",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "architecture",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L7"
+    },
+    {
+      "id": "job_kit_starter_docs_concepts",
+      "label": "Concepts",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "concepts",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L50"
+    },
+    {
+      "id": "job_kit_starter_docs_customization",
+      "label": "Customization",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "customization",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L121"
+    },
+    {
+      "id": "job_kit_starter_docs_documentation",
+      "label": "Documentation",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "documentation",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_docs_everything_in_config_md_edit_directly",
+      "label": "Everything in `config.md` (edit directly)",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "everything in `config.md` (edit directly)",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L123"
+    },
+    {
+      "id": "job_kit_starter_docs_experience_files",
+      "label": "Experience Files",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "experience files",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L64"
+    },
+    {
+      "id": "job_kit_starter_docs_faq",
+      "label": "FAQ",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "faq",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L187"
+    },
+    {
+      "id": "job_kit_starter_docs_key_design_decisions",
+      "label": "Key Design Decisions",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "key design decisions",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L174"
+    },
+    {
+      "id": "job_kit_starter_docs_knowledge_base_built_by_skills_then_editable",
+      "label": "Knowledge Base (built by skills, then editable)",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "knowledge base (built by skills, then editable)",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L144"
+    },
+    {
+      "id": "job_kit_starter_docs_latex_templates_edit_directly",
+      "label": "LaTeX Templates (edit directly)",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "latex templates (edit directly)",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L136"
+    },
+    {
+      "id": "job_kit_starter_docs_provenance_flags",
+      "label": "Provenance Flags",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "provenance flags",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L83"
+    },
+    {
+      "id": "job_kit_starter_docs_reference_docs_advanced",
+      "label": "Reference Docs (advanced)",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "reference docs (advanced)",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L153"
+    },
+    {
+      "id": "job_kit_starter_docs_role_type_bundles",
+      "label": "Role-Type Bundles",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "role-type bundles",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L74"
+    },
+    {
+      "id": "job_kit_starter_docs_session_files",
+      "label": "Session Files",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "session files",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L52"
+    },
+    {
+      "id": "job_kit_starter_docs_skill_prompts_advanced",
+      "label": "Skill Prompts (advanced)",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "skill prompts (advanced)",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L163"
+    },
+    {
+      "id": "job_kit_starter_docs_the_critique_system",
+      "label": "The Critique System",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "the critique system",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L91"
+    },
+    {
+      "id": "job_kit_starter_docs_three_session_workflow",
+      "label": "Three-Session Workflow",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "Documentation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "three-session workflow",
+      "source_file": "job-kit-starter/DOCS.md",
+      "source_location": "L105"
+    },
+    {
       "id": "job_kit_starter_quickstart",
       "label": "QUICKSTART.md",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "quickstart.md",
@@ -4332,7 +4524,7 @@
       "label": "1. Install the prerequisites (one-time)",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "1. install the prerequisites (one-time)",
@@ -4344,7 +4536,7 @@
       "label": "2. Open the kit in Claude Code",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "2. open the kit in claude code",
@@ -4356,7 +4548,7 @@
       "label": "3. Say hi",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "3. say hi",
@@ -4368,7 +4560,7 @@
       "label": "4. Start applying",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "4. start applying",
@@ -4380,7 +4572,7 @@
       "label": "Quickstart",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "quickstart",
@@ -4392,7 +4584,7 @@
       "label": "job-kit-starter/README.md",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "job-kit-starter/readme.md",
@@ -4404,7 +4596,7 @@
       "label": "example_session_file.md",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "page",
       "norm_label": "example_session_file.md",
@@ -4416,7 +4608,7 @@
       "label": "Decisions Log",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "decisions log",
@@ -4428,7 +4620,7 @@
       "label": "Metadata",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "metadata",
@@ -4440,7 +4632,7 @@
       "label": "Phase 0: JD Analysis",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "phase 0: jd analysis",
@@ -4452,7 +4644,7 @@
       "label": "Phase 1: Bullet Plan",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "phase 1: bullet plan",
@@ -4464,7 +4656,7 @@
       "label": "Phase 2: Generation",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "phase 2: generation",
@@ -4476,7 +4668,7 @@
       "label": "PhD -- Westfield (Aug 2018 -- Jul 2023) [3 variable bullets]",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "phd -- westfield (aug 2018 -- jul 2023) [3 variable bullets]",
@@ -4488,7 +4680,7 @@
       "label": "Postdoc -- Lakewood University (Aug 2023 -- Present) [4 variable bullets]",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "postdoc -- lakewood university (aug 2023 -- present) [4 variable bullets]",
@@ -4500,7 +4692,7 @@
       "label": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "session: whitfield university -- assistant professor, computational protein engineering",
@@ -4512,7 +4704,7 @@
       "label": "Undergrad Research -- Eastgate (2016 -- 2018) [FIXED, 2 bullets]",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Session: Whitfield University -- Assistant Professor, Computational Protein Engineering",
+      "community_name": "Documentation",
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "undergrad research -- eastgate (2016 -- 2018) [fixed, 2 bullets]",
@@ -4552,7 +4744,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udccb application-form facts",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L25"
+      "source_location": "L28"
     },
     {
       "id": "agents_rules_job_hunt_profile_authentication_session_persistence_rule",
@@ -4564,7 +4756,19 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd10 authentication & session persistence rule",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L57"
+      "source_location": "L75"
+    },
+    {
+      "id": "agents_rules_job_hunt_profile_blocker_handling_fully_autonomous_no_user_check_ins_mid_run",
+      "label": "\ud83d\udea7 Blocker Handling (fully autonomous \u2014 no user check-ins mid-run)",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Job Hunt Profile & Operations Rule",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udea7 blocker handling (fully autonomous \u2014 no user check-ins mid-run)",
+      "source_file": ".agents/rules/job_hunt_profile.md",
+      "source_location": "L69"
     },
     {
       "id": "agents_rules_job_hunt_profile_candidate_bar_pratham_modi",
@@ -4576,7 +4780,19 @@
       "node_kind": "heading",
       "norm_label": "\ud83c\udfaf candidate bar (pratham modi)",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L11"
+      "source_location": "L14"
+    },
+    {
+      "id": "agents_rules_job_hunt_profile_cold_outreach_operations",
+      "label": "\ud83d\udce7 Cold Outreach Operations",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "Job Hunt Profile & Operations Rule",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udce7 cold outreach operations",
+      "source_file": ".agents/rules/job_hunt_profile.md",
+      "source_location": "L61"
     },
     {
       "id": "agents_rules_job_hunt_profile_daily_scan_operations",
@@ -4588,7 +4804,7 @@
       "node_kind": "heading",
       "norm_label": "\u26a1 daily scan operations",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L36"
+      "source_location": "L39"
     },
     {
       "id": "agents_rules_job_hunt_profile_job_hunt_profile_operations_rule",
@@ -4612,7 +4828,7 @@
       "node_kind": "heading",
       "norm_label": "\u2705 submission rule \u2014 auto-submission authorized for qualifying matches",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L3"
+      "source_location": "L5"
     },
     {
       "id": "agents_workflows_daily_scan",
@@ -4623,7 +4839,7 @@
       "file_type": "document",
       "frontmatter": {
         "name": "daily-scan",
-        "description": "Execute the daily multi-channel job scan and triage matches against Pratham Modi&#x27;s candidate bar"
+        "description": "Execute the full daily job-search loop end-to-end \u2014 scan, rank, tailor resumes, auto-apply, and run cold outreach \u2014 fully autonomously, no human involvement mid-run."
       },
       "node_kind": "page",
       "norm_label": "daily_scan.md",
@@ -5190,6 +5406,736 @@
       "source_location": "L5"
     },
     {
+      "id": "apply_avoca",
+      "label": "apply_avoca.js",
+      "_origin": "ast",
+      "community": 50,
+      "community_name": "apply_avoca.js",
+      "file_type": "code",
+      "norm_label": "apply_avoca.js",
+      "source_file": "apply_avoca.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_extract_pdf",
+      "label": "extract_pdf.py",
+      "_origin": "ast",
+      "community": 51,
+      "community_name": "extract_pdf.py",
+      "file_type": "code",
+      "norm_label": "extract_pdf.py",
+      "source_file": "scratch/extract_pdf.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_ai",
+      "label": "bundle_ai.md",
+      "_origin": "ast",
+      "community": 52,
+      "community_name": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "bundle_ai.md",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_ai_1_tagline_formula",
+      "label": "1. Tagline Formula",
+      "_origin": "ast",
+      "community": 52,
+      "community_name": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. tagline formula",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_ai_2_summary_copy_exact_minor_trims_only",
+      "label": "2. Summary (copy-exact, minor trims only)",
+      "_origin": "ast",
+      "community": 52,
+      "community_name": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. summary (copy-exact, minor trims only)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_ai_3_experience_priority_matrix",
+      "label": "3. Experience Priority Matrix",
+      "_origin": "ast",
+      "community": 52,
+      "community_name": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. experience priority matrix",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_ai_4_skills_group_order",
+      "label": "4. Skills Group Order",
+      "_origin": "ast",
+      "community": 52,
+      "community_name": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. skills group order",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L58"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_ai_bundle_ai_agentic_systems_lane_bonus_fit_not_a_primary_lane",
+      "label": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "_origin": "ast",
+      "community": 52,
+      "community_name": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "bundle: ai / agentic systems lane (bonus fit \u2014 not a primary lane)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_ai_c3ihub_iit_kanpur_pick_4_of_6",
+      "label": "C3iHub, IIT Kanpur (pick 4 of 6)",
+      "_origin": "ast",
+      "community": 52,
+      "community_name": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c3ihub, iit kanpur (pick 4 of 6)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_ai_playpower_labs_all_4_this_is_the_ai_heaviest_position",
+      "label": "Playpower Labs (all 4 \u2014 this is the AI-heaviest position)",
+      "_origin": "ast",
+      "community": 52,
+      "community_name": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "playpower labs (all 4 \u2014 this is the ai-heaviest position)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_ai_projects_pick_2_of_3",
+      "label": "Projects (pick 2 of 3)",
+      "_origin": "ast",
+      "community": 52,
+      "community_name": "Bundle: AI / Agentic Systems Lane (bonus fit \u2014 not a primary lane)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "projects (pick 2 of 3)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_backend",
+      "label": "bundle_backend.md",
+      "_origin": "ast",
+      "community": 53,
+      "community_name": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "bundle_backend.md",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_backend_1_tagline_formula",
+      "label": "1. Tagline Formula",
+      "_origin": "ast",
+      "community": 53,
+      "community_name": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. tagline formula",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_backend_2_summary_copy_exact_minor_trims_only",
+      "label": "2. Summary (copy-exact, minor trims only)",
+      "_origin": "ast",
+      "community": 53,
+      "community_name": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. summary (copy-exact, minor trims only)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_backend_3_experience_priority_matrix",
+      "label": "3. Experience Priority Matrix",
+      "_origin": "ast",
+      "community": 53,
+      "community_name": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. experience priority matrix",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_backend_4_skills_group_order",
+      "label": "4. Skills Group Order",
+      "_origin": "ast",
+      "community": 53,
+      "community_name": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. skills group order",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_backend_bundle_backend_node_js_distributed_systems_lane",
+      "label": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "_origin": "ast",
+      "community": 53,
+      "community_name": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "bundle: backend / node.js / distributed systems lane",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_backend_c3ihub_iit_kanpur_pick_4_of_6_see_rationale",
+      "label": "C3iHub, IIT Kanpur (pick 4 of 6 \u2014 see rationale)",
+      "_origin": "ast",
+      "community": 53,
+      "community_name": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c3ihub, iit kanpur (pick 4 of 6 \u2014 see rationale)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L31"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_backend_playpower_labs_pick_3_4_of_4",
+      "label": "Playpower Labs (pick 3-4 of 4)",
+      "_origin": "ast",
+      "community": 53,
+      "community_name": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "playpower labs (pick 3-4 of 4)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_backend_projects_pick_2_of_3",
+      "label": "Projects (pick 2 of 3)",
+      "_origin": "ast",
+      "community": 53,
+      "community_name": "Bundle: Backend / Node.js / Distributed Systems Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "projects (pick 2 of 3)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L53"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_fullstack",
+      "label": "bundle_fullstack.md",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Bundle: Full-Stack Lane",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "bundle_fullstack.md",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_fullstack_1_tagline_formula",
+      "label": "1. Tagline Formula",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Bundle: Full-Stack Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. tagline formula",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_fullstack_2_summary_copy_exact_minor_trims_only",
+      "label": "2. Summary (copy-exact, minor trims only)",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Bundle: Full-Stack Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. summary (copy-exact, minor trims only)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_fullstack_3_experience_priority_matrix",
+      "label": "3. Experience Priority Matrix",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Bundle: Full-Stack Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. experience priority matrix",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_fullstack_4_skills_group_order",
+      "label": "4. Skills Group Order",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Bundle: Full-Stack Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. skills group order",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_fullstack_bundle_full_stack_lane",
+      "label": "Bundle: Full-Stack Lane",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Bundle: Full-Stack Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "bundle: full-stack lane",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_fullstack_c3ihub_iit_kanpur_pick_4_of_6",
+      "label": "C3iHub, IIT Kanpur (pick 4 of 6)",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Bundle: Full-Stack Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c3ihub, iit kanpur (pick 4 of 6)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_fullstack_playpower_labs_pick_3_4_of_4",
+      "label": "Playpower Labs (pick 3-4 of 4)",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Bundle: Full-Stack Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "playpower labs (pick 3-4 of 4)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L39"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_bundles_bundle_fullstack_projects_pick_2_of_3",
+      "label": "Projects (pick 2 of 3)",
+      "_origin": "ast",
+      "community": 54,
+      "community_name": "Bundle: Full-Stack Lane",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "projects (pick 2 of 3)",
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_c3ihub",
+      "label": "experience_c3ihub.md",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": "Experience: Software Development Engineer \u2014 C3iHub, IIT Kanpur",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "experience_c3ihub.md",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_c3ihub_c1_core_lms_backend_at_scale",
+      "label": "C1 \u2014 Core LMS backend at scale",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": "Experience: Software Development Engineer \u2014 C3iHub, IIT Kanpur",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c1 \u2014 core lms backend at scale",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_c3ihub_c2_cost_latency_optimization",
+      "label": "C2 \u2014 Cost + latency optimization",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": "Experience: Software Development Engineer \u2014 C3iHub, IIT Kanpur",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c2 \u2014 cost + latency optimization",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L21"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_c3ihub_c3_event_driven_messaging",
+      "label": "C3 \u2014 Event-driven messaging",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": "Experience: Software Development Engineer \u2014 C3iHub, IIT Kanpur",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c3 \u2014 event-driven messaging",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_c3ihub_c4_observability",
+      "label": "C4 \u2014 Observability",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": "Experience: Software Development Engineer \u2014 C3iHub, IIT Kanpur",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c4 \u2014 observability",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L29"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_c3ihub_c5_national_scale_platform_leadership_high_value_currently_underused_see_audit_note",
+      "label": "C5 \u2014 National-scale platform + leadership (HIGH-VALUE, currently underused \u2014 see audit note)",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": "Experience: Software Development Engineer \u2014 C3iHub, IIT Kanpur",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c5 \u2014 national-scale platform + leadership (high-value, currently underused \u2014 see audit note)",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_c3ihub_c6_real_time_collaborative_feature",
+      "label": "C6 \u2014 Real-time collaborative feature",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": "Experience: Software Development Engineer \u2014 C3iHub, IIT Kanpur",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "c6 \u2014 real-time collaborative feature",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_c3ihub_experience_software_development_engineer_c3ihub_iit_kanpur",
+      "label": "Experience: Software Development Engineer \u2014 C3iHub, IIT Kanpur",
+      "_origin": "ast",
+      "community": 55,
+      "community_name": "Experience: Software Development Engineer \u2014 C3iHub, IIT Kanpur",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "experience: software development engineer \u2014 c3ihub, iit kanpur",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_playpower",
+      "label": "experience_playpower.md",
+      "_origin": "ast",
+      "community": 56,
+      "community_name": "Experience: Software Development Engineer \u2014 Playpower Labs",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "experience_playpower.md",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_playpower_experience_software_development_engineer_playpower_labs",
+      "label": "Experience: Software Development Engineer \u2014 Playpower Labs",
+      "_origin": "ast",
+      "community": 56,
+      "community_name": "Experience: Software Development Engineer \u2014 Playpower Labs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "experience: software development engineer \u2014 playpower labs",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_playpower_known_truthful_gap_do_not_paper_over",
+      "label": "Known truthful gap \u2014 DO NOT paper over",
+      "_origin": "ast",
+      "community": 56,
+      "community_name": "Experience: Software Development Engineer \u2014 Playpower Labs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "known truthful gap \u2014 do not paper over",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L33"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_playpower_pp1_ai_tutoring_platform_two_lane_variants_pick_one_per_bundle",
+      "label": "PP1 \u2014 AI tutoring platform (two lane variants \u2014 pick ONE per bundle)",
+      "_origin": "ast",
+      "community": 56,
+      "community_name": "Experience: Software Development Engineer \u2014 Playpower Labs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pp1 \u2014 ai tutoring platform (two lane variants \u2014 pick one per bundle)",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L10"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_playpower_pp2_rag_retrieval_ai_lane_only_cap_at_1_ai_specific_bullet_total_for_backend_full_stack_lanes",
+      "label": "PP2 \u2014 RAG retrieval (AI lane only \u2014 cap at 1 AI-specific bullet total for Backend/Full-Stack lanes)",
+      "_origin": "ast",
+      "community": 56,
+      "community_name": "Experience: Software Development Engineer \u2014 Playpower Labs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pp2 \u2014 rag retrieval (ai lane only \u2014 cap at 1 ai-specific bullet total for backend/full-stack lanes)",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L19"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_playpower_pp3_ingestion_pipeline_ai_lane_only",
+      "label": "PP3 \u2014 Ingestion pipeline (AI lane only)",
+      "_origin": "ast",
+      "community": 56,
+      "community_name": "Experience: Software Development Engineer \u2014 Playpower Labs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pp3 \u2014 ingestion pipeline (ai lane only)",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L23"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_playpower_pp4_ci_cd_usable_in_every_lane_strong_devops_signal",
+      "label": "PP4 \u2014 CI/CD (usable in every lane \u2014 strong DevOps signal)",
+      "_origin": "ast",
+      "community": 56,
+      "community_name": "Experience: Software Development Engineer \u2014 Playpower Labs",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pp4 \u2014 ci/cd (usable in every lane \u2014 strong devops signal)",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L27"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_achievement_reframing_guide",
+      "label": "achievement_reframing_guide.md",
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "Achievement Reframing Guide (SWE Edition)",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "achievement_reframing_guide.md",
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_achievement_reframing_guide_achievement_reframing_guide_swe_edition",
+      "label": "Achievement Reframing Guide (SWE Edition)",
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "Achievement Reframing Guide (SWE Edition)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "achievement reframing guide (swe edition)",
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_achievement_reframing_guide_bullet_generation_policy_overrides_resume_reference_md_for_this_project",
+      "label": "Bullet Generation Policy (overrides resume_reference.md for this project)",
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "Achievement Reframing Guide (SWE Edition)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "bullet generation policy (overrides resume_reference.md for this project)",
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L43"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_achievement_reframing_guide_hiring_manager_audit_findings_2026_09_14_why_these_rules_exist",
+      "label": "Hiring-Manager Audit Findings (2026-09-14) \u2014 why these rules exist",
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "Achievement Reframing Guide (SWE Edition)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "hiring-manager audit findings (2026-09-14) \u2014 why these rules exist",
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L13"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_achievement_reframing_guide_known_gaps_truthful_do_not_paper_over",
+      "label": "Known Gaps (truthful \u2014 do not paper over)",
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "Achievement Reframing Guide (SWE Edition)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "known gaps (truthful \u2014 do not paper over)",
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L92"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_achievement_reframing_guide_lane_selection_decision_tree",
+      "label": "Lane Selection Decision Tree",
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "Achievement Reframing Guide (SWE Edition)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "lane selection decision tree",
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L68"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_achievement_reframing_guide_swe_resume_budget_overrides_resume_reference_md_quick_budget_card_for_this_project",
+      "label": "SWE Resume Budget (overrides `resume_reference.md` Quick Budget Card for this project)",
+      "_origin": "ast",
+      "community": 57,
+      "community_name": "Achievement Reframing Guide (SWE Edition)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "swe resume budget (overrides `resume_reference.md` quick budget card for this project)",
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L79"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_projects",
+      "label": "experience_projects.md",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "Experience: Projects Pool",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "experience_projects.md",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_projects.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_projects_experience_projects_pool",
+      "label": "Experience: Projects Pool",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "Experience: Projects Pool",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "experience: projects pool",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_projects.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_projects_pj1_autonomous_invoice_processing_platform",
+      "label": "PJ1 \u2014 Autonomous Invoice Processing Platform",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "Experience: Projects Pool",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pj1 \u2014 autonomous invoice processing platform",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_projects.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_projects_pj2_deploymind_ai_powered_gitops_platform",
+      "label": "PJ2 \u2014 DeployMind: AI-Powered GitOps Platform",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "Experience: Projects Pool",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pj2 \u2014 deploymind: ai-powered gitops platform",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_projects.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_experience_experience_projects_pj3_mnemoniq_multi_tier_memory_ai_agent",
+      "label": "PJ3 \u2014 Mnemoniq: Multi-Tier Memory AI Agent",
+      "_origin": "ast",
+      "community": 58,
+      "community_name": "Experience: Projects Pool",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "pj3 \u2014 mnemoniq: multi-tier memory ai agent",
+      "source_file": "job-kit-starter/resume_builder/experience/experience_projects.md",
+      "source_location": "L20"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_ai_fingerprint_rules",
+      "label": "ai_fingerprint_rules.md",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "AI Fingerprint Rules",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "ai_fingerprint_rules.md",
+      "source_file": "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_ai_fingerprint_rules",
+      "label": "AI Fingerprint Rules",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "AI Fingerprint Rules",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "ai fingerprint rules",
+      "source_file": "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_banned_words_phrases_tier_1_hard_fail_if_present",
+      "label": "Banned words / phrases (Tier 1 \u2014 hard fail if present)",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "AI Fingerprint Rules",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "banned words / phrases (tier 1 \u2014 hard fail if present)",
+      "source_file": "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_post_generation_scan_checklist",
+      "label": "Post-generation scan checklist",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "AI Fingerprint Rules",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "post-generation scan checklist",
+      "source_file": "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_structural_rules",
+      "label": "Structural rules",
+      "_origin": "ast",
+      "community": 59,
+      "community_name": "AI Fingerprint Rules",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "structural rules",
+      "source_file": "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md",
+      "source_location": "L15"
+    },
+    {
       "id": "scratch_playwright_client",
       "label": "playwright_client.py",
       "_origin": "ast",
@@ -5198,6 +6144,54 @@
       "file_type": "code",
       "norm_label": "playwright_client.py",
       "source_file": "scratch/playwright_client.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_skills_taxonomy",
+      "label": "skills_taxonomy.md",
+      "_origin": "ast",
+      "community": 60,
+      "community_name": "Skills Taxonomy",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "skills_taxonomy.md",
+      "source_file": "job-kit-starter/resume_builder/support/skills_taxonomy.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_skills_taxonomy_bolding_rule",
+      "label": "Bolding rule",
+      "_origin": "ast",
+      "community": 60,
+      "community_name": "Skills Taxonomy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "bolding rule",
+      "source_file": "job-kit-starter/resume_builder/support/skills_taxonomy.md",
+      "source_location": "L17"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_skills_taxonomy_demonstrated_vs_listed_only_skills",
+      "label": "Demonstrated vs. listed-only skills",
+      "_origin": "ast",
+      "community": 60,
+      "community_name": "Skills Taxonomy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "demonstrated vs. listed-only skills",
+      "source_file": "job-kit-starter/resume_builder/support/skills_taxonomy.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "job_kit_starter_resume_builder_support_skills_taxonomy_skills_taxonomy",
+      "label": "Skills Taxonomy",
+      "_origin": "ast",
+      "community": 60,
+      "community_name": "Skills Taxonomy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "skills taxonomy",
+      "source_file": "job-kit-starter/resume_builder/support/skills_taxonomy.md",
       "source_location": "L1"
     },
     {
@@ -5422,7 +6416,7 @@
       "node_kind": "heading",
       "norm_label": "budget gate (after user confirms bullet plan, before phase 2)",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L163"
+      "source_location": "L168"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_char_count_gate_per_position",
@@ -5434,7 +6428,7 @@
       "node_kind": "heading",
       "norm_label": "char count gate (per position)",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L201"
+      "source_location": "L206"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_compile_gate",
@@ -5446,7 +6440,7 @@
       "node_kind": "heading",
       "norm_label": "compile gate",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L210"
+      "source_location": "L215"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_end_of_make_resume",
@@ -5458,7 +6452,7 @@
       "node_kind": "heading",
       "norm_label": "end of /make-resume",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L222"
+      "source_location": "L228"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_make_resume",
@@ -5482,7 +6476,7 @@
       "node_kind": "heading",
       "norm_label": ">>>>>> mandatory stop <<<<<<",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L231"
+      "source_location": "L237"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_mandatory_stop_do_not_proceed",
@@ -5494,10 +6488,10 @@
       "node_kind": "heading",
       "norm_label": ">>>>>> mandatory stop \u2014 do not proceed <<<<<<",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L111"
+      "source_location": "L115"
     },
     {
-      "id": "job_kit_starter_claude_skills_make_resume_skill_mandatory_stop_do_not_proceed_155",
+      "id": "job_kit_starter_claude_skills_make_resume_skill_mandatory_stop_do_not_proceed_160",
       "label": ">>>>>> MANDATORY STOP \u2014 DO NOT PROCEED <<<<<<",
       "_origin": "ast",
       "community": 8,
@@ -5506,7 +6500,7 @@
       "node_kind": "heading",
       "norm_label": ">>>>>> mandatory stop \u2014 do not proceed <<<<<<",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L155"
+      "source_location": "L160"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_page_fill_gate",
@@ -5518,7 +6512,7 @@
       "node_kind": "heading",
       "norm_label": "page fill gate",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L207"
+      "source_location": "L212"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_phase_0_research_session_setup",
@@ -5530,7 +6524,7 @@
       "node_kind": "heading",
       "norm_label": "phase 0: research & session setup",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L74"
+      "source_location": "L78"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_phase_1_plan_bullets",
@@ -5542,7 +6536,7 @@
       "node_kind": "heading",
       "norm_label": "phase 1: plan bullets",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L119"
+      "source_location": "L123"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_phase_2_generate",
@@ -5554,7 +6548,7 @@
       "node_kind": "heading",
       "norm_label": "phase 2: generate",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L173"
+      "source_location": "L178"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_quick_mode",
@@ -5566,7 +6560,7 @@
       "node_kind": "heading",
       "norm_label": "quick mode",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L60"
+      "source_location": "L64"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_safety_rules_always_enforced",
@@ -5590,7 +6584,7 @@
       "node_kind": "heading",
       "norm_label": "startup",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L43"
+      "source_location": "L47"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_user_input_during_execution",
@@ -5602,7 +6596,7 @@
       "node_kind": "heading",
       "norm_label": "user input during execution",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L32"
+      "source_location": "L36"
     },
     {
       "id": "job_kit_starter_job_hunt",
@@ -6361,7 +7355,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L11",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -6372,18 +7366,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L25",
-      "weight": 1.0
-    },
-    {
-      "source": "agents_rules_job_hunt_profile_job_hunt_profile_operations_rule",
-      "target": "agents_rules_job_hunt_profile_submission_rule_auto_submission_authorized_for_qualifying_matches",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L3",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -6394,7 +7377,40 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L36",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_rules_job_hunt_profile_job_hunt_profile_operations_rule",
+      "target": "agents_rules_job_hunt_profile_submission_rule_auto_submission_authorized_for_qualifying_matches",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/rules/job_hunt_profile.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_rules_job_hunt_profile_job_hunt_profile_operations_rule",
+      "target": "agents_rules_job_hunt_profile_cold_outreach_operations",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/rules/job_hunt_profile.md",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "agents_rules_job_hunt_profile_job_hunt_profile_operations_rule",
+      "target": "agents_rules_job_hunt_profile_blocker_handling_fully_autonomous_no_user_check_ins_mid_run",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".agents/rules/job_hunt_profile.md",
+      "source_location": "L69",
       "weight": 1.0
     },
     {
@@ -6405,7 +7421,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L57",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -6475,6 +7491,17 @@
       "weight": 1.0
     },
     {
+      "source": "claude",
+      "target": "claude_critical_rule_mandatory_tailored_resume_for_every_application_strict",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_claude",
       "target": "job_kit_starter_claude_claude_job_kit_project_instructions",
       "relation": "contains",
@@ -6537,7 +7564,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L100",
+      "source_location": "L111",
       "weight": 1.0
     },
     {
@@ -6548,7 +7575,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L103",
+      "source_location": "L114",
       "weight": 1.0
     },
     {
@@ -6559,7 +7586,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L108",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_claude_claude_job_kit_project_instructions",
+      "target": "job_kit_starter_claude_anti_fabrication_rules",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/CLAUDE.md",
+      "source_location": "L107",
       "weight": 1.0
     },
     {
@@ -6570,7 +7608,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L114",
+      "source_location": "L125",
       "weight": 1.0
     },
     {
@@ -6581,7 +7619,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L124",
+      "source_location": "L135",
       "weight": 1.0
     },
     {
@@ -6592,12 +7630,12 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L130",
+      "source_location": "L141",
       "weight": 1.0
     },
     {
       "source": "job_kit_starter_claude_claude_job_kit_project_instructions",
-      "target": "job_kit_starter_claude_critical_rule_authentication_session_persistence_auto_re_login",
+      "target": "job_kit_starter_claude_critical_rule_mandatory_tailored_resume_for_every_application_strict",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -6614,7 +7652,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L189",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_claude_claude_job_kit_project_instructions",
+      "target": "job_kit_starter_claude_critical_rule_authentication_session_persistence_auto_re_login",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/CLAUDE.md",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -6625,7 +7674,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L29",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -6636,18 +7685,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L51",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_claude_claude_job_kit_project_instructions",
-      "target": "job_kit_starter_claude_your_role",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L71",
+      "source_location": "L62",
       "weight": 1.0
     },
     {
@@ -6663,24 +7701,24 @@
     },
     {
       "source": "job_kit_starter_claude_claude_job_kit_project_instructions",
+      "target": "job_kit_starter_claude_your_role",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/CLAUDE.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_claude_claude_job_kit_project_instructions",
       "target": "job_kit_starter_claude_user_focus_directives",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L86",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_claude_claude_job_kit_project_instructions",
-      "target": "job_kit_starter_claude_anti_fabrication_rules",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L96",
+      "source_location": "L97",
       "weight": 1.0
     },
     {
@@ -6691,7 +7729,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L134",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -6702,7 +7740,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L138",
+      "source_location": "L149",
       "weight": 1.0
     },
     {
@@ -6713,7 +7751,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L149",
+      "source_location": "L160",
       "weight": 1.0
     },
     {
@@ -6724,7 +7762,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L156",
+      "source_location": "L167",
       "weight": 1.0
     },
     {
@@ -6735,7 +7773,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L165",
+      "source_location": "L176",
       "weight": 1.0
     },
     {
@@ -6746,7 +7784,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L172",
+      "source_location": "L183",
       "weight": 1.0
     },
     {
@@ -6757,7 +7795,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L175",
+      "source_location": "L186",
       "weight": 1.0
     },
     {
@@ -6768,7 +7806,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L183",
+      "source_location": "L194",
       "weight": 1.0
     },
     {
@@ -6779,7 +7817,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L186",
+      "source_location": "L197",
       "weight": 1.0
     },
     {
@@ -7142,7 +8180,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L231",
+      "source_location": "L237",
       "weight": 1.0
     },
     {
@@ -7153,7 +8191,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L119",
+      "source_location": "L123",
       "weight": 1.0
     },
     {
@@ -7164,7 +8202,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L163",
+      "source_location": "L168",
       "weight": 1.0
     },
     {
@@ -7175,7 +8213,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L173",
+      "source_location": "L178",
       "weight": 1.0
     },
     {
@@ -7197,7 +8235,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L222",
+      "source_location": "L228",
       "weight": 1.0
     },
     {
@@ -7208,7 +8246,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L32",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -7219,7 +8257,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L43",
+      "source_location": "L47",
       "weight": 1.0
     },
     {
@@ -7230,7 +8268,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L60",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -7241,7 +8279,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L74",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -7252,18 +8290,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L111",
+      "source_location": "L115",
       "weight": 1.0
     },
     {
       "source": "job_kit_starter_claude_skills_make_resume_skill_phase_1_plan_bullets",
-      "target": "job_kit_starter_claude_skills_make_resume_skill_mandatory_stop_do_not_proceed_155",
+      "target": "job_kit_starter_claude_skills_make_resume_skill_mandatory_stop_do_not_proceed_160",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L155",
+      "source_location": "L160",
       "weight": 1.0
     },
     {
@@ -7274,7 +8312,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L201",
+      "source_location": "L206",
       "weight": 1.0
     },
     {
@@ -7285,7 +8323,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L207",
+      "source_location": "L212",
       "weight": 1.0
     },
     {
@@ -7296,7 +8334,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L210",
+      "source_location": "L215",
       "weight": 1.0
     },
     {
@@ -7631,13 +8669,24 @@
     },
     {
       "source": "job_kit_starter_config_configuration",
+      "target": "job_kit_starter_config_role_types_bundle_mapping",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/config.md",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_config_configuration",
       "target": "job_kit_starter_config_provenance_flags",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L71",
+      "source_location": "L90",
       "weight": 1.0
     },
     {
@@ -7861,6 +8910,17 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_hn_scan",
+      "target": "job_kit_starter_hn_scan_emails_of",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/hn_scan.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_job_hunt",
       "target": "job_kit_starter_job_hunt_region",
       "relation": "contains",
@@ -8004,6 +9064,94 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_slots_fill_from_a_2_minute_lookup_per_company_never_invent",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_pre_approved_metric_pool_grounded_in_skill_profile_md_pick_never_paraphrase_numbers",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_body_skeleton_75_100_words_plain_text_no_html_tracking_links",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_subject_line_variants_rotate_identical_subjects_across_a_batch_is_a_spam_clustering_signal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_volume_deliverability_rules",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_tracking",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_why_a_template_at_all",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_playbook",
       "target": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
       "relation": "contains",
@@ -8022,7 +9170,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L128",
+      "source_location": "L133",
       "weight": 1.0
     },
     {
@@ -8044,7 +9192,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L55",
+      "source_location": "L60",
       "weight": 1.0
     },
     {
@@ -8055,34 +9203,34 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L60",
+      "source_location": "L65",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
-      "target": "job_kit_starter_playbook_phase_4_cold_email_outreach_startups_without_open_roles",
+      "source": "job_kit_starter_playbook_phase_4_cold_email_outreach_startups_without_open_roles",
+      "target": "job_kit_starter_playbook_tier_a_bespoke_3_5_day",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L131",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
-      "target": "job_kit_starter_playbook_phase_5_x_twitter_cold_dms",
+      "source": "job_kit_starter_playbook_phase_4_cold_email_outreach_startups_without_open_roles",
+      "target": "job_kit_starter_playbook_tier_b_templated_with_slots_20_30_day_volume_lane",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L142",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
-      "target": "job_kit_starter_playbook_phase_6_public_tracker_cloudflare_pages",
+      "source": "job_kit_starter_playbook_phase_4_cold_email_outreach_startups_without_open_roles",
+      "target": "job_kit_starter_playbook_shared_mechanics_both_tiers",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8093,13 +9241,46 @@
     },
     {
       "source": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
+      "target": "job_kit_starter_playbook_phase_4_cold_email_outreach_startups_without_open_roles",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/PLAYBOOK.md",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
+      "target": "job_kit_starter_playbook_phase_5_x_twitter_cold_dms",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/PLAYBOOK.md",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
+      "target": "job_kit_starter_playbook_phase_6_public_tracker_cloudflare_pages",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/PLAYBOOK.md",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
       "target": "job_kit_starter_playbook_phase_7_cadence_and_priorities",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L154",
+      "source_location": "L169",
       "weight": 1.0
     },
     {
@@ -8419,6 +9600,270 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/README.md",
       "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_ai",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_ai_bundle_ai_agentic_systems_lane_bonus_fit_not_a_primary_lane",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_ai_3_experience_priority_matrix",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_ai_c3ihub_iit_kanpur_pick_4_of_6",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_ai_3_experience_priority_matrix",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_ai_playpower_labs_all_4_this_is_the_ai_heaviest_position",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_ai_3_experience_priority_matrix",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_ai_projects_pick_2_of_3",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_ai_bundle_ai_agentic_systems_lane_bonus_fit_not_a_primary_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_ai_1_tagline_formula",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_ai_bundle_ai_agentic_systems_lane_bonus_fit_not_a_primary_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_ai_2_summary_copy_exact_minor_trims_only",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_ai_bundle_ai_agentic_systems_lane_bonus_fit_not_a_primary_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_ai_3_experience_priority_matrix",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_ai_bundle_ai_agentic_systems_lane_bonus_fit_not_a_primary_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_ai_4_skills_group_order",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_ai.md",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_backend",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_backend_bundle_backend_node_js_distributed_systems_lane",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_backend_3_experience_priority_matrix",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_backend_c3ihub_iit_kanpur_pick_4_of_6_see_rationale",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_backend_3_experience_priority_matrix",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_backend_playpower_labs_pick_3_4_of_4",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_backend_3_experience_priority_matrix",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_backend_projects_pick_2_of_3",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_backend_bundle_backend_node_js_distributed_systems_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_backend_2_summary_copy_exact_minor_trims_only",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_backend_bundle_backend_node_js_distributed_systems_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_backend_3_experience_priority_matrix",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_backend_bundle_backend_node_js_distributed_systems_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_backend_4_skills_group_order",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_backend_bundle_backend_node_js_distributed_systems_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_backend_1_tagline_formula",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_backend.md",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_fullstack",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_fullstack_bundle_full_stack_lane",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_fullstack_3_experience_priority_matrix",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_fullstack_c3ihub_iit_kanpur_pick_4_of_6",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_fullstack_3_experience_priority_matrix",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_fullstack_playpower_labs_pick_3_4_of_4",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_fullstack_3_experience_priority_matrix",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_fullstack_projects_pick_2_of_3",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_fullstack_bundle_full_stack_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_fullstack_2_summary_copy_exact_minor_trims_only",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_fullstack_bundle_full_stack_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_fullstack_3_experience_priority_matrix",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_fullstack_bundle_full_stack_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_fullstack_4_skills_group_order",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_bundles_bundle_fullstack_bundle_full_stack_lane",
+      "target": "job_kit_starter_resume_builder_bundles_bundle_fullstack_1_tagline_formula",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/bundles/bundle_fullstack.md",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -8972,6 +10417,193 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_resume_builder_experience_experience_c3ihub",
+      "target": "job_kit_starter_resume_builder_experience_experience_c3ihub_experience_software_development_engineer_c3ihub_iit_kanpur",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_c3ihub_experience_software_development_engineer_c3ihub_iit_kanpur",
+      "target": "job_kit_starter_resume_builder_experience_experience_c3ihub_c1_core_lms_backend_at_scale",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_c3ihub_experience_software_development_engineer_c3ihub_iit_kanpur",
+      "target": "job_kit_starter_resume_builder_experience_experience_c3ihub_c2_cost_latency_optimization",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_c3ihub_experience_software_development_engineer_c3ihub_iit_kanpur",
+      "target": "job_kit_starter_resume_builder_experience_experience_c3ihub_c3_event_driven_messaging",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_c3ihub_experience_software_development_engineer_c3ihub_iit_kanpur",
+      "target": "job_kit_starter_resume_builder_experience_experience_c3ihub_c4_observability",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_c3ihub_experience_software_development_engineer_c3ihub_iit_kanpur",
+      "target": "job_kit_starter_resume_builder_experience_experience_c3ihub_c5_national_scale_platform_leadership_high_value_currently_underused_see_audit_note",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_c3ihub_experience_software_development_engineer_c3ihub_iit_kanpur",
+      "target": "job_kit_starter_resume_builder_experience_experience_c3ihub_c6_real_time_collaborative_feature",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_c3ihub.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_playpower",
+      "target": "job_kit_starter_resume_builder_experience_experience_playpower_experience_software_development_engineer_playpower_labs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_playpower_experience_software_development_engineer_playpower_labs",
+      "target": "job_kit_starter_resume_builder_experience_experience_playpower_pp1_ai_tutoring_platform_two_lane_variants_pick_one_per_bundle",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_playpower_experience_software_development_engineer_playpower_labs",
+      "target": "job_kit_starter_resume_builder_experience_experience_playpower_pp2_rag_retrieval_ai_lane_only_cap_at_1_ai_specific_bullet_total_for_backend_full_stack_lanes",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_playpower_experience_software_development_engineer_playpower_labs",
+      "target": "job_kit_starter_resume_builder_experience_experience_playpower_pp3_ingestion_pipeline_ai_lane_only",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_playpower_experience_software_development_engineer_playpower_labs",
+      "target": "job_kit_starter_resume_builder_experience_experience_playpower_pp4_ci_cd_usable_in_every_lane_strong_devops_signal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_playpower_experience_software_development_engineer_playpower_labs",
+      "target": "job_kit_starter_resume_builder_experience_experience_playpower_known_truthful_gap_do_not_paper_over",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_playpower.md",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_projects",
+      "target": "job_kit_starter_resume_builder_experience_experience_projects_experience_projects_pool",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_projects.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_projects_experience_projects_pool",
+      "target": "job_kit_starter_resume_builder_experience_experience_projects_pj2_deploymind_ai_powered_gitops_platform",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_projects.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_projects_experience_projects_pool",
+      "target": "job_kit_starter_resume_builder_experience_experience_projects_pj3_mnemoniq_multi_tier_memory_ai_agent",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_projects.md",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_experience_experience_projects_experience_projects_pool",
+      "target": "job_kit_starter_resume_builder_experience_experience_projects_pj1_autonomous_invoice_processing_platform",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/experience/experience_projects.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_resume_builder_helpers_char_count",
       "target": "job_kit_starter_resume_builder_helpers_char_count_format_one",
       "relation": "contains",
@@ -9298,106 +10930,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L151",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
-      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_3_interview_likelihood_assessment",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L182",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
-      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_4_actionable_improvements_ranked",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L210",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
-      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_5_interview_bridge_points",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L239",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
-      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_6_cover_letter_critique_context_aware",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L251",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
-      "target": "job_kit_starter_resume_builder_reference_critique_framework_critique_output_template",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L311",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
-      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_6g_ai_fingerprint_scan",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L440",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
-      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_7_post_generation_verification",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L452",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
-      "target": "job_kit_starter_resume_builder_reference_critique_framework_when_to_use_multi_pass_vs_single_pass",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L481",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
-      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_1_five_perspective_read_through",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L73",
+      "source_location": "L159",
       "weight": 1.0
     },
     {
@@ -9408,7 +10941,106 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L9",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
+      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_3_interview_likelihood_assessment",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
+      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_4_actionable_improvements_ranked",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
+      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_5_interview_bridge_points",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
+      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_6_cover_letter_critique_context_aware",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
+      "target": "job_kit_starter_resume_builder_reference_critique_framework_critique_output_template",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
+      "source_location": "L319",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
+      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_6g_ai_fingerprint_scan",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
+      "source_location": "L448",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
+      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_7_post_generation_verification",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
+      "source_location": "L460",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
+      "target": "job_kit_starter_resume_builder_reference_critique_framework_when_to_use_multi_pass_vs_single_pass",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
+      "source_location": "L489",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_reference_critique_framework_critique_framework_consolidated_multi_perspective_protocol",
+      "target": "job_kit_starter_resume_builder_reference_critique_framework_part_1_five_perspective_read_through",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -9419,7 +11051,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L13",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
@@ -9430,7 +11062,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L65",
+      "source_location": "L73",
       "weight": 1.0
     },
     {
@@ -9441,7 +11073,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L105",
+      "source_location": "L113",
       "weight": 1.0
     },
     {
@@ -9452,7 +11084,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L120",
+      "source_location": "L128",
       "weight": 1.0
     },
     {
@@ -9463,7 +11095,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L135",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -9474,7 +11106,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L77",
+      "source_location": "L85",
       "weight": 1.0
     },
     {
@@ -9485,7 +11117,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L90",
+      "source_location": "L98",
       "weight": 1.0
     },
     {
@@ -9496,7 +11128,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L186",
+      "source_location": "L194",
       "weight": 1.0
     },
     {
@@ -9507,7 +11139,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L198",
+      "source_location": "L206",
       "weight": 1.0
     },
     {
@@ -9518,7 +11150,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L214",
+      "source_location": "L222",
       "weight": 1.0
     },
     {
@@ -9529,7 +11161,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L223",
+      "source_location": "L231",
       "weight": 1.0
     },
     {
@@ -9540,7 +11172,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L229",
+      "source_location": "L237",
       "weight": 1.0
     },
     {
@@ -9551,7 +11183,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L234",
+      "source_location": "L242",
       "weight": 1.0
     },
     {
@@ -9562,7 +11194,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L255",
+      "source_location": "L263",
       "weight": 1.0
     },
     {
@@ -9573,7 +11205,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L265",
+      "source_location": "L273",
       "weight": 1.0
     },
     {
@@ -9584,7 +11216,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L272",
+      "source_location": "L280",
       "weight": 1.0
     },
     {
@@ -9595,7 +11227,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L289",
+      "source_location": "L297",
       "weight": 1.0
     },
     {
@@ -9606,7 +11238,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L294",
+      "source_location": "L302",
       "weight": 1.0
     },
     {
@@ -9617,7 +11249,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L302",
+      "source_location": "L310",
       "weight": 1.0
     },
     {
@@ -9628,7 +11260,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L456",
+      "source_location": "L464",
       "weight": 1.0
     },
     {
@@ -9639,7 +11271,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L462",
+      "source_location": "L470",
       "weight": 1.0
     },
     {
@@ -9650,7 +11282,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/critique_framework.md",
-      "source_location": "L470",
+      "source_location": "L478",
       "weight": 1.0
     },
     {
@@ -9992,6 +11624,149 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/reference/shared_ops.md",
       "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_achievement_reframing_guide",
+      "target": "job_kit_starter_resume_builder_support_achievement_reframing_guide_achievement_reframing_guide_swe_edition",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_achievement_reframing_guide_achievement_reframing_guide_swe_edition",
+      "target": "job_kit_starter_resume_builder_support_achievement_reframing_guide_hiring_manager_audit_findings_2026_09_14_why_these_rules_exist",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_achievement_reframing_guide_achievement_reframing_guide_swe_edition",
+      "target": "job_kit_starter_resume_builder_support_achievement_reframing_guide_bullet_generation_policy_overrides_resume_reference_md_for_this_project",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_achievement_reframing_guide_achievement_reframing_guide_swe_edition",
+      "target": "job_kit_starter_resume_builder_support_achievement_reframing_guide_lane_selection_decision_tree",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_achievement_reframing_guide_achievement_reframing_guide_swe_edition",
+      "target": "job_kit_starter_resume_builder_support_achievement_reframing_guide_swe_resume_budget_overrides_resume_reference_md_quick_budget_card_for_this_project",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_achievement_reframing_guide_achievement_reframing_guide_swe_edition",
+      "target": "job_kit_starter_resume_builder_support_achievement_reframing_guide_known_gaps_truthful_do_not_paper_over",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/achievement_reframing_guide.md",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_ai_fingerprint_rules",
+      "target": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_ai_fingerprint_rules",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_ai_fingerprint_rules",
+      "target": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_structural_rules",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_ai_fingerprint_rules",
+      "target": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_post_generation_scan_checklist",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_ai_fingerprint_rules",
+      "target": "job_kit_starter_resume_builder_support_ai_fingerprint_rules_banned_words_phrases_tier_1_hard_fail_if_present",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_skills_taxonomy",
+      "target": "job_kit_starter_resume_builder_support_skills_taxonomy_skills_taxonomy",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/skills_taxonomy.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_skills_taxonomy_skills_taxonomy",
+      "target": "job_kit_starter_resume_builder_support_skills_taxonomy_bolding_rule",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/skills_taxonomy.md",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_support_skills_taxonomy_skills_taxonomy",
+      "target": "job_kit_starter_resume_builder_support_skills_taxonomy_demonstrated_vs_listed_only_skills",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/support/skills_taxonomy.md",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -10861,5 +12636,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "dda90bf9ef1c3e88ab5cd50d6745bdc25b334f67"
+  "built_at_commit": "c7fb50db338c7a6863cbc5040a2512f82236ad8f"
 }

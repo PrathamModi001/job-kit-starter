@@ -13,6 +13,17 @@
 
 ---
 
+## 📄 CRITICAL RULE — Mandatory Tailored Resume for Every Application (STRICT)
+
+- **NEVER reuse a generic base resume or profile default without tailoring.**
+- For **EVERY SINGLE APPLICATION** without exception (including 1-click apply, Indeed Smart Apply, Cutshort, and ATS portals):
+  1. **Identify Lane & Tailor Variant:** Analyze the target JD keywords/tech stack and select the appropriate resume variant (Backend, AI/ML, Platform, Full-Stack).
+  2. **Compile Tailored PDF:** Copy the base `.tex` into `output/<Company> - <Role>/`, adjust the header tagline and summary paragraph, and compile using `tectonic -c minimal Pratham_Modi_Resume.tex` (asserting 1-page fit via pypdf).
+  3. **Strict Grounding:** Every bullet point, metric, and claim MUST be strictly grounded in `SKILL_PROFILE.md` (never invent numbers, dates, or tools).
+  4. **Mandatory File Replacement on Smart Apply / Portals:** On platforms like Indeed Smart Apply or Cutshort where a default profile resume is pre-selected, you MUST click "Upload a resume" / "Replace", select the newly generated `output/<Company> - <Role>/Pratham_Modi_Resume.pdf`, and confirm it is attached before proceeding to screener questions or submission.
+
+---
+
 ## 🔐 CRITICAL RULE — Authentication, Session Persistence & Auto-Re-login
 
 - **Session Preservation:** NEVER logout accidentally from any job platform, browser session, or portal.

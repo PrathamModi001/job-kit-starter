@@ -1,5 +1,13 @@
 # Critique Framework — Consolidated Multi-Perspective Protocol
 
+> **Project-specific override:** this candidate has no CV and no publications on
+> the resume (see `config.md` Document Preferences — CV pages: n/a). Skip Part 6
+> (Cover Letter) sections 6A/6C academic/national-lab branches — use only the
+> "Industry" branch. In Part 2 scoring, drop the "Publication Selection" dimension
+> and redistribute its 10% weight to "Bullet Quality" (35% total instead of 25%).
+
+---
+
 **Purpose:** Single-pass comprehensive critique that catches what would otherwise take multiple passes. Run AFTER generation but BEFORE presenting to user.
 
 **Key insight:** 85% of score improvement typically comes from ONE thing — domain reframing. The Achievement Reframing Guide handles this during generation. The critique's job is to catch what leaked through, identify remaining gaps, and assess interview likelihood from multiple reader perspectives.

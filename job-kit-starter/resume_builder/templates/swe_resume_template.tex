@@ -1,0 +1,113 @@
+% ============================================================================
+% SWE_RESUME_TEMPLATE.tex — THE canonical 1-page software-engineer resume
+% template for this repo. Use this file for EVERY application. Do NOT use
+% resume_template.tex / resume.cls / cv_template.tex / cv.cls — those are
+% leftover academic-CV scaffolding (publications, mhchem, protein-engineering
+% example) from the original job-kit-starter template and DO NOT apply to
+% a 1-page industry SWE resume. See resume_builder/reference/TEMPLATE_NOTE.md.
+%
+% This template reproduces the exact layout already proven to compile to a
+% clean 1-page ATS-safe PDF (validated: Wells Fargo / Avoca applications).
+% Single column, no tables, no graphics, no multi-column skill grids —
+% every ATS parser reads this correctly as plain sequential text.
+%
+% GENERATE markers = per-JD customizable (select/reorder from KB files only,
+% never invent new facts — see resume_builder/support/achievement_reframing_guide.md)
+% FIXED markers = copy verbatim, never edit per JD.
+% ============================================================================
+\documentclass[10pt]{article}
+\usepackage[left=0.6in,right=0.6in,top=0.5in,bottom=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{parskip}
+\pagestyle{empty}
+
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=black}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+\newcommand{\rItemList}{\begin{itemize}[leftmargin=1.1em, itemsep=1pt, topsep=2pt, parsep=0pt, label=\textbullet]}
+\newcommand{\rEndItemList}{\end{itemize}}
+
+\begin{document}
+
+% ----------------------------------------------------------------------------
+% HEADER — FIXED (from config.md Personal Info). Only email/phone/location
+% and the tagline line change across resumes.
+% ----------------------------------------------------------------------------
+\begin{center}
+{\Huge \textbf{[FIXED: Full Name]}} \\[2pt]
+[FIXED: email] $\vert$ [FIXED: phone] $\vert$ [FIXED: location] \\[1pt]
+\href{[FIXED: GitHub URL]}{[FIXED: github.com/handle]} $\vert$ \href{[FIXED: LinkedIn URL]}{[FIXED: linkedin.com/in/handle]} \\[3pt]
+% GENERATE: Tagline — build from the matching bundle's Tagline Formula.
+% Format: Software Engineer | [Lane Label] | [Tool1], [Tool2], [Tool3], [Tool4]
+% Tool1-4 MUST come from SKILL_PROFILE.md Skills — never invent a tool.
+[GENERATE: Tagline]
+\end{center}
+
+% ----------------------------------------------------------------------------
+% SUMMARY — GENERATE: select the matching lane's pre-written summary from the
+% bundle file verbatim. Minor trims allowed to fit 4-5 lines; no new claims.
+% ----------------------------------------------------------------------------
+\section{Summary}
+[GENERATE: Summary — copied from bundle_<lane>.md Summary block]
+
+% ----------------------------------------------------------------------------
+% TECHNICAL SKILLS — GENERATE: reorder groups from skills_taxonomy.md so the
+% JD's most-relevant group is FIRST. Do not add/remove skills — only reorder
+% groups and choose which terms to bold (bold = appears in this JD).
+% ----------------------------------------------------------------------------
+\section{Technical Skills}
+\textbf{[GENERATE: Group 1 Name]:} [GENERATE: skills, comma-separated] \\
+\textbf{[GENERATE: Group 2 Name]:} [GENERATE: skills, comma-separated] \\
+\textbf{[GENERATE: Group 3 Name]:} [GENERATE: skills, comma-separated] \\
+\textbf{[GENERATE: Group 4 Name]:} [GENERATE: skills, comma-separated] \\
+\textbf{[GENERATE: Group 5 Name]:} [GENERATE: skills, comma-separated]
+
+% ----------------------------------------------------------------------------
+% EXPERIENCE — position headers + dates are FIXED. Bullets are GENERATE:
+% select from resume_builder/experience/*.md using the matching bundle's
+% Priority Matrix. COPY-EXACT the canonical condensed bullet text — do not
+% write new bullet prose. Only the SET and ORDER of bullets changes per JD.
+% ----------------------------------------------------------------------------
+\section{Experience}
+
+\textbf{[FIXED: Company 1, Institution]} \hfill [FIXED: Start -- End] \\
+\textit{[FIXED: Title]} \hfill [FIXED: Location]
+\rItemList
+\item [GENERATE: Bullet — copy-exact from experience file, by ID]
+\item [GENERATE: Bullet]
+\item [GENERATE: Bullet]
+\item [GENERATE: Bullet]
+\rEndItemList
+
+\textbf{[FIXED: Company 2]} \hfill [FIXED: Start -- End] \\
+\textit{[FIXED: Title]} \hfill [FIXED: Location]
+\rItemList
+\item [GENERATE: Bullet]
+\item [GENERATE: Bullet]
+\item [GENERATE: Bullet]
+\rEndItemList
+
+% ----------------------------------------------------------------------------
+% PROJECTS — GENERATE: pick 2 of 3 from experience_projects.md per the
+% matching bundle's Priority Matrix. Header line + description copy-exact.
+% ----------------------------------------------------------------------------
+\section{Projects}
+\textbf{[GENERATE: Project Name]} $\vert$ \textit{[GENERATE: tools, comma-separated]} \hfill [GENERATE: tag, e.g. Hackathon Winner] \\
+[GENERATE: 1-line description — copy-exact from experience_projects.md]
+
+\textbf{[GENERATE: Project Name]} $\vert$ \textit{[GENERATE: tools]} \hfill [GENERATE: tag] \\
+[GENERATE: description]
+
+% ----------------------------------------------------------------------------
+% EDUCATION — FIXED, never changes across resumes.
+% ----------------------------------------------------------------------------
+\section{Education}
+\textbf{[FIXED: Degree, Major]} \hfill [FIXED: Start -- End] \\
+[FIXED: Institution] \hfill GPA: [FIXED: X.XX/10.0]
+
+\end{document}

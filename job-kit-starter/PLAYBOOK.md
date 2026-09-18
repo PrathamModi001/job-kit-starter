@@ -19,7 +19,7 @@
 ## Phase 0 — Setup (first session)
 
 1. Run the onboarding in CLAUDE.md: fill `config.md`, the Candidate bar, `SKILL_PROFILE.md`, and the application-form facts.
-2. Build the **base resume**: use `/make-resume` against a representative JD in the user's lane. Keep the resulting `.tex` as the BASE for all variants (see "Resume variant system" below).
+2. Build the **base resume**: use `/make-resume` against a representative JD in the user's lane. This reads `resume_builder/templates/swe_resume_template.tex` (the only template) and one of the three `resume_builder/bundles/bundle_<lane>.md` files per `config.md` Role Types → Bundle Mapping (see "Resume variant system" below).
 3. Verify the toolchain: `tectonic -c minimal` compiles, `pypdf` imports, `python3 job_hunt.py` runs.
 4. Platforms stay logged in; if re-authentication is required on any portal, use Google OAuth into `prathammodi001@gmail.com` via cursor click (except jobfound which requires no login). Never logout accidentally.
 
@@ -48,9 +48,14 @@ Expect diminishing returns after the first week — fresh supply at one level/ci
 ## Phase 3 — Applying (auto-submit allowed once a lead clears the bar; see CLAUDE.md top rule)
 
 ### Resume variant system
-- ONE base `.tex` (backend or whatever the user's core lane is). For each application lane, copy it and swap ONLY the header tagline + summary paragraph (keep every fact identical). Typical variants: backend base / AI-engineer / fullstack.
+- **Single template, three lanes, no separate base `.tex`.** `resume_builder/templates/swe_resume_template.tex` is the ONLY template file — never `resume_template.tex`, `resume.cls`, `cv_template.tex`, or `cv.cls` (unused academic-CV scaffolding, per `config.md` Document Preferences). It uses plain `article` class, no `.cls` file needs to be copied alongside it.
+- Lane selection: `resume_builder/support/achievement_reframing_guide.md` — Lane Selection Decision Tree — maps the JD to Backend / Full-Stack / AI, i.e. `resume_builder/bundles/bundle_backend.md`, `bundle_fullstack.md`, or `bundle_ai.md`.
+- **Bullets are COPY-EXACT, never freshly written.** Source text lives in `resume_builder/experience/experience_c3ihub.md`, `experience_playpower.md`, `experience_projects.md` (by achievement ID, e.g. C1-C6, PP1-PP4, PJ1-PJ3). Each bundle's Priority Matrix picks which IDs go in for that lane and in what order — see `resume_builder/support/achievement_reframing_guide.md` Bullet Generation Policy for the exact edit rules (trim-only, never touch a number/tool/verb).
+- FIXED sections (header contact info, Education, position company/title/dates lines) are copied verbatim from the template's FIXED markers — never regenerated per JD.
+- Budget: `resume_builder/support/achievement_reframing_guide.md` — SWE Resume Budget (4 bullets Position 1, 3-4 Position 2, 2 projects, 5 skills lines, 3-4 line summary) — this is the numbers to hit, not `resume_reference.md`'s Quick Budget Card (calibrated for the old academic template).
+- Full walkthrough of this pipeline: `/make-resume` skill (`.claude/skills/make-resume/SKILL.md`).
 - Every variant: compile with `tectonic -c minimal`, assert 1 page via pypdf, grep extracted text for the load-bearing facts, copy as `<Name>_Resume.pdf` into `output/<Company> - <Role>/`.
-- The `resume.cls` must sit next to the `.tex` when compiling (copy it into each folder).
+- **STRICT MANDATE:** For EVERY job applied (including Indeed Smart Apply, Cutshort, and ATS forms), compile a tailored resume variant PDF in `output/<Company> - <Role>/` and replace the default/cached resume on the portal. NEVER submit with an un-tailored base resume.
 
 ### Where the Apply button leads (triage on click)
 - **Native platform apply** (Naukri "Apply", Instahyre modal, Cutshort modal): 1-30 seconds each. Do these first.
@@ -96,7 +101,7 @@ Expect diminishing returns after the first week — fresh supply at one level/ci
 
 **Indeed Smart Apply** (`smartapply.indeed.com`):
 - React 19 controlled inputs: Standard `.value = ...` fails silently. Always use `Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, 'value')?.set.call(input, value)` followed by dispatching `input` and `change` events (`{ bubbles: true }`).
-- Resume selection: Radio button `input[type="radio"][name="resume-selection"]` must be clicked and checked.
+- Resume selection: NEVER simply proceed with the default checked resume. Always click "Upload a resume" / "Replace", upload the newly generated tailored PDF from `output/<Company> - <Role>/Pratham_Modi_Resume.pdf`, and confirm attachment before continuing.
 - Review Module: Upon reaching `/review-module`, Indeed takes ~5–6 seconds to render the application preview iframe. Poll for `Submit your application` button. Clicking it advances to `/post-apply` ("Your application was submitted").
 - Native Dialog Quirk: Leaving an incomplete Indeed application form triggers a browser `beforeunload` dialog ("Leave page?"). This blocks subsequent Playwright JS evaluations. Always register `browser_handle_dialog` (`{'accept': True}`) to clear any pending modal before navigation.
 
@@ -130,13 +135,23 @@ csv-logger updates (Status=Applied + dated Next step + req IDs + credentials-fil
 
 ## Phase 4 — Cold email outreach (startups without open roles)
 
+Two tiers, run together daily. Both are drafts-only (see outbound policy at the top of CLAUDE.md) and both log to the SAME canonical file: `job-kit-starter/output/job-search/outreach/startups_outreach.csv` (columns now include `Source` and `Tier`), so volume and response rate stay visible across tiers instead of siloed.
+
+### Tier A — bespoke, 3-5/day
 1. **Research** with parallel subagents across angles: recent YC batches, regional funding news (last ~12 months, seed/Series A in the user's lane), accelerator cohorts, viral launches/build-in-public founders. Each returns structured JSON: company / what / why-fit / founders / guessed email / source.
 2. **Verify emails** before sending (email-prospecting connector if available) — fix guesses, drop dead ones.
-3. Per company: tailored resume variant + a SHORT honest email (openable hook referencing THEIR product, 3-4 lines of the user's most relevant receipts, link, minimal signature). No AI-sounding fluff.
+3. Per company: tailored resume variant + a SHORT honest email (openable hook referencing THEIR product, 3-4 lines of the user's most relevant receipts, link, minimal signature). No AI-sounding fluff. `Tier=A`, `Source=<how found>`.
+
+### Tier B — templated-with-slots, 20-30/day (volume lane)
+Full template, subject-line rotation, pre-approved metric pool, and deliverability rules: `output/job-search/outreach/tier_b_template.md`. Summary: fixed skeleton, but `{HOOK}` (one sentence tied to something real about them) and 2 metrics picked from a pre-approved pool always vary per company — no two bodies in a batch are byte-identical, since identical bodies at volume get spam-clustered on a personal Gmail account.
+- **Lead sources for volume** (mix daily, don't pull 30 from one channel): `python3 hn_scan.py` now extracts direct emails per on-criteria comment (printed inline — falls back to "use HN profile contact link" if none found in the comment text) · funding-news/YC research (same subagent fan-out as Tier A) · `waas_scan.py` index · founder build-in-public posts.
+- `Tier=B`, `Source=HN|Funding News|WaaS|...` per row.
+
+### Shared mechanics (both tiers)
 4. Draft into Gmail via the connector or browser URL parameter composition (drafts only — the USER hits send).
    - **Gmail URL Draft Pattern:** `https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=<email>&su=<subject>&body=<body>`.
    - Navigating to this URL in the authenticated browser automatically stages the compose window and auto-saves directly into Gmail Drafts, completely eliminating the risk of accidental auto-sending.
-   - Track in `job-kit-starter/output/job-search/outreach/startups_outreach.csv` with Status + dates.
+   - Track in `job-kit-starter/output/job-search/outreach/startups_outreach.csv` with Status + dates + Source + Tier.
 5. Follow-up pass ~4 days later: check for replies first, bump politely (drafts again), never re-pitch.
 
 ## Phase 5 — X/Twitter cold DMs
