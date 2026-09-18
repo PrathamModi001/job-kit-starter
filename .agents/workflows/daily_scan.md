@@ -14,13 +14,14 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
 1. **Deduplication Check**:
    - Check `job-kit-starter/output/job-search/applications.csv` for companies already applied to or closed.
 
-2. **Execute Scan Scripts** (skip any source matching `EXCLUDED_PLATFORMS`):
+2. **Execute Scan Scripts** — only the sources listed in `job_hunt_profile.md` → "Approved Sources" (skip any also matching `EXCLUDED_PLATFORMS`):
    - Run `python job-kit-starter/job_hunt.py` to pull top ATS openings (Ashby, Greenhouse, Lever, YC).
-   - Run `python job-kit-starter/job_hunt_india.py` to aggregate fresh Indeed India postings.
+   - Run `python job-kit-starter/job_hunt_india.py` to aggregate fresh Indeed India postings (LinkedIn excluded — do not add it).
    - Run `python job-kit-starter/hn_scan.py` for direct founder/engineering posts.
 
-3. **Check Portal Feeds** (skip any platform matching `EXCLUDED_PLATFORMS`):
+3. **Check Portal Feeds** — only the sources listed in `job_hunt_profile.md` → "Approved Sources" (skip any also matching `EXCLUDED_PLATFORMS`):
    - If Playwright browser/extension is active, inspect new matches from the past week on Instahyre (`/candidate/opportunities/?matching=true`), Cutshort (`/profile/all-jobs`), Naukri (`jobAge=7` for last 7 days backend/full-stack roles in Bengaluru/remote), jobfound.org, and Wellfound.
+   - **⛔ Never open, scan, or apply via linkedin.com, in any form** — it is explicitly not on the Approved Sources list, even if a company's apply link redirects there; skip that lead instead.
    - **Authentication Rule:** Never logout accidentally. If sign-in issues occur on any portal, Google sign-in into `prathammodi001@gmail.com` by clicking the Google OAuth button with the cursor (do NOT sign in via email). Use Playwright.
    - **Jobfound Exception:** Do NOT log in on `jobfound.org` (no login needed).
 

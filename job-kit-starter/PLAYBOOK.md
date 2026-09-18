@@ -25,7 +25,7 @@
 
 ## Phase 1 — Platform profiles (do these early; they compound)
 
-Set up strong profiles on the user's regional platforms (in India: Naukri, Instahyre, Cutshort; elsewhere: the local equivalents + Wellfound/LinkedIn everywhere). For each:
+Set up strong profiles on the user's regional platforms (in India: Naukri, Instahyre, Cutshort; elsewhere: the local equivalents + Wellfound). **LinkedIn is never used, including for platform profiles — see "Approved Sources" below.** For each:
 - Upload the freshly built resume PDF, fix headline to a keyword-rich one-liner, correct employment history (titles/dates/company names), set true skills (delete junk auto-added skills), set comp + notice period + preferred locations.
 - These profiles power (a) match-feeds you scan daily and (b) auto-answered recruiter questionnaires (Cutshort's "Voila" bot answers location/notice/comp screeners from the profile — get the profile right and screeners handle themselves).
 
@@ -36,7 +36,7 @@ All sources are capped to postings from the **last 7 days** (see CLAUDE.md "Rece
 Sources, in order:
 1. `python3 hn_scan.py` — HN Who is Hiring (seen-index; CSV-deduped; always the latest thread).
 2. `python3 job_hunt.py` — ~90 ATS boards, last 7 days (`--days N` to widen). Edit the company list in the script to the user's targets.
-3. `python3 job_hunt_india.py` — JobSpy over Indeed+LinkedIn, last 7 days (`hours_old`, arg 1). Edit queries/location for the user.
+3. `python3 job_hunt_india.py` — JobSpy over Indeed India only (LinkedIn permanently excluded as a source), last 7 days (`hours_old`, arg 1). Edit queries/location for the user.
 4. Browser feeds via Playwright:
    - Match-feed platforms (e.g., Instahyre `candidate/opportunities/?matching=true`): scroll-collect all cards, diff vs. previously seen + CSV.
    - Naukri-style search with `jobAge=1` (last 24h) for "backend engineer" / "[lane] engineer" in the user's city.

@@ -6,10 +6,10 @@
     "semantic_hash": ""
   },
   "job-kit-starter/hn_scan.py": {
-    "mtime": 1789290364.2482388,
-    "seen": 1789300494.0806835,
-    "ast_hash": "6ff5bd6421dc2f3dc3d91a69429fca95",
-    "semantic_hash": "6ff5bd6421dc2f3dc3d91a69429fca95"
+    "mtime": 1789392722.93581,
+    "seen": 1789713462.68626,
+    "ast_hash": "df57646dfa175135ae377e9cfb93de6e",
+    "semantic_hash": ""
   },
   "job-kit-starter/job_hunt.py": {
     "mtime": 1789309076.853883,
@@ -156,9 +156,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/.claude/skills/make-resume/SKILL.md": {
-    "mtime": 1789290364.2473116,
-    "seen": 1789300494.0807757,
-    "ast_hash": "4021e8f945ffedfed5f99ff68be1ca82",
+    "mtime": 1789391578.074063,
+    "seen": 1789713462.6863067,
+    "ast_hash": "678d29fd1af4bdba01b8a961e846484b",
     "semantic_hash": ""
   },
   "job-kit-starter/.claude/skills/setup-build-kb/SKILL.md": {
@@ -186,9 +186,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/PLAYBOOK.md": {
-    "mtime": 1789379482.1914206,
-    "seen": 1789380660.2334642,
-    "ast_hash": "66eadc81a7a408a7fd0c29ae1c607918",
+    "mtime": 1789392759.7230918,
+    "seen": 1789713462.6863132,
+    "ast_hash": "6f251a84545d11a0bfc2b22f8f850dbc",
     "semantic_hash": ""
   },
   "job-kit-starter/QUICKSTART.md": {
@@ -216,9 +216,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/config.md": {
-    "mtime": 1789310468.1236289,
-    "seen": 1789310490.34207,
-    "ast_hash": "3da63075f8047e13bd3182845818d67a",
+    "mtime": 1789392376.9109452,
+    "seen": 1789713462.68632,
+    "ast_hash": "b60790ec6701ce0366f2b4f641938b6a",
     "semantic_hash": ""
   },
   "job-kit-starter/resume_builder/examples/bundles/example_bundle.md": {
@@ -264,9 +264,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/resume_builder/reference/critique_framework.md": {
-    "mtime": 1789290364.2519321,
-    "seen": 1789300494.080825,
-    "ast_hash": "e14c046e2e6e59fc06c023b5538b64f1",
+    "mtime": 1789391588.1472638,
+    "seen": 1789713462.6863403,
+    "ast_hash": "759e9d5707446b3ab63190dcad6bf91a",
     "semantic_hash": ""
   },
   "job-kit-starter/resume_builder/reference/resume_reference.md": {
@@ -312,15 +312,15 @@
     "semantic_hash": ""
   },
   ".agents/rules/job_hunt_profile.md": {
-    "mtime": 1789310477.2729468,
-    "seen": 1789310490.342024,
-    "ast_hash": "8b704bab305ba98e35cd2fede65636e5",
+    "mtime": 1789713426.7507074,
+    "seen": 1789713462.6862938,
+    "ast_hash": "ac9b770dbf4192cffd11e76fba4d7c9a",
     "semantic_hash": ""
   },
   ".agents/workflows/daily_scan.md": {
-    "mtime": 1789310482.4611268,
-    "seen": 1789310490.3420274,
-    "ast_hash": "0b1ce17be31e7074bef1529e8145f321",
+    "mtime": 1789713448.0769,
+    "seen": 1789713462.686295,
+    "ast_hash": "86c0f0f303e4d4213e284003ddfa6a06",
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {
@@ -381,6 +381,66 @@
     "mtime": 1789369255.976395,
     "seen": 1789375102.598951,
     "ast_hash": "17392d24379cbc7d91723a5e2399a954",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/job-search/outreach/tier_b_template.md": {
+    "mtime": 1789392745.4412563,
+    "seen": 1789713462.6863217,
+    "ast_hash": "5b61026775eb6ac35db5c021d8265bc6",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/resume_builder/bundles/bundle_ai.md": {
+    "mtime": 1789391434.2031915,
+    "seen": 1789713462.6863232,
+    "ast_hash": "8e6b54eab8d76add8bd7707924381b78",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/resume_builder/bundles/bundle_backend.md": {
+    "mtime": 1789391404.8946056,
+    "seen": 1789713462.6863246,
+    "ast_hash": "92399128f51de93eef9ba8d3e7089736",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/resume_builder/bundles/bundle_fullstack.md": {
+    "mtime": 1789391420.8878284,
+    "seen": 1789713462.6863256,
+    "ast_hash": "ba7a2c2e72ff77a9b41ec8ff387bfcd8",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/resume_builder/experience/experience_c3ihub.md": {
+    "mtime": 1789391363.2267725,
+    "seen": 1789713462.6863341,
+    "ast_hash": "e542eecb6370721999c6237efdce8c24",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/resume_builder/experience/experience_playpower.md": {
+    "mtime": 1789391376.6660414,
+    "seen": 1789713462.6863356,
+    "ast_hash": "f0d67466aae45e14341b0e82efc2a058",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/resume_builder/experience/experience_projects.md": {
+    "mtime": 1789391386.6199803,
+    "seen": 1789713462.6863365,
+    "ast_hash": "6a1f61a627cbfc221e87f277e6cead4a",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/resume_builder/support/achievement_reframing_guide.md": {
+    "mtime": 1789391545.6594164,
+    "seen": 1789713462.6863449,
+    "ast_hash": "8dbf8325b955530c20a3abb8d1d5fc42",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/resume_builder/support/ai_fingerprint_rules.md": {
+    "mtime": 1789391480.8283007,
+    "seen": 1789713462.686346,
+    "ast_hash": "adb27e7afba6c10ab7408f3630994a90",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/resume_builder/support/skills_taxonomy.md": {
+    "mtime": 1789391445.7720478,
+    "seen": 1789713462.686347,
+    "ast_hash": "cbad3eb60f01f4cf8bec6a092d3b4ec4",
     "semantic_hash": ""
   }
 }

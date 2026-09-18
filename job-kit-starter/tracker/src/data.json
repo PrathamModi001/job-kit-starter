@@ -696,6 +696,66 @@
 "resume": "PrathamModi_oysx.pdf"
 },
 {
+"co": "EarnIn",
+"role": "Developer Experience Contractor",
+"loc": "Bengaluru, Karnataka",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~18-28 LPA",
+"status": "Applied",
+"date": "2026-09-18",
+"url": "https://in.indeed.com/viewjob?jk=ec4cde985fb6b4e3",
+"resume": "output/EarnIn - Developer Experience/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "India Health Link Pvt Ltd",
+"role": "Full stack Engineer",
+"loc": "Bengaluru, Karnataka",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~18-25 LPA",
+"status": "Applied",
+"date": "2026-09-18",
+"url": "https://in.indeed.com/jobs?q=full+stack+engineer&l=Bengaluru%2C+Karnataka",
+"resume": "output/India Health Link - Full stack Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Planview",
+"role": "Software Engineer I",
+"loc": "Bengaluru, Karnataka (Hybrid)",
+"via": "Cutshort",
+"found": "Cutshort",
+"comp": "~20-30 LPA (Best in industry)",
+"status": "Applied",
+"date": "2026-09-18",
+"url": "https://cutshort.io/job/Software-Engineer-I-Bengaluru-Bangalore-Planview-EhIaAgmf",
+"resume": "output/Planview - Software Engineer I/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Revantage Global Services India Private Limited",
+"role": "Full Stack Engineer",
+"loc": "Bengaluru, Karnataka",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~22-35 LPA",
+"status": "Applied",
+"date": "2026-09-18",
+"url": "https://in.indeed.com/viewjob?jk=b92743a1a5b822fc",
+"resume": "output/Revantage - Full Stack Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Tech Prescient",
+"role": "Full Stack Developer — Node.js & React",
+"loc": "Remote (India)",
+"via": "Cutshort",
+"found": "Cutshort",
+"comp": "₹10L - ₹20L / yr (~18-20 LPA)",
+"status": "Applied",
+"date": "2026-09-18",
+"url": "https://cutshort.io/job/Full-Stack-Developer-Node-js-React-Tech-Prescient-TqXYixwa",
+"resume": "output/Tech Prescient - Full Stack Developer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -994,5 +1054,29 @@
 "date": "2026-09-14",
 "url": "PrathamModi.pdf",
 "resume": "2026-09-14"
+},
+{
+"co": "First American India Pvt Ltd",
+"role": "Software Engineer II- Middleware",
+"loc": "Bengaluru, Karnataka",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~20-30 LPA",
+"status": "Blocked",
+"date": "2026-09-18",
+"url": "https://in.indeed.com/viewjob?jk=d63094ff1784d89e",
+"resume": "output/First American India - Software Engineer II/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Rapid Claims",
+"role": "Software Development Engineer (Backend)Python",
+"loc": " NodeJS",
+"via": "or Go",
+"found": "or Go",
+"comp": "Bengaluru, Karnataka",
+"status": "Indeed (Smart Apply)",
+"date": "Applied",
+"url": "2026-09-18",
+"resume": "2026-09-18"
 }
 ]

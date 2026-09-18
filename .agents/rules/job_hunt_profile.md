@@ -36,15 +36,22 @@
 
 ---
 
+## 🌐 Approved Sources (STRICT allowlist — this is the complete list)
+- **Scripted:** `job_hunt.py` (~90 ATS boards: Greenhouse/Ashby/Lever/YC), `job_hunt_india.py` (Indeed India only), `hn_scan.py` (HN "Who is hiring?"), `waas_scan.py` (Work-at-a-Startup).
+- **Browser (Playwright):** Instahyre, Cutshort, Naukri, jobfound.org, Wellfound.
+- **⛔ LinkedIn is NOT an approved source, in any form.** Never open linkedin.com, never scan/search it for leads, never apply through it, even if a company's "Apply" link redirects there — treat a LinkedIn-only apply path as unavailable and skip the lead. This applies to browsing, scripted scanning, and applying alike. (It was previously described as a `job_hunt_india.py` input — that's stale; the script excludes it and always has.)
+- Do not add any source outside this list without the user explicitly approving it first.
+- Apply the run's `EXCLUDED_PLATFORMS` parameter on top of this allowlist to skip additional sources for that run only.
+
 ## ⚡ Daily Scan Operations
 - **Single Sources of Truth (STRICT):**
   - Applications: `job-kit-starter/output/job-search/applications.csv`
   - Founder Cold Outreach: `job-kit-starter/output/job-search/outreach/startups_outreach.csv`
   - **Rule:** These files tracked in git are the ONLY authorized CSV targets. NEVER create or write to a root-level `output/` folder.
-- **Daily Scans (Window: Past 7 Days / Last Week):**
-  1. `python job-kit-starter/job_hunt.py` (~90 curated ATS boards -> `output/job-search/digest.md`)
-  2. `python job-kit-starter/job_hunt_india.py` (Indeed + LinkedIn India -> `output/job-search/digest_india.md`)
-  3. `python job-kit-starter/hn_scan.py` (HN hiring -> excludes already-applied)
+- **Daily Scans (Window: Past 7 Days / Last Week)** — only the sources in "Approved Sources" above:
+  1. `python job-kit-starter/job_hunt.py` -> `output/job-search/digest.md`
+  2. `python job-kit-starter/job_hunt_india.py` (Indeed India — LinkedIn excluded) -> `output/job-search/digest_india.md`
+  3. `python job-kit-starter/hn_scan.py` (excludes already-applied)
   4. Platform browser feeds via Playwright: Instahyre (`candidate/opportunities/?matching=true`), Cutshort matches page, and Naukri (`jobAge=7` for past 7 days backend/full-stack engineer roles in Bengaluru/remote).
   5. Skip any source/platform listed in the run's `EXCLUDED_PLATFORMS` parameter entirely.
 - **Rank & Cap:** Triage every new lead against the Candidate Bar, score by fit (reuse `job_hunt.py`'s scoring), and take only the **top `NUM_JOBS`** leads (default 15, or whatever number is given at run time) — never apply to more than this in a single run. Log a one-line fit reason for every lead considered (applied, skipped, or blocked).

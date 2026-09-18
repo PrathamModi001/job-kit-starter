@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-09-18)
 
 ## Corpus Check
-- 70 files · ~56,781 words
+- 71 files · ~57,676 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 553 nodes · 540 edges · 61 communities (43 shown, 8 thin omitted)
+- 555 nodes · 541 edges · 62 communities (43 shown, 8 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c7fb50db`
+- Built from commit: `e055d6f7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -19,7 +19,7 @@
 - package.json
 - claude-job-kit — Project Instructions
 - Resume & CV Generation — Reference
-- Documentation
+- claude-resume-kit
 - Achievements
 - PlaywrightClient
 - /edit-resume
@@ -56,7 +56,7 @@
 - Job Hunt Profile & Operations Rule
 - daily_scan.md
 - Authentication & Session Persistence Rule
-- claude-resume-kit
+- Documentation
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
 - Bundle: Backend / Node.js / Distributed Systems Lane
 - Bundle: Full-Stack Lane
@@ -85,7 +85,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (61 total, 8 thin omitted)
+## Communities (62 total, 8 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -103,9 +103,9 @@ Nodes (25): Accuracy Priority, Anti-Fabrication Rules, Application flow (per lea
 Cohesion: 0.11
 Nodes (18): Bold Width Penalty (COMPILE-VERIFIED), Char Verification Protocol (EVERY written element), Character Limits (HARD STOPS — ZERO TOLERANCE), Content Density Rules, CV (cv.cls), Experience Bullet Writing Protocol (Experience-File-First), Files to Upload (by format), Gap Assessment & Bridge Mappings (+10 more)
 
-### Community 4 - "Documentation"
+### Community 4 - "claude-resume-kit"
 Cohesion: 0.06
-Nodes (31): Architecture, Concepts, Customization, Documentation, Everything in `config.md` (edit directly), Experience Files, FAQ, Key Design Decisions (+23 more)
+Nodes (30): 1. Install the prerequisites (one-time), 2. Open the kit in Claude Code, 3. Say hi, 4. Start applying, Quickstart, 1. Clone and configure, 2. Extract your papers, 3. Build your knowledge base (+22 more)
 
 ### Community 5 - "Achievements"
 Cohesion: 0.10
@@ -212,16 +212,16 @@ Cohesion: 0.33
 Nodes (5): 🔐 Authentication, Session Persistence & Auto-Re-login Rule, 🎯 Candidate Bar & Role Focus, 📄 CRITICAL RULE — Mandatory Tailored Resume for Every Application (STRICT), graphify, 📁 Single Source of Truth & Canonical CSV Paths (STRICT)
 
 ### Community 41 - "Job Hunt Profile & Operations Rule"
-Cohesion: 0.22
-Nodes (8): 📋 Application-Form Facts, 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule, ✅ SUBMISSION RULE — AUTO-SUBMISSION AUTHORIZED FOR QUALIFYING MATCHES
+Cohesion: 0.20
+Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
 ### Community 43 - "Authentication & Session Persistence Rule"
 Cohesion: 0.40
 Nodes (4): Authentication & Session Persistence Rule, 🚫 Board Exception (jobfound), ⛔ Never Logout Accidentally, 🔐 Sign-In & Recovery Protocol
 
-### Community 49 - "claude-resume-kit"
+### Community 49 - "Documentation"
 Cohesion: 0.12
-Nodes (16): 1. Clone and configure, 2. Extract your papers, 3. Build your knowledge base, 4. Customize your LaTeX templates, 5. Generate for a job, claude-resume-kit, Contributing, Documentation (+8 more)
+Nodes (17): Architecture, Concepts, Customization, Documentation, Everything in `config.md` (edit directly), Experience Files, FAQ, Key Design Decisions (+9 more)
 
 ### Community 52 - "Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)"
 Cohesion: 0.22
@@ -260,17 +260,17 @@ Cohesion: 0.50
 Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
 ## Knowledge Gaps
-- **338 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+333 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 404 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **339 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+334 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 406 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `claude-resume-kit` connect `claude-resume-kit` to `Documentation`?**
+- **Why does `Documentation` connect `Documentation` to `claude-resume-kit`?**
   _High betweenness centrality (0.004) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _338 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _339 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
@@ -279,5 +279,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Resume & CV Generation — Reference` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
-- **Should `Documentation` be split into smaller, more focused modules?**
-  _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
+- **Should `claude-resume-kit` be split into smaller, more focused modules?**
+  _Cohesion score 0.058823529411764705 - nodes in this community are weakly interconnected._
