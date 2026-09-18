@@ -156,6 +156,9 @@ Templates load `mhchem`. `\ce{H2O}` for formulas, `$\beta$` for Greek, `$\sim$` 
 - **Level:** **Actual experience: 1yr 3mo full-time + 9mo internship (~2yr total).** Target postings gated at **0–2 YOE or 0–3 YOE** — both are fair matches. Skip roles requiring 4+ YOE or Senior/Staff/Principal/Architect/Lead titles, as well as **Product Engineer II** and **Member of Technical Staff (MTS)**.
 - **Stack exclusions:** hard skip Java, .NET/C#/ASP.NET, C++, and **Ruby/Ruby on Rails** roles — none of these are in the stack (or liked), regardless of other keyword overlap.
 - **Type:** Prefer product companies and well-funded startups with real engineering scope over pure IT-services/staffing shops. Hard skip: commission-only, unpaid, MLM-ish postings.
+- **Wellfound Location Prompt Policy:** If Wellfound shows *"This job does not support the locations on your profile... I am currently in… / I can relocate to… [Location]"*, and the dropdown location matches the eligibility list above, select **"I can relocate to…"**, confirm, and proceed. Otherwise skip.
+
+> This is the canonical candidate bar for the whole kit — `PLAYBOOK.md`, `.agents/rules/job_hunt_profile.md`, and the outer repo `CLAUDE.md` all point here instead of restating it. Application-form facts (address, phone, DOB, gender, notice period, etc.) live in `.agents/rules/job_hunt_profile.md` — edit them there.
 
 ### Recency filter — removed (2026-09-13), no cap on posting age
 Per user request, the ≤7-day recency cap was removed from both scripted scan tools:
@@ -202,10 +205,7 @@ Update `applications.csv` (the per-lead **Next step** column carries current sta
 **All applications are logged in [`job-kit-starter/output/job-search/applications.csv`](output/job-search/applications.csv).**
 **All founder cold outreach is logged in [`job-kit-starter/output/job-search/outreach/startups_outreach.csv`](output/job-search/outreach/startups_outreach.csv).**
 
-> **CRITICAL INVARIANT — CANONICAL CSV PATHS (STRICT):**
-> These files (already existing and tracked under git status) are the ONLY authorized sources of truth.
-> NEVER create or write to a secondary or redundant `output/` folder at the top-level repository root.
-> There must always be exactly ONE `applications.csv` and ONE `startups_outreach.csv` in the entire codebase, located strictly at `job-kit-starter/output/job-search/applications.csv` and `job-kit-starter/output/job-search/outreach/startups_outreach.csv`.
+> **CRITICAL INVARIANT — CANONICAL CSV PATHS:** see the outer repo `CLAUDE.md` → "Single Source of Truth & Canonical CSV Paths" (the paths above are the only authorized ones; never create a secondary `output/` folder at the repo root).
 
 Columns: Company,Role,Location,Channel,Comp,Status,Added,Applied,Updated,Resume,Job URL,Next step.
 Statuses: Lead / Applied / Skipped / Closed. Update on every state change.

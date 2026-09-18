@@ -7,12 +7,7 @@
 >
 > Prereq for almost everything here: browser automation (**Playwright** if using AGY, or **Claude in Chrome** / Playwright MCP if using Claude).
 >
-> ### 🔐 Authentication & Session Persistence Protocol
-> - **NEVER logout accidentally** from any job platform or browser session.
-> - **Sign-in / Recovery:** If you encounter sign-in problems, expired sessions, or an accidental logout, authenticate into **`prathammodi001@gmail.com`**.
-> - **Google OAuth via Cursor:** Always click the "Sign in with Google" / OAuth SSO button with the cursor. **DO NOT** attempt to sign in via email/password input fields ("not signin via email").
-> - **Tooling:** Use **Playwright** when running under AGY, or **Claude in Chrome** (`claude-in-chrome`) when running under Claude.
-> - **Exception:** **jobfound** board (`jobfound.org`) does NOT require login. Do **NOT** log in on jobfound.
+> Authentication & session-persistence protocol, and the full Candidate Bar: see `CLAUDE.md` (this directory) — canonical, do not restate/edit a copy here.
 
 ---
 

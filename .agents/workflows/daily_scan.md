@@ -39,10 +39,10 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    f. Log the result (Applied / Blocked / Skipped) to `applications.csv` via the Python `csv` module and run `job-kit-starter/tracker/refresh.sh`.
 
 6. **Cold Outreach**:
-   - Run per `job_hunt_profile.md` → "Cold Outreach Operations": target ~50 sends/day (5 Tier A bespoke + 45 Tier B templated-with-slots, per PLAYBOOK.md Phase 4 and `output/job-search/outreach/tier_b_template.md`).
+   - Run per `job_hunt_profile.md` → "Cold Outreach Operations": target ~50 drafts/day (5 Tier A bespoke + 45 Tier B templated-with-slots, per PLAYBOOK.md Phase 4 and `output/job-search/outreach/tier_b_template.md`).
    - Source leads from HN (`hn_scan.py` email extraction), funding-news/YC-batch research, `waas_scan.py`, and founder posts — mix sources, don't pull all leads from one channel.
-   - Every email needs a `Confidence` tag (Verified/Pattern-guessed) and a plausibility check before sending — see the HARD rule in `job_hunt_profile.md`.
-   - Send directly (auto-send is authorized for outreach, no draft-staging step). Log every send to `startups_outreach.csv` (Company, Founder, Email, Confidence, Role Pitch, Subject, Status, Sent Date, Notes, Source, Tier).
+   - Every email needs a `Confidence` tag (Verified/Pattern-guessed) and a plausibility check before drafting — see the HARD rule in `job_hunt_profile.md`.
+   - **NEVER auto-send** — draft into Gmail only (via the connector or the Gmail URL draft pattern in PLAYBOOK.md Phase 4), the user hits send themselves. Log every draft to `startups_outreach.csv` (Company, Founder, Email, Confidence, Role Pitch, Subject, Status, Sent Date, Notes, Source, Tier).
 
 7. **Report Summary**:
    - Present a structured report: applied roles (with resume path + req ID), blocked leads (with reason + tab left open), skipped noise (with reasons), and cold outreach sent (count by tier + source).

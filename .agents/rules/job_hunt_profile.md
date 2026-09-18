@@ -2,9 +2,9 @@
 
 > **Before running anything in this file**, read `job-kit-starter/CLAUDE.md` and `job-kit-starter/PLAYBOOK.md` in full. This file is a fast-reference summary; those two files hold the complete resume-tailoring pipeline (`resume_builder/` templates, lane bundles, experience files, `SKILL_PROFILE.md`), the per-ATS form-fill recipes (Workday, SuccessFactors, Naukri, Indeed Smart Apply, Wellfound, etc.), and the anti-fabrication rules this workflow depends on. Do not skip them.
 
-## ✅ SUBMISSION RULE — AUTO-SUBMISSION AUTHORIZED FOR QUALIFYING MATCHES
-- You ARE explicitly authorized to automatically submit job applications, send outreach, and complete ATS applications on behalf of Pratham Modi when a role clears the Candidate Bar (BULLSEYE or Strong Match).
-- For matching roles: automatically tailor the resume, compile the single-page PDF, fill out native/ATS forms (Workday, Greenhouse, Ashby, Lever, Instahyre, Cutshort, Naukri), and click final SUBMIT.
+## ✅ SUBMISSION RULE — job applications auto-submit; cold outreach never does
+- **Job applications:** you ARE explicitly authorized to automatically submit and complete ATS applications on behalf of Pratham Modi when a role clears the Candidate Bar (BULLSEYE or Strong Match). Automatically tailor the resume, compile the single-page PDF, fill out native/ATS forms (Workday, Greenhouse, Ashby, Lever, Instahyre, Cutshort, Naukri), and click final SUBMIT.
+- **Cold outreach (email/DM):** NEVER auto-send — draft-only, always. See "📧 Cold Outreach Operations" below.
 - Log every submitted application immediately to `job-kit-starter/output/job-search/applications.csv` with Status="Applied" and execute `refresh.sh` to update the application tracker.
 - If a role is ambiguous, requires subjective essays, or fails the candidate bar, skip or flag for manual review.
 - **HARD GATE — resume tailoring is mandatory, not optional:** Never set `Status=Applied` unless a tailored resume PDF actually exists on disk at `output/<Company> - <Role>/Pratham_Modi_Resume.pdf`, built via the full pipeline in PLAYBOOK.md → "Resume variant system" (lane bundle selection → copy-exact bullets from `resume_builder/experience/*.md` → compiled `.tex` → verified 1-page PDF). Never submit with the platform's cached/default resume.
@@ -12,16 +12,7 @@
 ---
 
 ## 🎯 Candidate Bar (Pratham Modi)
-- **Profile:** B.Tech CSE (GPA 9.20), ~2 YOE (1y 3m full-time at C3iHub, IIT Kanpur + 9m internship).
-- **Target Roles:** Software Developer · Full-Stack Developer · Node.js Backend Developer (plus distributed systems / backend engineering).
-- **Role Exclusions / Focus Note:** Exclude frontend-specific / frontend-only roles (e.g., Frontend Engineer, Frontend Developer, UI Developer, React Developer). Also exclude **Product Engineer II** and **Member of Technical Staff (MTS)** as they do not fall under 0–3 YOE. Having frontend requirements as part of a Full-Stack or Software Developer role is fine, but do not focus on or apply to frontend-only jobs.
-- **Tech Stack:** Node.js, Express, Python, FastAPI, Kafka, Redis, MongoDB, PostgreSQL, AWS, Microservices, Observability (OpenTelemetry/Prometheus/Grafana), React/Next.js, LangGraph/RAG.
-- **Stack Exclusions:** Hard skip Java, .NET/C#/ASP.NET, C++, and Ruby/Ruby on Rails roles.
-- **Experience Level:** Postings gated at 0–2 YOE or 0–3 YOE. Skip roles requiring 4+ YOE, Senior/Staff/Principal/Architect/Lead titles, Product Engineer II, and Member of Technical Staff.
-- **Location Filter:** Koramangala, Bengaluru, India. Open to Bangalore, Pune, Mumbai, Hyderabad, Gurgaon, Ahmedabad, Chennai, or Remote (India/international-friendly). Skip other locations unless remote.
-- **Wellfound Location Prompt Policy:** If Wellfound shows *"This job does not support the locations on your profile. Update your location preferences: I am currently in… / I can relocate to… [Location]"*, if the location in the dropdown matches the allowed list above, select **"I can relocate to…"**, confirm, and proceed with the application note. Otherwise, skip.
-- **Compensation:** Current CTC: 12 LPA. Target: 18–20 LPA (Floor: 18 LPA). Skip roles under 18 LPA. High-pay override: 25+ LPA is worth surfacing even outside preferred lanes/cities.
-- **Company Types:** Product companies, well-funded startups. Skip IT staffing/services firms and unpaid/commission-only roles.
+Canonical source: `job-kit-starter/CLAUDE.md` → "Candidate bar" (under "Job-Search Operations Runbook"). Read it in full before triaging any lead — do not rely on a stale summary here.
 
 ---
 
@@ -66,10 +57,11 @@
 ---
 
 ## 📧 Cold Outreach Operations
-- Two tiers, run together, targeting **~50 sends/day total** (default split: 5 Tier A bespoke + 45 Tier B templated-with-slots — see PLAYBOOK.md → "Phase 4 — Cold email outreach" and `output/job-search/outreach/tier_b_template.md` for the exact skeleton, subject-line rotation, and pre-approved metric pool).
-- Auto-send is authorized for outreach — no draft-staging step required. But every recipient email must carry a `Confidence` tag (`Verified` or `Pattern-guessed`) in `startups_outreach.csv`, and must clear a plausibility check (team/about page, GitHub commit author, LinkedIn/X bio, or an email-prospecting connector) before sending. Never send to a bare guessed address with no corroboration — a bounced or misdirected send is a reputational cost with no upside.
-- Log every send to `job-kit-starter/output/job-search/outreach/startups_outreach.csv` (columns: Company, Founder, Email, Confidence, Role Pitch, Subject, Status, Sent Date, Notes, Source, Tier).
-- Deliverability rules from `tier_b_template.md` still apply even though sends are direct, not drafts: no two bodies byte-identical in a batch, rotate subject lines, plain text only (no images/tracking links), mix lead sources (HN, funding news, WaaS, founder posts) rather than pulling all leads from one channel.
+- **NEVER auto-send.** Cold emails/DMs are draft-only, always — same rule as CLAUDE.md's outbound submission policy. Draft into Gmail (or the DM composer) and stop; the user hits send themselves. This applies regardless of how the recipient was found (scan digest, cold-outreach research, etc.).
+- Two tiers, run together, targeting **~50 drafts/day total** (default split: 5 Tier A bespoke + 45 Tier B templated-with-slots — see PLAYBOOK.md → "Phase 4 — Cold email outreach" and `output/job-search/outreach/tier_b_template.md` for the exact skeleton, subject-line rotation, and pre-approved metric pool).
+- Every recipient email must carry a `Confidence` tag (`Verified` or `Pattern-guessed`) in `startups_outreach.csv`, and must clear a plausibility check (team/about page, GitHub commit author, LinkedIn/X bio, or an email-prospecting connector) before drafting. Never draft to a bare guessed address with no corroboration — a bounced or misdirected send is a reputational cost with no upside.
+- Log every draft to `job-kit-starter/output/job-search/outreach/startups_outreach.csv` (columns: Company, Founder, Email, Confidence, Role Pitch, Subject, Status, Sent Date, Notes, Source, Tier).
+- Deliverability rules from `tier_b_template.md` still apply: no two bodies byte-identical in a batch, rotate subject lines, plain text only (no images/tracking links), mix lead sources (HN, funding news, WaaS, founder posts) rather than pulling all leads from one channel.
 
 ---
 
@@ -80,11 +72,4 @@
 ---
 
 ## 🔐 Authentication & Session Persistence Rule
-- **Never Logout Accidentally:** Do NOT ever log out accidentally from any platform, session, or browser.
-- **Sign-In Recovery Protocol:** Whenever encountering sign-in problems, expired sessions, or an accidental logout:
-  - **Target Account:** Sign into the **`prathammodi001@gmail.com`** account.
-  - **Google OAuth via Cursor Click:** Use Google Sign-In via OAuth by clicking the "Sign in with Google" / OAuth button with the cursor. **DO NOT** sign in by typing credentials into email/password fields ("not signin via email").
-  - **Tooling:**
-    - When running under **AGY (Antigravity)**: Perform OAuth sign-in via **Playwright**.
-    - When running under **Claude**: Perform OAuth sign-in via **Claude in Chrome** (`claude-in-chrome`).
-- **Board Exception:** Do **NOT** log in if it is the **jobfound** board (`jobfound.org`) — login is not needed.
+Canonical source: `job-kit-starter/CLAUDE.md` → "Authentication, Session Persistence & Auto-Re-login". Read it in full before handling any sign-in issue — do not rely on a stale summary here.
