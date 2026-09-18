@@ -59,7 +59,7 @@ NEG = {
     "java": -8, " java ": -8,
     # other skips
     "qa ": -5, "test engineer": -5, "manual test": -7, "sdet": -3,
-    "salesforce": -6, "sap ": -6, "sap-": -6,
+    "salesforce": -6, "sap ": -6, "sap-": -6, "staffing": -5, "body shop": -8, "bpo": -6,
     "sales ": -5, "wordpress": -6, "php": -3, "intern ": -3, "internship": -3,
     "android developer": -3, "ios developer": -3,
     "manager": -3, "principal": -3, "staff engineer": -2, "architect": -2,

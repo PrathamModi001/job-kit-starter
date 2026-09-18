@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-09-18)
 
 ## Corpus Check
-- 70 files · ~56,781 words
+- 71 files · ~57,227 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 553 nodes · 540 edges · 61 communities (43 shown, 8 thin omitted)
+- 554 nodes · 540 edges · 62 communities (43 shown, 8 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c7fb50db`
+- Built from commit: `62665c05`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -85,7 +85,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (61 total, 8 thin omitted)
+## Communities (62 total, 8 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -208,12 +208,12 @@ Cohesion: 0.50
 Nodes (3): Context Efficiency Notes, Session File Template, Template
 
 ### Community 34 - "CLAUDE.md"
-Cohesion: 0.33
-Nodes (5): 🔐 Authentication, Session Persistence & Auto-Re-login Rule, 🎯 Candidate Bar & Role Focus, 📄 CRITICAL RULE — Mandatory Tailored Resume for Every Application (STRICT), graphify, 📁 Single Source of Truth & Canonical CSV Paths (STRICT)
+Cohesion: 0.40
+Nodes (4): 🔐 Authentication & 🎯 Candidate Bar — canonical source, 📄 CRITICAL RULE — Mandatory Tailored Resume for Every Application (STRICT), graphify, 📁 Single Source of Truth & Canonical CSV Paths (STRICT)
 
 ### Community 41 - "Job Hunt Profile & Operations Rule"
-Cohesion: 0.22
-Nodes (8): 📋 Application-Form Facts, 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule, ✅ SUBMISSION RULE — AUTO-SUBMISSION AUTHORIZED FOR QUALIFYING MATCHES
+Cohesion: 0.20
+Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
 ### Community 43 - "Authentication & Session Persistence Rule"
 Cohesion: 0.40
@@ -261,7 +261,7 @@ Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
 ## Knowledge Gaps
 - **338 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+333 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 404 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 405 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions

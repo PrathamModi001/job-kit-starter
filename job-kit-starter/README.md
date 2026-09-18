@@ -1,142 +1,60 @@
-# claude-resume-kit
+# claude-job-kit
 
-Most AI resume tools work the same way: paste resume + paste JD, get a rewrite. They don't know which of your papers is published vs. under review. They don't know you only ran the simulations, not the experiments. They'll upgrade "contributed to" into "developed" without blinking.
+An AI-run job-search kit for Claude Code: two subsystems that work together.
 
-This is different. You extract your papers, codebases, and reports once — the system asks structured questions about each one. After that, every new application is just pointing it at a JD. It picks the right achievements, frames them for the audience, enforces accuracy, and generates LaTeX you compile locally.
+1. **Resume/CV generation** (`resume_builder/`) — extract your source material once (papers,
+   code, reports), then generate tailored, accuracy-checked LaTeX resumes per job description.
+2. **The daily job-search loop** (find → triage → apply → track → outreach) — company-board
+   scanners (`job_hunt.py`, `job_hunt_india.py`, `hn_scan.py`, `waas_scan.py`), a CSV tracker,
+   and per-ATS auto-apply/outreach recipes.
 
-Built for researchers and engineers with lots of source material (papers, code, reports) who apply to many positions across different employer types.
-
-> **Two workflows in this kit:**
-> 1. **Resume/CV generation** (this README + `resume_builder/`) — extract your material once, generate tailored, accuracy-checked resumes per JD.
-> 2. **The daily job-search loop** (find → triage → apply → track) — see **[`docs/claude-code-for-job-search.md`](docs/claude-code-for-job-search.md)** for the full guide: how to set up your `CLAUDE.md` rules, your master profile, the `applications.csv` tracker, and the board scanners (`hn_scan.py`, `job_hunt.py`, `job_hunt_india.py`, `waas_scan.py`).
->
-> **New here? Just open the folder in Claude Code and say "help me get set up" — Claude interviews you and fills everything in.** See **[QUICKSTART.md](QUICKSTART.md)** for the 3-step start, and the [job-search guide](docs/claude-code-for-job-search.md) for the full workflow.
-
----
-
-## What makes this different
-
-**Knowledge base, not a rewriter.** You extract once. Every application draws from verified source material — not a pasted resume that gets "improved."
-
-**Anti-fabrication by design.** Provenance flags on every achievement (published / under review / internal). Verb discipline rules prevent overclaiming. A corrections log ensures fixed errors don't reappear.
-
-**AI fingerprint avoidance.** Banned-word lists, structural anti-patterns, and a 12-item post-generation scan so output reads as human-written.
-
-**Multi-perspective critique.** Five reader personas (ATS bot through technical reviewer) score your resume across 8 dimensions in a fresh context window.
-
-**LaTeX output, locally compiled.** No data leaves your machine beyond the Claude Code conversation.
-
----
-
-## Example Output
-
-Here's what the system generates for the included fictional researcher (Dr. Jordan Chen, computational biologist) applying to a tenure-track faculty position:
-
-- [Example Resume (PDF)](resume_builder/examples/example_resume.pdf) — 2-page resume with JD-tailored bullets, skills, and publications
-- [Example Cover Letter (PDF)](resume_builder/examples/example_cover_letter.pdf) — 1-page academic cover letter with specific hooks
-- [Example Session File](resume_builder/examples/example_session_file.md) — the decision log that produced this output
-- [Source .tex files](resume_builder/examples/output/) — the LaTeX source Claude generated
-
-All example data is in `resume_builder/examples/` — extraction, experience file, bundle, config, and session file.
-
----
-
-## What you actually do
-
-**One-time setup (~10 min per paper):**
-1. Drop your papers/reports into `knowledge_base/papers/`
-2. Run `/setup-extract` on each — Claude reads it and asks you questions about your contributions and publication status
-3. Run `/setup-build-kb` — synthesizes everything into your knowledge base
-
-**Per application (~15-20 min):**
-1. Drop the JD into `JDs/`
-2. Run `/make-resume JDs/target_job.txt` — approve the bullet plan, get a `.tex` file
-3. Run `/make-cl` for a cover letter
-4. Run `/critique` for a scored review with specific fixes
-
-Each step uses a **separate Claude Code session** for best quality (fresh context = less bias).
+**This kit is operated by Claude Code, not read by a human step-by-step.** `CLAUDE.md` is the
+canonical, auto-loaded source of truth for rules (candidate bar, auth, submission policy,
+resume-tailoring gate). `PLAYBOOK.md` is the full operational manual (scans, ATS recipes,
+outreach). Read those two files before anything nontrivial — this README is just a map.
 
 ---
 
 ## Prerequisites
 
-- **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** CLI installed and authenticated
-- **A LaTeX distribution** for compiling `.tex` to `.pdf` (e.g., [TeX Live](https://tug.org/texlive/), [MacTeX](https://tug.org/mactex/), [MiKTeX](https://miktex.org/))
-- **Your research papers** or project documentation ready for extraction
+- **[Claude Code](https://docs.anthropic.com/en/docs/claude-code)** CLI, authenticated
+- **Playwright MCP**: `claude mcp add playwright -- npx @playwright/mcp@latest`
+- **Python 3** with `pip install pypdf python-jobspy`
+- **tectonic** (LaTeX compiler): https://tectonic-typesetting.github.io
+- Optional: Gmail connector (cold-email drafts, verification links), Node.js (public tracker)
 
----
+## Start here
 
-## Try it first (5 minutes)
+Open the folder in Claude Code and say "set me up." On a fresh kit, Claude detects
+placeholder values in `config.md` / `SKILL_PROFILE.md` and interviews you to fill in:
+contact info, your candidate bar (location/comp/level/stack), and your master profile
+(`SKILL_PROFILE.md`). See `CLAUDE.md` → "First-run onboarding" for the exact flow.
 
-Want to see what it does before extracting your own papers? The repo includes a complete example knowledge base for a fictional researcher:
+After setup:
+- Paste a job description → Claude judges it against your bar and tailors a resume.
+- Say "do the daily scan" → runs the full loop in `.agents/workflows/daily_scan.md`.
+- Say "apply to `<company>`" → tailors resume, fills the ATS form, stops before Submit
+  unless the lead already cleared auto-submit rules in `CLAUDE.md`.
 
-```bash
-git clone https://github.com/ARPeeketi/claude-resume-kit.git
-cd claude-resume-kit
-claude
-/make-resume JDs/example_jd.txt
-```
-
-This runs the full pipeline — JD analysis, bullet selection, LaTeX generation — using the included example data. No setup required.
-
----
-
-## Full Setup
-
-### 1. Clone and configure
-
-```bash
-git clone https://github.com/ARPeeketi/claude-resume-kit.git
-cd claude-resume-kit
-```
-
-Edit `config.md` with your details (name, email, provenance flags, role types). See `resume_builder/examples/example_config.md` for a complete example.
-
-### 2. Extract your papers
-
-Place PDFs or `.tex` source files in `knowledge_base/papers/`, then:
+## File map
 
 ```
-/setup-extract knowledge_base/papers/my_paper.pdf
+CLAUDE.md                  # canonical rules — auto-loaded, read first
+PLAYBOOK.md                # full operational manual (scans, ATS recipes, outreach)
+config.md                  # personal configuration (contact, provenance, preferences)
+SKILL_PROFILE.md           # master brag-doc — single source of truth for resume facts
+.claude/skills/            # setup-extract, setup-build-kb, make-resume, make-cl, edit-resume, critique
+.claude/agents/csv-logger.md   # async CSV writer — delegate all applications.csv edits here
+.agents/rules/              # fast-reference summaries that point back to CLAUDE.md/PLAYBOOK.md
+.agents/workflows/          # daily_scan.md — the full autonomous hunt→apply→track loop
+resume_builder/             # reference docs, LaTeX templates, helpers, examples; see DOCS.md
+knowledge_base/             # your raw materials (papers/, notes/, extractions/)
+job_hunt.py / job_hunt_india.py / hn_scan.py / waas_scan.py   # board scanners (seen-index dedup)
+tracker/                    # React + Cloudflare Pages public application tracker (refresh.sh)
+output/job-search/applications.csv   # THE source of truth for every lead/application
 ```
 
-Claude reads the paper, asks clarifying questions about your contributions, and creates a structured extraction. Repeat for each paper.
-
-### 3. Build your knowledge base
-
-```
-/setup-build-kb
-```
-
-This synthesizes all extractions into experience files, role-type bundles, and support files.
-
-### 4. Customize your LaTeX templates
-
-Open the templates in `resume_builder/templates/` and fill in your FIXED sections — education, header, awards, publications. The `[CONFIG: ...]` placeholders show you what to fill in.
-
-### 5. Generate for a job
-
-```
-/make-resume JDs/target_job.txt
-```
-
-Then in separate sessions: `/make-cl` for the cover letter, `/critique` for a scored review.
-
----
-
-## How It Works
-
-```
-Your Papers --> /setup-extract --> Extractions --> /setup-build-kb --> Knowledge Base
-                                                                          |
-Job Description --> /make-resume --> Tailored Resume/CV (.tex)            |
-                        |              v                                  |
-                   /make-cl --> Cover Letter (.tex)                       |
-                        |              v                                  |
-                   /critique --> 8-Part Score + AI Scan + Fixes           |
-                        |              v                                  |
-                   /edit-resume --> Refined Package                       |
-```
+## Resume/CV generation quick reference
 
 | Skill | Purpose | Input | Output |
 |-------|---------|-------|--------|
@@ -147,22 +65,8 @@ Job Description --> /make-resume --> Tailored Resume/CV (.tex)            |
 | `/edit-resume` | Edit resume/CV/CL from feedback | Session + feedback | Updated `.tex` files |
 | `/critique` | Independent quality review | Session file | `output/<Folder>/critique_*.md` |
 
----
-
-## Documentation
-
-For architecture details, customization tables, the full critique system breakdown, key design decisions, and FAQ, see **[DOCS.md](DOCS.md)**.
-
----
-
-## Contributing
-
-Issues and PRs welcome. When contributing:
-- Example files use the fictional Dr. Jordan Chen — keep examples in that persona
-- Reference docs should stay domain-agnostic
-- Test skill changes against the example data before submitting
-
----
+For architecture details, session-file/bundle/critique internals, and customization tables,
+see [DOCS.md](DOCS.md).
 
 ## License
 

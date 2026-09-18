@@ -110,6 +110,13 @@ STACK = ["full stack", "full-stack", "react", "node", "typescript", "javascript"
          "angular", "python", "rest api", "sql", "web developer",
          "llm", "genai", "rag", "agent",  # AI-RAG bonus fit, not primary — see CLAUDE.md bar
          "microservice", "postgres", "mongodb", "docker", "microservices"]
+# IT-services / staffing-shop / off-stack disqualifiers — kept identical in spirit to
+# job_hunt_india.py's NEG dict so the two scanners never silently drift on what to penalize.
+OFF_LANE = {
+    "sap ": -6, "sap-": -6, "salesforce": -6, "wordpress": -6, "php": -3,
+    "manual test": -7, "sdet": -3, "qa engineer": -5, "test engineer": -5,
+    "staffing": -5, "body shop": -8, "bpo": -6,
+}
 LOC_INDIA  = re.compile(r"\b(india|bengaluru|bangalore|hyderabad|pune|gurgaon|gurugram|noida|delhi|mumbai|chennai|apac)\b", re.I)
 LOC_REMOTE = re.compile(r"\b(remote|anywhere|worldwide|distributed|work from home)\b", re.I)
 # strong "remote with no borders" signal
@@ -162,10 +169,11 @@ def fetch_ashby(slug):
         sec = ", ".join(x.get("location", "") for x in (j.get("secondaryLocations") or []) if x.get("location"))
         if sec:
             loc = f"{loc} ({sec})"
+        comp = (j.get("compensation") or {}).get("compensationTierSummary", "") or ""
         yield {"title": j.get("title", ""), "loc": loc,
                "url": j.get("jobUrl", ""), "desc": j.get("descriptionPlain", "") or "",
                "id": j.get("id") or j.get("jobUrl", ""),
-               "posted": j.get("publishedAt")}
+               "posted": j.get("publishedAt"), "comp": comp}
 
 def fetch_lever(slug):
     data = json.loads(get(f"https://api.lever.co/v0/postings/{slug}?mode=json"))
@@ -263,6 +271,10 @@ def score(title, desc, loc):
     s = sum(2 for k in STACK if k in blob)
     if re.search(r"\b(back[- ]?end|platform|infra)", title, re.I): s += 3
     if any(k in blob for k in ("llm", "ai infra", "genai", "rag", "agent")): s += 3
+    # off-lane signals: penalize IT-services/staffing-shop and non-target-stack markers
+    # even when enough stack keywords overlap to otherwise look like a fit (kept in sync
+    # with job_hunt_india.py's NEG dict — same candidate bar, same disqualifiers).
+    s += sum(w for k, w in OFF_LANE.items() if k in blob)
     s += {"india": 4, "remote": 3, "locked": -6, "unknown": 0}[region(loc, desc)]
     return s
 
@@ -333,11 +345,12 @@ def main():
             sc = score(t, job["desc"], job["loc"])
             if sc < min_s:
                 continue
-            comp = job.get("company") or label
-            key = f"{comp}:{job['id']}"
-            matches.append({"company": comp, "title": t, "loc": job["loc"],
+            comp_name = job.get("company") or label
+            key = f"{comp_name}:{job['id']}"
+            matches.append({"company": comp_name, "title": t, "loc": job["loc"],
                             "url": job["url"], "score": sc, "years": my,
-                            "region": reg, "key": key, "new": key not in seen})
+                            "region": reg, "key": key, "new": key not in seen,
+                            "comp": job.get("comp", "")})
             n += 1
         stats[label] = n
 
@@ -367,14 +380,14 @@ def main():
     if not shown:
         lines.append("_No new matches this run. Try `--all` to see everything._")
     else:
-        lines.append("| ★ | Score | Role | Company | Location | Yrs req |")
-        lines.append("|---|------:|------|---------|----------|--------|")
+        lines.append("| ★ | Score | Role | Company | Location | Yrs req | Comp |")
+        lines.append("|---|------:|------|---------|----------|--------|------|")
         for m in shown:
             star = "🆕" if m["new"] else ""
             yrs = f"{m['years']}+" if m["years"] else "—"
             title = f"[{m['title']}]({m['url']})"
             lines.append(f"| {star} | {m['score']} | {title} | {m['company']} | "
-                         f"{tag_for(m)} | {yrs} |")
+                         f"{tag_for(m)} | {yrs} | {m.get('comp') or '—'} |")
     lines += ["", "---", "Sources scanned: " +
               ", ".join(f"{k}({v})" for k, v in sorted(stats.items()))]
     open(DIGEST, "w", encoding="utf-8").write("\n".join(lines))
