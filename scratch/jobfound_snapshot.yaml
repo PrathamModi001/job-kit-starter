@@ -1,0 +1,980 @@
+- generic [active] [ref=f1e1]:
+  - navigation [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - button "Jobfound" [ref=f1e5] [cursor=pointer]
+      - button [ref=f1e7] [cursor=pointer]
+  - main [ref=f1e13]:
+    - generic [ref=f1e14]:
+      - generic [ref=f1e17]:
+        - generic [ref=f1e18]:
+          - generic [ref=f1e21]: 140+ jobs available
+          - generic [ref=f1e23]: Updated today
+        - heading "Find Jobs Across the Internet" [level=1] [ref=f1e24]
+        - paragraph [ref=f1e25]: Jobfound brings opportunities from across the web into one search, so you can spend more time applying and less time hunting.
+        - generic [ref=f1e27]:
+          - textbox "Job title, skill, or company…" [ref=f1e32]
+          - generic [ref=f1e33]:
+            - generic [ref=f1e35]:
+              - textbox "Filter by location" [ref=f1e39]:
+                - /placeholder: India
+              - button "Clear location" [ref=f1e40] [cursor=pointer]
+            - button "Search" [ref=f1e44] [cursor=pointer]
+        - generic [ref=f1e48]:
+          - generic [ref=f1e49]:
+            - generic [ref=f1e50]: "1"
+            - heading "Search" [level=3] [ref=f1e55]
+            - paragraph [ref=f1e56]: Fresh roles aggregated from across the web
+          - generic [ref=f1e57]:
+            - generic [ref=f1e58]: "2"
+            - heading "Go to the source" [level=3] [ref=f1e64]
+            - paragraph [ref=f1e65]: We redirect you to the original job posting
+          - generic [ref=f1e66]:
+            - generic [ref=f1e67]: "3"
+            - heading "Apply direct" [level=3] [ref=f1e72]
+            - paragraph [ref=f1e73]: Apply straight to the employer — no middleman
+        - paragraph [ref=f1e74]:
+          - text: AI-ranked matches & ad-free browsing —
+          - generic [ref=f1e77]: Coming soon
+      - main [ref=f1e78]:
+        - generic [ref=f1e80]:
+          - generic [ref=f1e81]:
+            - paragraph [ref=f1e82]:
+              - text: Showing
+              - generic [ref=f1e630]: 1–45
+              - text: of 140 jobs · 8 filters active
+            - generic [ref=f1e84]:
+              - button "Newest first" [ref=f1e85] [cursor=pointer]
+              - button "Filters (8)" [ref=f1e91] [cursor=pointer]
+          - list [ref=f1e631]:
+            - listitem [ref=f1e632]:
+              - article [ref=f1e634] [cursor=pointer]:
+                - link "Software Engineer" [ref=f1e635]:
+                  - /url: /job/wells-fargo-is-hiring-for-software-engineer-hyderabad-india-18-september-2026
+                - generic:
+                  - generic: W
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e637]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 2+ yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e640]:
+              - insertion [ref=f1e643]:
+                - iframe [ref=f1e644]
+            - listitem [ref=f1e645]:
+              - article [ref=f1e647] [cursor=pointer]:
+                - link "Software Engineer" [ref=f1e648]:
+                  - /url: /job/wells-fargo-is-hiring-for-software-engineer-hyderabad-india-17-september-2026
+                - generic:
+                  - generic: W
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e650]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 2+ yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e653]:
+              - article [ref=f1e655] [cursor=pointer]:
+                - link "Platform Engineer" [ref=f1e656]:
+                  - /url: /job/cargill-is-hiring-for-platform-engineer-bengaluru-india-india-13-september-2026
+                - generic:
+                  - generic: C
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Platform Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e658]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 2+ yrs
+                      - generic: Platform Engineer
+            - listitem [ref=f1e661]:
+              - article [ref=f1e663] [cursor=pointer]:
+                - link "Deployment Engineer" [ref=f1e664]:
+                  - /url: /job/avoca-is-hiring-for-deployment-engineer-bengaluru-karnataka-remote-india-12-september-2026
+                - generic:
+                  - generic: A
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Deployment Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e666]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 2+ yrs
+                      - generic: Deployment Engineering
+            - listitem [ref=f1e669]:
+              - insertion [ref=f1e672]:
+                - iframe [ref=f1e673]
+            - listitem [ref=f1e674]:
+              - article [ref=f1e676] [cursor=pointer]:
+                - link "Member of Technical Staff I" [ref=f1e677]:
+                  - /url: /job/lattice-semiconductor-is-hiring-for-member-of-technical-staff-i-chennai-india-10-september-2026-2
+                - generic:
+                  - generic: L
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Member of Technical Staff I" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e679]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: Fresher
+                      - generic: Embedded Software Engineer
+            - listitem [ref=f1e682]:
+              - article [ref=f1e684] [cursor=pointer]:
+                - link "Software Engineer - Java" [ref=f1e685]:
+                  - /url: /job/wells-fargo-is-hiring-for-software-engineer-hyderabad-india-9-september-2026
+                - generic:
+                  - generic: W
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer - Java" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e687]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 2+ yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e690]:
+              - article [ref=f1e692] [cursor=pointer]:
+                - link "Fullstack AI Engineer" [ref=f1e693]:
+                  - /url: /job/gocomet-is-hiring-for-fullstack-ai-engineer-bangalore-noida-india-9-september-2026
+                - generic:
+                  - generic: G
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Fullstack AI Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e695]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e698]:
+              - insertion [ref=f1e701]:
+                - iframe [ref=f1e702]
+            - listitem [ref=f1e703]:
+              - article [ref=f1e705] [cursor=pointer]:
+                - link "FDE - AI" [ref=f1e706]:
+                  - /url: /job/confidential-client-is-hiring-for-fde-ai-bangalore-india-8-september-2026
+                - generic:
+                  - generic: C
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "FDE - AI" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e708]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 1-3 yrs
+                      - generic: AI Engineer
+            - listitem [ref=f1e711]:
+              - article [ref=f1e713] [cursor=pointer]:
+                - link "Associate Platform Engineer - Data Storage" [ref=f1e714]:
+                  - /url: /job/brevo-is-hiring-for-associate-platform-engineer-data-storage-noida-uttar-pradesh-hybrid-india-7-september-2026
+                - generic:
+                  - generic: B
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Associate Platform Engineer - Data Storage" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e716]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 1-3 yrs
+                      - generic: Platform Engineering
+            - listitem [ref=f1e719]:
+              - article [ref=f1e721] [cursor=pointer]:
+                - link "Software Engineer - D365 F&O" [ref=f1e722]:
+                  - /url: /job/caterpillar-is-hiring-for-software-engineer-d365-f-o-bangalore-chennai-india-7-september-2026
+                - generic:
+                  - generic: C
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer - D365 F&O" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e724]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 2+ yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e727]:
+              - insertion [ref=f1e730]:
+                - iframe [ref=f1e731]
+            - listitem [ref=f1e732]:
+              - article [ref=f1e734] [cursor=pointer]:
+                - link "SDE I" [ref=f1e735]:
+                  - /url: /job/hevo-data-is-hiring-for-sde-i-bangalore-india-3-september-2026
+                - generic:
+                  - generic: H
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "SDE I" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e737]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e740]:
+              - article [ref=f1e742] [cursor=pointer]:
+                - link "Software Engineer" [ref=f1e743]:
+                  - /url: /job/writesonic-is-hiring-for-software-engineer-remote-india-1-september-2026
+                - generic:
+                  - generic: W
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e745]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e748]:
+              - article [ref=f1e750] [cursor=pointer]:
+                - link "Software Development Engineer I" [ref=f1e751]:
+                  - /url: /job/onmeta-is-hiring-for-software-development-engineer-i-bengaluru-karnataka-india-31-august-2026
+                - generic:
+                  - generic: O
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Development Engineer I" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e753]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e756]:
+              - insertion [ref=f1e759]:
+                - iframe [ref=f1e760]
+            - listitem [ref=f1e761]:
+              - article [ref=f1e763] [cursor=pointer]:
+                - link "Data Analyst" [ref=f1e764]:
+                  - /url: /job/velocity-is-hiring-for-data-analyst-bengaluru-india-29-august-2026
+                - generic:
+                  - generic: V
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Data Analyst" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e766]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 2+ yrs
+                      - generic: Data Analyst
+            - listitem [ref=f1e769]:
+              - article [ref=f1e771] [cursor=pointer]:
+                - link "Full Stack Engineer" [ref=f1e772]:
+                  - /url: /job/meshdefend-is-hiring-for-full-stack-engineer-bengaluru-karnataka-india-26-august-2026
+                - generic:
+                  - generic: M
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Full Stack Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e774]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e777]:
+              - article [ref=f1e779] [cursor=pointer]:
+                - link "Backend Engineer (SDE 1)" [ref=f1e780]:
+                  - /url: /job/kredivo-group-is-hiring-for-backend-engineer-sde-1-bengaluru-karnataka-india-24-august-2026
+                - generic:
+                  - generic: K
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Backend Engineer (SDE 1)" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e782]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 1-3 yrs
+                      - generic: Backend Engineer
+            - listitem [ref=f1e785]:
+              - insertion [ref=f1e788]:
+                - iframe [ref=f1e789]
+            - listitem [ref=f1e790]:
+              - article [ref=f1e792] [cursor=pointer]:
+                - link "SDET" [ref=f1e793]:
+                  - /url: /job/worldline-is-hiring-for-sdet-pune-hybrid-india-19-august-2026
+                - generic:
+                  - generic: W
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "SDET" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e795]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e798]:
+              - article [ref=f1e800] [cursor=pointer]:
+                - link "Engineer" [ref=f1e801]:
+                  - /url: /job/target-is-hiring-for-engineer-bangalore-india-19-august-2026
+                - generic:
+                  - generic: T
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e803]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e806]:
+              - article [ref=f1e808] [cursor=pointer]:
+                - link "Backend Engineer - Vision" [ref=f1e809]:
+                  - /url: /job/sarvam-is-hiring-for-backend-engineer-bengaluru-india-18-august-2026
+                - generic:
+                  - generic: S
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Backend Engineer - Vision" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e811]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e814]:
+              - insertion [ref=f1e817]:
+                - iframe [ref=f1e818]
+            - listitem [ref=f1e819]:
+              - article [ref=f1e821] [cursor=pointer]:
+                - link "Software Development Engineer" [ref=f1e822]:
+                  - /url: /job/delta-air-lines-is-hiring-for-software-development-engineer-bangalore-india-18-august-2026
+                - generic:
+                  - generic: D
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Development Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e824]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 2+ yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e827]:
+              - article [ref=f1e829] [cursor=pointer]:
+                - link "Associate Software Engineer (React+Java)" [ref=f1e830]:
+                  - /url: /job/mobility-is-hiring-for-associate-software-engineer-gurugram-haryana-india-18-august-2026
+                - generic:
+                  - generic: M
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Associate Software Engineer (React+Java)" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e832]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e835]:
+              - article [ref=f1e837] [cursor=pointer]:
+                - link "Software Development Engineer" [ref=f1e838]:
+                  - /url: /job/autodesk-is-hiring-for-software-development-engineer-pune-india-18-august-2026
+                - generic:
+                  - generic: A
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Development Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e840]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e843]:
+              - insertion [ref=f1e846]:
+                - iframe [ref=f1e847]
+            - listitem [ref=f1e848]:
+              - article [ref=f1e850] [cursor=pointer]:
+                - link "Software Engineer" [ref=f1e851]:
+                  - /url: /job/qualys-is-hiring-for-software-engineer-pune-india-18-august-2026
+                - generic:
+                  - generic: Q
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e853]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e856]:
+              - article [ref=f1e858] [cursor=pointer]:
+                - link "Software Engineer" [ref=f1e859]:
+                  - /url: /job/lseg-is-hiring-for-software-engineer-bangalore-india-18-august-2026
+                - generic:
+                  - generic: L
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e861]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e864]:
+              - article [ref=f1e866] [cursor=pointer]:
+                - link "Software Engineer I" [ref=f1e867]:
+                  - /url: /job/aiprise-is-hiring-for-software-engineer-bengaluru-ka-india-18-august-2026
+                - generic:
+                  - generic: A
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer I" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e869]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e872]:
+              - insertion [ref=f1e875]:
+                - iframe [ref=f1e876]
+            - listitem [ref=f1e877]:
+              - article [ref=f1e879] [cursor=pointer]:
+                - link "Associate Software Engineer" [ref=f1e880]:
+                  - /url: /job/ecolab-is-hiring-for-associate-software-engineer-bengaluru-karnataka-hybrid-india-18-august-2026
+                - generic:
+                  - generic: E
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Associate Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e882]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e885]:
+              - article [ref=f1e887] [cursor=pointer]:
+                - link "Software Engineer" [ref=f1e888]:
+                  - /url: /job/cbre-is-hiring-for-software-engineer-gurgaon-hyderabad-noida-india-18-august-2026
+                - generic:
+                  - generic: C
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e890]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e893]:
+              - article [ref=f1e895] [cursor=pointer]:
+                - link "Software Engineer (Fullstack/AI)" [ref=f1e896]:
+                  - /url: /job/algouniversity-is-hiring-for-software-engineer-bengaluru-india-18-august-2026
+                - generic:
+                  - generic: A
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer (Fullstack/AI)" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e898]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e901]:
+              - insertion [ref=f1e904]:
+                - iframe [ref=f1e905]
+            - listitem [ref=f1e906]:
+              - article [ref=f1e908] [cursor=pointer]:
+                - link "Software Engineer - Backend" [ref=f1e909]:
+                  - /url: /job/impact-analytics-is-hiring-for-software-engineer-backend-bangalore-india-17-august-2026
+                - generic:
+                  - generic: I
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer - Backend" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e911]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e914]:
+              - article [ref=f1e916] [cursor=pointer]:
+                - link "Formal Verification Engineer" [ref=f1e917]:
+                  - /url: /job/nvidia-is-hiring-for-formal-verification-engineer-bengaluru-india-17-august-2026
+                - generic:
+                  - generic: "N"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Formal Verification Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e919]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 20-30 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e922]:
+              - article [ref=f1e924] [cursor=pointer]:
+                - link "Software Engineer" [ref=f1e925]:
+                  - /url: /job/cisco-is-hiring-for-software-engineer-bangalore-hybrid-india-17-august-2026
+                - generic:
+                  - generic: C
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e927]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e930]:
+              - insertion [ref=f1e933]:
+                - iframe [ref=f1e934]
+            - listitem [ref=f1e935]:
+              - article [ref=f1e937] [cursor=pointer]:
+                - link "Software Development Engineer I" [ref=f1e938]:
+                  - /url: /job/jiostar-is-hiring-for-software-development-engineer-i-bengaluru-india-17-august-2026
+                - generic:
+                  - generic: J
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Development Engineer I" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e940]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Frontend Engineer
+            - listitem [ref=f1e943]:
+              - article [ref=f1e945] [cursor=pointer]:
+                - link "Engineer I, Embedded Software Design" [ref=f1e946]:
+                  - /url: /job/schneider-electric-is-hiring-for-engineer-i-embedded-software-design-bangalore-karnataka-hybrid-india-17-august-2026
+                - generic:
+                  - generic: S
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Engineer I, Embedded Software Design" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e948]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 2+ yrs
+                      - generic: Embedded Software Design
+            - listitem [ref=f1e951]:
+              - article [ref=f1e953] [cursor=pointer]:
+                - link "Consultant - Software Engineer I (Backend)" [ref=f1e954]:
+                  - /url: /job/astrochat-is-hiring-for-consultant-software-engineer-i-backend-mumbai-maharashtra-india-17-august-2026
+                - generic:
+                  - generic: A
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Consultant - Software Engineer I (Backend)" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e956]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e959]:
+              - insertion [ref=f1e962]:
+                - iframe [ref=f1e963]
+            - listitem [ref=f1e964]:
+              - article [ref=f1e966] [cursor=pointer]:
+                - link "Associate Solution Engineer" [ref=f1e967]:
+                  - /url: /job/bmc-helix-is-hiring-for-associate-solution-engineer-pune-hybrid-india-17-august-2026
+                - generic:
+                  - generic: B
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Associate Solution Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e969]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Solution Engineering
+            - listitem [ref=f1e972]:
+              - article [ref=f1e974] [cursor=pointer]:
+                - link "Artificial Intelligence Engineer" [ref=f1e975]:
+                  - /url: /job/onified-ai-is-hiring-for-ai-engineer-gurugram-haryana-india-17-august-2026
+                - generic:
+                  - generic: O
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Artificial Intelligence Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e977]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Artificial Intelligence
+            - listitem [ref=f1e980]:
+              - article [ref=f1e982] [cursor=pointer]:
+                - link "Software Engineer" [ref=f1e983]:
+                  - /url: /job/rivirtual-is-hiring-for-software-engineer-hyderabad-telangana-remote-india-17-august-2026
+                - generic:
+                  - generic: R
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e985]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e988]:
+              - insertion [ref=f1e991]:
+                - iframe [ref=f1e992]
+            - listitem [ref=f1e993]:
+              - article [ref=f1e995] [cursor=pointer]:
+                - link "Software Engineer I" [ref=f1e996]:
+                  - /url: /job/stronghold-investment-management-is-hiring-for-software-engineer-i-bangalore-india-17-august-2026
+                - generic:
+                  - generic: S
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer I" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e998]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e1001]:
+              - article [ref=f1e1003] [cursor=pointer]:
+                - link "Software Engineer" [ref=f1e1004]:
+                  - /url: /job/ecolab-is-hiring-for-software-engineer-bangalore-india-16-august-2026
+                - generic:
+                  - generic: E
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e1006]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e1009]:
+              - article [ref=f1e1011] [cursor=pointer]:
+                - link "Front-End Developer – React, Next.js & Contentful" [ref=f1e1012]:
+                  - /url: /job/dimiya-tech-is-hiring-for-front-end-developer-remote-india-16-august-2026
+                - generic:
+                  - generic: D
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Front-End Developer – React, Next.js & Contentful" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e1014]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 1-3 yrs
+                      - generic: Front-End Developer
+            - listitem [ref=f1e1017]:
+              - insertion [ref=f1e1020]:
+                - iframe [ref=f1e1021]
+            - listitem [ref=f1e1022]:
+              - article [ref=f1e1024] [cursor=pointer]:
+                - link "Software Engineer (Fullstack/AI)" [ref=f1e1025]:
+                  - /url: /job/algouniversity-is-hiring-for-software-engineer-fullstack-ai-bengaluru-hyderabad-india-16-august-2026
+                - generic:
+                  - generic: A
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer (Fullstack/AI)" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e1027]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e1030]:
+              - article [ref=f1e1032] [cursor=pointer]:
+                - link "Software Engineer-Dynamics CRM" [ref=f1e1033]:
+                  - /url: /job/ecolab-is-hiring-for-software-engineer-dynamics-crm-bangalore-karn-taka-india-16-august-2026
+                - generic:
+                  - generic: E
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer-Dynamics CRM" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e1035]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: Fresher
+                      - generic: Software Engineer
+            - listitem [ref=f1e1038]:
+              - article [ref=f1e1040] [cursor=pointer]:
+                - link "Associate Software Engineer" [ref=f1e1041]:
+                  - /url: /job/aci-worldwide-is-hiring-for-associate-software-engineer-pune-maharashtra-hybrid-india-15-august-2026
+                - generic:
+                  - generic: A
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Associate Software Engineer" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e1043]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 2+ yrs
+                      - generic: Software Engineer
+            - listitem [ref=f1e1046]:
+              - insertion [ref=f1e1049]:
+                - iframe [ref=f1e1050]
+            - listitem [ref=f1e1051]:
+              - article [ref=f1e1053] [cursor=pointer]:
+                - link "Software Development Engineer - Java" [ref=f1e1054]:
+                  - /url: /job/firstbase-is-hiring-for-software-development-engineer-java-pune-maharashtra-india-14-august-2026
+                - generic:
+                  - generic: F
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Development Engineer - Java" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e1056]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 2+ yrs
+                      - generic: Software Development
+            - listitem [ref=f1e1059]:
+              - article [ref=f1e1061] [cursor=pointer]:
+                - link "Software Engineer I" [ref=f1e1062]:
+                  - /url: /job/kaseya-is-hiring-for-software-engineer-i-pune-division-maharashtra-india-14-august-2026
+                - generic:
+                  - generic: K
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Software Engineer I" [level=3]
+                        - generic
+                      - button "Save job" [ref=f1e1064]
+                    - generic:
+                      - generic: Full-time
+                      - generic: 10-20 LPA
+                      - generic: 1-3 yrs
+                      - generic: Software Engineer
+          - generic [ref=f1e1067]:
+            - button "Previous page" [disabled] [ref=f1e1068]:
+              - generic [ref=f1e1069]: Prev
+            - generic [ref=f1e1073]:
+              - button "Page 1" [ref=f1e1074] [cursor=pointer]:
+                - generic [ref=f1e1075]: "1"
+              - button "Page 2" [ref=f1e1076] [cursor=pointer]:
+                - generic [ref=f1e1077]: "2"
+              - button "Page 3" [ref=f1e1078] [cursor=pointer]:
+                - generic [ref=f1e1079]: "3"
+              - button "Page 4" [ref=f1e1080] [cursor=pointer]:
+                - generic [ref=f1e1081]: "4"
+            - button "Next page" [ref=f1e1082] [cursor=pointer]:
+              - generic [ref=f1e1083]: Next
+    - region "Popular job categories and locations" [ref=f1e552]:
+      - heading "Popular Job Categories" [level=2] [ref=f1e553]
+      - paragraph [ref=f1e554]: Explore verified remote, work-from-home, and on-site openings across top companies. Every listing includes salary, experience level, and a direct apply link to the employer.
+      - generic [ref=f1e555]:
+        - link "Remote Jobs" [ref=f1e556] [cursor=pointer]:
+          - /url: /remote
+        - link "Amazon Jobs" [ref=f1e557] [cursor=pointer]:
+          - /url: /amazon
+        - link "Fresher Jobs" [ref=f1e558] [cursor=pointer]:
+          - /url: /freshers
+        - link "Experienced Jobs" [ref=f1e559] [cursor=pointer]:
+          - /url: /experienced
+        - link "US Jobs" [ref=f1e560] [cursor=pointer]:
+          - /url: /us-jobs
+        - link "UK Jobs" [ref=f1e561] [cursor=pointer]:
+          - /url: /uk-jobs
+        - link "India Jobs" [ref=f1e562] [cursor=pointer]:
+          - /url: /india-jobs
+        - link "Remote Data Entry Jobs" [ref=f1e563] [cursor=pointer]:
+          - /url: /remote-data-entry-jobs
+      - heading "Remote Jobs by Location" [level=2] [ref=f1e564]
+      - generic [ref=f1e565]:
+        - link "Remote Jobs in USA" [ref=f1e566] [cursor=pointer]:
+          - /url: /remote/usa
+        - link "Remote Jobs in UK" [ref=f1e567] [cursor=pointer]:
+          - /url: /remote/uk
+        - link "Remote Jobs in India" [ref=f1e568] [cursor=pointer]:
+          - /url: /remote/india
+        - link "Remote Jobs in Canada" [ref=f1e569] [cursor=pointer]:
+          - /url: /remote/canada
+        - link "Remote Jobs in Europe" [ref=f1e570] [cursor=pointer]:
+          - /url: /remote/europe
+  - contentinfo [ref=f1e571]:
+    - generic [ref=f1e572]:
+      - generic [ref=f1e573]:
+        - generic [ref=f1e574]:
+          - heading "Jobfound" [level=3] [ref=f1e575]
+          - paragraph [ref=f1e576]: Jobfound brings jobs from across the internet into one place. Search opportunities from top job boards and company career pages, so you can spend less time searching and more time applying.
+          - generic [ref=f1e577]:
+            - link "Twitter" [ref=f1e578] [cursor=pointer]:
+              - /url: https://x.com/nitesh_singh5
+            - link "Whatsapp" [ref=f1e582] [cursor=pointer]:
+              - /url: https://whatsapp.com/channel/0029VaQAHO0HLHQcZ71nkb35
+            - link "Instagram" [ref=f1e586] [cursor=pointer]:
+              - /url: https://www.instagram.com/jobfound_org/
+        - generic [ref=f1e590]:
+          - generic [ref=f1e591]:
+            - heading "Career Roadmaps" [level=4] [ref=f1e592]
+            - generic [ref=f1e593]:
+              - link "Data Entry Specialist" [ref=f1e594] [cursor=pointer]:
+                - /url: /roadmaps/data-entry
+              - link "Virtual Assistant" [ref=f1e595] [cursor=pointer]:
+                - /url: /roadmaps/virtual-assistant
+              - link "Customer Support Rep" [ref=f1e596] [cursor=pointer]:
+                - /url: /roadmaps/customer-support
+              - link "Social Media Manager" [ref=f1e597] [cursor=pointer]:
+                - /url: /roadmaps/social-media-manager
+              - link "Frontend Developer" [ref=f1e598] [cursor=pointer]:
+                - /url: /roadmaps/frontend-developer
+              - link "Backend Developer" [ref=f1e599] [cursor=pointer]:
+                - /url: /roadmaps/backend-developer
+              - link "Data Analyst" [ref=f1e600] [cursor=pointer]:
+                - /url: /roadmaps/data-analyst
+              - link "Copywriter" [ref=f1e601] [cursor=pointer]:
+                - /url: /roadmaps/copywriter
+          - generic [ref=f1e602]:
+            - heading "Job Categories" [level=4] [ref=f1e603]
+            - generic [ref=f1e604]:
+              - link "Remote Jobs" [ref=f1e605] [cursor=pointer]:
+                - /url: /remote
+              - link "Remote USA Jobs" [ref=f1e606] [cursor=pointer]:
+                - /url: /remote/usa
+              - link "Remote UK Jobs" [ref=f1e607] [cursor=pointer]:
+                - /url: /remote/uk
+              - link "Remote India Jobs" [ref=f1e608] [cursor=pointer]:
+                - /url: /remote/india
+              - link "Remote Data Entry Jobs" [ref=f1e609] [cursor=pointer]:
+                - /url: /remote-data-entry-jobs
+              - link "Fresher Jobs" [ref=f1e610] [cursor=pointer]:
+                - /url: /freshers
+              - link "Amazon Jobs" [ref=f1e611] [cursor=pointer]:
+                - /url: /amazon
+              - link "Experienced Jobs" [ref=f1e612] [cursor=pointer]:
+                - /url: /experienced
+          - generic [ref=f1e613]:
+            - heading "Jobs by Location" [level=4] [ref=f1e614]
+            - generic [ref=f1e615]:
+              - link "US Jobs" [ref=f1e616] [cursor=pointer]:
+                - /url: /us-jobs
+              - link "UK Jobs" [ref=f1e617] [cursor=pointer]:
+                - /url: /uk-jobs
+              - link "India Jobs" [ref=f1e618] [cursor=pointer]:
+                - /url: /india-jobs
+          - generic [ref=f1e619]:
+            - heading "Company" [level=4] [ref=f1e620]
+            - generic [ref=f1e621]:
+              - link "About" [ref=f1e622] [cursor=pointer]:
+                - /url: /about
+              - link "Blog" [ref=f1e623] [cursor=pointer]:
+                - /url: /blog
+              - link "Contact" [ref=f1e624] [cursor=pointer]:
+                - /url: /contact
+              - link "Terms of Services" [ref=f1e625] [cursor=pointer]:
+                - /url: /terms-of-services
+              - link "Privacy Policy" [ref=f1e626] [cursor=pointer]:
+                - /url: /privacy-policy
+      - paragraph [ref=f1e628]: © 2026 Jobfound. All rights reserved.
+  - alert [ref=f1e629]

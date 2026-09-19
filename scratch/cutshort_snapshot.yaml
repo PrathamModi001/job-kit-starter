@@ -1,0 +1,54 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img "DP" [ref=e11]
+          - navigation [ref=e14]
+        - navigation [ref=e29]:
+          - link "Dashboard" [ref=e30] [cursor=pointer]:
+            - /url: /profile/candidate-dashboard
+          - link "View jobs" [ref=e32] [cursor=pointer]:
+            - /url: /profile/recommended-jobs
+          - link "Messages" [ref=e34] [cursor=pointer]:
+            - /url: /profile/candidate-conversations?stage=unread
+          - link "Plans" [ref=e36] [cursor=pointer]:
+            - /url: /profile/candidate-plans
+          - link "Credits" [ref=e38] [cursor=pointer]:
+            - /url: /profile/earn-credits-c
+          - link "Settings" [ref=e40] [cursor=pointer]:
+            - /url: /profile/candidate-settings/profile
+        - generic [ref=e42]:
+          - generic [ref=e43]: Free
+          - generic [ref=e48]: INR 300
+          - generic [ref=e57] [cursor=pointer]
+          - generic [ref=e64] [cursor=pointer]
+          - img "DP" [ref=e75] [cursor=pointer]
+      - navigation [ref=e80]:
+        - link "All jobs" [ref=e81] [cursor=pointer]:
+          - /url: /profile/recommended-jobs
+        - link "Saved jobs" [ref=e83] [cursor=pointer]:
+          - /url: /profile/saved-jobs
+    - generic [ref=e86]:
+      - link "arrow-down Find jobs" [ref=e87] [cursor=pointer]:
+        - /url: /profile/candidate-dashboard
+        - img "arrow-down" [ref=e88]
+        - text: Find jobs
+      - link "arrow-down Hire talent" [ref=e89] [cursor=pointer]:
+        - /url: /profile/employer-dashboard
+        - img "arrow-down" [ref=e90]
+        - text: Hire talent
+    - generic [ref=e93]:
+      - complementary [ref=e95]:
+        - generic [ref=e97]:
+          - generic [ref=e98]: Filters
+          - generic [ref=e101]
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e209]
+          - generic [ref=e241]
+          - img "App loader" [ref=e221]
+        - generic [ref=e224]:
+          - generic [ref=e225]: Recommended companies
+          - generic [ref=e228]
+  - alert [ref=e240]

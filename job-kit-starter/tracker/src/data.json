@@ -804,6 +804,78 @@
 "resume": "output/Verdantis - AI Node.js Backend Developer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "DPDzero",
+"role": "Software Engineer II - Backend",
+"loc": "HQ (Bangalore)",
+"via": "DPDzero Careers",
+"found": "DPDzero Careers",
+"comp": "~18-28 LPA",
+"status": "Applied",
+"date": "2026-09-19",
+"url": "https://dpdzero.my.salesforce-sites.com/Careers?jobId=a1VdN000002YjeHUAS",
+"resume": "output/DPDzero - Software Engineer II Backend/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Emergent",
+"role": "Software Engineer - Infrastructure",
+"loc": "Bangalore, India",
+"via": "WorkAtAStartup",
+"found": "WorkAtAStartup",
+"comp": "₹10L - ₹80L (~₹25-45 LPA)",
+"status": "Applied",
+"date": "2026-09-19",
+"url": "https://www.workatastartup.com/jobs/91388",
+"resume": "output/Emergent - Software Engineer - Infrastructure/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Greenway Health",
+"role": "AI Native Software Engineer",
+"loc": "Bengaluru, Karnataka (Hybrid)",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~18-25 LPA",
+"status": "Applied",
+"date": "2026-09-19",
+"url": "https://in.indeed.com/viewjob?jk=93db984b4ad81126",
+"resume": "output/Greenway Health - AI Native Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Rupeezy",
+"role": "Software Development Engineer 1/2 (Backend / Golang)",
+"loc": "Bengaluru, Karnataka (Indira Nagar, Work from Office)",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "₹9L - ₹18L per year",
+"status": "Applied",
+"date": "2026-09-19",
+"url": "https://in.indeed.com/viewjob?jk=2f0e3424d61d0753",
+"resume": "output/Rupeezy - Software Development Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Uniprep",
+"role": "Java developer",
+"loc": "Remote (India)",
+"via": "Cutshort",
+"found": "Cutshort",
+"comp": "₹13L - ₹25L / yr (~18-22 LPA)",
+"status": "Applied",
+"date": "2026-09-19",
+"url": "https://cutshort.io/job/Java-developer-Uniprep-COCJ6kwz",
+"resume": "output/Uniprep - Java developer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "WarpBuild",
+"role": "GTM Engineer",
+"loc": "IN / Remote (IN)",
+"via": "WorkAtAStartup",
+"found": "WorkAtAStartup",
+"comp": "₹2.5M - ₹6M INR (~25-60 LPA)",
+"status": "Applied",
+"date": "2026-09-19",
+"url": "https://www.workatastartup.com/jobs/80216",
+"resume": "output/WarpBuild - GTM Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -1126,6 +1198,54 @@
 "date": "2026-09-18",
 "url": "https://impactanalytics.keka.com/careers/jobdetails/41977",
 "resume": "output/Impact Analytics - Software Engineer - Backend/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "AtomicAds",
+"role": "Member of Technical Staff",
+"loc": "Bangalore Urban (In office)",
+"via": "Wellfound / Notion Form",
+"found": "Wellfound / Notion Form",
+"comp": "₹15L – ₹50L (~22 LPA)",
+"status": "Blocked",
+"date": "2026-09-19",
+"url": "https://wellfound.com/jobs/4012972-member-of-technical-staff",
+"resume": "output/AtomicAds - Member of Technical Staff/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Blue Machines AI",
+"role": "Backend Engineer - SDE 2 (Voice AI / Telephony Platform)",
+"loc": "Bengaluru, Karnataka (Work from Office)",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~18-25 LPA",
+"status": "Blocked",
+"date": "2026-09-19",
+"url": "https://in.indeed.com/viewjob?jk=4a8648d5ebe69146",
+"resume": "output/Blue Machines AI - Backend Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "EatEasily Online Pvt. Ltd",
+"role": "Full Stack Developer",
+"loc": "Indiranagar, Bengaluru, Karnataka",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~18-22 LPA",
+"status": "Blocked",
+"date": "2026-09-19",
+"url": "https://in.indeed.com/viewjob?jk=38718ba3dd2c70ad",
+"resume": "output/EatEasily Online - Full Stack Developer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "REDICA Systems",
+"role": "AI Engineer (India)",
+"loc": "Bengaluru, Karnataka (Hybrid)",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~20-35 LPA",
+"status": "Blocked",
+"date": "2026-09-19",
+"url": "https://in.indeed.com/viewjob?jk=2c57ad6d87a188e1",
+"resume": "output/REDICA Systems - AI Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Rapid Claims",

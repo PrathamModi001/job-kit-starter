@@ -1,0 +1,63 @@
+- generic [ref=e2]:
+  - list [ref=e4]:
+    - listitem [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: https://infisical.com/
+        - img "Infisical" [ref=e7]
+    - listitem [ref=e8]:
+      - link "Back to Infisical’s Job Listings" [ref=e9] [cursor=pointer]:
+        - /url: /infisical
+    - listitem
+  - generic [ref=e12]:
+    - heading "Full Stack Engineer" [level=1] [ref=e14]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - heading "Location" [level=2] [ref=e18]
+          - paragraph [ref=e19]: United States & Canada; Brazil; European Union; India; United Kingdom
+        - generic [ref=e20]:
+          - heading "Employment Type" [level=2] [ref=e21]
+          - paragraph [ref=e22]: Full time
+        - generic [ref=e23]:
+          - heading "Location Type" [level=2] [ref=e24]
+          - paragraph [ref=e25]: Remote
+        - generic [ref=e26]:
+          - heading "Department" [level=2] [ref=e27]
+          - paragraph [ref=e28]: Engineering
+        - generic [ref=e29]:
+          - heading "Compensation" [level=2] [ref=e30]
+          - list [ref=e31]:
+            - listitem [ref=e32]
+      - generic [ref=e34]:
+        - tablist [ref=e35]:
+          - tab "Overview" [ref=e36] [cursor=pointer]
+          - tab "Application" [selected] [ref=e37] [cursor=pointer]
+        - tabpanel "Application" [ref=e39]:
+          - generic [ref=e63]:
+            - button "Choose File" [ref=e64]
+            - generic [ref=e66]
+          - generic [ref=e76]:
+            - generic [ref=e77]
+            - generic [ref=e81]
+            - generic [ref=e85]
+            - generic [ref=e94]
+            - generic [ref=e98]
+            - generic [ref=e102]
+            - group [ref=e110]
+            - group [ref=e153]
+            - group [ref=e288]
+            - group [ref=e333]
+            - generic [ref=e370]
+          - button "Submit Application" [ref=e374] [cursor=pointer]
+  - contentinfo [ref=e48]:
+    - link "Learn more about Ashby" [ref=e49] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=e50]: Powered by
+      - img "Ashby" [ref=e51]
+    - paragraph [ref=e57]:
+      - link "Privacy Policy" [ref=e58] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=e59] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=e60] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

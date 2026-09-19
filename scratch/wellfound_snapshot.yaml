@@ -1,0 +1,52 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Wellfound" [ref=e8] [cursor=pointer]:
+          - /url: /jobs
+        - generic [ref=e13]:
+          - generic [ref=e14] [cursor=pointer]
+          - textbox "Search everything" [ref=e18]:
+            - /placeholder: Search
+        - button "Notifications" [ref=e20] [cursor=pointer]
+        - button "interviewing Ready to interview" [ref=e26] [cursor=pointer]:
+          - img "interviewing" [ref=e28]
+          - generic [ref=e34]: Ready to interview
+        - button "Avatar for Pratham Modi" [ref=e39] [cursor=pointer]:
+          - img "Avatar for Pratham Modi" [ref=e42]
+    - generic [ref=e45]:
+      - navigation [ref=e46]:
+        - link "Home" [ref=e47] [cursor=pointer]:
+          - /url: /jobs/home
+        - link "Profile" [ref=e51] [cursor=pointer]:
+          - /url: /profile/edit/overview
+        - link "Jobs" [ref=e56] [cursor=pointer]:
+          - /url: /jobs
+        - link "Applied" [ref=e62] [cursor=pointer]:
+          - /url: /jobs/applications
+        - link "Messages" [ref=e67] [cursor=pointer]:
+          - /url: /jobs/messages
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - heading "Search for jobs" [level=1] [ref=e84]
+          - navigation [ref=e86]
+        - generic [ref=e99]:
+          - menu "Saved Search Menu" [ref=e101]
+          - generic [ref=e113]
+          - generic [ref=e160]
+          - generic [ref=e177]
+          - generic [ref=e179]
+          - generic [ref=e238]
+          - generic [ref=e319]
+          - generic [ref=e397]
+          - generic [ref=e463]
+          - generic [ref=e536]
+          - generic [ref=e604]
+          - generic [ref=e662]
+          - generic [ref=e794]
+          - generic [ref=e859]
+          - generic [ref=e938]
+          - generic [ref=e1002]
+          - generic [ref=e1084]
+  - alert [ref=e81]
+  - status [ref=e1146]

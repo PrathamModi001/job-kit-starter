@@ -34,26 +34,13 @@
 
 ## Target Roles & Preferences
 
-- **Primary Lanes:** Software Developer · Full-Stack Developer · Node.js Backend Developer (plus distributed systems).
-- **Frontend Note & Exclusions:** Exclude frontend-specific / frontend-only roles (e.g., pure Frontend Engineer, UI Developer, React Developer). It is fine if frontend skills are needed as part of a Full-Stack or Software Developer role, but do not focus on frontend-only jobs.
-- **Role Exclusions (Experience mismatch):** Exclude **Product Engineer II** (and PE 2) and **Member of Technical Staff (MTS)** — these do not fall under the 0–3 YOE bracket.
-- **Stack Exclusions:** Java, .NET/C#, C++, Ruby/Ruby on Rails.
-- **Target Locations (Eligible Cities):** Bengaluru (Bangalore), Pune, Mumbai, Hyderabad (Secunderabad), Gurgaon (Gurugram), Ahmedabad, Chennai, or Remote (India).
-- **Wellfound Location Prompt Policy:** When Wellfound shows *"This job does not support the locations on your profile. Update your location preferences: I am currently in… / I can relocate to… [Location]"*, if the location shown/dropdown matches our Target Locations list above, click **"I can relocate to…"**, select the matching location, update/confirm, and proceed with the application note. Otherwise, skip the role.
+> **Canonical source:** `CLAUDE.md` → "Candidate bar" (under "Job-Search Operations Runbook"). Lanes, level/YOE gate, stack exclusions (Java/.NET/C#/C++/Ruby), comp floor, and eligible locations are defined there — read it in full, do not rely on a stale copy here. This file previously hand-copied that list; it drifted out of sync with CLAUDE.md's SDE2/3 wording and is no longer maintained separately.
 
 ---
 
 ## Application-Form Facts (reused constantly — collect once during onboarding)
 
-- **Current CTC / salary:** 12 LPA
-- **Expected CTC we quote on forms:** 18–20 LPA (floor 18 LPA, target 20 LPA)
-- **Home address (for ATS forms):** 395 5th Avenue, Teachers Colony, Koramangala, Bengaluru
-- **Citizenship / passport:** India (Indian passport)
-- **Needs sponsorship in home country:** no
-- **Notice period:** Immediate
-- **Date of birth:** 23/01/2003
-- **Gender (voluntary-disclosure forms):** Male
-- **Background checks:** OK
+> **Canonical source:** `.agents/rules/job_hunt_profile.md` → "📋 Application-Form Facts" — that file (not this one) is what actually gets read during the job-hunt loop, so it owns the live copy. Comp floor (18–20 LPA) is part of the Candidate Bar in `CLAUDE.md`. Update the facts there; this section is a pointer only, not a second copy, to avoid the two drifting apart.
 - **Email signature for outreach:** Best, / Pratham Modi / prathammodi001@gmail.com
 
 ---

@@ -1,0 +1,352 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Wellfound" [ref=e8] [cursor=pointer]:
+          - /url: /jobs
+        - generic [ref=e13]:
+          - generic [ref=e14] [cursor=pointer]
+          - textbox "Search everything" [ref=e18]:
+            - /placeholder: Search
+        - button "Notifications" [ref=e20] [cursor=pointer]
+        - button "interviewing Ready to interview" [ref=e26] [cursor=pointer]:
+          - img "interviewing" [ref=e28]
+          - generic [ref=e34]: Ready to interview
+        - button "Avatar for Pratham Modi" [ref=e39] [cursor=pointer]:
+          - img "Avatar for Pratham Modi" [ref=e42]
+    - generic [ref=e45]:
+      - navigation [ref=e46]:
+        - link "Home" [ref=e47] [cursor=pointer]:
+          - /url: /jobs/home
+        - link "Profile" [ref=e51] [cursor=pointer]:
+          - /url: /profile/edit/overview
+        - link "Jobs" [ref=e56] [cursor=pointer]:
+          - /url: /jobs
+        - link "Applied" [ref=e62] [cursor=pointer]:
+          - /url: /jobs/applications
+        - link "Messages" [ref=e67] [cursor=pointer]:
+          - /url: /jobs/messages
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - heading "Search for jobs" [level=1] [ref=e84]
+          - navigation [ref=e86]:
+            - link "Browse all" [ref=e87] [cursor=pointer]:
+              - /url: /jobs
+            - link "Saved" [ref=e90] [cursor=pointer]:
+              - /url: /jobs/starred
+              - generic [ref=e93]: "0"
+            - link "Hidden" [ref=e96] [cursor=pointer]:
+              - /url: /jobs/hidden
+        - generic [ref=e99]:
+          - menu "Saved Search Menu" [ref=e101]:
+            - menuitem "Saved Search 1 Edit Saved Search" [ref=e102]:
+              - generic [ref=e103]: Saved Search 1
+              - button "Edit Saved Search" [ref=e104] [cursor=pointer]
+            - menuitem [ref=e107] [cursor=pointer]
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - button "Software Engineer • Backend Engineer • Frontend Engineer • Full-Stack Engineer" [ref=e117]
+                - generic [ref=e122]
+              - generic [ref=e139]:
+                - generic [ref=e140]
+                - generic [ref=e145]
+                - button "Clear All" [ref=e150] [cursor=pointer]
+            - button "Filters" [ref=e151] [cursor=pointer]
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - heading "13 results" [level=4] [ref=e162]
+              - generic [ref=e163]:
+                - generic [ref=e164]: "Sort by:"
+                - button "Recommended" [ref=e166] [cursor=pointer]
+              - generic [ref=e169]:
+                - checkbox "Get job alerts for this search"
+                - generic [ref=e170] [cursor=pointer]: Get job alerts for this search
+            - generic [ref=e171]:
+              - text: "Hiding jobs that do not accept applications from your location: Mumbai."
+              - link "Update location" [ref=e174] [cursor=pointer]:
+                - /url: /profile/edit
+          - generic [ref=e177]:
+            - checkbox "Hide jobs which require me to apply on the company's website"
+            - generic [ref=e178] [cursor=pointer]: Hide jobs which require me to apply on the company's website
+          - generic [ref=e179]:
+            - link "Tapza Technologies company logo Tapza Technologies Actively Hiring Promoted AI-powered ERP platforms that empower organizations to run smarter and care deeper 11-50 Employees" [ref=e182] [cursor=pointer]:
+              - /url: /company/tapza-technologies
+              - generic [ref=e183]:
+                - link "Tapza Technologies company logo" [ref=e184]:
+                  - /url: /company/tapza-technologies
+                - generic [ref=e187]
+            - generic [ref=e202]:
+              - banner [ref=e203]:
+                - generic [ref=e204]: Apply on Wellfound
+              - generic [ref=e210]:
+                - link "AI Engineering Intern In office • ₹15,000 – ₹25,000 • No equity Recruiter recently active Posted 3 weeks ago" [ref=e211] [cursor=pointer]:
+                  - /url: /jobs/4627329-ai-engineering-intern
+                - generic [ref=e221]
+            - generic [ref=e225]:
+              - button "Report" [ref=e226] [cursor=pointer]
+              - button "Hide" [ref=e231] [cursor=pointer]:
+                - button "Hide" [ref=e237]
+          - generic [ref=e238]:
+            - link "SciSpace company logo SciSpace Actively Hiring Promoted The AI Research Co-Scientist (ChatGPT for Research) 11-50 Employees" [ref=e241] [cursor=pointer]:
+              - /url: /company/typeset
+              - generic [ref=e242]:
+                - link "SciSpace company logo" [ref=e243]:
+                  - /url: /company/typeset
+                - generic [ref=e246]
+            - list [ref=e261]:
+              - listitem [ref=e262]:
+                - generic [ref=e263]: Growth Stage
+              - listitem [ref=e267]:
+                - generic [ref=e268]: Growing fast
+            - generic [ref=e274]:
+              - banner [ref=e275]:
+                - generic [ref=e276]: Apply on Wellfound
+              - generic [ref=e282]:
+                - link "Senior Agentic AI Engineer In office • ₹30L – ₹47L • 0.02% – 0.05% Recruiter recently active Posted 1 month ago icn_repost" [ref=e283] [cursor=pointer]:
+                  - /url: /jobs/3534689-senior-agentic-ai-engineer
+                - generic [ref=e302]
+            - generic [ref=e306]:
+              - button "Report" [ref=e307] [cursor=pointer]
+              - button "Hide" [ref=e312] [cursor=pointer]:
+                - button "Hide" [ref=e318]
+          - generic [ref=e319]:
+            - link "Writesonic company logo Writesonic Actively Hiring Write anything. Publish anywhere 51-200 Employees" [ref=e322] [cursor=pointer]:
+              - /url: /company/writesonic
+              - generic [ref=e323]:
+                - link "Writesonic company logo" [ref=e324]:
+                  - /url: /company/writesonic
+                - generic [ref=e327]
+            - list [ref=e339]:
+              - listitem [ref=e340]:
+                - generic [ref=e341]: B2B
+              - listitem [ref=e343]:
+                - generic [ref=e344]: Early Stage
+              - listitem [ref=e348]:
+                - generic [ref=e349]: Top Investors
+              - listitem [ref=e353]:
+                - generic [ref=e354]: YC Funded
+            - generic [ref=e360]:
+              - banner [ref=e361]:
+                - generic [ref=e362]: Apply on Wellfound
+              - generic [ref=e368]:
+                - link "Senior Software Engineer (Frontend) Remote only • India • ₹30L – ₹50L Recruiter recently active Posted 1 week ago" [ref=e369] [cursor=pointer]:
+                  - /url: /jobs/4692041-senior-software-engineer-frontend
+                - generic [ref=e380]
+            - generic [ref=e384]:
+              - button "Report" [ref=e385] [cursor=pointer]
+              - button "Hide" [ref=e390] [cursor=pointer]:
+                - button "Hide" [ref=e396]
+          - generic [ref=e397]:
+            - link "OpenVector company logo OpenVector Actively Hiring Building DeFi on Canton Network 11-50 Employees" [ref=e400] [cursor=pointer]:
+              - /url: /company/openvector
+              - generic [ref=e401]:
+                - link "OpenVector company logo" [ref=e402]:
+                  - /url: /company/openvector
+                - generic [ref=e405]
+            - generic [ref=e417]:
+              - banner [ref=e418]:
+                - generic [ref=e419]: Apply on Wellfound
+              - generic [ref=e425]:
+                - link "Full-Stack Engineer In office • Gurugram • ₹14L – ₹18L • No equity Recruiter recently active Posted 1 month ago icn_repost" [ref=e426] [cursor=pointer]:
+                  - /url: /jobs/3859772-full-stack-engineer
+                - generic [ref=e446]
+            - generic [ref=e450]:
+              - button "Report" [ref=e451] [cursor=pointer]
+              - button "Hide" [ref=e456] [cursor=pointer]:
+                - button "Hide" [ref=e462]
+          - generic [ref=e463]:
+            - link "ITILITE company logo ITILITE Actively Hiring Simplifying business travel & expense 51-200 Employees" [ref=e466] [cursor=pointer]:
+              - /url: /company/itilite-1
+              - generic [ref=e467]:
+                - link "ITILITE company logo" [ref=e468]:
+                  - /url: /company/itilite-1
+                - generic [ref=e471]
+            - list [ref=e483]:
+              - listitem [ref=e484]:
+                - generic [ref=e485]: B2B
+              - listitem [ref=e487]:
+                - generic [ref=e488]: Growth Stage
+              - listitem [ref=e492]:
+                - generic [ref=e493]: Top Investors
+            - generic [ref=e499]:
+              - banner [ref=e500]:
+                - generic [ref=e501]: Apply on Wellfound
+              - generic [ref=e507]:
+                - link "Senior Software Engineer – Backend (Python | B2B SaaS/AI | 4–6 Years) In office • Bengaluru • ₹30L – ₹40L • No equity Recruiter recently active Posted 2 months ago" [ref=e508] [cursor=pointer]:
+                  - /url: /jobs/4446034-senior-software-engineer-backend-python-b2b-saas-ai-4-6-years
+                - generic [ref=e519]
+            - generic [ref=e523]:
+              - button "Report" [ref=e524] [cursor=pointer]
+              - button "Hide" [ref=e529] [cursor=pointer]:
+                - button "Hide" [ref=e535]
+          - generic [ref=e536]:
+            - link "Techno Wise company logo Techno Wise We Help You Grow, Serving You Skills 11-50 Employees" [ref=e539] [cursor=pointer]:
+              - /url: /company/techno-wise-hr
+              - generic [ref=e540]:
+                - link "Techno Wise company logo" [ref=e541]:
+                  - /url: /company/techno-wise-hr
+                - generic [ref=e544]
+            - list [ref=e554]:
+              - listitem [ref=e555]:
+                - generic [ref=e556]: Top 10% of responders
+              - listitem [ref=e560]:
+                - generic [ref=e561]: Responds within two weeks
+            - generic [ref=e567]:
+              - banner [ref=e568]:
+                - generic [ref=e569]: Apply on Wellfound
+              - generic [ref=e575]:
+                - 'link "Senior Software Engineer: Python Full-stack In office • Kolkata • ₹10L – ₹40L • No equity Recruiter recently active Posted 1 month ago" [ref=e576] [cursor=pointer]':
+                  - /url: /jobs/4521042-senior-software-engineer-python-full-stack
+                - generic [ref=e587]
+            - generic [ref=e591]:
+              - button "Report" [ref=e592] [cursor=pointer]
+              - button "Hide" [ref=e597] [cursor=pointer]:
+                - button "Hide" [ref=e603]
+          - generic [ref=e604]:
+            - link "Federis company logo Federis Actively Hiring Sovereign AI Control Plane 1-10 Employees" [ref=e607] [cursor=pointer]:
+              - /url: /company/federis
+              - generic [ref=e608]:
+                - link "Federis company logo" [ref=e609]:
+                  - /url: /company/federis
+                - generic [ref=e612]
+            - generic [ref=e624]:
+              - banner [ref=e625]:
+                - generic [ref=e626]: Apply on Wellfound
+              - generic [ref=e632]:
+                - link "ML / RAG / Inference Engineer Onsite or remote • Noida • Remote (India) • ₹12L – ₹18L • 1.0% – 1.0% Recruiter recently active Posted 3 months ago" [ref=e633] [cursor=pointer]:
+                  - /url: /jobs/4345591-ml-rag-inference-engineer
+                - generic [ref=e645]
+            - generic [ref=e649]:
+              - button "Report" [ref=e650] [cursor=pointer]
+              - button "Hide" [ref=e655] [cursor=pointer]:
+                - button "Hide" [ref=e661]
+          - generic [ref=e662]:
+            - generic [ref=e663]: Featured Jobs for you
+            - generic [ref=e664]:
+              - generic [ref=e665]:
+                - link "Avatar for SciSpace SciSpace Promoted" [ref=e667] [cursor=pointer]:
+                  - /url: /company/typeset
+                - generic [ref=e679]
+              - generic [ref=e702]:
+                - link "Avatar for SciSpace SciSpace Promoted" [ref=e704] [cursor=pointer]:
+                  - /url: /company/typeset
+                - generic [ref=e716]
+              - generic [ref=e730]:
+                - link "Avatar for Hevo Data Hevo Data Promoted" [ref=e732] [cursor=pointer]:
+                  - /url: /company/hevo-data-inc
+                - generic [ref=e744]
+              - generic [ref=e767]:
+                - link "Avatar for Vobble Vobble Promoted" [ref=e769] [cursor=pointer]:
+                  - /url: /company/vobble
+                - generic [ref=e781]
+          - generic [ref=e794]:
+            - link "AtomicAds company logo AtomicAds Actively Hiring Atomic Ads makes technology that helps digital media buyers launch error-free campaigns and optimize 11-50 Employees" [ref=e797] [cursor=pointer]:
+              - /url: /company/atomicads
+              - generic [ref=e798]:
+                - link "AtomicAds company logo" [ref=e799]:
+                  - /url: /company/atomicads
+                - generic [ref=e802]
+            - generic [ref=e814]:
+              - banner [ref=e815]:
+                - generic [ref=e816]: Apply on Wellfound
+              - generic [ref=e822]:
+                - link "Member of Technical Staff In office • Bangalore Urban • ₹15L – ₹50L • No equity Posted 1 month ago icn_repost" [ref=e823] [cursor=pointer]:
+                  - /url: /jobs/4012972-member-of-technical-staff
+                - generic [ref=e842]
+            - generic [ref=e846]:
+              - button "Report" [ref=e847] [cursor=pointer]
+              - button "Hide" [ref=e852] [cursor=pointer]:
+                - button "Hide" [ref=e858]
+          - generic [ref=e859]:
+            - link "Javis company logo Javis Actively Hiring Enterprise Works Platform 51-200 Employees" [ref=e862] [cursor=pointer]:
+              - /url: /company/javis
+              - generic [ref=e863]:
+                - link "Javis company logo" [ref=e864]:
+                  - /url: /company/javis
+                - generic [ref=e867]
+            - list [ref=e879]:
+              - listitem [ref=e880]:
+                - generic [ref=e881]: Responds within three weeks
+              - listitem [ref=e885]:
+                - generic [ref=e886]: Growth Stage
+            - generic [ref=e892]:
+              - banner [ref=e893]:
+                - generic [ref=e894]: Apply on Wellfound
+              - generic [ref=e900]:
+                - link "Senior Machine Learning Engineer In office • Bangalore Urban • ₹27L – ₹45L • No equity Recruiter recently active Posted 3 weeks ago icn_repost" [ref=e901] [cursor=pointer]:
+                  - /url: /jobs/3051307-senior-machine-learning-engineer
+                - generic [ref=e921]
+            - generic [ref=e925]:
+              - button "Report" [ref=e926] [cursor=pointer]
+              - button "Hide" [ref=e931] [cursor=pointer]:
+                - button "Hide" [ref=e937]
+          - generic [ref=e938]:
+            - link "healthtrip company logo healthtrip Actively Hiring 51-200 Employees" [ref=e941] [cursor=pointer]:
+              - /url: /company/healthtrip-2
+              - generic [ref=e942]:
+                - link "healthtrip company logo" [ref=e943]:
+                  - /url: /company/healthtrip-2
+                - generic [ref=e946]
+            - list [ref=e957]:
+              - listitem [ref=e958]:
+                - generic [ref=e959]: Early Stage
+            - generic [ref=e965]:
+              - banner [ref=e966]:
+                - generic [ref=e967]: Apply on Wellfound
+              - generic [ref=e973]:
+                - link "Mobile Application Developer – Edge AI & Smart Devices In office • Noida • ₹18L – ₹30L • No equity Recruiter recently active Posted 1 month ago" [ref=e974] [cursor=pointer]:
+                  - /url: /jobs/4567588-mobile-application-developer-edge-ai-smart-devices
+                - generic [ref=e985]
+            - generic [ref=e989]:
+              - button "Report" [ref=e990] [cursor=pointer]
+              - button "Hide" [ref=e995] [cursor=pointer]:
+                - button "Hide" [ref=e1001]
+          - generic [ref=e1002]:
+            - link "AuxoAI company logo AuxoAI Actively Hiring We help companies—turn their strategies into practical digital and AI solutions 201-500 Employees" [ref=e1005] [cursor=pointer]:
+              - /url: /company/auxoai-1
+              - generic [ref=e1006]:
+                - link "AuxoAI company logo" [ref=e1007]:
+                  - /url: /company/auxoai-1
+                - generic [ref=e1010]
+            - list [ref=e1022]:
+              - listitem [ref=e1023]:
+                - generic [ref=e1024]: B2C
+              - listitem [ref=e1026]:
+                - generic [ref=e1027]: B2B
+              - listitem [ref=e1029]:
+                - generic [ref=e1030]: Early Stage
+            - generic [ref=e1036]:
+              - banner [ref=e1037]:
+                - generic [ref=e1038]: Apply on Wellfound
+              - generic [ref=e1044]:
+                - link "Senior Applied Scientist - AI Agent Systems In office • Gurgaon • Hyderabad • Mumbai • More • ₹25L – ₹35L • No equity Posted 1 month ago icn_repost" [ref=e1045] [cursor=pointer]:
+                  - /url: /jobs/4092888-senior-applied-scientist-ai-agent-systems
+                - generic [ref=e1067]
+            - generic [ref=e1071]:
+              - button "Report" [ref=e1072] [cursor=pointer]
+              - button "Hide" [ref=e1077] [cursor=pointer]:
+                - button "Hide" [ref=e1083]
+          - generic [ref=e1084]:
+            - link "NutaNXT Technologies company logo NutaNXT Technologies 11-50 Employees" [ref=e1087] [cursor=pointer]:
+              - /url: /company/nutanxt-technologies-2
+              - generic [ref=e1088]:
+                - link "NutaNXT Technologies company logo" [ref=e1089]:
+                  - /url: /company/nutanxt-technologies-2
+                - generic [ref=e1092]
+            - list [ref=e1101]:
+              - listitem [ref=e1102]:
+                - generic [ref=e1103]: Early Stage
+            - generic [ref=e1109]:
+              - banner [ref=e1110]:
+                - generic [ref=e1111]: Apply on Wellfound
+              - generic [ref=e1117]:
+                - link "Product Support Engineer In office • Pune • ₹50L – ₹70L • No equity Recruiter recently active Posted 2 months ago" [ref=e1118] [cursor=pointer]:
+                  - /url: /jobs/4463083-product-support-engineer
+                - generic [ref=e1129]
+            - generic [ref=e1133]:
+              - button "Report" [ref=e1134] [cursor=pointer]
+              - button "Hide" [ref=e1139] [cursor=pointer]:
+                - button "Hide" [ref=e1145]
+  - alert [ref=e81]
+  - status [ref=e1146]

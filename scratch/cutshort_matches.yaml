@@ -1,0 +1,167 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - img "DP" [ref=e11]
+          - navigation [ref=e14]:
+            - generic [ref=e15]: Find jobs
+        - navigation [ref=e29]:
+          - link "Dashboard" [ref=e30] [cursor=pointer]:
+            - /url: /profile/candidate-dashboard
+          - link "View jobs" [ref=e32] [cursor=pointer]:
+            - /url: /profile/recommended-jobs
+          - link "Messages" [ref=e34] [cursor=pointer]:
+            - /url: /profile/candidate-conversations?stage=unread
+          - link "Plans" [ref=e36] [cursor=pointer]:
+            - /url: /profile/candidate-plans
+          - link "Credits" [ref=e38] [cursor=pointer]:
+            - /url: /profile/earn-credits-c
+          - link "Settings" [ref=e40] [cursor=pointer]:
+            - /url: /profile/candidate-settings/profile
+        - generic [ref=e42]:
+          - generic [ref=e43]: Free
+          - generic [ref=e48]: INR 300
+          - generic [ref=e57] [cursor=pointer]
+          - generic [ref=e64] [cursor=pointer]
+          - img "DP" [ref=e75] [cursor=pointer]
+      - navigation [ref=e80]:
+        - link "All jobs" [ref=e81] [cursor=pointer]:
+          - /url: /profile/recommended-jobs
+        - link "Saved jobs" [ref=e83] [cursor=pointer]:
+          - /url: /profile/saved-jobs
+    - generic [ref=e86]:
+      - link [ref=e87] [cursor=pointer]:
+        - /url: /profile/candidate-dashboard
+        - img "arrow-down" [ref=e88]
+        - text: Find jobs
+      - link [ref=e89] [cursor=pointer]:
+        - /url: /profile/employer-dashboard
+        - img "arrow-down" [ref=e90]
+        - text: Hire talent
+    - generic [ref=e93]:
+      - complementary [ref=e95]:
+        - generic [ref=e97]:
+          - generic [ref=e98]: Filters
+          - generic [ref=e101]:
+            - generic [ref=e104] [cursor=pointer]:
+              - generic [ref=e105]: Job category
+              - img "arrow" [ref=e113]
+            - generic [ref=e117] [cursor=pointer]:
+              - generic [ref=e118]: Skills
+              - img "arrow" [ref=e126]
+            - generic [ref=e130] [cursor=pointer]:
+              - generic [ref=e131]: Location
+              - img "arrow" [ref=e139]
+            - generic [ref=e143] [cursor=pointer]:
+              - generic [ref=e144]: Type of role
+              - img "arrow" [ref=e152]
+            - generic [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]: Minimum salary
+              - img "arrow" [ref=e165]
+            - generic [ref=e169] [cursor=pointer]:
+              - generic [ref=e170]: Experience range
+              - img "arrow" [ref=e178]
+            - generic [ref=e182] [cursor=pointer]:
+              - generic [ref=e183]: Company
+              - img "arrow" [ref=e191]
+            - generic [ref=e195] [cursor=pointer]:
+              - generic [ref=e196]: Hiring activity on job
+              - img "arrow" [ref=e204]
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - generic [ref=e211]: Profile matcher is ON
+              - text: You are viewing only jobs that are relevant to your profile. Turn it OFF to view all jobs on the platform.
+            - switch [checked] [active] [ref=e213] [cursor=pointer]
+          - generic [ref=e241]:
+            - heading "Showing 2 recently active jobs" [level=3] [ref=e1111]
+            - generic [ref=e1114]:
+              - generic [ref=e1116]:
+                - generic [ref=e1117]
+                - generic [ref=e1145]
+                - generic [ref=e1166]
+              - generic [ref=e1169]:
+                - generic [ref=e1171]
+                - generic [ref=e1188]: Read more
+            - generic [ref=e1192]:
+              - generic [ref=e1194]:
+                - generic [ref=e1195]
+                - generic [ref=e1223]
+                - generic [ref=e1243]
+              - generic [ref=e1249]:
+                - generic [ref=e1251]
+                - generic [ref=e1348]: Read more
+          - generic [ref=e1350]: That's all folks!
+        - generic [ref=e224]:
+          - generic [ref=e225]: Recommended companies
+          - generic [ref=e228]:
+            - generic [ref=e947]:
+              - generic [ref=e948]:
+                - img "icon" [ref=e950]
+                - generic [ref=e951]
+              - paragraph [ref=e957]:
+                - paragraph [ref=e958]
+                - paragraph [ref=e960]
+                - paragraph [ref=e962]: CK-12 is on the lookout for talented, creative, and dedicated people to join our mission to provide great education to students around the world. We are looking for candidates to join our office at Bangalore.
+                - paragraph [ref=e963]
+                - paragraph [ref=e964]
+                - paragraph [ref=e970]
+                - paragraph [ref=e971]
+                - paragraph [ref=e973]
+                - paragraph [ref=e974]: CK-12’s mission is to provide free access to open-source content and technology tools that empower students as well as teachers to enhance and experiment with different learning styles, resources, levels of competence, and circumstances.
+                - paragraph [ref=e975]
+                - paragraph [ref=e976]
+                - paragraph [ref=e978]
+                - paragraph [ref=e979]
+                - paragraph [ref=e981]
+                - paragraph [ref=e982]
+                - paragraph [ref=e985]
+                - paragraph [ref=e986]: Technology is key to scale education and we deeply believe in it. Come develop great solutions on our cloud based (AWS) and AI-first platform delivering rich and interactive content.
+                - paragraph [ref=e987]
+                - paragraph [ref=e988]: Does our mission, people and technologies excite you? If the answer is YES! and you are a great technologist who will challenge status-quo (no order takers please!) by innovating, please come join us! Together, we will change the world!
+                - paragraph [ref=e989]
+                - paragraph [ref=e990]
+                - paragraph [ref=e992]
+                - paragraph [ref=e993]
+                - paragraph [ref=e995]
+                - paragraph [ref=e997]
+                - paragraph [ref=e998]
+                - paragraph [ref=e1000]
+              - generic [ref=e1002]:
+                - generic [ref=e1003]
+                - generic [ref=e1014]: View company
+            - generic [ref=e1017]:
+              - generic [ref=e1018]:
+                - img "icon" [ref=e1020]
+                - generic [ref=e1021]
+              - paragraph [ref=e1027]:
+                - paragraph [ref=e1028]
+                - paragraph [ref=e1030]
+                - paragraph [ref=e1032]
+                - paragraph [ref=e1033]
+                - list [ref=e1035]
+                - paragraph [ref=e1047]
+                - paragraph [ref=e1048]
+                - paragraph [ref=e1051]
+                - paragraph [ref=e1052]: Chisel Labs is an AI-powered product management platform built to help product teams move faster and make better decisions. It operates in the product management and AI SaaS space, bringing feedback, roadmapping, and documentation into a unified system of record.
+                - paragraph [ref=e1053]
+                - paragraph [ref=e1054]
+                - paragraph [ref=e1056]
+                - paragraph [ref=e1057]
+                - paragraph [ref=e1059]
+                - paragraph [ref=e1061]
+                - paragraph [ref=e1062]
+                - list [ref=e1064]
+              - generic [ref=e1072]:
+                - generic [ref=e1073]
+                - generic [ref=e1084]: View company
+            - generic [ref=e1087]:
+              - generic [ref=e1088]:
+                - img "icon" [ref=e1090]
+                - generic [ref=e1091]
+              - generic [ref=e1097]:
+                - generic [ref=e1098]
+                - generic [ref=e1109]: View company
+  - alert [ref=e240]: "Cutshort: Making Top Professionals More Successful."

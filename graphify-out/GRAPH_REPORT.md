@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-09-18)
+# Graph Report - job-kit-starter  (2026-09-19)
 
 ## Corpus Check
-- 61 files · ~54,638 words
+- 104 files · ~86,610 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 519 nodes · 512 edges · 53 communities (41 shown, 7 thin omitted)
+- 569 nodes · 522 edges · 95 communities (41 shown, 10 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `62665c05`
+- Built from commit: `4f18f6c8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -52,8 +52,11 @@
 - CLAUDE.md
 - refresh.sh
 - README.md
+- fill_dpdzero.js
 - Job Hunt Profile & Operations Rule
 - daily_scan.md
+- fill_dpdzero_eval.js
+- test_dpdzero_upload.js
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
 - Bundle: Backend / Node.js / Distributed Systems Lane
 - Bundle: Full-Stack Lane
@@ -82,7 +85,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (53 total, 7 thin omitted)
+## Communities (95 total, 10 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -249,15 +252,15 @@ Cohesion: 0.50
 Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
 ## Knowledge Gaps
-- **319 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+314 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 379 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **321 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+316 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 422 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _319 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _321 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
