@@ -20,7 +20,7 @@
 
 ## Phase 1 — Platform profiles (do these early; they compound)
 
-Set up strong profiles on the user's regional platforms (in India: Naukri, Instahyre, Cutshort; elsewhere: the local equivalents + Wellfound). **LinkedIn is never used, including for platform profiles — see "Approved Sources" below.** For each:
+Set up strong profiles on the user's regional platforms (in India: Naukri, Instahyre, Cutshort, LinkedIn; elsewhere: the local equivalents + Wellfound). **LinkedIn is an approved platform (exclusion lifted 2026-09-20) — see "Approved Sources" below.** For each:
 - Upload the freshly built resume PDF, fix headline to a keyword-rich one-liner, correct employment history (titles/dates/company names), set true skills (delete junk auto-added skills), set comp + notice period + preferred locations.
 - These profiles power (a) match-feeds you scan daily and (b) auto-answered recruiter questionnaires (Cutshort's "Voila" bot answers location/notice/comp screeners from the profile — get the profile right and screeners handle themselves).
 
@@ -31,9 +31,9 @@ All sources are capped to postings from the **last 7 days** (see CLAUDE.md "Rece
 Sources, in order:
 1. `python3 hn_scan.py` — HN Who is Hiring (seen-index; CSV-deduped; always the latest thread).
 2. `python3 job_hunt.py` — ~90 ATS boards, last 7 days (`--days N` to widen). Edit the company list in the script to the user's targets.
-3. `python3 job_hunt_india.py` — JobSpy over Indeed India only (LinkedIn permanently excluded as a source), last 7 days (`hours_old`, arg 1). Edit queries/location for the user.
+3. `python3 job_hunt_india.py` — JobSpy over Indeed India only (this script doesn't scrape LinkedIn — LinkedIn leads come from the browser feed below), last 7 days (`hours_old`, arg 1). Edit queries/location for the user.
 4. Browser feeds via Playwright:
-   - Match-feed platforms (e.g., Instahyre `candidate/opportunities/?matching=true`): scroll-collect all cards, diff vs. previously seen + CSV.
+   - Match-feed platforms (e.g., Instahyre `candidate/opportunities/?matching=true`, LinkedIn jobs search): scroll-collect all cards, diff vs. previously seen + CSV.
    - Naukri-style search with `jobAge=1` (last 24h) for "backend engineer" / "[lane] engineer" in the user's city.
    - Cutshort-style matches page (`/profile/all-jobs?matchesfor=<id>` — the ID is in the user's profile URL).
 5. Triage EVERYTHING against the Candidate bar. Present a short table: lead / source / why. Skip-noise honestly (services firms, below-floor bands, wrong level, region-locked, frontend-only roles — frontend as part of full-stack is fine). Log genuinely good leads to the CSV via csv-logger (Status=Lead), then refresh the tracker.
@@ -135,7 +135,7 @@ Two tiers, run together daily. Both are drafts-only (see outbound policy at the 
 ### Tier A — bespoke, 3-5/day
 1. **Research** with parallel subagents across angles: recent YC batches, regional funding news (last ~12 months, seed/Series A in the user's lane), accelerator cohorts, viral launches/build-in-public founders. Each returns structured JSON: company / what / why-fit / founders / guessed email / source.
 2. **Verify emails** before sending (email-prospecting connector if available) — fix guesses, drop dead ones.
-3. Per company: tailored resume variant + a SHORT honest email (openable hook referencing THEIR product, 3-4 lines of the user's most relevant receipts, link, minimal signature). No AI-sounding fluff. `Tier=A`, `Source=<how found>`.
+3. Per company: the base resume (**exact path: `output/Pratham_Modi_Base_Resume.pdf` — always this file, never a per-company tailored variant for outreach**) + a SHORT honest email (openable hook referencing THEIR product, 3-4 lines of the user's most relevant receipts, link, minimal signature). No AI-sounding fluff. `Tier=A`, `Source=<how found>`.
 
 ### Tier B — templated-with-slots, 20-30/day (volume lane)
 Full template, subject-line rotation, pre-approved metric pool, and deliverability rules: `output/job-search/outreach/tier_b_template.md`. Summary: fixed skeleton, but `{HOOK}` (one sentence tied to something real about them) and 2 metrics picked from a pre-approved pool always vary per company — no two bodies in a batch are byte-identical, since identical bodies at volume get spam-clustered on a personal Gmail account.
@@ -143,9 +143,9 @@ Full template, subject-line rotation, pre-approved metric pool, and deliverabili
 - `Tier=B`, `Source=HN|Funding News|WaaS|...` per row.
 
 ### Shared mechanics (both tiers)
-4. Draft into Gmail via the connector or browser URL parameter composition (drafts only — the USER hits send).
-   - **Gmail URL Draft Pattern:** `https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=<email>&su=<subject>&body=<body>`.
-   - Navigating to this URL in the authenticated browser automatically stages the compose window and auto-saves directly into Gmail Drafts, completely eliminating the risk of accidental auto-sending.
+4. Draft into Gmail with the base resume attached (**exact path: `output/Pratham_Modi_Base_Resume.pdf`**, always this file for outreach — drafts only, the USER hits send).
+   - **Use the Gmail connector's `create_draft`** (base64-encode the PDF into `attachments`) — this is the only method here that can carry an attachment.
+   - The old **Gmail URL Draft Pattern** (`https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=<email>&su=<subject>&body=<body>`) cannot attach a file — it's fine as a fallback for the body/subject only if `create_draft` is unavailable, but the resume must still get attached manually before the draft counts as done.
    - Track in `job-kit-starter/output/job-search/outreach/startups_outreach.csv` with Status + dates + Source + Tier.
 5. Follow-up pass ~4 days later: check for replies first, bump politely (drafts again), never re-pitch.
 

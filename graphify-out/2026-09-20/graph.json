@@ -689,6 +689,18 @@
       "source_location": "L150"
     },
     {
+      "id": "scratch_fetch_jds_fetch",
+      "label": "fetch()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 95,
+      "community_name": "fetch_jds.py",
+      "file_type": "code",
+      "norm_label": "fetch()",
+      "source_file": "scratch/fetch_jds.py",
+      "source_location": "L7"
+    },
+    {
       "id": "job_kit_starter_resume_builder_reference_critique_framework",
       "label": "critique_framework.md",
       "_origin": "ast",
@@ -1416,7 +1428,7 @@
       "node_kind": "heading",
       "norm_label": "body skeleton (75-100 words, plain text, no html/tracking links)",
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L26"
+      "source_location": "L29"
     },
     {
       "id": "job_kit_starter_output_job_search_outreach_tier_b_template_pre_approved_metric_pool_grounded_in_skill_profile_md_pick_never_paraphrase_numbers",
@@ -1428,7 +1440,7 @@
       "node_kind": "heading",
       "norm_label": "pre-approved metric pool (grounded in skill_profile.md \u2014 pick, never paraphrase numbers)",
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L19"
+      "source_location": "L22"
     },
     {
       "id": "job_kit_starter_output_job_search_outreach_tier_b_template_slots_fill_from_a_2_minute_lookup_per_company_never_invent",
@@ -1439,6 +1451,18 @@
       "file_type": "document",
       "node_kind": "heading",
       "norm_label": "slots (fill from a 2-minute lookup per company, never invent)",
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L14"
+    },
+    {
+      "id": "job_kit_starter_output_job_search_outreach_tier_b_template_sounding_human_not_generated",
+      "label": "Sounding human, not generated",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "Tier B cold email \u2014 slot template (volume lane)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "sounding human, not generated",
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
       "source_location": "L11"
     },
@@ -1452,7 +1476,7 @@
       "node_kind": "heading",
       "norm_label": "subject line variants (rotate \u2014 identical subjects across a batch is a spam-clustering signal)",
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L40"
+      "source_location": "L47"
     },
     {
       "id": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
@@ -1476,7 +1500,7 @@
       "node_kind": "heading",
       "norm_label": "tracking",
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L57"
+      "source_location": "L64"
     },
     {
       "id": "job_kit_starter_output_job_search_outreach_tier_b_template_volume_deliverability_rules",
@@ -1488,7 +1512,7 @@
       "node_kind": "heading",
       "norm_label": "volume + deliverability rules",
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L46"
+      "source_location": "L53"
     },
     {
       "id": "job_kit_starter_output_job_search_outreach_tier_b_template_why_a_template_at_all",
@@ -1501,6 +1525,28 @@
       "norm_label": "why a template at all",
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
       "source_location": "L6"
+    },
+    {
+      "id": "scratch_log_applications",
+      "label": "log_applications.py",
+      "_origin": "ast",
+      "community": 100,
+      "community_name": "log_applications.py",
+      "file_type": "code",
+      "norm_label": "log_applications.py",
+      "source_file": "scratch/log_applications.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_parse_jobfound",
+      "label": "parse_jobfound.py",
+      "_origin": "ast",
+      "community": 101,
+      "community_name": "parse_jobfound.py",
+      "file_type": "code",
+      "norm_label": "parse_jobfound.py",
+      "source_file": "scratch/parse_jobfound.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_char_count",
@@ -4744,7 +4790,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd10 authentication & session persistence rule",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L76"
+      "source_location": "L77"
     },
     {
       "id": "agents_rules_job_hunt_profile_blocker_handling_fully_autonomous_no_user_check_ins_mid_run",
@@ -4756,7 +4802,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udea7 blocker handling (fully autonomous \u2014 no user check-ins mid-run)",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L70"
+      "source_location": "L71"
     },
     {
       "id": "agents_rules_job_hunt_profile_candidate_bar_pratham_modi",
@@ -4780,7 +4826,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udce7 cold outreach operations",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L61"
+      "source_location": "L62"
     },
     {
       "id": "agents_rules_job_hunt_profile_daily_scan_operations",
@@ -6764,17 +6810,6 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_test_compose_flow",
-      "label": "test_compose_flow.js",
-      "_origin": "ast",
-      "community": 93,
-      "community_name": "test_compose_flow.js",
-      "file_type": "code",
-      "norm_label": "test_compose_flow.js",
-      "source_file": "scratch/test_compose_flow.js",
-      "source_location": "L1"
-    },
-    {
       "id": "scratch_test_single_draft",
       "label": "test_single_draft.js",
       "_origin": "ast",
@@ -6783,6 +6818,61 @@
       "file_type": "code",
       "norm_label": "test_single_draft.js",
       "source_file": "scratch/test_single_draft.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fetch_jds",
+      "label": "fetch_jds.py",
+      "_origin": "ast",
+      "community": 95,
+      "community_name": "fetch_jds.py",
+      "file_type": "code",
+      "norm_label": "fetch_jds.py",
+      "source_file": "scratch/fetch_jds.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_apply_avoca",
+      "label": "apply_avoca.js",
+      "_origin": "ast",
+      "community": 96,
+      "community_name": "apply_avoca.js",
+      "file_type": "code",
+      "norm_label": "apply_avoca.js",
+      "source_file": "scratch/apply_avoca.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_apply_avoca_complete",
+      "label": "apply_avoca_complete.js",
+      "_origin": "ast",
+      "community": 97,
+      "community_name": "apply_avoca_complete.js",
+      "file_type": "code",
+      "norm_label": "apply_avoca_complete.js",
+      "source_file": "scratch/apply_avoca_complete.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_generate_apply_avoca",
+      "label": "generate_apply_avoca.py",
+      "_origin": "ast",
+      "community": 98,
+      "community_name": "generate_apply_avoca.py",
+      "file_type": "code",
+      "norm_label": "generate_apply_avoca.py",
+      "source_file": "scratch/generate_apply_avoca.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_generate_avoca_complete",
+      "label": "generate_avoca_complete.py",
+      "_origin": "ast",
+      "community": 99,
+      "community_name": "generate_avoca_complete.py",
+      "file_type": "code",
+      "norm_label": "generate_avoca_complete.py",
+      "source_file": "scratch/generate_avoca_complete.py",
       "source_location": "L1"
     }
   ],
@@ -7532,7 +7622,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L61",
+      "source_location": "L62",
       "weight": 1.0
     },
     {
@@ -7543,7 +7633,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L70",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -7554,7 +7644,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L76",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -9198,7 +9288,7 @@
     },
     {
       "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
-      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_slots_fill_from_a_2_minute_lookup_per_company_never_invent",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_sounding_human_not_generated",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -9209,13 +9299,24 @@
     },
     {
       "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_slots_fill_from_a_2_minute_lookup_per_company_never_invent",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
       "target": "job_kit_starter_output_job_search_outreach_tier_b_template_pre_approved_metric_pool_grounded_in_skill_profile_md_pick_never_paraphrase_numbers",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L19",
+      "source_location": "L22",
       "weight": 1.0
     },
     {
@@ -9226,7 +9327,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L26",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -9237,7 +9338,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L40",
+      "source_location": "L47",
       "weight": 1.0
     },
     {
@@ -9248,18 +9349,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L46",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
-      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_tracking",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
-      "source_location": "L57",
+      "source_location": "L53",
       "weight": 1.0
     },
     {
@@ -9271,6 +9361,17 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_outreach_tier_b_template_tier_b_cold_email_slot_template_volume_lane",
+      "target": "job_kit_starter_output_job_search_outreach_tier_b_template_tracking",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/outreach/tier_b_template.md",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -12123,6 +12224,17 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_fetch_jds",
+      "target": "scratch_fetch_jds_fetch",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fetch_jds.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_fill_atomicads",
       "target": "scratch_fill_atomicads_setreactinput",
       "relation": "contains",
@@ -12593,5 +12705,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4f18f6c85487b2d27dbc1b1de670825794213ade"
+  "built_at_commit": "20230bca3b994501d9bc455a03da464480a72ab9"
 }

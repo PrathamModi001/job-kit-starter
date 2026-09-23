@@ -170,10 +170,10 @@ Per user request, the ≤7-day recency cap was removed from both scripted scan t
 ### Daily scan tools (run from repo root; each keeps a seen-index so re-runs show only NEW)
 - `python3 hn_scan.py` — HN "Who is hiring?"; excludes companies already in the CSV.
 - `python3 job_hunt.py` — ~90 company ATS boards + YC, last 7 days → `output/job-search/digest.md`.
-- `python3 job_hunt_india.py` — Indeed via JobSpy (India), last 7 days → `output/job-search/digest_india.md`. (Edit queries/country for your region. LinkedIn is excluded by request — never re-add it as a source.)
+- `python3 job_hunt_india.py` — Indeed via JobSpy (India), last 7 days → `output/job-search/digest_india.md`. (Edit queries/country for your region. This script only covers Indeed — it does not scrape LinkedIn; LinkedIn leads come from the browser feed below.)
 - `python3 waas_scan.py` — Work-at-a-Startup (login-gated; see PLAYBOOK for the browser flow). ~5 applications/week cap — spend slots on best-fit only.
-- Browser feeds (Playwright/claude-in-chrome): platform match-feeds like Instahyre/Cutshort/Naukri or your region's equivalents — see PLAYBOOK. Also **jobfound.org** — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time` (Note: jobfound does NOT require login; do not log in on jobfound).
-- **LinkedIn is permanently excluded as a source — do not search or scan it, browser or scripted.**
+- Browser feeds (Playwright/claude-in-chrome): platform match-feeds like Instahyre/Cutshort/Naukri/LinkedIn or your region's equivalents — see PLAYBOOK. Also **jobfound.org** — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time` (Note: jobfound does NOT require login; do not log in on jobfound).
+- **LinkedIn is an approved source (exclusion lifted 2026-09-20).** Browse/scan/apply normally via Playwright/claude-in-chrome, subject to the Candidate Bar. Easy Apply is a separate, uncapped lane like Indeed Smart Apply — see `.agents/workflows/daily_scan.md`.
 - Present results **triaged against the bar**, not raw dumps. Flag dupes-already-in-pipeline honestly.
 
 ### Application flow (per lead)

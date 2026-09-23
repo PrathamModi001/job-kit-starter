@@ -28,7 +28,7 @@
 - Jobfound — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time` (Note: Do NOT login to jobfound board; login is not needed)
 - Naukri (Premium subscription — prioritize for profile optimization, better recruiter visibility)
 
-**LinkedIn is excluded as a job-search source by request — never scan/search it for leads.**
+**LinkedIn is an approved job-search source (exclusion lifted 2026-09-20).** Easy Apply is treated as a separate, uncapped lane like Indeed Smart Apply — see `.agents/workflows/daily_scan.md`.
 
 ---
 

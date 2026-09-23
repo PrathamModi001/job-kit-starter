@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-09-19)
+# Graph Report - job-kit-starter  (2026-09-20)
 
 ## Corpus Check
-- 104 files · ~86,610 words
+- 110 files · ~90,047 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 569 nodes · 522 edges · 95 communities (41 shown, 10 thin omitted)
+- 577 nodes · 524 edges · 101 communities (41 shown, 10 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4f18f6c8`
+- Built from commit: `20230bca`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -85,7 +85,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (95 total, 10 thin omitted)
+## Communities (101 total, 10 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -124,8 +124,8 @@ Cohesion: 0.23
 Nodes (17): fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn(), fetch_lever(), get(), loc_tag() (+9 more)
 
 ### Community 10 - "Tier B cold email — slot template (volume lane)"
-Cohesion: 0.22
-Nodes (8): Body skeleton (75-100 words, plain text, no HTML/tracking links), Pre-approved metric pool (grounded in SKILL_PROFILE.md — pick, never paraphrase numbers), Slots (fill from a 2-minute lookup per company, never invent), Subject line variants (rotate — identical subjects across a batch is a spam-clustering signal), Tier B cold email — slot template (volume lane), Tracking, Volume + deliverability rules, Why a template at all
+Cohesion: 0.20
+Nodes (9): Body skeleton (75-100 words, plain text, no HTML/tracking links), Pre-approved metric pool (grounded in SKILL_PROFILE.md — pick, never paraphrase numbers), Slots (fill from a 2-minute lookup per company, never invent), Sounding human, not generated, Subject line variants (rotate — identical subjects across a batch is a spam-clustering signal), Tier B cold email — slot template (volume lane), Tracking, Volume + deliverability rules (+1 more)
 
 ### Community 11 - "char_count.py"
 Cohesion: 0.20
@@ -252,15 +252,15 @@ Cohesion: 0.50
 Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
 ## Knowledge Gaps
-- **321 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+316 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 422 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **322 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+317 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 430 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _321 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _322 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**

@@ -174,9 +174,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/CLAUDE.md": {
-    "mtime": 1789823289.3932104,
-    "seen": 1789837915.2009645,
-    "ast_hash": "ecb03f9c4ba823dd61fa10b864a4f38c",
+    "mtime": 1789840167.0489924,
+    "seen": 1789840202.8429775,
+    "ast_hash": "1cd09de7b9e1bc55398d70326e3e9041",
     "semantic_hash": ""
   },
   "job-kit-starter/DOCS.md": {
@@ -204,9 +204,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/config.md": {
-    "mtime": 1789823289.397293,
-    "seen": 1789837915.2010074,
-    "ast_hash": "b60790ec6701ce0366f2b4f641938b6a",
+    "mtime": 1789840180.6922922,
+    "seen": 1789840202.8429847,
+    "ast_hash": "72eb318902e8733ba07a61e9a30233c1",
     "semantic_hash": ""
   },
   "job-kit-starter/resume_builder/examples/bundles/example_bundle.md": {
@@ -294,15 +294,15 @@
     "semantic_hash": ""
   },
   ".agents/rules/job_hunt_profile.md": {
-    "mtime": 1789723839.18088,
-    "seen": 1789723854.3114202,
-    "ast_hash": "f01dae98868e815ee938b1284ac76e70",
+    "mtime": 1789840197.6513343,
+    "seen": 1789840202.8429585,
+    "ast_hash": "9b6df89d512f6aebdef6f18b95c1f954",
     "semantic_hash": ""
   },
   ".agents/workflows/daily_scan.md": {
-    "mtime": 1789723686.0361197,
-    "seen": 1789723854.311422,
-    "ast_hash": "adc575eab9f9585979ebd105d934ccb5",
+    "mtime": 1789840190.6457703,
+    "seen": 1789840202.8429606,
+    "ast_hash": "856303cbdf673a71cebae916736bbff1",
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {

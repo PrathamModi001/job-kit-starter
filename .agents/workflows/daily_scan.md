@@ -6,10 +6,12 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
 # Workflow: daily-scan
 
 **Parameters (read from the invocation prompt):**
-- `NUM_JOBS` — max jobs to apply to this run. Default 15 if not specified. **Indeed Smart Apply does NOT count against this cap** — see note below.
+- `NUM_JOBS` — target number of applications to *successfully submit* (`Status=Applied`) this run. Default 15 if not specified. **Indeed Smart Apply does NOT count against this cap** — see note below. **A `Blocked` lead does NOT consume a `NUM_JOBS` slot either** — see step 4/5 note below.
 - `EXCLUDED_PLATFORMS` — comma-separated platforms/boards to skip entirely this run. Default: none.
 
 **Indeed Smart Apply — separate, uncapped lane:** Smart Apply is a one-click resubmission flow (no fresh form fill), so it must still be done for every qualifying Indeed lead found in the scan, but it is tracked with its own count and never eats into `NUM_JOBS`. `NUM_JOBS` is reserved for the harder, form-fill applications (Workday, Greenhouse, Cutshort native modals, WaaS, custom portals, etc.) that actually take meaningful tailoring/fill effort. Still apply the Candidate Bar and mandatory-tailored-resume gate to every Smart Apply submission — being uncapped is not a license to skip fit-screening.
+
+**LinkedIn — exclusion lifted (2026-09-20), treated like Indeed Smart Apply:** LinkedIn is now an approved source for browsing/scanning and applying. LinkedIn Easy Apply is a one-click flow like Smart Apply — same separate, uncapped lane, does not count against `NUM_JOBS`, but every LinkedIn lead (Easy Apply or native) still must clear the Candidate Bar and the mechanical exclusion check in step 5 before applying.
 
 **Before step 1:** read `job-kit-starter/CLAUDE.md` and `job-kit-starter/PLAYBOOK.md` in full, and `.agents/rules/job_hunt_profile.md` for the candidate bar, form facts, and submission/outreach rules. CLAUDE.md and PLAYBOOK.md hold the complete resume-tailoring pipeline (`resume_builder/`), the per-ATS form-fill recipes, and the anti-fabrication rules this workflow depends on — do not skip them.
 
@@ -18,19 +20,20 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
 
 2. **Execute Scan Scripts** — only the sources listed in `job_hunt_profile.md` → "Approved Sources" (skip any also matching `EXCLUDED_PLATFORMS`):
    - Run `python job-kit-starter/job_hunt.py` to pull top ATS openings (Ashby, Greenhouse, Lever, YC).
-   - Run `python job-kit-starter/job_hunt_india.py` to aggregate fresh Indeed India postings (LinkedIn excluded — do not add it).
+   - Run `python job-kit-starter/job_hunt_india.py` to aggregate fresh Indeed India postings (this script itself only covers Indeed; LinkedIn leads come from the browser feed in step 3, not this script).
    - Run `python job-kit-starter/hn_scan.py` for direct founder/engineering posts.
 
 3. **Check Portal Feeds** — only the sources listed in `job_hunt_profile.md` → "Approved Sources" (skip any also matching `EXCLUDED_PLATFORMS`):
-   - If Playwright browser/extension is active, inspect new matches from the past week on Instahyre (`/candidate/opportunities/?matching=true`), Cutshort (`/profile/all-jobs`), Naukri (`jobAge=7` for last 7 days backend/full-stack roles in Bengaluru/remote), jobfound.org, and Wellfound.
-   - **⛔ Never open, scan, or apply via linkedin.com, in any form** — it is explicitly not on the Approved Sources list, even if a company's apply link redirects there; skip that lead instead.
+   - If Playwright browser/extension is active, inspect new matches from the past week on Instahyre (`/candidate/opportunities/?matching=true`), Cutshort (`/profile/all-jobs`), Naukri (`jobAge=7` for last 7 days backend/full-stack roles in Bengaluru/remote), jobfound.org, Wellfound, and LinkedIn jobs search (Bengaluru/remote, backend/full-stack, past week).
+   - **LinkedIn is an approved source (exclusion lifted 2026-09-20)** — browse/scan/apply normally, Easy Apply counted in its own separate uncapped lane like Indeed Smart Apply (see param note above).
    - **Authentication Rule:** Never logout accidentally. If sign-in issues occur on any portal, Google sign-in into `prathammodi001@gmail.com` by clicking the Google OAuth button with the cursor (do NOT sign in via email). Use Playwright.
    - **Jobfound Exception:** Do NOT log in on `jobfound.org` (no login needed).
 
 4. **Rank & Shortlist**:
    - Triage every new lead strictly against the Candidate Bar in `job_hunt_profile.md`.
-   - Score by fit (reuse `job_hunt.py`'s scoring where available) and take only the **top `NUM_JOBS`** leads (default 15) — never apply to more than this in one run. Indeed Smart Apply leads are ranked and shortlisted the same way but sit in their own separate, uncapped bucket (see param note above) — don't let them consume `NUM_JOBS` slots.
+   - Score by fit (reuse `job_hunt.py`'s scoring where available) and take only the **top `NUM_JOBS`** leads (default 15) as the initial shortlist. Indeed Smart Apply leads are ranked and shortlisted the same way but sit in their own separate, uncapped bucket (see param note above) — don't let them consume `NUM_JOBS` slots.
    - Log a one-line fit reason for every lead considered, including ones cut for being outside the top `NUM_JOBS`.
+   - **`NUM_JOBS` counts `Status=Applied` only, not attempts.** If a shortlisted lead ends up `Blocked` (step 5e), that slot is still open — pull the next-best qualifying lead from the ranked list (or re-scan for more if the list is exhausted) and keep going until `NUM_JOBS` leads are actually `Applied`, or there are genuinely no more qualifying leads left from this run's sources. Do not stop early and report a `NUM_JOBS=5` run as complete with e.g. 3 Applied + 2 Blocked — that under-delivers the target.
 
 5. **Apply — Tailor + Submit**, for each of the top `NUM_JOBS` leads (plus all qualifying Indeed Smart Apply leads, tracked separately — see param note above):
    a. Build the tailored resume per PLAYBOOK.md → "Resume variant system": select the lane bundle (`resume_builder/bundles/bundle_<lane>.md`), pull copy-exact bullets from `resume_builder/experience/*.md`, compile `resume_builder/templates/swe_resume_template.tex` with `tectonic -c minimal`, verify 1-page via pypdf. Save to `output/<Company> - <Role>/Pratham_Modi_Resume.pdf`.
@@ -38,7 +41,7 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    b2. **HARD GATE — mechanical exclusion check, run this for EVERY lead regardless of source (scripted, Cutshort, Naukri, Instahyre, Wellfound, live-browsed Indeed — the `-50` code-level skip in `job_hunt.py`/`job_hunt_india.py` only covers the two scripted scanners, so this step is the only gate for everything else):** before opening the application form, literally quote the job title and re-check it word-by-word against this list — Java, .NET/C#/ASP.NET, C++, Ruby/Ruby on Rails, Senior, Staff, Principal, Architect, Lead, SDE 2/II, SDE 3/III, SDE-2, SDE-3, Product Engineer II/PE 2, Member of Technical Staff/MTS. Any match anywhere in the title or the JD's stated primary stack → do not open the form, log `Status=Skipped` with the matched term as the reason, move to the next lead. This is a literal string check, not a judgment call — do not rationalize a match as "close enough to acceptable."
    c. Fill the ATS form using the platform-specific recipe in PLAYBOOK.md → "ATS recipes" (Workday, SuccessFactors, Naukri, Indeed Smart Apply, Wellfound, Phenom, Freshteam, custom forms, etc.). Always replace any pre-selected default resume with the tailored PDF. Save any account credentials / TOTP secrets created during signup to `output/<Company> - <Role>/account_credentials.txt`.
    d. Click final Submit.
-   e. **On any blocker** (image/grid captcha, Cloudflare "Additional Verification Required" wall, an unresolvable required field): do not close the tab, do not pause, do not hand off. Leave that application exactly where it got stuck in its own browser tab, log `Status=Blocked` in `applications.csv` with the specific reason, and move on to the next lead in a new tab. The user finishes blocked ones manually later.
+   e. **On any blocker** (image/grid captcha, Cloudflare "Additional Verification Required" wall, an unresolvable required field): do not close the tab, do not pause, do not hand off. Leave that application exactly where it got stuck in its own browser tab, log `Status=Blocked` in `applications.csv` with the specific reason, and move on to the next lead in a new tab. The user finishes blocked ones manually later. **This does not fill a `NUM_JOBS` slot** — pull another qualifying lead to replace it (see step 4's `NUM_JOBS` note).
    f. Log the result (Applied / Blocked / Skipped) to `applications.csv` via the Python `csv` module and run `job-kit-starter/tracker/refresh.sh`.
 
 6. **Cold Outreach**:

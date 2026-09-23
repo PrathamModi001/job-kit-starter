@@ -804,6 +804,18 @@
 "resume": "output/Verdantis - AI Node.js Backend Developer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Cargill",
+"role": "Platform Engineer (Req 328292)",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "20,00,000 INR",
+"status": "Applied",
+"date": "2026-09-19",
+"url": "https://career2.successfactors.eu/portalcareer?career_job_req_id=328292&company=cargill",
+"resume": "output/Cargill - Platform Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "DPDzero",
 "role": "Software Engineer II - Backend",
 "loc": "HQ (Bangalore)",
@@ -874,6 +886,30 @@
 "date": "2026-09-19",
 "url": "https://www.workatastartup.com/jobs/80216",
 "resume": "output/WarpBuild - GTM Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Confidential Client",
+"role": "FDE - AI",
+"loc": "Bangalore, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Applied",
+"date": "2026-09-20",
+"url": "https://www.michaelpage.co.in/job-detail/fde-ai/ref/jn-092026-7098249",
+"resume": "output/Pratham_Modi_Base_Resume.pdf"
+},
+{
+"co": "Kredivo Group",
+"role": "Backend Engineer (SDE 1)",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "20-30 LPA",
+"status": "Applied",
+"date": "2026-09-20",
+"url": "https://www.linkedin.com/jobs/view/4456861392/",
+"resume": "output/Kredivo Group - Backend Engineer (SDE 1)/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "HackerEarth",
@@ -1164,6 +1200,114 @@
 "resume": ""
 },
 {
+"co": "Brevo",
+"role": "Associate Platform Engineer - Data Storage",
+"loc": "Noida, Uttar Pradesh (Hybrid), India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-19",
+"url": "https://www.linkedin.com/jobs/view/4462691533/",
+"resume": ""
+},
+{
+"co": "Caterpillar",
+"role": "Software Engineer - D365 F&O",
+"loc": "Bangalore, Chennai, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-19",
+"url": "https://careers.caterpillar.com/en/jobs/r0000386730/software-engineer-d365-fo/",
+"resume": ""
+},
+{
+"co": "Lattice Semiconductor",
+"role": "Member of Technical Staff I",
+"loc": "Chennai, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-19",
+"url": "https://latticesemi.wd5.myworkdayjobs.com/latticesemiconductorscareers/job/Chennai-India/Member-of-Technical-Staff-I_R-103176",
+"resume": ""
+},
+{
+"co": "MeshDefend",
+"role": "Full Stack Engineer",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-19",
+"url": "https://www.linkedin.com/jobs/view/4457945107/",
+"resume": ""
+},
+{
+"co": "OnMeta",
+"role": "Software Development Engineer I",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-19",
+"url": "https://www.linkedin.com/jobs/view/4459481003/",
+"resume": ""
+},
+{
+"co": "Velocity",
+"role": "Data Analyst",
+"loc": "Bengaluru, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-19",
+"url": "https://wellfound.com/jobs/4215166-data-analyst",
+"resume": ""
+},
+{
+"co": "Wells Fargo",
+"role": "Software Engineer",
+"loc": "Hyderabad, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed (~18-28 LPA)",
+"status": "Skipped",
+"date": "2026-09-19",
+"url": "https://jobfound.org/job/wells-fargo-is-hiring-for-software-engineer-hyderabad-india-17-september-2026",
+"resume": ""
+},
+{
+"co": "Wells Fargo",
+"role": "Software Engineer - Java",
+"loc": "Hyderabad, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-19",
+"url": "https://www.wellsfargojobs.com/en/jobs/r-573491/software-engineer-java/",
+"resume": ""
+},
+{
+"co": "Writesonic",
+"role": "Software Engineer",
+"loc": "Remote, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed (~18-25 LPA)",
+"status": "Skipped",
+"date": "2026-09-19",
+"url": "https://www.linkedin.com/jobs/view/4461709552/",
+"resume": ""
+},
+{
 "co": "AiPrise",
 "role": "Software Engineer I (Bangalore",
 "loc": " India)",
@@ -1246,6 +1390,18 @@
 "date": "2026-09-19",
 "url": "https://in.indeed.com/viewjob?jk=2c57ad6d87a188e1",
 "resume": "output/REDICA Systems - AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Wells Fargo",
+"role": "Software Engineer (Req R-570569)",
+"loc": "Hyderabad, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed (~18-28 LPA)",
+"status": "Blocked",
+"date": "2026-09-19",
+"url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer_R-570569",
+"resume": "output/Wells Fargo - Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Rapid Claims",
