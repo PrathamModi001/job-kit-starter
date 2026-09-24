@@ -1,0 +1,122 @@
+[
+  {
+    "tier": "A",
+    "company": "Firecrawl",
+    "founder": "Eric Ciarla",
+    "email": "eric@firecrawl.dev",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "Backend & Distributed Scraping Systems Engineer",
+    "subject": "High-throughput crawling pipelines and structured extraction for Firecrawl",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights Playpower Labs sub-200ms document extraction, Kafka event streaming, and FastAPI microservices",
+    "body": "Hi Eric,\n\nHuge fan of Firecrawl and how you've turned messy web scraping into clean, structured Markdown and JSON for LLMs.\n\nWhy my background maps directly to Firecrawl:\n- High-Throughput Ingestion Pipelines: Engineered event-driven streaming pipelines handling 75K+ daily events at 99.5% delivery reliability using Kafka, Redis Streams, and BullMQ with consumer-side deduplication.\n- Low-Latency Document Processing: At Playpower Labs, built document chunking and extraction pipelines over 10K+ unstructured documents achieving sub-200ms retrieval latency at p95.\n- Scalable Backend Infrastructure: At C3iHub (IIT Kanpur), architected distributed microservices serving 50K+ users at 10,000+ concurrent connections with 99.9% uptime, cutting database p99 latency from 450ms to 135ms.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to chat about scaling extraction throughput and concurrency at Firecrawl!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "A",
+    "company": "Cursor (Anysphere)",
+    "founder": "Aman Sanger",
+    "email": "aman@anysphere.co",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "Systems & Agent Runtime Infrastructure Engineer",
+    "subject": "Low-latency code retrieval and agent state machines for Cursor",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights Mnemoniq 3-tier memory agent, DeployMind container sandboxes, and sub-100ms microservices",
+    "body": "Hi Aman,\n\nCursor has completely revolutionized software development\u2014the indexing speed and seamless agentic edits set a new industry benchmark.\n\nWhere I can contribute:\n- Structured Context & Memory: Built Mnemoniq (https://github.com/PrathamModi001/Mnemoniq), an autonomous agent memory system with a three-tier architecture (working, episodic, knowledge graph) orchestrated via LangGraph, cutting injected context tokens by 38% behind a high-concurrency FastAPI backend.\n- Containerized Sandboxes & Execution: Engineered DeployMind (https://github.com/PrathamModi001/DeployMind), provisioning isolated container execution environments with dynamic resource scheduling and real-time build telemetry.\n- High-Concurrency Backends: Scaled production microservices to 10,000+ concurrent connections at C3iHub (IIT Kanpur), maintaining sub-100ms API response times.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to connect about agent performance and codebase indexing scale at Cursor!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "A",
+    "company": "Pydantic",
+    "founder": "Samuel Colvin",
+    "email": "samuel@pydantic.dev",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "Backend & Observability Platform Engineer",
+    "subject": "High-cardinality telemetry and async Python systems for Logfire",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights OpenTelemetry distributed tracing (MTTR cut 85%), high-throughput FastAPI microservices, and Kafka pipelines",
+    "body": "Hi Samuel,\n\nPydantic is the bedrock of the modern Python ecosystem, and seeing you expand into Logfire with native OpenTelemetry instrumentation is inspiring.\n\nHow my experience aligns:\n- Distributed Tracing & OpenTelemetry: Cut incident response time by 85% across 15+ microservices at C3iHub (IIT Kanpur) by standardizing OpenTelemetry distributed tracing, metric aggregation, and latency alerting.\n- High-Performance Python & APIs: Built asynchronous FastAPI/Python microservices handling thousands of requests per second, optimizing database query plans and connection pooling to drop p99 latency to 135ms.\n- Scalable Event Pipelines: Handled 75K+ daily events with 99.5% delivery reliability using Kafka and Redis Streams with dead-letter queue recovery.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to discuss telemetry scale and async pipeline performance at Pydantic!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "A",
+    "company": "Vercel",
+    "founder": "Guillermo Rauch",
+    "email": "rauchg@vercel.com",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "Platform & Developer Experience Engineer",
+    "subject": "Edge runtime concurrency and developer platform infrastructure for Vercel",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights DeployMind GitOps automation, 40% CI/CD acceleration, and sub-100ms microservices",
+    "body": "Hi Guillermo,\n\nVercel has continually raised the bar for developer experience and web platform infrastructure, especially with the Vercel AI SDK and edge capabilities.\n\nWhy my background maps directly:\n- Developer Platforms & GitOps: Built DeployMind (https://github.com/PrathamModi001/DeployMind), an automated deployment orchestrator that provisions isolated execution sandboxes from GitHub webhooks with real-time build streaming and TLS termination.\n- High-Concurrency Backends: Architected backend services at C3iHub (IIT Kanpur) supporting 50K+ users at 10,000+ concurrent connections, achieving 99.9% uptime.\n- CI/CD Acceleration: Reduced release deployment cycles by 40% across engineering workflows by optimizing container build layers and automated validation pipelines.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to connect about developer workflows and platform scaling at Vercel!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "A",
+    "company": "Replit",
+    "founder": "Amjad Masad",
+    "email": "amjad@replit.com",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "Developer Environment & Sandbox Systems Engineer",
+    "subject": "Cloud container sandboxes and autonomous developer loops for Replit",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights DeployMind container sandboxes, WebSocket streaming, and sub-100ms microservices",
+    "body": "Hi Amjad,\n\nThe velocity of Replit Agent and your mission to bring the next billion software creators online is incredible.\n\nWhere my background fits:\n- Container Sandboxes & Orchestration: Built DeployMind (https://github.com/PrathamModi001/DeployMind), creating ephemeral containerized environments with automated health checks, dynamic resource boundaries, and live log streaming.\n- Real-Time WebSockets & Streaming: Managed 2,000+ real-time WebSocket sessions at sub-100ms latency, engineering state synchronization across distributed worker nodes.\n- High-Throughput Backend Engineering: Served 50K+ users at C3iHub (IIT Kanpur) with 99.9% uptime, cutting database p99 latency by 70% through Redis caching and query indexing.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to chat about scaling cloud execution environments and agent tooling at Replit!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "B",
+    "company": "Railway",
+    "founder": "Jake Cooper",
+    "email": "jake@railway.app",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "Infrastructure & Cloud Platform Engineer",
+    "subject": "Infrastructure provisioning and event-driven orchestration for Railway",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights DeployMind GitOps containerization, Docker/Kubernetes management, and OpenTelemetry",
+    "body": "Hi Jake,\n\nRailway is by far the cleanest and most frictionless deployment platform built for modern engineering teams.\n\nWhy I can hit the ground running:\n- Automated Container Deployment: Engineered DeployMind (https://github.com/PrathamModi001/DeployMind), automating multi-stage deployment workflows from repository commits into isolated container sandboxes with real-time log ingestion.\n- Resilient Event Backends: Built event streaming pipelines processing 75K+ daily events at 99.5% delivery using Kafka, Redis Streams, and BullMQ with automatic retries and DLQs.\n- Observability: Instrumenting OpenTelemetry across distributed services at C3iHub (IIT Kanpur), reducing MTTR by 85% and maintaining 99.9% availability at 10,000+ connections.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to discuss infrastructure scaling and orchestration at Railway!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "B",
+    "company": "Baseten",
+    "founder": "Tuhin Srivastava",
+    "email": "tuhin@baseten.co",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "ML Inference & Model Serving Platform Engineer",
+    "subject": "Low-latency model serving gateways and async inference pipelines for Baseten",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights Playpower Labs sub-200ms RAG/inference, FastAPI async backends, and Redis caching",
+    "body": "Hi Tuhin,\n\nBaseten has become the premier platform for high-performance model serving and low-latency open-source inference.\n\nHow my experience maps:\n- Low-Latency Inference Pipelines: Optimized RAG and LLM serving pipelines at Playpower Labs to achieve sub-200ms retrieval and generation latency over 10K+ documents.\n- Async API Gateways: Architected high-concurrency Python (FastAPI/asyncio) and Node.js microservices serving 50K+ active users at C3iHub with 99.9% uptime.\n- Distributed Caching & Telemetry: Implemented multi-tier caching with Redis and OpenTelemetry distributed tracing to monitor latency bottlenecks at p99.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to chat about scaling inference gateway performance and model serving pipelines at Baseten!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "B",
+    "company": "Render",
+    "founder": "Anurag Goel",
+    "email": "anurag@render.com",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "Cloud Infrastructure & Platform Systems Engineer",
+    "subject": "Cloud hosting scalability and container execution sandboxes for Render",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights DeployMind container provisioning, C3iHub 50K+ users at 99.9% uptime, and Kafka pipelines",
+    "body": "Hi Anurag,\n\nRender has proven how modern cloud infrastructure can combine simplicity with enterprise-grade reliability and scalability.\n\nMy background directly aligns:\n- Cloud Platform & Sandboxes: Built DeployMind (https://github.com/PrathamModi001/DeployMind), a developer platform provisioning isolated container execution sandboxes with dynamic resource scheduling and TLS termination.\n- High-Concurrency Backends: Architected backend infrastructure serving 50K+ users at C3iHub (IIT Kanpur) with 99.9% uptime at 10,000+ concurrent connections, dropping query latency from 450ms to 135ms.\n- Scalable Messaging: Built notification engines handling 75K+ daily events via Kafka and Redis Streams with dead-letter queue resilience.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to connect about cloud infrastructure scaling at Render!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "B",
+    "company": "Kestra",
+    "founder": "Emmanuel Darras",
+    "email": "emmanuel@kestra.io",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "Event-Driven Workflow & Backend Systems Engineer",
+    "subject": "Event-driven orchestration and high-throughput pipelines for Kestra",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights Kafka 75k events/day, BullMQ/Redis Streams, and OpenTelemetry distributed tracing",
+    "body": "Hi Emmanuel,\n\nKestra has set a brilliant standard for declarative, event-driven orchestration and developer-centric data workflows.\n\nWhere I can contribute:\n- Event-Driven Architecture: Engineered streaming pipelines processing 75K+ daily events with 99.5% delivery reliability using Kafka, BullMQ, and Redis Streams with consumer-side deduplication.\n- Distributed Tracing & Observability: Decreased MTTR by 85% across 15+ microservices at C3iHub (IIT Kanpur) by embedding OpenTelemetry distributed tracing and latency SLOs.\n- Containerized Task Execution: Built DeployMind (https://github.com/PrathamModi001/DeployMind), dynamically provisioning isolated container sandboxes for automated execution workflows.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to connect on scaling distributed workflow execution at Kestra!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "B",
+    "company": "Zed Industries",
+    "founder": "Nathan Sobo",
+    "email": "nathan@zed.dev",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "role_pitch": "Real-Time Backend & Collaboration Systems Engineer",
+    "subject": "High-performance real-time collaboration and WebSocket servers for Zed",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights 2,000+ real-time WebSocket sessions, sub-100ms response, and C3iHub 10,000+ connections",
+    "body": "Hi Nathan,\n\nZed's focus on raw performance, responsiveness, and multi-user collaboration has raised the bar for what a code editor should feel like.\n\nWhy my background maps:\n- Real-Time Synchronization: Built and maintained real-time WebSocket communication channels handling 2,000+ concurrent sessions at sub-100ms latencies with distributed state synchronization.\n- High-Throughput Distributed Backends: Architected backend infrastructure at C3iHub (IIT Kanpur) supporting 50K+ users with 10,000+ concurrent connections and 99.9% uptime.\n- Developer Experience Tooling: Built DeployMind (https://github.com/PrathamModi001/DeployMind), integrating automated GitOps workflows and real-time build streaming for developer productivity.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to connect about real-time server architecture and collaboration scale at Zed!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  }
+]

@@ -528,6 +528,18 @@
 "resume": ""
 },
 {
+"co": "AiPrise",
+"role": "Software Engineer I (Bangalore, India)",
+"loc": "Bengaluru, Karnataka",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~18-24 LPA",
+"status": "Applied",
+"date": "2026-09-14",
+"url": "https://in.indeed.com/viewjob?jk=e622886c156793d0",
+"resume": "PrathamModi.pdf"
+},
+{
 "co": "Avoca",
 "role": "Deployment Engineer",
 "loc": "Bengaluru, India (Remote)",
@@ -744,6 +756,18 @@
 "resume": "output/Planview - Software Engineer I/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Rapid Claims",
+"role": "Software Development Engineer (Backend)Python, NodeJS, or Go",
+"loc": "Bengaluru, Karnataka",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "~22-32 LPA",
+"status": "Applied",
+"date": "2026-09-18",
+"url": "https://in.indeed.com/viewjob?jk=3e124283a33daad2",
+"resume": "output/Rapid Claims - Backend Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Recruito",
 "role": "Forward Deployed Engineer",
 "loc": "Bengaluru, Karnataka / Remote",
@@ -912,6 +936,138 @@
 "resume": "output/Kredivo Group - Backend Engineer (SDE 1)/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Amazon",
+"role": "Software Development Engineer I",
+"loc": "Bangalore",
+"via": "Instahyre",
+"found": "Instahyre",
+"comp": "Not listed (~25-45 LPA)",
+"status": "Applied",
+"date": "2026-09-23",
+"url": "https://www.instahyre.com/candidate/opportunities/?matching=true",
+"resume": "output/Amazon - Software Development Engineer I/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Amazon",
+"role": "AI Engineer",
+"loc": "Bangalore",
+"via": "Instahyre",
+"found": "Instahyre",
+"comp": "Not listed (~25-45 LPA)",
+"status": "Applied",
+"date": "2026-09-23",
+"url": "https://www.instahyre.com/candidate/opportunities/?matching=true",
+"resume": "output/Amazon - AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Anyscale",
+"role": "Software Engineer, Platform Infrastructure (Foundations)",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (~30-60 LPA / Ray platform)",
+"status": "Applied",
+"date": "2026-09-23",
+"url": "https://jobs.ashbyhq.com/anyscale/316cf655-f3f1-40c2-823f-34f1fce54fdc",
+"resume": "output/Anyscale - Software Engineer, Platform Infrastructure/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Commenda Technologies Inc.",
+"role": "Software Engineer – Product",
+"loc": "Bengaluru (Indiranagar)",
+"via": "HN",
+"found": "HN",
+"comp": "₹12L - ₹24L (~18-24 LPA)",
+"status": "Applied",
+"date": "2026-09-23",
+"url": "https://tally.so/r/0QregP",
+"resume": "output/Commenda Technologies Inc. - Software Engineer - Product/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "DoorDash",
+"role": "Software Engineer, Backend",
+"loc": "Pune, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed (~25-45 LPA)",
+"status": "Applied",
+"date": "2026-09-23",
+"url": "https://job-boards.greenhouse.io/doordashindia/jobs/5856393",
+"resume": "output/DoorDash - Software Engineer, Backend/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "PharmEasy",
+"role": "Software Development Engineer",
+"loc": "Bangalore",
+"via": "Instahyre",
+"found": "Instahyre",
+"comp": "Not listed (~18-28 LPA)",
+"status": "Applied",
+"date": "2026-09-23",
+"url": "https://www.instahyre.com/candidate/opportunities/?matching=true",
+"resume": "output/PharmEasy - Software Development Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Rapid Claims",
+"role": "Software Development Engineer (Backend)-Python, NodeJS, or Go",
+"loc": "Bangalore City (Bengaluru)",
+"via": "Indeed",
+"found": "Indeed",
+"comp": "Not listed (~20-30 LPA)",
+"status": "Applied",
+"date": "2026-09-23",
+"url": "https://in.indeed.com/viewjob?jk=ae7b1d50f0472adb",
+"resume": "output/Rapid Claims - Software Development Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Salesforge",
+"role": "Golang Backend Engineer",
+"loc": "Remote only",
+"via": "Cutshort",
+"found": "Cutshort",
+"comp": "₹20L - ₹50L / yr",
+"status": "Applied",
+"date": "2026-09-23",
+"url": "https://cutshort.io/job/Golang-Backend-Engineer-Salesforge-Fbmt7gom",
+"resume": "output/Salesforge - Golang Backend Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Vertexcover Labs",
+"role": "AI Engineer",
+"loc": "Remote (India)",
+"via": "Cutshort",
+"found": "Cutshort",
+"comp": "Not listed (~20-35 LPA)",
+"status": "Applied",
+"date": "2026-09-23",
+"url": "https://cutshort.io/job/AI-Engineer-Vertexcover-Labs-uJtTeA9z",
+"resume": "output/Vertexcover Labs - AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Potpie AI",
+"role": "Full stack engineer",
+"loc": "Bengaluru, India",
+"via": "Binary ATS",
+"found": "Binary ATS",
+"comp": "Not listed (~18-28 LPA / Venture-backed)",
+"status": "Applied",
+"date": "2026-09-24",
+"url": "https://binary.so/N0rcSmO",
+"resume": "output/Potpie AI - Full stack engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Together AI",
+"role": "AI Infrastructure System Engineer Bangalore",
+"loc": "Bangalore, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed (~30-60 LPA / AI Native Cloud unicorn)",
+"status": "Applied",
+"date": "2026-09-24",
+"url": "https://job-boards.greenhouse.io/togetherai/jobs/5180155007",
+"resume": "output/Together AI - AI Infrastructure System Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -982,6 +1138,30 @@
 "date": "2026-09-11",
 "url": "https://jobs.ashbyhq.com/runway-ml/8489a08a-f0cf-4418-968c-c",
 "resume": ""
+},
+{
+"co": "Cargill",
+"role": "Associate Software Engineer",
+"loc": "Bangalore, Karnataka, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed (~12-20 LPA)",
+"status": "Lead",
+"date": "2026-09-24",
+"url": "https://career2.successfactors.eu/sfcareer/jobreqcareer?jobId=333448&company=cargill&locale=en_US",
+"resume": "output/Cargill - Associate Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "NCR Voyix",
+"role": "Full Stack Software Engineer",
+"loc": "Chennai, IND",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed (~18-28 LPA)",
+"status": "Lead",
+"date": "2026-09-24",
+"url": "https://ncr.wd1.myworkdayjobs.com/ext_apac/job/CHENNAI-IND/Full-Stack-Software-Engineer_R0158527",
+"resume": "output/NCR Voyix - Full Stack Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "AiMi",
@@ -1308,16 +1488,52 @@
 "resume": ""
 },
 {
-"co": "AiPrise",
-"role": "Software Engineer I (Bangalore",
-"loc": " India)",
-"via": "Bengaluru, Karnataka",
-"found": "Bengaluru, Karnataka",
-"comp": "Indeed (Smart Apply)",
-"status": "~18-24 LPA",
-"date": "2026-09-14",
-"url": "PrathamModi.pdf",
-"resume": "2026-09-14"
+"co": "AstroChat (People Interactive)",
+"role": "Consultant - Software Engineer I (Backend)",
+"loc": "Mumbai (Remote friendly)",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-23",
+"url": "https://jobfound.org/job/people-interactive-is-hiring-for-consultant-software-engineer-i-backend-mumbai-india-23-september-2026",
+"resume": ""
+},
+{
+"co": "Genesys",
+"role": "Software Engineer (Node.JS & AWS)",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-23",
+"url": "https://genesys.wd1.myworkdayjobs.com/Genesys/job/Bengaluru-India/Software-Engineer_JR111545",
+"resume": ""
+},
+{
+"co": "Target",
+"role": "Engineer",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Jobfound",
+"found": "Jobfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-23",
+"url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/India-Bangalore-Target-North-Campus/Engineer_R0000446251-1",
+"resume": ""
+},
+{
+"co": "Infisical",
+"role": "Full Stack Engineer",
+"loc": "India (Remote)",
+"via": "job_hunt.py",
+"found": "job_hunt.py",
+"comp": "00K – 80K",
+"status": "Skipped",
+"date": "2026-09-24",
+"url": "https://jobs.ashbyhq.com/infisical/782b9da8-20e1-48b2-919e-6c5430c58628",
+"resume": ""
 },
 {
 "co": "First American India Pvt Ltd",
@@ -1402,17 +1618,5 @@
 "date": "2026-09-19",
 "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer_R-570569",
 "resume": "output/Wells Fargo - Software Engineer/Pratham_Modi_Resume.pdf"
-},
-{
-"co": "Rapid Claims",
-"role": "Software Development Engineer (Backend)Python",
-"loc": " NodeJS",
-"via": "or Go",
-"found": "or Go",
-"comp": "Bengaluru, Karnataka",
-"status": "Indeed (Smart Apply)",
-"date": "Applied",
-"url": "2026-09-18",
-"resume": "2026-09-18"
 }
 ]

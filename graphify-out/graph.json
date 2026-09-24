@@ -29,6 +29,18 @@
       "source_location": "L22"
     },
     {
+      "id": "scratch_apply_togetherai_setval",
+      "label": "setVal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 109,
+      "community_name": "apply_togetherai.js",
+      "file_type": "code",
+      "norm_label": "setval()",
+      "source_file": "scratch/apply_togetherai.js",
+      "source_location": "L5"
+    },
+    {
       "id": "job_kit_starter_resume_builder_helpers_char_count_classify_bullet",
       "label": "classify_bullet()",
       "_callable": true,
@@ -111,6 +123,66 @@
       "norm_label": "strip_latex()",
       "source_file": "job-kit-starter/resume_builder/helpers/char_count.py",
       "source_location": "L18"
+    },
+    {
+      "id": "scratch_fill_anyscale_setinput",
+      "label": "setInput()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 110,
+      "community_name": "fill_anyscale.js",
+      "file_type": "code",
+      "norm_label": "setinput()",
+      "source_file": "scratch/fill_anyscale.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "scratch_fill_doordash_education_selectoption",
+      "label": "selectOption()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 111,
+      "community_name": "fill_doordash_education.js",
+      "file_type": "code",
+      "norm_label": "selectoption()",
+      "source_file": "scratch/fill_doordash_education.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_fill_potpie_setval",
+      "label": "setVal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 112,
+      "community_name": "fill_potpie.js",
+      "file_type": "code",
+      "norm_label": "setval()",
+      "source_file": "scratch/fill_potpie.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_select_doordash_dropdowns_selectoption",
+      "label": "selectOption()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 113,
+      "community_name": "select_doordash_dropdowns.js",
+      "file_type": "code",
+      "norm_label": "selectoption()",
+      "source_file": "scratch/select_doordash_dropdowns.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_set_doordash_country_loc_selectoption",
+      "label": "selectOption()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 114,
+      "community_name": "set_doordash_country_loc.js",
+      "file_type": "code",
+      "norm_label": "selectoption()",
+      "source_file": "scratch/set_doordash_country_loc.js",
+      "source_location": "L3"
     },
     {
       "id": "job_kit_starter_job_hunt_india_already_applied_companies",
@@ -687,6 +759,18 @@
       "norm_label": "strip_html()",
       "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L150"
+    },
+    {
+      "id": "scratch_generate_resume_build_resume",
+      "label": "build_resume()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 93,
+      "community_name": "generate_resume.py",
+      "file_type": "code",
+      "norm_label": "build_resume()",
+      "source_file": "scratch/generate_resume.py",
+      "source_location": "L3"
     },
     {
       "id": "scratch_fetch_jds_fetch",
@@ -1549,6 +1633,94 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_fill_commenda_direct",
+      "label": "fill_commenda_direct.js",
+      "_origin": "ast",
+      "community": 102,
+      "community_name": "fill_commenda_direct.js",
+      "file_type": "code",
+      "norm_label": "fill_commenda_direct.js",
+      "source_file": "scratch/fill_commenda_direct.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_commenda_p1",
+      "label": "fill_commenda_p1.js",
+      "_origin": "ast",
+      "community": 103,
+      "community_name": "fill_commenda_p1.js",
+      "file_type": "code",
+      "norm_label": "fill_commenda_p1.js",
+      "source_file": "scratch/fill_commenda_p1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_drafts_1_5",
+      "label": "run_drafts_1_5.js",
+      "_origin": "ast",
+      "community": 104,
+      "community_name": "run_drafts_1_5.js",
+      "file_type": "code",
+      "norm_label": "run_drafts_1_5.js",
+      "source_file": "scratch/run_drafts_1_5.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_drafts_6_10",
+      "label": "run_drafts_6_10.js",
+      "_origin": "ast",
+      "community": 105,
+      "community_name": "run_drafts_6_10.js",
+      "file_type": "code",
+      "norm_label": "run_drafts_6_10.js",
+      "source_file": "scratch/run_drafts_6_10.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_upload_salesforge",
+      "label": "upload_salesforge.js",
+      "_origin": "ast",
+      "community": 106,
+      "community_name": "upload_salesforge.js",
+      "file_type": "code",
+      "norm_label": "upload_salesforge.js",
+      "source_file": "scratch/upload_salesforge.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_commenda_p2",
+      "label": "fill_commenda_p2.js",
+      "_origin": "ast",
+      "community": 107,
+      "community_name": "fill_commenda_p2.js",
+      "file_type": "code",
+      "norm_label": "fill_commenda_p2.js",
+      "source_file": "scratch/fill_commenda_p2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_all_drafts",
+      "label": "send_all_drafts.js",
+      "_origin": "ast",
+      "community": 108,
+      "community_name": "send_all_drafts.js",
+      "file_type": "code",
+      "norm_label": "send_all_drafts.js",
+      "source_file": "scratch/send_all_drafts.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_apply_togetherai",
+      "label": "apply_togetherai.js",
+      "_origin": "ast",
+      "community": 109,
+      "community_name": "apply_togetherai.js",
+      "file_type": "code",
+      "norm_label": "apply_togetherai.js",
+      "source_file": "scratch/apply_togetherai.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_resume_builder_helpers_char_count",
       "label": "char_count.py",
       "_origin": "ast",
@@ -1635,6 +1807,116 @@
       "norm_label": "classify bullet into variant and check limits.",
       "source_file": "job-kit-starter/resume_builder/helpers/char_count.py",
       "source_location": "L87"
+    },
+    {
+      "id": "scratch_fill_anyscale",
+      "label": "fill_anyscale.js",
+      "_origin": "ast",
+      "community": 110,
+      "community_name": "fill_anyscale.js",
+      "file_type": "code",
+      "norm_label": "fill_anyscale.js",
+      "source_file": "scratch/fill_anyscale.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_doordash_education",
+      "label": "fill_doordash_education.js",
+      "_origin": "ast",
+      "community": 111,
+      "community_name": "fill_doordash_education.js",
+      "file_type": "code",
+      "norm_label": "fill_doordash_education.js",
+      "source_file": "scratch/fill_doordash_education.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_potpie",
+      "label": "fill_potpie.js",
+      "_origin": "ast",
+      "community": 112,
+      "community_name": "fill_potpie.js",
+      "file_type": "code",
+      "norm_label": "fill_potpie.js",
+      "source_file": "scratch/fill_potpie.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_select_doordash_dropdowns",
+      "label": "select_doordash_dropdowns.js",
+      "_origin": "ast",
+      "community": 113,
+      "community_name": "select_doordash_dropdowns.js",
+      "file_type": "code",
+      "norm_label": "select_doordash_dropdowns.js",
+      "source_file": "scratch/select_doordash_dropdowns.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_set_doordash_country_loc",
+      "label": "set_doordash_country_loc.js",
+      "_origin": "ast",
+      "community": 114,
+      "community_name": "set_doordash_country_loc.js",
+      "file_type": "code",
+      "norm_label": "set_doordash_country_loc.js",
+      "source_file": "scratch/set_doordash_country_loc.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_append_outreach_csv",
+      "label": "append_outreach_csv.py",
+      "_origin": "ast",
+      "community": 115,
+      "community_name": "append_outreach_csv.py",
+      "file_type": "code",
+      "norm_label": "append_outreach_csv.py",
+      "source_file": "scratch/append_outreach_csv.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_apply_anyscale",
+      "label": "apply_anyscale.js",
+      "_origin": "ast",
+      "community": 116,
+      "community_name": "apply_anyscale.js",
+      "file_type": "code",
+      "norm_label": "apply_anyscale.js",
+      "source_file": "scratch/apply_anyscale.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_apply_anyscale_part2",
+      "label": "apply_anyscale_part2.js",
+      "_origin": "ast",
+      "community": 117,
+      "community_name": "apply_anyscale_part2.js",
+      "file_type": "code",
+      "norm_label": "apply_anyscale_part2.js",
+      "source_file": "scratch/apply_anyscale_part2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_compile_batch_resumes",
+      "label": "compile_batch_resumes.py",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "compile_batch_resumes.py",
+      "file_type": "code",
+      "norm_label": "compile_batch_resumes.py",
+      "source_file": "scratch/compile_batch_resumes.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_compile_potpie_resume",
+      "label": "compile_potpie_resume.py",
+      "_origin": "ast",
+      "community": 119,
+      "community_name": "compile_potpie_resume.py",
+      "file_type": "code",
+      "norm_label": "compile_potpie_resume.py",
+      "source_file": "scratch/compile_potpie_resume.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_claude_skills_setup_build_kb_skill",
@@ -1819,6 +2101,116 @@
       "norm_label": "startup",
       "source_file": "job-kit-starter/.claude/skills/setup-build-kb/SKILL.md",
       "source_location": "L18"
+    },
+    {
+      "id": "scratch_draft_target_1",
+      "label": "draft_target_1.js",
+      "_origin": "ast",
+      "community": 120,
+      "community_name": "draft_target_1.js",
+      "file_type": "code",
+      "norm_label": "draft_target_1.js",
+      "source_file": "scratch/draft_target_1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_2",
+      "label": "draft_target_2.js",
+      "_origin": "ast",
+      "community": 121,
+      "community_name": "draft_target_2.js",
+      "file_type": "code",
+      "norm_label": "draft_target_2.js",
+      "source_file": "scratch/draft_target_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_3",
+      "label": "draft_target_3.js",
+      "_origin": "ast",
+      "community": 122,
+      "community_name": "draft_target_3.js",
+      "file_type": "code",
+      "norm_label": "draft_target_3.js",
+      "source_file": "scratch/draft_target_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_4",
+      "label": "draft_target_4.js",
+      "_origin": "ast",
+      "community": 123,
+      "community_name": "draft_target_4.js",
+      "file_type": "code",
+      "norm_label": "draft_target_4.js",
+      "source_file": "scratch/draft_target_4.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_5",
+      "label": "draft_target_5.js",
+      "_origin": "ast",
+      "community": 124,
+      "community_name": "draft_target_5.js",
+      "file_type": "code",
+      "norm_label": "draft_target_5.js",
+      "source_file": "scratch/draft_target_5.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_6",
+      "label": "draft_target_6.js",
+      "_origin": "ast",
+      "community": 125,
+      "community_name": "draft_target_6.js",
+      "file_type": "code",
+      "norm_label": "draft_target_6.js",
+      "source_file": "scratch/draft_target_6.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_7",
+      "label": "draft_target_7.js",
+      "_origin": "ast",
+      "community": 126,
+      "community_name": "draft_target_7.js",
+      "file_type": "code",
+      "norm_label": "draft_target_7.js",
+      "source_file": "scratch/draft_target_7.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_8",
+      "label": "draft_target_8.js",
+      "_origin": "ast",
+      "community": 127,
+      "community_name": "draft_target_8.js",
+      "file_type": "code",
+      "norm_label": "draft_target_8.js",
+      "source_file": "scratch/draft_target_8.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_9",
+      "label": "draft_target_9.js",
+      "_origin": "ast",
+      "community": 128,
+      "community_name": "draft_target_9.js",
+      "file_type": "code",
+      "norm_label": "draft_target_9.js",
+      "source_file": "scratch/draft_target_9.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_extract_jobfound_links",
+      "label": "extract_jobfound_links.py",
+      "_origin": "ast",
+      "community": 129,
+      "community_name": "extract_jobfound_links.py",
+      "file_type": "code",
+      "norm_label": "extract_jobfound_links.py",
+      "source_file": "scratch/extract_jobfound_links.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_playbook",
@@ -2025,6 +2417,116 @@
       "source_location": "L55"
     },
     {
+      "id": "scratch_fill_doordash",
+      "label": "fill_doordash.js",
+      "_origin": "ast",
+      "community": 130,
+      "community_name": "fill_doordash.js",
+      "file_type": "code",
+      "norm_label": "fill_doordash.js",
+      "source_file": "scratch/fill_doordash.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_doordash_questions",
+      "label": "fill_doordash_questions.js",
+      "_origin": "ast",
+      "community": 131,
+      "community_name": "fill_doordash_questions.js",
+      "file_type": "code",
+      "norm_label": "fill_doordash_questions.js",
+      "source_file": "scratch/fill_doordash_questions.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_outreach_1_5",
+      "label": "run_outreach_1_5.js",
+      "_origin": "ast",
+      "community": 132,
+      "community_name": "run_outreach_1_5.js",
+      "file_type": "code",
+      "norm_label": "run_outreach_1_5.js",
+      "source_file": "scratch/run_outreach_1_5.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_outreach_6_10",
+      "label": "run_outreach_6_10.js",
+      "_origin": "ast",
+      "community": 133,
+      "community_name": "run_outreach_6_10.js",
+      "file_type": "code",
+      "norm_label": "run_outreach_6_10.js",
+      "source_file": "scratch/run_outreach_6_10.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_submit_anyscale",
+      "label": "submit_anyscale.js",
+      "_origin": "ast",
+      "community": 134,
+      "community_name": "submit_anyscale.js",
+      "file_type": "code",
+      "norm_label": "submit_anyscale.js",
+      "source_file": "scratch/submit_anyscale.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_test_loc_js",
+      "label": "test_loc_js.js",
+      "_origin": "ast",
+      "community": 135,
+      "community_name": "test_loc_js.js",
+      "file_type": "code",
+      "norm_label": "test_loc_js.js",
+      "source_file": "scratch/test_loc_js.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_test_loc_options",
+      "label": "test_loc_options.js",
+      "_origin": "ast",
+      "community": 136,
+      "community_name": "test_loc_options.js",
+      "file_type": "code",
+      "norm_label": "test_loc_options.js",
+      "source_file": "scratch/test_loc_options.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_test_single_draft_new",
+      "label": "test_single_draft_new.js",
+      "_origin": "ast",
+      "community": 137,
+      "community_name": "test_single_draft_new.js",
+      "file_type": "code",
+      "norm_label": "test_single_draft_new.js",
+      "source_file": "scratch/test_single_draft_new.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_type_country_loc",
+      "label": "type_country_loc.js",
+      "_origin": "ast",
+      "community": 138,
+      "community_name": "type_country_loc.js",
+      "file_type": "code",
+      "norm_label": "type_country_loc.js",
+      "source_file": "scratch/type_country_loc.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_upload_anyscale",
+      "label": "upload_anyscale.js",
+      "_origin": "ast",
+      "community": 139,
+      "community_name": "upload_anyscale.js",
+      "file_type": "code",
+      "norm_label": "upload_anyscale.js",
+      "source_file": "scratch/upload_anyscale.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_skill_profile",
       "label": "SKILL_PROFILE.md",
       "_origin": "ast",
@@ -2191,6 +2693,39 @@
       "norm_label": "summary",
       "source_file": "job-kit-starter/SKILL_PROFILE.md",
       "source_location": "L12"
+    },
+    {
+      "id": "scratch_upload_doordash_resume",
+      "label": "upload_doordash_resume.js",
+      "_origin": "ast",
+      "community": 140,
+      "community_name": "upload_doordash_resume.js",
+      "file_type": "code",
+      "norm_label": "upload_doordash_resume.js",
+      "source_file": "scratch/upload_doordash_resume.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_verify_doordash_fields",
+      "label": "verify_doordash_fields.js",
+      "_origin": "ast",
+      "community": 141,
+      "community_name": "verify_doordash_fields.js",
+      "file_type": "code",
+      "norm_label": "verify_doordash_fields.js",
+      "source_file": "scratch/verify_doordash_fields.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_workday_create_account",
+      "label": "workday_create_account.js",
+      "_origin": "ast",
+      "community": 142,
+      "community_name": "workday_create_account.js",
+      "file_type": "code",
+      "norm_label": "workday_create_account.js",
+      "source_file": "scratch/workday_create_account.js",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_cl_reference",
@@ -3752,7 +4287,7 @@
       "node_kind": "heading",
       "norm_label": "dates",
       "source_file": "job-kit-starter/.claude/agents/csv-logger.md",
-      "source_location": "L23"
+      "source_location": "L24"
     },
     {
       "id": "job_kit_starter_claude_agents_csv_logger_hard_rules",
@@ -3776,7 +4311,7 @@
       "node_kind": "heading",
       "norm_label": "operations you support",
       "source_file": "job-kit-starter/.claude/agents/csv-logger.md",
-      "source_location": "L18"
+      "source_location": "L19"
     },
     {
       "id": "job_kit_starter_claude_agents_csv_logger_output",
@@ -3788,7 +4323,7 @@
       "node_kind": "heading",
       "norm_label": "output",
       "source_file": "job-kit-starter/.claude/agents/csv-logger.md",
-      "source_location": "L26"
+      "source_location": "L27"
     },
     {
       "id": "job_kit_starter_hn_scan",
@@ -6810,6 +7345,17 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_generate_resume",
+      "label": "generate_resume.py",
+      "_origin": "ast",
+      "community": 93,
+      "community_name": "generate_resume.py",
+      "file_type": "code",
+      "norm_label": "generate_resume.py",
+      "source_file": "scratch/generate_resume.py",
+      "source_location": "L1"
+    },
+    {
       "id": "scratch_test_single_draft",
       "label": "test_single_draft.js",
       "_origin": "ast",
@@ -7743,7 +8289,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/agents/csv-logger.md",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -7754,7 +8300,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/agents/csv-logger.md",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -7765,7 +8311,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/agents/csv-logger.md",
-      "source_location": "L26",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -12224,6 +12770,17 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_apply_togetherai",
+      "target": "scratch_apply_togetherai_setval",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/apply_togetherai.js",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_fetch_jds",
       "target": "scratch_fetch_jds_fetch",
       "relation": "contains",
@@ -12235,6 +12792,17 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_fill_anyscale",
+      "target": "scratch_fill_anyscale_setinput",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_anyscale.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_fill_atomicads",
       "target": "scratch_fill_atomicads_setreactinput",
       "relation": "contains",
@@ -12243,6 +12811,17 @@
       "confidence_score": 1.0,
       "source_file": "scratch/fill_atomicads.js",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_doordash_education",
+      "target": "scratch_fill_doordash_education_selectoption",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_doordash_education.js",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -12301,6 +12880,28 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_fill_potpie",
+      "target": "scratch_fill_potpie_setval",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_potpie.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_resume",
+      "target": "scratch_generate_resume_build_resume",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_resume.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_playwright_client",
       "target": "scratch_playwright_client_playwrightclient",
       "relation": "contains",
@@ -12309,6 +12910,28 @@
       "confidence_score": 1.0,
       "source_file": "scratch/playwright_client.py",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_select_doordash_dropdowns",
+      "target": "scratch_select_doordash_dropdowns_selectoption",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/select_doordash_dropdowns.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_set_doordash_country_loc",
+      "target": "scratch_set_doordash_country_loc_selectoption",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/set_doordash_country_loc.js",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -12705,5 +13328,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "20230bca3b994501d9bc455a03da464480a72ab9"
+  "built_at_commit": "dbd04223b8890d6eddcbf075a1e76df4b7ccb681"
 }

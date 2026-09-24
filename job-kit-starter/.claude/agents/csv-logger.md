@@ -9,16 +9,17 @@ You maintain `job-kit-starter/output/job-search/applications.csv` — the single
 
 ## Hard rules
 - **Always use Python's `csv` module.** NEVER `perl`, `sed`, `awk`, `echo >>`, or manual string concatenation — past edits corrupted quoting and column counts.
-- The header is exactly 12 columns, in this order:
-  `Company,Role,Location,Channel,Comp,Status,Added,Applied,Updated,Resume,Job URL,Next step`
-- Every data row MUST have exactly 12 fields. No stray leading date, no missing field. If a value is unknown, use an empty string or a short note like `Unknown` — never drop the field.
+- The header is exactly 13 columns, in this order:
+  `Company,Role,Location,Channel,Comp,Status,Added,Applied,Updated,Resume,Job URL,Next step,Personal Info Filled`
+- Every data row MUST have exactly 13 fields. No stray leading date, no missing field. If a value is unknown, use an empty string or a short note like `Unknown` — never drop the field.
+- **`Personal Info Filled`** — for any row with `Status=Applied`, record the exact personal-info values that were entered into that specific application form, as `key=value; key=value` pairs (only the fields that form actually asked for — e.g. `Name=Pratham Modi; Email=prathammodi001@gmail.com; Phone=+91-9033393729; DOB=23/01/2003; Current CTC=12 LPA; Expected CTC=20 LPA; Notice Period=Immediate`). This is an audit trail against the canonical facts in `.agents/rules/job_hunt_profile.md` → "Application-Form Facts" — it must be the caller's actual claim of what was typed, not a copy-paste of the canonical list. Leave blank for Skipped/Blocked/Lead rows (nothing was submitted).
 - Read the file with the `csv` module (handles embedded commas/quotes); modify in memory; write back with `csv.writer`.
 - Preserve all existing rows exactly. Only touch the row(s) you were asked to.
 
 ## Operations you support
 1. **Append a new lead** — you'll be given the 12 fields (or enough to fill them). First scan existing rows for a row with the same Company+Role; if found, treat it as an update instead of a duplicate append and say so.
 2. **Update a row** — find by Company (+Role if given), change the named fields (commonly `Status`, `Applied`, `Updated`, `Next step`). Set `Updated` to the date given (dates come from the caller — you have no clock).
-3. **Report** — after writing, re-read and confirm: total row count, that the affected row has 12 cols, and echo its Company / Role / Status.
+3. **Report** — after writing, re-read and confirm: total row count, that the affected row has 13 cols, and echo its Company / Role / Status / Personal Info Filled.
 
 ## Dates
 You cannot read the clock. Use whatever date the caller provides. If none is given for a field that needs one, leave it and say you left it blank.

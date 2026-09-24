@@ -207,5 +207,6 @@ Update `applications.csv` (the per-lead **Next step** column carries current sta
 
 > **CRITICAL INVARIANT — CANONICAL CSV PATHS:** see the outer repo `CLAUDE.md` → "Single Source of Truth & Canonical CSV Paths" (the paths above are the only authorized ones; never create a secondary `output/` folder at the repo root).
 
-Columns: Company,Role,Location,Channel,Comp,Status,Added,Applied,Updated,Resume,Job URL,Next step.
+Columns: Company,Role,Location,Channel,Comp,Status,Added,Applied,Updated,Resume,Job URL,Next step,Personal Info Filled.
 Statuses: Lead / Applied / Skipped / Closed. Update on every state change.
+`Personal Info Filled` (Applied rows only): the exact personal-info values actually entered into that application's form (`key=value; key=value`), logged verbatim by the applying agent — this is an audit trail to catch hallucinated/incorrect personal data, not a restatement of the canonical facts in `.agents/rules/job_hunt_profile.md`.

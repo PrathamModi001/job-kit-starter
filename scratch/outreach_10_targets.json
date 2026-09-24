@@ -1,0 +1,122 @@
+[
+  {
+    "tier": "A",
+    "company": "LlamaIndex",
+    "founder": "Jerry Liu",
+    "email": "jerry@llamaindex.ai",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "Scaling low-latency RAG indexing and agentic runtimes for LlamaIndex",
+    "role_pitch": "AI Systems & RAG Infrastructure Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights Playpower Labs sub-200ms RAG over 10K+ docs, Mnemoniq 3-tier memory agent, and C3iHub event streaming",
+    "body": "Hi Jerry,\n\nHuge fan of LlamaIndex and how your data framework has become the foundational backbone for production RAG and agent architectures.\n\nWhy my background maps directly to LlamaIndex:\n- Low-Latency Vector & RAG Systems: At Playpower Labs, built RAG pipelines over 10K+ documents achieving sub-200ms retrieval latency at p95 using ChromaDB vector search and token chunking optimizations.\n- Multi-Agent Memory & Routing: Built Mnemoniq (https://github.com/PrathamModi001/Mnemoniq), a three-tier memory architecture (working, episodic, knowledge graph) for conversational AI orchestrated with LangGraph, cutting injected context tokens by 38% behind a FastAPI backend.\n- High-Throughput Production Infrastructure: At C3iHub (IIT Kanpur), architected distributed microservices serving 50K+ users at 10,000+ concurrent connections with 99.9% uptime.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to chat about scaling document ingestion and agent runtime performance at LlamaIndex!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "A",
+    "company": "Weaviate",
+    "founder": "Bob van Luijt",
+    "email": "bob@weaviate.io",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "Vector index throughput and high-concurrency microservices for Weaviate",
+    "role_pitch": "Backend & Vector Engine Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; highlights C3iHub 50K+ users at 10,000+ connections, 70% latency cut, and vector indexing",
+    "body": "Hi Bob,\n\nInspiring to see Weaviate lead the open-source vector search space with native hybrid search, multi-tenancy, and scalable vector indexing.\n\nWhere I can contribute:\n- High-Throughput Distributed Backends: At C3iHub (IIT Kanpur), architected core backend infrastructure serving 50K+ active users at 10,000+ concurrent connections with 99.9% uptime, cutting database p99 latency from 450ms to 135ms through horizontal sharding and caching.\n- Vector Retrieval & RAG: At Playpower Labs, built low-latency RAG retrieval pipelines over 10K+ documents achieving sub-200ms retrieval latency at p95.\n- Event-Driven Pipelines: Engineered notification streaming systems handling 75K+ daily events at 99.5% delivery reliability using Kafka, BullMQ, and Redis.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to connect on scaling high-concurrency indexing for Weaviate!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "A",
+    "company": "Temporal",
+    "founder": "Maxim Fateev",
+    "email": "maxim@temporal.io",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "Resilient distributed execution and queue pipelines for Temporal",
+    "role_pitch": "Distributed Systems & Workflow Infrastructure Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; references 75K+ daily Kafka events at 99.5% delivery, OpenTelemetry distributed tracing, DLQ fault tolerance",
+    "body": "Hi Maxim,\n\nTemporal has redefined how developers think about fault-tolerant workflows and durable distributed execution.\n\nWhy I can hit the ground running:\n- High-Reliability Event Pipelines: At C3iHub (IIT Kanpur), engineered event-driven pipelines handling 75K+ daily events at 99.5% delivery reliability using Kafka, BullMQ, and Redis Streams with consumer-side deduplication and dead-letter queues.\n- Observability & Distributed Tracing: Improved incident response time by 85% by instrumenting OpenTelemetry distributed tracing across 15+ microservices and defining latency SLOs.\n- Containerization & Platform Sandboxes: Built DeployMind (https://github.com/PrathamModi001/DeployMind), dynamically provisioning isolated container sandboxes with automated health checking and TLS termination.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to chat about durable execution and distributed workflow scale at Temporal!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729\nhttps://linkedin.com/in/prathammodii001"
+  },
+  {
+    "tier": "B",
+    "company": "Prefect",
+    "founder": "Jeremiah Lowin",
+    "email": "jeremiah@prefect.io",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "Asynchronous event pipelines and resilient orchestration for Prefect",
+    "role_pitch": "Python & Workflow Orchestration Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; references Python/FastAPI/asyncio, DeployMind container sandboxes, Kafka/Redis Streams",
+    "body": "Hi Jeremiah,\n\nLove how Prefect makes workflow orchestration pythonic, resilient, and effortless with dynamic task coordination.\n\nMy background directly aligns:\n- High-Concurrency Python & APIs: Built high-throughput microservices in Python (FastAPI, asyncio) and Node.js serving 50K+ users at C3iHub (IIT Kanpur) with 10,000+ concurrent connections.\n- Event-Driven Queues: Engineered event pipelines handling 75K+ daily events with Kafka, Redis Streams, and BullMQ with strict deduplication and DLQ retry logic.\n- Container Infrastructure: Developed DeployMind, automating container sandboxes and deployments via Docker daemon orchestration on AWS.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Open to a brief chat if this aligns with what you are scaling at Prefect!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729"
+  },
+  {
+    "tier": "B",
+    "company": "Mintlify",
+    "founder": "Han Wang",
+    "email": "han@mintlify.com",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "Developer tooling, automated CI/CD sandboxes, and indexing for Mintlify",
+    "role_pitch": "Developer Platform & AI Documentation Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; references DeployMind GitOps sandboxes, sub-200ms vector search, 40% CI/CD release speedup",
+    "body": "Hi Han,\n\nMintlify has elevated developer documentation into a world-class product experience that every top tech team relies on.\n\nHow I can contribute to Mintlify:\n- Developer Platforms & GitOps: Built DeployMind, an automated deployment engine containerizing applications via dynamic Docker daemon execution with automated canary rollouts.\n- Vector Search & Semantic Docs: At Playpower Labs, built RAG search over 10K+ technical documents achieving sub-200ms retrieval latency at p95.\n- Scalable Microservices: Architected core backend systems at C3iHub (IIT Kanpur) serving 50K+ users with 99.9% uptime.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to connect on developer tooling and search scale at Mintlify!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729"
+  },
+  {
+    "tier": "B",
+    "company": "Inkeep",
+    "founder": "Nick Greenfield",
+    "email": "nick@inkeep.com",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "Low-latency doc indexing and agentic search pipelines for Inkeep",
+    "role_pitch": "AI Systems & Agent Pipeline Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; references Playpower Labs sub-200ms RAG, 38% context reduction in Mnemoniq, C3iHub distributed systems",
+    "body": "Hi Nick,\n\nInkeep has set the standard for intelligent, high-accuracy developer search and AI support agents across modern tech docs.\n\nWhy my background fits:\n- Low-Latency Vector Search & RAG: At Playpower Labs, integrated ChromaDB vector retrieval over 10K+ documents with sub-200ms latency at p95.\n- Agentic Memory & Context Compression: Built Mnemoniq, a multi-tier memory AI agent (working, episodic, graph memory) cutting injected context tokens by 38% behind a FastAPI streaming backend.\n- High-Concurrency Backends: At C3iHub (IIT Kanpur), architected distributed backends handling 10,000+ concurrent connections and 75K+ daily events.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Open to a brief chat about scaling agent search pipelines at Inkeep!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729"
+  },
+  {
+    "tier": "B",
+    "company": "Deepgram",
+    "founder": "Scott Stephenson",
+    "email": "scott@deepgram.com",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "Real-time WebSocket streaming architectures and low latency for Deepgram",
+    "role_pitch": "Real-Time Streaming & WebSocket Systems Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; references 500+ WebSocket sessions with sub-100ms response, 10,000+ connections at C3iHub, Kafka streaming",
+    "body": "Hi Scott,\n\nDeepgram continues to lead the industry in lightning-fast speech-to-text, real-time audio streaming, and voice AI.\n\nMy streaming & backend background:\n- Low-Latency WebSockets: At Playpower Labs, developed real-time tutoring microservices supporting 500+ concurrent WebSocket sessions with sub-100ms response times.\n- Concurrency at Scale: At C3iHub (IIT Kanpur), architected real-time distributed backends serving 50K+ users at 10,000+ concurrent connections with 99.9% uptime using Socket.IO, Redis, and Express.js.\n- Streaming Event Pipelines: Processed 75K+ daily streaming events via Kafka and Redis Streams with guaranteed delivery.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to connect on high-throughput audio streaming architectures at Deepgram!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729"
+  },
+  {
+    "tier": "B",
+    "company": "AssemblyAI",
+    "founder": "Dylan Fox",
+    "email": "dylan@assemblyai.com",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "High-concurrency async APIs and event-driven ingestion for AssemblyAI",
+    "role_pitch": "High-Throughput Audio API & Inference Systems Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; references 50K+ users at C3iHub, 75K+ daily Kafka event pipelines, sub-200ms latency",
+    "body": "Hi Dylan,\n\nInspired by AssemblyAI building state-of-the-art speech intelligence and LeMUR models powering mission-critical audio pipelines globally.\n\nWhere my backend skills align:\n- High-Throughput APIs & Services: At C3iHub (IIT Kanpur), engineered core backend services serving 50K+ users across distributed microservices with 99.9% uptime and sub-150ms p99 response.\n- Asynchronous Event Processing: Built event-driven pipelines handling 75K+ events/day using Kafka, BullMQ, and Redis with consumer deduplication and DLQs.\n- Real-Time Streaming: Built WebSocket backends supporting 500+ concurrent real-time audio/data sessions at Playpower Labs.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Open to a quick chat if this matches engineering priorities at AssemblyAI!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729"
+  },
+  {
+    "tier": "B",
+    "company": "Dagster",
+    "founder": "Nick Schrock",
+    "email": "nick@dagster.io",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "Data asset pipelines and event-driven microservices for Dagster",
+    "role_pitch": "Data Platform & Orchestration Systems Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; references Kafka & Redis Streams intake engine, automated validation/DLQ, distributed tracing across 15+ services, 60% S3 optimization",
+    "body": "Hi Nick,\n\nDagster\u2019s software-defined assets and declarative orchestration have completely transformed how modern data platforms are designed.\n\nWhy I would love to build at Dagster:\n- Event-Driven Asset Ingestion: Developed an Autonomous Invoice Processing platform orchestrating multi-channel data ingestion using Kafka, Redis Streams, and PostgreSQL with automated schema validation and DLQ recovery.\n- Cloud & Storage Cost Optimization: Reduced S3 cloud storage expenses by 60% via lifecycle management and horizontal sharding, cutting p99 query latency from 450ms to 135ms.\n- Distributed Tracing & Observability: Deployed OpenTelemetry across 15+ microservices with Prometheus and Grafana alerting SLOs at C3iHub (IIT Kanpur).\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to discuss declarative data orchestration scale at Dagster!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729"
+  },
+  {
+    "tier": "B",
+    "company": "Anyscale",
+    "founder": "Robert Nishihara",
+    "email": "robert@anyscale.com",
+    "confidence": "Verified",
+    "source": "Founder Outreach",
+    "subject": "Distributed Python runtimes and high-throughput microservices for Anyscale",
+    "role_pitch": "Distributed Systems & AI Runtime Engineer",
+    "notes": "Attached Pratham_Modi_Base_Resume.pdf; references Python/FastAPI/asyncio, Docker sandboxes in DeployMind, OpenTelemetry telemetry & alerting SLOs",
+    "body": "Hi Robert,\n\nAnyscale and Ray have fundamentally changed distributed computing, enabling seamless scaling from a single laptop to massive AI clusters.\n\nHow my experience maps:\n- Python & Distributed Systems: Deep background in Python (FastAPI, asyncio) and distributed backends; engineered high-throughput services at C3iHub (IIT Kanpur) serving 50K+ users at 10,000+ concurrent connections.\n- Dynamic Container Sandboxes: Built DeployMind, containerizing user workloads dynamically via Docker daemon sandboxes with automated health probes and TLS routing.\n- Microservice Observability: Instrumented OpenTelemetry distributed tracing across 15+ microservices, cutting incident MTTR by 85%.\n\nAttached is my 1-page base resume and GitHub (https://github.com/PrathamModi001). Would love to chat about scaling distributed AI execution at Anyscale!\n\nBest regards,\nPratham Modi\nprathammodi001@gmail.com | +91-9033393729"
+  }
+]
