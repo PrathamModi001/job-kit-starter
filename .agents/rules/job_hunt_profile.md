@@ -24,6 +24,7 @@ Canonical source: `job-kit-starter/CLAUDE.md` → "Candidate bar" (under "Job-Se
 - **Notice Period:** Immediate
 - **DOB:** 23/01/2003 | **Gender:** Male
 - **LinkedIn:** https://www.linkedin.com/in/prathammodii001/ | **GitHub:** https://github.com/PrathamModi001
+- **Website:** https://prathammodi001.github.io/prathammodi/ | **X/Twitter:** https://x.com/PrathamModii
 
 ---
 

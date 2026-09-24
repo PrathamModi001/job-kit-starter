@@ -13,7 +13,8 @@
 - **Location:** Koramangala, Bengaluru, India
 - **LinkedIn:** https://www.linkedin.com/in/prathammodii001/
 - **GitHub:** https://github.com/PrathamModi001
-- **Website:** none
+- **Website:** https://prathammodi001.github.io/prathammodi/
+- **X/Twitter:** https://x.com/PrathamModii
 - **Google Scholar:** none
 - **ORCID:** none
 
