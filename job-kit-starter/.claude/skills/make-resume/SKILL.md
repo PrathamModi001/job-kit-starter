@@ -60,6 +60,11 @@ Read, and nothing else:
 3. `resume_builder/support/achievement_reframing_guide.md` — Lane Selection Decision Tree, Bullet Generation Policy, SWE Resume Budget
 4. The matching `resume_builder/bundles/bundle_<lane>.md` (pick lane per the Decision Tree; for hybrid JDs, default to Backend, borrowing at most 1-2 HIGH bullets from a secondary lane per the Decision Tree's rule)
 5. All 3 experience files: `resume_builder/experience/experience_c3ihub.md`, `experience_playpower.md`, `experience_projects.md`
+6. `SKILL_PROFILE.md` — grounds Step 1's Gap tag ("genuinely absent from
+   `SKILL_PROFILE.md`") and Step 3 lever 3's "every genuinely-possessed,
+   JD-relevant skill" enumeration in an actual file, not model recall
+7. `resume_builder/support/skills_taxonomy.md` — the source the resume
+   template's Skills section is built from
 
 Create output folder: `JDs/JD_Acme.txt` → `output/Acme/` (`mkdir -p output/<FolderName>/`).
 
@@ -78,7 +83,7 @@ Present as a compact table (not a full requirements doc):
 |---|---|---|
 | [term] | Direct/Bridge/Gap | [C1 / PP4 / "listed skill" / "none"] |
 
-This table drives Step 2 (bullet selection) and Step 5 (ATS gate) — keep it,
+This table drives Step 2 (bullet selection) and Step 6 (ATS gate) — keep it,
 don't discard it after this step.
 
 ---
@@ -100,7 +105,10 @@ summary.
 
 Apply these five levers, all truthful:
 1. **Verbatim JD phrasing** — for genuinely-possessed skills, use the JD's
-   own wording instead of a personal synonym.
+   own wording instead of a personal synonym. This applies only to bullet
+   phrasing and skills-line wording — the Tagline and Summary stay
+   copy-exact from the bundle (see below) and are not touched by this
+   lever.
 2. **Reorder by relevance** — the most JD-relevant bullet leads its position.
 3. **Dense real coverage** — every genuinely-possessed, JD-relevant skill in
    `SKILL_PROFILE.md` surfaces somewhere (skills line, bullet, or summary),
@@ -137,8 +145,18 @@ If FAIL on either gate: fix variable content, recompile, re-run both gates.
 ```bash
 python3 resume_builder/helpers/fingerprint_check.py output/<FolderName>/e2e_<name>_resume.tex
 ```
-Exit code 0 = pass. Exit code 1 = violations printed — fix the flagged
-bullet(s) and re-run Step 4 and this gate.
+Exit code 0 = pass. Exit code 1 = violations printed. The remedy for a
+flagged bullet is **swap, never rewrite**: pick a different copy-exact
+bullet for that slot from the same lane's bundle Priority Matrix (Step 2)
+that doesn't trip the check, then re-run Step 4 and this gate. Do NOT trim
+or rewrite the flagged bullet's tool-token/trailing content to dodge the
+gate — that violates the copy-exact rule (e.g. `experience_c3ihub.md`'s
+canonical C2 bullet ends "...and Redis caching," which trips the "-ing"
+check every time it's used; "Redis caching" is a real tool token and may
+not be trimmed or reworded to pass). If no truthful alternate bullet is
+available for that slot, this is a known, accepted limitation — treat the
+gate as advisory for that specific bullet only, and say so explicitly in
+the Step 8 report (never silently ignore the violation).
 
 ---
 

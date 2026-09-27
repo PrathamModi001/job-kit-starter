@@ -52,6 +52,29 @@ def test_ing_ending_flagged_on_realistic_bullet():
     assert flagged == [(1, bullets[0])], flagged
 
 
+def test_em_dash_ignores_latex_comment_dividers():
+    # Template comment-rule dividers like "% ------..." contain many
+    # literal "---" runs but are not resume content — must not trip the
+    # em-dash gate (matches the project workflow of copying the raw .tex
+    # template, comments included, into output/<Company> - <Role>/).
+    tex = (
+        "% ------------------------------------------------------------\n"
+        "% SECTION: Experience\n"
+        "% ------------------------------------------------------------\n"
+        r"\item Sentence one -- fine. \item Two -- also fine."
+        "\n% ------------------------------------------------------------\n"
+    )
+    assert fc.check_em_dash_count(tex) == 0, fc.check_em_dash_count(tex)
+
+
+def test_em_dash_still_counts_real_content_after_stripping_comments():
+    tex = (
+        "% ------------------------------------------------------------\n"
+        r"\item Sentence one --- with an em-dash. \item Two --- more --- here."
+    )
+    assert fc.check_em_dash_count(tex) == 3, fc.check_em_dash_count(tex)
+
+
 def test_consecutive_same_verb():
     bullets = ["Built the API gateway", "Built the auth service", "Deployed the pipeline"]
     flagged = fc.check_consecutive_same_verb(bullets)

@@ -33,9 +33,18 @@ def check_banned_words(rendered_text):
     return [phrase for phrase in BANNED_PHRASES if phrase in lower]
 
 
+def strip_latex_comment_lines(text):
+    """Drop lines that are pure LaTeX comments (first non-whitespace char
+    is '%'), e.g. the template's '% ------...' divider rules. These are
+    not resume content and must not feed the em-dash count."""
+    return '\n'.join(
+        line for line in text.splitlines() if not line.lstrip().startswith('%')
+    )
+
+
 def check_em_dash_count(raw_tex_text):
     """Return the em-dash count if it exceeds the limit, else 0."""
-    count = count_em_dashes(raw_tex_text)
+    count = count_em_dashes(strip_latex_comment_lines(raw_tex_text))
     return count if count > EM_DASH_LIMIT else 0
 
 
