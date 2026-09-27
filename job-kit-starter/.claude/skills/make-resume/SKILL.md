@@ -1,5 +1,5 @@
 ---
-description: Generate a tailored resume/CV from a JD
+description: Generate a tailored, ATS-optimized resume from a JD (Batch Mode — the sole tailoring path)
 user-invocable: true
 ---
 
@@ -10,9 +10,17 @@ user-invocable: true
 Parse `$ARGUMENTS`:
 - File path (e.g., `JDs/*.txt`) → read that file for the JD
 - Text after the path starting with "Focus:"/"Emphasize:"/"Downplay:" → focus directive
-- "Quick:" prefix → Quick Mode (see below)
 - Empty → ask the user for the JD
 - Inline JD text (no file path) → save to `JDs/temp_<company>.txt`, proceed normally
+- `Batch:` prefix is accepted but has no effect — this skill has one mode only. It's kept as a no-op so existing callers (e.g. `daily_scan.md`) that pass it don't need special-casing.
+
+This is **Batch Mode** — the only mode. It's built for the autonomous daily
+loop: no mandatory web search, no mid-run human confirmation, optimized for
+truthful, extreme per-JD ATS keyword coverage over human-narrative polish.
+For a deep-research pass on one high-value application (company-culture
+research, 5-persona critique, mandatory confirmation gates), use
+`resume_builder/legacy/make-resume-full-quick.md` explicitly — it is never
+auto-selected.
 
 ---
 
@@ -27,9 +35,11 @@ Read `config.md` Provenance Flags before generating any content. Verify every cl
 - Bullets are COPY-EXACT from `resume_builder/experience/` files, selected via the matching
   `resume_builder/bundles/bundle_<lane>.md` Priority Matrix — see
   `resume_builder/support/achievement_reframing_guide.md` Bullet Generation Policy.
-  Do NOT write bullet prose from scratch. Never fabricate.
-- Template: `resume_builder/templates/swe_resume_template.tex` ONLY — do not use `resume_template.tex`/`resume.cls`/`cv_template.tex`/`cv.cls` (unused academic-CV scaffolding, see `config.md` Document Preferences).
-- Run `python3 resume_builder/helpers/char_count.py` after each section — the tool is authoritative
+  Do NOT write bullet prose from scratch. Never fabricate what the candidate did.
+- Skills-section entries may include real, listed-but-not-yet-demonstrated skills (see
+  `achievement_reframing_guide.md` Known Gaps) — truthful knowledge, not project-ownership claims.
+- Template: `resume_builder/templates/swe_resume_template.tex` ONLY.
+- Run `python3 resume_builder/helpers/char_count.py` after each section — the tool is authoritative.
 
 ---
 
@@ -38,206 +48,145 @@ Read `config.md` Provenance Flags before generating any content. Verify every cl
 If the user provides feedback, corrections, or suggestions at any point:
 1. Acknowledge the input immediately
 2. If it affects an already-written section: go back, fix it, re-run char count gate
-3. If it changes the bullet plan: update session file Bullet Plan
-4. If it's a question: answer it, then continue from current step
-5. Never restart a phase — resume from current position
+3. Never restart from scratch — resume from current position
 
 ---
 
-## Startup
+## Step 0: Load context (no web search, no session file)
 
-Read `resume_builder/reference/shared_ops.md` for session startup, file derivation, and organization protocols.
-
-Then:
-1. Read `CLAUDE.md` — check Active Sessions and KB Corrections
-2. Read `config.md` — load Provenance Flags, email, document preferences, role types
-3. If session file exists for this JD:
-   - Read session file, check Status
-   - Phase 0: DONE, Phase 1: PENDING → resume at Phase 1
-   - Phase 1: DONE → resume at Budget Gate
-   - Phase 2: IN_PROGRESS → read .tex, check what sections exist, resume from checkpoint
-   - Phase 2: DONE → "Resume already done. Run /make-cl next." Show next command. Stop.
-4. If no session file: proceed to Phase 0
-
----
-
-## Quick Mode
-
-Trigger: `$ARGUMENTS` starts with "Quick:"
-
-Defaults:
-- Select all HIGH priority achievements from bundle's Priority Matrix as 2L
-- Fill remaining budget with MEDIUM priority in Priority Matrix order
-- Default format: 2-page resume (unless JD clearly requires CV)
-- Skip Phase 0 STOP and Phase 1 STOP
-- Keep Budget Gate (auto-pass if within target) and end-of-resume STOP
-- Run all phases with progress commentary instead of interactive stops
-
----
-
-## Phase 0: Research & Session Setup
-
-**Read these files:**
+Read, and nothing else:
 1. The JD (from `$ARGUMENTS`)
-2. `resume_builder/support/achievement_reframing_guide.md` — SWE Resume Budget (use this, NOT resume_reference.md's Quick Budget Card, which is calibrated for a different template)
-3. `config.md` — Role-Type Decision Tree to identify the matching bundle
+2. `config.md` — Provenance Flags, email, Role-Type Decision Tree
+3. `resume_builder/support/achievement_reframing_guide.md` — Lane Selection Decision Tree, Bullet Generation Policy, SWE Resume Budget
+4. The matching `resume_builder/bundles/bundle_<lane>.md` (pick lane per the Decision Tree; for hybrid JDs, default to Backend, borrowing at most 1-2 HIGH bullets from a secondary lane per the Decision Tree's rule)
+5. All 3 experience files: `resume_builder/experience/experience_c3ihub.md`, `experience_playpower.md`, `experience_projects.md`
 
-**Web Search (MANDATORY — 2-3 searches).** Load WebSearch via ToolSearch first.
-1. `[Company] research & development [key JD domain]` — products, recent projects
-2. `[Company] [specific technology from JD]` — concrete hooks for cover letter
-3. `[Company] careers [role type] culture` OR recent news — hiring context
+Create output folder: `JDs/JD_Acme.txt` → `output/Acme/` (`mkdir -p output/<FolderName>/`).
 
-If web search returns no results: use JD text + training knowledge. Flag: "Web search returned limited results — CL hooks may be generic."
+---
 
-**Produce all of these (reference `resume_builder/reference/session_file_template.md` for format):**
-- **JD Analysis** — classify every requirement as Direct / Bridge (with confidence) / Gap. Extract ATS keywords by category.
-- **Company Context** — mission, role purpose, culture signals, "why them" angle (from web research)
-- **Framing Strategy** — lead narrative, reframing map, emphasize/downplay, CL hooks, user focus directives
-- **Critique Context** — reviewer persona, competitive landscape, domain vocabulary
-- **Cover Letter Plan** — institution type, paragraph structure, hooks, jargon level
+## Step 1: JD keyword table
 
-**Create output folder:**
-Derive folder name from JD filename: `JDs/JD_Acme.txt` → `output/Acme/`
+Extract the top 15-20 ATS terms from the JD (tools, frameworks, methodologies,
+domain nouns). Tag each **Direct** (already in the experience files/skills
+taxonomy) / **Bridge** (a real skill used in a different original context) /
+**Gap** (genuinely absent from `SKILL_PROFILE.md`).
+
+Present as a compact table (not a full requirements doc):
+
+| JD Term | Tag | Source (bullet ID or skills-taxonomy entry) |
+|---|---|---|
+| [term] | Direct/Bridge/Gap | [C1 / PP4 / "listed skill" / "none"] |
+
+This table drives Step 2 (bullet selection) and Step 5 (ATS gate) — keep it,
+don't discard it after this step.
+
+---
+
+## Step 2: Lane + bullet selection
+
+Pick bullets per the bundle's Priority Matrix, weighted toward IDs tagged
+Direct/Bridge in Step 1's table. Bullet text is copy-exact from the
+experience file — the only edits allowed are trimming a trailing clause to
+fit the char budget (never touch a number, tool name, or verb).
+
+Budget (from `achievement_reframing_guide.md` SWE Resume Budget): 4 bullets
+Position 1, 3-4 bullets Position 2, 2 projects, 5 skills lines, 3-4 line
+summary.
+
+---
+
+## Step 3: Generate Summary / Skills / bullets
+
+Apply these five levers, all truthful:
+1. **Verbatim JD phrasing** — for genuinely-possessed skills, use the JD's
+   own wording instead of a personal synonym.
+2. **Reorder by relevance** — the most JD-relevant bullet leads its position.
+3. **Dense real coverage** — every genuinely-possessed, JD-relevant skill in
+   `SKILL_PROFILE.md` surfaces somewhere (skills line, bullet, or summary),
+   not silently dropped for brevity.
+4. **Truthful bridging** — a real skill used in a different original context
+   gets reframed into the JD's language (still the same real capability).
+5. **Honest gap acceptance** — a truly-missing hard skill lowers the match
+   rate for this JD. Never invent it to close the gap.
+
+Tagline and Summary: copy-exact from the bundle, minor trims only. Tool
+tokens in the tagline must come from the bundle's Approved Pool.
+
+Save `.tex` to `output/<FolderName>/e2e_<name>_resume.tex`.
+
+---
+
+## Step 4: Char-count and compile gates
+
 ```bash
-mkdir -p output/<FolderName>/
+python3 resume_builder/helpers/char_count.py -f resume output/<FolderName>/e2e_<name>_resume.tex
 ```
-Write session file to `output/<FolderName>/session_<name>.md` (NOT flat `output/`).
-All subsequent output files go in this folder.
+No OVER violations. Last line of 2L bullets >= 70% fill. Fix before compiling.
 
-**Verify completeness:** Re-read the session file. Confirm these 8 sections are non-empty: JD Info, Requirements table, ATS Keywords, Gap Assessment, Company Context, Framing Strategy, Critique Context, Cover Letter Plan. Fill any missing section before presenting.
-
-**Write memory pointer** to `CLAUDE.md` Active Sessions.
-
-**Update session file Status:** `Phase 0: DONE`
-
-Progress: "Searching for [company] + [domain]..." / "JD analysis: X/Y requirements direct match, Z bridges, W gaps"
-
-### >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<
-Present: research summary, role type + bundle, format, framing strategy.
-Ask user to confirm: (1) role type + bundle, (2) format, (3) framing strategy.
-**You MUST wait for the user's explicit text response before continuing.**
-Proceeding without confirmation misaligns the entire resume and requires full regeneration.
-
----
-
-## Phase 1: Plan Bullets
-
-**Re-read `output/<FolderName>/session_<name>.md`** — specifically Framing Strategy and ATS Keywords.
-
-**Read:**
-1. The matching bundle from `config.md` Role Types → Bundle Mapping table (e.g. `resume_builder/bundles/bundle_backend.md`) — Section 3 (Experience Priority Matrix)
-   - For hybrid JDs: read both bundles per the Lane Selection Decision Tree in `achievement_reframing_guide.md`. Use primary lane's Priority Matrix; borrow at most 1-2 bullets from the secondary lane's HIGH tier if they don't violate the primary lane's caps (e.g. the 1-AI-bullet cap).
-2. All 3 experience files: `resume_builder/experience/experience_c3ihub.md`, `experience_playpower.md`, `experience_projects.md`
-3. `resume_builder/support/achievement_reframing_guide.md` — Bullet Generation Policy (governs what edits are/aren't allowed)
-4. `resume_builder/support/skills_taxonomy.md`
-
-There is no `pub_metadata.md` and no publications section in this project's template — do not look for one.
-
-**Present one table per position:**
-
-**[Position Name] (Budget: N-M bullets, ~X-Y rendered lines)**
-
-| | ID | Achievement | Variant | Lines | JD Match |
-|---|---|-------------|---------|-------|----------|
-| * | P1-1 | [short description] | 2L | 2 | Direct |
-| * | P1-5 | [short description] | 2L | 2 | Direct |
-| o | P1-3 | [short description] | 2L | 2 | Bridge |
-| x | P1-7 | [short description] | -- | -- | Weak |
-
-**Legend:** `*` = recommended (HIGH on Priority Matrix + Direct JD match) | `o` = available (MEDIUM priority or Bridge match) | `x` = not recommended (LOW priority or Gap)
-
-**After all positions, show:**
-- Recommended set total vs budget (from SWE Resume Budget in `achievement_reframing_guide.md`)
-- Remaining budget slots and what could fill them
-- Forced exclusions per provenance flags
-- Focus directive impact (what changed vs Priority Matrix defaults)
-- CV: confirm first bullet of first experience is 2L (page 1 rule)
-
-**Update session file** — write Bullet Plan tables. Status: `Phase 1: DONE (N bullets confirmed)`
-
-Progress: "Reading experience files for bullet candidates..." / "Recommending N bullets per position"
-
-### >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<
-Present bullet plan. Wait for user to confirm/modify selections.
-**You MUST wait for the user's explicit text response before continuing.**
-If you proceed without confirmation, you will generate bullets the user didn't approve.
-**Update session file with confirmed plan before continuing.**
-
----
-
-## Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2)
-
-**Re-read session file Bullet Plan section** to verify confirmed counts.
-
-- Check budget targets from `resume_builder/support/achievement_reframing_guide.md` SWE Resume Budget.
-- Show: `Budget: [N] bullets vs target [T]. PASS/FAIL`
-- **FAIL = do not proceed. Reconcile with user first.**
-
----
-
-## Phase 2: Generate
-
-**Re-read to restore context after compaction:**
-1. `output/<FolderName>/session_<name>.md` (framing + confirmed bullet plan)
-2. `resume_builder/reference/critical_rules.md` — Character Limits, Bold Width Penalty, Orphan rules (limits still apply; ignore any CV/publication-specific specs in that file — not used here)
-3. `resume_builder/support/ai_fingerprint_rules.md` — Banned words, structural rules, post-gen checklist
-
-**Read template:** `resume_builder/templates/swe_resume_template.tex` (the ONLY template for this project — see `config.md` Document Preferences).
-FIXED sections (from `config.md` Role Types → Bundle Mapping, "FIXED sections" note) are template-locked — only generate VARIABLE sections (Tagline, Summary, Skills, Experience bullet selection/order, Project selection).
-
-**Read section specs:** `resume_builder/reference/resume_reference.md` — Character Limits and Page Fill Budgets only. Ignore Publications, CV, and resume.cls/Format-C-specific sections — not applicable to `swe_resume_template.tex`.
-
-**Generate section by section** (follow Section-by-Section Specs):
-1. Summary → check against session framing strategy
-   - Update Status → `Phase 2: Summary DONE`
-2. Technical Skills
-   - Update Status → `Phase 2: Skills DONE`
-3. Each position's bullets → **CHAR COUNT GATE after each position**
-   - Position headers (company/title/dates) are FIXED — copy verbatim from `experience_c3ihub.md` / `experience_playpower.md`, no per-JD theme customization (this project does not use the FLIPPED bold-theme format from `resume_reference.md` — that's specific to `resume.cls`, not `swe_resume_template.tex`).
-   - After each position: Update Status → `Phase 2: [Position] DONE`
-4. **PAGE FILL GATE after all experience**
-
-Save .tex to `output/<FolderName>/e2e_<name>_resume.tex` or `_cv.tex`
-
-**Update session file** — add Output Files.
-
-Progress: "Writing Position 1 bullets (6 of 7)..." / "Bullet 4 is SHORT at 184 chars — padding" / "Compiling resume... 2 pages OK"
-
-### CHAR COUNT GATE (per position)
-```bash
-python3 resume_builder/helpers/char_count.py -f [resume|cv] output/<FolderName>/[file].tex
-```
-No OVER violations. Last line of 2L bullets >= 70% fill. **Fix before next position.**
-
-### PAGE FILL GATE
-Resume: <= 3 lines white space on last page. CV: check rendered line target from resume_reference.md. **If FAIL: add/trim variable bullets.**
-
-### COMPILE GATE
 ```bash
 tectonic -c minimal output/<FolderName>/e2e_<name>_resume.tex
 python3 -c "import pypdf; print(len(pypdf.PdfReader('output/<FolderName>/e2e_<name>_resume.pdf').pages))"  # must print 1
 ```
-Verify page count = 1 (per `config.md` Document Preferences). Use the Read tool to view compiled PDF — check orphans, header wrapping, page fill. **If FAIL: fix variable content, recompile.**
-
-Run the Post-Generation Verification checklist from `resume_builder/reference/resume_reference.md` before proceeding.
-
-Update Status → `Phase 2: Compile DONE`
+If FAIL on either gate: fix variable content, recompile, re-run both gates.
 
 ---
 
-## End of /make-resume
+## Step 5: Fingerprint gate (script, not LLM read)
 
-Update session file Status:
-- `Resume: DONE`
-- `Cover Letter: PENDING`
-- `Critique: PENDING`
-- `Next: /make-cl output/<FolderName>/session_<name>.md`
-- `Next Critique: /critique output/<FolderName>/session_<name>.md`
+```bash
+python3 resume_builder/helpers/fingerprint_check.py output/<FolderName>/e2e_<name>_resume.tex
+```
+Exit code 0 = pass. Exit code 1 = violations printed — fix the flagged
+bullet(s) and re-run Step 4 and this gate.
 
-### >>>>>> MANDATORY STOP <<<<<<
-Present: resume compilation summary (pages, char count results, any violations fixed).
-**You MUST wait for the user's explicit text response before continuing.**
+---
 
-"Resume compiled and verified. Next steps:
-1. /clear
-2. [exact /make-cl command with session file path]"
+## Step 6: ATS coverage gate (hard gate)
+
+Compare Step 1's keyword list against the final resume text (verbatim or
+clear semantic match). Compute match % = (keywords present) / (keywords
+extracted).
+
+- **Target: >= 75%.**
+- If under target: check whether an available-but-unused truthful
+  bullet/skill (from Step 0's full experience files, not just what Step 2
+  picked) would close the gap. If so, swap it in, re-run Steps 4-5, recheck.
+- If still under target: accept and report the real number — this is a
+  legitimate "borderline fit" signal, not a failure to hide. Never invent a
+  skill or claim to hit the number.
+
+---
+
+## Step 7: Condensed critique (~10 lines)
+
+One pass, no personas, no scoring dimensions, no web research:
+- Would a human reviewer flag anything obviously wrong (typo, inconsistent
+  date, a bullet that reads oddly out of context)?
+- Restate the Step 6 ATS match %.
+
+If the user wants the full 5-persona/8-dimension critique for this specific
+resume, they can run `/critique` separately — `critique_framework.md` is
+unchanged and still available on request.
+
+---
+
+## Step 8: Save output and report
+
+Write `output/<FolderName>/batch_notes.md`:
+```markdown
+# Batch notes: [Company] [Role]
+
+## JD Keyword Table
+[Step 1 table]
+
+## ATS Match Rate
+[Step 6 result]: X/Y = Z%
+
+## Condensed Critique
+[Step 7 output]
+```
+
+Report to the user/caller: resume path, ATS match %, any fingerprint fixes
+applied, and the one-line critique verdict. No mid-run STOP — proceed
+directly to whatever invoked this skill (e.g., `daily_scan.md`'s next step).
