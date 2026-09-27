@@ -26,15 +26,15 @@ Set up strong profiles on the user's regional platforms (in India: Naukri, Insta
 
 ## Phase 2 — Daily scan (say "do the daily scan")
 
-All sources are capped to postings from the **last 7 days** (see CLAUDE.md "Recency filter") — older leads never reach the digest, so there's no need to manually date-check results.
+Recency window: see CLAUDE.md "Recency filter" (canonical — do not restate/edit a copy here). Summary for orientation only: the scripted tools (`job_hunt.py`, `job_hunt_india.py`) have no posting-age cap by default; `hn_scan.py` always reads only the latest monthly thread; the Naukri browser feed uses `jobAge=7` (last 7 days).
 
 Sources, in order:
 1. `python3 hn_scan.py` — HN Who is Hiring (seen-index; CSV-deduped; always the latest thread).
-2. `python3 job_hunt.py` — ~90 ATS boards, last 7 days (`--days N` to widen). Edit the company list in the script to the user's targets.
-3. `python3 job_hunt_india.py` — JobSpy over Indeed India only (this script doesn't scrape LinkedIn — LinkedIn leads come from the browser feed below), last 7 days (`hours_old`, arg 1). Edit queries/location for the user.
+2. `python3 job_hunt.py` — ~90 ATS boards + YC (`--days N` to narrow to N days; unbounded by default). Edit the company list in the script to the user's targets.
+3. `python3 job_hunt_india.py` — JobSpy over Indeed India only (this script doesn't scrape LinkedIn — LinkedIn leads come from the browser feed below), unbounded by default (`hours_old`, arg 1, to narrow). Edit queries/location for the user.
 4. Browser feeds via Playwright:
    - Match-feed platforms (e.g., Instahyre `candidate/opportunities/?matching=true`, LinkedIn jobs search): scroll-collect all cards, diff vs. previously seen + CSV.
-   - Naukri-style search with `jobAge=1` (last 24h) for "backend engineer" / "[lane] engineer" in the user's city.
+   - Naukri-style search with `jobAge=7` (last 7 days) for "backend engineer" / "[lane] engineer" in the user's city.
    - Cutshort-style matches page (`/profile/all-jobs?matchesfor=<id>` — the ID is in the user's profile URL).
 5. Triage EVERYTHING against the Candidate bar. Present a short table: lead / source / why. Skip-noise honestly (services firms, below-floor bands, wrong level, region-locked, frontend-only roles — frontend as part of full-stack is fine). Log genuinely good leads to the CSV via csv-logger (Status=Lead), then refresh the tracker.
 

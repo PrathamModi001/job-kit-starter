@@ -26,8 +26,7 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
 3. **Check Portal Feeds** — only the sources listed in `job_hunt_profile.md` → "Approved Sources" (skip any also matching `EXCLUDED_PLATFORMS`):
    - If Playwright browser/extension is active, inspect new matches from the past week on Instahyre (`/candidate/opportunities/?matching=true`), Cutshort (`/profile/all-jobs`), Naukri (`jobAge=7` for last 7 days backend/full-stack roles in Bengaluru/remote), jobfound.org, Wellfound, and LinkedIn jobs search (Bengaluru/remote, backend/full-stack, past week).
    - **LinkedIn is an approved source (exclusion lifted 2026-09-20)** — browse/scan/apply normally, Easy Apply counted in its own separate uncapped lane like Indeed Smart Apply (see param note above).
-   - **Authentication Rule:** Never logout accidentally. If sign-in issues occur on any portal, Google sign-in into `prathammodi001@gmail.com` by clicking the Google OAuth button with the cursor (do NOT sign in via email). Use Playwright.
-   - **Jobfound Exception:** Do NOT log in on `jobfound.org` (no login needed).
+   - **Authentication:** canonical source is `job-kit-starter/CLAUDE.md` → "Authentication, Session Persistence & Auto-Re-login" (Google OAuth cursor-click re-login; jobfound.org exception) — follow it in full, do not rely on a stale summary here.
 
 4. **Rank & Shortlist**:
    - Triage every new lead strictly against the Candidate Bar in `job_hunt_profile.md`.
