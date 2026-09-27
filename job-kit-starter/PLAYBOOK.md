@@ -135,7 +135,7 @@ Two tiers, run together daily. Both are drafts-only (see outbound policy at the 
 ### Tier A — bespoke, 3-5/day
 1. **Research** with parallel subagents across angles: recent YC batches, regional funding news (last ~12 months, seed/Series A in the user's lane), accelerator cohorts, viral launches/build-in-public founders. Each returns structured JSON: company / what / why-fit / founders / guessed email / source.
 2. **Verify emails** before sending (email-prospecting connector if available) — fix guesses, drop dead ones.
-3. Per company: the base resume (**exact path: `output/Pratham_Modi_Base_Resume.pdf` — always this file, never a per-company tailored variant for outreach**) + a SHORT honest email (openable hook referencing THEIR product, 3-4 lines of the user's most relevant receipts, link, minimal signature). No AI-sounding fluff. `Tier=A`, `Source=<how found>`.
+3. Per company: the base resume (**exact path: `output/Pratham_Modi_Base_Resume.pdf` — always this file, never a per-company tailored variant for outreach**) + a SHORT honest email (openable hook referencing THEIR product, 3-4 lines of the user's most relevant receipts, link, minimal signature). **Read `resume_builder/support/ai_fingerprint_rules.md` before writing — the banned-word list and structural rules apply to cold emails, not just resumes.** "Bespoke" means the shape of the email varies per company too, not just the noun — an identical opener→bullets→closer skeleton across a batch is still templated even with different facts slotted in. `Tier=A`, `Source=<how found>`.
 
 ### Tier B — templated-with-slots, 20-30/day (volume lane)
 Full template, subject-line rotation, pre-approved metric pool, and deliverability rules: `output/job-search/outreach/tier_b_template.md`. Summary: fixed skeleton, but `{HOOK}` (one sentence tied to something real about them) and 2 metrics picked from a pre-approved pool always vary per company — no two bodies in a batch are byte-identical, since identical bodies at volume get spam-clustered on a personal Gmail account.
@@ -147,7 +147,8 @@ Full template, subject-line rotation, pre-approved metric pool, and deliverabili
    - **Use the Gmail connector's `create_draft`** (base64-encode the PDF into `attachments`) — this is the only method here that can carry an attachment.
    - The old **Gmail URL Draft Pattern** (`https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=<email>&su=<subject>&body=<body>`) cannot attach a file — it's fine as a fallback for the body/subject only if `create_draft` is unavailable, but the resume must still get attached manually before the draft counts as done.
    - Track in `job-kit-starter/output/job-search/outreach/startups_outreach.csv` with Status + dates + Source + Tier.
-5. Follow-up pass ~4 days later: check for replies first, bump politely (drafts again), never re-pitch.
+5. **Pre-send mechanical gate (both tiers, run before marking any draft done or logging the CSV row):** the full checklist is `.agents/rules/regression_checklist.md` → "Cold outreach" section — do not skip it, and do not just eyeball the body text. It includes calling `get_draft` back on the draft you just created to confirm the attachment is actually present (a successful `create_draft` call is not proof the file attached), a banned-word grep, and a structural-diversity check against the last few emails in the batch. Add any new recurring issue to that file, not just to this one.
+6. Follow-up pass ~4 days later: check for replies first, bump politely (drafts again), never re-pitch.
 
 ## Phase 5 — X/Twitter cold DMs
 

@@ -13,7 +13,7 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
 
 **LinkedIn — exclusion lifted (2026-09-20), treated like Indeed Smart Apply:** LinkedIn is now an approved source for browsing/scanning and applying. LinkedIn Easy Apply is a one-click flow like Smart Apply — same separate, uncapped lane, does not count against `NUM_JOBS`, but every LinkedIn lead (Easy Apply or native) still must clear the Candidate Bar and the mechanical exclusion check in step 5 before applying.
 
-**Before step 1:** read `job-kit-starter/CLAUDE.md` and `job-kit-starter/PLAYBOOK.md` in full, and `.agents/rules/job_hunt_profile.md` for the candidate bar, form facts, and submission/outreach rules. CLAUDE.md and PLAYBOOK.md hold the complete resume-tailoring pipeline (`resume_builder/`), the per-ATS form-fill recipes, and the anti-fabrication rules this workflow depends on — do not skip them.
+**Before step 1:** read `job-kit-starter/CLAUDE.md` and `job-kit-starter/PLAYBOOK.md` in full, `.agents/rules/job_hunt_profile.md` for the candidate bar, form facts, and submission/outreach rules, and **`.agents/rules/regression_checklist.md`** — every mechanical check in it is mandatory, not advisory, and applies regardless of which lane/tier you're in. CLAUDE.md and PLAYBOOK.md hold the complete resume-tailoring pipeline (`resume_builder/`), the per-ATS form-fill recipes, and the anti-fabrication rules this workflow depends on — do not skip them.
 
 1. **Deduplication Check**:
    - Check `job-kit-starter/output/job-search/applications.csv` for companies already applied to or closed.
@@ -42,13 +42,14 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    c. Fill the ATS form using the platform-specific recipe in PLAYBOOK.md → "ATS recipes" (Workday, SuccessFactors, Naukri, Indeed Smart Apply, Wellfound, Phenom, Freshteam, custom forms, etc.). Always replace any pre-selected default resume with the tailored PDF. Save any account credentials / TOTP secrets created during signup to `output/<Company> - <Role>/account_credentials.txt`.
    d. Click final Submit.
    e. **On any blocker** (image/grid captcha, Cloudflare "Additional Verification Required" wall, an unresolvable required field): do not close the tab, do not pause, do not hand off. Leave that application exactly where it got stuck in its own browser tab, log `Status=Blocked` in `applications.csv` with the specific reason, and move on to the next lead in a new tab. The user finishes blocked ones manually later. **This does not fill a `NUM_JOBS` slot** — pull another qualifying lead to replace it (see step 4's `NUM_JOBS` note).
-   f. Log the result (Applied / Blocked / Skipped) to `applications.csv` via the Python `csv` module and run `job-kit-starter/tracker/refresh.sh`.
+   f. Log the result (Applied / Blocked / Skipped) to `applications.csv` via the Python `csv` module and run `job-kit-starter/tracker/refresh.sh`. **Every lead you opened a form for gets a row, no exceptions** — including one abandoned mid-fill because of a site bug/quirk before you pivoted to a replacement lead (see `.agents/rules/regression_checklist.md` → "Applications"). Log the actual per-job posting URL, not a generic feed/search URL.
 
 6. **Cold Outreach**:
    - Run per `job_hunt_profile.md` → "Cold Outreach Operations": target ~50 drafts/day (5 Tier A bespoke + 45 Tier B templated-with-slots, per PLAYBOOK.md Phase 4 and `output/job-search/outreach/tier_b_template.md`).
    - Source leads from HN (`hn_scan.py` email extraction), funding-news/YC-batch research, `waas_scan.py`, and founder posts — mix sources, don't pull all leads from one channel.
    - Every email needs a `Confidence` tag (Verified/Pattern-guessed) and a plausibility check before drafting — see the HARD rule in `job_hunt_profile.md`.
    - **NEVER auto-send** — draft into Gmail only (via the connector or the Gmail URL draft pattern in PLAYBOOK.md Phase 4), the user hits send themselves. Log every draft to `startups_outreach.csv` (Company, Founder, Email, Confidence, Role Pitch, Subject, Status, Sent Date, Notes, Source, Tier).
+   - **Before logging any draft as done**, run `.agents/rules/regression_checklist.md` → "Cold outreach" section in full — this includes calling `get_draft` back to confirm the attachment actually landed (don't trust `create_draft` succeeding) and checking this email's structure against the last few in the batch, not just against a banned-word list.
 
 7. **Report Summary**:
    - Present a structured report: applied roles (with resume path + req ID), blocked leads (with reason + tab left open), skipped noise (with reasons), and cold outreach sent (count by tier + source).
