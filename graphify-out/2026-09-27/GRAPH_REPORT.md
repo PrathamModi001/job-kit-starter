@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-09-27)
 
 ## Corpus Check
-- 181 files · ~120,154 words
+- 178 files · ~117,471 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 668 nodes · 548 edges · 168 communities (43 shown, 10 thin omitted)
+- 650 nodes · 533 edges · 165 communities (41 shown, 10 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `577f523e`
+- Built from commit: `25e186c3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -66,8 +66,6 @@
 - Experience: Projects Pool
 - AI Fingerprint Rules
 - Skills Taxonomy
-- Batch Mode: single-path, ATS-first resume tailoring
-- Regression Checklist (canonical — every fixed issue lives here, permanently)
 
 ## God Nodes (most connected - your core abstractions)
 1. `PlaywrightClient` - 13 edges
@@ -87,7 +85,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (168 total, 10 thin omitted)
+## Communities (165 total, 10 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -253,24 +251,16 @@ Nodes (4): AI Fingerprint Rules, Banned words / phrases (Tier 1 — hard fail if
 Cohesion: 0.50
 Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
-### Community 165 - "Batch Mode: single-path, ATS-first resume tailoring"
-Cohesion: 0.17
-Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
-
-### Community 166 - "Regression Checklist (canonical — every fixed issue lives here, permanently)"
-Cohesion: 0.40
-Nodes (4): Applications (auto-apply loop), Cold outreach (Tier A + Tier B) — run before marking any draft done, How to add a new entry, Regression Checklist (canonical — every fixed issue lives here, permanently)
-
 ## Knowledge Gaps
-- **334 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+329 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 518 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **322 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+317 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 503 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _334 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _322 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**

@@ -84,8 +84,8 @@
     "semantic_hash": "4bacdb467f88c9788c12e05eae4f2d40"
   },
   "job-kit-starter/tracker/src/meta.json": {
-    "mtime": 1790495916.996679,
-    "seen": 1790495930.3783777,
+    "mtime": 1790490645.6128697,
+    "seen": 1790490912.463554,
     "ast_hash": "10ae88c478140fb382cd0d158a5ea024",
     "semantic_hash": ""
   },
@@ -174,9 +174,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/CLAUDE.md": {
-    "mtime": 1790493159.8212547,
-    "seen": 1790495930.3789349,
-    "ast_hash": "a30bd0496a4150fcbcfacccd1c8bc773",
+    "mtime": 1790163543.384987,
+    "seen": 1790164006.3699512,
+    "ast_hash": "b95e661b6d2902b8d15e5be47ba6b9dd",
     "semantic_hash": ""
   },
   "job-kit-starter/DOCS.md": {
@@ -186,9 +186,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/PLAYBOOK.md": {
-    "mtime": 1790493124.6547427,
-    "seen": 1790495930.3789423,
-    "ast_hash": "7e1415bfc39502519d7859684b56a235",
+    "mtime": 1789848682.3232281,
+    "seen": 1789848696.6669867,
+    "ast_hash": "857f03a2cf3e53591b97481e9da0c158",
     "semantic_hash": ""
   },
   "job-kit-starter/README.md": {
@@ -300,14 +300,14 @@
     "semantic_hash": ""
   },
   ".agents/workflows/daily_scan.md": {
-    "mtime": 1790493145.040484,
-    "seen": 1790495930.3788888,
-    "ast_hash": "ed537a24e17f6f24239bf4ddacec40d9",
+    "mtime": 1789846023.3645346,
+    "seen": 1789846027.688831,
+    "ast_hash": "feb7bb849ed10e1b4c5a38c786c136cb",
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {
-    "mtime": 1790495916.9940188,
-    "seen": 1790495930.3783674,
+    "mtime": 1790490645.611216,
+    "seen": 1790490912.46355,
     "ast_hash": "4fbf96d585c4298200a905a12ad05ed4",
     "semantic_hash": ""
   },
@@ -1197,24 +1197,6 @@
     "mtime": 1790490141.9394011,
     "seen": 1790490912.4637663,
     "ast_hash": "3f7bbfb9bcef7f976072dce77b18906d",
-    "semantic_hash": ""
-  },
-  "scratch/execute_send_outreach.js": {
-    "mtime": 1790495755.444336,
-    "seen": 1790495930.3785336,
-    "ast_hash": "fbcb3d5a48ce10f6e07b8bd866da2591",
-    "semantic_hash": ""
-  },
-  ".agents/rules/regression_checklist.md": {
-    "mtime": 1790493101.7637405,
-    "seen": 1790495930.3788848,
-    "ast_hash": "f7c2c4a6d9652f23947cb82ddb8ff596",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md": {
-    "mtime": 1790495704.0711877,
-    "seen": 1790495930.378957,
-    "ast_hash": "3f3d0bbaa5eef9970525d541692d4464",
     "semantic_hash": ""
   }
 }
