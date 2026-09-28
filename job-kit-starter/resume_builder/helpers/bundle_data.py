@@ -127,7 +127,7 @@ LANES = {
             (1, 'PP2', 'HIGH'), (2, 'PP3', 'HIGH'), (3, 'PP1', 'MEDIUM-HIGH'),
             (4, 'PP4', 'MEDIUM'),
         ],
-        'playpower_pick_count': 4,
+        'playpower_pick_count': 3,
         'playpower_caps': [],  # AI lane: the PP2/PP3 cap explicitly does not apply here.
         'projects_matrix': [
             (1, 'PJ3', 'HIGH'), (2, 'PJ2', 'HIGH'), (3, 'PJ1', 'LOW'),
@@ -135,7 +135,7 @@ LANES = {
         'projects_pick_count': 2,
         'skills_group_order': [
             'AI & Agent Frameworks', 'Languages & Backend', 'Databases & Messaging',
-            'Cloud, DevOps & Observability',
+            'Cloud, DevOps & Observability', 'Architecture',
         ],
     },
 }
