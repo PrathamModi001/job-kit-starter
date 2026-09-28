@@ -74,3 +74,20 @@ def select_bullets(matrix, bullets_by_id, jd_keyword_set, pick_count, caps=None)
                     improved = True
                     break
     return selected
+
+
+def build_tagline(approved_pool, default_tool_order, label, jd_text):
+    jd_lower = jd_text.lower()
+    matches = []
+    for tool in approved_pool:
+        idx = jd_lower.find(tool.lower())
+        if idx != -1:
+            matches.append((idx, tool))
+    matches.sort(key=lambda pair: pair[0])
+    tools = [tool for _, tool in matches][:4]
+    for tool in default_tool_order:
+        if len(tools) == 4:
+            break
+        if tool not in tools:
+            tools.append(tool)
+    return f"Software Engineer | {label} | " + ", ".join(tools[:4])

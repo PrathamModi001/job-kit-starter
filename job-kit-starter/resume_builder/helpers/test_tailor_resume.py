@@ -87,6 +87,32 @@ def test_select_bullets_respects_cap_rule():
     assert set(selected) <= {'PP2', 'PP3'}
 
 
+def test_tagline_picks_tools_in_jd_appearance_order():
+    pool = ['Node.js', 'Kafka', 'Redis', 'AWS', 'PostgreSQL']
+    jd = "You'll work with Redis and Kafka daily, occasionally touching AWS."
+    tagline = tr.build_tagline(pool, ['Node.js', 'Kafka', 'Redis', 'AWS', 'PostgreSQL'],
+                                'Backend & Distributed Systems', jd)
+    assert tagline == 'Software Engineer | Backend & Distributed Systems | Redis, Kafka, AWS, Node.js'
+
+
+def test_tagline_fills_remaining_slots_from_default_order():
+    pool = ['Node.js', 'Kafka', 'Redis', 'AWS', 'PostgreSQL']
+    jd = "You'll work with Kafka."
+    tagline = tr.build_tagline(pool, ['Node.js', 'Kafka', 'Redis', 'AWS', 'PostgreSQL'],
+                                'Backend & Distributed Systems', jd)
+    assert tagline == 'Software Engineer | Backend & Distributed Systems | Kafka, Node.js, Redis, AWS'
+
+
+def test_tagline_never_inserts_tool_outside_approved_pool():
+    pool = ['Node.js', 'Kafka']
+    jd = "You'll work with Java and Spring Boot."  # neither in pool
+    tagline = tr.build_tagline(pool, ['Node.js', 'Kafka'], 'Backend', jd)
+    assert 'Java' not in tagline
+    assert 'Spring' not in tagline
+    for tool in ('Node.js', 'Kafka'):
+        assert tool in tagline
+
+
 if __name__ == '__main__':
     for name, fn in list(globals().items()):
         if name.startswith('test_'):
