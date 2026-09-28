@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-09-29)
+# Graph Report - job-kit-starter  (2026-09-27)
 
 ## Corpus Check
-- 196 files · ~139,407 words
+- 181 files · ~120,154 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 851 nodes · 770 edges · 177 communities (50 shown, 12 thin omitted)
+- 668 nodes · 548 edges · 168 communities (43 shown, 10 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6aa8b651`
+- Built from commit: `577f523e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -26,7 +26,7 @@
 - /make-resume
 - job_hunt.py
 - Tier B cold email — slot template (volume lane)
-- fingerprint_check.py
+- char_count.py
 - /setup-build-kb
 - PLAYBOOK — the full job-search campaign, end to end
 - Master Profile (SKILL_PROFILE) — Pratham Modi
@@ -57,10 +57,6 @@
 - daily_scan.md
 - fill_dpdzero_eval.js
 - test_dpdzero_upload.js
-- tailor_resume.py
-- test_tailor_resume.py
-- test_bundle_data.py
-- /make-resume
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
 - Bundle: Backend / Node.js / Distributed Systems Lane
 - Bundle: Full-Stack Lane
@@ -70,38 +66,28 @@
 - Experience: Projects Pool
 - AI Fingerprint Rules
 - Skills Taxonomy
-- Review Focus
-- test_fingerprint_check.py
-- Batch notes: [Company] [Role]
-- Apply-loop token optimization: per-job isolation + deterministic tailoring
 - Batch Mode: single-path, ATS-first resume tailoring
 - Regression Checklist (canonical — every fixed issue lives here, permanently)
-- check_applied_companies.py
 
 ## God Nodes (most connected - your core abstractions)
-1. `tailor()` - 16 edges
-2. `PlaywrightClient` - 13 edges
-3. `claude-job-kit — Project Instructions` - 13 edges
-4. `Resume & CV Generation — Reference` - 13 edges
-5. `/make-resume` - 12 edges
-6. `Review Focus` - 12 edges
-7. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
-8. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
-9. `Cover Letter Generation — Reference` - 11 edges
-10. `Job-Search Operations Runbook` - 10 edges
+1. `PlaywrightClient` - 13 edges
+2. `claude-job-kit — Project Instructions` - 13 edges
+3. `Resume & CV Generation — Reference` - 13 edges
+4. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
+5. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
+6. `Cover Letter Generation — Reference` - 11 edges
+7. `/make-resume` - 10 edges
+8. `Job-Search Operations Runbook` - 10 edges
+9. `Shared Operations — All Skills` - 10 edges
+10. `Job Hunt Profile & Operations Rule` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `run_checks()` --calls--> `strip_latex()`  [EXTRACTED]
-  job-kit-starter/resume_builder/helpers/fingerprint_check.py → job-kit-starter/resume_builder/helpers/char_count.py
-- `check_em_dash_count()` --calls--> `count_em_dashes()`  [EXTRACTED]
-  job-kit-starter/resume_builder/helpers/fingerprint_check.py → job-kit-starter/resume_builder/helpers/char_count.py
-- `run_checks()` --calls--> `extract_items()`  [EXTRACTED]
-  job-kit-starter/resume_builder/helpers/fingerprint_check.py → job-kit-starter/resume_builder/helpers/char_count.py
+- None detected - all connections are within the same source files.
 
 ## Import Cycles
 - None detected.
 
-## Communities (177 total, 12 thin omitted)
+## Communities (168 total, 10 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -132,8 +118,8 @@ Cohesion: 0.12
 Nodes (15): Cover Letter Verification Gates (if CL was edited), /edit-resume, FIXED Sections — Refuse if Asked to Edit, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, Phase 1: Load Context, Phase 2: Diagnose & Plan Edits, Phase 3: Load Reference Files (only confirmed edits) (+7 more)
 
 ### Community 8 - "/make-resume"
-Cohesion: 0.15
-Nodes (12): /make-resume, Safety Rules (ALWAYS ENFORCED), Step 0: Run the deterministic tailoring pass, Step 1: Review the JD keyword table, Step 2: Review the script's bullet selection, Step 3: Generate Summary / Skills / bullets, Step 4: Char-count and compile gates, Step 5: Fingerprint gate (script, not LLM read) (+4 more)
+Cohesion: 0.12
+Nodes (16): Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2), CHAR COUNT GATE (per position), COMPILE GATE, End of /make-resume, /make-resume, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<< (+8 more)
 
 ### Community 9 - "job_hunt.py"
 Cohesion: 0.23
@@ -143,9 +129,9 @@ Nodes (17): fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_h
 Cohesion: 0.20
 Nodes (9): Body skeleton (75-100 words, plain text, no HTML/tracking links), Pre-approved metric pool (grounded in SKILL_PROFILE.md — pick, never paraphrase numbers), Slots (fill from a 2-minute lookup per company, never invent), Sounding human, not generated, Subject line variants (rotate — identical subjects across a batch is a spam-clustering signal), Tier B cold email — slot template (volume lane), Tracking, Volume + deliverability rules (+1 more)
 
-### Community 11 - "fingerprint_check.py"
-Cohesion: 0.10
-Nodes (30): classify_bullet(), count_bold_chars(), count_em_dashes(), extract_items(), format_one(), main(), Format analysis for a single bullet., Extract \\item lines from .tex source. (+22 more)
+### Community 11 - "char_count.py"
+Cohesion: 0.20
+Nodes (14): classify_bullet(), count_bold_chars(), count_em_dashes(), extract_items(), format_one(), main(), Format analysis for a single bullet., Extract \\item lines from .tex source. (+6 more)
 
 ### Community 12 - "/setup-build-kb"
 Cohesion: 0.13
@@ -231,18 +217,6 @@ Nodes (4): 🔐 Authentication & 🎯 Candidate Bar — canonical source, 📄 C
 Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
-### Community 46 - "tailor_resume.py"
-Cohesion: 0.09
-Nodes (35): build_tagline(), _bullet_text(), _collect_all_tags(), compute_coverage(), _escape_tex(), extract_jd_keywords(), _fingerprint_clean_matrix(), _first_verb() (+27 more)
-
-### Community 48 - "test_bundle_data.py"
-Cohesion: 0.09
-Nodes (4): Structured mirror of resume_builder/bundles/bundle_<lane>.md, used by…, Parse resume_builder/experience/*.md files into {id: {tags,…, Plain-assert tests for bundle_data.py. Run: python3 test_bundle_data.py, Plain-assert tests for experience_parser.py. Run: python3…
-
-### Community 49 - "/make-resume"
-Cohesion: 0.12
-Nodes (16): Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2), CHAR COUNT GATE (per position), COMPILE GATE, End of /make-resume, /make-resume, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<< (+8 more)
-
 ### Community 52 - "Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)"
 Cohesion: 0.22
 Nodes (8): 1. Tagline Formula, 2. Summary (copy-exact, minor trims only), 3. Experience Priority Matrix, 4. Skills Group Order, Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane), C3iHub, IIT Kanpur (pick 4 of 6), Playpower Labs (all 4 — this is the AI-heaviest position), Projects (pick 2 of 3)
@@ -279,18 +253,6 @@ Nodes (4): AI Fingerprint Rules, Banned words / phrases (Tier 1 — hard fail if
 Cohesion: 0.50
 Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
-### Community 74 - "Review Focus"
-Cohesion: 0.12
-Nodes (15): Apply-Loop Token Optimization Implementation Plan, Global Constraints, Review Focus, Self-Review Notes, Task 10: CSV dedup helper, Task 11: Gate reorder + per-job subagent dispatch in daily_scan.md; Playwright rule in PLAYBOOK.md, Task 1: Experience file parser, Task 2: Bundle structured data (+7 more)
-
-### Community 78 - "Batch notes: [Company] [Role]"
-Cohesion: 0.15
-Nodes (12): ATS Match Rate, Batch Mode Resume Tailoring — Implementation Plan, Batch notes: [Company] [Role], Condensed Critique, Global Constraints, JD Keyword Table, Review Focus, Task 1: Archive the Full/Quick pipeline to a legacy reference file (+4 more)
-
-### Community 79 - "Apply-loop token optimization: per-job isolation + deterministic tailoring"
-Cohesion: 0.15
-Nodes (12): 1. `resume_builder/helpers/tailor_resume.py` (new, deterministic), 2. `make-resume/SKILL.md` changes (Batch Mode), 3. `daily_scan.md` restructuring, 4. Playwright evaluate-only rule, 5. CSV dedup check, Apply-loop token optimization: per-job isolation + deterministic tailoring, Design, Goals (+4 more)
-
 ### Community 165 - "Batch Mode: single-path, ATS-first resume tailoring"
 Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
@@ -299,20 +261,16 @@ Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode
 Cohesion: 0.40
 Nodes (4): Applications (auto-apply loop), Cold outreach (Tier A + Tier B) — run before marking any draft done, How to add a new entry, Regression Checklist (canonical — every fixed issue lives here, permanently)
 
-### Community 176 - "check_applied_companies.py"
-Cohesion: 0.33
-Nodes (4): applied_companies(), main(), Print the set of companies already present in applications.csv (any status),…, Plain-assert test for check_applied_companies.py. Run: python3…
-
 ## Knowledge Gaps
-- **376 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+371 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 644 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **334 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+329 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 518 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _376 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _334 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**

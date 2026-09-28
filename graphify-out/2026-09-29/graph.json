@@ -317,42 +317,6 @@
       "source_location": "L3"
     },
     {
-      "id": "job_kit_starter_check_applied_companies_applied_companies",
-      "label": "applied_companies()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 176,
-      "community_name": "check_applied_companies.py",
-      "file_type": "code",
-      "norm_label": "applied_companies()",
-      "source_file": "job-kit-starter/check_applied_companies.py",
-      "source_location": "L14"
-    },
-    {
-      "id": "job_kit_starter_check_applied_companies_main",
-      "label": "main()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 176,
-      "community_name": "check_applied_companies.py",
-      "file_type": "code",
-      "norm_label": "main()",
-      "source_file": "job-kit-starter/check_applied_companies.py",
-      "source_location": "L25"
-    },
-    {
-      "id": "job_kit_starter_test_check_applied_companies_test_applied_companies_reads_unique_company_names",
-      "label": "test_applied_companies_reads_unique_company_names()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 176,
-      "community_name": "check_applied_companies.py",
-      "file_type": "code",
-      "norm_label": "test_applied_companies_reads_unique_company_names()",
-      "source_file": "job-kit-starter/test_check_applied_companies.py",
-      "source_location": "L9"
-    },
-    {
       "id": "job_kit_starter_job_hunt_india_already_applied_companies",
       "label": "already_applied_companies()",
       "_callable": true,
@@ -602,7 +566,7 @@
       "file_type": "code",
       "norm_label": "build_tagline()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L127"
+      "source_location": "L83"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_bullet_text",
@@ -614,7 +578,7 @@
       "file_type": "code",
       "norm_label": "_bullet_text()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L359"
+      "source_location": "L313"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_collect_all_tags",
@@ -626,7 +590,7 @@
       "file_type": "code",
       "norm_label": "_collect_all_tags()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L274"
+      "source_location": "L228"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_compute_coverage",
@@ -638,7 +602,7 @@
       "file_type": "code",
       "norm_label": "compute_coverage()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L144"
+      "source_location": "L100"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_escape_tex",
@@ -650,7 +614,7 @@
       "file_type": "code",
       "norm_label": "_escape_tex()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L351"
+      "source_location": "L305"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_extract_jd_keywords",
@@ -662,7 +626,7 @@
       "file_type": "code",
       "norm_label": "extract_jd_keywords()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L62"
+      "source_location": "L24"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_fingerprint_clean_matrix",
@@ -674,7 +638,7 @@
       "file_type": "code",
       "norm_label": "_fingerprint_clean_matrix()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L377"
+      "source_location": "L331"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_first_verb",
@@ -686,7 +650,7 @@
       "file_type": "code",
       "norm_label": "_first_verb()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L392"
+      "source_location": "L346"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_is_fingerprint_clean",
@@ -698,7 +662,7 @@
       "file_type": "code",
       "norm_label": "_is_fingerprint_clean()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L367"
+      "source_location": "L321"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_main",
@@ -710,7 +674,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L486"
+      "source_location": "L440"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_order_without_verb_repeats",
@@ -722,7 +686,7 @@
       "file_type": "code",
       "norm_label": "_order_without_verb_repeats()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L397"
+      "source_location": "L351"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_parse_project_header",
@@ -734,7 +698,7 @@
       "file_type": "code",
       "norm_label": "parse_project_header()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L309"
+      "source_location": "L263"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_render_resume_tex",
@@ -746,7 +710,7 @@
       "file_type": "code",
       "norm_label": "render_resume_tex()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L192"
+      "source_location": "L147"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_replace_first",
@@ -758,7 +722,7 @@
       "file_type": "code",
       "norm_label": "_replace_first()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L188"
+      "source_location": "L143"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_score_bullet",
@@ -770,7 +734,7 @@
       "file_type": "code",
       "norm_label": "score_bullet()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L78"
+      "source_location": "L34"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_select_bullets",
@@ -782,7 +746,7 @@
       "file_type": "code",
       "norm_label": "select_bullets()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L93"
+      "source_location": "L49"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_select_lane",
@@ -794,7 +758,7 @@
       "file_type": "code",
       "norm_label": "_select_lane()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L259"
+      "source_location": "L214"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_slugify",
@@ -806,7 +770,7 @@
       "file_type": "code",
       "norm_label": "_slugify()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L255"
+      "source_location": "L210"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_tailor",
@@ -818,7 +782,7 @@
       "file_type": "code",
       "norm_label": "tailor()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L415"
+      "source_location": "L369"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_violates_cap",
@@ -830,31 +794,7 @@
       "file_type": "code",
       "norm_label": "_violates_cap()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L83"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_word_in_text",
-      "label": "_word_in_text()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "_word_in_text()",
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
       "source_location": "L39"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_word_search",
-      "label": "_word_search()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "_word_search()",
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L24"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_write_keyword_table",
@@ -866,7 +806,7 @@
       "file_type": "code",
       "norm_label": "write_keyword_table()",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L154"
+      "source_location": "L109"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_e2e_run_gates",
@@ -878,7 +818,7 @@
       "file_type": "code",
       "norm_label": "_run_gates()",
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume_e2e.py",
-      "source_location": "L31"
+      "source_location": "L32"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_e2e_test_two_different_jds_produce_different_resumes_and_pass_all_gates",
@@ -890,7 +830,7 @@
       "file_type": "code",
       "norm_label": "test_two_different_jds_produce_different_resumes_and_pass_all_gates()",
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume_e2e.py",
-      "source_location": "L49"
+      "source_location": "L50"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_bridge_excludes_terms_already_direct",
@@ -917,30 +857,6 @@
       "source_location": "L35"
     },
     {
-      "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_build_tagline_ignores_substring_false_positives",
-      "label": "test_build_tagline_ignores_substring_false_positives()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "test_tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "test_build_tagline_ignores_substring_false_positives()",
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L238"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_compute_coverage_backward_compatible_without_gap_key",
-      "label": "test_compute_coverage_backward_compatible_without_gap_key()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "test_tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "test_compute_coverage_backward_compatible_without_gap_key()",
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L232"
-    },
-    {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_compute_coverage_counts_matched_terms",
       "label": "test_compute_coverage_counts_matched_terms()",
       "_callable": true,
@@ -951,18 +867,6 @@
       "norm_label": "test_compute_coverage_counts_matched_terms()",
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
       "source_location": "L121"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_compute_coverage_gap_terms_lower_the_score",
-      "label": "test_compute_coverage_gap_terms_lower_the_score()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "test_tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "test_compute_coverage_gap_terms_lower_the_score()",
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L226"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_compute_coverage_zero_terms_returns_zero",
@@ -999,18 +903,6 @@
       "norm_label": "test_direct_keywords_found_case_insensitive()",
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
       "source_location": "L22"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_extract_jd_keywords_tags_gap_terms",
-      "label": "test_extract_jd_keywords_tags_gap_terms()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "test_tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "test_extract_jd_keywords_tags_gap_terms()",
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L217"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_fixed_facts_matches_config_md",
@@ -1109,30 +1001,6 @@
       "source_location": "L61"
     },
     {
-      "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_select_lane_auto_detects_genuine_ai_jd",
-      "label": "test_select_lane_auto_detects_genuine_ai_jd()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "test_tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "test_select_lane_auto_detects_genuine_ai_jd()",
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L212"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_select_lane_auto_ignores_substring_false_positives",
-      "label": "test_select_lane_auto_ignores_substring_false_positives()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "test_tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "test_select_lane_auto_ignores_substring_false_positives()",
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L207"
-    },
-    {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_tagline_fills_remaining_slots_from_default_order",
       "label": "test_tagline_fills_remaining_slots_from_default_order()",
       "_callable": true,
@@ -1167,42 +1035,6 @@
       "norm_label": "test_tagline_picks_tools_in_jd_appearance_order()",
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
       "source_location": "L90"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_word_in_text_empty_term_is_false",
-      "label": "test_word_in_text_empty_term_is_false()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "test_tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "test_word_in_text_empty_term_is_false()",
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L203"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_word_in_text_handles_non_alnum_edges",
-      "label": "test_word_in_text_handles_non_alnum_edges()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "test_tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "test_word_in_text_handles_non_alnum_edges()",
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L196"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_word_in_text_rejects_substring_false_positives",
-      "label": "test_word_in_text_rejects_substring_false_positives()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "test_tailor_resume.py",
-      "file_type": "code",
-      "norm_label": "test_word_in_text_rejects_substring_false_positives()",
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L189"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_write_keyword_table_produces_valid_json",
@@ -3450,7 +3282,7 @@
       "node_kind": "heading",
       "norm_label": "after every apply batch",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L136"
+      "source_location": "L128"
     },
     {
       "id": "job_kit_starter_playbook_ats_recipes_every_quirk_here_was_hit_in_production",
@@ -3522,7 +3354,7 @@
       "node_kind": "heading",
       "norm_label": "phase 4 \u2014 cold email outreach (startups without open roles)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L139"
+      "source_location": "L131"
     },
     {
       "id": "job_kit_starter_playbook_phase_5_x_twitter_cold_dms",
@@ -3534,7 +3366,7 @@
       "node_kind": "heading",
       "norm_label": "phase 5 \u2014 x/twitter cold dms",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L161"
+      "source_location": "L153"
     },
     {
       "id": "job_kit_starter_playbook_phase_6_public_tracker_cloudflare_pages",
@@ -3546,7 +3378,7 @@
       "node_kind": "heading",
       "norm_label": "phase 6 \u2014 public tracker (cloudflare pages)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L169"
+      "source_location": "L161"
     },
     {
       "id": "job_kit_starter_playbook_phase_7_cadence_and_priorities",
@@ -3558,7 +3390,7 @@
       "node_kind": "heading",
       "norm_label": "phase 7 \u2014 cadence and priorities",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L173"
+      "source_location": "L165"
     },
     {
       "id": "job_kit_starter_playbook_playbook_the_full_job_search_campaign_end_to_end",
@@ -3594,7 +3426,7 @@
       "node_kind": "heading",
       "norm_label": "shared mechanics (both tiers)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L153"
+      "source_location": "L145"
     },
     {
       "id": "job_kit_starter_playbook_tier_a_bespoke_3_5_day",
@@ -3606,7 +3438,7 @@
       "node_kind": "heading",
       "norm_label": "tier a \u2014 bespoke, 3-5/day",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L143"
+      "source_location": "L135"
     },
     {
       "id": "job_kit_starter_playbook_tier_b_templated_with_slots_20_30_day_volume_lane",
@@ -3618,7 +3450,7 @@
       "node_kind": "heading",
       "norm_label": "tier b \u2014 templated-with-slots, 20-30/day (volume lane)",
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L148"
+      "source_location": "L140"
     },
     {
       "id": "job_kit_starter_playbook_where_the_apply_button_leads_triage_on_click",
@@ -4898,50 +4730,6 @@
       "file_type": "code",
       "norm_label": "upload_databricks_wrapped.js",
       "source_file": "scratch/upload_databricks_wrapped.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_check_applied_companies",
-      "label": "check_applied_companies.py",
-      "_origin": "ast",
-      "community": 176,
-      "community_name": "check_applied_companies.py",
-      "file_type": "code",
-      "norm_label": "check_applied_companies.py",
-      "source_file": "job-kit-starter/check_applied_companies.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_test_check_applied_companies",
-      "label": "test_check_applied_companies.py",
-      "_origin": "ast",
-      "community": 176,
-      "community_name": "check_applied_companies.py",
-      "file_type": "code",
-      "norm_label": "test_check_applied_companies.py",
-      "source_file": "job-kit-starter/test_check_applied_companies.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_check_applied_companies_rationale_2",
-      "label": "Print the set of companies already present in applications.csv (any status),\u2026",
-      "_origin": "ast",
-      "community": 176,
-      "community_name": "check_applied_companies.py",
-      "file_type": "rationale",
-      "norm_label": "print the set of companies already present in applications.csv (any status),...",
-      "source_file": "job-kit-starter/check_applied_companies.py",
-      "source_location": "L2"
-    },
-    {
-      "id": "job_kit_starter_test_check_applied_companies_rationale_1",
-      "label": "Plain-assert test for check_applied_companies.py. Run: python3\u2026",
-      "_origin": "ast",
-      "community": 176,
-      "community_name": "check_applied_companies.py",
-      "file_type": "rationale",
-      "norm_label": "plain-assert test for check_applied_companies.py. run: python3...",
-      "source_file": "job-kit-starter/test_check_applied_companies.py",
       "source_location": "L1"
     },
     {
@@ -7310,7 +7098,7 @@
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_180",
+      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_135",
       "label": "# NOTE: brief's Step 3 hardcoded 'Indian Institute of Information Technology'\u2026",
       "_origin": "ast",
       "community": 46,
@@ -7318,7 +7106,7 @@
       "file_type": "rationale",
       "norm_label": "# note: brief's step 3 hardcoded 'indian institute of information technology'...",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L180"
+      "source_location": "L135"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_2",
@@ -7332,18 +7120,7 @@
       "source_location": "L2"
     },
     {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_25",
-      "label": "Whole-word/phrase search \u2014 avoids 'rag' matching 'storage', 'ai' matching\u2026",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "tailor_resume.py",
-      "file_type": "rationale",
-      "norm_label": "whole-word/phrase search \u2014 avoids 'rag' matching 'storage', 'ai' matching...",
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L25"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_310",
+      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_264",
       "label": "Split a projects-file header into (name, tools, tag). Fails loudly on an\u2026",
       "_origin": "ast",
       "community": 46,
@@ -7351,10 +7128,10 @@
       "file_type": "rationale",
       "norm_label": "split a projects-file header into (name, tools, tag). fails loudly on an...",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L310"
+      "source_location": "L264"
     },
     {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_352",
+      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_306",
       "label": "Escape LaTeX-special characters in plain-prose resume content. Single-pass, so\u2026",
       "_origin": "ast",
       "community": 46,
@@ -7362,10 +7139,10 @@
       "file_type": "rationale",
       "norm_label": "escape latex-special characters in plain-prose resume content. single-pass, so...",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L352"
+      "source_location": "L306"
     },
     {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_360",
+      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_314",
       "label": "The exact prose that would be emitted for this bullet id, or None if the entry\u2026",
       "_origin": "ast",
       "community": 46,
@@ -7373,10 +7150,10 @@
       "file_type": "rationale",
       "norm_label": "the exact prose that would be emitted for this bullet id, or none if the entry...",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L360"
+      "source_location": "L314"
     },
     {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_368",
+      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_322",
       "label": "True if this bullet on its own trips none of fingerprint_check.py's POSITION-\u2026",
       "_origin": "ast",
       "community": 46,
@@ -7384,10 +7161,10 @@
       "file_type": "rationale",
       "norm_label": "true if this bullet on its own trips none of fingerprint_check.py's position-...",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L368"
+      "source_location": "L322"
     },
     {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_378",
+      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_332",
       "label": "Drop priority-matrix rows whose bullet text can never pass the gate. A bullet\u2026",
       "_origin": "ast",
       "community": 46,
@@ -7395,10 +7172,10 @@
       "file_type": "rationale",
       "norm_label": "drop priority-matrix rows whose bullet text can never pass the gate. a bullet...",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L378"
+      "source_location": "L332"
     },
     {
-      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_398",
+      "id": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_352",
       "label": "Emit bullets in priority order, deferring one whose opening verb repeats the\u2026",
       "_origin": "ast",
       "community": 46,
@@ -7406,7 +7183,7 @@
       "file_type": "rationale",
       "norm_label": "emit bullets in priority order, deferring one whose opening verb repeats the...",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L398"
+      "source_location": "L352"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_e2e_rationale_2",
@@ -7420,6 +7197,17 @@
       "source_location": "L2"
     },
     {
+      "id": "job_kit_starter_resume_builder_helpers_bundle_data",
+      "label": "bundle_data.py",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "test_tailor_resume.py",
+      "file_type": "code",
+      "norm_label": "bundle_data.py",
+      "source_file": "job-kit-starter/resume_builder/helpers/bundle_data.py",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
       "label": "test_tailor_resume.py",
       "_origin": "ast",
@@ -7431,6 +7219,17 @@
       "source_location": "L1"
     },
     {
+      "id": "job_kit_starter_resume_builder_helpers_bundle_data_rationale_2",
+      "label": "Structured mirror of resume_builder/bundles/bundle_<lane>.md, used by\u2026",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "test_tailor_resume.py",
+      "file_type": "rationale",
+      "norm_label": "structured mirror of resume_builder/bundles/bundle_<lane>.md, used by...",
+      "source_file": "job-kit-starter/resume_builder/helpers/bundle_data.py",
+      "source_location": "L2"
+    },
+    {
       "id": "job_kit_starter_resume_builder_helpers_test_tailor_resume_rationale_1",
       "label": "Plain-assert tests for tailor_resume.py. Run: python3 test_tailor_resume.py",
       "_origin": "ast",
@@ -7439,17 +7238,6 @@
       "file_type": "rationale",
       "norm_label": "plain-assert tests for tailor_resume.py. run: python3 test_tailor_resume.py",
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_bundle_data",
-      "label": "bundle_data.py",
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "test_bundle_data.py",
-      "file_type": "code",
-      "norm_label": "bundle_data.py",
-      "source_file": "job-kit-starter/resume_builder/helpers/bundle_data.py",
       "source_location": "L1"
     },
     {
@@ -7484,17 +7272,6 @@
       "norm_label": "test_experience_parser.py",
       "source_file": "job-kit-starter/resume_builder/helpers/test_experience_parser.py",
       "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_resume_builder_helpers_bundle_data_rationale_2",
-      "label": "Structured mirror of resume_builder/bundles/bundle_<lane>.md, used by\u2026",
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "test_bundle_data.py",
-      "file_type": "rationale",
-      "norm_label": "structured mirror of resume_builder/bundles/bundle_<lane>.md, used by...",
-      "source_file": "job-kit-starter/resume_builder/helpers/bundle_data.py",
-      "source_location": "L2"
     },
     {
       "id": "job_kit_starter_resume_builder_helpers_experience_parser_rationale_2",
@@ -9693,40 +9470,40 @@
       "source_location": "L27"
     },
     {
-      "id": "job_kit_starter_claude_skills_make_resume_skill_step_0_run_the_deterministic_tailoring_pass",
-      "label": "Step 0: Run the deterministic tailoring pass",
+      "id": "job_kit_starter_claude_skills_make_resume_skill_step_0_load_context_no_web_search_no_session_file",
+      "label": "Step 0: Load context (no web search, no session file)",
       "_origin": "ast",
       "community": 8,
       "community_name": "/make-resume",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "step 0: run the deterministic tailoring pass",
+      "norm_label": "step 0: load context (no web search, no session file)",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
       "source_location": "L55"
     },
     {
-      "id": "job_kit_starter_claude_skills_make_resume_skill_step_1_review_the_jd_keyword_table",
-      "label": "Step 1: Review the JD keyword table",
+      "id": "job_kit_starter_claude_skills_make_resume_skill_step_1_jd_keyword_table",
+      "label": "Step 1: JD keyword table",
       "_origin": "ast",
       "community": 8,
       "community_name": "/make-resume",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "step 1: review the jd keyword table",
+      "norm_label": "step 1: jd keyword table",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L85"
+      "source_location": "L73"
     },
     {
-      "id": "job_kit_starter_claude_skills_make_resume_skill_step_2_review_the_script_s_bullet_selection",
-      "label": "Step 2: Review the script's bullet selection",
+      "id": "job_kit_starter_claude_skills_make_resume_skill_step_2_lane_bullet_selection",
+      "label": "Step 2: Lane + bullet selection",
       "_origin": "ast",
       "community": 8,
       "community_name": "/make-resume",
       "file_type": "document",
       "node_kind": "heading",
-      "norm_label": "step 2: review the script's bullet selection",
+      "norm_label": "step 2: lane + bullet selection",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L102"
+      "source_location": "L91"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_step_3_generate_summary_skills_bullets",
@@ -9738,7 +9515,7 @@
       "node_kind": "heading",
       "norm_label": "step 3: generate summary / skills / bullets",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L117"
+      "source_location": "L104"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_step_4_char_count_and_compile_gates",
@@ -9750,7 +9527,7 @@
       "node_kind": "heading",
       "norm_label": "step 4: char-count and compile gates",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L147"
+      "source_location": "L128"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_step_5_fingerprint_gate_script_not_llm_read",
@@ -9762,7 +9539,7 @@
       "node_kind": "heading",
       "norm_label": "step 5: fingerprint gate (script, not llm read)",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L162"
+      "source_location": "L143"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_step_6_ats_coverage_gate_hard_gate",
@@ -9774,7 +9551,7 @@
       "node_kind": "heading",
       "norm_label": "step 6: ats coverage gate (hard gate)",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L182"
+      "source_location": "L163"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_step_7_condensed_critique_10_lines",
@@ -9786,7 +9563,7 @@
       "node_kind": "heading",
       "norm_label": "step 7: condensed critique (~10 lines)",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L198"
+      "source_location": "L179"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_step_8_save_output_and_report",
@@ -9798,7 +9575,7 @@
       "node_kind": "heading",
       "norm_label": "step 8: save output and report",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L211"
+      "source_location": "L192"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill_user_input_during_execution",
@@ -10067,18 +9844,6 @@
     }
   ],
   "links": [
-    {
-      "source": "job_kit_starter_check_applied_companies_main",
-      "target": "job_kit_starter_check_applied_companies_applied_companies",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "job-kit-starter/check_applied_companies.py",
-      "source_location": "L31",
-      "weight": 1.0
-    },
     {
       "source": "job_kit_starter_job_hunt_fetch_aiven",
       "target": "job_kit_starter_job_hunt_get",
@@ -10536,42 +10301,6 @@
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_build_tagline",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_word_search",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L131",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_compute_coverage",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_word_in_text",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L150",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_extract_jd_keywords",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_word_in_text",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L64",
-      "weight": 1.0
-    },
-    {
       "source": "job_kit_starter_resume_builder_helpers_tailor_resume_fingerprint_clean_matrix",
       "target": "job_kit_starter_resume_builder_helpers_tailor_resume_bullet_text",
       "relation": "calls",
@@ -10580,7 +10309,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L386",
+      "source_location": "L340",
       "weight": 1.0
     },
     {
@@ -10592,7 +10321,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L387",
+      "source_location": "L341",
       "weight": 1.0
     },
     {
@@ -10604,7 +10333,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L497",
+      "source_location": "L451",
       "weight": 1.0
     },
     {
@@ -10616,7 +10345,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L408",
+      "source_location": "L362",
       "weight": 1.0
     },
     {
@@ -10628,7 +10357,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L197",
+      "source_location": "L152",
       "weight": 1.0
     },
     {
@@ -10640,7 +10369,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L102",
+      "source_location": "L58",
       "weight": 1.0
     },
     {
@@ -10652,19 +10381,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L109",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_select_lane",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_word_in_text",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L263",
+      "source_location": "L65",
       "weight": 1.0
     },
     {
@@ -10676,7 +10393,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L420",
+      "source_location": "L374",
       "weight": 1.0
     },
     {
@@ -10688,7 +10405,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L423",
+      "source_location": "L377",
       "weight": 1.0
     },
     {
@@ -10700,7 +10417,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L424",
+      "source_location": "L378",
       "weight": 1.0
     },
     {
@@ -10712,7 +10429,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L431",
+      "source_location": "L385",
       "weight": 1.0
     },
     {
@@ -10724,7 +10441,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L432",
+      "source_location": "L386",
       "weight": 1.0
     },
     {
@@ -10736,7 +10453,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L441",
+      "source_location": "L395",
       "weight": 1.0
     },
     {
@@ -10748,7 +10465,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L442",
+      "source_location": "L396",
       "weight": 1.0
     },
     {
@@ -10760,7 +10477,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L446",
+      "source_location": "L400",
       "weight": 1.0
     },
     {
@@ -10772,7 +10489,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L451",
+      "source_location": "L405",
       "weight": 1.0
     },
     {
@@ -10784,7 +10501,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L460",
+      "source_location": "L414",
       "weight": 1.0
     },
     {
@@ -10796,7 +10513,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L463",
+      "source_location": "L417",
       "weight": 1.0
     },
     {
@@ -10808,7 +10525,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L469",
+      "source_location": "L423",
       "weight": 1.0
     },
     {
@@ -10820,7 +10537,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L474",
+      "source_location": "L428",
       "weight": 1.0
     },
     {
@@ -10832,19 +10549,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L476",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_word_in_text",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_word_search",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L40",
+      "source_location": "L430",
       "weight": 1.0
     },
     {
@@ -10856,7 +10561,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume_e2e.py",
-      "source_location": "L60",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -11216,19 +10921,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume_e2e.py",
-      "source_location": "L13",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_test_check_applied_companies",
-      "target": "job_kit_starter_check_applied_companies",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "job-kit-starter/test_check_applied_companies.py",
-      "source_location": "L6",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -11593,28 +11286,6 @@
       "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
       "source_location": "L21",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_check_applied_companies",
-      "target": "job_kit_starter_check_applied_companies_applied_companies",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/check_applied_companies.py",
-      "source_location": "L14",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_check_applied_companies",
-      "target": "job_kit_starter_check_applied_companies_main",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/check_applied_companies.py",
-      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -12290,24 +11961,13 @@
     },
     {
       "source": "job_kit_starter_claude_skills_make_resume_skill_make_resume",
-      "target": "job_kit_starter_claude_skills_make_resume_skill_step_2_review_the_script_s_bullet_selection",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L102",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_claude_skills_make_resume_skill_make_resume",
       "target": "job_kit_starter_claude_skills_make_resume_skill_step_3_generate_summary_skills_bullets",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L117",
+      "source_location": "L104",
       "weight": 1.0
     },
     {
@@ -12318,7 +11978,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L147",
+      "source_location": "L128",
       "weight": 1.0
     },
     {
@@ -12329,7 +11989,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L162",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -12340,7 +12000,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L182",
+      "source_location": "L163",
       "weight": 1.0
     },
     {
@@ -12351,7 +12011,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L198",
+      "source_location": "L179",
       "weight": 1.0
     },
     {
@@ -12362,7 +12022,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L211",
+      "source_location": "L192",
       "weight": 1.0
     },
     {
@@ -12389,7 +12049,7 @@
     },
     {
       "source": "job_kit_starter_claude_skills_make_resume_skill_make_resume",
-      "target": "job_kit_starter_claude_skills_make_resume_skill_step_0_run_the_deterministic_tailoring_pass",
+      "target": "job_kit_starter_claude_skills_make_resume_skill_step_0_load_context_no_web_search_no_session_file",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -12400,13 +12060,24 @@
     },
     {
       "source": "job_kit_starter_claude_skills_make_resume_skill_make_resume",
-      "target": "job_kit_starter_claude_skills_make_resume_skill_step_1_review_the_jd_keyword_table",
+      "target": "job_kit_starter_claude_skills_make_resume_skill_step_1_jd_keyword_table",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
-      "source_location": "L85",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_claude_skills_make_resume_skill_make_resume",
+      "target": "job_kit_starter_claude_skills_make_resume_skill_step_2_lane_bullet_selection",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
+      "source_location": "L91",
       "weight": 1.0
     },
     {
@@ -13803,7 +13474,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L136",
+      "source_location": "L128",
       "weight": 1.0
     },
     {
@@ -13847,7 +13518,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L143",
+      "source_location": "L135",
       "weight": 1.0
     },
     {
@@ -13858,7 +13529,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L148",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
@@ -13869,7 +13540,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L153",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -13880,7 +13551,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L139",
+      "source_location": "L131",
       "weight": 1.0
     },
     {
@@ -13902,7 +13573,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L161",
+      "source_location": "L153",
       "weight": 1.0
     },
     {
@@ -13913,7 +13584,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L169",
+      "source_location": "L161",
       "weight": 1.0
     },
     {
@@ -13924,7 +13595,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/PLAYBOOK.md",
-      "source_location": "L173",
+      "source_location": "L165",
       "weight": 1.0
     },
     {
@@ -15216,24 +14887,13 @@
     },
     {
       "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_build_tagline",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L127",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
       "target": "job_kit_starter_resume_builder_helpers_tailor_resume_compute_coverage",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L144",
+      "source_location": "L100",
       "weight": 1.0
     },
     {
@@ -15244,7 +14904,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L154",
+      "source_location": "L109",
       "weight": 1.0
     },
     {
@@ -15255,7 +14915,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L188",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -15266,18 +14926,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L192",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_word_search",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L24",
+      "source_location": "L147",
       "weight": 1.0
     },
     {
@@ -15288,7 +14937,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L255",
+      "source_location": "L210",
       "weight": 1.0
     },
     {
@@ -15299,7 +14948,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L259",
+      "source_location": "L214",
       "weight": 1.0
     },
     {
@@ -15310,117 +14959,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L274",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_parse_project_header",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L309",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_escape_tex",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L351",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_bullet_text",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L359",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_is_fingerprint_clean",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L367",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_fingerprint_clean_matrix",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L377",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_word_in_text",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L39",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_first_verb",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L392",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_order_without_verb_repeats",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L397",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_tailor",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L415",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_main",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L486",
+      "source_location": "L228",
       "weight": 1.0
     },
     {
@@ -15431,7 +14970,62 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L62",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_parse_project_header",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_escape_tex",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L305",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_bullet_text",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L313",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_is_fingerprint_clean",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_fingerprint_clean_matrix",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L331",
       "weight": 1.0
     },
     {
@@ -15442,7 +15036,40 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L78",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_first_verb",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L346",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_order_without_verb_repeats",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L351",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_tailor",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L369",
       "weight": 1.0
     },
     {
@@ -15453,7 +15080,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L83",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L440",
       "weight": 1.0
     },
     {
@@ -15464,7 +15102,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L93",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume",
+      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_build_tagline",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -15843,72 +15492,6 @@
     },
     {
       "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_word_in_text_rejects_substring_false_positives",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L189",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_word_in_text_handles_non_alnum_edges",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L196",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_word_in_text_empty_term_is_false",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L203",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_select_lane_auto_ignores_substring_false_positives",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L207",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_select_lane_auto_detects_genuine_ai_jd",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L212",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_extract_jd_keywords_tags_gap_terms",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L217",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
       "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_direct_keywords_found_case_insensitive",
       "relation": "contains",
       "_origin": "ast",
@@ -15916,39 +15499,6 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
       "source_location": "L22",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_compute_coverage_gap_terms_lower_the_score",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L226",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_compute_coverage_backward_compatible_without_gap_key",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L232",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_test_tailor_resume",
-      "target": "job_kit_starter_resume_builder_helpers_test_tailor_resume_test_build_tagline_ignores_substring_false_positives",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L238",
       "weight": 1.0
     },
     {
@@ -16069,7 +15619,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume_e2e.py",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -16080,7 +15630,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume_e2e.py",
-      "source_location": "L49",
+      "source_location": "L50",
       "weight": 1.0
     },
     {
@@ -17492,17 +17042,6 @@
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_test_check_applied_companies",
-      "target": "job_kit_starter_test_check_applied_companies_test_applied_companies_reads_unique_company_names",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/test_check_applied_companies.py",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
       "source": "job_kit_starter_tracker_make_data",
       "target": "job_kit_starter_tracker_make_data_domain_name",
       "relation": "contains",
@@ -18141,17 +17680,6 @@
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_check_applied_companies_rationale_2",
-      "target": "job_kit_starter_check_applied_companies",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/check_applied_companies.py",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
       "source": "job_kit_starter_hn_scan_rationale_2",
       "target": "job_kit_starter_hn_scan",
       "relation": "rationale_for",
@@ -18372,14 +17900,14 @@
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_180",
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_135",
       "target": "job_kit_starter_resume_builder_helpers_tailor_resume",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L180",
+      "source_location": "L135",
       "weight": 1.0
     },
     {
@@ -18394,80 +17922,69 @@
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_25",
-      "target": "job_kit_starter_resume_builder_helpers_tailor_resume_word_search",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L25",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_310",
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_264",
       "target": "job_kit_starter_resume_builder_helpers_tailor_resume_parse_project_header",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L310",
+      "source_location": "L264",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_352",
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_306",
       "target": "job_kit_starter_resume_builder_helpers_tailor_resume_escape_tex",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L352",
+      "source_location": "L306",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_360",
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_314",
       "target": "job_kit_starter_resume_builder_helpers_tailor_resume_bullet_text",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L360",
+      "source_location": "L314",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_368",
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_322",
       "target": "job_kit_starter_resume_builder_helpers_tailor_resume_is_fingerprint_clean",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L368",
+      "source_location": "L322",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_378",
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_332",
       "target": "job_kit_starter_resume_builder_helpers_tailor_resume_fingerprint_clean_matrix",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L378",
+      "source_location": "L332",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_398",
+      "source": "job_kit_starter_resume_builder_helpers_tailor_resume_rationale_352",
       "target": "job_kit_starter_resume_builder_helpers_tailor_resume_order_without_verb_repeats",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/tailor_resume.py",
-      "source_location": "L398",
+      "source_location": "L352",
       "weight": 1.0
     },
     {
@@ -18522,17 +18039,6 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/resume_builder/helpers/test_tailor_resume.py",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_test_check_applied_companies_rationale_1",
-      "target": "job_kit_starter_test_check_applied_companies",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/test_check_applied_companies.py",
       "source_location": "L1",
       "weight": 1.0
     },
@@ -18655,5 +18161,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6aa8b6512eead83b42a4e8ebbcb94ea90fee6588"
+  "built_at_commit": "dae53aa0ed301e05c21a07c3470fad16e0d5a4da"
 }
