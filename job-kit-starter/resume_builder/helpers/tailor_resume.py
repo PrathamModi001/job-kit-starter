@@ -21,14 +21,47 @@ import experience_parser as ep
 import fingerprint_check as fc
 
 
+def _word_in_text(term, text_lower):
+    """Whole-word/phrase match — avoids 'rag' matching 'storage', 'ai' matching
+    'maintain', 'sql' matching 'postgresql', etc. Terms with non-alphanumeric
+    edges (e.g. 'c#', '.net') can't take a \\b boundary there, so those fall
+    back to plain substring matching."""
+    term_lower = term.lower()
+    prefix = '' if not term_lower[0].isalnum() else r'\b'
+    suffix = '' if not term_lower[-1].isalnum() else r'\b'
+    pattern = prefix + re.escape(term_lower) + suffix
+    return re.search(pattern, text_lower) is not None
+
+
+# Common tech terms the candidate does NOT possess (absent from every bundle's
+# approved_pool and from skills_taxonomy.md) — used only to detect Gap terms so
+# coverage_pct reflects requirements the candidate is missing, not just ones met.
+GAP_CANDIDATE_TERMS = [
+    'go', 'golang', 'rust', 'elixir', 'scala', 'ruby', 'ruby on rails', 'php',
+    'c#', '.net', 'asp.net', 'swift', 'kotlin', 'angular', 'vue', 'svelte',
+    'hadoop', 'spark', 'flink', 'storm', 'cassandra', 'snowflake', 'redshift',
+    'bigquery', 'airflow', 'dbt', 'mysql', 'oracle', 'sqlite', 'neo4j', 'solr',
+    'elasticsearch', 'rabbitmq', 'activemq', 'grpc', 'protobuf', 'istio',
+    'envoy', 'pulsar', 'consul', 'vault', 'nomad', 'helm', 'argocd', 'jenkins',
+    'circleci', 'travis', 'gitlab ci', 'gcp', 'azure', 'ansible', 'chef',
+    'puppet',
+]
+
+
 def extract_jd_keywords(jd_text, all_tags, taxonomy_terms):
     jd_lower = jd_text.lower()
-    direct = sorted({tag for tag in all_tags if tag.lower() in jd_lower})
+    direct = sorted({tag for tag in all_tags if _word_in_text(tag, jd_lower)})
+    direct_set = set(direct)
     bridge = sorted({
         term.lower() for term in taxonomy_terms
-        if term.lower() in jd_lower and term.lower() not in direct
+        if _word_in_text(term, jd_lower) and term.lower() not in direct_set
     })
-    return {'direct': direct, 'bridge': bridge}
+    bridge_set = set(bridge)
+    gap = sorted({
+        term for term in GAP_CANDIDATE_TERMS
+        if _word_in_text(term, jd_lower) and term not in direct_set and term not in bridge_set
+    })
+    return {'direct': direct, 'bridge': bridge, 'gap': gap}
 
 
 def score_bullet(bullet_id, bullets_by_id, jd_keyword_set):
@@ -98,11 +131,12 @@ def build_tagline(approved_pool, default_tool_order, label, jd_text):
 
 
 def compute_coverage(jd_keywords, resume_text):
-    all_terms = jd_keywords['direct'] + jd_keywords['bridge']
+    matchable_terms = jd_keywords['direct'] + jd_keywords['bridge']
+    all_terms = matchable_terms + jd_keywords.get('gap', [])
     if not all_terms:
         return 0.0
     resume_lower = resume_text.lower()
-    matched = [term for term in all_terms if term in resume_lower]
+    matched = [term for term in matchable_terms if term in resume_lower]
     return round(100 * len(matched) / len(all_terms), 1)
 
 
@@ -215,9 +249,10 @@ def _select_lane(jd_text, lane_arg):
     if lane_arg != 'auto':
         return lane_arg
     jd_lower = jd_text.lower()
-    if any(k in jd_lower for k in ('full-stack', 'full stack', 'react', 'next.js')):
+    if any(_word_in_text(k, jd_lower) for k in ('full-stack', 'full stack', 'react', 'next.js')):
         return 'fullstack'
-    if any(k in jd_lower for k in ('ai engineer', 'ml engineer', 'rag', 'llm', 'agent')):
+    if any(_word_in_text(k, jd_lower) for k in
+           ('ai engineer', 'ml engineer', 'rag', 'llm', 'agentic', 'langchain', 'langgraph')):
         return 'ai'
     return 'backend'
 

@@ -74,16 +74,25 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
       log `Status=Blocked` with the specific reason, return that status. The user
       finishes blocked ones manually later. **This does not fill a `NUM_JOBS` slot** —
       the orchestrator pulls another qualifying lead to replace it.
-   h. Log the result (Applied / Blocked / Skipped) to `applications.csv` via the
-      csv-logger agent and run `job-kit-starter/tracker/refresh.sh`. Log the actual
-      per-job posting URL, not a generic feed/search URL.
+
+   The subagent's job ends at 5g — it never touches `applications.csv` itself.
+   **Step h (CSV logging) is the orchestrator's job, not the subagent's:** as each
+   subagent returns its one-line result, the orchestrator — one lead at a time, in the
+   order results arrive, never in parallel — logs that result (Applied / Blocked /
+   Skipped, with the actual per-job posting URL, not a generic feed/search URL) to
+   `applications.csv` via the csv-logger agent, then runs
+   `job-kit-starter/tracker/refresh.sh`, before processing the next returned result.
+   This keeps all writes to the single-source-of-truth CSV serialized through one
+   writer even when multiple per-lead subagents are in flight at once.
 
    **Subagent dispatch contract:** the orchestrator dispatches one subagent per lead
-   with this payload only — Company, Role, Job URL, JD text (or fetch instructions),
-   output folder path (`output/<Company> - <Role>/`), the path
-   `.agents/rules/job_hunt_profile.md` (the subagent reads this itself for canonical
-   form facts — never paste facts into the payload), and today's date (the subagent
-   has no clock). The subagent runs 5a-5h above and returns exactly one line:
+   with this payload — Company, Role, Job URL, JD text (or fetch instructions),
+   output folder path (`output/<Company> - <Role>/`), the paths
+   `.agents/workflows/daily_scan.md` (steps 5a-5g), `.agents/rules/job_hunt_profile.md`
+   (canonical form facts), `.claude/skills/make-resume/SKILL.md`, and `PLAYBOOK.md`
+   → "ATS recipes" (the subagent reads these itself — never paste their contents into
+   the payload), and today's date (the subagent has no clock). The subagent runs 5a-5g
+   above and returns exactly one line:
    `<Status> | <Company> | <Role> | <Resume path or "-"> | <Req ID or reason>`. The
    orchestrator's context holds only these one-line returns plus the queue state
    (Pending/Applied/Blocked/Skipped per lead) — it never holds tailoring reasoning,

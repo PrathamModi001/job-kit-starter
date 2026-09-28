@@ -9,7 +9,6 @@ Usage:
 """
 import argparse
 import csv
-import sys
 
 
 def applied_companies(csv_path):

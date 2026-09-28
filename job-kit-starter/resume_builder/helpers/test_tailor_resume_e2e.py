@@ -7,7 +7,6 @@ Run: python3 test_tailor_resume_e2e.py
 Requires: tectonic, pypdf installed.
 """
 import subprocess
-import sys
 import tempfile
 import os
 
