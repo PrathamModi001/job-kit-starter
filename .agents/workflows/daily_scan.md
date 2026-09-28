@@ -79,8 +79,10 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    **Step h (CSV logging) is the orchestrator's job, not the subagent's:** as each
    subagent returns its one-line result, the orchestrator — one lead at a time, in the
    order results arrive, never in parallel — logs that result (Applied / Blocked /
-   Skipped, with the actual per-job posting URL, not a generic feed/search URL) to
-   `applications.csv` via the csv-logger agent, then runs
+   Skipped, with the actual per-job posting URL, not a generic feed/search URL, and for
+   `Applied` rows the subagent's returned `Personal Info Filled` string passed through
+   verbatim — never rewritten or filled in by the orchestrator) to `applications.csv`
+   via the csv-logger agent, then runs
    `job-kit-starter/tracker/refresh.sh`, before processing the next returned result.
    This keeps all writes to the single-source-of-truth CSV serialized through one
    writer even when multiple per-lead subagents are in flight at once.
@@ -93,8 +95,13 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    → "ATS recipes" (the subagent reads these itself — never paste their contents into
    the payload), and today's date (the subagent has no clock). The subagent runs 5a-5g
    above and returns exactly one line:
-   `<Status> | <Company> | <Role> | <Resume path or "-"> | <Req ID or reason>`. The
-   orchestrator's context holds only these one-line returns plus the queue state
+   `<Status> | <Company> | <Role> | <Resume path or "-"> | <Req ID or reason> |
+   <Personal Info Filled or "-">`. The 6th field is required whenever `Status=Applied`
+   — the subagent's own verbatim record of the personal-info values it actually typed
+   into the form (`key=value; key=value`, same format the csv-logger agent expects for
+   this column), since it's the only party that ever saw the filled form; the
+   orchestrator must never reconstruct or blank this field itself. The orchestrator's
+   context holds only these one-line returns plus the queue state
    (Pending/Applied/Blocked/Skipped per lead) — it never holds tailoring reasoning,
    browser traces, or compile output. This isolation is deliberate: it's what keeps
    personal-info form-filling accurate at job #10 the same as job #1, since each

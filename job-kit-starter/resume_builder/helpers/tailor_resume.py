@@ -21,29 +21,40 @@ import experience_parser as ep
 import fingerprint_check as fc
 
 
-def _word_in_text(term, text_lower):
-    """Whole-word/phrase match — avoids 'rag' matching 'storage', 'ai' matching
+def _word_search(term, text_lower):
+    """Whole-word/phrase search — avoids 'rag' matching 'storage', 'ai' matching
     'maintain', 'sql' matching 'postgresql', etc. Terms with non-alphanumeric
     edges (e.g. 'c#', '.net') can't take a \\b boundary there, so those fall
-    back to plain substring matching."""
+    back to plain substring matching on that edge only. Returns the Match object
+    (for callers that need match position) or None."""
     term_lower = term.lower()
+    if not term_lower:
+        return None
     prefix = '' if not term_lower[0].isalnum() else r'\b'
     suffix = '' if not term_lower[-1].isalnum() else r'\b'
     pattern = prefix + re.escape(term_lower) + suffix
-    return re.search(pattern, text_lower) is not None
+    return re.search(pattern, text_lower)
+
+
+def _word_in_text(term, text_lower):
+    return _word_search(term, text_lower) is not None
 
 
 # Common tech terms the candidate does NOT possess (absent from every bundle's
 # approved_pool and from skills_taxonomy.md) — used only to detect Gap terms so
 # coverage_pct reflects requirements the candidate is missing, not just ones met.
+# Excludes plain-English filler that would false-positive even under whole-word
+# matching (e.g. 'go' in "go the extra mile", 'chef'/'storm'/'vault'/'swift' as
+# ordinary adjectives/nouns) — those stay out even though the tools are real gaps,
+# since a spurious gap only ever deflates coverage_pct, never inflates it.
 GAP_CANDIDATE_TERMS = [
-    'go', 'golang', 'rust', 'elixir', 'scala', 'ruby', 'ruby on rails', 'php',
-    'c#', '.net', 'asp.net', 'swift', 'kotlin', 'angular', 'vue', 'svelte',
-    'hadoop', 'spark', 'flink', 'storm', 'cassandra', 'snowflake', 'redshift',
-    'bigquery', 'airflow', 'dbt', 'mysql', 'oracle', 'sqlite', 'neo4j', 'solr',
+    'golang', 'rust', 'elixir', 'scala', 'ruby', 'ruby on rails', 'php',
+    'c#', '.net', 'asp.net', 'kotlin', 'angular', 'vue', 'svelte',
+    'hadoop', 'apache spark', 'flink', 'cassandra', 'snowflake', 'redshift',
+    'bigquery', 'airflow', 'dbt', 'mysql', 'sqlite', 'neo4j', 'solr',
     'elasticsearch', 'rabbitmq', 'activemq', 'grpc', 'protobuf', 'istio',
-    'envoy', 'pulsar', 'consul', 'vault', 'nomad', 'helm', 'argocd', 'jenkins',
-    'circleci', 'travis', 'gitlab ci', 'gcp', 'azure', 'ansible', 'chef',
+    'envoy', 'pulsar', 'hashicorp vault', 'argocd', 'jenkins',
+    'circleci', 'travis ci', 'gitlab ci', 'gcp', 'azure', 'ansible',
     'puppet',
 ]
 
@@ -117,9 +128,9 @@ def build_tagline(approved_pool, default_tool_order, label, jd_text):
     jd_lower = jd_text.lower()
     matches = []
     for tool in approved_pool:
-        idx = jd_lower.find(tool.lower())
-        if idx != -1:
-            matches.append((idx, tool))
+        match = _word_search(tool, jd_lower)
+        if match:
+            matches.append((match.start(), tool))
     matches.sort(key=lambda pair: pair[0])
     tools = [tool for _, tool in matches][:4]
     for tool in default_tool_order:
@@ -136,7 +147,7 @@ def compute_coverage(jd_keywords, resume_text):
     if not all_terms:
         return 0.0
     resume_lower = resume_text.lower()
-    matched = [term for term in matchable_terms if term in resume_lower]
+    matched = [term for term in matchable_terms if _word_in_text(term, resume_lower)]
     return round(100 * len(matched) / len(all_terms), 1)
 
 

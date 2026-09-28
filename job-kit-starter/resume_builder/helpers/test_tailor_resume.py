@@ -186,6 +186,63 @@ def test_fixed_facts_matches_config_md():
     assert tr.FIXED_FACTS['email'] == 'prathammodi001@gmail.com'
 
 
+def test_word_in_text_rejects_substring_false_positives():
+    assert not tr._word_in_text('rag', 'we use object storage and leverage caching')
+    assert not tr._word_in_text('ai', 'please maintain the pipeline')
+    assert not tr._word_in_text('sql', 'built on postgresql')
+    assert tr._word_in_text('rag', 'built a rag pipeline over vector search')
+
+
+def test_word_in_text_handles_non_alnum_edges():
+    assert tr._word_in_text('c#', 'looking for a c# developer')
+    assert not tr._word_in_text('c#', 'looking for a c developer')
+    assert tr._word_in_text('.net', 'built on .net core')
+    assert tr._word_in_text('node.js', 'built with node.js, express')
+
+
+def test_word_in_text_empty_term_is_false():
+    assert not tr._word_in_text('', 'anything at all')
+
+
+def test_select_lane_auto_ignores_substring_false_positives():
+    jd = "Node.js backend role. We leverage Kafka and object storage heavily."
+    assert tr._select_lane(jd, 'auto') == 'backend'
+
+
+def test_select_lane_auto_detects_genuine_ai_jd():
+    jd = "AI Engineer building agentic RAG pipelines with LangChain and LangGraph."
+    assert tr._select_lane(jd, 'auto') == 'ai'
+
+
+def test_extract_jd_keywords_tags_gap_terms():
+    jd = "Required: Go, Rust, Scala. Also Node.js and Kafka experience."
+    result = tr.extract_jd_keywords(jd, ALL_TAGS, TAXONOMY_TERMS)
+    assert 'rust' in result['gap']
+    assert 'scala' in result['gap']
+    assert 'kafka' in result['direct']
+    assert 'kafka' not in result['gap']
+
+
+def test_compute_coverage_gap_terms_lower_the_score():
+    jd_keywords = {'direct': ['kafka'], 'bridge': [], 'gap': ['rust', 'scala']}
+    coverage = tr.compute_coverage(jd_keywords, "Built systems using Kafka.")
+    assert coverage == round(100 * 1 / 3, 1)
+
+
+def test_compute_coverage_backward_compatible_without_gap_key():
+    jd_keywords = {'direct': ['kafka'], 'bridge': []}
+    coverage = tr.compute_coverage(jd_keywords, "Built systems using Kafka.")
+    assert coverage == 100.0
+
+
+def test_build_tagline_ignores_substring_false_positives():
+    pool = ['RAG', 'Python', 'LangChain', 'Kafka']
+    tagline = tr.build_tagline(
+        pool, ['Python', 'LangChain', 'MCP', 'Kafka'], 'AI',
+        "We use blob storage and leverage message queues.")
+    assert 'RAG' not in tagline
+
+
 if __name__ == '__main__':
     for name, fn in list(globals().items()):
         if name.startswith('test_'):
