@@ -108,3 +108,97 @@ def write_keyword_table(path, jd_keywords, coverage_pct):
     data['coverage_pct'] = coverage_pct
     with open(path, 'w') as f:
         json.dump(data, f, indent=2)
+
+
+# Source: config.md Personal Info + experience_c3ihub.md / experience_playpower.md
+# FIXED headers + SKILL_PROFILE.md Education. Update both places together.
+FIXED_FACTS = {
+    'name': 'Pratham Modi',
+    'email': 'prathammodi001@gmail.com',
+    'phone': '+91-9033393729',
+    'location': 'Koramangala, Bengaluru, India',
+    'github_url': 'https://github.com/PrathamModi001',
+    'github_handle': 'github.com/PrathamModi001',
+    'linkedin_url': 'https://www.linkedin.com/in/prathammodii001/',
+    'linkedin_handle': 'linkedin.com/in/prathammodii001',
+    'c3ihub_dates': 'Jul 2025 -- Present',
+    'c3ihub_title': 'Software Development Engineer',
+    'c3ihub_location': 'Kanpur, India',
+    'playpower_dates': 'Nov 2024 -- Jun 2025',
+    'playpower_title': 'Software Development Engineer',
+    'playpower_location': 'Remote',
+    'degree': 'B.Tech, Computer Science and Engineering',
+    'education_dates': '2021 -- 2025',
+    # NOTE: brief's Step 3 hardcoded 'Indian Institute of Information Technology' here,
+    # which does not match any source file. SKILL_PROFILE.md's Education section (the
+    # only place this fact appears) says 'Pandit Deendayal Energy University' — used here.
+    'institution': 'Pandit Deendayal Energy University',
+    'gpa': '9.20/10.0',
+}
+
+
+def _replace_first(text, marker, value):
+    return text.replace(marker, value, 1)
+
+
+def render_resume_tex(template_path, facts, tagline, summary, skills_groups,
+                       c3ihub_bullets, playpower_bullets, projects):
+    with open(template_path) as f:
+        text = f.read()
+
+    text = _replace_first(text, '[FIXED: Full Name]', facts['name'])
+    text = _replace_first(text, '[FIXED: email]', facts['email'])
+    text = _replace_first(text, '[FIXED: phone]', facts['phone'])
+    text = _replace_first(text, '[FIXED: location]', facts['location'])
+    text = _replace_first(text, '[FIXED: GitHub URL]', facts['github_url'])
+    text = _replace_first(text, '[FIXED: github.com/handle]', facts['github_handle'])
+    text = _replace_first(text, '[FIXED: LinkedIn URL]', facts['linkedin_url'])
+    text = _replace_first(text, '[FIXED: linkedin.com/in/handle]', facts['linkedin_handle'])
+    text = _replace_first(text, '[GENERATE: Tagline]', tagline)
+    text = _replace_first(
+        text, '[GENERATE: Summary — copied from bundle_<lane>.md Summary block]', summary)
+
+    # Skills groups substituted positionally, one GENERATE pair per group.
+    for i, (name, skills) in enumerate(skills_groups, 1):
+        text = _replace_first(text, f'[GENERATE: Group {i} Name]', name)
+        text = _replace_first(text, '[GENERATE: skills, comma-separated]', skills)
+
+    text = _replace_first(text, '[FIXED: Company 1, Institution]', 'C3iHub, IIT Kanpur')
+    text = _replace_first(text, '[FIXED: Start -- End]', facts['c3ihub_dates'])
+    text = _replace_first(text, '[FIXED: Title]', facts['c3ihub_title'])
+    text = _replace_first(text, '[FIXED: Location]', facts['c3ihub_location'])
+    text = _replace_first(
+        text, '[GENERATE: Bullet — copy-exact from experience file, by ID]', c3ihub_bullets[0])
+    for bullet in c3ihub_bullets[1:]:
+        text = _replace_first(text, '[GENERATE: Bullet]', bullet)
+
+    text = _replace_first(text, '[FIXED: Company 2]', 'Playpower Labs')
+    text = _replace_first(text, '[FIXED: Start -- End]', facts['playpower_dates'])
+    text = _replace_first(text, '[FIXED: Title]', facts['playpower_title'])
+    text = _replace_first(text, '[FIXED: Location]', facts['playpower_location'])
+    for bullet in playpower_bullets:
+        text = _replace_first(text, '[GENERATE: Bullet]', bullet)
+
+    # Project 1 and Project 2 use different exact marker text in the real template
+    # (verified against resume_builder/templates/swe_resume_template.tex) — handle
+    # each explicitly rather than looping with one assumed-shared marker set.
+    name1, tools1, tag1, description1 = projects[0]
+    text = _replace_first(text, '[GENERATE: Project Name]', name1)
+    text = _replace_first(text, '[GENERATE: tools, comma-separated]', tools1)
+    text = _replace_first(text, '[GENERATE: tag, e.g. Hackathon Winner]', tag1)
+    text = _replace_first(
+        text, '[GENERATE: 1-line description — copy-exact from experience_projects.md]',
+        description1)
+
+    name2, tools2, tag2, description2 = projects[1]
+    text = _replace_first(text, '[GENERATE: Project Name]', name2)
+    text = _replace_first(text, '[GENERATE: tools]', tools2)
+    text = _replace_first(text, '[GENERATE: tag]', tag2)
+    text = _replace_first(text, '[GENERATE: description]', description2)
+
+    text = _replace_first(text, '[FIXED: Degree, Major]', facts['degree'])
+    text = _replace_first(text, '[FIXED: Start -- End]', facts['education_dates'])
+    text = _replace_first(text, '[FIXED: Institution]', facts['institution'])
+    text = _replace_first(text, '[FIXED: X.XX/10.0]', facts['gpa'])
+
+    return text

@@ -141,6 +141,51 @@ def test_write_keyword_table_produces_valid_json():
         assert data['coverage_pct'] == 87.5
 
 
+TEMPLATE_PATH = '../templates/swe_resume_template.tex'
+
+
+def test_render_produces_no_leftover_generate_markers():
+    rendered = tr.render_resume_tex(
+        TEMPLATE_PATH, tr.FIXED_FACTS,
+        tagline='Software Engineer | Backend & Distributed Systems | Node.js, Kafka, Redis, AWS',
+        summary='Backend-focused software engineer with 2+ years in production.',
+        skills_groups=[
+            ('Backend', 'Node.js, Express.js, FastAPI'),
+            ('Databases', 'PostgreSQL, MongoDB, Redis'),
+            ('Messaging', 'Kafka, BullMQ'),
+            ('Cloud, DevOps & Observability', 'AWS, Docker'),
+            ('Architecture', 'Microservices, System Design'),
+        ],
+        c3ihub_bullets=['Bullet one text.', 'Bullet two text.', 'Bullet three text.', 'Bullet four text.'],
+        playpower_bullets=['PP bullet one.', 'PP bullet two.', 'PP bullet three.'],
+        projects=[
+            ('Project One', 'Tool A, Tool B', 'Hackathon Winner', 'Project one description.'),
+            ('Project Two', 'Tool C, Tool D', '', 'Project two description.'),
+        ],
+    )
+    assert '[GENERATE' not in rendered
+    assert '[FIXED' not in rendered
+
+
+def test_render_reproduces_bullet_text_verbatim():
+    bullet_text = 'A very specific bullet with the number 12345.'
+    rendered = tr.render_resume_tex(
+        TEMPLATE_PATH, tr.FIXED_FACTS,
+        tagline='Software Engineer | Backend & Distributed Systems | Node.js, Kafka, Redis, AWS',
+        summary='Summary text.',
+        skills_groups=[('G1', 's1'), ('G2', 's2'), ('G3', 's3'), ('G4', 's4'), ('G5', 's5')],
+        c3ihub_bullets=[bullet_text, 'b2', 'b3', 'b4'],
+        playpower_bullets=['b5', 'b6', 'b7'],
+        projects=[('P1', 'T1', '', 'd1'), ('P2', 'T2', '', 'd2')],
+    )
+    assert bullet_text in rendered
+
+
+def test_fixed_facts_matches_config_md():
+    assert tr.FIXED_FACTS['name'] == 'Pratham Modi'
+    assert tr.FIXED_FACTS['email'] == 'prathammodi001@gmail.com'
+
+
 if __name__ == '__main__':
     for name, fn in list(globals().items()):
         if name.startswith('test_'):
