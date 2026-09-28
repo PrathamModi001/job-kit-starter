@@ -67,6 +67,17 @@ def test_select_bullets_swaps_in_higher_scoring_candidate():
     assert len(selected) == 4
 
 
+def test_select_bullets_blocks_far_worse_tier_candidate_swap():
+    # C6 (LOW tier, rank 6) scores higher than the current worst selected
+    # bullet C1 (HIGH tier, rank 1), but the tier gap (LOW vs HIGH = 3 tiers)
+    # exceeds the guardrail's 2-tier slack, so the swap must be blocked and
+    # the original HIGH-tier default selection preserved.
+    jd_keywords = {'websocket', 'django-channels', 'leadership'}
+    selected = tr.select_bullets(BACKEND_C3IHUB_MATRIX, BULLETS_BY_ID, jd_keywords, pick_count=4)
+    assert selected == ['C1', 'C3', 'C4', 'C5']
+    assert 'C6' not in selected
+
+
 def test_select_bullets_respects_cap_rule():
     matrix = [(1, 'PP2', 'HIGH'), (2, 'PP3', 'HIGH')]
     caps = [(frozenset({'PP2', 'PP3'}), 1)]

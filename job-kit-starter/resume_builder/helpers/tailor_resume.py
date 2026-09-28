@@ -66,7 +66,8 @@ def select_bullets(matrix, bullets_by_id, jd_keyword_set, pick_count, caps=None)
                 continue
             candidate_tier = bd.TIER_ORDER.get(tier_of.get(bullet_id, 'LOW'), 3)
             candidate_score = score_bullet(bullet_id, bullets_by_id, jd_keyword_set)
-            if worst_tier <= candidate_tier + 1 and candidate_score > worst_score:
+            # Bound tier degradation to at most 2 tiers; always allow tier-improving swaps.
+            if candidate_tier <= worst_tier + 2 and candidate_score > worst_score:
                 trial = [bullet_id if x == worst else x for x in selected]
                 if not _violates_cap([x for x in trial if x != bullet_id], bullet_id, caps):
                     selected = trial
