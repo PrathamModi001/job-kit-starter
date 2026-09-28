@@ -52,32 +52,43 @@ If the user provides feedback, corrections, or suggestions at any point:
 
 ---
 
-## Step 0: Load context (no web search, no session file)
+## Step 0: Run the deterministic tailoring pass
 
-Read, and nothing else:
-1. The JD (from `$ARGUMENTS`)
-2. `config.md` — Provenance Flags, email, Role-Type Decision Tree
-3. `resume_builder/support/achievement_reframing_guide.md` — Lane Selection Decision Tree, Bullet Generation Policy, SWE Resume Budget
-4. The matching `resume_builder/bundles/bundle_<lane>.md` (pick lane per the Decision Tree; for hybrid JDs, default to Backend, borrowing at most 1-2 HIGH bullets from a secondary lane per the Decision Tree's rule)
-5. All 3 experience files: `resume_builder/experience/experience_c3ihub.md`, `experience_playpower.md`, `experience_projects.md`
-6. `SKILL_PROFILE.md` — grounds Step 1's Gap tag ("genuinely absent from
-   `SKILL_PROFILE.md`") and Step 3 lever 3's "every genuinely-possessed,
+```bash
+python3 resume_builder/helpers/tailor_resume.py --jd <JD file path> --company "<Company>" --out-dir output/<FolderName>
+```
+
+This writes a draft `output/<FolderName>/e2e_<name>_resume.tex` and
+`output/<FolderName>/keyword_table.json` with 0 LLM tokens — bullet/tagline/skills
+selection already applied per the matching lane's bundle rules.
+
+Then read, and nothing else:
+1. `output/<FolderName>/e2e_<name>_resume.tex` (the draft)
+2. `output/<FolderName>/keyword_table.json` (Direct/Bridge keyword table + coverage %)
+3. `resume_builder/support/achievement_reframing_guide.md` — Bullet Generation Policy
+   and the five tailoring levers (needed for Step 3's review pass)
+4. `resume_builder/support/skills_taxonomy.md` — the source the resume
+   template's Skills section is built from (needed to fill in the draft's
+   empty skill-lists in Step 3)
+5. `SKILL_PROFILE.md` — grounds Step 1's Gap-tag review ("genuinely absent
+   from `SKILL_PROFILE.md`") and Step 3 lever 3's "every genuinely-possessed,
    JD-relevant skill" enumeration in an actual file, not model recall
-7. `resume_builder/support/skills_taxonomy.md` — the source the resume
-   template's Skills section is built from
 
-Create output folder: `JDs/JD_Acme.txt` → `output/Acme/` (`mkdir -p output/<FolderName>/`).
+**Fallback (only if `keyword_table.json`'s `coverage_pct` is below 75%):** read the
+relevant `resume_builder/experience/experience_*.md` file in full to look for a
+truthful bullet swap the script's tag-overlap heuristic missed, per Step 6.
+
+Create output folder: `JDs/JD_Acme.txt` → `output/Acme/` (`mkdir -p output/<FolderName>/`) — the script's `--out-dir` already does this, so this is a no-op if the script ran first.
 
 ---
 
-## Step 1: JD keyword table
+## Step 1: Review the JD keyword table
 
-Extract the top 15-20 ATS terms from the JD (tools, frameworks, methodologies,
-domain nouns). Tag each **Direct** (already in the experience files/skills
-taxonomy) / **Bridge** (a real skill used in a different original context) /
-**Gap** (genuinely absent from `SKILL_PROFILE.md`).
-
-Present as a compact table (not a full requirements doc):
+`keyword_table.json` already has the Direct/Bridge keyword table and computed
+coverage %. Present it as the compact table (same format as before). If a term looks
+mis-tagged (e.g. a Gap the script missed, or a Bridge term that's actually a hard Gap
+given `SKILL_PROFILE.md`), correct it here — this is the review checkpoint, not a
+blind pass-through.
 
 | JD Term | Tag | Source (bullet ID or skills-taxonomy entry) |
 |---|---|---|
@@ -88,12 +99,14 @@ don't discard it after this step.
 
 ---
 
-## Step 2: Lane + bullet selection
+## Step 2: Review the script's bullet selection
 
-Pick bullets per the bundle's Priority Matrix, weighted toward IDs tagged
-Direct/Bridge in Step 1's table. Bullet text is copy-exact from the
-experience file — the only edits allowed are trimming a trailing clause to
-fit the char budget (never touch a number, tool name, or verb).
+The draft `.tex` already has bullets selected by `tailor_resume.py` (cap rules and
+Priority Matrix ranks already respected). Sanity-check: does each selected bullet
+genuinely fit this JD better than an unselected one in the same slot? If the script's
+coverage % is below 75%, consult the fallback experience-file read from Step 0 and
+swap in a stronger truthful bullet for the weakest-fitting slot — copy-exact only, same
+rule as always.
 
 Budget (from `achievement_reframing_guide.md` SWE Resume Budget): 4 bullets
 Position 1, 3-4 bullets Position 2, 2 projects, 5 skills lines, 3-4 line
@@ -103,7 +116,8 @@ summary.
 
 ## Step 3: Generate Summary / Skills / bullets
 
-Apply these five levers, all truthful:
+This step reviews and polishes the script's draft — it is not a from-scratch
+generation. Apply these five levers as edits to what's already in the draft:
 1. **Verbatim JD phrasing** — for genuinely-possessed skills, use the JD's
    own wording instead of a personal synonym. This applies only to bullet
    phrasing and skills-line wording — the Tagline and Summary stay
@@ -121,7 +135,12 @@ Apply these five levers, all truthful:
 Tagline and Summary: copy-exact from the bundle, minor trims only. Tool
 tokens in the tagline must come from the bundle's Approved Pool.
 
-Save `.tex` to `output/<FolderName>/e2e_<name>_resume.tex`.
+Skills section: the draft's skills groups already have group *names and
+order* filled in but empty skill-lists — fill each group's comma-separated
+skills from `skills_taxonomy.md`, bolding only tokens that appear in the JD.
+
+Save edits in place to `output/<FolderName>/e2e_<name>_resume.tex` (the
+draft `tailor_resume.py` wrote in Step 0).
 
 ---
 
