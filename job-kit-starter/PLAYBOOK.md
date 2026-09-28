@@ -59,6 +59,14 @@ Expect diminishing returns after the first week — fresh supply at one level/ci
 
 ### ATS recipes (every quirk here was hit in production)
 
+**Element discovery rule (token discipline):** every recipe below locates and
+interacts with elements via `browser_evaluate` (targeted DOM queries/selectors) or
+`browser_click`/`browser_fill_form` with a known selector — never via a full
+`browser_snapshot` (accessibility-tree dump). Snapshot dumps run 100-380KB and blow up
+context fast across a multi-job run. Reserve `browser_snapshot` for a genuinely stuck
+state with no other way to locate an element, and even then scope it to a specific
+container/region if the tool supports that, not the whole page.
+
 **Workday** (`<company>.wd<N>.myworkdayjobs.com`) — the big one; expect 15-30 min each:
 - Flow: Apply → "Autofill with Resume" → Create Account (email + `<Company>Apply#<year><initials>` password — SAVE to `output/<Company> - <Role>/account_credentials.txt`) → 5-7 steps.
 - Some tenants require **email verification** before sign-in (fetch the activation link from the user's Gmail via the Gmail connector). Some report "account exists, admin requires password reset" — do Forgot Password → fetch the reset link from Gmail → set new password.

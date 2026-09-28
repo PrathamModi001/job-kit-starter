@@ -34,16 +34,63 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    - Triage every new lead strictly against the Candidate Bar in `job_hunt_profile.md`.
    - Score by fit (reuse `job_hunt.py`'s scoring where available) and take only the **top `NUM_JOBS`** leads (default 15) as the initial shortlist. Indeed Smart Apply leads are ranked and shortlisted the same way but sit in their own separate, uncapped bucket (see param note above) — don't let them consume `NUM_JOBS` slots.
    - Log a one-line fit reason for every lead considered, including ones cut for being outside the top `NUM_JOBS`.
-   - **`NUM_JOBS` counts `Status=Applied` only, not attempts.** If a shortlisted lead ends up `Blocked` (step 5e), that slot is still open — pull the next-best qualifying lead from the ranked list (or re-scan for more if the list is exhausted) and keep going until `NUM_JOBS` leads are actually `Applied`, or there are genuinely no more qualifying leads left from this run's sources. Do not stop early and report a `NUM_JOBS=5` run as complete with e.g. 3 Applied + 2 Blocked — that under-delivers the target.
+   - **`NUM_JOBS` counts `Status=Applied` only, not attempts.** If a shortlisted lead ends up `Blocked` (step 5g), that slot is still open — pull the next-best qualifying lead from the ranked list (or re-scan for more if the list is exhausted) and keep going until `NUM_JOBS` leads are actually `Applied`, or there are genuinely no more qualifying leads left from this run's sources. Do not stop early and report a `NUM_JOBS=5` run as complete with e.g. 3 Applied + 2 Blocked — that under-delivers the target. Track this from each subagent's one-line return in step 5, not from re-reading `applications.csv`.
 
-5. **Apply — Tailor + Submit**, for each of the top `NUM_JOBS` leads (plus all qualifying Indeed Smart Apply leads, tracked separately — see param note above):
-   a. Run `/make-resume <JD path or text>` — this is Batch Mode (`.claude/skills/make-resume/SKILL.md`), the sole tailoring path: JD keyword extraction, lane/bullet selection, generation, char-count/compile/fingerprint/ATS-coverage gates, condensed critique. Do not restate its internal steps here; the skill is the single source of truth. It saves the compiled PDF to `output/<Company>/e2e_<name>_resume.pdf` and a `batch_notes.md` with the ATS match rate — rename/copy the PDF to `output/<Company> - <Role>/Pratham_Modi_Resume.pdf` for the apply step below.
-   b. **HARD GATE:** do not proceed to Submit unless that PDF exists on disk. Never submit with a generic/default/cached resume.
-   b2. **HARD GATE — mechanical exclusion check, run this for EVERY lead regardless of source (scripted, Cutshort, Naukri, Instahyre, Wellfound, live-browsed Indeed — the `-50` code-level skip in `job_hunt.py`/`job_hunt_india.py` only covers the two scripted scanners, so this step is the only gate for everything else):** before opening the application form, literally quote the job title and re-check it word-by-word against this list — Java, .NET/C#/ASP.NET, C++, Ruby/Ruby on Rails, Senior, Staff, Principal, Architect, Lead, SDE 2/II, SDE 3/III, SDE-2, SDE-3, Product Engineer II/PE 2, Member of Technical Staff/MTS. Any match anywhere in the title or the JD's stated primary stack → do not open the form, log `Status=Skipped` with the matched term as the reason, move to the next lead. This is a literal string check, not a judgment call — do not rationalize a match as "close enough to acceptable."
-   c. Fill the ATS form using the platform-specific recipe in PLAYBOOK.md → "ATS recipes" (Workday, SuccessFactors, Naukri, Indeed Smart Apply, Wellfound, Phenom, Freshteam, custom forms, etc.). Always replace any pre-selected default resume with the tailored PDF. Save any account credentials / TOTP secrets created during signup to `output/<Company> - <Role>/account_credentials.txt`.
-   d. Click final Submit.
-   e. **On any blocker** (image/grid captcha, Cloudflare "Additional Verification Required" wall, an unresolvable required field): do not close the tab, do not pause, do not hand off. Leave that application exactly where it got stuck in its own browser tab, log `Status=Blocked` in `applications.csv` with the specific reason, and move on to the next lead in a new tab. The user finishes blocked ones manually later. **This does not fill a `NUM_JOBS` slot** — pull another qualifying lead to replace it (see step 4's `NUM_JOBS` note).
-   f. Log the result (Applied / Blocked / Skipped) to `applications.csv` via the Python `csv` module and run `job-kit-starter/tracker/refresh.sh`. **Every lead you opened a form for gets a row, no exceptions** — including one abandoned mid-fill because of a site bug/quirk before you pivoted to a replacement lead (see `.agents/rules/regression_checklist.md` → "Applications"). Log the actual per-job posting URL, not a generic feed/search URL.
+5. **Apply — Screen, then Tailor + Submit**, for each of the top `NUM_JOBS` leads (plus
+   all qualifying Indeed Smart Apply / LinkedIn Easy Apply leads, tracked separately —
+   see param note above). **Dispatch each lead to its own subagent** (see step 5's
+   subagent contract below) running the sequence:
+
+   a. **HARD GATE — mechanical exclusion check, run first, before any tailoring:**
+      literally quote the job title and re-check it word-by-word against this list —
+      Java, .NET/C#/ASP.NET, C++, Ruby/Ruby on Rails, Senior, Staff, Principal,
+      Architect, Lead, SDE 2/II, SDE 3/III, SDE-2, SDE-3, Product Engineer II/PE 2,
+      Member of Technical Staff/MTS. Any match anywhere in the title or the JD's
+      stated primary stack → do not open the form, log `Status=Skipped` with the
+      matched term as the reason, return that status to the orchestrator, done — no
+      resume is ever built for this lead.
+   b. **Screener check, before tailoring:** from the JD text (or the first form page,
+      if reachable without a full fill), check for an explicit hard screener
+      disqualifier (e.g. "4+ years required", visa sponsorship required, a
+      language/stack requirement missed by 5a's string check). If found, log
+      `Status=Skipped` with the reason, return, done.
+   c. **Only now, tailor:** run `/make-resume <JD path or text>` (Batch Mode, now
+      backed by `tailor_resume.py` — see `.claude/skills/make-resume/SKILL.md`). It
+      saves the compiled PDF to `output/<Company>/e2e_<name>_resume.pdf` and a
+      `batch_notes.md` with the ATS match rate — rename/copy the PDF to
+      `output/<Company> - <Role>/Pratham_Modi_Resume.pdf` for the apply step.
+   d. **HARD GATE:** do not proceed to Submit unless that PDF exists on disk. Never
+      submit with a generic/default/cached resume.
+   e. Fill the ATS form using the platform-specific recipe in PLAYBOOK.md → "ATS
+      recipes". Always replace any pre-selected default resume with the tailored PDF.
+      Save any account credentials / TOTP secrets created during signup to
+      `output/<Company> - <Role>/account_credentials.txt`. Element discovery follows
+      the Playwright evaluate-only rule in PLAYBOOK.md — do not call `browser_snapshot`
+      for this.
+   f. Click final Submit.
+   g. **On any blocker** (image/grid captcha, Cloudflare "Additional Verification
+      Required" wall, an unresolvable required field): do not close the tab, do not
+      pause. Leave that application exactly where it got stuck in its own browser tab,
+      log `Status=Blocked` with the specific reason, return that status. The user
+      finishes blocked ones manually later. **This does not fill a `NUM_JOBS` slot** —
+      the orchestrator pulls another qualifying lead to replace it.
+   h. Log the result (Applied / Blocked / Skipped) to `applications.csv` via the
+      csv-logger agent and run `job-kit-starter/tracker/refresh.sh`. Log the actual
+      per-job posting URL, not a generic feed/search URL.
+
+   **Subagent dispatch contract:** the orchestrator dispatches one subagent per lead
+   with this payload only — Company, Role, Job URL, JD text (or fetch instructions),
+   output folder path (`output/<Company> - <Role>/`), the path
+   `.agents/rules/job_hunt_profile.md` (the subagent reads this itself for canonical
+   form facts — never paste facts into the payload), and today's date (the subagent
+   has no clock). The subagent runs 5a-5h above and returns exactly one line:
+   `<Status> | <Company> | <Role> | <Resume path or "-"> | <Req ID or reason>`. The
+   orchestrator's context holds only these one-line returns plus the queue state
+   (Pending/Applied/Blocked/Skipped per lead) — it never holds tailoring reasoning,
+   browser traces, or compile output. This isolation is deliberate: it's what keeps
+   personal-info form-filling accurate at job #10 the same as job #1, since each
+   subagent starts from a fresh read of `job_hunt_profile.md` rather than a
+   conversation that's drifted across many prior jobs.
 
 6. **Cold Outreach**:
    - Run per `job_hunt_profile.md` → "Cold Outreach Operations": target ~50 drafts/day (5 Tier A bespoke + 45 Tier B templated-with-slots, per PLAYBOOK.md Phase 4 and `output/job-search/outreach/tier_b_template.md`).
