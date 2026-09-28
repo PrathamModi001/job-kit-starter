@@ -16,7 +16,9 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
 **Before step 1:** read `job-kit-starter/CLAUDE.md` and `job-kit-starter/PLAYBOOK.md` in full, `.agents/rules/job_hunt_profile.md` for the candidate bar, form facts, and submission/outreach rules, and **`.agents/rules/regression_checklist.md`** — every mechanical check in it is mandatory, not advisory, and applies regardless of which lane/tier you're in. CLAUDE.md and PLAYBOOK.md hold the complete resume-tailoring pipeline (`resume_builder/`), the per-ATS form-fill recipes, and the anti-fabrication rules this workflow depends on — do not skip them.
 
 1. **Deduplication Check**:
-   - Check `job-kit-starter/output/job-search/applications.csv` for companies already applied to or closed.
+   - Run `python3 job-kit-starter/check_applied_companies.py job-kit-starter/output/job-search/applications.csv`
+     and use its output (one company per line) to skip already-touched companies —
+     do not read the full `applications.csv` into context for this check.
 
 2. **Execute Scan Scripts** — only the sources listed in `job_hunt_profile.md` → "Approved Sources" (skip any also matching `EXCLUDED_PLATFORMS`):
    - Run `python job-kit-starter/job_hunt.py` to pull top ATS openings (Ashby, Greenhouse, Lever, YC).
