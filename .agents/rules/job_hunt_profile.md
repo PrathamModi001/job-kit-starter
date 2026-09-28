@@ -46,7 +46,7 @@ Canonical procedure: `job-kit-starter/PLAYBOOK.md` → "Phase 4 — Cold email o
 ---
 
 ## 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run)
-Canonical source: `.agents/workflows/daily_scan.md` step 5e. Read it in full before handling any blocker — do not rely on a stale summary here.
+Canonical source: `.agents/workflows/daily_scan.md` step 5g. Read it in full before handling any blocker — do not rely on a stale summary here.
 
 ---
 
