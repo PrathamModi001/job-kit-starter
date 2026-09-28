@@ -113,6 +113,34 @@ def test_tagline_never_inserts_tool_outside_approved_pool():
         assert tool in tagline
 
 
+import json
+import os
+import tempfile
+
+
+def test_compute_coverage_counts_matched_terms():
+    jd_keywords = {'direct': ['kafka', 'redis'], 'bridge': ['graphql']}
+    resume_text = "Built systems using Kafka and Redis extensively."
+    coverage = tr.compute_coverage(jd_keywords, resume_text)
+    assert coverage == round(100 * 2 / 3, 1)
+
+
+def test_compute_coverage_zero_terms_returns_zero():
+    assert tr.compute_coverage({'direct': [], 'bridge': []}, "anything") == 0.0
+
+
+def test_write_keyword_table_produces_valid_json():
+    jd_keywords = {'direct': ['kafka'], 'bridge': ['graphql']}
+    with tempfile.TemporaryDirectory() as tmp:
+        path = os.path.join(tmp, 'keyword_table.json')
+        tr.write_keyword_table(path, jd_keywords, 87.5)
+        with open(path) as f:
+            data = json.load(f)
+        assert data['direct'] == ['kafka']
+        assert data['bridge'] == ['graphql']
+        assert data['coverage_pct'] == 87.5
+
+
 if __name__ == '__main__':
     for name, fn in list(globals().items()):
         if name.startswith('test_'):

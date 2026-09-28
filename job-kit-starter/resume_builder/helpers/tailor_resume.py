@@ -12,6 +12,7 @@ Usage:
       [--lane backend|fullstack|ai|auto] [--out-dir output/<Company>]
 """
 import argparse
+import json
 
 import bundle_data as bd
 import experience_parser as ep
@@ -91,3 +92,19 @@ def build_tagline(approved_pool, default_tool_order, label, jd_text):
         if tool not in tools:
             tools.append(tool)
     return f"Software Engineer | {label} | " + ", ".join(tools[:4])
+
+
+def compute_coverage(jd_keywords, resume_text):
+    all_terms = jd_keywords['direct'] + jd_keywords['bridge']
+    if not all_terms:
+        return 0.0
+    resume_lower = resume_text.lower()
+    matched = [term for term in all_terms if term in resume_lower]
+    return round(100 * len(matched) / len(all_terms), 1)
+
+
+def write_keyword_table(path, jd_keywords, coverage_pct):
+    data = dict(jd_keywords)
+    data['coverage_pct'] = coverage_pct
+    with open(path, 'w') as f:
+        json.dump(data, f, indent=2)
