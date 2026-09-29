@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-09-28)
+# Graph Report - job-kit-starter  (2026-09-29)
 
 ## Corpus Check
-- 194 files · ~138,199 words
+- 207 files · ~141,728 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 832 nodes · 746 edges · 176 communities (49 shown, 12 thin omitted)
+- 869 nodes · 777 edges · 188 communities (50 shown, 12 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dae53aa0`
+- Built from commit: `59f2f533`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -76,6 +76,7 @@
 - Apply-loop token optimization: per-job isolation + deterministic tailoring
 - Batch Mode: single-path, ATS-first resume tailoring
 - Regression Checklist (canonical — every fixed issue lives here, permanently)
+- check_applied_companies.py
 
 ## God Nodes (most connected - your core abstractions)
 1. `tailor()` - 16 edges
@@ -100,7 +101,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (176 total, 12 thin omitted)
+## Communities (188 total, 12 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -132,7 +133,7 @@ Nodes (15): Cover Letter Verification Gates (if CL was edited), /edit-resume, FI
 
 ### Community 8 - "/make-resume"
 Cohesion: 0.15
-Nodes (12): /make-resume, Safety Rules (ALWAYS ENFORCED), Step 0: Load context (no web search, no session file), Step 1: JD keyword table, Step 2: Lane + bullet selection, Step 3: Generate Summary / Skills / bullets, Step 4: Char-count and compile gates, Step 5: Fingerprint gate (script, not LLM read) (+4 more)
+Nodes (12): /make-resume, Safety Rules (ALWAYS ENFORCED), Step 0: Run the deterministic tailoring pass, Step 1: Review the JD keyword table, Step 2: Review the script's bullet selection, Step 3: Generate Summary / Skills / bullets, Step 4: Char-count and compile gates, Step 5: Fingerprint gate (script, not LLM read) (+4 more)
 
 ### Community 9 - "job_hunt.py"
 Cohesion: 0.23
@@ -231,12 +232,12 @@ Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
 ### Community 46 - "tailor_resume.py"
-Cohesion: 0.10
-Nodes (32): build_tagline(), _bullet_text(), _collect_all_tags(), compute_coverage(), _escape_tex(), extract_jd_keywords(), _fingerprint_clean_matrix(), _first_verb() (+24 more)
+Cohesion: 0.09
+Nodes (35): build_tagline(), _bullet_text(), _collect_all_tags(), compute_coverage(), _escape_tex(), extract_jd_keywords(), _fingerprint_clean_matrix(), _first_verb() (+27 more)
 
 ### Community 48 - "test_bundle_data.py"
-Cohesion: 0.10
-Nodes (3): Parse resume_builder/experience/*.md files into {id: {tags,…, Plain-assert tests for bundle_data.py. Run: python3 test_bundle_data.py, Plain-assert tests for experience_parser.py. Run: python3…
+Cohesion: 0.09
+Nodes (4): Structured mirror of resume_builder/bundles/bundle_<lane>.md, used by…, Parse resume_builder/experience/*.md files into {id: {tags,…, Plain-assert tests for bundle_data.py. Run: python3 test_bundle_data.py, Plain-assert tests for experience_parser.py. Run: python3…
 
 ### Community 49 - "/make-resume"
 Cohesion: 0.12
@@ -298,9 +299,13 @@ Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode
 Cohesion: 0.40
 Nodes (4): Applications (auto-apply loop), Cold outreach (Tier A + Tier B) — run before marking any draft done, How to add a new entry, Regression Checklist (canonical — every fixed issue lives here, permanently)
 
+### Community 176 - "check_applied_companies.py"
+Cohesion: 0.33
+Nodes (4): applied_companies(), main(), Print the set of companies already present in applications.csv (any status),…, Plain-assert test for check_applied_companies.py. Run: python3…
+
 ## Knowledge Gaps
 - **376 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+371 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 631 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 661 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions

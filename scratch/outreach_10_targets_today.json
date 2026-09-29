@@ -1,0 +1,72 @@
+[
+  {
+    "company": "LangChain",
+    "founder": "Harrison Chase",
+    "email": "harrison@langchain.dev",
+    "subject": "Agent runtimes & memory pipelines \u2014 note from a backend engineer",
+    "body": "Hi Harrison,\n\nSaw LangChain's release of LangGraph v0.2 and the work on multi-agent human-in-the-loop coordination.\n\nAt Playpower Labs, I engineered sub-200ms RAG pipelines and cut context token overhead 38% by orchestrating a 3-tier memory store with Qdrant and Redis. At C3iHub, I architected core microservices handling 10,000+ concurrent connections with 99.9% uptime.\n\nResume's attached \u2014 github.com/PrathamModi001 has the agent implementation. Worth a quick chat about LangChain?\n\nPratham"
+  },
+  {
+    "company": "Fireworks AI",
+    "founder": "Lin Qiao",
+    "email": "lin@fireworks.ai",
+    "subject": "10 min re: Fireworks backend & inference tooling",
+    "body": "Hi Lin,\n\nFollowing Fireworks' work on FireFunction and speculative decoding bringing function calling latencies down to sub-100ms.\n\nAt C3iHub, I optimized asynchronous microservice lifecycles handling 10,000+ concurrent connections; at Playpower Labs, I built sub-200ms vector search pipelines with ChromaDB and Redis.\n\nSending my resume along \u2014 happy to jump on a quick call if useful.\n\nPratham"
+  },
+  {
+    "company": "Linear",
+    "founder": "Karri Saarinen",
+    "email": "karri@linear.app",
+    "subject": "Real-time sync & state engines \u2014 quick note from a product engineer",
+    "body": "Hi Karri,\n\nLove the engineering rigor behind Linear's offline-first synchronization engine and snappy UI responsiveness.\n\nAt C3iHub, I built a real-time WebSocket state synchronization engine handling 2,000+ concurrent sessions; also cut database p99 latency from 450ms to 135ms through compound indexing and Redis caching.\n\nResume attached. GitHub's github.com/PrathamModi001 if you want to poke around the code. Open to chatting if there's a fit.\n\nPratham"
+  },
+  {
+    "company": "Vapi",
+    "founder": "Jordan Dearsley",
+    "email": "jordan@vapi.ai",
+    "subject": "Low-latency streaming infra for Vapi",
+    "body": "Hi Jordan,\n\nReally impressed by Vapi's sub-500ms voice pipeline coordinating STT, LLM inference, and audio playback.\n\nAt C3iHub, I engineered real-time WebSocket communication handling 2,000+ concurrent sessions; at Playpower Labs, I built real-time SSE streaming for interactive AI sessions supporting 500+ concurrent users.\n\nResume's attached \u2014 github.com/PrathamModi001 if you want more detail. Worth connecting on Vapi's streaming infra?\n\nPratham"
+  },
+  {
+    "company": "n8n",
+    "founder": "Jan Oberhauser",
+    "email": "jan@n8n.io",
+    "subject": "Workflow runtimes & Kafka pipelines \u2014 quick note for n8n",
+    "body": "Hi Jan,\n\nSaw n8n's deep expansion into AI workflow nodes and self-hosted execution environments for enterprise automations.\n\nAt C3iHub, I engineered an event-driven notification engine handling 75k daily Kafka events at 99.5% reliability; built multi-tenant SaaS services with granular RBAC and secure auth.\n\nSending my resume along \u2014 happy to chat about workflow execution pipelines at n8n.\n\nPratham"
+  },
+  {
+    "company": "ClickHouse",
+    "founder": "Aaron Katz",
+    "email": "aaron@clickhouse.com",
+    "subject": "High-throughput data pipelines \u2014 backend engineer for ClickHouse",
+    "body": "Hi Aaron,\n\nFollowing ClickHouse Cloud's serverless scaling architecture and real-time analytical query optimizations.\n\nAt C3iHub, I cut database p99 latency from 450ms to 135ms through compound indexing, query profiling, and multi-tier Redis caching; also engineered event streams processing 75k daily Kafka events.\n\nAttached my base resume. Would love to connect if you're expanding the cloud backend team.\n\nPratham"
+  },
+  {
+    "company": "Infisical",
+    "founder": "Zulkhair Daniyarov",
+    "email": "zulkhair@infisical.com",
+    "subject": "Secret orchestration & platform infrastructure for Infisical",
+    "body": "Hi Zulkhair,\n\nGreat to see Infisical's momentum as the open-source secret management standard with end-to-end encryption.\n\nAt C3iHub, I designed multi-tenant access control and audit logging pipelines across 15+ microservices with 99.9% uptime, and automated containerized CI/CD deployments with Docker and GitHub Actions.\n\nResume attached. GitHub is github.com/PrathamModi001. Open to a brief call if there's an opening on platform engineering.\n\nPratham"
+  },
+  {
+    "company": "Knock",
+    "founder": "Chris Bell",
+    "email": "chris@knock.app",
+    "subject": "Notification pipelines & Kafka deduplication \u2014 note from a backend engineer",
+    "body": "Hi Chris,\n\nBig fan of Knock's notification infrastructure engine and flexible batching/routing cross-channel logic.\n\nAt C3iHub, I engineered a notification pipeline handling 75k daily events with Kafka, BullMQ, and Redis Pub/Sub with consumer-side deduplication and dead-letter queues.\n\nResume's attached \u2014 happy to jump on a quick call if useful.\n\nPratham"
+  },
+  {
+    "company": "Svix",
+    "founder": "Tom Houlker",
+    "email": "tom@svix.com",
+    "subject": "Webhook delivery & event streams \u2014 backend engineer for Svix",
+    "body": "Hi Tom,\n\nFollowing Svix's open-source webhook gateway and reliable delivery retry mechanisms under high fanout.\n\nAt C3iHub, I architected event-driven microservices processing 75k daily events at 99.5% delivery reliability with dead-letter queue recovery, maintaining 99.9% uptime across 50K+ users.\n\nResume attached. GitHub's github.com/PrathamModi001 if you want to inspect the implementation. Worth a brief chat?\n\nPratham"
+  },
+  {
+    "company": "Twenty",
+    "founder": "Felix Malfait",
+    "email": "felix@twenty.com",
+    "subject": "Full-stack product engineer for Twenty's platform",
+    "body": "Hi Felix,\n\nReally excited about Twenty's open-source CRM architecture, modern TypeScript stack, and customizable data models.\n\nAt C3iHub, I spearheaded a multi-tenant SaaS platform onboarding 10k+ participants with Next.js, Node.js, and MongoDB; cut query p99 latency from 450ms to 135ms.\n\nSending my resume along \u2014 would love to discuss product engineering at Twenty if you're hiring.\n\nPratham"
+  }
+]

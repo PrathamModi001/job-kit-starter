@@ -21,6 +21,11 @@ Canonical source: `job-kit-starter/CLAUDE.md` → "Candidate bar" (under "Job-Se
 - **DOB:** 23/01/2003 | **Gender:** Male
 - **LinkedIn:** https://www.linkedin.com/in/prathammodii001/ | **GitHub:** https://github.com/PrathamModi001
 - **Website:** https://prathammodi001.github.io/prathammodi/ | **X/Twitter:** https://x.com/PrathamModii
+- **Current CTC:** 12 LPA — **NOT the same as the target/desired comp (18–20 LPA) in the Candidate Bar.** If a form asks "current/last compensation," answer 12 LPA; only "desired/expected salary" fields get the 18–20 LPA target range. Do not conflate the two.
+- **Race / Ethnicity (voluntary EEO fields):** Asian
+- **Veteran Status (voluntary EEO fields):** Not a protected veteran
+
+**Rule — never invent a value for any field not listed above or in the Candidate Bar.** If a form asks for something not covered here (e.g. an unlisted demographic category, a fact with no source), select "Decline to answer" / leave it blank and note the gap in that application's `Personal Info Filled` field — do not guess or infer a plausible-sounding value.
 
 ---
 
@@ -46,7 +51,7 @@ Canonical procedure: `job-kit-starter/PLAYBOOK.md` → "Phase 4 — Cold email o
 ---
 
 ## 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run)
-Canonical source: `.agents/workflows/daily_scan.md` step 5g. Read it in full before handling any blocker — do not rely on a stale summary here.
+Canonical source: `.agents/workflows/daily_scan.md` step 5h. Read it in full before handling any blocker — do not rely on a stale summary here.
 
 ---
 

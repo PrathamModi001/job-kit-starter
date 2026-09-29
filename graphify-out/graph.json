@@ -353,6 +353,90 @@
       "source_location": "L9"
     },
     {
+      "id": "scratch_fill_and_submit_commure_clickbylabeltext",
+      "label": "clickByLabelText()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 177,
+      "community_name": "fill_and_submit_commure.js",
+      "file_type": "code",
+      "norm_label": "clickbylabeltext()",
+      "source_file": "scratch/fill_and_submit_commure.js",
+      "source_location": "L19"
+    },
+    {
+      "id": "scratch_fill_and_submit_commure_setinputbylabel",
+      "label": "setInputByLabel()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 177,
+      "community_name": "fill_and_submit_commure.js",
+      "file_type": "code",
+      "norm_label": "setinputbylabel()",
+      "source_file": "scratch/fill_and_submit_commure.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_fill_commure_setvalue",
+      "label": "setValue()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 178,
+      "community_name": "fill_commure.js",
+      "file_type": "code",
+      "norm_label": "setvalue()",
+      "source_file": "scratch/fill_commure.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "scratch_fill_rox_setval",
+      "label": "setVal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 179,
+      "community_name": "fill_rox.js",
+      "file_type": "code",
+      "norm_label": "setval()",
+      "source_file": "scratch/fill_rox.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_fill_rox_fullstack_setval",
+      "label": "setVal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 184,
+      "community_name": "fill_rox_fullstack.js",
+      "file_type": "code",
+      "norm_label": "setval()",
+      "source_file": "scratch/fill_rox_fullstack.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_fill_wisdom_backend_setval",
+      "label": "setVal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 185,
+      "community_name": "fill_wisdom_backend.js",
+      "file_type": "code",
+      "norm_label": "setval()",
+      "source_file": "scratch/fill_wisdom_backend.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_fill_wisdom_platforms_setval",
+      "label": "setVal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 186,
+      "community_name": "fill_wisdom_platforms.js",
+      "file_type": "code",
+      "norm_label": "setval()",
+      "source_file": "scratch/fill_wisdom_platforms.js",
+      "source_location": "L3"
+    },
+    {
       "id": "job_kit_starter_job_hunt_india_already_applied_companies",
       "label": "already_applied_companies()",
       "_callable": true,
@@ -4945,6 +5029,39 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_fill_and_submit_commure",
+      "label": "fill_and_submit_commure.js",
+      "_origin": "ast",
+      "community": 177,
+      "community_name": "fill_and_submit_commure.js",
+      "file_type": "code",
+      "norm_label": "fill_and_submit_commure.js",
+      "source_file": "scratch/fill_and_submit_commure.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_commure",
+      "label": "fill_commure.js",
+      "_origin": "ast",
+      "community": 178,
+      "community_name": "fill_commure.js",
+      "file_type": "code",
+      "norm_label": "fill_commure.js",
+      "source_file": "scratch/fill_commure.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_rox",
+      "label": "fill_rox.js",
+      "_origin": "ast",
+      "community": 179,
+      "community_name": "fill_rox.js",
+      "file_type": "code",
+      "norm_label": "fill_rox.js",
+      "source_file": "scratch/fill_rox.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_resume_builder_reference_shared_ops",
       "label": "shared_ops.md",
       "_origin": "ast",
@@ -5077,6 +5194,116 @@
       "source_location": "L8"
     },
     {
+      "id": "scratch_apply_commure",
+      "label": "apply_commure.js",
+      "_origin": "ast",
+      "community": 180,
+      "community_name": "apply_commure.js",
+      "file_type": "code",
+      "norm_label": "apply_commure.js",
+      "source_file": "scratch/apply_commure.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_extract_leads",
+      "label": "extract_leads.py",
+      "_origin": "ast",
+      "community": 181,
+      "community_name": "extract_leads.py",
+      "file_type": "code",
+      "norm_label": "extract_leads.py",
+      "source_file": "scratch/extract_leads.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fetch_candidate_jds",
+      "label": "fetch_candidate_jds.py",
+      "_origin": "ast",
+      "community": 182,
+      "community_name": "fetch_candidate_jds.py",
+      "file_type": "code",
+      "norm_label": "fetch_candidate_jds.py",
+      "source_file": "scratch/fetch_candidate_jds.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_upload_commure_resume",
+      "label": "upload_commure_resume.js",
+      "_origin": "ast",
+      "community": 183,
+      "community_name": "upload_commure_resume.js",
+      "file_type": "code",
+      "norm_label": "upload_commure_resume.js",
+      "source_file": "scratch/upload_commure_resume.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_rox_fullstack",
+      "label": "fill_rox_fullstack.js",
+      "_origin": "ast",
+      "community": 184,
+      "community_name": "fill_rox_fullstack.js",
+      "file_type": "code",
+      "norm_label": "fill_rox_fullstack.js",
+      "source_file": "scratch/fill_rox_fullstack.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_wisdom_backend",
+      "label": "fill_wisdom_backend.js",
+      "_origin": "ast",
+      "community": 185,
+      "community_name": "fill_wisdom_backend.js",
+      "file_type": "code",
+      "norm_label": "fill_wisdom_backend.js",
+      "source_file": "scratch/fill_wisdom_backend.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_wisdom_platforms",
+      "label": "fill_wisdom_platforms.js",
+      "_origin": "ast",
+      "community": 186,
+      "community_name": "fill_wisdom_platforms.js",
+      "file_type": "code",
+      "norm_label": "fill_wisdom_platforms.js",
+      "source_file": "scratch/fill_wisdom_platforms.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_upload_indeed_resume",
+      "label": "upload_indeed_resume.js",
+      "_origin": "ast",
+      "community": 187,
+      "community_name": "upload_indeed_resume.js",
+      "file_type": "code",
+      "norm_label": "upload_indeed_resume.js",
+      "source_file": "scratch/upload_indeed_resume.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_today_0",
+      "label": "draft_target_today_0.js",
+      "_origin": "ast",
+      "community": 188,
+      "community_name": "draft_target_today_0.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_0.js",
+      "source_file": "scratch/draft_target_today_0.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_today_1",
+      "label": "draft_target_today_1.js",
+      "_origin": "ast",
+      "community": 189,
+      "community_name": "draft_target_today_1.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_1.js",
+      "source_file": "scratch/draft_target_today_1.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_claude_skills_make_cl_skill",
       "label": "make-cl/SKILL.md",
       "_origin": "ast",
@@ -5199,6 +5426,94 @@
       "norm_label": "user input during execution",
       "source_file": "job-kit-starter/.claude/skills/make-cl/SKILL.md",
       "source_location": "L29"
+    },
+    {
+      "id": "scratch_draft_target_today_2",
+      "label": "draft_target_today_2.js",
+      "_origin": "ast",
+      "community": 190,
+      "community_name": "draft_target_today_2.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_2.js",
+      "source_file": "scratch/draft_target_today_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_today_3",
+      "label": "draft_target_today_3.js",
+      "_origin": "ast",
+      "community": 191,
+      "community_name": "draft_target_today_3.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_3.js",
+      "source_file": "scratch/draft_target_today_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_today_4",
+      "label": "draft_target_today_4.js",
+      "_origin": "ast",
+      "community": 192,
+      "community_name": "draft_target_today_4.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_4.js",
+      "source_file": "scratch/draft_target_today_4.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_today_5",
+      "label": "draft_target_today_5.js",
+      "_origin": "ast",
+      "community": 193,
+      "community_name": "draft_target_today_5.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_5.js",
+      "source_file": "scratch/draft_target_today_5.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_today_6",
+      "label": "draft_target_today_6.js",
+      "_origin": "ast",
+      "community": 194,
+      "community_name": "draft_target_today_6.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_6.js",
+      "source_file": "scratch/draft_target_today_6.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_today_7",
+      "label": "draft_target_today_7.js",
+      "_origin": "ast",
+      "community": 195,
+      "community_name": "draft_target_today_7.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_7.js",
+      "source_file": "scratch/draft_target_today_7.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_today_8",
+      "label": "draft_target_today_8.js",
+      "_origin": "ast",
+      "community": 196,
+      "community_name": "draft_target_today_8.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_8.js",
+      "source_file": "scratch/draft_target_today_8.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_target_today_9",
+      "label": "draft_target_today_9.js",
+      "_origin": "ast",
+      "community": 197,
+      "community_name": "draft_target_today_9.js",
+      "file_type": "code",
+      "norm_label": "draft_target_today_9.js",
+      "source_file": "scratch/draft_target_today_9.js",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_claude",
@@ -17833,6 +18148,28 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_fill_and_submit_commure",
+      "target": "scratch_fill_and_submit_commure_clickbylabeltext",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_and_submit_commure.js",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_and_submit_commure",
+      "target": "scratch_fill_and_submit_commure_setinputbylabel",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_and_submit_commure.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_fill_anyscale",
       "target": "scratch_fill_anyscale_setinput",
       "relation": "contains",
@@ -17852,6 +18189,17 @@
       "confidence_score": 1.0,
       "source_file": "scratch/fill_atomicads.js",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_commure",
+      "target": "scratch_fill_commure_setvalue",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_commure.js",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -17917,6 +18265,50 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scratch/fill_potpie.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_rox",
+      "target": "scratch_fill_rox_setval",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_rox.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_rox_fullstack",
+      "target": "scratch_fill_rox_fullstack_setval",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_rox_fullstack.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_wisdom_backend",
+      "target": "scratch_fill_wisdom_backend_setval",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_wisdom_backend.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_wisdom_platforms",
+      "target": "scratch_fill_wisdom_platforms_setval",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_wisdom_platforms.js",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -18655,5 +19047,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6aa8b6512eead83b42a4e8ebbcb94ea90fee6588"
+  "built_at_commit": "59f2f533f3dac9e60ad8fe764e7e411bfaff3536"
 }

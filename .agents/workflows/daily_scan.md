@@ -34,12 +34,26 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    - Triage every new lead strictly against the Candidate Bar in `job_hunt_profile.md`.
    - Score by fit (reuse `job_hunt.py`'s scoring where available) and take only the **top `NUM_JOBS`** leads (default 15) as the initial shortlist. Indeed Smart Apply leads are ranked and shortlisted the same way but sit in their own separate, uncapped bucket (see param note above) — don't let them consume `NUM_JOBS` slots.
    - Log a one-line fit reason for every lead considered, including ones cut for being outside the top `NUM_JOBS`.
-   - **`NUM_JOBS` counts `Status=Applied` only, not attempts.** If a shortlisted lead ends up `Blocked` (step 5g), that slot is still open — pull the next-best qualifying lead from the ranked list (or re-scan for more if the list is exhausted) and keep going until `NUM_JOBS` leads are actually `Applied`, or there are genuinely no more qualifying leads left from this run's sources. Do not stop early and report a `NUM_JOBS=5` run as complete with e.g. 3 Applied + 2 Blocked — that under-delivers the target. Track this from each subagent's one-line return in step 5, not from re-reading `applications.csv`.
+   - **`NUM_JOBS` counts `Status=Applied` only, not attempts.** If a shortlisted lead ends up `Blocked` (step 5h), that slot is still open — pull the next-best qualifying lead from the ranked list (or re-scan for more if the list is exhausted) and keep going until `NUM_JOBS` leads are actually `Applied`, or there are genuinely no more qualifying leads left from this run's sources. Do not stop early and report a `NUM_JOBS=5` run as complete with e.g. 3 Applied + 2 Blocked — that under-delivers the target. Track this from each subagent's one-line return in step 5, not from re-reading `applications.csv`.
 
 5. **Apply — Screen, then Tailor + Submit**, for each of the top `NUM_JOBS` leads (plus
    all qualifying Indeed Smart Apply / LinkedIn Easy Apply leads, tracked separately —
    see param note above). **Dispatch each lead to its own subagent** (see step 5's
    subagent contract below) running the sequence:
+
+   **Dispatch mode — one subagent at a time, never concurrent:** the orchestrator
+   dispatches exactly one lead's subagent, waits for its one-line return (Applied /
+   Blocked / Skipped), logs it (step i below), and only then dispatches the next lead's
+   subagent. Do not fan out multiple subagents in parallel. This is a hard rule, not an
+   optimization to skip under time pressure — the browser session (Playwright MCP /
+   Chrome Extension CDP bridge) is a single shared resource; concurrent subagents
+   compete for the same tab/CDP connection and cause disconnects and lost form state.
+   Running subagents sequentially still gets the isolation benefit that matters (each
+   lead's personal-info form-filling starts from a fresh, undrifted read of
+   `job_hunt_profile.md` instead of an increasingly-long single session) without the
+   concurrency hazard. If you find yourself tempted to skip subagent dispatch entirely
+   and run every lead in the main session instead, that is a deviation from this spec —
+   stop and say so explicitly in the run report (step 7) rather than silently doing it.
 
    a. **HARD GATE — mechanical exclusion check, run first, before any tailoring:**
       literally quote the job title and re-check it word-by-word against this list —
@@ -54,29 +68,39 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
       disqualifier (e.g. "4+ years required", visa sponsorship required, a
       language/stack requirement missed by 5a's string check). If found, log
       `Status=Skipped` with the reason, return, done.
-   c. **Only now, tailor:** run `/make-resume <JD path or text>` (Batch Mode, now
+   c. **Save the JD verbatim before tailoring:** write the complete JD exactly as
+      fetched — every requirement/responsibility line, in full — to
+      `output/<Company> - <Role>/jd.txt` (the existing convention), prefixed with the
+      job posting URL and the date fetched as a header. If the raw page was fetched as
+      HTML, also keep `jd.html` alongside it. **A condensed paraphrase or bullet-point
+      summary written from memory does NOT satisfy this step** — this is the permanent
+      record for later audits (Skipped/exclusion-check decisions included, whenever a
+      JD was fetched far enough to make that call), and audits must be able to trust
+      it as identical to the live posting at fetch time, since postings get taken down
+      or edited later.
+   d. **Only now, tailor:** run `/make-resume <JD path or text>` (Batch Mode, now
       backed by `tailor_resume.py` — see `.claude/skills/make-resume/SKILL.md`). It
       saves the compiled PDF to `output/<Company>/e2e_<name>_resume.pdf` and a
       `batch_notes.md` with the ATS match rate — rename/copy the PDF to
       `output/<Company> - <Role>/Pratham_Modi_Resume.pdf` for the apply step.
-   d. **HARD GATE:** do not proceed to Submit unless that PDF exists on disk. Never
+   e. **HARD GATE:** do not proceed to Submit unless that PDF exists on disk. Never
       submit with a generic/default/cached resume.
-   e. Fill the ATS form using the platform-specific recipe in PLAYBOOK.md → "ATS
+   f. Fill the ATS form using the platform-specific recipe in PLAYBOOK.md → "ATS
       recipes". Always replace any pre-selected default resume with the tailored PDF.
       Save any account credentials / TOTP secrets created during signup to
       `output/<Company> - <Role>/account_credentials.txt`. Element discovery follows
       the Playwright evaluate-only rule in PLAYBOOK.md — do not call `browser_snapshot`
       for this.
-   f. Click final Submit.
-   g. **On any blocker** (image/grid captcha, Cloudflare "Additional Verification
+   g. Click final Submit.
+   h. **On any blocker** (image/grid captcha, Cloudflare "Additional Verification
       Required" wall, an unresolvable required field): do not close the tab, do not
       pause. Leave that application exactly where it got stuck in its own browser tab,
       log `Status=Blocked` with the specific reason, return that status. The user
       finishes blocked ones manually later. **This does not fill a `NUM_JOBS` slot** —
       the orchestrator pulls another qualifying lead to replace it.
 
-   The subagent's job ends at 5g — it never touches `applications.csv` itself.
-   **Step h (CSV logging) is the orchestrator's job, not the subagent's:** as each
+   The subagent's job ends at 5h — it never touches `applications.csv` itself.
+   **Step i (CSV logging) is the orchestrator's job, not the subagent's:** as each
    subagent returns its one-line result, the orchestrator — one lead at a time, in the
    order results arrive, never in parallel — logs that result (Applied / Blocked /
    Skipped, with the actual per-job posting URL, not a generic feed/search URL, and for
@@ -90,10 +114,10 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    **Subagent dispatch contract:** the orchestrator dispatches one subagent per lead
    with this payload — Company, Role, Job URL, JD text (or fetch instructions),
    output folder path (`output/<Company> - <Role>/`), the paths
-   `.agents/workflows/daily_scan.md` (steps 5a-5g), `.agents/rules/job_hunt_profile.md`
+   `.agents/workflows/daily_scan.md` (steps 5a-5h), `.agents/rules/job_hunt_profile.md`
    (canonical form facts), `.claude/skills/make-resume/SKILL.md`, and `PLAYBOOK.md`
    → "ATS recipes" (the subagent reads these itself — never paste their contents into
-   the payload), and today's date (the subagent has no clock). The subagent runs 5a-5g
+   the payload), and today's date (the subagent has no clock). The subagent runs 5a-5h
    above and returns exactly one line:
    `<Status> | <Company> | <Role> | <Resume path or "-"> | <Req ID or reason> |
    <Personal Info Filled or "-">`. The 6th field is required whenever `Status=Applied`
@@ -117,3 +141,5 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
 
 7. **Report Summary**:
    - Present a structured report: applied roles (with resume path + req ID), blocked leads (with reason + tab left open), skipped noise (with reasons), and cold outreach sent (count by tier + source).
+   - **Execution-architecture disclosure (mandatory, every run):** state plainly whether step 5's per-lead subagent dispatch (as specified above) was actually used for this run. If it was not — e.g. everything ran in the main session instead — say so explicitly and give the concrete technical reason (don't silently deviate from the spec and only reveal it if asked).
+   - **Token usage disclosure (mandatory, every run):** report total tokens consumed by this run, broken down by phase (scan/rank, per-lead apply — per subagent if subagents were used, cold outreach, reporting) as accurately as the runtime exposes it (e.g. from actual API usage/billing metadata if available). Prefer a real measured figure over a reconstructed estimate; if only an estimate is possible, say so and give the method, but do not present an estimate as a measured total.

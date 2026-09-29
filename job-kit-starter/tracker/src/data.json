@@ -1128,6 +1128,78 @@
 "resume": "output/Synthio Labs - Software Engineer - AI/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Commure",
+"role": "Forward Deployed Engineer (India)",
+"loc": "Bengaluru, India",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (~25-45 LPA)",
+"status": "Applied",
+"date": "2026-09-29",
+"url": "https://jobs.ashbyhq.com/commure/b7f99d0b-e511-41ba-a585-ce636f454e99",
+"resume": "output/Commure - Forward Deployed Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Rox Data Corp",
+"role": "Backend Platform Engineer (BLR)",
+"loc": "Bengaluru",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (~20-40 LPA)",
+"status": "Applied",
+"date": "2026-09-29",
+"url": "https://jobs.ashbyhq.com/rox-data-corp/6e6b44f9-8bc2-4dfa-9432-5a0d2931a113",
+"resume": "output/Rox Data Corp - Backend Platform Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Rox Data Corp",
+"role": "Full Stack Engineer",
+"loc": "Bengaluru",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (~20-40 LPA)",
+"status": "Applied",
+"date": "2026-09-29",
+"url": "https://jobs.ashbyhq.com/rox-data-corp/5e37039e-cbb8-4e07-a11f-9e321d9f361f",
+"resume": "output/Rox Data Corp - Full Stack Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Securonix",
+"role": "Software Engineer - Back-End & Agentic AI",
+"loc": "Bengaluru, Karnataka",
+"via": "Indeed Smart Apply",
+"found": "Indeed Smart Apply",
+"comp": "Not listed (~25-35 LPA)",
+"status": "Applied",
+"date": "2026-09-29",
+"url": "https://in.indeed.com/viewjob?jk=83bc8dbb06d009ec",
+"resume": "output/Securonix - Software Engineer - Back-End & Agentic AI/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Wisdom AI",
+"role": "Software Engineer, Backend",
+"loc": "Bengaluru",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (~25-45 LPA)",
+"status": "Applied",
+"date": "2026-09-29",
+"url": "https://jobs.ashbyhq.com/wisdom-ai/38997748-01fd-4a16-84e9-a135fb056908",
+"resume": "output/Wisdom AI - Software Engineer, Backend/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Wisdom AI",
+"role": "Software Engineer, Platforms",
+"loc": "Bengaluru",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (~25-45 LPA)",
+"status": "Applied",
+"date": "2026-09-29",
+"url": "https://jobs.ashbyhq.com/wisdom-ai/c785bc4d-ed02-4b59-88f1-44db0e151f46",
+"resume": "output/Wisdom AI - Software Engineer, Platforms/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -1690,5 +1762,17 @@
 "date": "2026-09-19",
 "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/Hyderabad-India/Software-Engineer_R-570569",
 "resume": "output/Wells Fargo - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Transak",
+"role": "Software Development Engineer, Backend",
+"loc": "Bengaluru, Karnataka",
+"via": "Indeed Smart Apply",
+"found": "Indeed Smart Apply",
+"comp": "Not listed",
+"status": "Blocked",
+"date": "2026-09-29",
+"url": "https://in.indeed.com/viewjob?jk=2e7e3d1a88674550",
+"resume": "output/Transak - Software Development Engineer, Backend/Pratham_Modi_Resume.pdf"
 }
 ]
