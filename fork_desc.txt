@@ -1,0 +1,268 @@
+If true, the subagent forks your conversation history up to this point. Set only when the task depends on your past reasoning; defaults to false., truncated at the %d-byte limit. To read the rest of this line range, call this tool again with the same StartLine and EndLine and ByteOffset=%dError: unexpected argument %q.
+Prompts are read only from -p/--print, -i/--prompt-interactive, or stdin, so this argument would have been ignored.Note: _This is purely the output of the chat conversation and does not contain any raw data, codebase snippets, etc. used to generate the output._%s Polling loop terminated cleanly due to instance context cancellation (language server shutdown); this is not expected on a WebChannel reconnectThe recording of this session is being saved. Please mention that the recording is available in the conversation artifacts in your final response.Distribution of the time goroutines have spent in the scheduler in a runnable state before actually running. Bucket counts increase monotonically.conversation %q is not an active subagent of this conversation, so nothing was killed; run the %q action to see the active subagents and their ids%s required the %s %s that headless mode cannot prompt for, so %s auto-denied. Add an allow-rule under permissions.allow in settings.json (e.g. %s)
+)net/proto2/bridge/proto/message_set.protoproto2.bridge"8
+
+MessageSet*¿∫´˙*¿∫´˙‡«±˙*‡«±˙ˇˇˇˇ:BBMessageSetProtosP–¢GPBScripts that do not finish within the specified wait time continue running in the background as tasks; the system will notify you when they finish.user has workspace validation enabled but has no active workspaces: either the user should set a workspace as active or disable workspace validationAllowing TLS connection to server %q with ALPN disabled. TLS connections to servers with ALPN disabled will be disallowed in future grpc-go releasesYour artifacts were copied into the new directory, and references to the old conversation ID inside copied text files were rewritten to the new one.
+You can download the images of URLs that you wish to use in your code using the curl command. Save these images to the same directory as your code.The following are user-defined rules that you MUST ALWAYS FOLLOW WITHOUT ANY EXCEPTION. These rules take precedence over any following instructions.After you call a tool, the tool response will be provided to you as a USER message. The tool response will also be wrapped in XML and markdown tags.Note: The binary is installed, but it is not in your active PATH. Please follow the instructions above to add it, then restart your terminal session.You did not call any tools. You should continue calling tools until you've completed your task. If you have completed your task call the finish tool.file_read ‚Äî Reads local file content.
+  - Reading sensitive credential files (.env, ~/.ssh/id_rsa, /etc/shadow) is a violation if dataType=secrets.Exactly one of `gcs_uri` or `bigquery_uri`, or `vertex_dataset_name` must be set, other sources are not supported in Gemini Enterprise Agent Platform.4. **New Project Creation**: If you need to use a framework for a new app, use `npx` with the appropriate script, but there are some rules to follow:,The GenerateVideos method with prompt/image is deprecated and will be replaced with source parameter in the next major release (not before 2026-07-31).Adversarial mathematician auditing exploration strategy cards to find potential flaws, wrong-sided bounds, and unstated assumptions before aggregation.Licenses are provided by your organisation admin. Your Customer Data will be logged into the project that corresponds to the license you select below.
+
+^\s*namespace\s|^\s*(?:public\s+)?include\s|^\s*(?:(?:public|export|global)\s+)?(?:atom|constant|enum|function|integer|object|procedure|sequence|type)\sManage your message inbox. Use this tool to list all messages or read the full content of a specific message. Do not use this tool to poll for messages.2. You are also a master of printf debugging. You can also insert print statements to the code to observe the results and help you understand it better.Please report a bug to github.com/gogo/protobuf if you see this message: Writing extensions is not supported for extensions stored in a byte slice field.anyExtendedKeyUsageserverAuthclientAuthcodeSigningemailProtectionipsecEndSystemipsecTunnelipsecUsertimeStampingOCSPSigningmsSGCnsSGCmsCodeCommsKernelCodeThe following changes were made by %v to: %v. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.<CONTEXT_SUMMARY>
+The following is a summary of the conversation history that has been truncated to fit within the context window:
+
+%s
+</CONTEXT_SUMMARY>Buffer log messages logged at this level or lower (-1 means don't buffer; 0 means buffer INFO only; ...). Has limited applicability on non-prod platforms.I just made the changes:
+%s
+Modify the selected code to complete my edit to make my code work. If there is no logical next edit, leave the code unchanged.Send a message to another agent. This tool can be used to communicate with subagents, peer agents, etc. Do not use this tool to communicate with the user.If you are making multiple edits across a single file, %s. DO NOT try to replace the entire existing content with the new content, this is very expensive.Document ingestion worker. Extracts text and renders 200 DPI page images from input PDFs using pure Python (pypdfium2) and generates DOCUMENT_TEXT_MAP.md.[PolicyGuardianMonitor] Verify completed: tool=%s verdict=%s denying_vetters=%s summary=%q duration=%v vetters=%s convID=%s execID=%s trajID=%s stepIdx=%d%s
+%s
+View the conversation log to see the full conversation with the subagent and use send_message with the conversation_id to communicate with them.
+
+%sDefine a new subagent type that can then be invoked repeatedly. Subagents always have tools to research the codebase and to communicate with other agents.Tool outputs are not shown to you unless the script prints them, so print only what you need. If the last statement is an expression, its repr is printed.Check the `%s` skill in the skills section or inspect existing workspace rules/skills to follow their exact schema, frontmatter, and directory conventions.
+Here is the current list of workflows, along with a description on when to use them. They are provided in - [slash command] (path): [description] format.
+Approximate count of goroutines ready to execute, but not executing. Not guaranteed to add up to /sched/goroutines:goroutines with other goroutine metrics.Detected launch by the deprecated remote-control installer service; unregistering it.
+Run `%s remote-control start` to use the supported background daemon.
+These rules provide important context when working with this part of the codebase, so take them into account as you work. Their contents are injected below:Intermittent signal audits are disabled, this is risky because it can hide signals that are incompatible with the Go runtime and result in memory corruptionauth client is not initialized for %s: interactive auth is only supported in antigravity-hub mode and is unavailable in cli, standalone, or stubby-auth modesHelp explain this concept or piece of code succinctly. Do not dive too deeply into one topic. Use context about the codebase to give an accurate explanation.68647976601306097149819007990813932172694353001433054093944634591855431833976560521225596406614545549772963113914808580371219879997166438125740282911150571516864797660130609714981900799081393217269435300143305409394463459185543183397655394245057746333217197532963996371363321113864768612440380340372808892707005449PromptHeight: %d, InputAreaHeight: %d, PendingLineHeight: %d, HintHeight: %d, BtwHeight: %d, SubagentAlertHeight: %d, StatusLineHeight: %d, FrameOverhead: %d- **State your routine**: Before acting, state which routine you are executing ‚Äî Solo or Delegation. Use the Delegation routine unless the task is simple.
+The ternary operator tests a boolean predicate and returns the left-hand side (truthy) expression if true, or the right-hand side (falsy) expression if false^rgb\(([ ]*((([0-9]{1,2}|100)\%)|(([01]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))),){2}([ ]*((([0-9]{1,2}|100)\%)|(([01]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))))\)$/%s opens the interactive plugin manager, which is not available in print mode; use /%s [list|install|uninstall|enable|disable] or the `plugin` CLI subcommandPre-flight environment and dependency auditor. Probes backend tool services, runtimes, and package requirements, returning readiness verdicts before dispatch.You are Cascade, a powerful agentic AI coding assistant designed by the Codeium engineering team: a world-class AI company based in Silicon Valley, California.ApplySettingsToConfig result: projectID=%q permissionsV2=%t enableTerminalSandbox=%t autoExecPolicy=%v effectivePreset=%v effectiveGrants=%+v defaultGrants=%+vWarning: Both GOOGLE_GENAI_USE_ENTERPRISE and GOOGLE_GENAI_USE_VERTEXAI are set with conflicting values. The value of GOOGLE_GENAI_USE_ENTERPRISE will be used.^\s*(module|import|amends|extends|local|const|fixed|abstract|open|class|typealias|@\w+)\b|^\s*[a-zA-Z0-9_$]+\s*(=|{|:)|^\s*`[^`]+`\s*(=|{|:)|for\s*\(|when\s*\(The user did not respond to the clarifying questions in time.
+You should proceed by making reasonable assumptions or searching for the information if possible.The following user-defined rules exceeded the rules token budget and were excluded from inline injection. View the file for further instructions when relevant:Couldn't sync your forked workspace to head, but it's still usable. If JJ seems stuck, restart the daemon with `systemctl --user restart google-jj-daemon`. (%v)(?<=(?:^|\s)(?:class|grammar|role|does|but|is|subset|of)\s+)(?:(?!(?<!:)(?<colon>:)(?<key>\w[\w'-]*)(?<opening_delimiters>(?:<<|<|¬´|\(|\[|\{)))(?:::|[\w':-]))+CPU profile. You can specify the duration in the seconds GET parameter. After you get the profile file, use the go tool pprof command to investigate the profile.Exclusively available in Antigravity, you operate on the revolutionary AI Flow paradigm, enabling you to work both independently and collaboratively with a USER.workflow file %q does not exist at %s in %s/%s; specify a workflow file that exists on the target ref (a display name or a file on another branch is not allowed)Warning: Ephemeral token support is only supported in v1alpha API version. Please use clientConfig: ClientConfig{HTTPOptions: HTTPOptions{APIVersion: "v1alpha"}}Number of bytes used for mspan structures obtained from system. Equals to /memory/classes/metadata/mspan/inuse:bytes + /memory/classes/metadata/mspan/free:bytes.The tool's output was truncated due to being too long. You can find the full output in a file at %s.
+
+Here is a preview with the middle of the output truncated:
+{
+  "name": "starter-extension-panel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Side panel for the starter UI extension."
+}
+method Create is only supported in the Gemini Developer client. You can choose to use Gemini Developer client by setting ClientConfig.Backend to BackendGeminiAPI.
+The user has mentioned some items in the form @[ITEM]. Here is extra information about the items that were mentioned by the user, in the order that they appear:
+No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.\b(?:(?!(?<!:)(?<colon>:)(?<key>\w[\w'-]*)(?<opening_delimiters>(?:<<|<|¬´|\(|\[|\{)))(?:::|[\w':-]))+(?=(:['\w-]+(?:<<|<|¬´|\(|\[|\{).+?(?:>>|>|¬ª|\)|\]|\}))?\()[Retroactive Migration] Initial projects migration is not completed yet (status: %v). Marking retroactive projects migration as COMPLETED_UNNECESSARY and skipping.When taking actions, always use specialized tools such as grep_search, find_by_name, view_file, write_to_file, edit_file, multi_replace_file_content, and list_dir.Heap size target percentage configured by the user, otherwise 100. This value is set by the GOGC environment variable, and the runtime/debug.SetGCPercent function.. This tool was previously available to you, but it is no longer accessible. Do not call this tool again until you are explicitly informed that access is restored.workflow %q must be a bare file name (e.g. ci.yml), not a path; `gh workflow run` resolves the workflow by file name, display name, or ID and does not accept a pathWarning: there are non-text parts %s in the response, returning concatenation of all text parts. Please refer to the non text parts for a full response from model.
+^public\s+(?:SharedPlugin(?:\s+|:)__pl_\w+\s*=(?:\s*\{)?|(?:void\s+)?__pl_\w+_SetNTVOptional\(\)(?:\s*\{)?)|^methodmap\s+\w+\s+<\s+\w+|^\s*MarkNativeAsOptional\s*\(Number of bytes used for mcache structures obtained from system. Equals to /memory/classes/metadata/mcache/inuse:bytes + /memory/classes/metadata/mcache/free:bytes.
+
+ Do not output the path of this image to show to the user since the user can already see it. However, you can embed this image in artifacts for the USER's review.
+If ANY error occurs, call `send_message` to your parent with:
+```
+DeepCoder pipeline failed.
+
+**Error**: {what went wrong, which worker failed, error details}
+```
+Send a message to another agent, such as a subagent or a peer, or pass Recipient='@children' to broadcast to all active direct subagents. Not a channel to the user.%s already exists. To overwrite it, retry with Overwrite=true. To edit it, view its contents first and use a code edit tool. Otherwise, choose a different file namepath is not in a workspace which you have access to: either proceed without accessing that path, or ask the user if they are willing to turn off workspace validation%T doesn't implement proto.Message or uses github.com/golang/protobuf, but connect-go only supports google.golang.org/protobuf: see https://go.dev/blog/protobuf-apiv2Navigate a symbol graph in a google3 CitC workspace with CiderLSP, exploring definitions, references, callers, callees, overrides, and other cross-file relationships.cannot set both CreateMessageHandler and CreateMessageWithToolsHandler; use CreateMessageWithToolsHandler for tool support, or CreateMessageHandler for basic samplingApproximate count of goroutines waiting on a resource (I/O or sync primitives). Not guaranteed to add up to /sched/goroutines:goroutines with other goroutine metrics.- **No Pre-work**: If you are using the Delegation Routine, do NOT perform any independent research, planning, exploration, or edits before your first subagent call.
+request header %q is not supported for `gh api`: only Accept and X-GitHub-Api-Version are allowed; a header such as X-HTTP-Method-Override can turn a read into a writeRecommend this when the user wants to run a long-running task (e.g., overnight) and wants the agent to be extra thorough and not stop until the goal is fully achieved.If any worker fails, you MUST spawn a new worker of the same type with the same prompt (up to 4 retries). Only report pipeline failure after all retries are exhausted.4. Before you finish, run any **existing** related tests in the repository besides your newly created tests to make sure your changes do not regress or break anything.Approximate count of goroutines running or blocked in a system call or cgo call. Not guaranteed to add up to /sched/goroutines:goroutines with other goroutine metrics.Created the following subagent:
+%s
+The subagent will send you a message when it has completed its task or requires guidance. There is no need to poll for its response.Requesting permission for a one-time admin escalation. Administrator privileges are required to set up sandboxing. More details here: antigravity.google/docs/sandboxingRecommend this when the user has a complex coding or research project that requires deep thinking, strategic planning, multiple perspectives, and rigorous verification.You may have seen the following lint errors as feedback for a previous edit, but they still exist at this point. Please respond accordingly, erring toward explicitness.method DownloadMedia is only supported in the Gemini Developer client. You can choose to use Gemini Developer client by setting ClientConfig.Backend to BackendGeminiAPI.When using the send_message tool to reply to your parent, make sure to use the parent ID provided in your system prompt. Do not hallucinate or mix it up with worker IDs.(?<!(?:\d+|\.(?:Int|Numeric)|[$@%]\*?[\w':-]+\s+|[\])}]\s+)\s*)(<)((?:(?![,;)}] *(?:#[^\n]+)?\n)[^<>])+?)(>)(?!\s*(?:\d+|\.(?:Int|Numeric)|[$@%]\*?\w[\w':-]*[^(]|\s+\[))Done waiting for flushing to finish in another call, waiting another %v to allow the first call to execute crash reporting (coroner) and exit with the original exit code
+<SKILL>The user has explicitly invoked the (%s) skill. You must strictly follow the instructions in this skill to process their request. Here are its contents:
+%s</SKILL>`gh workflow run --json` reads inputs from stdin, which is not supported (it can exfiltrate local file contents to GitHub); pass inputs inline with -f/--raw-field instead3. **Web App**: If the USER specifies that they want a more complex web app, use a framework like Next.js or Vite. Only do this if the USER explicitly requests a web app.The script has these globals: call_tool(name, **args) runs one of these tools with the arguments you would pass to it directly: %s. It returns the tool's output as a str.Records your final decision about the command. Call this exactly once, as the last thing you do. Set reversible to true only if every effect of the command can be undone.Input format for print mode (text, stream-json). stream-json reads one NDJSON message per line from stdin and runs a turn for each; it requires --output-format stream-json<style>
+@font-face {
+	font-family: '%s';
+	src: url(data:application/x-font-%s;charset=utf-8;base64,%s) format('%s');'
+	font-weight: normal;
+	font-style: normal;
+}
+</style>
+If ANY error occurs, call `send_message` to your parent with:
+```
+DeepInvestigator pipeline failed.
+
+**Error**: {what went wrong, which worker failed, error details}
+```
+The model backend had a brief, transient interruption and is retrying automatically. Continue exactly where you left off; do not mention this interruption in your response.(?<=^|\b|\s)(?<keyword>(?:qq|q|Q))(?<adverbs>(?::?(?:heredoc|to|qq|ww|q|w|s|a|h|f|c|b|to|v|x))*)(?<ws>\s*)(?<opening_delimiters>(?<delimiter>[^0-9a-zA-Z:\s])\k<delimiter>*)The following customizations were discovered from directories you recently accessed. Review the referenced files with the view_file tool if they are relevant to your task:
+Model for the subagent. 'inherit' (default) uses your model. 'flash_lite' and 'flash' are lighter, faster models for simple tasks. 'pro' is a larger model for complex work.GCE metadata token not defined. This usually means Application Default Credentials (ADC) are missing. Please run 'gcloud auth application-default login' on your workstation.x509: ML-DSA private keys with both seed and expanded key are not supported, use e.g. "openssl pkey -provparam ml-dsa.output_formats=seed-only" to convert to a seed-only keyCumulative count of heap allocations triggered by the application. Note that this does not include tiny objects as defined by /gc/heap/tiny/allocs:objects, only tiny blocks.+-‚àí¬±‚àì√ó√∑¬∑‚àó*‚àò‚Ä¢‚ãÜ‚àñ‚à™‚à©‚äï‚äó‚äñ‚äò‚äô‚äö‚äõ‚äù‚äû‚äü‚ä†‚ä°‚àß‚à®‚àô‚äî‚äì‚äé‚®ø‚âÄ‚óØ‚ñ≥‚ñΩ‚óÅ‚ñ∑‚ä≤‚ä≥‚ä¥‚äµ‚Ä†‚Ä°‚ãÑ‚ãÖ‚ãâ‚ãä‚ãã‚ãå‚ãé‚ãè‚äª‚äº‚åÜ‚ãá‚àî‚ä∫oauth2/google: The credentials do not contain the necessary fields need to refresh the access token. You must specify refresh_token, token_url, client_id, and client_secret.%[1]s and %[2]s both match some paths, like %[3]q.
+But neither is more specific than the other.
+%[1]s matches %[4]q, but %[2]s doesn't.
+%[2]s matches %[5]q, but %[1]s doesn't.SELECT conversation_id, last_modified_time, step_count, last_step_created_at, archived, title, workspace FROM conversations_fts WHERE chunk_index = -1 AND conversation_id IN (The snapshot at that step is of another workspace (such as a worktree), which can't be restored into this fork, so the fork's workspace starts from the source's current state.My code document has the following content:
+<content>
+%s
+</content>
+Follow these instructions to make the following change to my code document.
+<instruction>
+%s
+</instruction>Voice dictation needs a permission your current sign-in does not carry. Use /logout, sign in again, and retry. (Dictation is not available for business or enterprise accounts.)Created the following subagents:
+%s
+The subagents will send you a message when they have completed their task or require guidance. There is no need to poll for their responses.Versatile worker with loadable domain expertise. Combines implementation, QA, and external Jetski skill loading. Orchestrator arms it with a domain skill path at dispatch time.Report aggregator. Reads multiple child analysis reports, identifies cross-report patterns, deduplicates findings, resolves conflicts, and produces a single synthesized report.(^(\s*)%lang(\s+)([A-Za-z0-9_]+))|(^(\s*)%builtins(\s+)([A-Za-z0-9_]+\s*)*$)|(^(\s*)from(\s+)starkware\.(cairo|starknet)\.([A-Za-z0-9_.\s]+?)import)|(,\s*ap\+\+;$)|(;\s*ap\+\+$)Go runtime memory limit configured by the user, otherwise math.MaxInt64. This value is set by the GOMEMLIMIT environment variable, and the runtime/debug.SetMemoryLimit function.invalid location %q for SelfAssignLicense: Gemini Enterprise licensing endpoints require a multi-region location (e.g. 'global', 'us', 'eu') and do not support regional endpoints
+1learning/genai/api/interactions/proto/error.protogenai"5
+Error
+code (	Rcode
+message (	Rmessage"2
+ErrorWrapper"
+error (2.genai.ErrorRerrorbeditionspËIf true, wait for all previous tool calls from this turn to complete before executing (sequential). If false or omitted, execute this tool immediately (parallel with other tools).Command timed out, needed to complete in %vs. This timeout applies to all commands. You won't be able to run this command with these arguments, do not retry exact the same commandambiguous target ID %q: it is preceded by flag %q which may consume it as a value; pass the issue/PR number or URL immediately after the subcommand (optionally after -R owner/repo)^cplusplus \{\{|^namespace[\s]*([^.\s]*\.)*[^.\s]*;|^struct \{|^message [\S]* (extends)? [\S]*[\s]*\{|^packet \{|^class (extends) [\S]*[\s]*\{|^enum \{|^import ([^.\s]*\.)*[^.\s]*;Note: You have just created an artifact and requested user feedback. Stop calling tools to end your turn, and allow the user to review the artifact, approve it, or provide feedbackThe following is a <SYSTEM_MESSAGE> not actually sent by the user. It is provided by the system as important information to pay attention to.
+
+<SYSTEM_MESSAGE>
+%s
+</SYSTEM_MESSAGE>sharing conversations relies on your x20 user directory being accessible to other users, but public read and execute permissions (o+rx) are missing on %s; run '%s' to enable sharingWhen you opened this conversation it was already open in another CLI instance on this machine. Sending messages from both may cause conflicts. Use /fork to continue here separately.You are continuing work on the task described above, but you have lost access to the full conversation history, and need to resume work efficiently using the progress summary below:// bullet list of the issue reproduction scripts, existing tests and any newly created tests that you ran along with a brief summary of their execution results. One bullet per test:
+Note: You have just created an artifact and requested user feedback. Stop calling tools to end your turn, and allow the user to review the artifact, approve it, or provide feedback`gh run rerun` is not supported: re-running a workflow run requires a workflow.dispatch permission scoped to the run's workflow file and ref, which cannot be determined from a run ID## Python
+If writing a Python script that needs to call these commands, use subprocess.run like:
+```python
+import subprocess
+
+subprocess.run(["agentapi", subcommand, arg1, arg2])
+```
+- If there are a lot of tests in the repository, start with running a small set of most relevant test cases to your changes. If these tests pass, run more broader tests if necessary.
+* Always be very rigorous about using code execution to assist your thinking. After your thought, you should always use code execution to verify it **before** making any code changes.Error: %s took %q as its prompt, so the intended prompt was left as an argument and ignored.
+Attach the prompt to the flag (%s='your prompt') and move %s elsewhere on the command line.Approximate count of goroutines executing. Always less than or equal to /sched/gomaxprocs:threads. Not guaranteed to add up to /sched/goroutines:goroutines with other goroutine metrics.The above content does NOT show the entire file contents. If you need to view any lines of the file which were not shown to complete your task, call this tool again to view those lines.
+		SELECT COUNT(*),
+		       COUNT(CASE WHEN raw_summary IS NOT NULL AND LENGTH(raw_summary) > 0 THEN 1 END),
+		       COALESCE(SUM(LENGTH(raw_summary)), 0)
+		FROM conversation_summaries2. **Prioritize Visual Excellence**: Beauty in web design is linked to utility. Thoughtful typography, balanced whitespace, and clear visual hierarchy make content a pleasure to consume.oauth2/google: Token should be created with fields to make it valid (`token` and `expiry`), or fields to allow it to refresh (`refresh_token`, `token_url`, `client_id`, `client_secret`).You are pair programming with a USER to solve their coding task. The task may require creating a new codebase, modifying or debugging an existing codebase, or simply answering a question.`gh workflow run` requires an explicit --ref (branch or tag); running against the default branch is not supported because the workflow.dispatch permission must be scoped to a specific ref\buse\s+(?:strict\b|v?5\b)|^\s*use\s+(?:constant|overload)\b|^\s*(?:\*|(?:our\s*)?@)EXPORT\s*=|^\s*package\s+[^\W\d]\w*(?:::\w+)*\s*(?:[;{]|\sv?\d)|[\s$][^\W\d]\w*(?::\w+)*->[a-zA-Z_\[({]Brief 2-5 word noun phrase describing the specific task. Capitalize like a sentence. Some examples: 'Directory analysis', 'Web search', 'Git status check', 'Test execution', 'Code search'.When enabled, releasing a mouse text selection copies it to the system clipboard. Only active in alt-screen mode. When disabled, the artifact viewer uses native terminal selection instead.A trace of execution of the current program. You can specify the duration in the seconds GET parameter. After you get the trace file, use the go tool trace command to investigate the trace.You are using the Gemini API directly with GEMINI_API_KEY, so there is no session to log out of.
+To switch back to signing in, remove "modelProvider" from settings.json and restart the CLI.Exclusively available in Windsurf, the world's first agentic IDE, you operate on the revolutionary AI Flow paradigm, enabling you to work both independently and collaboratively with a USER.http2: TLSConfig.CipherSuites is missing an HTTP/2-required AES_128_GCM_SHA256 cipher (need at least one of TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 or TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256)After invoking workers, immediately stop execution and wait. Do not make any further tool calls. Be patient. The system will wake you up when workers complete or fail. Do not actively poll.For edits that you believe may fix lints (whether the edit is explicitly lint-fixing, or is a step in your main objective that might fix lints along the way), specify the relevant lint IDs.
+	SELECT conversation_id, title, workspace, last_modified_time, archived
+	FROM conversations_fts
+	WHERE chunk_index = -1 AND conversation_id LIKE ?
+	ORDER BY last_modified_time DESC
+	LIMIT ?\b(most_recently_modified|largest_size|smallest_size|first_exist|internal|disable_redirects|ignore_loaded_certs|disable_certs|private_ranges|first|last|before|after|on|off)\b(\||(?=\]|\s|$))4. If any issues remain, compose a new prompt (using the template) describing what was done and what remains, and send it to the SAME subagent via `send_message` ‚Äî do NOT spawn a new one.
+^v?(0|[1-9]\d*)(?:\.(0|[1-9]\d*))?(?:\.(0|[1-9]\d*))?(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$For a full list of available locations and deployment endpoints, please refer to the official documentation: https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/locations(?<operator>\.)(?<method_name>(?:(?!(?<!:)(?<colon>:)(?<key>\w[\w'-]*)(?<opening_delimiters>(?:<<|<|¬´|\(|\[|\{)))(?:::|[\w':-]))+)(?=(:['\w-]+(?:<<|<|¬´|\(|\[|\{).+?(?:>>|>|¬ª|\)|\]|\}))?\()the configured universe domain (%q) does not match the universe domain found in the credentials (%q). If you haven't configured the universe domain explicitly, "googleapis.com" is the defaultmodelProvider is set to %q in settings.json, but the %s environment variable is not set. Set %s to your Gemini API key, or remove "modelProvider" from settings.json to use the default backend.Artifacts were copied into this conversation's artifact directory, but no snapshot of the branch point was available, so they are the source conversation's current ones and may be out of sync:Your workspace was restored from a snapshot taken AFTER the branch point, because none was taken at it. It may contain edits made after the history above: check the files before relying on it.Unregistered the deprecated remote-control installer service that was running in the background.
+Run `%s remote-control start` to re-enable background remote control using the supported daemon.You are connected to an Enterprise LLM Gateway, so there is no session to log out of.
+To switch back to signing in, unset %s (or remove gateway configuration from settings) and restart the CLI.Error converting persistent trajectory to chat messages for cumulative prompt: %v. (Number of steps in the persistent trajectory: %d, Max persistent tokens: %d, Document inclusion metadata: %v)Total number of heap objects allocated, both live and gc-ed. Semantically a counter version for go_memstats_heap_objects gauge. Equals to /gc/heap/allocs:objects + /gc/heap/tiny/allocs:objects.Cumulative count of heap allocations whose storage was freed by the garbage collector. Note that this does not include tiny objects as defined by /gc/heap/tiny/allocs:objects, only tiny blocks.
+google/protobuf/empty.protogoogle.protobuf"
+EmptyBÄ
+com.google.protobufB
+EmptyProtoPZ.google.golang.org/protobuf/types/known/emptypb‡
+If true, the subagent forks the parent's conversation history. Set this to true only when the subagent's work is a direct continuation of your reasoning and requires your past thoughts and intermediate findings to understand the prompt. Set to false (default) for fully independent agents.You are a pipeline coordinator. Your ONLY job is to orchestrate the pipeline defined in your system prompt. You must NEVER attempt to perform the task or modify code/files yourself. You MUST strictly follow the pipeline described in your system prompt and delegate to your worker subagents.
+google/api/annotations.proto
+google.apigoogle/api/http.proto!net/proto2/proto/descriptor.proto:B
+http.proto2.MethodOptions∞ º" (2.google.api.HttpRuleRhttpBq
+com.google.apiBAnnotationsProtoPZAgoogle.golang.org/genproto/googleapis/api/annotations;annotations¯¢GAPIbproto3The EditImage method is deprecated and will be removed in the next major release (not before Jan. 1 2027). Please use the GenerateContent method with image models instead. See https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/gemini-edit-images#edit-an-imageTotal count of finalizer functions (created by runtime.SetFinalizer) executed by the runtime. Subtract /gc/finalizers/queued:finalizers to approximate finalizer queue length. Useful for detecting finalizers overwhelming the queue, either by being too slow, or by there being too many of them.CAAGGGGCTCGGGCTGACCTCTGTCCGCGTGGGAGGGGCCGGTGTGAGGCAAGGGGCTCGGGCTGACCTCTCTCAGTGTGGGAGGGGCCGGTGTGAGGCAAGGGGCTCACGCTGACCTCTGTCTGCGTGGGAGGGGCCGGTGTGAGACAAGGGGCTCGGGCTGACCTCTCTCAGCGTGGGAGGGGCCGGTGTGAGGCAAGGGGCTCGGGCTGACCTCTCTCAGCGTGGGAGGGGCCAGTGTGAGGCAAGGGCTCACACTGACCTCTCTCAGCATGGGAGGGGCCGGTGTGAGAYour artifacts were copied into the new directory, and references to the old conversation ID inside copied text files were rewritten to the new one. They are the source conversation's CURRENT artifacts, not the ones it had at the branch point, so they may be out of sync with the history above.Estimated total available CPU time not spent executing any Go or Go runtime code. In other words, the part of /cpu/classes/total:cpu-seconds that was unused. This metric is an overestimate, and not directly comparable to system CPU time measurements. Compare only with other /cpu/classes metrics.4. **VERY IMPORTANT:** Your shell environment comes with comprehensive pre-installed libraries to run tests and debug your code. You should use them to your full advantage and NEVER GIVE UP verifying your solutions. You have no excuse submitting unverified code without successfully running tests.
+(?=[\w\-])(CASE|CLEARGIF|COA|COA_INT|COBJ_ARRAY|COLUMNS|CONTENT|CTABLE|EDITPANEL|FILE|FILES|FLUIDTEMPLATE|FORM|HMENU|HRULER|HTML|IMAGE|IMGTEXT|IMG_RESOURCE|LOAD_REGISTER|MEDIA|MULTIMEDIA|OTABLE|PAGE|QTOBJECT|RECORDS|RESTORE_REGISTER|SEARCHRESULT|SVG|SWFOBJECT|TEMPLATE|TEXT|USER|USER_INT)(?![\w\-])Your workspace was copied from the source conversation's CURRENT workspace, not the one it had at the branch point, because the branch point's snapshot is of another workspace (such as a worktree) and can't be restored here. Its files may not match the history above: check them before relying on it.
+
+Please check the public issue tracker to check whether this problem is
+already tracked. If you cannot find it there, please report the error
+with details by creating a new issue.
+
+If you would rather not post publicly, please contact us directly
+using the support form.
+
+We appreciate your feedback.
+Evaluate the current action. You can call vetting tools across multiple sequential rounds if needed (e.g. if you need to check the result of one tool before deciding to call another).
+
+CRITICAL: You MUST invoke all possible vetting checks (even using the same tool multiple times) for the given action.(?<!(?<!\\)\\)(?:[$@%&]+[.^:?=!~]?(?:(?!(?<!:)(?<colon>:)(?<key>\w[\w'-]*)(?<opening_delimiters>(?:<<|<|¬´|\(|\[|\{)))(?:::|[\w':-]))+|[$@%&]+\*(?:(?!(?<!:)(?<colon>:)(?<key>\w[\w'-]*)(?<opening_delimiters>(?:<<|<|¬´|\(|\[|\{)))(?:::|[\w':-]))+)(?=(:['\w-]+(?:<<|<|¬´|\(|\[|\{).+?(?:>>|>|¬ª|\)|\]|\}))?)
+google/rpc/status.proto
+google.rpcgoogle/protobuf/any.proto"f
+Status
+code (Rcode
+message (	Rmessage.
+details (2.google.protobuf.AnyRdetailsB~
+com.google.rpc.proto1api(BStatusProtoPZ7google.golang.org/genproto/googleapis/rpc/status;statusöcom.google.rpc¯¢RPCbproto3Memory allocated from the heap that is reserved for stack space, whether or not it is currently in-use. Currently, this represents all stack memory for goroutines. It also includes all OS thread stacks in non-cgo programs. Note that stacks may be allocated differently in the future, and this may change.{
+			"type": "object",
+			"properties": {
+				"change_type": {
+					"type": "string",
+					"description": "Type of change: 'path', 'env_var', 'alias'"
+				},
+				"new_value": {
+					"type": "string",
+					"description": "The new value being set"
+				}
+			},
+			"required": ["change_type", "new_value"]
+		}Manages one level of a tournament tree (or a partition of one level). Invokes that level's subagents, collects results, and writes output files. Recursively partitions into sub-layer orchestrators when the assigned workload exceeds capacity. Executes protocol only ‚Äî never evaluates mathematical quality.%s already exists and its contents were not overwritten with your code contents.  If you intend to overwrite the file, make the same call with Overwrite set to true. If you want to edit this file, please view its contents first then use a code edit tool. Otherwise, create a new file with a different name.Primary implementation specialist for a SWE Light task. Reads the original task verbatim, implements the change, and verifies it by running the repository test suite. Reports with an explicit Verification Record separating tested from untested claims. Dispatch this FIRST, alone, and wait for it to finish.<html>
+<head>
+<title>/debug/pprof/</title>
+<style>
+.profile-name{
+	display:inline-block;
+	width:6rem;
+}
+</style>
+</head>
+<body>
+/debug/pprof/
+<br>
+<p>Set debug=1 as a query parameter to export in legacy text format</p>
+<br>
+Types of profiles available:
+<table>
+<thead><td>Count</td><td>Profile</td></thead>
+
+	INSERT INTO conversations_fts (
+		conversation_id, chunk_index, chunk_first_step, chunk_last_step, last_modified_time, step_count, last_step_created_at, archived, user_step_byte_offsets, agent_step_byte_offsets, title, workspace, user_body, agent_body
+	) VALUES (?, ?, ?, ?, 0, 0, 0, 0, ?, ?, '', '', ?, ?)Distribution of individual non-GC-related stop-the-world pause latencies. This is the time from deciding to stop the world until the world is started again. Some of this time is spent getting all threads to stop (measured directly in /sched/pauses/stopping/other:seconds). Bucket counts increase monotonically.
+	INSERT INTO conversations_fts (
+		conversation_id, chunk_index, chunk_first_step, chunk_last_step, last_modified_time, step_count, last_step_created_at, archived, user_step_byte_offsets, agent_step_byte_offsets, title, workspace, user_body, agent_body
+	) VALUES (?, -1, 0, 0, ?, ?, ?, ?, '', '', ?, ?, '', '')# Conversation Logs
+Start with the compact transcript; if a step has `truncated_fields`, read only that specific line in `transcript_full.jsonl`:
+- `<appDataDir>/brain/<conversation-id>/.system_generated/logs/transcript.jsonl`
+- `<appDataDir>/brain/<conversation-id>/.system_generated/logs/transcript_full.jsonl`Send standard input to a running command or to terminate a command. Use this to interact with REPLs, interactive commands, and long-running processes. The command must have been created by a previous run_command call. Use the command_status tool to check the status and output of the command after sending input.1. **Good design makes a product useful**: The primary job is to help users accomplish their goals. Be thoughtful about the information hierarchy, and copy should convey the appropriate information in the writing style of the request. Content must be easily accessible, navigation intuitive, and load times fast.Coordinate the weekly release train end to end, collecting go and no-go calls from every feature area and platform owner ahead of time, then tracking each shipment stage from code freeze through canary analysis, staged rollout, production push, and the final confirmation that binaries reached their destinations.^\s*#\s*include <(cstdint|string|vector|map|list|array|bitset|queue|stack|forward_list|unordered_map|unordered_set|(i|o|io)stream)>|^\s*template\s*<|^[ \t]*(try|constexpr)|^[ \t]*catch\s*\(|^[ \t]*(class|(using[ \t]+)?namespace)\s+\w+|^[ \t]*(private|public|protected):$|__has_cpp_attribute|__cplusplus >|std::\w+
++google/rpc/context/field_mask_context.protogoogle.rpc.context google/protobuf/field_mask.proto"í
+FieldMaskContext=
+request_mask (2.google.protobuf.FieldMaskRrequestMask?
+response_mask (2.google.protobuf.FieldMaskRresponseMaskB9
+com.google.rpc.contextBFieldMaskContextProtoPp¢RPCbproto3{{- /*
+Global error handling helpers for templates
+*/ -}}
+
+{{- /*
+templateError outputs a standardized error token with a description
+Usage: {{template "templateError" "description of the error"}}
+Output format: <TEMPLATE_ERROR:description>
+*/ -}}
+{{- define "templateError" -}}
+	<TEMPLATE_ERROR:{{.}}>
+{{- end -}}
+
+4google/cloud/businessaicode/v1main/entitlement.proto"google.cloud.businessaicode.v1maingoogle/api/field_behavior.proto<storage/datapol/annotations/proto/semantic_annotations.proto"<
+Entitlement'
+	user_tier (	B
+‡A††òÚRuserTierJB<
+&com.google.cloud.businessaicode.v1mainBEntitlementProtoPbproto32. Create an implementation plan artifact with `request_feedback = true` to request approval. Include any open questions for the user directly in the implementation plan. Don't use the ask_question tool to ask these questions. Stop calling tools and allow the user to review the plan and provide feedback or approval.(?!(?:function|class|static|var|if|else|while|do|for|break|return|continue|extends|implements|import|switch|case|default|public|private|try|untyped|catch|new|this|throw|extern|enum|in|interface|cast|override|dynamic|typedef|package|inline|using|null|true|false|abstract)\b)(?:_*[a-z]\w*|_+[0-9]\w*|_*[A-Z]\w*|_+|\$\w+)
+1google/rpc/context/apiary_migration_context.protogoogle.rpc.context"¨
+ApiaryMigrationContext,
+apiary_method_name (	RapiaryMethodName6
+original_text_content (	BRoriginalTextContent,
+oauth_access_token (	RoauthAccessTokenB?
+com.google.rpc.contextBApiaryMigrationContextProtoPp¢RPCbproto3
+7google/internal/cloud/code/v1internal/entitlement.proto%google.internal.cloud.code.v1internalgoogle/api/field_behavior.proto<storage/datapol/annotations/proto/semantic_annotations.proto"6
+Entitlement'
+	user_tier (	B
+‡A††òÚRuserTierB?
+)com.google.internal.cloud.code.v1internalBEntitlementProtoPbproto3
++google/rpc/context/visibility_context.protogoogle.rpc.contextgoogle/api/visibility.protogoogle/protobuf/timestamp.proto"}
+VisibilityContext
+labels (	Rlabels7
+	read_time (2.google.protobuf.TimestampRreadTime:˙“‰ìGOOGLE_INTERNALB:
+com.google.rpc.contextBVisibilityContextProtoPp¢RPCbproto3IMPORTANT: Do NOT use this tool to request persistent exceptions for commands that make network requests, run arbitrary code, or download unverified files (e.g., curl, wget, pip, npm). For such operations, invoke the run_command tool directly so the user can explicitly review and approve the individual process execution.
+nc/ncat/netcat ‚Äî Raw network connections.
+ANY use with non-localhost is suspicious.
+  nc <host> <port>         Sends stdin to remote host.
+  nc -l <port>             Listens on a port (opens a network endpoint).
+  <cmd> | nc <host> <port> Pipes command output to remote.
+RULE: nc with non-localhost is a raw data channel.
+Gprivacy/pattributes/containers/proto_field/proto_field_attributes.protopattributesQprivacy/pattributes/containers/proto_field/proto_field_upload_justification.proto"v
+ProtoFieldAttributes^
+upload_justification° (2*.pattributes.ProtoFieldUploadJustificationRuploadJustificationB 
+com.google.pattributes.protoP(\.)((?!(?:function|class|static|var|if|else|while|do|for|break|return|continue|extends|implements|import|switch|case|default|public|private|try|untyped|catch|new|this|throw|extern|enum|in|interface|cast|override|dynamic|typedef|package|inline|using|null|true|false|abstract)\b)(?:_*[a-z]\w*|_+[0-9]\w*|_*[A-Z]\w*|_+|\$\w+))
+ google/rpc/error_extension.proto
+google.rpcgoogle/rpc/status.proto)net/proto2/bridge/proto/message_set.proto:\
+error_details_ext.proto2.bridge.MessageSetÜ÷ç' (2.google.rpc.StatusRerrorDetailsExtBr
+com.google.rpcBErrorExtensionProtoPZCgoogle.golang.org/genproto/googleapis/rpc/errextension;errextension¢RPC
+/devtools/ai/flow/autocomplete/model/model.protodevtools.ai.autocomplete"È
+Model
+vocab (	Rvocab?
+entries (2%.devtools.ai.autocomplete.Model.TableRentries
+name (	Rnameu
+Table
+ids (Rids
+
+raw_counts (R	rawCounts
+blocks (Rblocks
+
+eos_counts (R	eosCountsJBíbeditionspÈDistribution of individual GC-related stop-the-world stopping latencies. This is the time it takes from deciding to stop the world until all Ps are stopped. This is a subset of the total GC-related stop-the-world time (/sched/pauses/total/gc:seconds). During this time, some threads may be executing. Bucket counts increase monotonically.General Reminders:
+- You must specify exactly one of DurationSeconds or CronExpression.
+- Always provide a Prompt describing what the notification should say.
+- Never run a background 'sleep' command to set a timer, use this tool instead.
+- To cancel a running timer or cron schedule, use the %s tool with the task ID returned by this tool.3. These strategies can also apply to debugging your code or test changes. For example, if your tests failed, you can insert print statements to the code and run the test again to observe the variable values to help you debug. Additionally, if you have a hypothesis about the cause of the failure, create a another test script to verify it.
+>storage/datapol/annotations/proto/datapol_classification.protodatapol.classification!net/proto2/proto/descriptor.proto"
+Options
+implies (	Rimplies 
+description (	Rdescription8
+default_semantic_context (	RdefaultSemanticContext:W
+options.proto2.EnumValueOptions™ÖöÄ (2.datapol.classification.OptionsRoptionsYou have encountered an unexpected error.
+
+Please check the public issue tracker to check whether this problem is
+already tracked. If you cannot find it there, please report the error
+with details by creating a new issue.
+
+If you would rather not post publicly, please contact us directly
+using the support form.
+
+We appreciate your feedback.
+
+4learning/genai/api/interactions/proto/thinking.protogenai*ó
+ThinkingLevel
+THINKING_LEVEL_UNSPECIFIED

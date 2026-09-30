@@ -1128,6 +1128,18 @@
 "resume": "output/Synthio Labs - Software Engineer - AI/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "BiCSoM Technologies",
+"role": "Node.JS Developer",
+"loc": "Remote / Bengaluru",
+"via": "Direct",
+"found": "Direct",
+"comp": "Not listed (~12-18 LPA)",
+"status": "Applied",
+"date": "2026-09-29",
+"url": "https://bicsom.co/jobs/node-js-developer/",
+"resume": "output/BiCSoM - Node.JS Developer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Commure",
 "role": "Forward Deployed Engineer (India)",
 "loc": "Bengaluru, India",
@@ -1164,6 +1176,18 @@
 "resume": "output/Rox Data Corp - Full Stack Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Scale AI",
+"role": "Forward Deployed Engineer, Gen AI",
+"loc": "India",
+"via": "job_hunt.py",
+"found": "job_hunt.py",
+"comp": "Not listed (~25-45 LPA)",
+"status": "Applied",
+"date": "2026-09-29",
+"url": "https://job-boards.greenhouse.io/scaleai/jobs/4549048005",
+"resume": "output/Scale AI - Forward Deployed Engineer, Gen AI/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Securonix",
 "role": "Software Engineer - Back-End & Agentic AI",
 "loc": "Bengaluru, Karnataka",
@@ -1198,6 +1222,42 @@
 "date": "2026-09-29",
 "url": "https://jobs.ashbyhq.com/wisdom-ai/c785bc4d-ed02-4b59-88f1-44db0e151f46",
 "resume": "output/Wisdom AI - Software Engineer, Platforms/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Cardboard",
+"role": "Fullstack Engineer",
+"loc": "Bengaluru",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (~20-40 LPA)",
+"status": "Applied",
+"date": "2026-09-30",
+"url": "https://jobs.ashbyhq.com/cardboard/744b9881-cf83-4b20-b6dd-5ef8e8082e62",
+"resume": "output/Cardboard - Fullstack Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Schrödinger",
+"role": "Software Developer - Python",
+"loc": "Hyderabad",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed (~18-30 LPA)",
+"status": "Applied",
+"date": "2026-09-30",
+"url": "https://job-boards.greenhouse.io/schrdinger/jobs/7820024003",
+"resume": "output/Schrödinger - Software Developer - Python/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Yext",
+"role": "Software Engineer",
+"loc": "Hyderabad, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "15-25 LPA",
+"status": "Applied",
+"date": "2026-09-30",
+"url": "https://job-boards.greenhouse.io/yext/jobs/8239363",
+"resume": "output/Yext - Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "HackerEarth",
@@ -1680,6 +1740,90 @@
 "resume": "output/Hyperproof - Software Engineer, Risk Management/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Cohere Health",
+"role": "Associate Software Engineer",
+"loc": "Hyderabad, India",
+"via": "job_hunt.py",
+"found": "job_hunt.py",
+"comp": "Not listed (~18-28 LPA)",
+"status": "Skipped",
+"date": "2026-09-29",
+"url": "https://job-boards.greenhouse.io/coherehealth/jobs/7728230003",
+"resume": ""
+},
+{
+"co": "Sarvam AI",
+"role": "Backend Engineer, Chanakya",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Direct",
+"found": "Direct",
+"comp": "Not listed (~25-45 LPA)",
+"status": "Skipped",
+"date": "2026-09-29",
+"url": "https://jobs.ashbyhq.com/sarvam/86ae80f8-b7eb-43a4-afde-fef58e77e23e/application",
+"resume": "output/Sarvam AI - Backend Engineer, Chanakya/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Stripe",
+"role": "Software Engineer, Internal Systems",
+"loc": "Bengaluru, India",
+"via": "Direct",
+"found": "Direct",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-29",
+"url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs/7543868",
+"resume": ""
+},
+{
+"co": "Stripe",
+"role": "Software Engineer, Stripe Data Pipeline",
+"loc": "Bangalore",
+"via": "Direct",
+"found": "Direct",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-29",
+"url": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs/8209970",
+"resume": ""
+},
+{
+"co": "Together AI",
+"role": "Junior/Senior Software Engineer, Inference Platform",
+"loc": "Remote in India",
+"via": "job_hunt.py",
+"found": "job_hunt.py",
+"comp": "Not listed (~30-60 LPA)",
+"status": "Skipped",
+"date": "2026-09-29",
+"url": "https://job-boards.greenhouse.io/togetherai/jobs/5213325007",
+"resume": ""
+},
+{
+"co": "Binocs.co",
+"role": "SDE- I",
+"loc": "Bengaluru",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹10L - ₹15L",
+"status": "Skipped",
+"date": "2026-09-30",
+"url": "https://wellfound.com/jobs/4762758-sde-i",
+"resume": ""
+},
+{
+"co": "Cohere Health",
+"role": "Software Engineer",
+"loc": "Hyderabad, Telangana, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-09-30",
+"url": "https://job-boards.greenhouse.io/coherehealth/jobs/7980642003",
+"resume": ""
+},
+{
 "co": "First American India Pvt Ltd",
 "role": "Software Engineer II- Middleware",
 "loc": "Bengaluru, Karnataka",
@@ -1764,6 +1908,42 @@
 "resume": "output/Wells Fargo - Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Observe.AI",
+"role": "AI Agent Engineer",
+"loc": "Hyderabad, Telangana, India",
+"via": "job_hunt.py",
+"found": "job_hunt.py",
+"comp": "Not listed (~25-40 LPA)",
+"status": "Blocked",
+"date": "2026-09-29",
+"url": "https://job-boards.greenhouse.io/embed/job_app?for=observeai&token=5432596008",
+"resume": "output/Observe.ai - AI Agent Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "QualityAI",
+"role": "Full stack Developer",
+"loc": "Bangalore",
+"via": "Direct",
+"found": "Direct",
+"comp": "Not listed (~18-28 LPA)",
+"status": "Blocked",
+"date": "2026-09-29",
+"url": "https://careers.quality-ai.com/job/Bangalore-Full-stack-Developer-560045/59881544/",
+"resume": "output/QualityAI - Full stack Developer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Simbian Inc",
+"role": "Software Engineer (Frontend)",
+"loc": "Bangalore (IN) Remote, India",
+"via": "Direct",
+"found": "Direct",
+"comp": "Not listed (~20-35 LPA)",
+"status": "Blocked",
+"date": "2026-09-29",
+"url": "https://simbian.zohorecruit.in/jobs/Careers/184540000002423949/Software-Engineer-Frontend?source=jobfound.org",
+"resume": "output/Simbian Inc - Software Engineer (Frontend)/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Transak",
 "role": "Software Development Engineer, Backend",
 "loc": "Bengaluru, Karnataka",
@@ -1774,5 +1954,17 @@
 "date": "2026-09-29",
 "url": "https://in.indeed.com/viewjob?jk=2e7e3d1a88674550",
 "resume": "output/Transak - Software Development Engineer, Backend/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Cursor",
+"role": "Forward Deployed Engineer - India",
+"loc": "Bengaluru",
+"via": "Direct",
+"found": "Direct",
+"comp": "Not listed (~30-50 LPA)",
+"status": "Blocked",
+"date": "2026-09-30",
+"url": "https://cursor.com/careers/forward-deployed-engineer-india",
+"resume": "output/Cursor - Forward Deployed Engineer/Pratham_Modi_Resume.pdf"
 }
 ]

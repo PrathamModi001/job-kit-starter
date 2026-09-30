@@ -1,0 +1,29 @@
+Title: Backend Engineer, Chanakya
+Company: Sarvam AI
+Location: Bengaluru, Karnataka, India
+
+About Sarvam
+Sarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across research, models, infrastructure and applications with a singular focus on making AI genuinely work for India. Sarvam works with leading enterprises and public institutions and is backed by Lightspeed, Peak XV, and Khosla Ventures. Sarvam partners with India's leading brands, including Tata Capital, SBI Life, CRED, IDFC, and LIC.
+
+About the Role
+Backend Engineers on this team are builders, not maintainers. You will design and implement the core system infrastructure that powers Sarvam's 'atoms': MCP servers, on-prem deployment tooling, document ingestion pipelines, agentic backends, and API layers. These systems run in classified, air-gapped, and operationally constrained environments — or in enterprise environments with their own security, compliance, and integration constraints.
+The architecture decisions you make will be inherited by every deployment that follows. You will ship real systems, not prototypes — and you will be accountable for how they behave in the field.
+
+What You'll Do
+• Design and build backend systems for Sarvam's atoms: MCP servers, document ingestion pipelines, agentic frameworks, NL-to-action APIs, and on-prem deployment tooling
+• Build robust, well-designed API layers that connect Sarvam's AI stack to client-side frontends and operational systems
+• Implement data ingestion and processing pipelines for unstructured data: PDFs, audio transcripts, imagery metadata, and geospatial feeds
+• Build for constrained deployment environments: containerised, minimal-dependency, auditable — systems that a deployment engineer can operate without you in the room
+• Write clean, well-tested, documented code that other engineers can extend and deployment teams can operate
+• Collaborate with frontend engineers, the data scientist, and MLOps to ship complete atoms end-to-end
+• Support Strategic Deployment Engineers with debugging, operational tooling, and field-level troubleshooting
+
+What We're Looking For
+• Backend engineering with production systems in continuous operation
+• Strong Python: FastAPI, asyncio, Pydantic — production-grade; Go or Rust is a strong plus
+• System design proficiency: distributed systems, job queues, async processing, caching, and failure handling
+• API design: RESTful and/or GraphQL; gRPC experience is a plus
+• Containerisation: Docker, Kubernetes or K3s; experience deploying in minimal-dependency environments
+• Database experience: PostgreSQL, Redis, and vector databases (Qdrant, Chroma, Weaviate, or equivalent)
+• Experience integrating with LLM APIs and building agentic pipelines — LangChain, LlamaIndex, or direct API integration
+• Bonus: MCP protocol familiarity, security-hardened API design, on-prem deployment

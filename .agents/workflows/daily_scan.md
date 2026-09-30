@@ -51,9 +51,25 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    Running subagents sequentially still gets the isolation benefit that matters (each
    lead's personal-info form-filling starts from a fresh, undrifted read of
    `job_hunt_profile.md` instead of an increasingly-long single session) without the
-   concurrency hazard. If you find yourself tempted to skip subagent dispatch entirely
-   and run every lead in the main session instead, that is a deviation from this spec —
-   stop and say so explicitly in the run report (step 7) rather than silently doing it.
+   concurrency hazard.
+
+   **"Shared browser tab" is not a valid reason to skip dispatch.** Each subagent
+   opens its own new tab (`tabs_create_mcp` / Playwright `browser_tabs` new) for its
+   lead and closes it (or leaves it open per 5h on a blocker) before returning — it
+   never reuses a tab another subagent or the orchestrator is holding open. Since
+   dispatch is strictly sequential, no two subagents ever touch the CDP connection at
+   the same instant regardless of tab count. If you find yourself about to run every
+   lead in the main session instead of dispatching, that reasoning is invalid — the
+   concurrency/collision risk it's protecting against does not exist under sequential
+   dispatch with per-subagent tabs. Dispatch anyway.
+
+   **This is mechanically checked, not self-reported.** Before writing step 7's
+   report, run `python3 job-kit-starter/verify_subagent_dispatch.py --date <today>`.
+   It reads the raw Antigravity transcript log and counts actual `invoke_subagent`
+   tool calls against the leads logged to `applications.csv` for that date — it does
+   not trust narration about what happened. Paste its output into the report. A run
+   where this script exits non-zero (dispatch count < lead count) must say so plainly
+   in the Execution-architecture disclosure — do not omit or soften a FAIL result.
 
    a. **HARD GATE — mechanical exclusion check, run first, before any tailoring:**
       literally quote the job title and re-check it word-by-word against this list —
@@ -141,5 +157,20 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
 
 7. **Report Summary**:
    - Present a structured report: applied roles (with resume path + req ID), blocked leads (with reason + tab left open), skipped noise (with reasons), and cold outreach sent (count by tier + source).
-   - **Execution-architecture disclosure (mandatory, every run):** state plainly whether step 5's per-lead subagent dispatch (as specified above) was actually used for this run. If it was not — e.g. everything ran in the main session instead — say so explicitly and give the concrete technical reason (don't silently deviate from the spec and only reveal it if asked).
-   - **Token usage disclosure (mandatory, every run):** report total tokens consumed by this run, broken down by phase (scan/rank, per-lead apply — per subagent if subagents were used, cold outreach, reporting) as accurately as the runtime exposes it (e.g. from actual API usage/billing metadata if available). Prefer a real measured figure over a reconstructed estimate; if only an estimate is possible, say so and give the method, but do not present an estimate as a measured total.
+   - **Execution-architecture disclosure (mandatory, every run) — verified, not narrated:**
+     include the full stdout of `verify_subagent_dispatch.py` from step 5 above, plus a
+     per-lead table with one row per lead logged today and a Y/N column for "subagent
+     dispatched" — sourced from the script's `invoke_subagent` count, not from memory of
+     what you intended to do. If the script's exit code is non-zero, state the FAIL
+     result plainly and give the concrete technical reason dispatch was skipped for
+     those leads — a claimed reason must be consistent with the "shared browser tab"
+     rule above (i.e. it can't just re-assert the collision risk the sequential-dispatch
+     design already rules out).
+   - **Token usage disclosure (mandatory, every run):** report total tokens consumed by
+     this run, broken down by phase (scan/rank, per-lead apply — per subagent if
+     subagents were used, cold outreach, reporting). Source this from the actual
+     `gen_metadata` records in the run's own conversation SQLite database(s) under
+     `~/.gemini/antigravity-cli/conversations/`, or from whatever real usage/billing
+     metadata the runtime exposes — never estimate from memory of turn count or
+     approximate context size. If only an estimate is possible, say so explicitly and
+     give the method; do not present an estimate as a measured total.

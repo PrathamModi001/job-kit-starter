@@ -213,7 +213,5 @@
   "211": "run_upload.js",
   "212": "save_supabase_jd.py",
   "213": "scan_boards.py",
-  "214": "upload_yext.js",
-  "215": "send_batch1.js",
-  "216": "send_batch2.js"
+  "214": "upload_yext.js"
 }

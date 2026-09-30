@@ -1594,17 +1594,5 @@
     "seen": 1790746313.1263034,
     "ast_hash": "583adadb4d9e86b9a4d85d2ca7b37ca4",
     "semantic_hash": ""
-  },
-  "scratch/send_batch1.js": {
-    "mtime": 1790748187.9362497,
-    "seen": 1790748302.9571345,
-    "ast_hash": "0dcfe0cc80b52cbb0fd026c2a5476fbe",
-    "semantic_hash": ""
-  },
-  "scratch/send_batch2.js": {
-    "mtime": 1790748187.9363093,
-    "seen": 1790748302.9571369,
-    "ast_hash": "0dcfe0cc80b52cbb0fd026c2a5476fbe",
-    "semantic_hash": ""
   }
 }

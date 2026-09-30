@@ -6259,28 +6259,6 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_send_batch1",
-      "label": "send_batch1.js",
-      "_origin": "ast",
-      "community": 215,
-      "community_name": "send_batch1.js",
-      "file_type": "code",
-      "norm_label": "send_batch1.js",
-      "source_file": "scratch/send_batch1.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_send_batch2",
-      "label": "send_batch2.js",
-      "_origin": "ast",
-      "community": 216,
-      "community_name": "send_batch2.js",
-      "file_type": "code",
-      "norm_label": "send_batch2.js",
-      "source_file": "scratch/send_batch2.js",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_resume_builder_examples_extractions_example_extraction",
       "label": "example_extraction.md",
       "_origin": "ast",
