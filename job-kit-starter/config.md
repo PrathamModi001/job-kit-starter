@@ -29,7 +29,7 @@
 - Jobfound — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time` (Note: Do NOT login to jobfound board; login is not needed)
 - Naukri (Premium subscription — prioritize for profile optimization, better recruiter visibility)
 
-**LinkedIn is an approved job-search source (exclusion lifted 2026-09-20).** Easy Apply is treated as a separate, uncapped lane like Indeed Smart Apply — see `.agents/workflows/daily_scan.md`.
+**LinkedIn is an approved job-search source (exclusion lifted 2026-09-20).** Easy Apply is treated as a separate, uncapped lane like Indeed Smart Apply.
 
 ---
 
@@ -41,7 +41,15 @@
 
 ## Application-Form Facts (reused constantly — collect once during onboarding)
 
-> **Canonical source:** `.agents/rules/job_hunt_profile.md` → "📋 Application-Form Facts" — that file (not this one) is what actually gets read during the job-hunt loop, so it owns the live copy. Comp floor (18–20 LPA) is part of the Candidate Bar in `CLAUDE.md`. Update the facts there; this section is a pointer only, not a second copy, to avoid the two drifting apart.
+> **Canonical source: this section.** (There is no separate `.agents/rules/job_hunt_profile.md` — that path does not exist in this repo; do not look for it.) Comp floor (18–20 LPA) is part of the Candidate Bar in `CLAUDE.md` — not repeated here to avoid drift.
+- **Date of birth:** 23/01/2003
+- **Current CTC:** 12 LPA
+- **Expected CTC:** 20 LPA
+- **Notice period:** Immediate
+- **Address:** D 203, Ratan Planet, Near IIT Kanpur, Kanpur, 208016
+- **Gender / Age:** Male / 23
+- **Citizenship:** Indian
+- **Background-check consent:** Yes
 - **Email signature for outreach:** Best, / Pratham Modi / prathammodi001@gmail.com
 
 ---

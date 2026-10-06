@@ -158,7 +158,7 @@ Templates load `mhchem`. `\ce{H2O}` for formulas, `$\beta$` for Greek, `$\sim$` 
 - **Type:** Prefer product companies and well-funded startups with real engineering scope over pure IT-services/staffing shops. Hard skip: commission-only, unpaid, MLM-ish postings.
 - **Wellfound Location Prompt Policy:** If Wellfound shows *"This job does not support the locations on your profile... I am currently in… / I can relocate to… [Location]"*, and the dropdown location matches the eligibility list above, select **"I can relocate to…"**, confirm, and proceed. Otherwise skip.
 
-> This is the canonical candidate bar for the whole kit — `PLAYBOOK.md`, `.agents/rules/job_hunt_profile.md`, and the outer repo `CLAUDE.md` all point here instead of restating it. Application-form facts (address, phone, DOB, gender, notice period, etc.) live in `.agents/rules/job_hunt_profile.md` — edit them there.
+> This is the canonical candidate bar for the whole kit — `PLAYBOOK.md` and the outer repo `CLAUDE.md` all point here instead of restating it. Application-form facts (address, phone, DOB, gender, notice period, etc.) live in `config.md` → "Application-Form Facts" — edit them there.
 
 ### Recency filter — removed (2026-09-13), no cap on posting age
 Per user request, the ≤7-day recency cap was removed from both scripted scan tools:
@@ -173,7 +173,7 @@ Per user request, the ≤7-day recency cap was removed from both scripted scan t
 - `python3 job_hunt_india.py` — Indeed via JobSpy (India), last 7 days → `output/job-search/digest_india.md`. (Edit queries/country for your region. This script only covers Indeed — it does not scrape LinkedIn; LinkedIn leads come from the browser feed below.)
 - `python3 waas_scan.py` — Work-at-a-Startup (login-gated; see PLAYBOOK for the browser flow). ~5 applications/week cap — spend slots on best-fit only.
 - Browser feeds (Playwright/claude-in-chrome): platform match-feeds like Instahyre/Cutshort/Naukri/LinkedIn or your region's equivalents — see PLAYBOOK. Also **jobfound.org** — always use this exact filter URL: `https://jobfound.org/?page=0&loc=India&sal=10-20+LPA%2C20-30+LPA&exp=0-1+yr%2C1-3+yrs&work=remote%2Chybrid%2Consite&type=Full-time` (Note: jobfound does NOT require login; do not log in on jobfound).
-- **LinkedIn is an approved source (exclusion lifted 2026-09-20).** Browse/scan/apply normally via Playwright/claude-in-chrome, subject to the Candidate Bar. Easy Apply is a separate, uncapped lane like Indeed Smart Apply — see `.agents/workflows/daily_scan.md`.
+- **LinkedIn is an approved source (exclusion lifted 2026-09-20).** Browse/scan/apply normally via Playwright/claude-in-chrome, subject to the Candidate Bar. Easy Apply is a separate, uncapped lane like Indeed Smart Apply.
 - Present results **triaged against the bar**, not raw dumps. Flag dupes-already-in-pipeline honestly.
 
 ### Application flow (per lead)
@@ -209,4 +209,4 @@ Update `applications.csv` (the per-lead **Next step** column carries current sta
 
 Columns: Company,Role,Location,Channel,Comp,Status,Added,Applied,Updated,Resume,Job URL,Next step,Personal Info Filled.
 Statuses: Lead / Applied / Skipped / Closed. Update on every state change.
-`Personal Info Filled` (Applied rows only): the exact personal-info values actually entered into that application's form (`key=value; key=value`), logged verbatim by the applying agent — this is an audit trail to catch hallucinated/incorrect personal data, not a restatement of the canonical facts in `.agents/rules/job_hunt_profile.md`.
+`Personal Info Filled` (Applied rows only): the exact personal-info values actually entered into that application's form (`key=value; key=value`), logged verbatim by the applying agent — this is an audit trail to catch hallucinated/incorrect personal data, not a restatement of the canonical facts in `config.md` → "Application-Form Facts".
