@@ -254,6 +254,9 @@ def parse_posted(v):
 
 def score(title, desc, loc):
     blob = (title + " " + desc).lower()
+    from gates import title_skip, yoe_check
+    if title_skip(title) or yoe_check(desc)[0] == "skip":
+        return -50  # hard skip: user-added title terms (customer/client/mobile/React Native) + 4+ YOE gate
     # hard skip: wrong exp level for 0-3 YOE target
     if re.search(r"\b(sde\s*[23]|sde\s*ii+|software development engineer\s*ii+|sde[23]|"
                  r"product engineer\s*ii+|product engineer\s*[23]|"
