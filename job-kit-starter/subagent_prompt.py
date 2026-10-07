@@ -7,6 +7,9 @@ Pulls only: candidate bar, form facts, the one matching ATS recipe, and the gate
 import re, sys
 from pathlib import Path
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 R = Path(__file__).resolve().parent
 HOSTS = {"workday": "myworkdayjobs", "greenhouse": "greenhouse", "ashby": "ashbyhq", "lever": "lever.co",
          "wellfound": "wellfound", "cutshort": "cutshort", "indeed": "indeed", "naukri": "naukri",
@@ -41,7 +44,9 @@ STEPS (run from job-kit-starter/):
 2. python gates.py title "<title>" ; python gates.py yoe output/{role}/jd.txt  -> exit 1 = log Status=Skipped with reason, STOP.
 3. Tailor resume: lane bundle in resume_builder/bundles/, copy-exact bullets from resume_builder/experience/*.md, template resume_builder/templates/swe_resume_template.tex; compile `tectonic -c minimal`; 1 page via pypdf.
 4. python gates.py lint "{role}" ; python gates.py coverage "{role}"  -> add every `missing_but_in_profile` skill, recompile.
-5. Fill + submit the form (recipe below). Prefer the ATS's HTTP/form endpoint over screenshot-click loops. Blocker (captcha/verification wall)? Spend at most ~15 more turns, then leave the tab open, log Status=Blocked, stop.
+5. Fill + submit the form (recipe below). Prefer the ATS's HTTP/form endpoint over screenshot-click loops.
+   TURN CAPS (hard): blocker (captcha/verification wall) -> at most 10 more turns, then leave the tab open, log Status=Blocked, stop. No submit after 40 turns total -> stop, log Blocked with the reason. Never retry a captcha.
+   REDIRECT: if the apply link lands on a different ATS (e.g. a careers page that forwards to *.myworkdayjobs.com), do NOT improvise: run `python subagent_prompt.py --recipe <workday|successfactors|phenom|cutshort|wellfound|freshteam|custom>` and follow that recipe from the start.
 6. python gates.py form "<exact key=value; ... you typed>" must print OK, then log via the csv-logger agent. Do NOT run tracker refresh or graphify (orchestrator does).
 
 CANDIDATE BAR:
@@ -53,4 +58,7 @@ ATS RECIPE:
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    if sys.argv[1] == "--recipe":  # print one ATS recipe by name (redirect case)
+        print(recipe(HOSTS.get(sys.argv[2], sys.argv[2])))
+    else:
+        main(sys.argv[1], sys.argv[2])
