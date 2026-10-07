@@ -28,9 +28,10 @@ QUERIES = [
     ("indeed",   "backend developer node",        False, "Bengaluru, India"),
     ("indeed",   "software developer",            False, "Bengaluru, India"),
     ("indeed",   "full stack developer",          False, "Bengaluru, India"),
-    ("indeed",   "backend engineer",              False, "India"),
-    ("indeed",   "node.js developer",             False, "India"),
-    ("indeed",   "software engineer backend",     False, "India"),
+    ("indeed",   "backend engineer",              False, "Pune, India"),
+    ("indeed",   "software engineer backend",     False, "Hyderabad, India"),
+    ("indeed",   "full stack developer",          False, "Gurgaon, India"),
+    ("indeed",   "backend developer",             False, "Mumbai, India"),
     ("indeed",   "backend developer",             True,  "India"),   # remote-biased
 ]
 

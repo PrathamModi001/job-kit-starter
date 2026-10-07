@@ -4,7 +4,7 @@ import json
 import os
 import sys
 
-def verify_dispatch(target_date):
+def verify_dispatch(target_date, target_conv_id=None):
     print(f"=== Verifying Subagent Dispatch for Date: {target_date} ===")
     
     # 1. Locate applications.csv
@@ -40,7 +40,7 @@ def verify_dispatch(target_date):
     print(f"Found {len(today_leads)} leads with Status=Applied/Blocked for {target_date}.")
     
     # 2. Locate transcript.jsonl
-    conv_id = "cba11062-f2b2-490d-8a2e-c46131def99c"
+    conv_id = target_conv_id or os.environ.get("CONV_ID") or "18456a7e-1e39-4b5a-aec7-711c21fd84ed"
     transcript_paths = [
         os.path.expanduser(f"~/.gemini/antigravity-cli/brain/{conv_id}/.system_generated/logs/transcript.jsonl"),
         os.path.join(r"C:\Users\prathamm\.gemini\antigravity-cli\brain", conv_id, ".system_generated", "logs", "transcript.jsonl")
@@ -108,5 +108,6 @@ def verify_dispatch(target_date):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Verify subagent dispatch for job leads.")
     parser.add_argument("--date", required=True, help="Target date in YYYY-MM-DD format")
+    parser.add_argument("--conv-id", default=None, help="Conversation ID to check")
     args = parser.parse_args()
-    verify_dispatch(args.date)
+    verify_dispatch(args.date, args.conv_id)

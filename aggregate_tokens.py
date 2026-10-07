@@ -1,17 +1,42 @@
-import sqlite3
+import argparse
+import json
 import os
+import re
+import sqlite3
+import sys
 
 conv_dir = os.path.expanduser("~/.gemini/antigravity-cli/conversations")
+brain_dir = os.path.expanduser("~/.gemini/antigravity-cli/brain")
 
-conv_ids = [
-    ("Main Session", "cba11062-f2b2-490d-8a2e-c46131def99c"),
-    ("Subagent Observe.ai", "8d3a8099-759f-4fa0-a0fe-7a6e402a0dac"),
-    ("Subagent SingleStore", "79de6e89-9fa1-4e1a-ae72-1248c1616b8e"),
-    ("Subagent SuperKalam", "783d30d3-975e-4e04-9b36-47c81befbe8e"),
-    ("Subagent FutureStrive", "edc45ac8-5c9f-4948-9a84-d45540b2cea8"),
-    ("Subagent Certa", "3b5d898c-17d4-40c7-b568-5dc654f25e0b"),
-    ("Subagent Gravity", "3c5b5239-ed80-4532-ae5f-e3506da1ccae")
-]
+DEFAULT_MAIN_ID = "18456a7e-1e39-4b5a-aec7-711c21fd84ed"
+
+def discover_conversations(main_id):
+    conv_list = [("Main Session", main_id)]
+    transcript_path = os.path.join(brain_dir, main_id, ".system_generated", "logs", "transcript.jsonl")
+    if os.path.exists(transcript_path):
+        with open(transcript_path, "r", encoding="utf-8", errors="ignore") as f:
+            for line in f:
+                if not line.strip():
+                    continue
+                try:
+                    obj = json.loads(line)
+                    # Check tool calls
+                    for tc in obj.get("tool_calls", []):
+                        if tc.get("name") == "invoke_subagent":
+                            args = tc.get("args") or tc.get("arguments") or {}
+                            for sub in args.get("Subagents", []):
+                                role = sub.get("Role", "Subagent")
+                                # Subagent ID might be in tool response or manage_subagents
+                    # Check for tool responses containing conversationId
+                    content = obj.get("content", "")
+                    if "conversationId" in content or "conversation_id" in content:
+                        for m in re.finditer(r'["\']?(?:conversationId|conversation_id)["\']?\s*[:=]\s*["\']([a-f0-9\-]{36})["\']', content):
+                            cid = m.group(1)
+                            if cid != main_id and not any(c[1] == cid for c in conv_list):
+                                conv_list.append((f"Subagent ({cid[:8]})", cid))
+                except Exception:
+                    pass
+    return conv_list
 
 def decode_varints(data):
     i = 0
@@ -108,6 +133,23 @@ def process_db(label, cid):
         "total_tokens": total_prompt_tokens + total_cached_tokens + total_output_tokens
     }
 
+parser = argparse.ArgumentParser(description="Aggregate tokens across session and subagents.")
+parser.add_argument("--conv-id", default=os.environ.get("CONV_ID", DEFAULT_MAIN_ID), help="Main conversation ID")
+args = parser.parse_args()
+
+conv_ids = discover_conversations(args.conv_id)
+if len(conv_ids) == 1 and not os.path.exists(os.path.join(conv_dir, f"{args.conv_id}.db")):
+    # Fallback to historical hardcoded list if current ID database not found
+    conv_ids = [
+        ("Main Session", "cba11062-f2b2-490d-8a2e-c46131def99c"),
+        ("Subagent Observe.ai", "8d3a8099-759f-4fa0-a0fe-7a6e402a0dac"),
+        ("Subagent SingleStore", "79de6e89-9fa1-4e1a-ae72-1248c1616b8e"),
+        ("Subagent SuperKalam", "783d30d3-975e-4e04-9b36-47c81befbe8e"),
+        ("Subagent FutureStrive", "edc45ac8-5c9f-4948-9a84-d45540b2cea8"),
+        ("Subagent Certa", "3b5d898c-17d4-40c7-b568-5dc654f25e0b"),
+        ("Subagent Gravity", "3c5b5239-ed80-4532-ae5f-e3506da1ccae")
+    ]
+
 print("=== REAL TOKEN USAGE MEASURED FROM SQLITE GEN_METADATA ===")
 grand_input = 0
 grand_output = 0
@@ -128,7 +170,7 @@ for label, cid in conv_ids:
         grand_total += res['total_tokens']
 
 print("------------------------------------------------------------")
-print(f"GRAND TOTAL (Main Session + 6 Sequential Subagents):")
+print(f"GRAND TOTAL:")
 print(f"  Total Turns / Model Calls: {grand_turns}")
 print(f"  Total Input Tokens: {grand_input:,}")
 print(f"  Total Output Tokens: {grand_output:,}")
