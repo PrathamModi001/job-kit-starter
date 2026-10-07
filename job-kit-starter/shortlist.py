@@ -19,7 +19,7 @@ ROW = re.compile(r"\|\s*\S*\s*\|\s*(\d+)\s*\|\s*\[(.+?)\]\((\S+?)\)\s*\|\s*(.+?)
 def main(n):
     done = {r["Company"].strip().lower() for r in csv.DictReader(open(OUT / "applications.csv", encoding="utf-8"))}
     seen, out = set(), []
-    for f in sorted(OUT.glob("digest*.md")):
+    for f in [OUT / "digest.md"]:  # digest_india.md (Indeed) disabled 2026-10-07: token cost, see daily_scan.md
         text = f.read_text(encoding="utf-8")
         rows = [(int(m[1]), m[2], m[3], m[4], m[5]) for m in ROW.finditer(text)]
         rows += [(int(m[1]), m[2], m[5], m[3], m[4]) for m in ROW2.finditer(text)]

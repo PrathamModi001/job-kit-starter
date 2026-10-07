@@ -2,6 +2,8 @@
 
 > **Before running anything in this file**, read `job-kit-starter/CLAUDE.md` and `job-kit-starter/PLAYBOOK.md` in full. This file is a fast-reference summary; those two files hold the complete resume-tailoring pipeline (`resume_builder/` templates, lane bundles, experience files, `SKILL_PROFILE.md`), the per-ATS form-fill recipes (Workday, SuccessFactors, Naukri, Indeed Smart Apply, Wellfound, etc.), and the anti-fabrication rules this workflow depends on. Do not skip them.
 
+**Indeed is DISABLED (2026-10-07) — overrides every Indeed mention below.** Do not run `job_hunt_india.py`, do not scan or apply on Indeed (Smart Apply included); treat it as part of `EXCLUDED_PLATFORMS` always. Reason: the 2026-10-07 run spent ~110M of 165M tokens on Indeed (7 reCAPTCHA blocks, ~27M per successful application vs ~7M elsewhere). Re-enable only on explicit user request.
+
 ## ✅ SUBMISSION RULE — job applications auto-submit; cold outreach never does
 - **Job applications:** you ARE explicitly authorized to automatically submit and complete ATS applications on behalf of Pratham Modi when a role clears the Candidate Bar (BULLSEYE or Strong Match). Automatically tailor the resume, compile the single-page PDF, fill out native/ATS forms (Workday, Greenhouse, Ashby, Lever, Instahyre, Cutshort, Naukri), and click final SUBMIT.
 - **Cold outreach (email/DM):** NEVER auto-send — draft-only, always. See "📧 Cold Outreach Operations" below.
