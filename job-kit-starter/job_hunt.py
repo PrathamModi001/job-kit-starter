@@ -87,6 +87,10 @@ SOURCES = [
     ("ashby", "1password", "1Password"), ("ashby", "ashby", "Ashby"),
     ("lever", "metabase", "Metabase"), ("ashby", "livekit", "LiveKit"),
     ("ashby", "triggerdev", "Trigger.dev"), ("ashby", "infisical", "Infisical"),
+    # round 8 — India-hiring boards, probed live 2026-10-09 (free public APIs; >=5 India roles each)
+    ("lever", "meesho", "Meesho"), ("lever", "mindtickle", "Mindtickle"),
+    ("lever", "hevodata", "Hevo Data"), ("lever", "paytm", "Paytm"), ("lever", "pocketfm", "Pocket FM"),
+    ("gh", "hackerrank", "HackerRank"), ("gh", "sumologic", "Sumo Logic"), ("gh", "druva", "Druva"),
     # relocation bonus
     ("aiven", "aiven", "Aiven"),
     # aggregators (breadth) — Arbeitnow dropped: almost all EU on-site, region/work-auth gated

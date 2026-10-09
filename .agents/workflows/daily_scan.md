@@ -5,7 +5,7 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
 
 # Workflow: daily-scan
 
-**Indeed is DISABLED (2026-10-07) — overrides every Indeed mention below.** Do not run `job_hunt_india.py`, do not scan or apply on Indeed (Smart Apply included); treat it as part of `EXCLUDED_PLATFORMS` always. Reason: the 2026-10-07 run spent ~110M of 165M tokens on Indeed (7 reCAPTCHA blocks, ~27M per successful application vs ~7M elsewhere). Re-enable only on explicit user request.
+**Indeed = DISCOVERY ONLY (updated 2026-10-09) — overrides every Indeed mention below.** Never use Indeed Smart Apply or any Indeed apply flow (2026-10-07 run: ~110M of 165M tokens, 7 reCAPTCHA blocks, ~27M per application). `job_hunt_india.py` may run (free, no LLM); `python job-kit-starter/shortlist.py` keeps an Indeed lead only if a free public Greenhouse/Lever/Ashby board API shows the same company+title, and then the lead is applied to on that real ATS URL. Leads with no resolvable company ATS are dropped. Zero paid APIs.
 
 **Parameters (read from the invocation prompt):**
 - `NUM_JOBS` — target number of applications to *successfully submit* (`Status=Applied`) this run. Default 15 if not specified. **Indeed Smart Apply does NOT count against this cap** — see note below. **A `Blocked` lead does NOT consume a `NUM_JOBS` slot either** — see step 4/5 note below.
