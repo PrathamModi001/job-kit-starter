@@ -89,6 +89,9 @@ def score(row):
     hay = " ".join(str(row.get(k, "")) for k in ("title", "company", "description")).lower()
     hay = " " + re.sub(r"[^a-z0-9+.# ]", " ", hay) + " "
 
+    from gates import title_skip, yoe_check
+    if title_skip(str(row.get("title", ""))) or yoe_check(str(row.get("description", "")))[0] == "skip":
+        return -50  # hard skip: customer/client/mobile/React Native title terms + 4+ YOE gate
     # hard skip: Java, SDE 2/3, MTS-2/3 (not in 0-3 YOE target)
     if re.search(r"\bjava\b", hay):
         return -50  # hard skip — not in primary stack
