@@ -247,16 +247,16 @@
       "source_location": "L44"
     },
     {
-      "id": "scratch_find_fresh_hn_get",
-      "label": "get()",
+      "id": "job_kit_starter_verify_subagent_dispatch_verify_dispatch",
+      "label": "verify_dispatch()",
       "_callable": true,
       "_origin": "ast",
       "community": 145,
-      "community_name": "find_fresh_hn.py",
+      "community_name": "verify_subagent_dispatch.py",
       "file_type": "code",
-      "norm_label": "get()",
-      "source_file": "scratch/find_fresh_hn.py",
-      "source_location": "L18"
+      "norm_label": "verify_dispatch()",
+      "source_file": "job-kit-starter/verify_subagent_dispatch.py",
+      "source_location": "L7"
     },
     {
       "id": "scratch_check_all_ats_check_source",
@@ -355,6 +355,18 @@
       "source_location": "L20"
     },
     {
+      "id": "decode_proto_decode_varints",
+      "label": "decode_varints()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 209,
+      "community_name": "decode_proto.py",
+      "file_type": "code",
+      "norm_label": "decode_varints()",
+      "source_file": "decode_proto.py",
+      "source_location": "L10"
+    },
+    {
       "id": "scratch_query_tokens_analyze_db",
       "label": "analyze_db()",
       "_callable": true,
@@ -367,52 +379,76 @@
       "source_location": "L20"
     },
     {
-      "id": "job_kit_starter_job_hunt_india_already_applied_companies",
-      "label": "already_applied_companies()",
+      "id": "job_kit_starter_subagent_prompt_between",
+      "label": "between()",
       "_callable": true,
       "_origin": "ast",
-      "community": 25,
-      "community_name": "job_hunt_india.py",
+      "community": 220,
+      "community_name": "subagent_prompt.py",
       "file_type": "code",
-      "norm_label": "already_applied_companies()",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L70"
+      "norm_label": "between()",
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L20"
     },
     {
-      "id": "job_kit_starter_job_hunt_india_load_seen",
-      "label": "load_seen()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "job_hunt_india.py",
-      "file_type": "code",
-      "norm_label": "load_seen()",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L82"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_india_main",
+      "id": "job_kit_starter_subagent_prompt_main",
       "label": "main()",
       "_callable": true,
       "_origin": "ast",
-      "community": 25,
-      "community_name": "job_hunt_india.py",
+      "community": 220,
+      "community_name": "subagent_prompt.py",
       "file_type": "code",
       "norm_label": "main()",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L125"
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L34"
     },
     {
-      "id": "job_kit_starter_job_hunt_india_score",
-      "label": "score()",
+      "id": "job_kit_starter_subagent_prompt_recipe",
+      "label": "recipe()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 220,
+      "community_name": "subagent_prompt.py",
+      "file_type": "code",
+      "norm_label": "recipe()",
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L25"
+    },
+    {
+      "id": "aggregate_tokens_decode_varints",
+      "label": "decode_varints()",
       "_callable": true,
       "_origin": "ast",
       "community": 25,
-      "community_name": "job_hunt_india.py",
+      "community_name": "aggregate_tokens.py",
       "file_type": "code",
-      "norm_label": "score()",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L88"
+      "norm_label": "decode_varints()",
+      "source_file": "aggregate_tokens.py",
+      "source_location": "L41"
+    },
+    {
+      "id": "aggregate_tokens_discover_conversations",
+      "label": "discover_conversations()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "aggregate_tokens.py",
+      "file_type": "code",
+      "norm_label": "discover_conversations()",
+      "source_file": "aggregate_tokens.py",
+      "source_location": "L13"
+    },
+    {
+      "id": "aggregate_tokens_process_db",
+      "label": "process_db()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "aggregate_tokens.py",
+      "file_type": "code",
+      "norm_label": "process_db()",
+      "source_file": "aggregate_tokens.py",
+      "source_location": "L89"
     },
     {
       "id": "job_kit_starter_waas_scan_eligible",
@@ -787,6 +823,90 @@
       "source_location": "L18"
     },
     {
+      "id": "job_kit_starter_gates_coverage",
+      "label": "coverage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "coverage()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L87"
+    },
+    {
+      "id": "job_kit_starter_gates_facts",
+      "label": "facts()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "facts()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "job_kit_starter_gates_form_check",
+      "label": "form_check()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "form_check()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "job_kit_starter_gates_lint",
+      "label": "lint()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "lint()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L69"
+    },
+    {
+      "id": "job_kit_starter_gates_title_skip",
+      "label": "title_skip()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "title_skip()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "job_kit_starter_gates_vocab",
+      "label": "vocab()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "vocab()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L75"
+    },
+    {
+      "id": "job_kit_starter_gates_yoe_check",
+      "label": "yoe_check()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "yoe_check()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L29"
+    },
+    {
       "id": "job_kit_starter_job_hunt_fetch_aiven",
       "label": "fetch_aiven()",
       "_callable": true,
@@ -871,6 +991,54 @@
       "source_location": "L145"
     },
     {
+      "id": "job_kit_starter_job_hunt_india_already_applied_companies",
+      "label": "already_applied_companies()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "already_applied_companies()",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L71"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india_load_seen",
+      "label": "load_seen()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "load_seen()",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L83"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L129"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india_score",
+      "label": "score()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "score()",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L89"
+    },
+    {
       "id": "job_kit_starter_job_hunt_loc_tag",
       "label": "loc_tag()",
       "_callable": true,
@@ -880,7 +1048,7 @@
       "file_type": "code",
       "norm_label": "loc_tag()",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L281"
+      "source_location": "L284"
     },
     {
       "id": "job_kit_starter_job_hunt_main",
@@ -892,7 +1060,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L288"
+      "source_location": "L291"
     },
     {
       "id": "job_kit_starter_job_hunt_min_years",
@@ -952,7 +1120,7 @@
       "file_type": "code",
       "norm_label": "_self_check()",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L405"
+      "source_location": "L408"
     },
     {
       "id": "job_kit_starter_job_hunt_strip_html",
@@ -967,6 +1135,18 @@
       "source_location": "L150"
     },
     {
+      "id": "job_kit_starter_shortlist_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "job-kit-starter/shortlist.py",
+      "source_location": "L19"
+    },
+    {
       "id": "scratch_generate_resume_build_resume",
       "label": "build_resume()",
       "_callable": true,
@@ -977,6 +1157,18 @@
       "norm_label": "build_resume()",
       "source_file": "scratch/generate_resume.py",
       "source_location": "L3"
+    },
+    {
+      "id": "scratch_fetch_jds_fetch",
+      "label": "fetch()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 95,
+      "community_name": "fetch_jds.py",
+      "file_type": "code",
+      "norm_label": "fetch()",
+      "source_file": "scratch/fetch_jds.py",
+      "source_location": "L7"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework",
@@ -2966,25 +3158,14 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_find_fresh_hn",
-      "label": "find_fresh_hn.py",
+      "id": "job_kit_starter_verify_subagent_dispatch",
+      "label": "verify_subagent_dispatch.py",
       "_origin": "ast",
       "community": 145,
-      "community_name": "find_fresh_hn.py",
+      "community_name": "verify_subagent_dispatch.py",
       "file_type": "code",
-      "norm_label": "find_fresh_hn.py",
-      "source_file": "scratch/find_fresh_hn.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_print_remaining",
-      "label": "print_remaining.py",
-      "_origin": "ast",
-      "community": 145,
-      "community_name": "find_fresh_hn.py",
-      "file_type": "code",
-      "norm_label": "print_remaining.py",
-      "source_file": "scratch/print_remaining.py",
+      "norm_label": "verify_subagent_dispatch.py",
+      "source_file": "job-kit-starter/verify_subagent_dispatch.py",
       "source_location": "L1"
     },
     {
@@ -4295,7 +4476,7 @@
       "node_kind": "heading",
       "norm_label": "application flow (per lead)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L179"
+      "source_location": "L182"
     },
     {
       "id": "job_kit_starter_claude_application_tracker",
@@ -4307,7 +4488,7 @@
       "node_kind": "heading",
       "norm_label": "application tracker",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L203"
+      "source_location": "L207"
     },
     {
       "id": "job_kit_starter_claude_candidate_bar_scope_assess_every_lead_against_this_skip_fast_if_it_fails",
@@ -4379,7 +4560,7 @@
       "node_kind": "heading",
       "norm_label": "daily scan tools (run from repo root; each keeps a seen-index so re-runs show only new)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L170"
+      "source_location": "L173"
     },
     {
       "id": "job_kit_starter_claude_file_map",
@@ -4427,7 +4608,7 @@
       "node_kind": "heading",
       "norm_label": "integrity (non-negotiable)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L197"
+      "source_location": "L201"
     },
     {
       "id": "job_kit_starter_claude_job_search_operations_runbook",
@@ -4475,7 +4656,7 @@
       "node_kind": "heading",
       "norm_label": "recency filter \u2014 removed (2026-09-13), no cap on posting age",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L163"
+      "source_location": "L166"
     },
     {
       "id": "job_kit_starter_claude_resume_fact_consistency_invariant_hard_won_do_not_skip",
@@ -4487,7 +4668,7 @@
       "node_kind": "heading",
       "norm_label": "\u26a0\ufe0f resume-fact consistency invariant (hard-won \u2014 do not skip)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L186"
+      "source_location": "L189"
     },
     {
       "id": "job_kit_starter_claude_session_handoff",
@@ -4499,7 +4680,7 @@
       "node_kind": "heading",
       "norm_label": "session handoff",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L200"
+      "source_location": "L204"
     },
     {
       "id": "job_kit_starter_claude_session_startup",
@@ -4547,7 +4728,7 @@
       "node_kind": "heading",
       "norm_label": "verification (before telling the user a resume is done)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L189"
+      "source_location": "L192"
     },
     {
       "id": "job_kit_starter_claude_your_role",
@@ -4781,14 +4962,14 @@
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_fetch_lseg_jd",
-      "label": "fetch_lseg_jd.py",
+      "id": "decode_proto",
+      "label": "decode_proto.py",
       "_origin": "ast",
       "community": 209,
-      "community_name": "fetch_lseg_jd.py",
+      "community_name": "decode_proto.py",
       "file_type": "code",
-      "norm_label": "fetch_lseg_jd.py",
-      "source_file": "job-kit-starter/fetch_lseg_jd.py",
+      "norm_label": "decode_proto.py",
+      "source_file": "decode_proto.py",
       "source_location": "L1"
     },
     {
@@ -4903,25 +5084,25 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_encode_resume",
-      "label": "encode_resume.py",
+      "id": "append_certa",
+      "label": "append_certa.py",
       "_origin": "ast",
       "community": 211,
-      "community_name": "encode_resume.py",
+      "community_name": "append_certa.py",
       "file_type": "code",
-      "norm_label": "encode_resume.py",
-      "source_file": "scratch/encode_resume.py",
+      "norm_label": "append_certa.py",
+      "source_file": "append_certa.py",
       "source_location": "L1"
     },
     {
-      "id": "scratch_find_urls",
-      "label": "find_urls.py",
+      "id": "make_upload",
+      "label": "make_upload.py",
       "_origin": "ast",
       "community": 212,
-      "community_name": "find_urls.py",
+      "community_name": "make_upload.py",
       "file_type": "code",
-      "norm_label": "find_urls.py",
-      "source_file": "scratch/find_urls.py",
+      "norm_label": "make_upload.py",
+      "source_file": "make_upload.py",
       "source_location": "L1"
     },
     {
@@ -5098,47 +5279,102 @@
       "source_location": "L64"
     },
     {
-      "id": "scratch_gen_prompts",
-      "label": "gen_prompts.py",
+      "id": "job_kit_starter_subagent_prompt",
+      "label": "subagent_prompt.py",
       "_origin": "ast",
       "community": 220,
-      "community_name": "gen_prompts.py",
+      "community_name": "subagent_prompt.py",
       "file_type": "code",
-      "norm_label": "gen_prompts.py",
-      "source_file": "scratch/gen_prompts.py",
+      "norm_label": "subagent_prompt.py",
+      "source_file": "job-kit-starter/subagent_prompt.py",
       "source_location": "L1"
     },
     {
-      "id": "scratch_gen_prompts_utf8",
-      "label": "gen_prompts_utf8.py",
+      "id": "job_kit_starter_subagent_prompt_rationale_2",
+      "label": "Build a SMALL per-lead subagent prompt (replaces 'read CLAUDE.md + PLAYBOOK.md\u2026",
+      "_origin": "ast",
+      "community": 220,
+      "community_name": "subagent_prompt.py",
+      "file_type": "rationale",
+      "norm_label": "build a small per-lead subagent prompt (replaces 'read claude.md + playbook.md...",
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L2"
+    },
+    {
+      "id": "job_kit_starter_batch_1",
+      "label": "batch_1.js",
       "_origin": "ast",
       "community": 221,
-      "community_name": "gen_prompts_utf8.py",
+      "community_name": "batch_1.js",
       "file_type": "code",
-      "norm_label": "gen_prompts_utf8.py",
-      "source_file": "scratch/gen_prompts_utf8.py",
+      "norm_label": "batch_1.js",
+      "source_file": "job-kit-starter/batch_1.js",
       "source_location": "L1"
     },
     {
-      "id": "scratch_generate_targets_json",
-      "label": "generate_targets_json.py",
+      "id": "job_kit_starter_batch_2",
+      "label": "batch_2.js",
       "_origin": "ast",
       "community": 222,
-      "community_name": "generate_targets_json.py",
+      "community_name": "batch_2.js",
       "file_type": "code",
-      "norm_label": "generate_targets_json.py",
-      "source_file": "scratch/generate_targets_json.py",
+      "norm_label": "batch_2.js",
+      "source_file": "job-kit-starter/batch_2.js",
       "source_location": "L1"
     },
     {
-      "id": "scratch_inspect_hn",
-      "label": "inspect_hn.py",
+      "id": "job_kit_starter_batch_3",
+      "label": "batch_3.js",
       "_origin": "ast",
       "community": 223,
-      "community_name": "inspect_hn.py",
+      "community_name": "batch_3.js",
       "file_type": "code",
-      "norm_label": "inspect_hn.py",
-      "source_file": "scratch/inspect_hn.py",
+      "norm_label": "batch_3.js",
+      "source_file": "job-kit-starter/batch_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_create_all_drafts",
+      "label": "create_all_drafts.js",
+      "_origin": "ast",
+      "community": 224,
+      "community_name": "create_all_drafts.js",
+      "file_type": "code",
+      "norm_label": "create_all_drafts.js",
+      "source_file": "job-kit-starter/create_all_drafts.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_create_leads_3_to_10",
+      "label": "create_leads_3_to_10.js",
+      "_origin": "ast",
+      "community": 225,
+      "community_name": "create_leads_3_to_10.js",
+      "file_type": "code",
+      "norm_label": "create_leads_3_to_10.js",
+      "source_file": "job-kit-starter/create_leads_3_to_10.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_test_datamint",
+      "label": "test_datamint.js",
+      "_origin": "ast",
+      "community": 226,
+      "community_name": "test_datamint.js",
+      "file_type": "code",
+      "norm_label": "test_datamint.js",
+      "source_file": "job-kit-starter/test_datamint.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_test_upload",
+      "label": "test_upload.js",
+      "_origin": "ast",
+      "community": 227,
+      "community_name": "test_upload.js",
+      "file_type": "code",
+      "norm_label": "test_upload.js",
+      "source_file": "job-kit-starter/test_upload.js",
       "source_location": "L1"
     },
     {
@@ -5334,26 +5570,15 @@
       "source_location": "L91"
     },
     {
-      "id": "job_kit_starter_job_hunt_india",
-      "label": "job_hunt_india.py",
+      "id": "aggregate_tokens",
+      "label": "aggregate_tokens.py",
       "_origin": "ast",
       "community": 25,
-      "community_name": "job_hunt_india.py",
+      "community_name": "aggregate_tokens.py",
       "file_type": "code",
-      "norm_label": "job_hunt_india.py",
-      "source_file": "job-kit-starter/job_hunt_india.py",
+      "norm_label": "aggregate_tokens.py",
+      "source_file": "aggregate_tokens.py",
       "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_india_rationale_2",
-      "label": "India-aggregator job scan (complements job_hunt.py, which only hits company ATS\u2026",
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "job_hunt_india.py",
-      "file_type": "rationale",
-      "norm_label": "india-aggregator job scan (complements job_hunt.py, which only hits company ats...",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L2"
     },
     {
       "id": "job_kit_starter_waas_scan",
@@ -5961,7 +6186,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd10 authentication & \ud83c\udfaf candidate bar \u2014 canonical source",
       "source_file": "CLAUDE.md",
-      "source_location": "L11"
+      "source_location": "L12"
     },
     {
       "id": "claude_critical_rule_mandatory_tailored_resume_for_every_application_strict",
@@ -5973,7 +6198,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udcc4 critical rule \u2014 mandatory tailored resume for every application (strict)",
       "source_file": "CLAUDE.md",
-      "source_location": "L21"
+      "source_location": "L22"
     },
     {
       "id": "claude_graphify",
@@ -5997,7 +6222,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udcc1 single source of truth & canonical csv paths (strict)",
       "source_file": "CLAUDE.md",
-      "source_location": "L15"
+      "source_location": "L16"
     },
     {
       "id": "job_kit_starter_tracker_refresh",
@@ -6431,7 +6656,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83c\udf10 approved sources (strict allowlist \u2014 this is the complete list)",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L31"
+      "source_location": "L32"
     },
     {
       "id": "agents_rules_job_hunt_profile_authentication_session_persistence_rule",
@@ -6443,7 +6668,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd10 authentication & session persistence rule",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L79"
+      "source_location": "L80"
     },
     {
       "id": "agents_rules_job_hunt_profile_blocker_handling_fully_autonomous_no_user_check_ins_mid_run",
@@ -6455,7 +6680,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udea7 blocker handling (fully autonomous \u2014 no user check-ins mid-run)",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L73"
+      "source_location": "L74"
     },
     {
       "id": "agents_rules_job_hunt_profile_candidate_bar_pratham_modi",
@@ -6479,7 +6704,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udce7 cold outreach operations",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L63"
+      "source_location": "L64"
     },
     {
       "id": "agents_rules_job_hunt_profile_daily_scan_operations",
@@ -6491,7 +6716,7 @@
       "node_kind": "heading",
       "norm_label": "\u26a1 daily scan operations",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L38"
+      "source_location": "L39"
     },
     {
       "id": "agents_rules_job_hunt_profile_job_hunt_profile_operations_rule",
@@ -8408,6 +8633,17 @@
       "source_location": "L1"
     },
     {
+      "id": "job_kit_starter_gates",
+      "label": "gates.py",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "gates.py",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_job_hunt",
       "label": "job_hunt.py",
       "_origin": "ast",
@@ -8417,6 +8653,61 @@
       "norm_label": "job_hunt.py",
       "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india",
+      "label": "job_hunt_india.py",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "job_hunt_india.py",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_shortlist",
+      "label": "shortlist.py",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "shortlist.py",
+      "source_file": "job-kit-starter/shortlist.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_2",
+      "label": "Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "pre-submit gates for the daily scan. run from job-kit-starter/. python gates.py...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L2"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_30",
+      "label": "Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "return ('skip'|'borderline'|'ok', evidence). hard skip: n+ with n>=4, or range...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L30"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india_rationale_2",
+      "label": "India-aggregator job scan (complements job_hunt.py, which only hits company ATS\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "india-aggregator job scan (complements job_hunt.py, which only hits company ats...",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L2"
     },
     {
       "id": "job_kit_starter_job_hunt_rationale_133",
@@ -8438,6 +8729,17 @@
       "file_type": "rationale",
       "norm_label": "job_hunt.py \u2014 on-demand job-match digest for you. pulls openings from target...",
       "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L2"
+    },
+    {
+      "id": "job_kit_starter_shortlist_rationale_2",
+      "label": "Orchestrator helper: turn the scan digests into a gated, deduped shortlist (no\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "orchestrator helper: turn the scan digests into a gated, deduped shortlist (no...",
+      "source_file": "job-kit-starter/shortlist.py",
       "source_location": "L2"
     },
     {
@@ -8552,6 +8854,30 @@
     }
   ],
   "links": [
+    {
+      "source": "aggregate_tokens_process_db",
+      "target": "aggregate_tokens_decode_varints",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "aggregate_tokens.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates_coverage",
+      "target": "job_kit_starter_gates_vocab",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
     {
       "source": "job_kit_starter_job_hunt_fetch_aiven",
       "target": "job_kit_starter_job_hunt_get",
@@ -8693,7 +9019,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L126",
+      "source_location": "L130",
       "weight": 1.0
     },
     {
@@ -8705,7 +9031,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L127",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_india_score",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_india_score",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L94",
       "weight": 1.0
     },
     {
@@ -8717,7 +9067,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L282",
+      "source_location": "L285",
       "weight": 1.0
     },
     {
@@ -8729,24 +9079,12 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L336",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_job_hunt_main",
-      "target": "job_kit_starter_job_hunt_parse_posted",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L339",
       "weight": 1.0
     },
     {
       "source": "job_kit_starter_job_hunt_main",
-      "target": "job_kit_starter_job_hunt_region",
+      "target": "job_kit_starter_job_hunt_parse_posted",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8758,7 +9096,7 @@
     },
     {
       "source": "job_kit_starter_job_hunt_main",
-      "target": "job_kit_starter_job_hunt_score",
+      "target": "job_kit_starter_job_hunt_region",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8766,6 +9104,42 @@
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L345",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_main",
+      "target": "job_kit_starter_job_hunt_score",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L348",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_score",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_score",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L258",
       "weight": 1.0
     },
     {
@@ -8777,7 +9151,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L278",
+      "source_location": "L281",
       "weight": 1.0
     },
     {
@@ -8789,7 +9163,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L406",
+      "source_location": "L409",
       "weight": 1.0
     },
     {
@@ -8874,6 +9248,54 @@
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/char_count.py",
       "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_shortlist_main",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/shortlist.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_subagent_prompt_main",
+      "target": "job_kit_starter_subagent_prompt_between",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_subagent_prompt_main",
+      "target": "job_kit_starter_subagent_prompt_recipe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_subagent_prompt_recipe",
+      "target": "job_kit_starter_subagent_prompt_between",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -9093,6 +9515,66 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_job_hunt",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_india",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_india",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_shortlist",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/shortlist.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_tracker_package",
       "target": "ref_react",
       "relation": "imports",
@@ -9165,15 +9647,15 @@
       "weight": 1.0
     },
     {
-      "source": "scratch_print_remaining",
-      "target": "scratch_find_fresh_hn",
-      "relation": "imports",
+      "source": "job_kit_starter_shortlist",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "scratch/print_remaining.py",
-      "source_location": "L3",
+      "source_file": "job-kit-starter/shortlist.py",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -9288,7 +9770,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -9299,7 +9781,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L38",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
@@ -9321,7 +9803,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L63",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -9332,7 +9814,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L73",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -9343,7 +9825,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L79",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -9369,6 +9851,39 @@
       "weight": 1.0
     },
     {
+      "source": "aggregate_tokens",
+      "target": "aggregate_tokens_discover_conversations",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "aggregate_tokens.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "aggregate_tokens",
+      "target": "aggregate_tokens_decode_varints",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "aggregate_tokens.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "aggregate_tokens",
+      "target": "aggregate_tokens_process_db",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "aggregate_tokens.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
       "source": "claude",
       "target": "claude_graphify",
       "relation": "contains",
@@ -9387,7 +9902,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -9398,7 +9913,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -9409,7 +9924,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
-      "source_location": "L21",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "decode_proto",
+      "target": "decode_proto_decode_varints",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "decode_proto.py",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -9563,7 +10089,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L203",
+      "source_location": "L207",
       "weight": 1.0
     },
     {
@@ -9662,7 +10188,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L163",
+      "source_location": "L166",
       "weight": 1.0
     },
     {
@@ -9673,7 +10199,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L170",
+      "source_location": "L173",
       "weight": 1.0
     },
     {
@@ -9684,7 +10210,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L179",
+      "source_location": "L182",
       "weight": 1.0
     },
     {
@@ -9695,7 +10221,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L186",
+      "source_location": "L189",
       "weight": 1.0
     },
     {
@@ -9706,7 +10232,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L189",
+      "source_location": "L192",
       "weight": 1.0
     },
     {
@@ -9717,7 +10243,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L197",
+      "source_location": "L201",
       "weight": 1.0
     },
     {
@@ -9728,7 +10254,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L200",
+      "source_location": "L204",
       "weight": 1.0
     },
     {
@@ -10788,6 +11314,83 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_facts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_form_check",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_lint",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_vocab",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_coverage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_hn_scan",
       "target": "job_kit_starter_hn_scan_get",
       "relation": "contains",
@@ -10905,7 +11508,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L281",
+      "source_location": "L284",
       "weight": 1.0
     },
     {
@@ -10916,7 +11519,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L288",
+      "source_location": "L291",
       "weight": 1.0
     },
     {
@@ -10927,7 +11530,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L405",
+      "source_location": "L408",
       "weight": 1.0
     },
     {
@@ -10938,7 +11541,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L125",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -10949,7 +11552,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L70",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -10960,7 +11563,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L82",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -10971,7 +11574,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L88",
+      "source_location": "L89",
       "weight": 1.0
     },
     {
@@ -13483,6 +14086,17 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_shortlist",
+      "target": "job_kit_starter_shortlist_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/shortlist.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_skill_profile",
       "target": "job_kit_starter_skill_profile_master_profile_skill_profile_pratham_modi",
       "relation": "contains",
@@ -13623,6 +14237,39 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/SKILL_PROFILE.md",
       "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_subagent_prompt",
+      "target": "job_kit_starter_subagent_prompt_between",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_subagent_prompt",
+      "target": "job_kit_starter_subagent_prompt_recipe",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_subagent_prompt",
+      "target": "job_kit_starter_subagent_prompt_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -13868,6 +14515,17 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_verify_subagent_dispatch",
+      "target": "job_kit_starter_verify_subagent_dispatch_verify_dispatch",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/verify_subagent_dispatch.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_waas_scan",
       "target": "job_kit_starter_waas_scan_parse_k",
       "relation": "contains",
@@ -13989,6 +14647,17 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_fetch_jds",
+      "target": "scratch_fetch_jds_fetch",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fetch_jds.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_fill_anyscale",
       "target": "scratch_fill_anyscale_setinput",
       "relation": "contains",
@@ -14085,17 +14754,6 @@
       "confidence_score": 1.0,
       "source_file": "scratch/fill_potpie.js",
       "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_fresh_hn",
-      "target": "scratch_find_fresh_hn_get",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/find_fresh_hn.py",
-      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -14451,6 +15109,28 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_gates_rationale_2",
+      "target": "job_kit_starter_gates",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates_rationale_30",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_hn_scan_rationale_2",
       "target": "job_kit_starter_hn_scan",
       "relation": "rationale_for",
@@ -14572,6 +15252,28 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_shortlist_rationale_2",
+      "target": "job_kit_starter_shortlist",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/shortlist.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_subagent_prompt_rationale_2",
+      "target": "job_kit_starter_subagent_prompt",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/subagent_prompt.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_tracker_make_data_rationale_2",
       "target": "job_kit_starter_tracker_make_data",
       "relation": "rationale_for",
@@ -14613,7 +15315,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L155",
+      "source_location": "L159",
       "weight": 1.0
     },
     {
@@ -14690,5 +15392,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f588082f6afcd991b2a68c6d0e6523b2cac23810"
+  "built_at_commit": "b9df108884c747ef5c5111bc46e6e279b3e13b21"
 }
