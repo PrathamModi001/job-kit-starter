@@ -2,8 +2,6 @@
 
 > **Before running anything in this file**, read `job-kit-starter/CLAUDE.md` and `job-kit-starter/PLAYBOOK.md` in full. This file is a fast-reference summary; those two files hold the complete resume-tailoring pipeline (`resume_builder/` templates, lane bundles, experience files, `SKILL_PROFILE.md`), the per-ATS form-fill recipes (Workday, SuccessFactors, Naukri, Indeed Smart Apply, Wellfound, etc.), and the anti-fabrication rules this workflow depends on. Do not skip them.
 
-**Indeed = DISCOVERY ONLY (updated 2026-10-09) — overrides every Indeed mention below.** Never use Indeed Smart Apply or any Indeed apply flow (2026-10-07 run: ~110M of 165M tokens, 7 reCAPTCHA blocks, ~27M per application). `job_hunt_india.py` may run (free, no LLM); `python job-kit-starter/shortlist.py` keeps an Indeed lead only if a free public Greenhouse/Lever/Ashby board API shows the same company+title, and then the lead is applied to on that real ATS URL. Leads with no resolvable company ATS are dropped. Zero paid APIs.
-
 ## ✅ SUBMISSION RULE — job applications auto-submit; cold outreach never does
 - **Job applications:** you ARE explicitly authorized to automatically submit and complete ATS applications on behalf of Pratham Modi when a role clears the Candidate Bar (BULLSEYE or Strong Match). Automatically tailor the resume, compile the single-page PDF, fill out native/ATS forms (Workday, Greenhouse, Ashby, Lever, Instahyre, Cutshort, Naukri), and click final SUBMIT.
 - **Cold outreach (email/DM):** NEVER auto-send — draft-only, always. See "📧 Cold Outreach Operations" below.
@@ -21,10 +19,9 @@ Canonical source: `job-kit-starter/CLAUDE.md` → "Candidate bar" (under "Job-Se
 ## 📋 Application-Form Facts
 - **Full Name:** Pratham Modi
 - **Email:** prathammodi001@gmail.com | **Phone:** +91-9033393729
-- **Address:** D-203, Ratan Planet, Near IIT Kanpur, Kanpur, 208016
+- **Address:** 395 5th Avenue, Teachers Colony, Koramangala, Bengaluru
 - **Citizenship:** India (Indian passport, no sponsorship required in India)
 - **Notice Period:** Immediate
-- **Current CTC:** 12 LPA | **Expected CTC:** 18–20 LPA or higher; **minimum 18 LPA** (never quote below 18)
 - **DOB:** 23/01/2003 | **Gender:** Male
 - **LinkedIn:** https://www.linkedin.com/in/prathammodii001/ | **GitHub:** https://github.com/PrathamModi001
 - **Website:** https://prathammodi001.github.io/prathammodi/ | **X/Twitter:** https://x.com/PrathamModii
@@ -55,7 +52,7 @@ Canonical source: `job-kit-starter/CLAUDE.md` → "Candidate bar" (under "Job-Se
 - **Execution & Auto-Submit:**
   - For each of the top `NUM_JOBS` leads:
     1. Tailor the resume via the full pipeline in PLAYBOOK.md → "Resume variant system" (never a bare/generic `.tex`), compile with `tectonic -c minimal`, verify 1-page PDF.
-    1b. **HARD GATE — mechanical exclusion check, every lead, every source (not just scripted ones — the code-level `-50` skip in `job_hunt.py`/`job_hunt_india.py` doesn't cover Cutshort/Naukri/Instahyre/Wellfound/live-browsed Indeed):** quote the job title back and check it literally against: Java, .NET/C#/ASP.NET, C++, Ruby/Ruby on Rails, Senior, Staff, Principal, Architect, Lead, SDE 2/II, SDE 3/III, Product Engineer II/PE 2, Member of Technical Staff/MTS, customer, client, mobile, React Native (see `gates.py title`/`gates.py yoe`). Any match → skip, log `Status=Skipped` with the matched term, do not open the application form. Treat this as a literal string check, not a fit judgment.
+    1b. **HARD GATE — mechanical exclusion check, every lead, every source (not just scripted ones — the code-level `-50` skip in `job_hunt.py`/`job_hunt_india.py` doesn't cover Cutshort/Naukri/Instahyre/Wellfound/live-browsed Indeed):** quote the job title back and check it literally against: Java, .NET/C#/ASP.NET, C++, Ruby/Ruby on Rails, Senior, Staff, Principal, Architect, Lead, SDE 2/II, SDE 3/III, Product Engineer II/PE 2, Member of Technical Staff/MTS. Any match → skip, log `Status=Skipped` with the matched term, do not open the application form. Treat this as a literal string check, not a fit judgment.
     2. Fill application fields via Playwright using the platform-specific recipe in PLAYBOOK.md → "ATS recipes"; replace any pre-selected default resume with the tailored PDF; submit. While filling each personal-info field, note down the exact value you typed/selected — do not paraphrase or infer it afterward from memory.
     3. Append entry to `job-kit-starter/output/job-search/applications.csv` using Python's `csv` module, including the `Personal Info Filled` column: the exact `key=value; key=value` pairs actually entered into that form's personal-info fields (per csv-logger.md). This must reflect what was actually typed on the page, not a copy of the canonical "Application-Form Facts" list above — if a value diverges from that canonical list for any reason, log it as-typed and flag it in `Next step` so it surfaces on audit.
     4. Run `job-kit-starter/tracker/refresh.sh` (or update tracker data).

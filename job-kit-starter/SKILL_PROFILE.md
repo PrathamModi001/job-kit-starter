@@ -47,7 +47,7 @@ Target lanes (equal priority): **Software Developer · Full-Stack Developer · N
 - **Frontend:** Next.js, React, Tailwind CSS
 - **Databases:** PostgreSQL, MongoDB, Redis, DynamoDB
 - **Messaging:** Kafka, BullMQ, Redis Streams, Redis Pub/Sub, Event-Driven Architecture
-- **AI/ML:** Multi-Agent Systems (CrewAI, LangGraph), RAG Pipelines, Vector Databases (ChromaDB, Qdrant), Knowledge Graphs (NetworkX), LLM Integration, Prompt Engineering, LLM Evaluation
+- **AI/ML:** Multi-Agent Systems (CrewAI, LangGraph), RAG Pipelines, Vector Databases (ChromaDB, Qdrant), Knowledge Graphs (NetworkX), LLM Integration
 - **Cloud, DevOps & Observability:** AWS (EC2, S3, Lambda, EKS, IAM, ECR), Docker, Kubernetes, Terraform, GitHub Actions, CI/CD, OpenTelemetry, Prometheus, Grafana, Distributed Tracing
 - **Architecture:** Microservices, Distributed Systems, System Design, Scalable Backend, High-Throughput Systems
 

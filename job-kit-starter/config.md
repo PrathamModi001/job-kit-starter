@@ -41,12 +41,12 @@
 
 ## Application-Form Facts (reused constantly — collect once during onboarding)
 
-> **Canonical source: this section.** (`.agents/rules/job_hunt_profile.md` also exists and must mirror this section — update both together.) Comp floor (18–20 LPA) is part of the Candidate Bar in `CLAUDE.md` — not repeated here to avoid drift.
+> **Canonical source: this section.** (There is no separate `.agents/rules/job_hunt_profile.md` — that path does not exist in this repo; do not look for it.) Comp floor (18–20 LPA) is part of the Candidate Bar in `CLAUDE.md` — not repeated here to avoid drift.
 - **Date of birth:** 23/01/2003
 - **Current CTC:** 12 LPA
-- **Expected CTC:** 18–20 LPA or higher; **minimum 18 LPA** (quote "18–20+, min 18" or 18/20 numerically — never below 18)
+- **Expected CTC:** 20 LPA
 - **Notice period:** Immediate
-- **Address:** D-203, Ratan Planet, Near IIT Kanpur, Kanpur, 208016
+- **Address:** D 203, Ratan Planet, Near IIT Kanpur, Kanpur, 208016
 - **Gender / Age:** Male / 23
 - **Citizenship:** Indian
 - **Background-check consent:** Yes
