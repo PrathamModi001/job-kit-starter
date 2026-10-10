@@ -53,8 +53,21 @@ def facts():
     return {"notice": "immediate", "ctc_min": 18, "city": "kanpur"} if "Notice period:** Immediate" in cfg else {}
 
 
+def personal_info_valid(s):
+    """True only if s is a 'key=value; key=value; ...' audit trail of what was actually
+    entered (CLAUDE.md's contract for this field) -- rejects placeholders like 'Yes' or
+    'Yes (WaaS profile)' that assert a form was filled without logging what was filled."""
+    if re.match(r"(?i)^\s*(yes|no)\b", s.strip()):
+        return False
+    pairs = [p for p in re.split(r";\s*", s.strip()) if ("=" in p or ":" in p)]
+    return len(pairs) >= 3
+
+
 def form_check(s):
     out = []
+    if not personal_info_valid(s):
+        return [f"Personal Info Filled must be a verbatim 'key=value; key=value' audit trail of what was "
+                f"entered, not a placeholder like 'Yes' (got: {s!r})"]
     for k, v in (p.split("=", 1) if "=" in p else p.split(":", 1) for p in re.split(r";\s*", s) if ("=" in p or ":" in p)):
         k, v = k.strip().lower(), v.strip()
         if "notice" in k and not v.lower().startswith("immediate"):
