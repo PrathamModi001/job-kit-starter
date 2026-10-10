@@ -247,18 +247,6 @@
       "source_location": "L44"
     },
     {
-      "id": "scratch_find_fresh_hn_get",
-      "label": "get()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 145,
-      "community_name": "find_fresh_hn.py",
-      "file_type": "code",
-      "norm_label": "get()",
-      "source_file": "scratch/find_fresh_hn.py",
-      "source_location": "L18"
-    },
-    {
       "id": "scratch_check_all_ats_check_source",
       "label": "check_source()",
       "_callable": true,
@@ -365,54 +353,6 @@
       "norm_label": "analyze_db()",
       "source_file": "scratch_query_tokens.py",
       "source_location": "L20"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_india_already_applied_companies",
-      "label": "already_applied_companies()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "job_hunt_india.py",
-      "file_type": "code",
-      "norm_label": "already_applied_companies()",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L70"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_india_load_seen",
-      "label": "load_seen()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "job_hunt_india.py",
-      "file_type": "code",
-      "norm_label": "load_seen()",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L82"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_india_main",
-      "label": "main()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "job_hunt_india.py",
-      "file_type": "code",
-      "norm_label": "main()",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L125"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_india_score",
-      "label": "score()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 25,
-      "community_name": "job_hunt_india.py",
-      "file_type": "code",
-      "norm_label": "score()",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L88"
     },
     {
       "id": "job_kit_starter_waas_scan_eligible",
@@ -787,6 +727,90 @@
       "source_location": "L18"
     },
     {
+      "id": "job_kit_starter_gates_coverage",
+      "label": "coverage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "coverage()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L87"
+    },
+    {
+      "id": "job_kit_starter_gates_facts",
+      "label": "facts()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "facts()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "job_kit_starter_gates_form_check",
+      "label": "form_check()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "form_check()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "job_kit_starter_gates_lint",
+      "label": "lint()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "lint()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L69"
+    },
+    {
+      "id": "job_kit_starter_gates_title_skip",
+      "label": "title_skip()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "title_skip()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "job_kit_starter_gates_vocab",
+      "label": "vocab()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "vocab()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L75"
+    },
+    {
+      "id": "job_kit_starter_gates_yoe_check",
+      "label": "yoe_check()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "yoe_check()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L29"
+    },
+    {
       "id": "job_kit_starter_job_hunt_fetch_aiven",
       "label": "fetch_aiven()",
       "_callable": true,
@@ -871,6 +895,54 @@
       "source_location": "L145"
     },
     {
+      "id": "job_kit_starter_job_hunt_india_already_applied_companies",
+      "label": "already_applied_companies()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "already_applied_companies()",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L70"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india_load_seen",
+      "label": "load_seen()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "load_seen()",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L82"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L128"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india_score",
+      "label": "score()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "score()",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L88"
+    },
+    {
       "id": "job_kit_starter_job_hunt_loc_tag",
       "label": "loc_tag()",
       "_callable": true,
@@ -880,7 +952,7 @@
       "file_type": "code",
       "norm_label": "loc_tag()",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L281"
+      "source_location": "L284"
     },
     {
       "id": "job_kit_starter_job_hunt_main",
@@ -892,7 +964,7 @@
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L288"
+      "source_location": "L291"
     },
     {
       "id": "job_kit_starter_job_hunt_min_years",
@@ -952,7 +1024,7 @@
       "file_type": "code",
       "norm_label": "_self_check()",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L405"
+      "source_location": "L408"
     },
     {
       "id": "job_kit_starter_job_hunt_strip_html",
@@ -977,6 +1049,18 @@
       "norm_label": "build_resume()",
       "source_file": "scratch/generate_resume.py",
       "source_location": "L3"
+    },
+    {
+      "id": "scratch_fetch_jds_fetch",
+      "label": "fetch()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 95,
+      "community_name": "fetch_jds.py",
+      "file_type": "code",
+      "norm_label": "fetch()",
+      "source_file": "scratch/fetch_jds.py",
+      "source_location": "L7"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework",
@@ -2966,26 +3050,148 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_find_fresh_hn",
-      "label": "find_fresh_hn.py",
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design",
+      "label": "2026-09-27-batch-mode-resume-tailoring-design.md",
       "_origin": "ast",
       "community": 145,
-      "community_name": "find_fresh_hn.py",
-      "file_type": "code",
-      "norm_label": "find_fresh_hn.py",
-      "source_file": "scratch/find_fresh_hn.py",
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
       "source_location": "L1"
     },
     {
-      "id": "scratch_print_remaining",
-      "label": "print_remaining.py",
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_1_legacy_archive",
+      "label": "1. Legacy archive",
       "_origin": "ast",
       "community": 145,
-      "community_name": "find_fresh_hn.py",
-      "file_type": "code",
-      "norm_label": "print_remaining.py",
-      "source_file": "scratch/print_remaining.py",
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. legacy archive",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_2_make_resume_skill_md_rewritten_as_batch_mode_only",
+      "label": "2. `make-resume/SKILL.md` rewritten as Batch Mode only",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. `make-resume/skill.md` rewritten as batch mode only",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L61"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_3_resume_builder_helpers_fingerprint_check_py_new_script",
+      "label": "3. `resume_builder/helpers/fingerprint_check.py` (new script)",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. `resume_builder/helpers/fingerprint_check.py` (new script)",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L134"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_4_daily_scan_md_step_5a",
+      "label": "4. `daily_scan.md` step 5a",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. `daily_scan.md` step 5a",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L155"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_batch_mode_single_path_ats_first_resume_tailoring",
+      "label": "Batch Mode: single-path, ATS-first resume tailoring",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "batch mode: single-path, ats-first resume tailoring",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
       "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_design",
+      "label": "Design",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "design",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L49"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_goal",
+      "label": "Goal",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "goal",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_non_goals",
+      "label": "Non-goals",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "non-goals",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L41"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_problem",
+      "label": "Problem",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "problem",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L6"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_testing_validation",
+      "label": "Testing / validation",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "testing / validation",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L185"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_what_s_explicitly_cut_vs_kept",
+      "label": "What's explicitly cut vs. kept",
+      "_origin": "ast",
+      "community": 145,
+      "community_name": "Batch Mode: single-path, ATS-first resume tailoring",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "what's explicitly cut vs. kept",
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L172"
     },
     {
       "id": "scratch_check_all_ats",
@@ -4295,7 +4501,7 @@
       "node_kind": "heading",
       "norm_label": "application flow (per lead)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L179"
+      "source_location": "L182"
     },
     {
       "id": "job_kit_starter_claude_application_tracker",
@@ -4307,7 +4513,7 @@
       "node_kind": "heading",
       "norm_label": "application tracker",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L203"
+      "source_location": "L207"
     },
     {
       "id": "job_kit_starter_claude_candidate_bar_scope_assess_every_lead_against_this_skip_fast_if_it_fails",
@@ -4379,7 +4585,7 @@
       "node_kind": "heading",
       "norm_label": "daily scan tools (run from repo root; each keeps a seen-index so re-runs show only new)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L170"
+      "source_location": "L173"
     },
     {
       "id": "job_kit_starter_claude_file_map",
@@ -4427,7 +4633,7 @@
       "node_kind": "heading",
       "norm_label": "integrity (non-negotiable)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L197"
+      "source_location": "L201"
     },
     {
       "id": "job_kit_starter_claude_job_search_operations_runbook",
@@ -4475,7 +4681,7 @@
       "node_kind": "heading",
       "norm_label": "recency filter \u2014 removed (2026-09-13), no cap on posting age",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L163"
+      "source_location": "L166"
     },
     {
       "id": "job_kit_starter_claude_resume_fact_consistency_invariant_hard_won_do_not_skip",
@@ -4487,7 +4693,7 @@
       "node_kind": "heading",
       "norm_label": "\u26a0\ufe0f resume-fact consistency invariant (hard-won \u2014 do not skip)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L186"
+      "source_location": "L189"
     },
     {
       "id": "job_kit_starter_claude_session_handoff",
@@ -4499,7 +4705,7 @@
       "node_kind": "heading",
       "norm_label": "session handoff",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L200"
+      "source_location": "L204"
     },
     {
       "id": "job_kit_starter_claude_session_startup",
@@ -4547,7 +4753,7 @@
       "node_kind": "heading",
       "norm_label": "verification (before telling the user a resume is done)",
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L189"
+      "source_location": "L192"
     },
     {
       "id": "job_kit_starter_claude_your_role",
@@ -4781,14 +4987,14 @@
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_fetch_lseg_jd",
-      "label": "fetch_lseg_jd.py",
+      "id": "scratch_append_and_create_drafts",
+      "label": "append_and_create_drafts.py",
       "_origin": "ast",
       "community": 209,
-      "community_name": "fetch_lseg_jd.py",
+      "community_name": "append_and_create_drafts.py",
       "file_type": "code",
-      "norm_label": "fetch_lseg_jd.py",
-      "source_file": "job-kit-starter/fetch_lseg_jd.py",
+      "norm_label": "append_and_create_drafts.py",
+      "source_file": "scratch/append_and_create_drafts.py",
       "source_location": "L1"
     },
     {
@@ -4903,25 +5109,14 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_encode_resume",
-      "label": "encode_resume.py",
+      "id": "scratch_stage_20_drafts",
+      "label": "stage_20_drafts.py",
       "_origin": "ast",
       "community": 211,
-      "community_name": "encode_resume.py",
+      "community_name": "stage_20_drafts.py",
       "file_type": "code",
-      "norm_label": "encode_resume.py",
-      "source_file": "scratch/encode_resume.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_find_urls",
-      "label": "find_urls.py",
-      "_origin": "ast",
-      "community": 212,
-      "community_name": "find_urls.py",
-      "file_type": "code",
-      "norm_label": "find_urls.py",
-      "source_file": "scratch/find_urls.py",
+      "norm_label": "stage_20_drafts.py",
+      "source_file": "scratch/stage_20_drafts.py",
       "source_location": "L1"
     },
     {
@@ -5096,50 +5291,6 @@
       "norm_label": "resume bullet seeds",
       "source_file": "job-kit-starter/resume_builder/examples/extractions/example_extraction.md",
       "source_location": "L64"
-    },
-    {
-      "id": "scratch_gen_prompts",
-      "label": "gen_prompts.py",
-      "_origin": "ast",
-      "community": 220,
-      "community_name": "gen_prompts.py",
-      "file_type": "code",
-      "norm_label": "gen_prompts.py",
-      "source_file": "scratch/gen_prompts.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_gen_prompts_utf8",
-      "label": "gen_prompts_utf8.py",
-      "_origin": "ast",
-      "community": 221,
-      "community_name": "gen_prompts_utf8.py",
-      "file_type": "code",
-      "norm_label": "gen_prompts_utf8.py",
-      "source_file": "scratch/gen_prompts_utf8.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_generate_targets_json",
-      "label": "generate_targets_json.py",
-      "_origin": "ast",
-      "community": 222,
-      "community_name": "generate_targets_json.py",
-      "file_type": "code",
-      "norm_label": "generate_targets_json.py",
-      "source_file": "scratch/generate_targets_json.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_inspect_hn",
-      "label": "inspect_hn.py",
-      "_origin": "ast",
-      "community": 223,
-      "community_name": "inspect_hn.py",
-      "file_type": "code",
-      "norm_label": "inspect_hn.py",
-      "source_file": "scratch/inspect_hn.py",
-      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_config",
@@ -5334,26 +5485,160 @@
       "source_location": "L91"
     },
     {
-      "id": "job_kit_starter_job_hunt_india",
-      "label": "job_hunt_india.py",
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring",
+      "label": "2026-09-27-batch-mode-resume-tailoring.md",
       "_origin": "ast",
       "community": 25,
-      "community_name": "job_hunt_india.py",
-      "file_type": "code",
-      "norm_label": "job_hunt_india.py",
-      "source_file": "job-kit-starter/job_hunt_india.py",
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "2026-09-27-batch-mode-resume-tailoring.md",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_job_hunt_india_rationale_2",
-      "label": "India-aggregator job scan (complements job_hunt.py, which only hits company ATS\u2026",
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_ats_match_rate",
+      "label": "ATS Match Rate",
       "_origin": "ast",
       "community": 25,
-      "community_name": "job_hunt_india.py",
-      "file_type": "rationale",
-      "norm_label": "india-aggregator job scan (complements job_hunt.py, which only hits company ats...",
-      "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L2"
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "ats match rate",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L601"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_batch_mode_resume_tailoring_implementation_plan",
+      "label": "Batch Mode Resume Tailoring \u2014 Implementation Plan",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "batch mode resume tailoring \u2014 implementation plan",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_batch_notes_company_role",
+      "label": "Batch notes: [Company] [Role]",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "batch notes: [company] [role]",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L596"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_condensed_critique",
+      "label": "Condensed Critique",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "condensed critique",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L604"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_global_constraints",
+      "label": "Global Constraints",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "global constraints",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L24"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_jd_keyword_table",
+      "label": "JD Keyword Table",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "jd keyword table",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L598"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_review_focus",
+      "label": "Review Focus",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "review focus",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L37"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_1_archive_the_full_quick_pipeline_to_a_legacy_reference_file",
+      "label": "Task 1: Archive the Full/Quick pipeline to a legacy reference file",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "task 1: archive the full/quick pipeline to a legacy reference file",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L60"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_2_write_fingerprint_check_py_gate_script_with_tests",
+      "label": "Task 2: Write `fingerprint_check.py` gate script with tests",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "task 2: write `fingerprint_check.py` gate script with tests",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L117"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_3_rewrite_make_resume_skill_md_as_batch_mode_only",
+      "label": "Task 3: Rewrite `make-resume/SKILL.md` as Batch Mode only",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "task 3: rewrite `make-resume/skill.md` as batch mode only",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L407"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_4_point_daily_scan_md_step_5a_at_the_skill",
+      "label": "Task 4: Point `daily_scan.md` step 5a at the skill",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "task 4: point `daily_scan.md` step 5a at the skill",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L637"
+    },
+    {
+      "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_5_cross_file_consistency_check_and_end_to_end_validation",
+      "label": "Task 5: Cross-file consistency check and end-to-end validation",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "Batch notes: [Company] [Role]",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "task 5: cross-file consistency check and end-to-end validation",
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L677"
     },
     {
       "id": "job_kit_starter_waas_scan",
@@ -5961,7 +6246,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd10 authentication & \ud83c\udfaf candidate bar \u2014 canonical source",
       "source_file": "CLAUDE.md",
-      "source_location": "L11"
+      "source_location": "L12"
     },
     {
       "id": "claude_critical_rule_mandatory_tailored_resume_for_every_application_strict",
@@ -5973,7 +6258,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udcc4 critical rule \u2014 mandatory tailored resume for every application (strict)",
       "source_file": "CLAUDE.md",
-      "source_location": "L21"
+      "source_location": "L22"
     },
     {
       "id": "claude_graphify",
@@ -5997,7 +6282,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udcc1 single source of truth & canonical csv paths (strict)",
       "source_file": "CLAUDE.md",
-      "source_location": "L15"
+      "source_location": "L16"
     },
     {
       "id": "job_kit_starter_tracker_refresh",
@@ -6431,7 +6716,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83c\udf10 approved sources (strict allowlist \u2014 this is the complete list)",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L31"
+      "source_location": "L32"
     },
     {
       "id": "agents_rules_job_hunt_profile_authentication_session_persistence_rule",
@@ -6443,7 +6728,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd10 authentication & session persistence rule",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L79"
+      "source_location": "L80"
     },
     {
       "id": "agents_rules_job_hunt_profile_blocker_handling_fully_autonomous_no_user_check_ins_mid_run",
@@ -6455,7 +6740,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udea7 blocker handling (fully autonomous \u2014 no user check-ins mid-run)",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L73"
+      "source_location": "L74"
     },
     {
       "id": "agents_rules_job_hunt_profile_candidate_bar_pratham_modi",
@@ -6479,7 +6764,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udce7 cold outreach operations",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L63"
+      "source_location": "L64"
     },
     {
       "id": "agents_rules_job_hunt_profile_daily_scan_operations",
@@ -6491,7 +6776,7 @@
       "node_kind": "heading",
       "norm_label": "\u26a1 daily scan operations",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L38"
+      "source_location": "L39"
     },
     {
       "id": "agents_rules_job_hunt_profile_job_hunt_profile_operations_rule",
@@ -8408,6 +8693,17 @@
       "source_location": "L1"
     },
     {
+      "id": "job_kit_starter_gates",
+      "label": "gates.py",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "gates.py",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_job_hunt",
       "label": "job_hunt.py",
       "_origin": "ast",
@@ -8417,6 +8713,50 @@
       "norm_label": "job_hunt.py",
       "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india",
+      "label": "job_hunt_india.py",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "job_hunt_india.py",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_2",
+      "label": "Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "pre-submit gates for the daily scan. run from job-kit-starter/. python gates.py...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L2"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_30",
+      "label": "Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "return ('skip'|'borderline'|'ok', evidence). hard skip: n+ with n>=4, or range...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L30"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_india_rationale_2",
+      "label": "India-aggregator job scan (complements job_hunt.py, which only hits company ATS\u2026",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "india-aggregator job scan (complements job_hunt.py, which only hits company ats...",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L2"
     },
     {
       "id": "job_kit_starter_job_hunt_rationale_133",
@@ -8552,6 +8892,18 @@
     }
   ],
   "links": [
+    {
+      "source": "job_kit_starter_gates_coverage",
+      "target": "job_kit_starter_gates_vocab",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
     {
       "source": "job_kit_starter_job_hunt_fetch_aiven",
       "target": "job_kit_starter_job_hunt_get",
@@ -8693,7 +9045,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L126",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -8705,7 +9057,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L127",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_india_score",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_india_score",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L93",
       "weight": 1.0
     },
     {
@@ -8717,7 +9093,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L282",
+      "source_location": "L285",
       "weight": 1.0
     },
     {
@@ -8729,24 +9105,12 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L336",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_job_hunt_main",
-      "target": "job_kit_starter_job_hunt_parse_posted",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L339",
       "weight": 1.0
     },
     {
       "source": "job_kit_starter_job_hunt_main",
-      "target": "job_kit_starter_job_hunt_region",
+      "target": "job_kit_starter_job_hunt_parse_posted",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8758,7 +9122,7 @@
     },
     {
       "source": "job_kit_starter_job_hunt_main",
-      "target": "job_kit_starter_job_hunt_score",
+      "target": "job_kit_starter_job_hunt_region",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -8766,6 +9130,42 @@
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L345",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_main",
+      "target": "job_kit_starter_job_hunt_score",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L348",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_score",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_score",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L258",
       "weight": 1.0
     },
     {
@@ -8777,7 +9177,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L278",
+      "source_location": "L281",
       "weight": 1.0
     },
     {
@@ -8789,7 +9189,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L406",
+      "source_location": "L409",
       "weight": 1.0
     },
     {
@@ -9093,6 +9493,54 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_job_hunt",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_india",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_india",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_tracker_package",
       "target": "ref_react",
       "relation": "imports",
@@ -9161,18 +9609,6 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "job-kit-starter/tracker/src/main.jsx",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_print_remaining",
-      "target": "scratch_find_fresh_hn",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/print_remaining.py",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -9288,7 +9724,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -9299,7 +9735,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L38",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
@@ -9321,7 +9757,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L63",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -9332,7 +9768,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L73",
+      "source_location": "L74",
       "weight": 1.0
     },
     {
@@ -9343,7 +9779,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L79",
+      "source_location": "L80",
       "weight": 1.0
     },
     {
@@ -9387,7 +9823,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -9398,7 +9834,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -9409,7 +9845,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
-      "source_location": "L21",
+      "source_location": "L22",
       "weight": 1.0
     },
     {
@@ -9563,7 +9999,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L203",
+      "source_location": "L207",
       "weight": 1.0
     },
     {
@@ -9662,7 +10098,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L163",
+      "source_location": "L166",
       "weight": 1.0
     },
     {
@@ -9673,7 +10109,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L170",
+      "source_location": "L173",
       "weight": 1.0
     },
     {
@@ -9684,7 +10120,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L179",
+      "source_location": "L182",
       "weight": 1.0
     },
     {
@@ -9695,7 +10131,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L186",
+      "source_location": "L189",
       "weight": 1.0
     },
     {
@@ -9706,7 +10142,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L189",
+      "source_location": "L192",
       "weight": 1.0
     },
     {
@@ -9717,7 +10153,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L197",
+      "source_location": "L201",
       "weight": 1.0
     },
     {
@@ -9728,7 +10164,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/CLAUDE.md",
-      "source_location": "L200",
+      "source_location": "L204",
       "weight": 1.0
     },
     {
@@ -10788,6 +11224,336 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_batch_mode_resume_tailoring_implementation_plan",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_batch_notes_company_role",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L596",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_batch_mode_resume_tailoring_implementation_plan",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_global_constraints",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_batch_mode_resume_tailoring_implementation_plan",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_review_focus",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_batch_notes_company_role",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_jd_keyword_table",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L598",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_batch_notes_company_role",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_ats_match_rate",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L601",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_batch_notes_company_role",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_condensed_critique",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L604",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_condensed_critique",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_4_point_daily_scan_md_step_5a_at_the_skill",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L637",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_condensed_critique",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_5_cross_file_consistency_check_and_end_to_end_validation",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L677",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_review_focus",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_2_write_fingerprint_check_py_gate_script_with_tests",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_review_focus",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_3_rewrite_make_resume_skill_md_as_batch_mode_only",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L407",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_review_focus",
+      "target": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring_task_1_archive_the_full_quick_pipeline_to_a_legacy_reference_file",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_batch_mode_single_path_ats_first_resume_tailoring",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_batch_mode_single_path_ats_first_resume_tailoring",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_what_s_explicitly_cut_vs_kept",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_batch_mode_single_path_ats_first_resume_tailoring",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_testing_validation",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_batch_mode_single_path_ats_first_resume_tailoring",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_goal",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_batch_mode_single_path_ats_first_resume_tailoring",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_non_goals",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_batch_mode_single_path_ats_first_resume_tailoring",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_design",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_batch_mode_single_path_ats_first_resume_tailoring",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_problem",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_design",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_3_resume_builder_helpers_fingerprint_check_py_new_script",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_design",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_4_daily_scan_md_step_5a",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_design",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_1_legacy_archive",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_design",
+      "target": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design_2_make_resume_skill_md_rewritten_as_batch_mode_only",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_facts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_form_check",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_lint",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_vocab",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_coverage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_hn_scan",
       "target": "job_kit_starter_hn_scan_get",
       "relation": "contains",
@@ -10905,7 +11671,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L281",
+      "source_location": "L284",
       "weight": 1.0
     },
     {
@@ -10916,7 +11682,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L288",
+      "source_location": "L291",
       "weight": 1.0
     },
     {
@@ -10927,7 +11693,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L405",
+      "source_location": "L408",
       "weight": 1.0
     },
     {
@@ -10938,7 +11704,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L125",
+      "source_location": "L128",
       "weight": 1.0
     },
     {
@@ -13989,6 +14755,17 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_fetch_jds",
+      "target": "scratch_fetch_jds_fetch",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fetch_jds.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_fill_anyscale",
       "target": "scratch_fill_anyscale_setinput",
       "relation": "contains",
@@ -14085,17 +14862,6 @@
       "confidence_score": 1.0,
       "source_file": "scratch/fill_potpie.js",
       "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_fresh_hn",
-      "target": "scratch_find_fresh_hn_get",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/find_fresh_hn.py",
-      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -14451,6 +15217,28 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_gates_rationale_2",
+      "target": "job_kit_starter_gates",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates_rationale_30",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_hn_scan_rationale_2",
       "target": "job_kit_starter_hn_scan",
       "relation": "rationale_for",
@@ -14613,7 +15401,7 @@
       "confidence_score": 0.85,
       "context": "argument",
       "source_file": "job-kit-starter/job_hunt_india.py",
-      "source_location": "L155",
+      "source_location": "L158",
       "weight": 1.0
     },
     {
@@ -14690,5 +15478,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f588082f6afcd991b2a68c6d0e6523b2cac23810"
+  "built_at_commit": "85c59b20d1739af41d53d26da6a5bf2ed8b944eb"
 }

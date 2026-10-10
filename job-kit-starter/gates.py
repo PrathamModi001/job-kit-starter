@@ -105,8 +105,21 @@ def coverage(d):
     return rep
 
 
+def clean_html(text):
+    t = re.sub(r"<(?:br|p|div|li|tr|h[1-6])[^>]*>", "\n", text, flags=re.I)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = html.unescape(t)
+    t = re.sub(r"[ \t]+", " ", t)
+    t = re.sub(r"\n\s*\n+", "\n\n", t)
+    return t.strip()
+
+
 if __name__ == "__main__":
     cmd, arg = sys.argv[1], " ".join(sys.argv[2:])
+    if cmd == "clean":
+        p = Path(arg)
+        raw = p.read_text(encoding="utf-8", errors="replace") if p.exists() else arg
+        print(clean_html(raw))
     if cmd == "title":
         m = title_skip(arg); print(f"SKIP ({m})" if m else "CLEAR"); sys.exit(1 if m else 0)
     if cmd == "yoe":
