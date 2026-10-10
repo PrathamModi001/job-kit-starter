@@ -2110,5 +2110,53 @@
 "date": "2026-10-09",
 "url": "https://wellfound.com/jobs/4289853-full-stack-software-developer-mid-level",
 "resume": "output/BotFriday AI - Full Stack Software Developer (Mid-Level)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Elastic",
+"role": "Agentic AI Engineer",
+"loc": "Bangalore, India",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "20-35 LPA",
+"status": "Blocked",
+"date": "2026-10-10",
+"url": "https://job-boards.greenhouse.io/embed/job_app?for=elastic&token=8247206",
+"resume": "output/Elastic - Agentic AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Onehouse",
+"role": "Software Engineer, Distributed Data Systems",
+"loc": "India-Remote",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "15-30 LPA",
+"status": "Blocked",
+"date": "2026-10-10",
+"url": "https://jobs.lever.co/Onehouse/47c14505-7b3e-4e6e-9e8d-04b41a8788a8/",
+"resume": "output/Onehouse - Software Engineer, Distributed Data Systems/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Sarvam AI",
+"role": "Agent Engineer",
+"loc": "Bengaluru",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "20-35 LPA",
+"status": "Blocked",
+"date": "2026-10-10",
+"url": "https://jobs.ashbyhq.com/sarvam/36f89b00-2010-4d23-aae3-17a2f53d9eaa/application",
+"resume": "output/Sarvam AI - Agent Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Zenskar",
+"role": "SDE-1",
+"loc": "Bengaluru",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "15-25 LPA",
+"status": "Blocked",
+"date": "2026-10-10",
+"url": "https://evolve.keka.com/careers/applyjob/91601",
+"resume": "output/Zenskar - SDE-1/Pratham_Modi_Resume.pdf"
 }
 ]

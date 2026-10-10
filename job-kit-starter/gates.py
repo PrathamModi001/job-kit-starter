@@ -106,9 +106,9 @@ def coverage(d):
 
 
 def clean_html(text):
-    t = re.sub(r"<(?:br|p|div|li|tr|h[1-6])[^>]*>", "\n", text, flags=re.I)
+    t = html.unescape(text or "")
+    t = re.sub(r"<(?:br|p|div|li|tr|h[1-6])[^>]*>", "\n", t, flags=re.I)
     t = re.sub(r"<[^>]+>", " ", t)
-    t = html.unescape(t)
     t = re.sub(r"[ \t]+", " ", t)
     t = re.sub(r"\n\s*\n+", "\n\n", t)
     return t.strip()
@@ -117,9 +117,10 @@ def clean_html(text):
 if __name__ == "__main__":
     cmd, arg = sys.argv[1], " ".join(sys.argv[2:])
     if cmd == "clean":
-        p = Path(arg)
-        raw = p.read_text(encoding="utf-8", errors="replace") if p.exists() else arg
+        p = Path(arg) if arg else None
+        raw = p.read_text(encoding="utf-8", errors="replace") if (p and p.exists()) else (arg or sys.stdin.read())
         print(clean_html(raw))
+        sys.exit(0)
     if cmd == "title":
         m = title_skip(arg); print(f"SKIP ({m})" if m else "CLEAR"); sys.exit(1 if m else 0)
     if cmd == "yoe":
@@ -130,6 +131,4 @@ if __name__ == "__main__":
         bad = lint(arg); print("UNSUPPORTED CLAIM WORDS:", bad if bad else "none"); sys.exit(1 if bad else 0)
     if cmd == "coverage":
         print(json.dumps(coverage(arg), indent=1))
-    if cmd == "clean":
-        raw = Path(arg).read_text(encoding="utf-8", errors="ignore") if arg else sys.stdin.read()
-        print(strip_html(raw))
+        sys.exit(0)

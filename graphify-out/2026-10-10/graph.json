@@ -727,6 +727,18 @@
       "source_location": "L18"
     },
     {
+      "id": "job_kit_starter_gates_clean_html",
+      "label": "clean_html()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "clean_html()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L101"
+    },
+    {
       "id": "job_kit_starter_gates_coverage",
       "label": "coverage()",
       "_callable": true,
@@ -5120,6 +5132,17 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_generate_20_outreach",
+      "label": "generate_20_outreach.py",
+      "_origin": "ast",
+      "community": 212,
+      "community_name": "generate_20_outreach.py",
+      "file_type": "code",
+      "norm_label": "generate_20_outreach.py",
+      "source_file": "scratch/generate_20_outreach.py",
+      "source_location": "L1"
+    },
+    {
       "id": "scratch_append_futurestrive_csv",
       "label": "append_futurestrive_csv.py",
       "_origin": "ast",
@@ -5293,6 +5316,116 @@
       "source_location": "L64"
     },
     {
+      "id": "scratch_generate_nablon_resume",
+      "label": "generate_nablon_resume.py",
+      "_origin": "ast",
+      "community": 220,
+      "community_name": "generate_nablon_resume.py",
+      "file_type": "code",
+      "norm_label": "generate_nablon_resume.py",
+      "source_file": "scratch/generate_nablon_resume.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_inject_b64",
+      "label": "inject_b64.js",
+      "_origin": "ast",
+      "community": 221,
+      "community_name": "inject_b64.js",
+      "file_type": "code",
+      "norm_label": "inject_b64.js",
+      "source_file": "scratch/inject_b64.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_outreach_targets",
+      "label": "send_outreach_targets.js",
+      "_origin": "ast",
+      "community": 222,
+      "community_name": "send_outreach_targets.js",
+      "file_type": "code",
+      "norm_label": "send_outreach_targets.js",
+      "source_file": "scratch/send_outreach_targets.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_outreach_targets_inlined",
+      "label": "send_outreach_targets_inlined.js",
+      "_origin": "ast",
+      "community": 223,
+      "community_name": "send_outreach_targets_inlined.js",
+      "file_type": "code",
+      "norm_label": "send_outreach_targets_inlined.js",
+      "source_file": "scratch/send_outreach_targets_inlined.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_0",
+      "label": "send_single_0.js",
+      "_origin": "ast",
+      "community": 224,
+      "community_name": "send_single_0.js",
+      "file_type": "code",
+      "norm_label": "send_single_0.js",
+      "source_file": "scratch/send_single_0.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_1",
+      "label": "send_single_1.js",
+      "_origin": "ast",
+      "community": 225,
+      "community_name": "send_single_1.js",
+      "file_type": "code",
+      "norm_label": "send_single_1.js",
+      "source_file": "scratch/send_single_1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_10",
+      "label": "send_single_10.js",
+      "_origin": "ast",
+      "community": 226,
+      "community_name": "send_single_10.js",
+      "file_type": "code",
+      "norm_label": "send_single_10.js",
+      "source_file": "scratch/send_single_10.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_11",
+      "label": "send_single_11.js",
+      "_origin": "ast",
+      "community": 227,
+      "community_name": "send_single_11.js",
+      "file_type": "code",
+      "norm_label": "send_single_11.js",
+      "source_file": "scratch/send_single_11.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_12",
+      "label": "send_single_12.js",
+      "_origin": "ast",
+      "community": 228,
+      "community_name": "send_single_12.js",
+      "file_type": "code",
+      "norm_label": "send_single_12.js",
+      "source_file": "scratch/send_single_12.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_13",
+      "label": "send_single_13.js",
+      "_origin": "ast",
+      "community": 229,
+      "community_name": "send_single_13.js",
+      "file_type": "code",
+      "norm_label": "send_single_13.js",
+      "source_file": "scratch/send_single_13.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_config",
       "label": "config.md",
       "_origin": "ast",
@@ -5401,6 +5534,116 @@
       "source_location": "L36"
     },
     {
+      "id": "scratch_send_single_14",
+      "label": "send_single_14.js",
+      "_origin": "ast",
+      "community": 230,
+      "community_name": "send_single_14.js",
+      "file_type": "code",
+      "norm_label": "send_single_14.js",
+      "source_file": "scratch/send_single_14.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_15",
+      "label": "send_single_15.js",
+      "_origin": "ast",
+      "community": 231,
+      "community_name": "send_single_15.js",
+      "file_type": "code",
+      "norm_label": "send_single_15.js",
+      "source_file": "scratch/send_single_15.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_16",
+      "label": "send_single_16.js",
+      "_origin": "ast",
+      "community": 232,
+      "community_name": "send_single_16.js",
+      "file_type": "code",
+      "norm_label": "send_single_16.js",
+      "source_file": "scratch/send_single_16.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_17",
+      "label": "send_single_17.js",
+      "_origin": "ast",
+      "community": 233,
+      "community_name": "send_single_17.js",
+      "file_type": "code",
+      "norm_label": "send_single_17.js",
+      "source_file": "scratch/send_single_17.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_18",
+      "label": "send_single_18.js",
+      "_origin": "ast",
+      "community": 234,
+      "community_name": "send_single_18.js",
+      "file_type": "code",
+      "norm_label": "send_single_18.js",
+      "source_file": "scratch/send_single_18.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_19",
+      "label": "send_single_19.js",
+      "_origin": "ast",
+      "community": 235,
+      "community_name": "send_single_19.js",
+      "file_type": "code",
+      "norm_label": "send_single_19.js",
+      "source_file": "scratch/send_single_19.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_2",
+      "label": "send_single_2.js",
+      "_origin": "ast",
+      "community": 236,
+      "community_name": "send_single_2.js",
+      "file_type": "code",
+      "norm_label": "send_single_2.js",
+      "source_file": "scratch/send_single_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_3",
+      "label": "send_single_3.js",
+      "_origin": "ast",
+      "community": 237,
+      "community_name": "send_single_3.js",
+      "file_type": "code",
+      "norm_label": "send_single_3.js",
+      "source_file": "scratch/send_single_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_4",
+      "label": "send_single_4.js",
+      "_origin": "ast",
+      "community": 238,
+      "community_name": "send_single_4.js",
+      "file_type": "code",
+      "norm_label": "send_single_4.js",
+      "source_file": "scratch/send_single_4.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_5",
+      "label": "send_single_5.js",
+      "_origin": "ast",
+      "community": 239,
+      "community_name": "send_single_5.js",
+      "file_type": "code",
+      "norm_label": "send_single_5.js",
+      "source_file": "scratch/send_single_5.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_resume_builder_examples_bundles_example_bundle",
       "label": "example_bundle.md",
       "_origin": "ast",
@@ -5483,6 +5726,94 @@
       "norm_label": "s5: cover letter guide",
       "source_file": "job-kit-starter/resume_builder/examples/bundles/example_bundle.md",
       "source_location": "L91"
+    },
+    {
+      "id": "scratch_send_single_6",
+      "label": "send_single_6.js",
+      "_origin": "ast",
+      "community": 240,
+      "community_name": "send_single_6.js",
+      "file_type": "code",
+      "norm_label": "send_single_6.js",
+      "source_file": "scratch/send_single_6.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_7",
+      "label": "send_single_7.js",
+      "_origin": "ast",
+      "community": 241,
+      "community_name": "send_single_7.js",
+      "file_type": "code",
+      "norm_label": "send_single_7.js",
+      "source_file": "scratch/send_single_7.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_8",
+      "label": "send_single_8.js",
+      "_origin": "ast",
+      "community": 242,
+      "community_name": "send_single_8.js",
+      "file_type": "code",
+      "norm_label": "send_single_8.js",
+      "source_file": "scratch/send_single_8.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_single_9",
+      "label": "send_single_9.js",
+      "_origin": "ast",
+      "community": 243,
+      "community_name": "send_single_9.js",
+      "file_type": "code",
+      "norm_label": "send_single_9.js",
+      "source_file": "scratch/send_single_9.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_serve_outreach",
+      "label": "serve_outreach.py",
+      "_origin": "ast",
+      "community": 244,
+      "community_name": "serve_outreach.py",
+      "file_type": "code",
+      "norm_label": "serve_outreach.py",
+      "source_file": "scratch/serve_outreach.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_set_window_b64",
+      "label": "set_window_b64.js",
+      "_origin": "ast",
+      "community": 245,
+      "community_name": "set_window_b64.js",
+      "file_type": "code",
+      "norm_label": "set_window_b64.js",
+      "source_file": "scratch/set_window_b64.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_stage_batch_0_1",
+      "label": "stage_batch_0_1.js",
+      "_origin": "ast",
+      "community": 246,
+      "community_name": "stage_batch_0_1.js",
+      "file_type": "code",
+      "norm_label": "stage_batch_0_1.js",
+      "source_file": "scratch/stage_batch_0_1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_stage_gmail_drafts",
+      "label": "stage_gmail_drafts.py",
+      "_origin": "ast",
+      "community": 247,
+      "community_name": "stage_gmail_drafts.py",
+      "file_type": "code",
+      "norm_label": "stage_gmail_drafts.py",
+      "source_file": "scratch/stage_gmail_drafts.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring",
@@ -11478,6 +11809,17 @@
     },
     {
       "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_clean_html",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
       "target": "job_kit_starter_gates_title_skip",
       "relation": "contains",
       "_origin": "ast",
@@ -15478,5 +15820,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "85c59b20d1739af41d53d26da6a5bf2ed8b944eb"
+  "built_at_commit": "34b8331a4bd9a3747d3400b23def1335db567091"
 }
