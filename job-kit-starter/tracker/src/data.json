@@ -1296,6 +1296,42 @@
 "resume": "output/Intelligence Factory - Data Engineer (India)/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Mihup",
+"role": "AI Engineer - R&D",
+"loc": "Kolkata, Bengaluru (Bangalore)",
+"via": "Cutshort",
+"found": "Cutshort",
+"comp": "₹20L - ₹70L / yr",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://cutshort.io/job/AI-Engineer-R-D-Kolkata-Bengaluru-Bangalore-Mihup-5PRkxxUo",
+"resume": "output/Mihup - AI Engineer - R&D/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Nablon AI",
+"role": "Data Engineer",
+"loc": "Ahamdabad",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹10L – ₹25L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://wellfound.com/jobs/4781455-data-engineer",
+"resume": "output/Nablon AI - Data Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Sagepilot AI",
+"role": "Voice Engineer",
+"loc": "Bangalore Urban",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹15L – ₹24L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://wellfound.com/jobs/3898359-voice-engineer",
+"resume": "output/Sagepilot AI - Voice Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Shipthis Inc",
 "role": "Software Engineer",
 "loc": "India / Remote",
@@ -1318,6 +1354,30 @@
 "date": "2026-10-10",
 "url": "https://www.workatastartup.com/jobs/86785",
 "resume": "output/ShortLoop - Software Engineer - Fullstack/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Spenza",
+"role": "Full Stack Engineer- MERN",
+"loc": "Bengaluru",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹12L – ₹35L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://wellfound.com/jobs/930533-full-stack-engineer-mern",
+"resume": "output/Spenza - Full Stack Engineer- MERN/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "SquareYards",
+"role": "Generative AI Engineer",
+"loc": "Mumbai • Andheri East",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹10L – ₹18L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://wellfound.com/jobs/3000999-generative-ai-engineer-artificial-intelligence-mumbai",
+"resume": "output/SquareYards - Generative AI Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "ToolJet",
