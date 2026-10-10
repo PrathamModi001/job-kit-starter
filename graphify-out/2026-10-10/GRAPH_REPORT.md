@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-10-10)
+# Graph Report - job-kit-starter  (2026-10-09)
 
 ## Corpus Check
-- 236 files · ~132,496 words
+- 240 files · ~134,733 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 755 nodes · 592 edges · 219 communities (42 shown, 13 thin omitted)
+- 727 nodes · 552 edges · 224 communities (41 shown, 13 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `85c59b20`
+- Built from commit: `f588082f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -40,7 +40,7 @@
 - Deep Learning-Guided Screening of Thermostable Enzyme Variants for Industrial Biocatalysis
 - Configuration
 - Bundle: Academia
-- Batch notes: [Company] [Role]
+- job_hunt_india.py
 - waas_scan.py
 - csv-logger.md
 - hn_scan.py
@@ -69,7 +69,6 @@
 - Handler
 - PNAHandler
 - batch_draft_runner.js
-- Batch Mode: single-path, ATS-first resume tailoring
 
 ## God Nodes (most connected - your core abstractions)
 1. `PlaywrightClient` - 13 edges
@@ -84,19 +83,12 @@
 10. `Job Hunt Profile & Operations Rule` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `score()` --calls--> `title_skip()`  [EXTRACTED]
-  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
-- `score()` --calls--> `title_skip()`  [EXTRACTED]
-  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
-- `score()` --calls--> `yoe_check()`  [EXTRACTED]
-  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
-- `score()` --calls--> `yoe_check()`  [EXTRACTED]
-  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
+- None detected - all connections are within the same source files.
 
 ## Import Cycles
 - None detected.
 
-## Communities (219 total, 13 thin omitted)
+## Communities (224 total, 13 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -131,8 +123,8 @@ Cohesion: 0.12
 Nodes (16): Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2), CHAR COUNT GATE (per position), COMPILE GATE, End of /make-resume, /make-resume, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<< (+8 more)
 
 ### Community 9 - "job_hunt.py"
-Cohesion: 0.11
-Nodes (28): coverage(), Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, title_skip(), vocab(), yoe_check(), fetch_aiven(), fetch_arbeitnow() (+20 more)
+Cohesion: 0.23
+Nodes (17): fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn(), fetch_lever(), get(), loc_tag() (+9 more)
 
 ### Community 10 - "Tier B cold email — slot template (volume lane)"
 Cohesion: 0.20
@@ -194,9 +186,9 @@ Nodes (8): Application-Form Facts (reused constantly — collect once during onb
 Cohesion: 0.29
 Nodes (6): Bundle: Academia, S1: Role Profile, S2: Summary Guide, S3: Achievement Reframing Map, S4: Skills Guide, S5: Cover Letter Guide
 
-### Community 25 - "Batch notes: [Company] [Role]"
-Cohesion: 0.15
-Nodes (12): ATS Match Rate, Batch Mode Resume Tailoring — Implementation Plan, Batch notes: [Company] [Role], Condensed Critique, Global Constraints, JD Keyword Table, Review Focus, Task 1: Archive the Full/Quick pipeline to a legacy reference file (+4 more)
+### Community 25 - "job_hunt_india.py"
+Cohesion: 0.53
+Nodes (5): already_applied_companies(), load_seen(), main(), India-aggregator job scan (complements job_hunt.py, which only hits company ATS…, score()
 
 ### Community 26 - "waas_scan.py"
 Cohesion: 0.53
@@ -262,20 +254,16 @@ Nodes (4): AI Fingerprint Rules, Banned words / phrases (Tier 1 — hard fail if
 Cohesion: 0.50
 Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
-### Community 145 - "Batch Mode: single-path, ATS-first resume tailoring"
-Cohesion: 0.17
-Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
-
 ## Knowledge Gaps
-- **340 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+335 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 591 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **323 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+318 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 574 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _340 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _323 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**

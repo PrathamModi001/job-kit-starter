@@ -1248,6 +1248,90 @@
 "resume": "output/Social Recruit - Software Engineer – CRM & Automation/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "FactWise",
+"role": "Backend Developer",
+"loc": "Mumbai",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹4L – ₹20L",
+"status": "Applied",
+"date": "2026-10-09",
+"url": "https://wellfound.com/jobs/3975262-backend-developer",
+"resume": "output/FactWise - Backend Developer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Verifast AI",
+"role": "Software Developer- Full Stack",
+"loc": "Bangalore Urban, Karnataka, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹12L – ₹24L",
+"status": "Applied",
+"date": "2026-10-09",
+"url": "https://wellfound.com/jobs/4389226-software-developer-full-stack",
+"resume": "output/Verifast AI - Software Developer- Full Stack/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "ClearFeed",
+"role": "Software Engineer",
+"loc": "Bengaluru, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹18L - ₹28L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://wellfound.com/jobs/4377418-software-engineer",
+"resume": "output/ClearFeed - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Intelligence Factory",
+"role": "Data Engineer (India)",
+"loc": "India (Remote)",
+"via": "WorkAtAStartup",
+"found": "WorkAtAStartup",
+"comp": "₹18L - ₹35L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://www.workatastartup.com/jobs/100368",
+"resume": "output/Intelligence Factory - Data Engineer (India)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Shipthis Inc",
+"role": "Software Engineer",
+"loc": "India / Remote",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹14L - ₹22L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://wellfound.com/jobs/4748564-software-engineer",
+"resume": "output/Shipthis Inc - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "ShortLoop",
+"role": "Software Engineer - Fullstack",
+"loc": "Bengaluru, India (Hybrid)",
+"via": "WorkAtAStartup",
+"found": "WorkAtAStartup",
+"comp": "₹15L - ₹30L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://www.workatastartup.com/jobs/86785",
+"resume": "output/ShortLoop - Software Engineer - Fullstack/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "ToolJet",
+"role": "Software Engineer (Backend)",
+"loc": "Noida, India / Remote",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹15L - ₹25L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://wellfound.com/jobs/4238507-software-engineer-backend",
+"resume": "output/ToolJet - Software Engineer (Backend)/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -1954,5 +2038,17 @@
 "date": "2026-10-07",
 "url": "https://in.indeed.com/viewjob?jk=57cbd17eb5f5722d",
 "resume": "output/Zikrabyte Solutions - MERN Full Stack Developer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "BotFriday AI",
+"role": "Full Stack Software Developer (Mid-Level)",
+"loc": "Hyderabad",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹35L – ₹40L",
+"status": "Blocked",
+"date": "2026-10-09",
+"url": "https://wellfound.com/jobs/4289853-full-stack-software-developer-mid-level",
+"resume": "output/BotFriday AI - Full Stack Software Developer (Mid-Level)/Pratham_Modi_Resume.pdf"
 }
 ]
