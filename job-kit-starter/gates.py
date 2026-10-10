@@ -6,11 +6,18 @@
   python gates.py form "<Personal Info Filled string>"   -> flags values that diverge from config.md facts
   python gates.py lint "<Company - Role>"      -> resume claim words must exist in SKILL_PROFILE.md
   python gates.py coverage "<Company - Role>"  -> writes output/<dir>/keyword_table.json (tool-computed JD match rate)
+  python gates.py clean <raw_fetch.html>       -> strips tags/boilerplate, prints clean text (pipe into jd.txt; never save raw HTML)
 """
 import html, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+
+
+def strip_html(text):
+    """Tags off, entities decoded, whitespace collapsed. Shared by yoe_check/coverage/clean
+    so there's exactly one definition of 'clean JD text' instead of three inline copies."""
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", text or ""))).strip()
 
 # Literal title check (daily_scan.md step 5 b2) + user-added terms (customer/client/mobile/React Native).
 TITLE_SKIP = re.compile(
@@ -28,7 +35,7 @@ def title_skip(title):
 
 def yoe_check(text):
     """Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range with low bound >=3."""
-    t = html.unescape(re.sub(r"<[^>]+>", " ", text))
+    t = strip_html(text)
     for m in re.finditer(r"(\d+)\s*(?:\+|-|–|to)\s*(\d+)?\s*\+?\s*(?:years|yrs)", t, re.I):
         lo, hi = int(m.group(1)), int(m.group(2)) if m.group(2) else None
         ev = m.group(0)
@@ -86,7 +93,7 @@ def vocab():
 
 def coverage(d):
     base = ROOT / "output" / d
-    jd = html.unescape(re.sub(r"<[^>]+>", " ", (base / "jd.txt").read_text(encoding="utf-8"))).lower()
+    jd = strip_html((base / "jd.txt").read_text(encoding="utf-8")).lower()
     tex = (base / "Pratham_Modi_Resume.tex").read_text(encoding="utf-8").lower().replace("\\&", "&")
     in_jd = sorted(t for t in vocab() if re.search(r"(?<![\w])" + re.escape(t) + r"(?![\w])", jd))
     hit = [t for t in in_jd if t in tex]
@@ -110,3 +117,6 @@ if __name__ == "__main__":
         bad = lint(arg); print("UNSUPPORTED CLAIM WORDS:", bad if bad else "none"); sys.exit(1 if bad else 0)
     if cmd == "coverage":
         print(json.dumps(coverage(arg), indent=1))
+    if cmd == "clean":
+        raw = Path(arg).read_text(encoding="utf-8", errors="ignore") if arg else sys.stdin.read()
+        print(strip_html(raw))
