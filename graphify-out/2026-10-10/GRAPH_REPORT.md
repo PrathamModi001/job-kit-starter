@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-10)
 
 ## Corpus Check
-- 267 files · ~151,128 words
+- 398 files · ~694,290 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 785 nodes · 593 edges · 248 communities (42 shown, 13 thin omitted)
+- 956 nodes · 633 edges · 381 communities (43 shown, 15 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `34b8331a`
+- Built from commit: `3a9ae4e7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -70,6 +70,9 @@
 - PNAHandler
 - batch_draft_runner.js
 - Batch Mode: single-path, ATS-first resume tailoring
+- upload_eval_body.js
+- Handler
+- inspect_upload_scripts.sh
 
 ## God Nodes (most connected - your core abstractions)
 1. `PlaywrightClient` - 13 edges
@@ -96,7 +99,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (248 total, 13 thin omitted)
+## Communities (381 total, 15 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -132,7 +135,7 @@ Nodes (16): Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2), CHAR 
 
 ### Community 9 - "job_hunt.py"
 Cohesion: 0.10
-Nodes (28): coverage(), Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, title_skip(), vocab(), yoe_check(), fetch_aiven(), fetch_arbeitnow() (+20 more)
+Nodes (30): coverage(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, strip_html(), title_skip(), vocab(), yoe_check() (+22 more)
 
 ### Community 10 - "Tier B cold email — slot template (volume lane)"
 Cohesion: 0.20
@@ -266,16 +269,20 @@ Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
+### Community 212 - "upload_eval_body.js"
+Cohesion: 0.25
+Nodes (7): blob, byteArray, byteCharacters, byteNumbers, dt, file, input
+
 ## Knowledge Gaps
-- **340 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+335 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 621 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **348 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+343 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 787 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _340 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _348 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**

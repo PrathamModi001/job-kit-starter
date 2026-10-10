@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-10)
 
 ## Corpus Check
-- 257 files · ~683,167 words
+- 403 files · ~698,164 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 794 nodes · 612 edges · 240 communities (43 shown, 14 thin omitted)
+- 961 nodes · 633 edges · 386 communities (43 shown, 15 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1b99a77d`
+- Built from commit: `3a9ae4e7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -72,6 +72,7 @@
 - Batch Mode: single-path, ATS-first resume tailoring
 - upload_eval_body.js
 - Handler
+- inspect_upload_scripts.sh
 
 ## God Nodes (most connected - your core abstractions)
 1. `PlaywrightClient` - 13 edges
@@ -98,7 +99,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (240 total, 14 thin omitted)
+## Communities (386 total, 15 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -273,15 +274,15 @@ Cohesion: 0.25
 Nodes (7): blob, byteArray, byteCharacters, byteNumbers, dt, file, input
 
 ## Knowledge Gaps
-- **347 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+342 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 627 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **348 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+343 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 792 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _347 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _348 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**

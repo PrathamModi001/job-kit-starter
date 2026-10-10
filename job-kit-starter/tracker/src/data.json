@@ -1272,6 +1272,42 @@
 "resume": "output/Verifast AI - Software Developer- Full Stack/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "AlgoUniversity",
+"role": "Software Engineer (Fullstack/AI)",
+"loc": "Bengaluru (Work from Office)",
+"via": "WorkAtAStartup",
+"found": "WorkAtAStartup",
+"comp": "₹10 lakh–₹25 lakh per year",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://www.ycombinator.com/companies/algouniversity/jobs/0qv2GAG-software-engineer-fullstack-ai-work-from-office",
+"resume": "job-kit-starter/output/AlgoUniversity - Software Engineer (Fullstack-AI)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Baker Tilly",
+"role": "Associate Database Engineer",
+"loc": "Bangalore, India",
+"via": "Workday",
+"found": "Workday",
+"comp": "18 LPA",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/IND-KA-Bangalore---Cherry-Hills/Associate-Database-Engineer_JR108405",
+"resume": "output/Baker Tilly - Associate Database Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Cartesia",
+"role": "Product Support Engineer, India",
+"loc": "Bangalore, India",
+"via": "Ashby",
+"found": "LinkedIn",
+"comp": "",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://jobs.ashbyhq.com/cartesia/980ee31c-9dd7-476c-b3bc-bc8c26eb94b2",
+"resume": "job-kit-starter/output/Cartesia - Product Support Engineer, India/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "ClearFeed",
 "role": "Software Engineer",
 "loc": "Bengaluru, India",
@@ -1318,6 +1354,30 @@
 "date": "2026-10-10",
 "url": "https://wellfound.com/jobs/4781455-data-engineer",
 "resume": "output/Nablon AI - Data Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Railway",
+"role": "Infrastructure Engineer",
+"loc": "Remote - Global",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://jobs.ashbyhq.com/railway/b8072f95-043f-404d-a313-f0bdf8dd3c81",
+"resume": "job-kit-starter/output/Railway - Infrastructure Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Rubrik",
+"role": "Software Engineer- SaaS O365",
+"loc": "Bangalore",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://job-boards.greenhouse.io/rubrik/jobs/8256407",
+"resume": "output/Rubrik - Software Engineer- SaaS O365/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Sagepilot AI",
@@ -1908,6 +1968,54 @@
 "resume": ""
 },
 {
+"co": "Barclays",
+"role": "AI Developer",
+"loc": "Pune, India",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "",
+"status": "Skipped",
+"date": "2026-10-10",
+"url": "https://search.jobs.barclays/job/-/-/13015/86788953168",
+"resume": ""
+},
+{
+"co": "JioStar",
+"role": "Software Development Engineer I",
+"loc": "Bengaluru",
+"via": "Workday",
+"found": "Workday",
+"comp": "",
+"status": "Skipped",
+"date": "2026-10-10",
+"url": "https://jiostar.wd102.myworkdayjobs.com/JioStar/job/Bengaluru--We-Work/Software-Development-Engineer-I_JR12321-1",
+"resume": ""
+},
+{
+"co": "Lilly",
+"role": "Software Engineer",
+"loc": "Hyderabad, Telangana",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "",
+"status": "Skipped",
+"date": "2026-10-10",
+"url": "https://careers.lilly.com/us/en/job/LILLUSR111204EXTERNALENUS/Software-Engineer",
+"resume": ""
+},
+{
+"co": "Tofler",
+"role": "Software Engineer",
+"loc": "Mumbai",
+"via": "HuntingCube",
+"found": "HuntingCube",
+"comp": "",
+"status": "Skipped",
+"date": "2026-10-10",
+"url": "https://huntingcube.ai/browse/job-apply?jobId=26100049",
+"resume": ""
+},
+{
 "co": "First American India Pvt Ltd",
 "role": "Software Engineer II- Middleware",
 "loc": "Bengaluru, Karnataka",
@@ -2112,6 +2220,18 @@
 "resume": "output/BotFriday AI - Full Stack Software Developer (Mid-Level)/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Coinbase",
+"role": "Machine Learning Engineer",
+"loc": "Remote - India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "₹4,408,400",
+"status": "Blocked",
+"date": "2026-10-10",
+"url": "https://job-boards.greenhouse.io/coinbase/jobs/7985187",
+"resume": "output/Coinbase - Machine Learning Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Elastic",
 "role": "Agentic AI Engineer",
 "loc": "Bangalore, India",
@@ -2122,6 +2242,42 @@
 "date": "2026-10-10",
 "url": "https://job-boards.greenhouse.io/embed/job_app?for=elastic&token=8247206",
 "resume": "output/Elastic - Agentic AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Goldman Sachs",
+"role": "Associate Software Engineer",
+"loc": "Bengaluru, Karnataka",
+"via": "GS careers (Oracle)",
+"found": "Indeed",
+"comp": "",
+"status": "Blocked",
+"date": "2026-10-10",
+"url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/184878",
+"resume": "job-kit-starter/output/Goldman Sachs - Associate Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Hitachi Solutions",
+"role": "AI Developer",
+"loc": "Chennai, India (hybrid)",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "18 LPA",
+"status": "Blocked",
+"date": "2026-10-10",
+"url": "https://jobs.smartrecruiters.com/HitachiSolutions/744000154643709-ai-developer?trid=2d92f286-613b-4daf-9dfa-6340ffbecf73&source=jobfound.org",
+"resume": "output/Hitachi Solutions - AI Developer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "NetApp",
+"role": "Software Engineer",
+"loc": "Bengaluru, Karnataka (hybrid)",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "18 LPA",
+"status": "Blocked",
+"date": "2026-10-10",
+"url": "https://careers.netapp.com/job/-/-/27600/97816764512",
+"resume": "output/NetApp - Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Onehouse",
