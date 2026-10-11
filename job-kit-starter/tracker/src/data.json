@@ -1368,6 +1368,18 @@
 "resume": "job-kit-starter/output/Railway - Infrastructure Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "RecordBook",
+"role": "Associate Backend Developer",
+"loc": "Bangalore Urban",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹12L – ₹20L",
+"status": "Applied",
+"date": "2026-10-10",
+"url": "https://wellfound.com/jobs/4675570-backend-developer-clone",
+"resume": "job-kit-starter/output/RecordBook - Associate Backend Developer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Rubrik",
 "role": "Software Engineer- SaaS O365",
 "loc": "Bangalore",
@@ -1450,6 +1462,54 @@
 "date": "2026-10-10",
 "url": "https://wellfound.com/jobs/4238507-software-engineer-backend",
 "resume": "output/ToolJet - Software Engineer (Backend)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Atrisa",
+"role": "Founding AI / ML Engineer",
+"loc": "Bengaluru",
+"via": "Y Combinator WaaS",
+"found": "Y Combinator WaaS",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-11",
+"url": "https://www.workatastartup.com/jobs/115583",
+"resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Atrisa - Founding AI ML Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Razorpay",
+"role": "Forward Deployed Engineer",
+"loc": "Bengaluru",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "Not listed",
+"status": "Applied",
+"date": "2026-10-11",
+"url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4739199005",
+"resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Razorpay - Forward Deployed Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Supabase",
+"role": "AI Platform Engineer",
+"loc": "Remote, Global",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Applied",
+"date": "2026-10-11",
+"url": "https://jobs.ashbyhq.com/supabase/3b5d54ca-741b-45ac-bd3f-31605a0d3541/application",
+"resume": "output/Supabase - AI Platform Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Vested Finance",
+"role": "Software Engineer",
+"loc": "Remote (India / Bengaluru / Ahmedabad)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹20L – ₹24L",
+"status": "Applied",
+"date": "2026-10-11",
+"url": "https://wellfound.com/jobs/4417465-software-engineer",
+"resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Vested Finance - Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "HackerEarth",
@@ -2016,6 +2076,42 @@
 "resume": ""
 },
 {
+"co": "Cursor",
+"role": "Forward Deployed Engineer - India",
+"loc": "Bengaluru",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-10-11",
+"url": "https://jobs.ashbyhq.com/cursor/166c3951-1d2a-4e61-b79b-bedefe96073b",
+"resume": ""
+},
+{
+"co": "PostHog",
+"role": "Product Engineer",
+"loc": "Remote",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-10-11",
+"url": "https://jobs.ashbyhq.com/posthog/20ab9628-20ff-4ae3-bd6a-46ae7e9dc6b8",
+"resume": ""
+},
+{
+"co": "Worldline",
+"role": "Back-End Developer - Professional",
+"loc": "Pune",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-10-11",
+"url": "https://jobs.worldline.com/job/Back-End-Developer-Professional/304821-en_US?source=jobfound.org",
+"resume": ""
+},
+{
 "co": "First American India Pvt Ltd",
 "role": "Software Engineer II- Middleware",
 "loc": "Bengaluru, Karnataka",
@@ -2314,5 +2410,53 @@
 "date": "2026-10-10",
 "url": "https://evolve.keka.com/careers/applyjob/91601",
 "resume": "output/Zenskar - SDE-1/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Brillio",
+"role": "Software Development Engineer - R01571170",
+"loc": "Bangalore, Karnataka, India",
+"via": "Lever",
+"found": "ATS board scan",
+"comp": "18-20 LPA (expected)",
+"status": "Blocked",
+"date": "2026-10-11",
+"url": "https://jobs.lever.co/brillio-2/ae3f6073-5741-42af-8b8c-1b2779bb4a8c/apply",
+"resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Brillio - Software Development Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Crunchyroll",
+"role": "Software Engineer",
+"loc": "Hyderabad, Telangana, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "",
+"status": "Blocked",
+"date": "2026-10-11",
+"url": "https://job-boards.greenhouse.io/crunchyroll/jobs/6696781?gh_jid=6696781",
+"resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Crunchyroll - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "JAGGAER",
+"role": "Associate Developer, Agentic AI",
+"loc": "Hyderabad, India",
+"via": "iCIMS ATS",
+"found": "iCIMS ATS",
+"comp": "Not listed (~18-25 LPA)",
+"status": "Blocked",
+"date": "2026-10-11",
+"url": "https://incareers-jaggaer.icims.com/jobs/4197/associate-developer%2C-agentic-ai/job",
+"resume": "output/JAGGAER - Associate Developer, Agentic AI/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Smallest.ai",
+"role": "DevOps Engineer",
+"loc": "Bengaluru",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "18-20 LPA",
+"status": "Blocked",
+"date": "2026-10-11",
+"url": "https://jobs.ashbyhq.com/smallest/1486f970-0cd9-4470-8781-4118f5b81e1e",
+"resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Smallest.ai - DevOps Engineer/Pratham_Modi_Resume.pdf"
 }
 ]
