@@ -49,6 +49,7 @@
 - **Address:** D-203, Ratan Planet, Near IIT Kanpur, Kanpur, 208016
 - **Gender / Age:** Male / 23
 - **Citizenship:** Indian
+- **Immigration / Sponsorship:** Does not need any sponsorship for immigration / work authorization (authorized to work, no sponsorship required now or in the future)
 - **Background-check consent:** Yes
 - **Email signature for outreach:** Best, / Pratham Modi / prathammodi001@gmail.com
 

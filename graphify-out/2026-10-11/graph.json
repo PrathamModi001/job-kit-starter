@@ -5624,6 +5624,50 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_send_40_batch_1",
+      "label": "send_40_batch_1.js",
+      "_origin": "ast",
+      "community": 236,
+      "community_name": "send_40_batch_1.js",
+      "file_type": "code",
+      "norm_label": "send_40_batch_1.js",
+      "source_file": "scratch/send_40_batch_1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_40_batch_2",
+      "label": "send_40_batch_2.js",
+      "_origin": "ast",
+      "community": 237,
+      "community_name": "send_40_batch_2.js",
+      "file_type": "code",
+      "norm_label": "send_40_batch_2.js",
+      "source_file": "scratch/send_40_batch_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_40_batch_3",
+      "label": "send_40_batch_3.js",
+      "_origin": "ast",
+      "community": 238,
+      "community_name": "send_40_batch_3.js",
+      "file_type": "code",
+      "norm_label": "send_40_batch_3.js",
+      "source_file": "scratch/send_40_batch_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_40_batch_4",
+      "label": "send_40_batch_4.js",
+      "_origin": "ast",
+      "community": 239,
+      "community_name": "send_40_batch_4.js",
+      "file_type": "code",
+      "norm_label": "send_40_batch_4.js",
+      "source_file": "scratch/send_40_batch_4.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_resume_builder_examples_bundles_example_bundle",
       "label": "example_bundle.md",
       "_origin": "ast",
@@ -5706,6 +5750,61 @@
       "norm_label": "s5: cover letter guide",
       "source_file": "job-kit-starter/resume_builder/examples/bundles/example_bundle.md",
       "source_location": "L91"
+    },
+    {
+      "id": "scratch_send_40_batch_5",
+      "label": "send_40_batch_5.js",
+      "_origin": "ast",
+      "community": 240,
+      "community_name": "send_40_batch_5.js",
+      "file_type": "code",
+      "norm_label": "send_40_batch_5.js",
+      "source_file": "scratch/send_40_batch_5.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_40_batch_6",
+      "label": "send_40_batch_6.js",
+      "_origin": "ast",
+      "community": 241,
+      "community_name": "send_40_batch_6.js",
+      "file_type": "code",
+      "norm_label": "send_40_batch_6.js",
+      "source_file": "scratch/send_40_batch_6.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_40_batch_7",
+      "label": "send_40_batch_7.js",
+      "_origin": "ast",
+      "community": 242,
+      "community_name": "send_40_batch_7.js",
+      "file_type": "code",
+      "norm_label": "send_40_batch_7.js",
+      "source_file": "scratch/send_40_batch_7.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_40_batch_8",
+      "label": "send_40_batch_8.js",
+      "_origin": "ast",
+      "community": 243,
+      "community_name": "send_40_batch_8.js",
+      "file_type": "code",
+      "norm_label": "send_40_batch_8.js",
+      "source_file": "scratch/send_40_batch_8.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_stage_40_fresh_outreach",
+      "label": "stage_40_fresh_outreach.py",
+      "_origin": "ast",
+      "community": 244,
+      "community_name": "stage_40_fresh_outreach.py",
+      "file_type": "code",
+      "norm_label": "stage_40_fresh_outreach.py",
+      "source_file": "scratch/stage_40_fresh_outreach.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring",

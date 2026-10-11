@@ -21,6 +21,7 @@ Canonical source: `job-kit-starter/CLAUDE.md` → "Candidate bar" (under "Job-Se
 - **Email:** prathammodi001@gmail.com | **Phone:** +91-9033393729
 - **Address:** D-203, Ratan Planet, Near IIT Kanpur, Kanpur, 208016
 - **Citizenship:** India (Indian passport, no sponsorship required in India)
+- **Immigration / Sponsorship:** Does not need any sponsorship for immigration / work authorization (authorized to work, no sponsorship required now or in the future)
 - **Notice Period:** Immediate
 - **Current CTC:** 12 LPA | **Expected CTC:** 18–20 LPA or higher; **minimum 18 LPA** (never quote below 18)
 - **DOB:** 23/01/2003 | **Gender:** Male

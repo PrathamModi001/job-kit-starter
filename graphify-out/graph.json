@@ -40,7 +40,7 @@
       "file_type": "code",
       "norm_label": "handler",
       "source_file": "scratch/serve_resume.py",
-      "source_location": "L8"
+      "source_location": "L9"
     },
     {
       "id": "job_kit_starter_tracker_src_app_app",
@@ -712,7 +712,7 @@
       "file_type": "code",
       "norm_label": ".do_get()",
       "source_file": "scratch/serve_resume.py",
-      "source_location": "L9"
+      "source_location": "L10"
     },
     {
       "id": "scratch_serve_resume_handler_do_options",
@@ -4236,17 +4236,6 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_append_today_outreach",
-      "label": "append_today_outreach.py",
-      "_origin": "ast",
-      "community": 188,
-      "community_name": "append_today_outreach.py",
-      "file_type": "code",
-      "norm_label": "append_today_outreach.py",
-      "source_file": "scratch/append_today_outreach.py",
-      "source_location": "L1"
-    },
-    {
       "id": "scratch_test_country",
       "label": "test_country.py",
       "_origin": "ast",
@@ -5340,116 +5329,6 @@
       "source_location": "L64"
     },
     {
-      "id": "scratch_inject_b64",
-      "label": "inject_b64.js",
-      "_origin": "ast",
-      "community": 220,
-      "community_name": "inject_b64.js",
-      "file_type": "code",
-      "norm_label": "inject_b64.js",
-      "source_file": "scratch/inject_b64.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_lean_send_batch_1",
-      "label": "lean_send_batch_1.js",
-      "_origin": "ast",
-      "community": 221,
-      "community_name": "lean_send_batch_1.js",
-      "file_type": "code",
-      "norm_label": "lean_send_batch_1.js",
-      "source_file": "scratch/lean_send_batch_1.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_lean_send_batch_2",
-      "label": "lean_send_batch_2.js",
-      "_origin": "ast",
-      "community": 222,
-      "community_name": "lean_send_batch_2.js",
-      "file_type": "code",
-      "norm_label": "lean_send_batch_2.js",
-      "source_file": "scratch/lean_send_batch_2.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_lean_send_batch_3",
-      "label": "lean_send_batch_3.js",
-      "_origin": "ast",
-      "community": 223,
-      "community_name": "lean_send_batch_3.js",
-      "file_type": "code",
-      "norm_label": "lean_send_batch_3.js",
-      "source_file": "scratch/lean_send_batch_3.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_lean_send_batch_4",
-      "label": "lean_send_batch_4.js",
-      "_origin": "ast",
-      "community": 224,
-      "community_name": "lean_send_batch_4.js",
-      "file_type": "code",
-      "norm_label": "lean_send_batch_4.js",
-      "source_file": "scratch/lean_send_batch_4.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_lean_send_batch_5",
-      "label": "lean_send_batch_5.js",
-      "_origin": "ast",
-      "community": 225,
-      "community_name": "lean_send_batch_5.js",
-      "file_type": "code",
-      "norm_label": "lean_send_batch_5.js",
-      "source_file": "scratch/lean_send_batch_5.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_today_send_batch_1",
-      "label": "today_send_batch_1.js",
-      "_origin": "ast",
-      "community": 226,
-      "community_name": "today_send_batch_1.js",
-      "file_type": "code",
-      "norm_label": "today_send_batch_1.js",
-      "source_file": "scratch/today_send_batch_1.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_today_send_batch_2",
-      "label": "today_send_batch_2.js",
-      "_origin": "ast",
-      "community": 227,
-      "community_name": "today_send_batch_2.js",
-      "file_type": "code",
-      "norm_label": "today_send_batch_2.js",
-      "source_file": "scratch/today_send_batch_2.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_today_send_batch_3",
-      "label": "today_send_batch_3.js",
-      "_origin": "ast",
-      "community": 228,
-      "community_name": "today_send_batch_3.js",
-      "file_type": "code",
-      "norm_label": "today_send_batch_3.js",
-      "source_file": "scratch/today_send_batch_3.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_today_send_batch_4",
-      "label": "today_send_batch_4.js",
-      "_origin": "ast",
-      "community": 229,
-      "community_name": "today_send_batch_4.js",
-      "file_type": "code",
-      "norm_label": "today_send_batch_4.js",
-      "source_file": "scratch/today_send_batch_4.js",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_config",
       "label": "config.md",
       "_origin": "ast",
@@ -5495,7 +5374,7 @@
       "node_kind": "heading",
       "norm_label": "document preferences",
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L57"
+      "source_location": "L58"
     },
     {
       "id": "job_kit_starter_config_personal_info",
@@ -5531,7 +5410,7 @@
       "node_kind": "heading",
       "norm_label": "provenance flags",
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L86"
+      "source_location": "L87"
     },
     {
       "id": "job_kit_starter_config_role_types_bundle_mapping",
@@ -5543,7 +5422,7 @@
       "node_kind": "heading",
       "norm_label": "role types \u2192 bundle mapping",
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L70"
+      "source_location": "L71"
     },
     {
       "id": "job_kit_starter_config_target_roles_preferences",
@@ -5556,17 +5435,6 @@
       "norm_label": "target roles & preferences",
       "source_file": "job-kit-starter/config.md",
       "source_location": "L36"
-    },
-    {
-      "id": "scratch_today_send_batch_5",
-      "label": "today_send_batch_5.js",
-      "_origin": "ast",
-      "community": 230,
-      "community_name": "today_send_batch_5.js",
-      "file_type": "code",
-      "norm_label": "today_send_batch_5.js",
-      "source_file": "scratch/today_send_batch_5.js",
-      "source_location": "L1"
     },
     {
       "id": "scratch_send_batch_0",
@@ -5621,50 +5489,6 @@
       "file_type": "code",
       "norm_label": "update_outreach_status.py",
       "source_file": "scratch/update_outreach_status.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_send_40_batch_1",
-      "label": "send_40_batch_1.js",
-      "_origin": "ast",
-      "community": 236,
-      "community_name": "send_40_batch_1.js",
-      "file_type": "code",
-      "norm_label": "send_40_batch_1.js",
-      "source_file": "scratch/send_40_batch_1.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_send_40_batch_2",
-      "label": "send_40_batch_2.js",
-      "_origin": "ast",
-      "community": 237,
-      "community_name": "send_40_batch_2.js",
-      "file_type": "code",
-      "norm_label": "send_40_batch_2.js",
-      "source_file": "scratch/send_40_batch_2.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_send_40_batch_3",
-      "label": "send_40_batch_3.js",
-      "_origin": "ast",
-      "community": 238,
-      "community_name": "send_40_batch_3.js",
-      "file_type": "code",
-      "norm_label": "send_40_batch_3.js",
-      "source_file": "scratch/send_40_batch_3.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_send_40_batch_4",
-      "label": "send_40_batch_4.js",
-      "_origin": "ast",
-      "community": 239,
-      "community_name": "send_40_batch_4.js",
-      "file_type": "code",
-      "norm_label": "send_40_batch_4.js",
-      "source_file": "scratch/send_40_batch_4.js",
       "source_location": "L1"
     },
     {
@@ -5750,61 +5574,6 @@
       "norm_label": "s5: cover letter guide",
       "source_file": "job-kit-starter/resume_builder/examples/bundles/example_bundle.md",
       "source_location": "L91"
-    },
-    {
-      "id": "scratch_send_40_batch_5",
-      "label": "send_40_batch_5.js",
-      "_origin": "ast",
-      "community": 240,
-      "community_name": "send_40_batch_5.js",
-      "file_type": "code",
-      "norm_label": "send_40_batch_5.js",
-      "source_file": "scratch/send_40_batch_5.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_send_40_batch_6",
-      "label": "send_40_batch_6.js",
-      "_origin": "ast",
-      "community": 241,
-      "community_name": "send_40_batch_6.js",
-      "file_type": "code",
-      "norm_label": "send_40_batch_6.js",
-      "source_file": "scratch/send_40_batch_6.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_send_40_batch_7",
-      "label": "send_40_batch_7.js",
-      "_origin": "ast",
-      "community": 242,
-      "community_name": "send_40_batch_7.js",
-      "file_type": "code",
-      "norm_label": "send_40_batch_7.js",
-      "source_file": "scratch/send_40_batch_7.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_send_40_batch_8",
-      "label": "send_40_batch_8.js",
-      "_origin": "ast",
-      "community": 243,
-      "community_name": "send_40_batch_8.js",
-      "file_type": "code",
-      "norm_label": "send_40_batch_8.js",
-      "source_file": "scratch/send_40_batch_8.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_stage_40_fresh_outreach",
-      "label": "stage_40_fresh_outreach.py",
-      "_origin": "ast",
-      "community": 244,
-      "community_name": "stage_40_fresh_outreach.py",
-      "file_type": "code",
-      "norm_label": "stage_40_fresh_outreach.py",
-      "source_file": "scratch/stage_40_fresh_outreach.py",
-      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring",
@@ -7038,7 +6807,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83c\udf10 approved sources (strict allowlist \u2014 this is the complete list)",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L32"
+      "source_location": "L33"
     },
     {
       "id": "agents_rules_job_hunt_profile_authentication_session_persistence_rule",
@@ -7050,7 +6819,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd10 authentication & session persistence rule",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L80"
+      "source_location": "L81"
     },
     {
       "id": "agents_rules_job_hunt_profile_blocker_handling_fully_autonomous_no_user_check_ins_mid_run",
@@ -7062,7 +6831,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udea7 blocker handling (fully autonomous \u2014 no user check-ins mid-run)",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L74"
+      "source_location": "L75"
     },
     {
       "id": "agents_rules_job_hunt_profile_candidate_bar_pratham_modi",
@@ -7086,7 +6855,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udce7 cold outreach operations",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L64"
+      "source_location": "L65"
     },
     {
       "id": "agents_rules_job_hunt_profile_daily_scan_operations",
@@ -7098,7 +6867,7 @@
       "node_kind": "heading",
       "norm_label": "\u26a1 daily scan operations",
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L39"
+      "source_location": "L40"
     },
     {
       "id": "agents_rules_job_hunt_profile_job_hunt_profile_operations_rule",
@@ -10104,7 +9873,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L32",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -10115,7 +9884,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L39",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -10137,7 +9906,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L64",
+      "source_location": "L65",
       "weight": 1.0
     },
     {
@@ -10148,7 +9917,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L74",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -10159,7 +9928,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".agents/rules/job_hunt_profile.md",
-      "source_location": "L80",
+      "source_location": "L81",
       "weight": 1.0
     },
     {
@@ -11380,7 +11149,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L57",
+      "source_location": "L58",
       "weight": 1.0
     },
     {
@@ -11402,7 +11171,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L70",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -11413,7 +11182,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/config.md",
-      "source_location": "L86",
+      "source_location": "L87",
       "weight": 1.0
     },
     {
@@ -15373,7 +15142,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scratch/serve_resume.py",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -15450,7 +15219,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scratch/serve_resume.py",
-      "source_location": "L8",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -15609,6 +15378,17 @@
     },
     {
       "source": "scratch_serve_resume_handler",
+      "target": "scratch_serve_resume_handler_do_get",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/serve_resume.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_serve_resume_handler",
       "target": "scratch_serve_resume_handler_do_options",
       "relation": "method",
       "_origin": "ast",
@@ -15616,17 +15396,6 @@
       "confidence_score": 1.0,
       "source_file": "scratch/serve_resume.py",
       "source_location": "L18",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_serve_resume_handler",
-      "target": "scratch_serve_resume_handler_do_get",
-      "relation": "method",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/serve_resume.py",
-      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -15913,5 +15682,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6b036fc7f956a03eff3128e91ef56c1c2f51e0b5"
+  "built_at_commit": "8e27ac37755bd5dc45cedbe4d1553c807b4dc515"
 }

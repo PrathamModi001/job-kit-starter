@@ -234,5 +234,14 @@
   "232": "send_batch_1.js",
   "233": "send_batch_2.js",
   "234": "send_batch_3.js",
-  "235": "update_outreach_status.py"
+  "235": "update_outreach_status.py",
+  "236": "send_40_batch_1.js",
+  "237": "send_40_batch_2.js",
+  "238": "send_40_batch_3.js",
+  "239": "send_40_batch_4.js",
+  "240": "send_40_batch_5.js",
+  "241": "send_40_batch_6.js",
+  "242": "send_40_batch_7.js",
+  "243": "send_40_batch_8.js",
+  "244": "stage_40_fresh_outreach.py"
 }
