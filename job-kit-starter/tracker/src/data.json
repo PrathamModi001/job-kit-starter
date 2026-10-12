@@ -1524,6 +1524,18 @@
 "resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Vested Finance - Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Commure",
+"role": "Software Engineer (India)",
+"loc": "Bengaluru, India",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "Not listed (~18-25 LPA)",
+"status": "Applied",
+"date": "2026-10-12",
+"url": "https://jobs.ashbyhq.com/commure/b7f99d0b-e511-41ba-a585-ce636f454e99/application",
+"resume": "output/Commure - Software Engineer (India)/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -2494,6 +2506,30 @@
 "date": "2026-10-12",
 "url": "https://procedure.keka.com/careers/applyjob/126014",
 "resume": "output/Procedure Tech - Full Stack Engineer (AI-Native)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "ReliaQuest",
+"role": "Associate Software Engineer",
+"loc": "Pune, India",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "Not listed (~18-25 LPA)",
+"status": "Blocked",
+"date": "2026-10-12",
+"url": "https://reliaquest.wd5.myworkdayjobs.com/ReliaQuest_Careers/job/Pune-India-Office/Associate-Software-Engineer_R15032?source=jobfound.org",
+"resume": "output/ReliaQuest - Associate Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Rippling",
+"role": "Software Engineer I - Backend Leaning FullStack",
+"loc": "Bengaluru, India",
+"via": "ATS",
+"found": "ATS",
+"comp": "",
+"status": "Blocked",
+"date": "2026-10-12",
+"url": "https://ats.rippling.com/en-GB/rippling/jobs/acf82f7d-5595-47c4-8e08-45c9d9a93529?source=jobfound.org",
+"resume": "output/Rippling - Software Engineer I/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "timepay.ai",

@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-12)
 
 ## Corpus Check
-- 254 files · ~147,323 words
+- 263 files · ~154,045 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 778 nodes · 603 edges · 234 communities (42 shown, 13 thin omitted)
+- 791 nodes · 622 edges · 231 communities (43 shown, 14 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5b0089bd`
+- Built from commit: `fe1059bc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -57,6 +57,8 @@
 - daily_scan.md
 - fill_dpdzero_eval.js
 - test_dpdzero_upload.js
+- gates.py
+- OutreachHandler
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
 - Bundle: Backend / Node.js / Distributed Systems Lane
 - Bundle: Full-Stack Lane
@@ -96,7 +98,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (234 total, 13 thin omitted)
+## Communities (231 total, 14 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -131,8 +133,8 @@ Cohesion: 0.12
 Nodes (16): Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2), CHAR COUNT GATE (per position), COMPILE GATE, End of /make-resume, /make-resume, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<< (+8 more)
 
 ### Community 9 - "job_hunt.py"
-Cohesion: 0.09
-Nodes (33): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html() (+25 more)
+Cohesion: 0.15
+Nodes (25): Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, title_skip(), yoe_check(), fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn() (+17 more)
 
 ### Community 10 - "Tier B cold email — slot template (volume lane)"
 Cohesion: 0.20
@@ -226,6 +228,10 @@ Nodes (4): 🔐 Authentication & 🎯 Candidate Bar — canonical source, 📄 C
 Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
+### Community 46 - "gates.py"
+Cohesion: 0.09
+Nodes (8): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html(), vocab()
+
 ### Community 52 - "Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)"
 Cohesion: 0.22
 Nodes (8): 1. Tagline Formula, 2. Summary (copy-exact, minor trims only), 3. Experience Priority Matrix, 4. Skills Group Order, Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane), C3iHub, IIT Kanpur (pick 4 of 6), Playpower Labs (all 4 — this is the AI-heaviest position), Projects (pick 2 of 3)
@@ -268,12 +274,16 @@ Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode
 
 ## Knowledge Gaps
 - **340 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+335 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 611 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 620 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `yoe_check()` connect `job_hunt.py` to `gates.py`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `title_skip()` connect `job_hunt.py` to `gates.py`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
   _340 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
@@ -284,7 +294,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Resume & CV Generation — Reference` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
-- **Should `Documentation` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
-- **Should `Achievements` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
