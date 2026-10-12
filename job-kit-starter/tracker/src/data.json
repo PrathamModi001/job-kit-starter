@@ -2458,5 +2458,53 @@
 "date": "2026-10-11",
 "url": "https://jobs.ashbyhq.com/smallest/1486f970-0cd9-4470-8781-4118f5b81e1e",
 "resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Smallest.ai - DevOps Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Decentro",
+"role": "SDE",
+"loc": "Bengaluru",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive",
+"status": "Blocked",
+"date": "2026-10-12",
+"url": "https://wellfound.com/jobs/936512-sde",
+"resume": "output/Decentro - SDE/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Fibr AI",
+"role": "Product Engineer",
+"loc": "Bengaluru",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹15L–₹25L",
+"status": "Blocked",
+"date": "2026-10-12",
+"url": "https://wellfound.com/jobs/4348073-product-engineer",
+"resume": "output/Fibr AI - Product Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Procedure Tech",
+"role": "Full Stack Engineer (AI-Native)",
+"loc": "Mumbai/Remote India",
+"via": "Keka",
+"found": "Keka",
+"comp": "Competitive",
+"status": "Blocked",
+"date": "2026-10-12",
+"url": "https://procedure.keka.com/careers/applyjob/126014",
+"resume": "output/Procedure Tech - Full Stack Engineer (AI-Native)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "timepay.ai",
+"role": "Voice AI Engineer",
+"loc": "Bengaluru/Mumbai/Remote India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹20L–₹25L",
+"status": "Blocked",
+"date": "2026-10-12",
+"url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
+"resume": "output/timepay.ai - Voice AI Engineer/Pratham_Modi_Resume.pdf"
 }
 ]
