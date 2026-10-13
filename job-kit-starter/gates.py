@@ -9,6 +9,7 @@
   python gates.py clean <raw_fetch.html>       -> strips tags/boilerplate, prints clean text (pipe into jd.txt; never save raw HTML)
 """
 import html, json, re, sys
+sys.stdout.reconfigure(encoding="utf-8")
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent

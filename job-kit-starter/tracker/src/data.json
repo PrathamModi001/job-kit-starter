@@ -1536,6 +1536,18 @@
 "resume": "output/Commure - Software Engineer (India)/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Runtime",
+"role": "Forward Deployed AI Engineer",
+"loc": "San Francisco, CA, US / Remote",
+"via": "WorkAtAStartup",
+"found": "WorkAtAStartup",
+"comp": " - ",
+"status": "Applied",
+"date": "2026-10-13",
+"url": "https://www.workatastartup.com/jobs/114062",
+"resume": "output/Runtime - Forward Deployed AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -2542,5 +2554,41 @@
 "date": "2026-10-12",
 "url": "https://wellfound.com/jobs/4824688-voice-ai-engineer",
 "resume": "output/timepay.ai - Voice AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Hotelzify",
+"role": "Founding Engineer, US Business",
+"loc": "Bengaluru",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "40L - 60L",
+"status": "Blocked",
+"date": "2026-10-13",
+"url": "https://wellfound.com/jobs/4823741-founding-engineer-us-business",
+"resume": "output/Hotelzify - Founding Engineer, US Business/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "India Tech Engine",
+"role": "Full Stack Developer (React.js + Node.js)",
+"loc": "Mumbai/Thane/Remote India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "$25k–$35k",
+"status": "Blocked",
+"date": "2026-10-13",
+"url": "https://wellfound.com/jobs/1092868-mern-full-stack-developer",
+"resume": "output/India Tech Engine - Full Stack Developer (React.js + Node.js)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "SigNoz",
+"role": "Exceptional Engineer",
+"loc": "Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not disclosed",
+"status": "Blocked",
+"date": "2026-10-13",
+"url": "https://jobs.ashbyhq.com/signoz/3b07b93a-aa97-4a4e-8b12-7c9c3273cf8c/application",
+"resume": "output/SigNoz - Exceptional Engineer/Pratham_Modi_Resume.pdf"
 }
 ]
