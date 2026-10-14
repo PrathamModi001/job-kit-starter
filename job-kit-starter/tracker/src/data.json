@@ -1536,6 +1536,18 @@
 "resume": "output/Commure - Software Engineer (India)/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "India Tech Engine",
+"role": "Full Stack Developer (React.js + Node.js)",
+"loc": "Mumbai/Thane/Remote India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "$25k–$35k",
+"status": "Applied",
+"date": "2026-10-13",
+"url": "https://wellfound.com/jobs/1092868-mern-full-stack-developer",
+"resume": "output/India Tech Engine - Full Stack Developer (React.js + Node.js)/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Runtime",
 "role": "Forward Deployed AI Engineer",
 "loc": "San Francisco, CA, US / Remote",
@@ -2566,18 +2578,6 @@
 "date": "2026-10-13",
 "url": "https://wellfound.com/jobs/4823741-founding-engineer-us-business",
 "resume": "output/Hotelzify - Founding Engineer, US Business/Pratham_Modi_Resume.pdf"
-},
-{
-"co": "India Tech Engine",
-"role": "Full Stack Developer (React.js + Node.js)",
-"loc": "Mumbai/Thane/Remote India",
-"via": "Wellfound",
-"found": "Wellfound",
-"comp": "$25k–$35k",
-"status": "Blocked",
-"date": "2026-10-13",
-"url": "https://wellfound.com/jobs/1092868-mern-full-stack-developer",
-"resume": "output/India Tech Engine - Full Stack Developer (React.js + Node.js)/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "SigNoz",
