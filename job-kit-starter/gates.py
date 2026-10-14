@@ -238,7 +238,7 @@ if __name__ == "__main__":
         r, why = location_check(loc, Path(jdp).read_text(encoding="utf-8") if jdp else ""); print(r.upper(), why); sys.exit(1 if r == "skip" else 0)
     if cmd == "fit":
         sc, parts = fit_score(sys.argv[2], Path(sys.argv[4]).read_text(encoding="utf-8"), sys.argv[3])
-        print(f"FIT {sc}/15 (min {MIN_FIT}) {parts}"); sys.exit(1 if sc < MIN_FIT else 0)
+        print(f"FIT {sc}/15 (min {MIN_FIT}) {parts}"); sys.exit(1 if (sc < MIN_FIT or parts["lane"] < 3) else 0)
     if cmd == "dedup":
         st = dedup(arg); print(f"DUPLICATE ({st})" if st else "NEW"); sys.exit(1 if st else 0)
     if cmd == "preflight":
@@ -246,7 +246,7 @@ if __name__ == "__main__":
         t = title_skip(title); l, lw = location_check(loc, jd); y, ye = yoe_check(jd)
         print(f"title: {'SKIP (' + t + ')' if t else 'CLEAR'} | location: {l.upper()} {lw} | yoe: {y.upper()} {ye}")
         sc, parts = fit_score(title, jd, loc)
-        print(f"fit: {sc}/15 (min {MIN_FIT}) {parts}")
+        print(f"fit: {sc}/15 (min {MIN_FIT}) {parts}" + ("  OFF-LANE: title is not backend/full-stack/software engineer/developer/platform" if parts["lane"] < 3 else ""))
         (Path(sys.argv[4]).parent / "fit.json").write_text(json.dumps({"title": title, "location": loc, "fit": sc, **parts}), encoding="utf-8")
         print("flags:", sorted({m.group(0).lower() for m in JD_FLAG.finditer(strip_html(jd))}) or "none")
-        sys.exit(1 if (t or l == "skip" or y == "skip" or sc < MIN_FIT) else 0)
+        sys.exit(1 if (t or l == "skip" or y == "skip" or sc < MIN_FIT or parts["lane"] < 3) else 0)

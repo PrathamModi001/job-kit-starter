@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """
 India-aggregator job scan (complements job_hunt.py, which only hits company ATS boards).
-Scrapes Indeed-India via JobSpy, scores by your stack, dedupes against
-already-applied companies (applications.csv) and prior runs (seen_india.json), writes a digest.
+Scrapes Indeed-India as DISCOVERY ONLY: scores by
+your stack, applies the gates.py title/location/fit/dedup gates, then resolves each survivor to its company's
+real ATS posting (Greenhouse/Lever/Ashby public APIs). Never Easy Apply / Smart Apply; unresolved = "manual".
+Writes output/job-search/digest_india.md.
 
 Naukri / Glassdoor / Google block scrapers from this environment, so they're skipped.
-LinkedIn is excluded by request — do not re-add it as a source.
 """
-import json, os, re, warnings, sys
+import difflib, json, os, re, urllib.request, warnings, sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import pandas as pd
 from jobspy import scrape_jobs
@@ -33,6 +35,25 @@ QUERIES = [
     ("indeed",   "software engineer backend",     False, "India"),
     ("indeed",   "backend developer",             True,  "India"),   # remote-biased
 ]
+
+APIS = (("https://boards-api.greenhouse.io/v1/boards/{}/jobs", "jobs", "title", "absolute_url"),
+        ("https://api.lever.co/v0/postings/{}?mode=json", None, "text", "hostedUrl"),
+        ("https://api.ashbyhq.com/posting-api/job-board/{}", "jobs", "title", "jobUrl"))
+
+
+def resolve(company, title):
+    """Aggregator lead -> real ATS posting URL via free public board APIs (no key). None = no company ATS found."""
+    base = re.sub(r"(pvt|private|ltd|limited|llp|inc|technologies|technology|solutions|services|infotech|india)|[^a-z0-9 ]", "", str(company).lower())
+    for slug in {base.replace(" ", ""), base.split()[0] if base.split() else ""} - {""}:
+        for url, key, tk, uk in APIS:
+            try:
+                d = json.load(urllib.request.urlopen(urllib.request.Request(url.format(slug), headers={"User-Agent": "Mozilla/5.0"}), timeout=10))
+            except Exception:
+                continue
+            for j in (d[key] if key else d):
+                if difflib.SequenceMatcher(None, j[tk].lower(), str(title).lower()).ratio() >= 0.7:
+                    return j[uk]
+    return None
 
 # --- scoring keywords ---
 POS = {
@@ -70,7 +91,7 @@ NEG = {
 def already_applied_companies():
     names = set()
     try:
-        with open(CSV_PATH) as f:
+        with open(CSV_PATH, encoding="utf-8") as f:
             for line in f.readlines()[1:]:
                 c = line.split(",")[0].strip().lower()
                 if c:
@@ -172,14 +193,27 @@ def main():
 
     df = df[df["_score"] >= 4].sort_values("_score", ascending=False)
 
+    # gates.py: same title/location/lane/fit/dedup rules the apply step enforces, so the digest only
+    # lists leads that would survive preflight. ponytail: fit uses the aggregator description, not the live JD.
+    from gates import MIN_FIT, dedup, fit_score, location_check, title_skip
+    def survives(r):
+        t, loc, d = str(r.get("title", "")), str(r.get("location", "")), str(r.get("description", ""))
+        if title_skip(t) or location_check(loc, d)[0] == "skip" or dedup(str(r.get("company", ""))):
+            return False
+        sc, parts = fit_score(t, d, loc)
+        return sc >= MIN_FIT and parts["lane"] == 3
+    df = df[df.apply(survives, axis=1)].drop_duplicates("company")  # one role per company
+    with ThreadPoolExecutor(8) as ex:
+        df["_ats"] = list(ex.map(lambda r: resolve(r["company"], r["title"]), [r for _, r in df.iterrows()]))
+
     rows_new = df[df["_new"]]
     stamp = datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d %H:%M")
     lines = [f"# India-aggregator digest — {stamp}",
              "",
-             f"Indeed-India · last {HOURS_OLD}h · score >= 4 · "
+             f"Indeed-India (discovery) · gates passed · {df['_ats'].notna().sum()} resolve to a real ATS link · last {HOURS_OLD}h · score >= 4 · "
              f"{len(df)} relevant ({len(rows_new)} new).  _Naukri/Glassdoor/Google block scrapers, skipped._",
              "",
-             "| Score | Role | Company | Location | Remote | Comp | Link | Note |",
+             "| Score | Role | Company | Location | Remote | Comp | Apply (ATS) | Note |",
              "|------:|------|---------|----------|:------:|------|------|------|"]
     for _, r in df.head(45).iterrows():
         note = "🆕 new" if r["_new"] else "seen"
@@ -189,7 +223,9 @@ def main():
         title = str(r.get("title", ""))[:70].replace("|", "/")
         comp_c = str(r.get("company", ""))[:28].replace("|", "/")
         locn = str(r.get("location", ""))[:24].replace("|", "/")
-        url = r.get("job_url", "")
+        url = r["_ats"] if isinstance(r["_ats"], str) else r.get("job_url", "")
+        if not isinstance(r["_ats"], str):
+            note += " · MANUAL (no company ATS found)"
         lines.append(f"| {int(r['_score'])} | {title} | {comp_c} | {locn} | {rem} | "
                      f"{r['_comp']} | [link]({url}) | {note} |")
 
