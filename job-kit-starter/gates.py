@@ -6,11 +6,19 @@
   python gates.py form "<Personal Info Filled string>"   -> flags values that diverge from config.md facts
   python gates.py lint "<Company - Role>"      -> resume claim words must exist in SKILL_PROFILE.md
   python gates.py coverage "<Company - Role>"  -> writes output/<dir>/keyword_table.json (tool-computed JD match rate)
+  python gates.py clean <raw_fetch.html>       -> strips tags/boilerplate, prints clean text (pipe into jd.txt; never save raw HTML)
 """
 import html, json, re, sys
+sys.stdout.reconfigure(encoding="utf-8")
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+
+
+def strip_html(text):
+    """Tags off, entities decoded, whitespace collapsed. Shared by yoe_check/coverage/clean
+    so there's exactly one definition of 'clean JD text' instead of three inline copies."""
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", text or ""))).strip()
 
 # Literal title check (daily_scan.md step 5 b2) + user-added terms (customer/client/mobile/React Native).
 TITLE_SKIP = re.compile(
@@ -28,7 +36,7 @@ def title_skip(title):
 
 def yoe_check(text):
     """Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range with low bound >=3."""
-    t = html.unescape(re.sub(r"<[^>]+>", " ", text))
+    t = strip_html(text)
     for m in re.finditer(r"(\d+)\s*(?:\+|-|–|to)\s*(\d+)?\s*\+?\s*(?:years|yrs)", t, re.I):
         lo, hi = int(m.group(1)), int(m.group(2)) if m.group(2) else None
         ev = m.group(0)
@@ -46,8 +54,21 @@ def facts():
     return {"notice": "immediate", "ctc_min": 18, "city": "kanpur"} if "Notice period:** Immediate" in cfg else {}
 
 
+def personal_info_valid(s):
+    """True only if s is a 'key=value; key=value; ...' audit trail of what was actually
+    entered (CLAUDE.md's contract for this field) -- rejects placeholders like 'Yes' or
+    'Yes (WaaS profile)' that assert a form was filled without logging what was filled."""
+    if re.match(r"(?i)^\s*(yes|no)\b", s.strip()):
+        return False
+    pairs = [p for p in re.split(r";\s*", s.strip()) if ("=" in p or ":" in p)]
+    return len(pairs) >= 3
+
+
 def form_check(s):
     out = []
+    if not personal_info_valid(s):
+        return [f"Personal Info Filled must be a verbatim 'key=value; key=value' audit trail of what was "
+                f"entered, not a placeholder like 'Yes' (got: {s!r})"]
     for k, v in (p.split("=", 1) if "=" in p else p.split(":", 1) for p in re.split(r";\s*", s) if ("=" in p or ":" in p)):
         k, v = k.strip().lower(), v.strip()
         if "notice" in k and not v.lower().startswith("immediate"):
@@ -86,7 +107,7 @@ def vocab():
 
 def coverage(d):
     base = ROOT / "output" / d
-    jd = html.unescape(re.sub(r"<[^>]+>", " ", (base / "jd.txt").read_text(encoding="utf-8"))).lower()
+    jd = strip_html((base / "jd.txt").read_text(encoding="utf-8")).lower()
     tex = (base / "Pratham_Modi_Resume.tex").read_text(encoding="utf-8").lower().replace("\\&", "&")
     in_jd = sorted(t for t in vocab() if re.search(r"(?<![\w])" + re.escape(t) + r"(?![\w])", jd))
     hit = [t for t in in_jd if t in tex]
@@ -99,9 +120,9 @@ def coverage(d):
 
 
 def clean_html(text):
-    t = re.sub(r"<(?:br|p|div|li|tr|h[1-6])[^>]*>", "\n", text, flags=re.I)
+    t = html.unescape(text or "")
+    t = re.sub(r"<(?:br|p|div|li|tr|h[1-6])[^>]*>", "\n", t, flags=re.I)
     t = re.sub(r"<[^>]+>", " ", t)
-    t = html.unescape(t)
     t = re.sub(r"[ \t]+", " ", t)
     t = re.sub(r"\n\s*\n+", "\n\n", t)
     return t.strip()
@@ -110,9 +131,10 @@ def clean_html(text):
 if __name__ == "__main__":
     cmd, arg = sys.argv[1], " ".join(sys.argv[2:])
     if cmd == "clean":
-        p = Path(arg)
-        raw = p.read_text(encoding="utf-8", errors="replace") if p.exists() else arg
+        p = Path(arg) if arg else None
+        raw = p.read_text(encoding="utf-8", errors="replace") if (p and p.exists()) else (arg or sys.stdin.read())
         print(clean_html(raw))
+        sys.exit(0)
     if cmd == "title":
         m = title_skip(arg); print(f"SKIP ({m})" if m else "CLEAR"); sys.exit(1 if m else 0)
     if cmd == "yoe":
@@ -123,3 +145,4 @@ if __name__ == "__main__":
         bad = lint(arg); print("UNSUPPORTED CLAIM WORDS:", bad if bad else "none"); sys.exit(1 if bad else 0)
     if cmd == "coverage":
         print(json.dumps(coverage(arg), indent=1))
+        sys.exit(0)

@@ -180,7 +180,7 @@ Per user request, the ≤7-day recency cap was removed from both scripted scan t
 - Present results **triaged against the bar**, not raw dumps. Flag dupes-already-in-pipeline honestly.
 
 ### Application flow (per lead)
-1. Fetch the JD (WebFetch; if 403 use the ATS API: `api.ashbyhq.com/posting-api/job-board/<co>`, `api.lever.co/v0/postings/<co>`, HN Algolia `hn.algolia.com/api/v1/items/<id>`).
+1. Fetch the JD (WebFetch; if 403 use the ATS API: `api.ashbyhq.com/posting-api/job-board/<co>`, `api.lever.co/v0/postings/<co>`, HN Algolia `hn.algolia.com/api/v1/items/<id>`). **If the fetch returns raw HTML, pipe it through `python gates.py clean <file>` and save that output as `jd.txt` — never save the raw page source.** Raw HTML pollutes the `yoe`/`coverage` gates with unrelated "related jobs" sidebar text and inflates file size without adding signal.
 2. Assess against the bar; give an honest verdict (BULLSEYE / worth-it / reach / skip + why).
 3. Create `output/<Company> - <Role>/` with a tailored, correctly-named resume PDF (and intro note if emailing).
 4. Fill web forms via Playwright. **STOP before Submit unless this recipient was explicitly approved — see top rule.**
