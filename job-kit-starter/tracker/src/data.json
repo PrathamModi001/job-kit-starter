@@ -1560,6 +1560,78 @@
 "resume": "output/Runtime - Forward Deployed AI Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Alaan",
+"role": "AI Engineer",
+"loc": "Bengaluru, India",
+"via": "Rippling ATS",
+"found": "Rippling ATS",
+"comp": "",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://ats.rippling.com/en-GB/alaan-careers/jobs/187d971b-6e4d-4cf7-bc10-e2be2dc2f917?source=jobfound.org",
+"resume": "output/Alaan - AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "ChainSecurity",
+"role": "Blockchain Security Engineer",
+"loc": "Remote / Zurich, Switzerland",
+"via": "Hacker News",
+"found": "Hacker News",
+"comp": "Graduate to Senior (Competitive pay + profit sharing)",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://www.chainsecurity.com/jobs/blockchain-security-engineer/",
+"resume": "output/ChainSecurity - Blockchain Security Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "IDFC FIRST Bank",
+"role": "Backend Engineer - AI Labs",
+"loc": "Bengaluru",
+"via": "jobfound.org",
+"found": "jobfound.org",
+"comp": "",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://careers.idfcfirst.bank.in/in/en/job/IFBAINP224954ENIN/Backend-Engineer-AI-Labs?source=jobfound.org",
+"resume": ""
+},
+{
+"co": "Matcha.fm",
+"role": "Founding Software Engineer",
+"loc": "Worldwide Remote",
+"via": "Hacker News",
+"found": "Hacker News",
+"comp": " to  per year + equity",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://matcha.fm/apply/fse",
+"resume": "output/Matcha.fm - Founding Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Trackerbot",
+"role": "Full-Stack Developer (Node.js)",
+"loc": "Remote (Worldwide)",
+"via": "Hacker News",
+"found": "Hacker News",
+"comp": "€35-45k/year (~-49k USD)",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://news.ycombinator.com/item?id=49926228",
+"resume": "output/Trackerbot - Full-Stack Developer (Node.js)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "vvd",
+"role": "Junior Product Engineer",
+"loc": "Remote (EU/NA timezones)",
+"via": "Hacker News",
+"found": "Hacker News",
+"comp": "Junior Full-time",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://vvd.world/careers/junior-product-engineer",
+"resume": "output/vvd - Junior Product Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -2160,6 +2232,78 @@
 "resume": ""
 },
 {
+"co": "ABB",
+"role": "Software Engineer",
+"loc": "Bangalore, India",
+"via": "jobfound.org",
+"found": "jobfound.org",
+"comp": "",
+"status": "Skipped",
+"date": "2026-10-14",
+"url": "https://careers.abb/global/en/job/ABB1GLOBALJR00049493EXTERNALENGLOBAL/Software-Engineer?source=jobfound.org",
+"resume": ""
+},
+{
+"co": "Aumnics",
+"role": "Trainee programmer",
+"loc": "Hyderabad",
+"via": "Engrip",
+"found": "Engrip",
+"comp": "18k/yr",
+"status": "Skipped",
+"date": "2026-10-14",
+"url": "https://www.engrip.com/jobs/apply/25/Trainee-programmer-at-Aumnics?source=jobfound.org",
+"resume": ""
+},
+{
+"co": "FunnelStory",
+"role": "MTS, Applied ML",
+"loc": "Remote (India)",
+"via": "Hacker News",
+"found": "Hacker News",
+"comp": "",
+"status": "Skipped",
+"date": "2026-10-14",
+"url": "https://news.ycombinator.com/item?id=49969213",
+"resume": ""
+},
+{
+"co": "SingleStore",
+"role": "Software Engineer, AI Platform",
+"loc": "Remote India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "",
+"status": "Skipped",
+"date": "2026-10-14",
+"url": "https://job-boards.greenhouse.io/singlestore/jobs/7573638?gh_src=ipvpz7d61us",
+"resume": ""
+},
+{
+"co": "Tether",
+"role": "AI Harness Engineer",
+"loc": "Worldwide Remote",
+"via": "Hacker News",
+"found": "Hacker News",
+"comp": "",
+"status": "Skipped",
+"date": "2026-10-14",
+"url": "https://careers.tether.io/o/ai-harness-engineer-100-remote-worldwide",
+"resume": ""
+},
+{
+"co": "WEX",
+"role": "Software Development Engineer 1",
+"loc": "Remote, India",
+"via": "jobfound.org",
+"found": "jobfound.org",
+"comp": "",
+"status": "Skipped",
+"date": "2026-10-14",
+"url": "https://careers.wexinc.com/us/en/job/WEXWEXUSR22748EXTERNALENUS/Software-Development-Engineer-1?source=jobfound.org",
+"resume": ""
+},
+{
 "co": "First American India Pvt Ltd",
 "role": "Software Engineer II- Middleware",
 "loc": "Bengaluru, Karnataka",
@@ -2590,5 +2734,17 @@
 "date": "2026-10-13",
 "url": "https://jobs.ashbyhq.com/signoz/3b07b93a-aa97-4a4e-8b12-7c9c3273cf8c/application",
 "resume": "output/SigNoz - Exceptional Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "HP",
+"role": "Software Applications",
+"loc": "Bengaluru, Karnātaka, India",
+"via": "Workday",
+"found": "Workday",
+"comp": "",
+"status": "Blocked",
+"date": "2026-10-14",
+"url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karntaka-India/Software-Applications_3166748-1?source=jobfound.org",
+"resume": "output/HP - Software Applications/Pratham_Modi_Resume.pdf"
 }
 ]
