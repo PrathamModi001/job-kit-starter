@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-14)
 
 ## Corpus Check
-- 266 files · ~155,132 words
+- 282 files · ~171,473 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 807 nodes · 676 edges · 236 communities (44 shown, 13 thin omitted)
+- 835 nodes · 705 edges · 241 communities (45 shown, 15 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `108651e2`
+- Built from commit: `22dccc96`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -69,9 +69,12 @@
 - AI Fingerprint Rules
 - Skills Taxonomy
 - Handler
+- job_hunt.py
+- scan_wide.py
 - PNAHandler
 - batch_draft_runner.js
 - Batch Mode: single-path, ATS-first resume tailoring
+- scan_sources.py
 
 ## God Nodes (most connected - your core abstractions)
 1. `yoe_check()` - 16 edges
@@ -88,19 +91,19 @@
 ## Surprising Connections (you probably didn't know these)
 - `loc_tag()` --calls--> `region()`  [EXTRACTED]
   job-kit-starter/job_hunt.py → job-kit-starter/gates.py
+- `score()` --calls--> `title_skip()`  [EXTRACTED]
+  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
+- `score()` --calls--> `yoe_check()`  [EXTRACTED]
+  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
 - `main()` --calls--> `region()`  [EXTRACTED]
   job-kit-starter/job_hunt.py → job-kit-starter/gates.py
 - `score()` --calls--> `region()`  [EXTRACTED]
-  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
-- `score()` --calls--> `title_skip()`  [EXTRACTED]
-  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
-- `score()` --calls--> `title_skip()`  [EXTRACTED]
   job-kit-starter/job_hunt.py → job-kit-starter/gates.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (236 total, 13 thin omitted)
+## Communities (241 total, 15 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -232,7 +235,7 @@ Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist 
 
 ### Community 46 - "gates.py"
 Cohesion: 0.07
-Nodes (40): clean_html(), coverage(), dedup(), fit_score(), form_check(), location_check(), personal_info_valid(), 0-15 fit: lane (0-3) + profile-stack overlap (0-8) + stated YOE (0-2) +… (+32 more)
+Nodes (17): clean_html(), form_check(), location_check(), personal_info_valid(), Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Tags off, entities decoded, whitespace collapsed. Shared by…, ('ok'|'skip'|'unknown', why). Locked region or a US/UK/EU work-right in the JD…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range… (+9 more)
 
 ### Community 49 - "outreach_targets.py"
 Cohesion: 0.67
@@ -274,18 +277,26 @@ Nodes (4): AI Fingerprint Rules, Banned words / phrases (Tier 1 — hard fail if
 Cohesion: 0.50
 Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
+### Community 76 - "job_hunt.py"
+Cohesion: 0.12
+Nodes (23): coverage(), dedup(), fit_score(), 0-15 fit: lane (0-3) + profile-stack overlap (0-8) + stated YOE (0-2) +…, Row Status of the first existing row for this company…, india | remote | locked | unknown -- used for scoring, the --india filter and…, region(), vocab() (+15 more)
+
 ### Community 145 - "Batch Mode: single-path, ATS-first resume tailoring"
 Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
 ## Knowledge Gaps
 - **341 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+336 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 618 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 632 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `yoe_check()` connect `gates.py` to `job_hunt.py`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `title_skip()` connect `gates.py` to `job_hunt.py`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
   _341 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
@@ -296,7 +307,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Resume & CV Generation — Reference` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
-- **Should `Documentation` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
-- **Should `Achievements` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
