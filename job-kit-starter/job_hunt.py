@@ -347,6 +347,12 @@ def main():
         stats[label] = n
 
     matches.sort(key=lambda m: (m["new"], m["score"]), reverse=True)
+    # one best-fit role per company, and nothing from a company already in applications.csv
+    from gates import dedup
+    best = {}
+    for m in matches:  # already sorted best-first
+        best.setdefault(m["company"].strip().lower(), m)
+    matches = [m for m in matches if best[m["company"].strip().lower()] is m and not dedup(m["company"])]
     shown = matches if show_all else [m for m in matches if m["new"]]
     new_count = sum(1 for m in matches if m["new"])
 

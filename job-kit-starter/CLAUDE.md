@@ -190,7 +190,7 @@ Per user request, the ≤7-day recency cap was removed from both scripted scan t
 Facts live in **`SKILL_PROFILE.md`** and must be **identical across every resume variant**. When a fact changes: grep ALL `.tex` + `SKILL_PROFILE.md` + every intro/email for the stale value; fix the source `.tex`, **recompile**, then **re-copy the PDF into every app folder that uses it**. **Always verify the actual PDF text, not just the `.tex`.**
 
 ### Verification (before telling the user a resume is done)
-Run `python gates.py lint "<Company - Role>"` (resume claim words must exist in `SKILL_PROFILE.md`) and `python gates.py coverage "<Company - Role>"` (writes `keyword_table.json` — the tool-computed JD match rate; review `missing_but_in_profile` and add those skills) before submit. After filling a form, `python gates.py form "<Personal Info Filled string>"` must print OK.
+Run `python gates.py lint "<Company - Role>"` (resume claim words must exist in `SKILL_PROFILE.md`) and `python gates.py coverage "<Company - Role>"` (writes `keyword_table.json` — the tool-computed JD match rate; review `missing_but_in_profile` and add those skills) before submit. After filling a form, `python gates.py form "<Personal Info Filled string>"` must print OK (requires name/email/phone/location/CTC/notice - `x=n/a` if the form lacks it; rejects passwords). Pre-browser: `python gates.py preflight "<title>" "<location>" <jd.txt>` (title + location + YOE + fit score >= `MIN_FIT`, writes `fit.json`) and `python gates.py dedup "<Company>"` (one application per company).
 ```
 tectonic -c minimal <file>.tex
 python3 -c "import pypdf; print(len(pypdf.PdfReader('<file>.pdf').pages))"   # must be 1

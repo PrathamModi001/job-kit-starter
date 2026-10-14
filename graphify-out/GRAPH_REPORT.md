@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-14)
 
 ## Corpus Check
-- 265 files · ~154,064 words
+- 266 files · ~155,132 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 798 nodes · 662 edges · 235 communities (43 shown, 13 thin omitted)
+- 807 nodes · 676 edges · 236 communities (44 shown, 13 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3486a7c7`
+- Built from commit: `108651e2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -58,6 +58,7 @@
 - fill_dpdzero_eval.js
 - test_dpdzero_upload.js
 - gates.py
+- outreach_targets.py
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
 - Bundle: Backend / Node.js / Distributed Systems Lane
 - Bundle: Full-Stack Lane
@@ -99,7 +100,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (235 total, 13 thin omitted)
+## Communities (236 total, 13 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -150,8 +151,8 @@ Cohesion: 0.13
 Nodes (14): Final: Status Report, KB Build Status, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, Phase 1: Build Experience Files, Phase 2: Build Skills Taxonomy, Phase 3: Build Publication Metadata (+6 more)
 
 ### Community 13 - "PLAYBOOK — the full job-search campaign, end to end"
-Cohesion: 0.12
-Nodes (16): After every apply batch, ATS recipes (every quirk here was hit in production), Phase 0 — Setup (first session), Phase 1 — Platform profiles (do these early; they compound), Phase 2 — Daily scan (say "do the daily scan"), Phase 3 — Applying (auto-submit allowed once a lead clears the bar; see CLAUDE.md top rule), Phase 4 — Cold email outreach (startups without open roles), Phase 5 — X/Twitter cold DMs (+8 more)
+Cohesion: 0.11
+Nodes (17): After every apply batch, ATS recipes (every quirk here was hit in production), Indian startups: target engineers/managers, not founders, Phase 0 — Setup (first session), Phase 1 — Platform profiles (do these early; they compound), Phase 2 — Daily scan (say "do the daily scan"), Phase 3 — Applying (auto-submit allowed once a lead clears the bar; see CLAUDE.md top rule), Phase 4 — Cold email outreach (startups without open roles) (+9 more)
 
 ### Community 14 - "Master Profile (SKILL_PROFILE) — Pratham Modi"
 Cohesion: 0.14
@@ -230,8 +231,12 @@ Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
 ### Community 46 - "gates.py"
-Cohesion: 0.08
-Nodes (36): clean_html(), coverage(), form_check(), location_check(), personal_info_valid(), Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Tags off, entities decoded, whitespace collapsed. Shared by…, india | remote | locked | unknown -- used for scoring, the --india filter and… (+28 more)
+Cohesion: 0.07
+Nodes (40): clean_html(), coverage(), dedup(), fit_score(), form_check(), location_check(), personal_info_valid(), 0-15 fit: lane (0-3) + profile-stack overlap (0-8) + stated YOE (0-2) +… (+32 more)
+
+### Community 49 - "outreach_targets.py"
+Cohesion: 0.67
+Nodes (3): authors(), get(), Find engineers (not founders) at a company from PUBLIC GitHub commit-author…
 
 ### Community 52 - "Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)"
 Cohesion: 0.22
@@ -274,15 +279,15 @@ Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
 ## Knowledge Gaps
-- **340 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+335 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 614 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **341 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+336 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 618 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _340 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _341 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**

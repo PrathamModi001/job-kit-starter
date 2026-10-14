@@ -142,6 +142,11 @@ Full template, subject-line rotation, pre-approved metric pool, and deliverabili
 - **Lead sources for volume** (mix daily, don't pull 30 from one channel): `python3 hn_scan.py` now extracts direct emails per on-criteria comment (printed inline — falls back to "use HN profile contact link" if none found in the comment text) · funding-news/YC research (same subagent fan-out as Tier A) · `waas_scan.py` index · founder build-in-public posts.
 - `Tier=B`, `Source=HN|Funding News|WaaS|...` per row.
 
+### Indian startups: target engineers/managers, not founders
+Founder emails to Indian unicorns got zero replies. For the India batch, email an engineer or engineering manager on the team you'd join, with a short referral-style ask ("is the team hiring backend folks? here is what I built") instead of a job pitch to a CEO.
+- Find them: `python outreach_targets.py <github-org> [<github-org> ...]` lists public commit-author emails on the company's own domain (no guessing, so `Confidence=Verified`, `Source=GitHub commit author`). Pick 1-2 active people per company; skip founders/CEOs. Works only for companies with public repos (e.g. razorpay, zerodha, hasura, atlanhq); for the rest fall back to team/about pages or engineering-blog authors.
+- The global (non-India) batch keeps targeting founders - that lane is working.
+
 ### Shared mechanics (both tiers)
 4. Draft into Gmail with the base resume attached (**exact path: `output/Pratham_Modi_Base_Resume.pdf`**, always this file for outreach — drafts only, the USER hits send).
    - **Use the Gmail connector's `create_draft`** (base64-encode the PDF into `attachments`) — this is the only method here that can carry an attachment.
