@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-10-13)
+# Graph Report - job-kit-starter  (2026-10-14)
 
 ## Corpus Check
-- 242 files · ~144,192 words
+- 265 files · ~154,064 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 771 nodes · 613 edges · 225 communities (43 shown, 13 thin omitted)
+- 798 nodes · 662 edges · 235 communities (43 shown, 13 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e18f72c7`
+- Built from commit: `3486a7c7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -57,7 +57,7 @@
 - daily_scan.md
 - fill_dpdzero_eval.js
 - test_dpdzero_upload.js
-- job_hunt.py
+- gates.py
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
 - Bundle: Backend / Node.js / Distributed Systems Lane
 - Bundle: Full-Stack Lane
@@ -73,16 +73,16 @@
 - Batch Mode: single-path, ATS-first resume tailoring
 
 ## God Nodes (most connected - your core abstractions)
-1. `PlaywrightClient` - 13 edges
-2. `claude-job-kit — Project Instructions` - 13 edges
-3. `Resume & CV Generation — Reference` - 13 edges
-4. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
-5. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
-6. `Cover Letter Generation — Reference` - 11 edges
-7. `/make-resume` - 10 edges
-8. `Job-Search Operations Runbook` - 10 edges
-9. `Shared Operations — All Skills` - 10 edges
-10. `Job Hunt Profile & Operations Rule` - 9 edges
+1. `yoe_check()` - 16 edges
+2. `title_skip()` - 14 edges
+3. `location_check()` - 13 edges
+4. `PlaywrightClient` - 13 edges
+5. `claude-job-kit — Project Instructions` - 13 edges
+6. `Resume & CV Generation — Reference` - 13 edges
+7. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
+8. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
+9. `Cover Letter Generation — Reference` - 11 edges
+10. `/make-resume` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `loc_tag()` --calls--> `region()`  [EXTRACTED]
@@ -99,7 +99,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (225 total, 13 thin omitted)
+## Communities (235 total, 13 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -229,9 +229,9 @@ Nodes (4): 🔐 Authentication & 🎯 Candidate Bar — canonical source, 📄 C
 Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
-### Community 46 - "job_hunt.py"
-Cohesion: 0.10
-Nodes (35): coverage(), form_check(), location_check(), personal_info_valid(), Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Tags off, entities decoded, whitespace collapsed. Shared by…, india | remote | locked | unknown -- used for scoring, the --india filter and…, ('ok'|'skip'|'unknown', why). Locked region or a US/UK/EU work-right in the JD… (+27 more)
+### Community 46 - "gates.py"
+Cohesion: 0.08
+Nodes (36): clean_html(), coverage(), form_check(), location_check(), personal_info_valid(), Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Tags off, entities decoded, whitespace collapsed. Shared by…, india | remote | locked | unknown -- used for scoring, the --india filter and… (+28 more)
 
 ### Community 52 - "Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)"
 Cohesion: 0.22
@@ -275,7 +275,7 @@ Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode
 
 ## Knowledge Gaps
 - **340 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+335 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 600 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 614 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
