@@ -45,10 +45,10 @@ Target lanes (equal priority): **Software Developer · Full-Stack Developer · N
 - **Languages:** Python, JavaScript, TypeScript, Java, C++, SQL
 - **Backend:** Node.js, Express.js, FastAPI, Socket.IO, RESTful APIs, WebSocket, GraphQL, Nginx
 - **Frontend:** Next.js, React, Tailwind CSS
-- **Databases:** PostgreSQL, MongoDB, Redis, DynamoDB
+- **Databases:** PostgreSQL, MySQL, MongoDB, Redis, DynamoDB
 - **Messaging:** Kafka, BullMQ, Redis Streams, Redis Pub/Sub, Event-Driven Architecture
-- **AI/ML:** Multi-Agent Systems (CrewAI, LangGraph), RAG Pipelines, Vector Databases (ChromaDB, Qdrant), Knowledge Graphs (NetworkX), LLM Integration, Prompt Engineering, LLM Evaluation
-- **Cloud, DevOps & Observability:** AWS (EC2, S3, Lambda, EKS, IAM, ECR), Docker, Kubernetes, Terraform, GitHub Actions, CI/CD, OpenTelemetry, Prometheus, Grafana, Distributed Tracing
+- **AI/ML:** AI Agents, Multi-Agent Systems (CrewAI, LangGraph), RAG Pipelines, Vector Databases (ChromaDB, Qdrant), Knowledge Graphs (NetworkX), LLM Integration, Prompt Engineering, LLM Evaluation
+- **Cloud, DevOps & Observability:** AWS (EC2, S3, Lambda, EKS, IAM, ECR), Azure, Docker, Kubernetes, Terraform, GitHub Actions, CI/CD, OpenTelemetry, Prometheus, Grafana, Distributed Tracing
 - **Architecture:** Microservices, Distributed Systems, System Design, Scalable Backend, High-Throughput Systems
 
 ## Achievements / Awards

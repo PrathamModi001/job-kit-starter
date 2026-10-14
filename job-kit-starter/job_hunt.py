@@ -117,26 +117,7 @@ OFF_LANE = {
     "manual test": -7, "sdet": -3, "qa engineer": -5, "test engineer": -5,
     "staffing": -5, "body shop": -8, "bpo": -6,
 }
-LOC_INDIA  = re.compile(r"\b(india|bengaluru|bangalore|hyderabad|pune|gurgaon|gurugram|noida|delhi|mumbai|chennai|apac)\b", re.I)
-LOC_REMOTE = re.compile(r"\b(remote|anywhere|worldwide|distributed|work from home)\b", re.I)
-# strong "remote with no borders" signal
-LOC_GLOBAL = re.compile(r"\b(anywhere|worldwide|global(ly)?|any country|any location|fully remote|remote[- ]?first)\b", re.I)
-# a specific US/EU/Canada place or region named in the LOCATION field => region-locked (not India-eligible)
-LOC_LOCKED = re.compile(
-    r"\b(united states|u\.?s\.?a?|usa|america|canada|canadian|united kingdom|\bu\.?k\.?\b|england|ireland|"
-    r"germany|france|netherlands|spain|poland|portugal|sweden|switzerland|"
-    r"berlin|munich|cologne|köln|london|dublin|amsterdam|paris|lisbon|madrid|warsaw|"
-    r"new york|san francisco|seattle|austin|boston|chicago|denver|toronto|vancouver|"
-    r"emea|namer|latam|est timezone|pst|pt timezone|eastern time|pacific time)\b", re.I)
-
-def region(loc, desc=""):
-    """india | remote | locked | unknown — used for scoring + the --india filter + the tag."""
-    loc = loc or ""
-    if LOC_INDIA.search(loc) or LOC_INDIA.search(desc[:400]): return "india"
-    if LOC_GLOBAL.search(loc): return "remote"
-    if LOC_LOCKED.search(loc): return "locked"
-    if LOC_REMOTE.search(loc): return "remote"
-    return "unknown"
+from gates import LOC_INDIA, LOC_REMOTE, LOC_GLOBAL, LOC_LOCKED, region  # single definition lives in gates.py
 YEARS = re.compile(r"(\d{1,2})\s*\+?\s*years", re.I)
 MAX_YEARS = 3  # bar: hard-skip roles requiring 4+ YOE; he's ~2
 
@@ -254,7 +235,7 @@ def parse_posted(v):
 
 def score(title, desc, loc):
     blob = (title + " " + desc).lower()
-    from gates import title_skip, yoe_check
+    from gates import title_skip, yoe_check, vocab
     if title_skip(title) or yoe_check(desc)[0] == "skip":
         return -50  # hard skip: user-added title terms (customer/client/mobile/React Native) + 4+ YOE gate
     # hard skip: wrong exp level for 0-3 YOE target
@@ -278,7 +259,15 @@ def score(title, desc, loc):
     # even when enough stack keywords overlap to otherwise look like a fit (kept in sync
     # with job_hunt_india.py's NEG dict — same candidate bar, same disqualifiers).
     s += sum(w for k, w in OFF_LANE.items() if k in blob)
-    s += {"india": 4, "remote": 3, "locked": -6, "unknown": 0}[region(loc, desc)]
+    reg = region(loc, desc)
+    if reg == "locked":
+        return -50  # India-only bar: region-locked roles are a hard drop, not a penalty
+    s += {"india": 4, "remote": 3, "unknown": 0}[reg]
+    # fit signals: explicit 0-3 YOE ask, and share of the JD's tech terms the profile really has
+    my = min_years(desc)
+    if my is not None and my <= 3: s += 3
+    jd_terms = [t for t in vocab() if re.search(r"(?<![\w])" + re.escape(t) + r"(?![\w])", blob)]
+    if jd_terms: s += 2
     return s
 
 def loc_tag(loc, desc=""):

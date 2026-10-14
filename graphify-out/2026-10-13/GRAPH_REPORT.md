@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-10-12)
+# Graph Report - job-kit-starter  (2026-10-13)
 
 ## Corpus Check
-- 263 files · ~154,045 words
+- 294 files · ~169,155 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 791 nodes · 622 edges · 231 communities (43 shown, 14 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
+- 829 nodes · 656 edges · 249 communities (44 shown, 13 thin omitted)
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 18 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fe1059bc`
+- Built from commit: `eb8eacae`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -58,7 +58,7 @@
 - fill_dpdzero_eval.js
 - test_dpdzero_upload.js
 - gates.py
-- OutreachHandler
+- scan_target_boards.py
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
 - Bundle: Backend / Node.js / Distributed Systems Lane
 - Bundle: Full-Stack Lane
@@ -74,31 +74,33 @@
 - Batch Mode: single-path, ATS-first resume tailoring
 
 ## God Nodes (most connected - your core abstractions)
-1. `PlaywrightClient` - 13 edges
-2. `claude-job-kit — Project Instructions` - 13 edges
-3. `Resume & CV Generation — Reference` - 13 edges
-4. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
-5. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
-6. `Cover Letter Generation — Reference` - 11 edges
-7. `/make-resume` - 10 edges
-8. `Job-Search Operations Runbook` - 10 edges
-9. `Shared Operations — All Skills` - 10 edges
-10. `Job Hunt Profile & Operations Rule` - 9 edges
+1. `title_skip()` - 14 edges
+2. `PlaywrightClient` - 13 edges
+3. `claude-job-kit — Project Instructions` - 13 edges
+4. `Resume & CV Generation — Reference` - 13 edges
+5. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
+6. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
+7. `Cover Letter Generation — Reference` - 11 edges
+8. `/make-resume` - 10 edges
+9. `Job-Search Operations Runbook` - 10 edges
+10. `Shared Operations — All Skills` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `score()` --calls--> `title_skip()`  [EXTRACTED]
-  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
-- `score()` --calls--> `title_skip()`  [EXTRACTED]
-  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
-- `score()` --calls--> `yoe_check()`  [EXTRACTED]
-  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
-- `score()` --calls--> `yoe_check()`  [EXTRACTED]
-  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
+- `scan_ashby()` --calls--> `title_skip()`  [INFERRED]
+  scratch/find_early_career_leads.py → job-kit-starter/gates.py
+- `check_ashby()` --calls--> `title_skip()`  [INFERRED]
+  scratch/scan_ashby.py → job-kit-starter/gates.py
+- `check_greenhouse()` --calls--> `title_skip()`  [INFERRED]
+  scratch/scan_greenhouse.py → job-kit-starter/gates.py
+- `fetch_slug()` --calls--> `title_skip()`  [INFERRED]
+  scratch/scan_jobfound_deep.py → job-kit-starter/gates.py
+- `fetch_slug()` --calls--> `title_skip()`  [INFERRED]
+  scratch/scan_jobfound_multi.py → job-kit-starter/gates.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (231 total, 14 thin omitted)
+## Communities (249 total, 13 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -133,8 +135,8 @@ Cohesion: 0.12
 Nodes (16): Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2), CHAR COUNT GATE (per position), COMPILE GATE, End of /make-resume, /make-resume, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<< (+8 more)
 
 ### Community 9 - "job_hunt.py"
-Cohesion: 0.15
-Nodes (25): Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, title_skip(), yoe_check(), fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn() (+17 more)
+Cohesion: 0.23
+Nodes (17): fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn(), fetch_lever(), get(), loc_tag() (+9 more)
 
 ### Community 10 - "Tier B cold email — slot template (volume lane)"
 Cohesion: 0.20
@@ -229,8 +231,12 @@ Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
 ### Community 46 - "gates.py"
-Cohesion: 0.09
-Nodes (8): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html(), vocab()
+Cohesion: 0.05
+Nodes (26): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html() (+18 more)
+
+### Community 49 - "scan_target_boards.py"
+Cohesion: 0.70
+Nodes (4): check_ashby(), check_gh(), check_lever(), fetch_target()
 
 ### Community 52 - "Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)"
 Cohesion: 0.22
@@ -274,16 +280,18 @@ Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode
 
 ## Knowledge Gaps
 - **340 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+335 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 620 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 637 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `yoe_check()` connect `job_hunt.py` to `gates.py`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `title_skip()` connect `job_hunt.py` to `gates.py`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `title_skip()` connect `gates.py` to `job_hunt.py`?**
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+- **Why does `yoe_check()` connect `gates.py` to `job_hunt.py`?**
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **Are the 9 inferred relationships involving `title_skip()` (e.g. with `check_board()` and `scan_ashby()`) actually correct?**
+  _`title_skip()` has 9 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `name`, `private`, `version` to the rest of the system?**
   _340 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
@@ -292,5 +300,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.08262108262108261 - nodes in this community are weakly interconnected._
 - **Should `claude-job-kit — Project Instructions` be split into smaller, more focused modules?**
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
-- **Should `Resume & CV Generation — Reference` be split into smaller, more focused modules?**
-  _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._

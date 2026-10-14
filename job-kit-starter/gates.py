@@ -6,6 +6,8 @@
   python gates.py form "<Personal Info Filled string>"   -> flags values that diverge from config.md facts
   python gates.py lint "<Company - Role>"      -> resume claim words must exist in SKILL_PROFILE.md
   python gates.py coverage "<Company - Role>"  -> writes output/<dir>/keyword_table.json (tool-computed JD match rate)
+  python gates.py location "<job location>" [jd.txt]   -> exit 1 unless India-eligible (not region-locked, no US/UK/EU work-right in JD)
+  python gates.py preflight "<title>" "<location>" <jd.txt>   -> title + location + yoe in one call; exit 1 on any SKIP
   python gates.py clean <raw_fetch.html>       -> strips tags/boilerplate, prints clean text (pipe into jd.txt; never save raw HTML)
 """
 import html, json, re, sys
@@ -20,13 +22,49 @@ def strip_html(text):
     so there's exactly one definition of 'clean JD text' instead of three inline copies."""
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", text or ""))).strip()
 
+LOC_INDIA = re.compile(r"\b(india|bengaluru|bangalore|hyderabad|secunderabad|pune|gurgaon|gurugram|noida|delhi|mumbai|thane|ahmedabad|chennai|kanpur|apac)\b", re.I)
+LOC_REMOTE = re.compile(r"\b(remote|anywhere|worldwide|distributed|work from home)\b", re.I)
+# strong "remote with no borders" signal
+LOC_GLOBAL = re.compile(r"\b(anywhere|worldwide|global(ly)?|any country|any location|fully remote|remote[- ]?first)\b", re.I)
+# a specific US/EU/Canada place or region in the LOCATION field => region-locked (not India-eligible)
+LOC_LOCKED = re.compile(
+    r"\b(united states|u\.?s\.?a?|usa|america|canada|canadian|united kingdom|\bu\.?k\.?\b|england|ireland|"
+    r"germany|france|netherlands|spain|poland|portugal|sweden|switzerland|"
+    r"berlin|munich|cologne|köln|london|dublin|amsterdam|paris|lisbon|madrid|warsaw|"
+    r"new york|san francisco|seattle|austin|boston|chicago|denver|toronto|vancouver|"
+    r"emea|namer|latam|est timezone|pst|pt timezone|eastern time|pacific time)\b", re.I)
+# JD body text that makes a nominally-remote role non-India
+JD_LOCKED = re.compile(r"right to work in the (?:uk|eu|us)|must (?:be|reside|live) (?:located )?in the (?:us|united states|uk|eu)|us (?:work )?authori[sz]ation required|us citizens? only", re.I)
+
+
+def region(loc, desc=""):
+    """india | remote | locked | unknown -- used for scoring, the --india filter and `gates.py location`."""
+    loc = loc or ""
+    if LOC_INDIA.search(loc) or LOC_INDIA.search(desc[:400]): return "india"
+    if LOC_GLOBAL.search(loc): return "remote"
+    if LOC_LOCKED.search(loc): return "locked"
+    if LOC_REMOTE.search(loc): return "remote"
+    return "unknown"
+
+
+def location_check(loc, jd=""):
+    """('ok'|'skip'|'unknown', why). Locked region or a US/UK/EU work-right in the JD => skip.
+    No location text => 'unknown' (flag for a human, not an auto-skip)."""
+    r = region(loc, jd)
+    m = JD_LOCKED.search(strip_html(jd))
+    if r == "locked": return "skip", f"region-locked: {loc}"
+    if m: return "skip", f"JD requires: {m.group(0)}"
+    if r == "unknown": return "unknown", "no location text -- verify manually"
+    return "ok", r
+
+
 # Literal title check (daily_scan.md step 5 b2) + user-added terms (customer/client/mobile/React Native).
 TITLE_SKIP = re.compile(
     r"\bjava\b|\.net\b|\bc#|asp\.net|c\+\+|\bruby\b|\brails\b|\bsenior\b|\bsr\.?(?=\W)|\bstaff\b|\bprincipal\b|"
     r"\barchitect\b|\blead\b|\bsde[- ]?(?:2|3|ii|iii)\b|\bproduct engineer\s*(?:2|ii)\b|\bpe\s*2\b|"
-    r"\b(?:ii|iii)\b|\b(?:engineer|developer)\s*[23]\b|\bmts\b|member of technical staff|\bcustomer\b|\bclient\b|\bmobile\b|react[- ]native", re.I)
+    r"\b(?:ii|iii)\b|\b(?:engineer|developer)\s*[23]\b|\bmts\b|member of technical staff|\bcustomer\b|\bclient\b|\bmobile\b|react[- ]native|forward[- ]deployed|\bsolutions? engineer|\bsales engineer", re.I)
 # Terms that, as the JD's primary focus, also disqualify (checked by a human/LLM; this only flags).
-JD_FLAG = re.compile(r"customer[- ]facing|client[- ]facing|react[- ]native|mobile (?:app|engineer|developer)", re.I)
+JD_FLAG = re.compile(r"founding engineer|forward[- ]deployed|customer[- ]facing|client[- ]facing|react[- ]native|mobile (?:app|engineer|developer)", re.I)
 
 
 def title_skip(title):
@@ -77,6 +115,10 @@ def form_check(s):
             nums = [int(n) for n in re.findall(r"\d+", v)]
             if nums and min(nums) < 18:
                 out.append(f"{k}={v} (profile: min 18 LPA)")
+        if "expected" in k and not re.search(r"lpa|lakh", v, re.I):
+            out.append(f"{k}={v} (must be quoted in LPA, e.g. 18-20 LPA -- never USD/other currency)")
+        if k == "location" and "kanpur" not in v.lower():
+            out.append(f"{k}={v} (profile: Kanpur)")
         if "current ctc" in k and "12" not in v:
             out.append(f"{k}={v} (profile: 12 LPA)")
         if "address" in k and "d-203" not in v.lower():
@@ -115,6 +157,7 @@ def coverage(d):
     rep = {"jd_terms_in_profile_vocab": in_jd, "matched": hit, "missing_but_in_profile": miss,
            "match_rate": round(len(hit) / len(in_jd), 2) if in_jd else None,
            "jd_flags": sorted({m.group(0).lower() for m in JD_FLAG.finditer(jd)})}
+    rep["status"] = "OK" if len(in_jd) >= 4 else "EMPTY"  # <4 profile terms in the JD => match_rate is meaningless
     (base / "keyword_table.json").write_text(json.dumps(rep, indent=2), encoding="utf-8")
     return rep
 
@@ -144,5 +187,14 @@ if __name__ == "__main__":
     if cmd == "lint":
         bad = lint(arg); print("UNSUPPORTED CLAIM WORDS:", bad if bad else "none"); sys.exit(1 if bad else 0)
     if cmd == "coverage":
-        print(json.dumps(coverage(arg), indent=1))
-        sys.exit(0)
+        rep = coverage(arg); print(json.dumps(rep, indent=1))
+        sys.exit(1 if rep["status"] == "EMPTY" else 0)
+    if cmd == "location":
+        loc, jdp = (sys.argv[2], sys.argv[3]) if len(sys.argv) > 3 else (arg, None)
+        r, why = location_check(loc, Path(jdp).read_text(encoding="utf-8") if jdp else ""); print(r.upper(), why); sys.exit(1 if r == "skip" else 0)
+    if cmd == "preflight":
+        title, loc, jd = sys.argv[2], sys.argv[3], Path(sys.argv[4]).read_text(encoding="utf-8")
+        t = title_skip(title); l, lw = location_check(loc, jd); y, ye = yoe_check(jd)
+        print(f"title: {'SKIP (' + t + ')' if t else 'CLEAR'} | location: {l.upper()} {lw} | yoe: {y.upper()} {ye}")
+        print("flags:", sorted({m.group(0).lower() for m in JD_FLAG.finditer(strip_html(jd))}) or "none")
+        sys.exit(1 if (t or l == "skip" or y == "skip") else 0)

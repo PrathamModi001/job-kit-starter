@@ -26,7 +26,7 @@ tex_content = r"""\documentclass[10pt]{article}
 
 \begin{center}
 {\Huge \textbf{Pratham Modi}} \\[2pt]
-+91-9033393729 $\vert$ \href{mailto:prathammodi001@gmail.com}{prathammodi001@gmail.com} $\vert$ Koramangala, Bengaluru, India \\[1pt]
++91-9033393729 $\vert$ \href{mailto:prathammodi001@gmail.com}{prathammodi001@gmail.com} $\vert$ Kanpur, Uttar Pradesh, India \\[1pt]
 \href{https://github.com/PrathamModi001}{github.com/PrathamModi001} $\vert$ \href{https://www.linkedin.com/in/prathammodii001/}{linkedin.com/in/prathammodii001} \\[3pt]
 \textbf{Software Engineer $\vert$ Full-Stack Development $\vert$ React/Next.js, Python/FastAPI, PostgreSQL, AWS}
 \end{center}

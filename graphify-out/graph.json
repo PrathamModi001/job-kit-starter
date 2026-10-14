@@ -552,11 +552,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "clean_html()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L122"
+      "source_location": "L165"
     },
     {
       "id": "job_kit_starter_gates_coverage",
@@ -564,11 +564,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "coverage()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L108"
+      "source_location": "L150"
     },
     {
       "id": "job_kit_starter_gates_facts",
@@ -576,11 +576,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "facts()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L52"
+      "source_location": "L90"
     },
     {
       "id": "job_kit_starter_gates_form_check",
@@ -588,11 +588,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "form_check()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L67"
+      "source_location": "L105"
     },
     {
       "id": "job_kit_starter_gates_lint",
@@ -600,11 +600,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "lint()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L90"
+      "source_location": "L132"
+    },
+    {
+      "id": "job_kit_starter_gates_location_check",
+      "label": "location_check()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "location_check()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L50"
     },
     {
       "id": "job_kit_starter_gates_personal_info_valid",
@@ -612,11 +624,23 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "personal_info_valid()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L57"
+      "source_location": "L95"
+    },
+    {
+      "id": "job_kit_starter_gates_region",
+      "label": "region()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "region()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L40"
     },
     {
       "id": "job_kit_starter_gates_strip_html",
@@ -624,11 +648,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "strip_html()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L18"
+      "source_location": "L20"
     },
     {
       "id": "job_kit_starter_gates_title_skip",
@@ -636,11 +660,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "title_skip()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L32"
+      "source_location": "L70"
     },
     {
       "id": "job_kit_starter_gates_vocab",
@@ -648,11 +672,11 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "vocab()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L96"
+      "source_location": "L138"
     },
     {
       "id": "job_kit_starter_gates_yoe_check",
@@ -660,11 +684,95 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "yoe_check()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L37"
+      "source_location": "L75"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_fetch_aiven",
+      "label": "fetch_aiven()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "fetch_aiven()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L176"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_fetch_arbeitnow",
+      "label": "fetch_arbeitnow()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "fetch_arbeitnow()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L203"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_fetch_ashby",
+      "label": "fetch_ashby()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "fetch_ashby()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L144"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_fetch_gh",
+      "label": "fetch_gh()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "fetch_gh()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L134"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_fetch_hn",
+      "label": "fetch_hn()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "fetch_hn()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L183"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_fetch_lever",
+      "label": "fetch_lever()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "fetch_lever()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L159"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_get",
+      "label": "get()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "get()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L126"
     },
     {
       "id": "job_kit_starter_job_hunt_india_already_applied_companies",
@@ -672,7 +780,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "already_applied_companies()",
       "source_file": "job-kit-starter/job_hunt_india.py",
@@ -684,7 +792,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "load_seen()",
       "source_file": "job-kit-starter/job_hunt_india.py",
@@ -696,7 +804,7 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "main()",
       "source_file": "job-kit-starter/job_hunt_india.py",
@@ -708,203 +816,95 @@
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "score()",
       "source_file": "job-kit-starter/job_hunt_india.py",
       "source_location": "L88"
     },
     {
-      "id": "scratch_find_all_ashby_leads_check_board",
-      "label": "check_board()",
+      "id": "job_kit_starter_job_hunt_loc_tag",
+      "label": "loc_tag()",
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
-      "norm_label": "check_board()",
-      "source_file": "scratch/find_all_ashby_leads.py",
-      "source_location": "L30"
+      "norm_label": "loc_tag()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L273"
     },
     {
-      "id": "scratch_find_early_career_leads_scan_ashby",
-      "label": "scan_ashby()",
+      "id": "job_kit_starter_job_hunt_main",
+      "label": "main()",
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
-      "norm_label": "scan_ashby()",
-      "source_file": "scratch/find_early_career_leads.py",
-      "source_location": "L67"
+      "norm_label": "main()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L280"
     },
     {
-      "id": "scratch_find_early_career_leads_scan_gh",
-      "label": "scan_gh()",
+      "id": "job_kit_starter_job_hunt_min_years",
+      "label": "min_years()",
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
-      "norm_label": "scan_gh()",
-      "source_file": "scratch/find_early_career_leads.py",
-      "source_location": "L41"
+      "norm_label": "min_years()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L220"
     },
     {
-      "id": "scratch_probe_greenhouse_check_gh",
-      "label": "check_gh()",
+      "id": "job_kit_starter_job_hunt_parse_posted",
+      "label": "parse_posted()",
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
-      "norm_label": "check_gh()",
-      "source_file": "scratch/probe_greenhouse.py",
-      "source_location": "L29"
+      "norm_label": "parse_posted()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L224"
     },
     {
-      "id": "scratch_scan_all_boards_scan_board",
-      "label": "scan_board()",
+      "id": "job_kit_starter_job_hunt_score",
+      "label": "score()",
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
-      "norm_label": "scan_board()",
-      "source_file": "scratch/scan_all_boards.py",
-      "source_location": "L113"
+      "norm_label": "score()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L236"
     },
     {
-      "id": "scratch_scan_ashby_check_ashby",
-      "label": "check_ashby()",
+      "id": "job_kit_starter_job_hunt_self_check",
+      "label": "_self_check()",
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
-      "norm_label": "check_ashby()",
-      "source_file": "scratch/scan_ashby.py",
-      "source_location": "L17"
+      "norm_label": "_self_check()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L397"
     },
     {
-      "id": "scratch_scan_greenhouse_check_greenhouse",
-      "label": "check_greenhouse()",
+      "id": "job_kit_starter_job_hunt_strip_html",
+      "label": "strip_html()",
       "_callable": true,
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
-      "norm_label": "check_greenhouse()",
-      "source_file": "scratch/scan_greenhouse.py",
-      "source_location": "L14"
-    },
-    {
-      "id": "scratch_scan_india_startups_check_target",
-      "label": "check_target()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "check_target()",
-      "source_file": "scratch/scan_india_startups.py",
-      "source_location": "L47"
-    },
-    {
-      "id": "scratch_scan_india_startups_process_item",
-      "label": "process_item()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "process_item()",
-      "source_file": "scratch/scan_india_startups.py",
-      "source_location": "L85"
-    },
-    {
-      "id": "scratch_scan_jobfound_deep_fetch_slug",
-      "label": "fetch_slug()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "fetch_slug()",
-      "source_file": "scratch/scan_jobfound_deep.py",
-      "source_location": "L19"
-    },
-    {
-      "id": "scratch_scan_jobfound_multi_fetch_slug",
-      "label": "fetch_slug()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "fetch_slug()",
-      "source_file": "scratch/scan_jobfound_multi.py",
-      "source_location": "L19"
-    },
-    {
-      "id": "scratch_scan_lever_check_lever",
-      "label": "check_lever()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "check_lever()",
-      "source_file": "scratch/scan_lever.py",
-      "source_location": "L14"
-    },
-    {
-      "id": "scratch_scan_target_boards_check_ashby",
-      "label": "check_ashby()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "scan_target_boards.py",
-      "file_type": "code",
-      "norm_label": "check_ashby()",
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L17"
-    },
-    {
-      "id": "scratch_scan_target_boards_check_gh",
-      "label": "check_gh()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "scan_target_boards.py",
-      "file_type": "code",
-      "norm_label": "check_gh()",
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L31"
-    },
-    {
-      "id": "scratch_scan_target_boards_check_lever",
-      "label": "check_lever()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "scan_target_boards.py",
-      "file_type": "code",
-      "norm_label": "check_lever()",
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L45"
-    },
-    {
-      "id": "scratch_scan_target_boards_fetch_target",
-      "label": "fetch_target()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "scan_target_boards.py",
-      "file_type": "code",
-      "norm_label": "fetch_target()",
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L59"
+      "norm_label": "strip_html()",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L131"
     },
     {
       "id": "scratch_playwright_client_playwrightclient_call_tool",
@@ -1075,30 +1075,6 @@
       "source_location": "L18"
     },
     {
-      "id": "scratch_build_batches_make_script",
-      "label": "make_script()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 76,
-      "community_name": "build_batches.py",
-      "file_type": "code",
-      "norm_label": "make_script()",
-      "source_file": "scratch/build_batches.py",
-      "source_location": "L6"
-    },
-    {
-      "id": "scratch_build_lean_batches_make_lean_script",
-      "label": "make_lean_script()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 78,
-      "community_name": "build_lean_batches.py",
-      "file_type": "code",
-      "norm_label": "make_lean_script()",
-      "source_file": "scratch/build_lean_batches.py",
-      "source_location": "L5"
-    },
-    {
       "id": "scratch_fill_infisical_fast_setreactinput",
       "label": "setReactInput()",
       "_callable": true,
@@ -1111,184 +1087,28 @@
       "source_location": "L5"
     },
     {
-      "id": "job_kit_starter_job_hunt_fetch_aiven",
-      "label": "fetch_aiven()",
+      "id": "job_kit_starter_token_report_find_usage",
+      "label": "find_usage()",
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "job_hunt.py",
+      "community_name": "token_report.py",
       "file_type": "code",
-      "norm_label": "fetch_aiven()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L195"
+      "norm_label": "find_usage()",
+      "source_file": "job-kit-starter/token_report.py",
+      "source_location": "L13"
     },
     {
-      "id": "job_kit_starter_job_hunt_fetch_arbeitnow",
-      "label": "fetch_arbeitnow()",
+      "id": "job_kit_starter_token_report_report",
+      "label": "report()",
       "_callable": true,
       "_origin": "ast",
       "community": 9,
-      "community_name": "job_hunt.py",
+      "community_name": "token_report.py",
       "file_type": "code",
-      "norm_label": "fetch_arbeitnow()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L222"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_fetch_ashby",
-      "label": "fetch_ashby()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "fetch_ashby()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L163"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_fetch_gh",
-      "label": "fetch_gh()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "fetch_gh()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L153"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_fetch_hn",
-      "label": "fetch_hn()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "fetch_hn()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L202"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_fetch_lever",
-      "label": "fetch_lever()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "fetch_lever()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L178"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_get",
-      "label": "get()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "get()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L145"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_loc_tag",
-      "label": "loc_tag()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "loc_tag()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L284"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_main",
-      "label": "main()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "main()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L291"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_min_years",
-      "label": "min_years()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "min_years()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L239"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_parse_posted",
-      "label": "parse_posted()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "parse_posted()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L243"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_region",
-      "label": "region()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "region()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L132"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_score",
-      "label": "score()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "score()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L255"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_self_check",
-      "label": "_self_check()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "_self_check()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L408"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_strip_html",
-      "label": "strip_html()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "strip_html()",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L150"
+      "norm_label": "report()",
+      "source_file": "job-kit-starter/token_report.py",
+      "source_location": "L26"
     },
     {
       "id": "scratch_generate_resume_build_resume",
@@ -4452,17 +4272,6 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_batch_1",
-      "label": "batch_1.js",
-      "_origin": "ast",
-      "community": 188,
-      "community_name": "batch_1.js",
-      "file_type": "code",
-      "norm_label": "batch_1.js",
-      "source_file": "scratch/batch_1.js",
-      "source_location": "L1"
-    },
-    {
       "id": "scratch_test_country",
       "label": "test_country.py",
       "_origin": "ast",
@@ -5162,28 +4971,6 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_batch_2",
-      "label": "batch_2.js",
-      "_origin": "ast",
-      "community": 202,
-      "community_name": "batch_2.js",
-      "file_type": "code",
-      "norm_label": "batch_2.js",
-      "source_file": "scratch/batch_2.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_batch_3",
-      "label": "batch_3.js",
-      "_origin": "ast",
-      "community": 203,
-      "community_name": "batch_3.js",
-      "file_type": "code",
-      "norm_label": "batch_3.js",
-      "source_file": "scratch/batch_3.js",
-      "source_location": "L1"
-    },
-    {
       "id": "scratch_upload_browserbase",
       "label": "upload_browserbase.js",
       "_origin": "ast",
@@ -5438,28 +5225,6 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_batch_4",
-      "label": "batch_4.js",
-      "_origin": "ast",
-      "community": 218,
-      "community_name": "batch_4.js",
-      "file_type": "code",
-      "norm_label": "batch_4.js",
-      "source_file": "scratch/batch_4.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_batch_lean_1",
-      "label": "batch_lean_1.js",
-      "_origin": "ast",
-      "community": 219,
-      "community_name": "batch_lean_1.js",
-      "file_type": "code",
-      "norm_label": "batch_lean_1.js",
-      "source_file": "scratch/batch_lean_1.js",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_resume_builder_examples_extractions_example_extraction",
       "label": "example_extraction.md",
       "_origin": "ast",
@@ -5554,116 +5319,6 @@
       "norm_label": "resume bullet seeds",
       "source_file": "job-kit-starter/resume_builder/examples/extractions/example_extraction.md",
       "source_location": "L64"
-    },
-    {
-      "id": "scratch_batch_lean_2",
-      "label": "batch_lean_2.js",
-      "_origin": "ast",
-      "community": 220,
-      "community_name": "batch_lean_2.js",
-      "file_type": "code",
-      "norm_label": "batch_lean_2.js",
-      "source_file": "scratch/batch_lean_2.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_batch_lean_3",
-      "label": "batch_lean_3.js",
-      "_origin": "ast",
-      "community": 221,
-      "community_name": "batch_lean_3.js",
-      "file_type": "code",
-      "norm_label": "batch_lean_3.js",
-      "source_file": "scratch/batch_lean_3.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_batch_lean_4",
-      "label": "batch_lean_4.js",
-      "_origin": "ast",
-      "community": 222,
-      "community_name": "batch_lean_4.js",
-      "file_type": "code",
-      "norm_label": "batch_lean_4.js",
-      "source_file": "scratch/batch_lean_4.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_check_hn_item",
-      "label": "check_hn_item.py",
-      "_origin": "ast",
-      "community": 223,
-      "community_name": "check_hn_item.py",
-      "file_type": "code",
-      "norm_label": "check_hn_item.py",
-      "source_file": "scratch/check_hn_item.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_check_jobfound_apply",
-      "label": "check_jobfound_apply.py",
-      "_origin": "ast",
-      "community": 224,
-      "community_name": "check_jobfound_apply.py",
-      "file_type": "code",
-      "norm_label": "check_jobfound_apply.py",
-      "source_file": "scratch/check_jobfound_apply.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_check_leads",
-      "label": "check_leads.py",
-      "_origin": "ast",
-      "community": 225,
-      "community_name": "check_leads.py",
-      "file_type": "code",
-      "norm_label": "check_leads.py",
-      "source_file": "scratch/check_leads.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_check_workday_cxs",
-      "label": "check_workday_cxs.py",
-      "_origin": "ast",
-      "community": 226,
-      "community_name": "check_workday_cxs.py",
-      "file_type": "code",
-      "norm_label": "check_workday_cxs.py",
-      "source_file": "scratch/check_workday_cxs.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_detect_company_ats",
-      "label": "detect_company_ats.py",
-      "_origin": "ast",
-      "community": 227,
-      "community_name": "detect_company_ats.py",
-      "file_type": "code",
-      "norm_label": "detect_company_ats.py",
-      "source_file": "scratch/detect_company_ats.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_fetch_and_test_leads",
-      "label": "fetch_and_test_leads.py",
-      "_origin": "ast",
-      "community": 228,
-      "community_name": "fetch_and_test_leads.py",
-      "file_type": "code",
-      "norm_label": "fetch_and_test_leads.py",
-      "source_file": "scratch/fetch_and_test_leads.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_find_candidates",
-      "label": "find_candidates.py",
-      "_origin": "ast",
-      "community": 229,
-      "community_name": "find_candidates.py",
-      "file_type": "code",
-      "norm_label": "find_candidates.py",
-      "source_file": "scratch/find_candidates.py",
-      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_config",
@@ -5774,17 +5429,6 @@
       "source_location": "L36"
     },
     {
-      "id": "scratch_make_set_b64",
-      "label": "make_set_b64.py",
-      "_origin": "ast",
-      "community": 230,
-      "community_name": "make_set_b64.py",
-      "file_type": "code",
-      "norm_label": "make_set_b64.py",
-      "source_file": "scratch/make_set_b64.py",
-      "source_location": "L1"
-    },
-    {
       "id": "scratch_send_batch_0",
       "label": "send_batch_0.js",
       "_origin": "ast",
@@ -5837,50 +5481,6 @@
       "file_type": "code",
       "norm_label": "update_outreach_status.py",
       "source_file": "scratch/update_outreach_status.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_print_razorpay",
-      "label": "print_razorpay.py",
-      "_origin": "ast",
-      "community": 236,
-      "community_name": "print_razorpay.py",
-      "file_type": "code",
-      "norm_label": "print_razorpay.py",
-      "source_file": "scratch/print_razorpay.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_print_trackerbot",
-      "label": "print_trackerbot.py",
-      "_origin": "ast",
-      "community": 237,
-      "community_name": "print_trackerbot.py",
-      "file_type": "code",
-      "norm_label": "print_trackerbot.py",
-      "source_file": "scratch/print_trackerbot.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_save_freightfox_jd",
-      "label": "save_freightfox_jd.py",
-      "_origin": "ast",
-      "community": 238,
-      "community_name": "save_freightfox_jd.py",
-      "file_type": "code",
-      "norm_label": "save_freightfox_jd.py",
-      "source_file": "scratch/save_freightfox_jd.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_save_hotelzify_jd",
-      "label": "save_hotelzify_jd.py",
-      "_origin": "ast",
-      "community": 239,
-      "community_name": "save_hotelzify_jd.py",
-      "file_type": "code",
-      "norm_label": "save_hotelzify_jd.py",
-      "source_file": "scratch/save_hotelzify_jd.py",
       "source_location": "L1"
     },
     {
@@ -5966,17 +5566,6 @@
       "norm_label": "s5: cover letter guide",
       "source_file": "job-kit-starter/resume_builder/examples/bundles/example_bundle.md",
       "source_location": "L91"
-    },
-    {
-      "id": "scratch_set_b64",
-      "label": "set_b64.js",
-      "_origin": "ast",
-      "community": 240,
-      "community_name": "set_b64.js",
-      "file_type": "code",
-      "norm_label": "set_b64.js",
-      "source_file": "scratch/set_b64.js",
-      "source_location": "L1"
     },
     {
       "id": "scratch_test_upload_js_scratch_test_upload",
@@ -7472,10 +7061,21 @@
       "label": "gates.py",
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "gates.py",
       "source_file": "job-kit-starter/gates.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_job_hunt",
+      "label": "job_hunt.py",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "code",
+      "norm_label": "job_hunt.py",
+      "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L1"
     },
     {
@@ -7483,307 +7083,98 @@
       "label": "job_hunt_india.py",
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "code",
       "norm_label": "job_hunt_india.py",
       "source_file": "job-kit-starter/job_hunt_india.py",
       "source_location": "L1"
     },
     {
-      "id": "scratch_check_ashby_keys",
-      "label": "check_ashby_keys.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "check_ashby_keys.py",
-      "source_file": "scratch/check_ashby_keys.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_check_devrev_jobs",
-      "label": "check_devrev_jobs.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "check_devrev_jobs.py",
-      "source_file": "scratch/check_devrev_jobs.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_check_fast_boards",
-      "label": "check_fast_boards.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "check_fast_boards.py",
-      "source_file": "scratch/check_fast_boards.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_check_india_leads",
-      "label": "check_india_leads.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "check_india_leads.py",
-      "source_file": "scratch/check_india_leads.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_check_target_jobs",
-      "label": "check_target_jobs.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "check_target_jobs.py",
-      "source_file": "scratch/check_target_jobs.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_evaluate_ashby",
-      "label": "evaluate_ashby.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "evaluate_ashby.py",
-      "source_file": "scratch/evaluate_ashby.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_find_all_ashby_leads",
-      "label": "find_all_ashby_leads.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "find_all_ashby_leads.py",
-      "source_file": "scratch/find_all_ashby_leads.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_find_direct_ats_leads",
-      "label": "find_direct_ats_leads.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "find_direct_ats_leads.py",
-      "source_file": "scratch/find_direct_ats_leads.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_find_early_career_leads",
-      "label": "find_early_career_leads.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "find_early_career_leads.py",
-      "source_file": "scratch/find_early_career_leads.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_inspect_ashby_all_remote",
-      "label": "inspect_ashby_all_remote.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "inspect_ashby_all_remote.py",
-      "source_file": "scratch/inspect_ashby_all_remote.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_probe_greenhouse",
-      "label": "probe_greenhouse.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "probe_greenhouse.py",
-      "source_file": "scratch/probe_greenhouse.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_all_boards",
-      "label": "scan_all_boards.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "scan_all_boards.py",
-      "source_file": "scratch/scan_all_boards.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_ashby",
-      "label": "scan_ashby.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "scan_ashby.py",
-      "source_file": "scratch/scan_ashby.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_ashby_comprehensive",
-      "label": "scan_ashby_comprehensive.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "scan_ashby_comprehensive.py",
-      "source_file": "scratch/scan_ashby_comprehensive.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_greenhouse",
-      "label": "scan_greenhouse.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "scan_greenhouse.py",
-      "source_file": "scratch/scan_greenhouse.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_india_startups",
-      "label": "scan_india_startups.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "scan_india_startups.py",
-      "source_file": "scratch/scan_india_startups.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_jobfound_deep",
-      "label": "scan_jobfound_deep.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "scan_jobfound_deep.py",
-      "source_file": "scratch/scan_jobfound_deep.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_jobfound_multi",
-      "label": "scan_jobfound_multi.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "scan_jobfound_multi.py",
-      "source_file": "scratch/scan_jobfound_multi.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_lever",
-      "label": "scan_lever.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "scan_lever.py",
-      "source_file": "scratch/scan_lever.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_test_gh_leads",
-      "label": "test_gh_leads.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "test_gh_leads.py",
-      "source_file": "scratch/test_gh_leads.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_test_stripe_jobs",
-      "label": "test_stripe_jobs.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "test_stripe_jobs.py",
-      "source_file": "scratch/test_stripe_jobs.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_test_targeted_leads",
-      "label": "test_targeted_leads.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "code",
-      "norm_label": "test_targeted_leads.py",
-      "source_file": "scratch/test_targeted_leads.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_gates_rationale_19",
-      "label": "Tags off, entities decoded, whitespace collapsed. Shared by\u2026",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "gates.py",
-      "file_type": "rationale",
-      "norm_label": "tags off, entities decoded, whitespace collapsed. shared by...",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L19"
-    },
-    {
       "id": "job_kit_starter_gates_rationale_2",
       "label": "Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py\u2026",
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "rationale",
       "norm_label": "pre-submit gates for the daily scan. run from job-kit-starter/. python gates.py...",
       "source_file": "job-kit-starter/gates.py",
       "source_location": "L2"
     },
     {
-      "id": "job_kit_starter_gates_rationale_38",
+      "id": "job_kit_starter_gates_rationale_21",
+      "label": "Tags off, entities decoded, whitespace collapsed. Shared by\u2026",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "tags off, entities decoded, whitespace collapsed. shared by...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_41",
+      "label": "india | remote | locked | unknown -- used for scoring, the --india filter and\u2026",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "india | remote | locked | unknown -- used for scoring, the --india filter and...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L41"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_51",
+      "label": "('ok'|'skip'|'unknown', why). Locked region or a US/UK/EU work-right in the JD\u2026",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "('ok'|'skip'|'unknown', why). locked region or a us/uk/eu work-right in the jd...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L51"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_76",
       "label": "Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range\u2026",
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "rationale",
       "norm_label": "return ('skip'|'borderline'|'ok', evidence). hard skip: n+ with n>=4, or range...",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L38"
+      "source_location": "L76"
     },
     {
-      "id": "job_kit_starter_gates_rationale_58",
+      "id": "job_kit_starter_gates_rationale_96",
       "label": "True only if s is a 'key=value; key=value; ...' audit trail of what was\u2026",
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "rationale",
       "norm_label": "true only if s is a 'key=value; key=value; ...' audit trail of what was...",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L58"
+      "source_location": "L96"
     },
     {
       "id": "job_kit_starter_job_hunt_india_rationale_2",
       "label": "India-aggregator job scan (complements job_hunt.py, which only hits company ATS\u2026",
       "_origin": "ast",
       "community": 46,
-      "community_name": "gates.py",
+      "community_name": "job_hunt.py",
       "file_type": "rationale",
       "norm_label": "india-aggregator job scan (complements job_hunt.py, which only hits company ats...",
       "source_file": "job-kit-starter/job_hunt_india.py",
+      "source_location": "L2"
+    },
+    {
+      "id": "job_kit_starter_job_hunt_rationale_2",
+      "label": "job_hunt.py \u2014 on-demand job-match digest for you. Pulls openings from target\u2026",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "job_hunt.py",
+      "file_type": "rationale",
+      "norm_label": "job_hunt.py \u2014 on-demand job-match digest for you. pulls openings from target...",
+      "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L2"
     },
     {
@@ -7806,17 +7197,6 @@
       "file_type": "code",
       "norm_label": "fill_databricks.js",
       "source_file": "fill_databricks.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_target_boards",
-      "label": "scan_target_boards.py",
-      "_origin": "ast",
-      "community": 49,
-      "community_name": "scan_target_boards.py",
-      "file_type": "code",
-      "norm_label": "scan_target_boards.py",
-      "source_file": "scratch/scan_target_boards.py",
       "source_location": "L1"
     },
     {
@@ -9221,17 +8601,6 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_build_batches",
-      "label": "build_batches.py",
-      "_origin": "ast",
-      "community": 76,
-      "community_name": "build_batches.py",
-      "file_type": "code",
-      "norm_label": "build_batches.py",
-      "source_file": "scratch/build_batches.py",
-      "source_location": "L1"
-    },
-    {
       "id": "scratch_upload_eateasily",
       "label": "upload_eateasily.js",
       "_origin": "ast",
@@ -9240,17 +8609,6 @@
       "file_type": "code",
       "norm_label": "upload_eateasily.js",
       "source_file": "scratch/upload_eateasily.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_build_lean_batches",
-      "label": "build_lean_batches.py",
-      "_origin": "ast",
-      "community": 78,
-      "community_name": "build_lean_batches.py",
-      "file_type": "code",
-      "norm_label": "build_lean_batches.py",
-      "source_file": "scratch/build_lean_batches.py",
       "source_location": "L1"
     },
     {
@@ -9583,36 +8941,25 @@
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_job_hunt",
-      "label": "job_hunt.py",
+      "id": "job_kit_starter_token_report",
+      "label": "token_report.py",
       "_origin": "ast",
       "community": 9,
-      "community_name": "job_hunt.py",
+      "community_name": "token_report.py",
       "file_type": "code",
-      "norm_label": "job_hunt.py",
-      "source_file": "job-kit-starter/job_hunt.py",
+      "norm_label": "token_report.py",
+      "source_file": "job-kit-starter/token_report.py",
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_job_hunt_rationale_133",
-      "label": "india | remote | locked | unknown \u2014 used for scoring + the --india filter + the\u2026",
+      "id": "job_kit_starter_token_report_rationale_2",
+      "label": "Per-step + total token usage from a transcript.jsonl, run OUTSIDE the chat\u2026",
       "_origin": "ast",
       "community": 9,
-      "community_name": "job_hunt.py",
+      "community_name": "token_report.py",
       "file_type": "rationale",
-      "norm_label": "india | remote | locked | unknown \u2014 used for scoring + the --india filter + the...",
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L133"
-    },
-    {
-      "id": "job_kit_starter_job_hunt_rationale_2",
-      "label": "job_hunt.py \u2014 on-demand job-match digest for you. Pulls openings from target\u2026",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "job_hunt.py",
-      "file_type": "rationale",
-      "norm_label": "job_hunt.py \u2014 on-demand job-match digest for you. pulls openings from target...",
-      "source_file": "job-kit-starter/job_hunt.py",
+      "norm_label": "per-step + total token usage from a transcript.jsonl, run outside the chat...",
+      "source_file": "job-kit-starter/token_report.py",
       "source_location": "L2"
     },
     {
@@ -9736,7 +9083,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L110",
+      "source_location": "L152",
       "weight": 1.0
     },
     {
@@ -9748,7 +9095,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L112",
+      "source_location": "L154",
       "weight": 1.0
     },
     {
@@ -9760,7 +9107,31 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L69",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates_location_check",
+      "target": "job_kit_starter_gates_region",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates_location_check",
+      "target": "job_kit_starter_gates_strip_html",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L54",
       "weight": 1.0
     },
     {
@@ -9772,7 +9143,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L39",
+      "source_location": "L77",
       "weight": 1.0
     },
     {
@@ -9784,7 +9155,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L196",
+      "source_location": "L177",
       "weight": 1.0
     },
     {
@@ -9796,7 +9167,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L198",
+      "source_location": "L179",
       "weight": 1.0
     },
     {
@@ -9808,7 +9179,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L225",
+      "source_location": "L206",
       "weight": 1.0
     },
     {
@@ -9820,7 +9191,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L234",
+      "source_location": "L215",
       "weight": 1.0
     },
     {
@@ -9832,7 +9203,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L164",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -9844,7 +9215,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L154",
+      "source_location": "L135",
       "weight": 1.0
     },
     {
@@ -9856,7 +9227,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L159",
+      "source_location": "L140",
       "weight": 1.0
     },
     {
@@ -9868,7 +9239,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L204",
+      "source_location": "L185",
       "weight": 1.0
     },
     {
@@ -9880,7 +9251,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L212",
+      "source_location": "L193",
       "weight": 1.0
     },
     {
@@ -9892,7 +9263,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L179",
+      "source_location": "L160",
       "weight": 1.0
     },
     {
@@ -9904,7 +9275,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L191",
+      "source_location": "L172",
       "weight": 1.0
     },
     {
@@ -9957,14 +9328,14 @@
     },
     {
       "source": "job_kit_starter_job_hunt_loc_tag",
-      "target": "job_kit_starter_job_hunt_region",
+      "target": "job_kit_starter_gates_region",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L285",
+      "source_location": "L274",
       "weight": 1.0
     },
     {
@@ -9976,7 +9347,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L339",
+      "source_location": "L328",
       "weight": 1.0
     },
     {
@@ -9988,19 +9359,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L342",
+      "source_location": "L331",
       "weight": 1.0
     },
     {
       "source": "job_kit_starter_job_hunt_main",
-      "target": "job_kit_starter_job_hunt_region",
+      "target": "job_kit_starter_gates_region",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L345",
+      "source_location": "L334",
       "weight": 1.0
     },
     {
@@ -10012,7 +9383,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L348",
+      "source_location": "L337",
       "weight": 1.0
     },
     {
@@ -10024,7 +9395,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L258",
+      "source_location": "L239",
       "weight": 1.0
     },
     {
@@ -10036,19 +9407,43 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L258",
+      "source_location": "L239",
       "weight": 1.0
     },
     {
       "source": "job_kit_starter_job_hunt_score",
-      "target": "job_kit_starter_job_hunt_region",
+      "target": "job_kit_starter_gates_region",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L281",
+      "source_location": "L262",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_score",
+      "target": "job_kit_starter_job_hunt_min_years",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt_score",
+      "target": "job_kit_starter_gates_vocab",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L269",
       "weight": 1.0
     },
     {
@@ -10060,7 +9455,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L409",
+      "source_location": "L398",
       "weight": 1.0
     },
     {
@@ -10145,6 +9540,18 @@
       "context": "call",
       "source_file": "job-kit-starter/resume_builder/helpers/char_count.py",
       "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_token_report_report",
+      "target": "job_kit_starter_token_report_find_usage",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "job-kit-starter/token_report.py",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -10364,51 +9771,15 @@
       "weight": 1.0
     },
     {
-      "source": "scratch_scan_india_startups_check_target",
-      "target": "scratch_scan_india_startups_process_item",
-      "relation": "calls",
+      "source": "job_kit_starter_job_hunt",
+      "target": "job_kit_starter_gates_region",
+      "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "scratch/scan_india_startups.py",
-      "source_location": "L61",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_target_boards_fetch_target",
-      "target": "scratch_scan_target_boards_check_ashby",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L62",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_target_boards_fetch_target",
-      "target": "scratch_scan_target_boards_check_gh",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L63",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_target_boards_fetch_target",
-      "target": "scratch_scan_target_boards_check_lever",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L64",
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L120",
       "weight": 1.0
     },
     {
@@ -10420,7 +9791,19 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L257",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_job_hunt",
+      "target": "job_kit_starter_gates_vocab",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L238",
       "weight": 1.0
     },
     {
@@ -10432,7 +9815,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L257",
+      "source_location": "L238",
       "weight": 1.0
     },
     {
@@ -10532,6 +9915,18 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_job_hunt",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "job-kit-starter/job_hunt.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_tracker_src_app",
       "target": "ref_react",
       "relation": "imports_from",
@@ -10589,282 +9984,6 @@
       "context": "import",
       "source_file": "job-kit-starter/tracker/vite.config.js",
       "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_check_ashby_keys",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/check_ashby_keys.py",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_check_devrev_jobs",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/check_devrev_jobs.py",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_check_fast_boards",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/check_fast_boards.py",
-      "source_location": "L18",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_check_india_leads",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/check_india_leads.py",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_check_target_jobs",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/check_target_jobs.py",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_evaluate_ashby",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/evaluate_ashby.py",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_all_ashby_leads",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/find_all_ashby_leads.py",
-      "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_direct_ats_leads",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/find_direct_ats_leads.py",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_early_career_leads",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/find_early_career_leads.py",
-      "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_inspect_ashby_all_remote",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/inspect_ashby_all_remote.py",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_probe_greenhouse",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/probe_greenhouse.py",
-      "source_location": "L8",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_all_boards",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/scan_all_boards.py",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_ashby",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/scan_ashby.py",
-      "source_location": "L6",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_ashby_comprehensive",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/scan_ashby_comprehensive.py",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_greenhouse",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/scan_greenhouse.py",
-      "source_location": "L6",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_india_startups",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/scan_india_startups.py",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_jobfound_deep",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/scan_jobfound_deep.py",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_jobfound_multi",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/scan_jobfound_multi.py",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_lever",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/scan_lever.py",
-      "source_location": "L6",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_target_boards",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L80",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_test_gh_leads",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/test_gh_leads.py",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_test_stripe_jobs",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/test_stripe_jobs.py",
-      "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_test_targeted_leads",
-      "target": "job_kit_starter_gates",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "scratch/test_targeted_leads.py",
-      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -12673,90 +11792,13 @@
     },
     {
       "source": "job_kit_starter_gates",
-      "target": "job_kit_starter_gates_coverage",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L108",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_gates",
-      "target": "job_kit_starter_gates_clean_html",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L122",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_gates",
-      "target": "job_kit_starter_gates_strip_html",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L18",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_gates",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L32",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_gates",
-      "target": "job_kit_starter_gates_yoe_check",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L37",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_gates",
-      "target": "job_kit_starter_gates_facts",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L52",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_gates",
-      "target": "job_kit_starter_gates_personal_info_valid",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L57",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_gates",
       "target": "job_kit_starter_gates_form_check",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L67",
+      "source_location": "L105",
       "weight": 1.0
     },
     {
@@ -12767,7 +11809,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L90",
+      "source_location": "L132",
       "weight": 1.0
     },
     {
@@ -12778,7 +11820,106 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L96",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_coverage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_clean_html",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_strip_html",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_region",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_location_check",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_title_skip",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_yoe_check",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_facts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates",
+      "target": "job_kit_starter_gates_personal_info_valid",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -12827,24 +11968,13 @@
     },
     {
       "source": "job_kit_starter_job_hunt",
-      "target": "job_kit_starter_job_hunt_region",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L132",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_job_hunt",
       "target": "job_kit_starter_job_hunt_get",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L145",
+      "source_location": "L126",
       "weight": 1.0
     },
     {
@@ -12855,7 +11985,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L150",
+      "source_location": "L131",
       "weight": 1.0
     },
     {
@@ -12866,7 +11996,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L239",
+      "source_location": "L220",
       "weight": 1.0
     },
     {
@@ -12877,7 +12007,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L243",
+      "source_location": "L224",
       "weight": 1.0
     },
     {
@@ -12888,7 +12018,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L255",
+      "source_location": "L236",
       "weight": 1.0
     },
     {
@@ -12899,7 +12029,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L284",
+      "source_location": "L273",
       "weight": 1.0
     },
     {
@@ -12910,7 +12040,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L291",
+      "source_location": "L280",
       "weight": 1.0
     },
     {
@@ -12921,7 +12051,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L408",
+      "source_location": "L397",
       "weight": 1.0
     },
     {
@@ -15620,6 +14750,28 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_token_report",
+      "target": "job_kit_starter_token_report_find_usage",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/token_report.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_token_report",
+      "target": "job_kit_starter_token_report_report",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/token_report.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_tracker_make_data",
       "target": "job_kit_starter_tracker_make_data_domain_name",
       "relation": "contains",
@@ -15950,28 +15102,6 @@
       "weight": 1.0
     },
     {
-      "source": "scratch_build_batches",
-      "target": "scratch_build_batches_make_script",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/build_batches.py",
-      "source_location": "L6",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_build_lean_batches",
-      "target": "scratch_build_lean_batches_make_lean_script",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/build_lean_batches.py",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
       "source": "scratch_check_all_ats",
       "target": "scratch_check_all_ats_check_source",
       "relation": "contains",
@@ -16115,39 +15245,6 @@
       "weight": 1.0
     },
     {
-      "source": "scratch_find_all_ashby_leads",
-      "target": "scratch_find_all_ashby_leads_check_board",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/find_all_ashby_leads.py",
-      "source_location": "L30",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_early_career_leads",
-      "target": "scratch_find_early_career_leads_scan_gh",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/find_early_career_leads.py",
-      "source_location": "L41",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_early_career_leads",
-      "target": "scratch_find_early_career_leads_scan_ashby",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/find_early_career_leads.py",
-      "source_location": "L67",
-      "weight": 1.0
-    },
-    {
       "source": "scratch_generate_resume",
       "target": "scratch_generate_resume_build_resume",
       "relation": "contains",
@@ -16203,17 +15300,6 @@
       "weight": 1.0
     },
     {
-      "source": "scratch_probe_greenhouse",
-      "target": "scratch_probe_greenhouse_check_gh",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/probe_greenhouse.py",
-      "source_location": "L29",
-      "weight": 1.0
-    },
-    {
       "source": "scratch_query_tokens",
       "target": "scratch_query_tokens_analyze_db",
       "relation": "contains",
@@ -16225,61 +15311,6 @@
       "weight": 1.0
     },
     {
-      "source": "scratch_scan_all_boards",
-      "target": "scratch_scan_all_boards_scan_board",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_all_boards.py",
-      "source_location": "L113",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_ashby",
-      "target": "scratch_scan_ashby_check_ashby",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_ashby.py",
-      "source_location": "L17",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_greenhouse",
-      "target": "scratch_scan_greenhouse_check_greenhouse",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_greenhouse.py",
-      "source_location": "L14",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_india_startups",
-      "target": "scratch_scan_india_startups_check_target",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_india_startups.py",
-      "source_location": "L47",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_india_startups",
-      "target": "scratch_scan_india_startups_process_item",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_india_startups.py",
-      "source_location": "L85",
-      "weight": 1.0
-    },
-    {
       "source": "scratch_scan_jobfound",
       "target": "scratch_scan_jobfound_get_jobfound_jobs",
       "relation": "contains",
@@ -16288,83 +15319,6 @@
       "confidence_score": 1.0,
       "source_file": "scratch/scan_jobfound.py",
       "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_jobfound_deep",
-      "target": "scratch_scan_jobfound_deep_fetch_slug",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_jobfound_deep.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_jobfound_multi",
-      "target": "scratch_scan_jobfound_multi_fetch_slug",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_jobfound_multi.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_lever",
-      "target": "scratch_scan_lever_check_lever",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_lever.py",
-      "source_location": "L14",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_target_boards",
-      "target": "scratch_scan_target_boards_check_ashby",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L17",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_target_boards",
-      "target": "scratch_scan_target_boards_check_gh",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L31",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_target_boards",
-      "target": "scratch_scan_target_boards_check_lever",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L45",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_target_boards",
-      "target": "scratch_scan_target_boards_fetch_target",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch/scan_target_boards.py",
-      "source_location": "L59",
       "weight": 1.0
     },
     {
@@ -16643,17 +15597,6 @@
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_gates_rationale_19",
-      "target": "job_kit_starter_gates_strip_html",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L19",
-      "weight": 1.0
-    },
-    {
       "source": "job_kit_starter_gates_rationale_2",
       "target": "job_kit_starter_gates",
       "relation": "rationale_for",
@@ -16665,25 +15608,58 @@
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_gates_rationale_38",
+      "source": "job_kit_starter_gates_rationale_21",
+      "target": "job_kit_starter_gates_strip_html",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates_rationale_41",
+      "target": "job_kit_starter_gates_region",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates_rationale_51",
+      "target": "job_kit_starter_gates_location_check",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_gates_rationale_76",
       "target": "job_kit_starter_gates_yoe_check",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L38",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_gates_rationale_58",
+      "source": "job_kit_starter_gates_rationale_96",
       "target": "job_kit_starter_gates_personal_info_valid",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L58",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -16706,17 +15682,6 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt_india.py",
       "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_job_hunt_rationale_133",
-      "target": "job_kit_starter_job_hunt_region",
-      "relation": "rationale_for",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L133",
       "weight": 1.0
     },
     {
@@ -16808,6 +15773,17 @@
       "weight": 1.0
     },
     {
+      "source": "job_kit_starter_token_report_rationale_2",
+      "target": "job_kit_starter_token_report",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/token_report.py",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_tracker_make_data_rationale_2",
       "target": "job_kit_starter_tracker_make_data",
       "relation": "rationale_for",
@@ -16853,138 +15829,6 @@
       "weight": 1.0
     },
     {
-      "source": "scratch_find_all_ashby_leads_check_board",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/find_all_ashby_leads.py",
-      "source_location": "L42",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_all_ashby_leads_check_board",
-      "target": "job_kit_starter_gates_yoe_check",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/find_all_ashby_leads.py",
-      "source_location": "L53",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_early_career_leads_scan_ashby",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/find_early_career_leads.py",
-      "source_location": "L78",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_early_career_leads_scan_gh",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/find_early_career_leads.py",
-      "source_location": "L52",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_find_early_career_leads_scan_gh",
-      "target": "job_kit_starter_gates_yoe_check",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/find_early_career_leads.py",
-      "source_location": "L60",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_ashby_check_ashby",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/scan_ashby.py",
-      "source_location": "L29",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_greenhouse_check_greenhouse",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/scan_greenhouse.py",
-      "source_location": "L26",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_india_startups_process_item",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/scan_india_startups.py",
-      "source_location": "L86",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_jobfound_deep_fetch_slug",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/scan_jobfound_deep.py",
-      "source_location": "L43",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_jobfound_multi_fetch_slug",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/scan_jobfound_multi.py",
-      "source_location": "L43",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_scan_lever_check_lever",
-      "target": "job_kit_starter_gates_title_skip",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "context": "call",
-      "source_file": "scratch/scan_lever.py",
-      "source_location": "L26",
-      "weight": 1.0
-    },
-    {
       "source": "job_kit_starter_job_hunt",
       "target": "job_kit_starter_job_hunt_fetch_aiven",
       "relation": "indirect_call",
@@ -16993,7 +15837,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L236",
+      "source_location": "L217",
       "weight": 1.0
     },
     {
@@ -17005,7 +15849,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L236",
+      "source_location": "L217",
       "weight": 1.0
     },
     {
@@ -17017,7 +15861,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L236",
+      "source_location": "L217",
       "weight": 1.0
     },
     {
@@ -17029,7 +15873,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L237",
+      "source_location": "L218",
       "weight": 1.0
     },
     {
@@ -17041,7 +15885,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L237",
+      "source_location": "L218",
       "weight": 1.0
     },
     {
@@ -17053,10 +15897,10 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "job-kit-starter/job_hunt.py",
-      "source_location": "L237",
+      "source_location": "L218",
       "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "eb8eacaed1d51348687b302c74babf7b3fb51a0d"
+  "built_at_commit": "e18f72c7468a2f7f5639f1d6472ea278c7543690"
 }
