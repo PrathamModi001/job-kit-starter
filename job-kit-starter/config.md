@@ -10,7 +10,7 @@
 - **Degree suffix:** (none)
 - **Email:** prathammodi001@gmail.com
 - **Phone:** +91-9033393729
-- **Location:** Koramangala, Bengaluru, India
+- **Location:** Kanpur, Uttar Pradesh, India
 - **LinkedIn:** https://www.linkedin.com/in/prathammodii001/
 - **GitHub:** https://github.com/PrathamModi001
 - **Website:** https://prathammodi001.github.io/prathammodi/

@@ -66,7 +66,7 @@ def derive(r):
 
 
 def main():
-    rows = list(csv.DictReader(open(CSV)))
+    rows = list(csv.DictReader(open(CSV, encoding='utf-8')))
     data = []
     for r in rows:
         via, found = derive(r)
@@ -78,9 +78,9 @@ def main():
         })
     order = {'Applied': 0, 'Drafting': 1, 'Lead': 2, 'Closed': 3, 'Skipped': 4}
     data.sort(key=lambda d: (order.get(d['status'], 5), d['date'], d['co'].lower()))
-    json.dump(data, open(OUT / 'data.json', 'w'), ensure_ascii=False, indent=0)
+    json.dump(data, open(OUT / 'data.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     json.dump({'updated': datetime.date.today().strftime('%d %b %Y')},
-              open(OUT / 'meta.json', 'w'))
+              open(OUT / 'meta.json', 'w', encoding='utf-8'))
     print(f'{len(data)} rows -> {OUT}/data.json')
 
 

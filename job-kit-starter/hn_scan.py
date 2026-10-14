@@ -38,7 +38,7 @@ def clean(t):
 seen_co = set()
 if os.path.exists(CSV):
     import csv as _csv
-    with open(CSV) as f:
+    with open(CSV, encoding="utf-8", errors="replace") as f:
         for row in _csv.DictReader(f):
             seen_co.add(row["Company"].strip().lower())
 
