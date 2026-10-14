@@ -36,6 +36,8 @@ description: Execute the full daily job-search loop end-to-end — scan, rank, t
    - Run `python job-kit-starter/job_hunt.py` to pull top ATS openings (Ashby, Greenhouse, Lever, YC).
    - ~~`job_hunt_india.py`~~ — SKIP (Indeed-only scanner; Indeed is disabled).
    - Run `python job-kit-starter/hn_scan.py` for direct founder/engineering posts.
+   - Run `python job-kit-starter/workday_scan.py` (public Workday career APIs of ~20 big India hirers, gates built in) -> `output/job-search/digest_workday.md`. Workday forms need an account + email OTP, so expect Blocked at apply; use only after the cheaper ATS leads.
+   - **Browser portals, India 0-3 yrs (all no-login to browse; see PLAYBOOK "India portal list"):** run EVERY one each run - Wellfound, Cutshort, jobfound.org, Hirist, Internshala (Jobs tab), Freshersworld, Apna, Shine, TimesJobs, Talent.com - minus `EXCLUDED_PLATFORMS`. Read results as text (`get_page_text`), not screenshots; collect title/company/location/URL per card, run `gates.py preflight` on each, and resolve every survivor to the company's own ATS link where one exists.
 
 3. **Check Portal Feeds** — only the sources listed in `job_hunt_profile.md` → "Approved Sources" (skip any also matching `EXCLUDED_PLATFORMS`):
    - If Playwright browser/extension is active, inspect new matches from the past week on Instahyre (`/candidate/opportunities/?matching=true`), Cutshort (`/profile/all-jobs`), Naukri (`jobAge=7` for last 7 days backend/full-stack roles in Bengaluru/remote), jobfound.org, Wellfound, and LinkedIn jobs search (Bengaluru/remote, backend/full-stack, past week).

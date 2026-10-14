@@ -64,7 +64,7 @@ def location_check(loc, jd=""):
 TITLE_SKIP = re.compile(
     r"\bjava\b|\.net\b|\bc#|asp\.net|c\+\+|\bruby\b|\brails\b|\bsenior\b|\bsr\.?(?=\W)|\bstaff\b|\bprincipal\b|"
     r"\barchitect\b|\blead\b|\bsde[- ]?(?:2|3|ii|iii)\b|\bproduct engineer\s*(?:2|ii)\b|\bpe\s*2\b|"
-    r"\b(?:ii|iii)\b|\b(?:engineer|developer)\s*[23]\b|\bmts\b|member of technical staff|\bcustomer\b|\bclient\b|\bmobile\b|react[- ]native|forward[- ]deployed|\bsolutions? engineer|\bsales engineer", re.I)
+    r"\b(?:ii|iii)\b|\b(?:engineer|developer)\s*[23]\b|\bmts\b|member of technical staff|\bcustomer\b|\bclient\b|\bmobile\b|react[- ]native|forward[- ]deployed|\bsolutions? engineer|\bsales engineer|\b[pls]mts\b|technical leader|\bavp\b|\bvp\b|manager|director|distinguished|\bfellow\b|\d+\s*(?:to|-)\s*\d+\s*years", re.I)
 # Terms that, as the JD's primary focus, also disqualify (checked by a human/LLM; this only flags).
 JD_FLAG = re.compile(r"founding engineer|forward[- ]deployed|customer[- ]facing|client[- ]facing|react[- ]native|mobile (?:app|engineer|developer)", re.I)
 

@@ -132,6 +132,18 @@ csv-logger updates (Status=Applied + dated Next step + req IDs + credentials-fil
 
 Two tiers, run together daily. Both are drafts-only (see outbound policy at the top of CLAUDE.md) and both log to the SAME canonical file: `job-kit-starter/output/job-search/outreach/startups_outreach.csv` (columns now include `Source` and `Tier`), so volume and response rate stay visible across tiers instead of siloed.
 
+### India portal list (browse in the browser; HTTP 200 without login on 2026-10-14 - search filters UNVERIFIED, set them in the page UI)
+Search terms: `node.js developer`, `backend developer`, `full stack developer`, `software developer`; experience 0-3 yrs; location India / the 7 preferred cities. Prefer the company's own ATS link over portal-native apply.
+- Hirist `https://www.hirist.tech/search/node-js-developer` - tech-only, product companies.
+- Internshala `https://internshala.com/jobs/node-js-developer-jobs/` - fresher/early-career (some fake listings; check company).
+- Freshersworld `https://www.freshersworld.com/jobs/jobsearch/software-developer-jobs`
+- Apna `https://apna.co/jobs/software-developer-jobs` (city pages: `...-jobs-in-bengaluru`)
+- Shine `https://www.shine.com/job-search/node-js-developer-jobs`
+- TimesJobs `https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&txtKeywords=node.js&cboWorkExp1=0`
+- Talent.com `https://in.talent.com/jobs?k=node.js+developer&l=India`
+- Not scriptable (403 / Cloudflare): Foundit, Wellfound, Instahyre, startup.jobs, Jooble, Adzuna, Glassdoor (browser only if at all). Google Jobs/Glassdoor/Bayt via JobSpy crash.
+- Scripted: `workday_scan.py` (public Workday APIs; 690 India roles seen, 2 passed gates on 2026-10-14 because ~75% are Senior/Lead and ~13% need 4+ yrs) - the gates are correct, the MNC pool is mostly senior.
+
 ### Tier A — bespoke, 3-5/day
 1. **Research** with parallel subagents across angles: recent YC batches, regional funding news (last ~12 months, seed/Series A in the user's lane), accelerator cohorts, viral launches/build-in-public founders. Each returns structured JSON: company / what / why-fit / founders / guessed email / source.
 2. **Verify emails** before sending (email-prospecting connector if available) — fix guesses, drop dead ones.
