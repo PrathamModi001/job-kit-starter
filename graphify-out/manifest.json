@@ -24,9 +24,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/output/job-search/seen.json": {
-    "mtime": 1792036770.4840572,
-    "seen": 1792038099.05285,
-    "ast_hash": "7fb830b3c2249a137619232b15f18489",
+    "mtime": 1792063725.3953078,
+    "seen": 1792063766.739986,
+    "ast_hash": "d86dd1b9350707016b4f063ac37ebaa7",
     "semantic_hash": ""
   },
   "job-kit-starter/resume.cls": {
@@ -84,8 +84,8 @@
     "semantic_hash": "4bacdb467f88c9788c12e05eae4f2d40"
   },
   "job-kit-starter/tracker/src/meta.json": {
-    "mtime": 1792038079.799136,
-    "seen": 1792038099.052861,
+    "mtime": 1792063754.920054,
+    "seen": 1792063766.7399979,
     "ast_hash": "f9248081ca3a8a413635bb385b28f3e2",
     "semantic_hash": ""
   },
@@ -306,9 +306,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {
-    "mtime": 1792038079.799136,
-    "seen": 1792038099.0528588,
-    "ast_hash": "798ffa8819e4a0ed83aec1d1fc5ba8f5",
+    "mtime": 1792063754.9195473,
+    "seen": 1792063766.739996,
+    "ast_hash": "fc69659676236611529ecb36e262a38f",
     "semantic_hash": ""
   },
   "scratch/playwright_client.py": {
@@ -1893,6 +1893,18 @@
     "mtime": 1792038000.6286955,
     "seen": 1792038099.053014,
     "ast_hash": "ef840d97a83a64a8e586d5086f99005e",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/base_resume_b64.txt": {
+    "mtime": 1792063729.9449837,
+    "seen": 1792063766.7402034,
+    "ast_hash": "7300892ae4e0383bd24bb9d48a06946a",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/job-search/outreach/send_drafts.html": {
+    "mtime": 1792063729.9455,
+    "seen": 1792063766.7402043,
+    "ast_hash": "00c1effdb043ed5d1cbc01cd91c33c85",
     "semantic_hash": ""
   }
 }
