@@ -21,7 +21,7 @@
 "status": "Applied",
 "date": "2026-09-11",
 "url": "https://www.instahyre.com/candidate/opportunities/?search=true",
-"resume": ""
+"resume": "output/AtomicAds - Member of Technical Staff/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Auditoria.AI",
@@ -1565,11 +1565,23 @@
 "loc": "Bengaluru, India",
 "via": "Rippling ATS",
 "found": "Rippling ATS",
-"comp": "",
+"comp": "18-20 LPA",
 "status": "Applied",
 "date": "2026-10-14",
 "url": "https://ats.rippling.com/en-GB/alaan-careers/jobs/187d971b-6e4d-4cf7-bc10-e2be2dc2f917?source=jobfound.org",
 "resume": "output/Alaan - AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Braintrust",
+"role": "Software Engineer, SDK",
+"loc": "Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://jobs.ashbyhq.com/braintrust/2a6c4ee9-063f-45d4-83ba-faf64b1f1a60/application",
+"resume": "output/Braintrust - Software Engineer, SDK/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "ChainSecurity",
@@ -1584,16 +1596,28 @@
 "resume": "output/ChainSecurity - Blockchain Security Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "ElevenLabs",
+"role": "Full-Stack Engineer (Backend Leaning) - Creative Agents",
+"loc": "Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://jobs.ashbyhq.com/elevenlabs/35813150-a851-4821-b732-a037b4e6c4fe/application",
+"resume": "output/ElevenLabs - Full-Stack Engineer (Backend Leaning)/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "IDFC FIRST Bank",
 "role": "Backend Engineer - AI Labs",
 "loc": "Bengaluru",
 "via": "jobfound.org",
 "found": "jobfound.org",
-"comp": "",
+"comp": "18-20 LPA",
 "status": "Applied",
 "date": "2026-10-14",
 "url": "https://careers.idfcfirst.bank.in/in/en/job/IFBAINP224954ENIN/Backend-Engineer-AI-Labs?source=jobfound.org",
-"resume": ""
+"resume": "output/IDFC FIRST Bank - Backend Engineer - AI Labs/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Matcha.fm",
@@ -1606,6 +1630,30 @@
 "date": "2026-10-14",
 "url": "https://matcha.fm/apply/fse",
 "resume": "output/Matcha.fm - Founding Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Rubrik",
+"role": "Software Engineer - Cloud Azure",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://job-boards.greenhouse.io/rubrik/jobs/8258200",
+"resume": "output/Rubrik - Software Engineer - Cloud Azure/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Rubrik",
+"role": "Software Engineer - IAM",
+"loc": "Pune, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-14",
+"url": "https://job-boards.greenhouse.io/rubrik/jobs/7956918",
+"resume": "output/Rubrik - Software Engineer - IAM/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Trackerbot",
@@ -1630,6 +1678,18 @@
 "date": "2026-10-14",
 "url": "https://vvd.world/careers/junior-product-engineer",
 "resume": "output/vvd - Junior Product Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Webbtreejobs",
+"role": "Fullstack Developer",
+"loc": "Mumbai, India",
+"via": "Webbtree",
+"found": "Webbtree",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-15",
+"url": "https://app.webbtree.com/company/webbtreejobs/jobs/fullstack-developer-26c30a23-8eeb-4c7f-8304-982dd573a4ca?source=jobfound.org",
+"resume": "job-kit-starter\\output\\Webbtreejobs - Fullstack Developer\\Pratham_Modi_Resume.pdf"
 },
 {
 "co": "HackerEarth",
@@ -1833,7 +1893,7 @@
 "status": "Skipped",
 "date": "2026-09-11",
 "url": "https://job-boards.greenhouse.io/gitlab/jobs/8775507002",
-"resume": ""
+"resume": "output/GitLab - Intermediate Backend Engineer, India/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "GoDaddy",
@@ -2256,6 +2316,18 @@
 "resume": ""
 },
 {
+"co": "Cursor",
+"role": "Software Engineer, Billing",
+"loc": "Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Skipped",
+"date": "2026-10-14",
+"url": "https://jobs.ashbyhq.com/cursor/47994d20-cc6a-436b-8da0-2eceabfd413e/application",
+"resume": "output/Cursor - Software Engineer, Billing/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "FunnelStory",
 "role": "MTS, Applied ML",
 "loc": "Remote (India)",
@@ -2265,6 +2337,18 @@
 "status": "Skipped",
 "date": "2026-10-14",
 "url": "https://news.ycombinator.com/item?id=49969213",
+"resume": ""
+},
+{
+"co": "Inngest",
+"role": "Distributed Systems Engineer - Platform",
+"loc": "US/Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Skipped",
+"date": "2026-10-14",
+"url": "https://jobs.ashbyhq.com/inngest/ae72d036-b98b-4abb-8454-a687870cf0ca",
 "resume": ""
 },
 {
@@ -2301,6 +2385,18 @@
 "status": "Skipped",
 "date": "2026-10-14",
 "url": "https://careers.wexinc.com/us/en/job/WEXWEXUSR22748EXTERNALENUS/Software-Development-Engineer-1?source=jobfound.org",
+"resume": ""
+},
+{
+"co": "Traker",
+"role": "Software Developer",
+"loc": "Mumbai, India",
+"via": "jobfound.org",
+"found": "jobfound.org",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-10-15",
+"url": "https://traker.live/careers/f0690559-41c4-4b0a-ae64-384962bea31c?source=jobfound.org",
 "resume": ""
 },
 {
@@ -2736,15 +2832,63 @@
 "resume": "output/SigNoz - Exceptional Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Airbnb",
+"role": "Operations Engineer, Tech Foundations",
+"loc": "Remote - India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Blocked",
+"date": "2026-10-14",
+"url": "https://boards.greenhouse.io/airbnb/jobs/8083137",
+"resume": "output/Airbnb - Operations Engineer, Tech Foundations/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HP",
 "role": "Software Applications",
 "loc": "Bengaluru, Karnātaka, India",
 "via": "Workday",
 "found": "Workday",
-"comp": "",
+"comp": "18-20 LPA",
 "status": "Blocked",
 "date": "2026-10-14",
 "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Bengaluru-Karntaka-India/Software-Applications_3166748-1?source=jobfound.org",
 "resume": "output/HP - Software Applications/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Okta",
+"role": "Site Reliability Engineer",
+"loc": "Bengaluru, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Blocked",
+"date": "2026-10-14",
+"url": "https://job-boards.greenhouse.io/okta/jobs/8243101",
+"resume": "output/Okta - Site Reliability Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Nvidia",
+"role": "System Software Engineer - Performance Verification Infrastructure",
+"loc": "India, Bengaluru",
+"via": "Workday",
+"found": "Workday",
+"comp": "18-20 LPA",
+"status": "Blocked",
+"date": "2026-10-15",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer---Performance-Verification-Infrastructure_JR2025205",
+"resume": "job-kit-starter/output/Nvidia - System Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Valiance Solutions",
+"role": "Software Engineer",
+"loc": "India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "18-20 LPA",
+"status": "Blocked",
+"date": "2026-10-15",
+"url": "https://wellfound.com/jobs/1855211-software-engineer",
+"resume": ""
 }
 ]
