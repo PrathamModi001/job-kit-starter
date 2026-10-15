@@ -1,19 +1,26 @@
-from http.server import HTTPServer, BaseHTTPRequestHandler
-import sys
+import http.server
+import socketserver
+import os
 
-PDF_PATH = r"E:\Extra\job-kit-starter\job-kit-starter\output\Pratham_Modi_Base_Resume.pdf"
+PORT = 8765
+RESUME_PATH = r"E:\Extra\job-kit-starter\job-kit-starter\output\Pratham_Modi_Base_Resume.pdf"
 
-with open(PDF_PATH, "rb") as f:
-    pdf_bytes = f.read()
-
-class Handler(BaseHTTPRequestHandler):
+class Handler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
-        self.send_response(200)
-        self.send_header("Content-Type", "application/pdf")
-        self.send_header("Access-Control-Allow-Origin", "*")
-        self.send_header("Content-Length", str(len(pdf_bytes)))
-        self.end_headers()
-        self.wfile.write(pdf_bytes)
+        if self.path == "/resume.pdf":
+            self.send_response(200)
+            self.send_header("Content-type", "application/pdf")
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
+            self.send_header("Access-Control-Allow-Headers", "*")
+            with open(RESUME_PATH, "rb") as f:
+                content = f.read()
+            self.send_header("Content-Length", str(len(content)))
+            self.end_headers()
+            self.wfile.write(content)
+        else:
+            self.send_response(404)
+            self.end_headers()
 
     def do_OPTIONS(self):
         self.send_response(200)
@@ -22,6 +29,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Headers", "*")
         self.end_headers()
 
-server = HTTPServer(("127.0.0.1", 8765), Handler)
-print("Server running on http://127.0.0.1:8765/resume.pdf", flush=True)
-server.serve_forever()
+if __name__ == "__main__":
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        print(f"Serving resume on port {PORT}")
+        httpd.serve_forever()
