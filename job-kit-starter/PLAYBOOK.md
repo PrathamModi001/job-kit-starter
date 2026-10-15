@@ -132,6 +132,18 @@ csv-logger updates (Status=Applied + dated Next step + req IDs + credentials-fil
 
 Two tiers, run together daily. Both are drafts-only (see outbound policy at the top of CLAUDE.md) and both log to the SAME canonical file: `job-kit-starter/output/job-search/outreach/startups_outreach.csv` (columns now include `Source` and `Tier`), so volume and response rate stay visible across tiers instead of siloed.
 
+### India portal list (browse in the browser; HTTP 200 without login on 2026-10-14 - search filters UNVERIFIED, set them in the page UI)
+Search terms: `node.js developer`, `backend developer`, `full stack developer`, `software developer`; experience 0-3 yrs; location India / the 7 preferred cities. Prefer the company's own ATS link over portal-native apply.
+- Hirist `https://www.hirist.tech/search/node-js-developer` - tech-only, product companies.
+- Internshala `https://internshala.com/jobs/node-js-developer-jobs/` - fresher/early-career (some fake listings; check company).
+- Freshersworld `https://www.freshersworld.com/jobs/jobsearch/software-developer-jobs`
+- Apna `https://apna.co/jobs/software-developer-jobs` (city pages: `...-jobs-in-bengaluru`)
+- Shine `https://www.shine.com/job-search/node-js-developer-jobs`
+- TimesJobs `https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&txtKeywords=node.js&cboWorkExp1=0`
+- Talent.com `https://in.talent.com/jobs?k=node.js+developer&l=India`
+- Not scriptable (403 / Cloudflare): Foundit, Wellfound, Instahyre, startup.jobs, Jooble, Adzuna, Glassdoor (browser only if at all). Google Jobs/Glassdoor/Bayt via JobSpy crash.
+- Scripted: `workday_scan.py` (public Workday APIs; 690 India roles seen, 2 passed gates on 2026-10-14 because ~75% are Senior/Lead and ~13% need 4+ yrs) - the gates are correct, the MNC pool is mostly senior.
+
 ### Tier A — bespoke, 3-5/day
 1. **Research** with parallel subagents across angles: recent YC batches, regional funding news (last ~12 months, seed/Series A in the user's lane), accelerator cohorts, viral launches/build-in-public founders. Each returns structured JSON: company / what / why-fit / founders / guessed email / source.
 2. **Verify emails** before sending (email-prospecting connector if available) — fix guesses, drop dead ones.
@@ -141,6 +153,11 @@ Two tiers, run together daily. Both are drafts-only (see outbound policy at the 
 Full template, subject-line rotation, pre-approved metric pool, and deliverability rules: `output/job-search/outreach/tier_b_template.md`. Summary: fixed skeleton, but `{HOOK}` (one sentence tied to something real about them) and 2 metrics picked from a pre-approved pool always vary per company — no two bodies in a batch are byte-identical, since identical bodies at volume get spam-clustered on a personal Gmail account.
 - **Lead sources for volume** (mix daily, don't pull 30 from one channel): `python3 hn_scan.py` now extracts direct emails per on-criteria comment (printed inline — falls back to "use HN profile contact link" if none found in the comment text) · funding-news/YC research (same subagent fan-out as Tier A) · `waas_scan.py` index · founder build-in-public posts.
 - `Tier=B`, `Source=HN|Funding News|WaaS|...` per row.
+
+### Indian startups: target engineers/managers, not founders
+Founder emails to Indian unicorns got zero replies. For the India batch, email an engineer or engineering manager on the team you'd join, with a short referral-style ask ("is the team hiring backend folks? here is what I built") instead of a job pitch to a CEO.
+- Find them: `python outreach_targets.py <github-org> [<github-org> ...]` lists public commit-author emails on the company's own domain (no guessing, so `Confidence=Verified`, `Source=GitHub commit author`). Pick 1-2 active people per company; skip founders/CEOs. Works only for companies with public repos (e.g. razorpay, zerodha, hasura, atlanhq); for the rest fall back to team/about pages or engineering-blog authors.
+- The global (non-India) batch keeps targeting founders - that lane is working.
 
 ### Shared mechanics (both tiers)
 4. Draft into Gmail with the base resume attached (**exact path: `output/Pratham_Modi_Base_Resume.pdf`**, always this file for outreach — drafts only, the USER hits send).
