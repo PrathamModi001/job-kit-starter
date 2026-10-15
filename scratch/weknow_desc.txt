@@ -1,0 +1,12 @@
+Backend Engineer at WeKnow Group • Bangalore Urban • Remote (Work from Home) | Wellfound 
+ {"@context":"http://schema.org/","@type":"JobPosting","title":"Backend Engineer","identifier":{"@type":"PropertyValue","name":"WeKnow Group","value":"3721618-backend-engineer"},"employmentType":"FULL_TIME","hiringOrganization":{"@type":"Organization","name":"WeKnow Group","sameAs":"https://www.weknowlondon.com/company-overview","logo":"https://photos.wellfound.com/startups/i/10813689-e461faef3710605bc16f281929a92142-medium_jpg.jpg?buster=1767851172","location":[{"@type":"Place","address":{"@type":"PostalAddress","addressRegion":"Karnataka","addressCountry":"India"},"latitude":12.97,"longitude":77.6536}]},"image":"https://photos.wellfound.com/startups/i/10813689-e461faef3710605bc16f281929a92142-medium_jpg.jpg?buster=1767851172","industry":"Travel & Tourism","directApply":true,"description":"
+We are hiring a Backend Engineer to join our engineering team in Bangalore. \n\n
+In this role, you will focus on building and maintaining backend systems, APIs, partner integrations, and internal services that enable our kiosks, booking journeys, payment flows, and operational dashboards. \n\n
+You will work closely with product and engineering stakeholders to deliver new features, improve reliability, strengthen third-party integrations, and support rapid growth across global markets. \n\n
+ Key Responsibilities \n\n \n
+Design, build, and maintain backend APIs and microservices using Java (Spring Boot preferred). \n
+Develop and improve integrations with third-party systems including payment gateways, transport aggregators, telecom providers, and operations partners. \n
+Implement reliable data flows, caching layers, background jobs, and system automation. \n
+Write clean, maintainable, well-tested code following engineering best practices. \n
+Collaborate with the Product Manager to translate business requirements into technical specifications. \n
+Investigate, troubleshoot, and resolve issues a

@@ -1680,6 +1680,18 @@
 "resume": "output/vvd - Junior Product Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Webbtreejobs",
+"role": "Fullstack Developer",
+"loc": "Mumbai, India",
+"via": "Webbtree",
+"found": "Webbtree",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-15",
+"url": "https://app.webbtree.com/company/webbtreejobs/jobs/fullstack-developer-26c30a23-8eeb-4c7f-8304-982dd573a4ca?source=jobfound.org",
+"resume": "job-kit-starter\\output\\Webbtreejobs - Fullstack Developer\\Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -2376,6 +2388,18 @@
 "resume": ""
 },
 {
+"co": "Traker",
+"role": "Software Developer",
+"loc": "Mumbai, India",
+"via": "jobfound.org",
+"found": "jobfound.org",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-10-15",
+"url": "https://traker.live/careers/f0690559-41c4-4b0a-ae64-384962bea31c?source=jobfound.org",
+"resume": ""
+},
+{
 "co": "First American India Pvt Ltd",
 "role": "Software Engineer II- Middleware",
 "loc": "Bengaluru, Karnataka",
@@ -2842,5 +2866,29 @@
 "date": "2026-10-14",
 "url": "https://job-boards.greenhouse.io/okta/jobs/8243101",
 "resume": "output/Okta - Site Reliability Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Nvidia",
+"role": "System Software Engineer - Performance Verification Infrastructure",
+"loc": "India, Bengaluru",
+"via": "Workday",
+"found": "Workday",
+"comp": "18-20 LPA",
+"status": "Blocked",
+"date": "2026-10-15",
+"url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/System-Software-Engineer---Performance-Verification-Infrastructure_JR2025205",
+"resume": "job-kit-starter/output/Nvidia - System Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Valiance Solutions",
+"role": "Software Engineer",
+"loc": "India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "18-20 LPA",
+"status": "Blocked",
+"date": "2026-10-15",
+"url": "https://wellfound.com/jobs/1855211-software-engineer",
+"resume": ""
 }
 ]

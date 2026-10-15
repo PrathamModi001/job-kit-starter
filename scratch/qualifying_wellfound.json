@@ -1,0 +1,325 @@
+[
+  {
+    "company": "Assistry",
+    "title": "Junior Backend Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/1388493-junior-backend-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 12,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 6,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 6
+    },
+    "desc": "Junior Backend Engineer at FactWise \u2022 Mumbai \u2022 Thane \u2022 Navi Mumbai | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Junior Backend Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"FactWise\",\"value\":\"1388493-junior-backend-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"FactWise\",\"sameAs\":\"https://www.factwise.io\",\"logo\":\"https://photos.wellfound.com/startups/i/8186491-2ad9f8fcceb950a193615990b0f9abed-medium_jpg.jpg?buster=1698300943\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Mumbai\",\"addressRegion\":\"Maharashtra\",\"addressCountry\":\"India\"},\"latitude\":19.076,\"longitude\":72.8777}]},\"image\":\"https://photos.wellfound.com/startups/i/8186491-2ad9f8fcceb950a193615990b0f9abed-medium_jpg.jpg?buster=1698300943\",\"industry\":\"Enterprise Software, Cloud Computing, Mobile Commerce, Procurement, and Mobile Application\",\"directApply\":true,\"description\":\"\n Selected candidate's day-to-day responsibilities include: \\n\\n\nOur tech stack is Python/Django . As a member of the development group, you will be primarily responsible for the design, development, and maintenance of the product: \\n\\n \\n\nHelp define and create full stack architecture and deployment using React- Django-AWS in an agile environment with lots of ownership and active mentoring.\n \\n\nWork with the Product and Design teams to build new features to solve business problems and fill business needs \\n\nParticipate in code reviews to create robust and maintainable code \\n\nWork in an agile environment where quick iterations and good feedback are a way of life \\n\nInteract with other stakeholders for requirement, design discussions and for adoption of new features \\n\nCommunicate and coordinate with our support and professional services teams to solve customer issues.\n \\n\nHelp scale our platform as we expand our product across various markets and verticals globally. \\n \\n\",\"datePosted\":\"2026-07-09T16:37:59Z\",\"jobLoc"
+  },
+  {
+    "company": "Seekaxis",
+    "title": "Full Stack Engineer (+Flutter)",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/1638364-full-stack-engineer-flutter",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 12,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 5,
+      "yoe": 2,
+      "location": 2,
+      "jd_profile_terms": 5
+    },
+    "desc": "Full Stack Engineer (+Flutter) at Seek Rewards \u2022 Bengaluru | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Full Stack Engineer (+Flutter)\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"Seek Rewards\",\"value\":\"1638364-full-stack-engineer-flutter\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"Seek Rewards\",\"sameAs\":\"http://seekrewards.com\",\"logo\":\"https://photos.wellfound.com/startups/i/4690291-cb3e91389cfd45a8908faf2a45b806c2-medium_jpg.jpg?buster=1694341615\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Bengaluru\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":12.9716,\"longitude\":77.5946}]},\"image\":\"https://photos.wellfound.com/startups/i/4690291-cb3e91389cfd45a8908faf2a45b806c2-medium_jpg.jpg?buster=1694341615\",\"industry\":\"Digital Media, Sales and Marketing, Online Travel, Marketplaces, Loyalty Programs, Advertising Platforms, Online Shopping, Travel & Tourism, and Consumer\",\"directApply\":true,\"description\":\"\nAbout Seek \\n\nWe are building a consumer-first rewards platform that brings personalised offers and rewards for every consumer. \\n\\n\nThis is a very early opportunity, you will be working with the Founding team to build Seek's first product and business from the ground up. \\n\nWhat will I do in this role? \\n \\n\ndevelop designs into high-performance mobile apps \\n\nown and be responsible for performance, security and experience on the Seek mobile apps \\n \\n\nWhat's in it for me? \\n \\n\nYou'll be one of the earliest members in the team \\n\nExperience how a startup is built in its early days \\n\nExplore and acquire new skills along with building depth in your desired field of work \\n\nWrite \"IRTJD\" in your cover note. \\n \\n\nRequired Skills and Interests \\n \\n\nNextJS, REST APIs \\n\nFlutter/React \\n\nFirebase \\n\nAndroid/iOS Development \\n\nAWS \\n \\n\\n \\n\\n\nIf you're reading this, apply at https://tally.so/r/me5Q6l \\n\",\"datePosted\":\"2025-08-15T18:17:21Z\",\"job"
+  },
+  {
+    "company": "Valiance Solutions",
+    "title": "Software Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/1855211-software-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 15,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 8,
+      "yoe": 2,
+      "location": 2,
+      "jd_profile_terms": 8
+    },
+    "desc": "Software Engineer at Valiance Solutions \u2022 Bangalore Urban | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Software Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"Valiance Solutions\",\"value\":\"1855211-software-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"Valiance Solutions\",\"sameAs\":\"http://valiancesolutions.com\",\"logo\":\"https://photos.wellfound.com/startups/i/545060-6f2fd77f79c303fe4cc9457934a30026-medium_jpg.jpg?buster=1618913701\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Noida\",\"addressRegion\":\"Uttar Pradesh\",\"addressCountry\":\"India\"},\"latitude\":28.5355,\"longitude\":77.391},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Bengaluru\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":12.9716,\"longitude\":77.5946}]},\"image\":\"https://photos.wellfound.com/startups/i/545060-6f2fd77f79c303fe4cc9457934a30026-medium_jpg.jpg?buster=1618913701\",\"industry\":\"Financial Services, Cloud Computing, Artificial Intelligence, Internet of Things, and Big Data Analytics\",\"directApply\":true,\"description\":\"\n About Us \\n\\n\nValiance is a global AI & Data analytics firm helping clients build cutting-edge technology solutions for digital transformation. We work with some of the marquee brands across India, US and APAC to build transformative solutions for Credit Risk, Fraud, Predictive Maintenance, Quality Inspection, Data lake, IOT analytics etc. Our team comprises 150+ professionals across Machine Learning, Data Engineering & Cloud expertise. \\n\\n\nWe are looking to hire a Software Engineer to help our customers operationalize data analytics and ML algorithms. You will be working closely with data science & data engineering teams to transform their code for the production environment. \\n\\n\n Roles & Responsibilities: \\n\\n \\n\nWrite high-performing, scalable code following best practices. \\n\nImprove the existing code base for performan"
+  },
+  {
+    "company": "Embarkcorp",
+    "title": "Technical Implementation Associate &amp; Engineer (Asia - US Hours)",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/213955-technical-implementation-associate-engineer-asia-us-hours",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 8,
+    "fit_parts": {
+      "lane": 1,
+      "stack": 4,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 4
+    },
+    "desc": "Technical Implementation Associate & Engineer (Asia - US Hours) at Embark \u2022 India \u2022 Remote (Work from Home) | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Technical Implementation Associate & Engineer (Asia - US Hours)\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"Embark\",\"value\":\"213955\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"Embark\",\"sameAs\":\"http://www.embark.com\",\"logo\":\"https://photos.wellfound.com/startups/i/627393-1b5ba41b6b1122cbd9e638d286b163a2-medium_jpg.jpg?buster=1589650754\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"New York\",\"addressRegion\":\"New York\",\"addressCountry\":\"United States\"},\"latitude\":40.7128,\"longitude\":-74.0059},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"New York\",\"addressCountry\":\"United States\"},\"latitude\":43.2994,\"longitude\":-74.2179}]},\"image\":\"https://photos.wellfound.com/startups/i/627393-1b5ba41b6b1122cbd9e638d286b163a2-medium_jpg.jpg?buster=1589650754\",\"industry\":\"Internet, Education, Software, Higher Education, University And Educational Institutions, and College Admissions\",\"directApply\":true,\"description\":\"\n About Embark \\n\\n\nSince 1995, Embark has been a leading provider of online application and admissions software to colleges, universities, and fellowship programs around the world. We've powered more than 17 million applications for clients including Harvard, Stanford, NYU, and the Rhodes Scholarships. Embark is investing in the next generation of our platform, including AI-powered features for applicants and admissions teams. \\n\\n\n The Role \\n\\n\nThis is a hybrid technical role that sits between our clients, their applicants, and our engineering team. You'll configure and build application workflows for universities and fellowship programs, and you'll also write code to build the software that enables them to create those workflows. \\n\\n\nYou'll also be the voice of Embark for clients. We"
+  },
+  {
+    "company": "Koko Networks 1",
+    "title": "Performance Quality Engineer (SRE)",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/2382319-performance-quality-engineer-sre",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 12,
+    "fit_parts": {
+      "lane": 1,
+      "stack": 8,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 8
+    },
+    "desc": "Performance Quality Engineer (SRE) at KOKO Networks \u2022 Pune | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Performance Quality Engineer (SRE)\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"KOKO Networks\",\"value\":\"2382319-performance-quality-engineer-sre\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"KOKO Networks\",\"sameAs\":\"http://www.kokonetworks.com/\",\"logo\":\"https://photos.wellfound.com/startups/i/6133866-7ccbc1b462a7b478353c19a7edcac981-medium_jpg.jpg?buster=1583874423\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressCountry\":\"India\"},\"latitude\":20.5937,\"longitude\":78.9629},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Nairobi\",\"addressRegion\":\"Nairobi\",\"addressCountry\":\"Kenya\"},\"latitude\":-1.29207,\"longitude\":36.8219},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Pune\",\"addressRegion\":\"Maharashtra\",\"addressCountry\":\"India\"},\"latitude\":18.5204,\"longitude\":73.8567},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Ahmedabad\",\"addressRegion\":\"Gujarat\",\"addressCountry\":\"India\"},\"latitude\":23.0225,\"longitude\":72.5714}]},\"image\":\"https://photos.wellfound.com/startups/i/6133866-7ccbc1b462a7b478353c19a7edcac981-medium_jpg.jpg?buster=1583874423\",\"industry\":\"Clean Energy, E-Commerce, Retail, Technology, and Trade Platform\",\"directApply\":true,\"description\":\"\nAbout KOKO Networks\n\\nKOKO Networks is a venture-backed climate-tech company with 1,200+ employees across East Africa & India. Our mission is to imagine and deliver technology that improves life in the world\u2019s fastest growing cities. We offer a fast-paced and highly collaborative work environment with significant opportunities for professional growth. Our core lines of business currently include: (1) KOKO Fuel, an ultra-clean liquid bioethanol cooking fuel solution delivered via a network of smart fuel ATMs and leveraging existing downstream liquid fuels infra"
+  },
+  {
+    "company": "Valiance Solutions",
+    "title": "AI Software Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/248309-ai-software-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 10,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 3,
+      "yoe": 2,
+      "location": 2,
+      "jd_profile_terms": 3
+    },
+    "desc": "AI Software Engineer at Valiance Solutions \u2022 Bangalore Urban | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"AI Software Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"Valiance Solutions\",\"value\":\"248309-ai-software-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"Valiance Solutions\",\"sameAs\":\"http://valiancesolutions.com\",\"logo\":\"https://photos.wellfound.com/startups/i/545060-6f2fd77f79c303fe4cc9457934a30026-medium_jpg.jpg?buster=1618913701\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Noida\",\"addressRegion\":\"Uttar Pradesh\",\"addressCountry\":\"India\"},\"latitude\":28.5355,\"longitude\":77.391},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Bengaluru\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":12.9716,\"longitude\":77.5946}]},\"image\":\"https://photos.wellfound.com/startups/i/545060-6f2fd77f79c303fe4cc9457934a30026-medium_jpg.jpg?buster=1618913701\",\"industry\":\"Financial Services, Cloud Computing, Artificial Intelligence, Internet of Things, and Big Data Analytics\",\"directApply\":true,\"description\":\"\n About Us \n\\nValiance is a global AI & Data analytics firm helping clients build cutting-edge technology solutions for digital transformation. We work with some of the marquee brands across India, US and APAC to build transformative solutions for Credit Risk, Fraud, Predictive Maintenance, Quality Inspection, Data lake, IOT analytics etc. Our team comprises 120+ professionals across Machine Learning, Data Engineering & Cloud expertise. \\n\\n\nAs a Generative AI Engineer, you will be responsible for developing and implementing cutting-edge generative AI models to solve complex problems. You will work closely with various stakeholders to design, build, and deploy AI-powered solutions that enhance ABG products and services. \\n\\n\n Key Roles and Responsibilities \\n\\n \\n\nDefine, build and deploy enterprise focused Generative A"
+  },
+  {
+    "company": "Myntiq Tech",
+    "title": "Full Stack Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/3647100-full-stack-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 11,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 5,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 5
+    },
+    "desc": "Full Stack Engineer at Myntiq Tech \u2022 Ahmedabad | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Full Stack Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"Myntiq Tech\",\"value\":\"3647100-full-stack-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"Myntiq Tech\",\"sameAs\":\"https://myntiq.tech\",\"logo\":\"https://photos.wellfound.com/startups/i/10782288-ba866ea6689e52a49355f89648a4c7b3-medium_jpg.jpg?buster=1765279504\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Ahmedabad\",\"addressRegion\":\"Gujarat\",\"addressCountry\":\"India\"},\"latitude\":23.0225,\"longitude\":72.5714}]},\"image\":\"https://photos.wellfound.com/startups/i/10782288-ba866ea6689e52a49355f89648a4c7b3-medium_jpg.jpg?buster=1765279504\",\"industry\":\"Cloud Computing, Artificial Intelligence, Web Development, and Mobile Application\",\"directApply\":true,\"description\":\"\nCompany Description \\n\\n\nMyntiq Tech LLP specializes in developing innovative digital solutions that help businesses thrive in today's technology-driven world. Our expertise ranges from custom product development and scalable cloud systems to mobile app creation and enterprise AI solutions. With a focus on combining cutting-edge technology and a customer-first approach, we aim to deliver impactful results that enhance business growth. Our services also include robust web development and user-centric UI/UX design. At Myntiq, we are driven to turn ideas into transformative realities. \\n\\n\nRole Description \\n\\n\nThis is a full-time hybrid role, based in Ahmedabad, with the flexibility to work from home on occasion. As a Full Stack Engineer, you will be responsible for developing, testing, and maintaining scalable web and mobile solutions. Your daily tasks will include designing both front-end and back-end components, implementing functionalities, ensuring code quality, and collaborating with cross-functional teams to enhance system performance and user"
+  },
+  {
+    "company": "Weknow Group",
+    "title": "Backend Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/3721618-backend-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 15,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 8,
+      "yoe": 2,
+      "location": 2,
+      "jd_profile_terms": 11
+    },
+    "desc": "Backend Engineer at WeKnow Group \u2022 Bangalore Urban \u2022 Remote (Work from Home) | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Backend Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"WeKnow Group\",\"value\":\"3721618-backend-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"WeKnow Group\",\"sameAs\":\"https://www.weknowlondon.com/company-overview\",\"logo\":\"https://photos.wellfound.com/startups/i/10813689-e461faef3710605bc16f281929a92142-medium_jpg.jpg?buster=1767851172\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":12.97,\"longitude\":77.6536}]},\"image\":\"https://photos.wellfound.com/startups/i/10813689-e461faef3710605bc16f281929a92142-medium_jpg.jpg?buster=1767851172\",\"industry\":\"Travel & Tourism\",\"directApply\":true,\"description\":\"\nWe are hiring a Backend Engineer to join our engineering team in Bangalore. \\n\\n\nIn this role, you will focus on building and maintaining backend systems, APIs, partner integrations, and internal services that enable our kiosks, booking journeys, payment flows, and operational dashboards. \\n\\n\nYou will work closely with product and engineering stakeholders to deliver new features, improve reliability, strengthen third-party integrations, and support rapid growth across global markets. \\n\\n\n Key Responsibilities \\n\\n \\n\nDesign, build, and maintain backend APIs and microservices using Java (Spring Boot preferred). \\n\nDevelop and improve integrations with third-party systems including payment gateways, transport aggregators, telecom providers, and operations partners. \\n\nImplement reliable data flows, caching layers, background jobs, and system automation. \\n\nWrite clean, maintainable, well-tested code following engineering best practices. \\n\nCollaborate with the Product Manager to translate business requirements into technical specifications. \\n\nInvestigate, troubleshoot, and resolve issues a"
+  },
+  {
+    "company": "Helioai",
+    "title": "Backend Engineer Intern",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/3792825-backend-engineer-intern",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 13,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 7,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 7
+    },
+    "desc": "Backend Engineer Intern at HelioAI \u2022 Hubli \u2022 Remote (Work from Home) | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Backend Engineer Intern\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"HelioAI\",\"value\":\"3792825-backend-engineer-intern\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"HelioAI\",\"sameAs\":\"https://www.helioai.tech\",\"logo\":\"https://photos.wellfound.com/startups/i/10743688-d8aa337e2b6c9016c48e6a67e6da1025-medium_jpg.jpg?buster=1766402718\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Hubli\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":15.3647,\"longitude\":75.124}]},\"image\":\"https://photos.wellfound.com/startups/i/10743688-d8aa337e2b6c9016c48e6a67e6da1025-medium_jpg.jpg?buster=1766402718\",\"industry\":\"Shopify \",\"directApply\":true,\"description\":\"\n Backend Intern to Full-Time Opportunity \n\\n HelioAI (helioai.tech) \\n\\n\nHelioAI is building a reliable AI concierge for Shopify brands, helping shoppers get accurate answers, discover products faster, and complete purchases with confidence, while reducing support workload for brands. \\n\\n\nWe\u2019re looking for a Backend Intern with hands-on Node.js experience who can dedicate 6\u20138 hours a day and wants to work on real production systems across Shopify + AI infrastructure . \\n\\n\nThis role begins as a 4-month internship . Based on performance, consistency, and ownership, it can be converted into a full-time role . The same structure applies to compensation as well: an internship stipend during the first 4 months, followed by a revised full-time salary upon conversion. \\n\\n\n Fresh graduates are welcome too if you\u2019ve built real projects, enjoy solving backend problems, and love shipping fast. \\n\nWhat you\u2019ll do \\n \\n\nBuild backend services using Node.js + TypeScript \\n\nIntegrate Shopify Admin APIs ( REST/GraphQL ) and webhooks \\n\nCreate reliable workflows with retries, rate limits, and idempotency \\n\nWork"
+  },
+  {
+    "company": "Helioai",
+    "title": "AI Engineer Intern",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/3792826-ai-engineer-intern",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 9,
+    "fit_parts": {
+      "lane": 1,
+      "stack": 5,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 5
+    },
+    "desc": "AI Engineer Intern at HelioAI \u2022 Hubli \u2022 Remote (Work from Home) | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"AI Engineer Intern\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"HelioAI\",\"value\":\"3792826-ai-engineer-intern\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"HelioAI\",\"sameAs\":\"https://www.helioai.tech\",\"logo\":\"https://photos.wellfound.com/startups/i/10743688-d8aa337e2b6c9016c48e6a67e6da1025-medium_jpg.jpg?buster=1766402718\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Hubli\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":15.3647,\"longitude\":75.124}]},\"image\":\"https://photos.wellfound.com/startups/i/10743688-d8aa337e2b6c9016c48e6a67e6da1025-medium_jpg.jpg?buster=1766402718\",\"industry\":\"Shopify \",\"directApply\":true,\"description\":\"\n HelioAI (helioai.tech) is building a safe + controllable AI concierge for Shopify brands.\n\\nNot random \u201ctext generation\u201d we build grounded agents that give correct answers about products, orders, policies, shipping, refunds, etc. \\n\\n\nWe\u2019re hiring an AI Engineer (LLM + RAG) who enjoys solving real reliability problems in production AI.\n\\n College freshers with a fresh mind are welcome too. If you\u2019ve built any LLM/RAG project and can learn fast. \\n\\n\n What you\u2019ll do \\n\\n \\n\nBuild RAG pipelines (retrieval \u2192 grounded answers \u2192 citations) \\n\nReduce hallucinations using structured outputs + tool calling \\n\nImprove relevance (chunking, embeddings, reranking, filters) \\n\nCreate evaluation datasets + quality scoring (good/bad answers) \\n\nAdd guardrails (policy-safe, brand-safe, deterministic for orders) \\n\nWork with backend + product to ship weekly improvements \\n \\n\\n\n What you\u2019ll work on (examples) \\n\\n \\n\nProduct recommendation agent (upsell + bundles + AOV lift) \\n\nOrder + shipping agent (accurate, deterministic answers) \\n\nKnowledge updates (FAQs, policies, announcements) \\n\nOmnichannel agents (Web + WhatsApp + I"
+  },
+  {
+    "company": "Hyrmus 1",
+    "title": "Backend engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/3989417-backend-engineer",
+    "yoe_st": "borderline",
+    "yoe_ev": "2\u20134 years",
+    "fit_score": 9,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 2,
+      "yoe": 2,
+      "location": 2,
+      "jd_profile_terms": 2
+    },
+    "desc": "Backend engineer at HYRMUS \u2022 Karnataka \u2022 Bangalore Urban | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Backend engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"HYRMUS\",\"value\":\"3989417-backend-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"HYRMUS\",\"sameAs\":\"https://www.hyrmus.com\",\"logo\":\"https://photos.wellfound.com/startups/i/10847494-3945f6369de48d70279aad85d7f98a32-medium_jpg.jpg?buster=1770037131\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Delhi\",\"addressCountry\":\"India\"},\"latitude\":28.7041,\"longitude\":77.1025},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Hyderabad\",\"addressRegion\":\"Telangana\",\"addressCountry\":\"India\"},\"latitude\":17.385,\"longitude\":78.4867},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Indore\",\"addressRegion\":\"Madhya Pradesh\",\"addressCountry\":\"India\"},\"latitude\":22.7196,\"longitude\":75.8577},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Bhopal\",\"addressRegion\":\"Madhya Pradesh\",\"addressCountry\":\"India\"},\"latitude\":23.2599,\"longitude\":77.4126},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Mumbai\",\"addressRegion\":\"Maharashtra\",\"addressCountry\":\"India\"},\"latitude\":19.076,\"longitude\":72.8777},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Noida\",\"addressRegion\":\"Uttar Pradesh\",\"addressCountry\":\"India\"},\"latitude\":28.5355,\"longitude\":77.391},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Navi Mumbai\",\"addressRegion\":\"Maharashtra\",\"addressCountry\":\"India\"},\"latitude\":19.033,\"longitude\":73.0297},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":12.97,\"longitude\":77.6536},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Gurugram\",\"addressRegion\":\"Haryana\",\"addressCountry\":\"India\"},\"latitude\":28.4595,\""
+  },
+  {
+    "company": "Weknow Group",
+    "title": "Frontend Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/4014774-frontend-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 9,
+    "fit_parts": {
+      "lane": 1,
+      "stack": 4,
+      "yoe": 2,
+      "location": 2,
+      "jd_profile_terms": 4
+    },
+    "desc": "Frontend Engineer at WeKnow Group \u2022 Bangalore Urban \u2022 Remote (Work from Home) | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Frontend Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"WeKnow Group\",\"value\":\"4014774\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"WeKnow Group\",\"sameAs\":\"https://www.weknowlondon.com/company-overview\",\"logo\":\"https://photos.wellfound.com/startups/i/10813689-e461faef3710605bc16f281929a92142-medium_jpg.jpg?buster=1767851172\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":12.97,\"longitude\":77.6536}]},\"image\":\"https://photos.wellfound.com/startups/i/10813689-e461faef3710605bc16f281929a92142-medium_jpg.jpg?buster=1767851172\",\"industry\":\"Travel & Tourism\",\"directApply\":true,\"description\":\"\nWe are hiring a Frontend Developer to join our engineering team in Bangalore. \\n\\n\nYou will work closely with product and technical stakeholders to deliver polished, high-performance user interfaces across our web and desktop platforms. From building React-based dashboards to contributing to Electron-powered desktop applications, you will play a key role in shaping the experiences used by operations teams and travellers worldwide. \\n\\n\nKey Responsibilities \\n\\n\n\u2022 Build, maintain, and enhance frontend web applications using React and modern JavaScript (ES6+).\n\\n\u2022 Develop reusable, accessible, and performant UI components following component-driven design principles.\n\\n\u2022 Contribute to Electron-based desktop applications used by internal teams and operational workflows.\n\\n\u2022 Collaborate with the Product Manager and designers to translate requirements and wireframes into functional interfaces.\n\\n\u2022 Integrate frontend interfaces with backend REST APIs and third-party services.\n\\n\u2022 Write clean, well-tested, and maintainable code while adhering to engineering best practices.\n\\n\u2022 Debug and resolve UI/UX issues acro"
+  },
+  {
+    "company": "Navtech Solutions",
+    "title": "Software Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/4273883-software-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 15,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 8,
+      "yoe": 2,
+      "location": 2,
+      "jd_profile_terms": 8
+    },
+    "desc": "Software Engineer at Navtech \u2022 Hyderabad | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Software Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"Navtech \",\"value\":\"4273883-software-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"Navtech \",\"sameAs\":\"http://www.navtech.io/\",\"logo\":\"https://photos.wellfound.com/startups/i/1146602-855aae95ec4bdbe5e578e08c0611a38a-medium_jpg.jpg?buster=1709632329\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Hyderabad\",\"addressRegion\":\"Telangana\",\"addressCountry\":\"India\"},\"latitude\":17.385,\"longitude\":78.4867},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Wilmington\",\"addressRegion\":\"Delaware\",\"addressCountry\":\"United States\"},\"latitude\":39.7391,\"longitude\":-75.5398}]},\"image\":\"https://photos.wellfound.com/startups/i/1146602-855aae95ec4bdbe5e578e08c0611a38a-medium_jpg.jpg?buster=1709632329\",\"industry\":\"E-Commerce, Cloud Data Services, Web Development, Blockchains, and Mobile Application\",\"directApply\":true,\"description\":\"\nNavtech is looking for enthusiastic and self-driven Freshers with strong interest in Python programming to join our engineering team. This role is ideal for candidates who have completed internships, academic projects, or hands-on training in Python development and are eager to build a career in software engineering. \\n\\n\nThe candidate should possess good problem-solving skills, willingness to learn new technologies, and ability to work in a fast-paced team environment. \\n\\n\nCandidates will also get an opportunity to work on ERPNext-based projects and gain hands-on exposure to the Python Frappe Framework ecosystem while working alongside experienced development teams. \\n\\n\n* Working as a Software Engineer at Navtech, you will: * \\n\\n \\n\nAssist in developing, testing, and maintaining Python-based applications. \\n\nWrite clean, efficient, and reusable code under guidance of senio"
+  },
+  {
+    "company": "Clearfeedai",
+    "title": "Software Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/4377418-software-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 14,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 8,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 8
+    },
+    "desc": "Software Engineer at ClearFeed \u2022 Bangalore Urban | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Software Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"ClearFeed\",\"value\":\"4377418-software-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"ClearFeed\",\"sameAs\":\"https://clearfeed.ai\",\"logo\":\"https://photos.wellfound.com/startups/i/8366568-f74fc8b5bb077f49d8282defa3b35485-medium_jpg.jpg?buster=1665693910\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Bengaluru\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":12.9716,\"longitude\":77.5946}]},\"image\":\"https://photos.wellfound.com/startups/i/8366568-f74fc8b5bb077f49d8282defa3b35485-medium_jpg.jpg?buster=1665693910\",\"industry\":\"Enterprise Software, Messaging, Collaboration, and Artificial Intelligence / Machine Learning\",\"directApply\":true,\"description\":\"\nThis is not a normal software engineering role \\n\nAt ClearFeed, using AI to build software is not optional. \\n\\n\nEvery engineer is expected to use AI every day \u2014 to understand code, write code, review code, debug issues, design product flows, generate tests, write docs, explore APIs, and ship faster. \\n\\n\nWe expect you to be comfortable using tools like Claude, Cursor, ChatGPT, Codex, or similar AI tools as part of your default engineering workflow. \\n\\n\nIf you do not know how to use AI effectively to write code, debug issues, understand unfamiliar systems, and improve your own engineering output, please do not apply . \\n\\n\nWe are looking for engineers who can use AI as leverage \u2014 while still bringing strong judgment, ownership, and engineering taste. \\n\\n\nAI can write a lot of the first draft. You are responsible for the final result. \\n\nWhat we are building \\n\nClearFeed is building an AI-first support platform for modern teams working in Slack and Microsoft Teams. \\n\\n\nOur product connects conversations, tickets, knowledge bases, engineeri"
+  },
+  {
+    "company": "Ai47Labs",
+    "title": "Full Stack Engineer Intern",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/4408970-full-stack-engineer-intern",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 14,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 8,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 11
+    },
+    "desc": "Full Stack Engineer Intern at AI47Labs \u2022 Noida | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Full Stack Engineer Intern\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"AI47Labs\",\"value\":\"4408970-full-stack-engineer-intern\"},\"employmentType\":\"INTERN\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"AI47Labs\",\"sameAs\":\"https://ai47labs.com\",\"logo\":\"https://photos.wellfound.com/startups/i/9564276-023dbcb0ee77ebbd533b9fc2cd614a26-medium_jpg.jpg?buster=1685435912\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Noida\",\"addressRegion\":\"Uttar Pradesh\",\"addressCountry\":\"India\"},\"latitude\":28.5355,\"longitude\":77.391}]},\"image\":\"https://photos.wellfound.com/startups/i/9564276-023dbcb0ee77ebbd533b9fc2cd614a26-medium_jpg.jpg?buster=1685435912\",\"industry\":\"Artificial Intelligence and B2B \u00b7 SaaS \u00b7 Mobile \u00b7 Artificial Intelligence / Machine Learning\",\"directApply\":true,\"description\":\"\nJob Title: Full Stack Developer Intern (NestJS + React + TypeScript) \\n\n Location: Remote / Hybrid (India)\n\\n Duration: 3\u20136 Months (Paid Internship)\n\\n Employment Type: Internship (Full-Time)\n\\n Stipend: Competitive (Based on Skills & Assessment) \\n\nAbout the Internship \\n\nWe are looking for enthusiastic and self-motivated Full Stack Developer Interns who are passionate about building modern web applications and eager to learn production-grade software development. \\n\\n\nThis internship is designed for students, recent graduates, or self-taught developers who have a strong foundation in JavaScript/TypeScript and are excited to work on real-world products. \\n\\n\nYou will gain hands-on experience in backend development, frontend development, database design, cloud integrations, and AI-powered applications while working alongside experienced engineers. \\n\\n \\n\nWhat You'll Learn \\n\nDuring the internship, you'll get exposure to: \\n\\n \\n\nBuilding REST APIs using NestJS \\n\nDeveloping responsive web applications with React and Tailwind CSS \\n"
+  },
+  {
+    "company": "Vested Finance 1",
+    "title": "Software Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/4417465-software-engineer",
+    "yoe_st": "borderline",
+    "yoe_ev": "2 to 4 years",
+    "fit_score": 15,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 8,
+      "yoe": 2,
+      "location": 2,
+      "jd_profile_terms": 11
+    },
+    "desc": "Software Engineer at Vested Finance \u2022 India \u2022 Berkeley \u2022 Ahmedabad \u2022 Remote (Work from Home) | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Software Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"Vested Finance\",\"value\":\"4417465-software-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"Vested Finance\",\"sameAs\":\"https://vestedfinance.com/in/\",\"logo\":\"https://photos.wellfound.com/startups/i/6727227-42932210f4d3845600430e317ffcf8f7-medium_jpg.jpg?buster=1612872121\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressCountry\":\"India\"},\"latitude\":20.5937,\"longitude\":78.9629},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Berkeley\",\"addressRegion\":\"California\",\"addressCountry\":\"United States\"},\"latitude\":37.8716,\"longitude\":-122.273},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Ahmedabad\",\"addressRegion\":\"Gujarat\",\"addressCountry\":\"India\"},\"latitude\":23.0225,\"longitude\":72.5714},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Mumbai\",\"addressRegion\":\"Maharashtra\",\"addressCountry\":\"India\"},\"latitude\":19.076,\"longitude\":72.8777},{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressRegion\":\"Karnataka\",\"addressCountry\":\"India\"},\"latitude\":12.97,\"longitude\":77.6536}]},\"image\":\"https://photos.wellfound.com/startups/i/6727227-42932210f4d3845600430e317ffcf8f7-medium_jpg.jpg?buster=1612872121\",\"industry\":\"Financial Services and Financial Technology\",\"directApply\":true,\"description\":\"\nAbout Vested \\n\\n\nAt Vested, we are reimagining the world of cross-border wealth. We believe that the opportunity to preserve and grow one's wealth should be universal, no matter where you are. Our mission is to allow international citizens to diversify their wealth beyond their local markets.\n\\nWe are currently the largest US investing platform for Indian investors. At Vested, we believe in constantly challenging the sta"
+  },
+  {
+    "company": "Learntube Ai",
+    "title": "AI Backend Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/4493158-ai-backend-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 14,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 8,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 13
+    },
+    "desc": "AI Backend Engineer at LearnTube.ai (backed by Google) \u2022 Mumbai \u2022 Remote (Work from Home) | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"AI Backend Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"LearnTube.ai (backed by Google)\",\"value\":\"4493158-ai-backend-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"LearnTube.ai (backed by Google)\",\"sameAs\":\"https://learntube.ai/\",\"logo\":\"https://photos.wellfound.com/startups/i/3829952-8b38a3c641fbb94bdab33598989ac761-medium_jpg.jpg?buster=1722497143\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Mumbai\",\"addressRegion\":\"Maharashtra\",\"addressCountry\":\"India\"},\"latitude\":19.076,\"longitude\":72.8777}]},\"image\":\"https://photos.wellfound.com/startups/i/3829952-8b38a3c641fbb94bdab33598989ac761-medium_jpg.jpg?buster=1722497143\",\"industry\":\"Education, Artificial Intelligence, Human Resources, and Education Technology\",\"directApply\":true,\"description\":\"\n Apply only if : you are an AI agent \u2014 or you can build an AI agent that can do this job. \\n\\n\nAt LearnTube, we're pushing the boundaries of Generative AI to revolutionize how the world learns. \n\\nYou'll build the AI products that tutor, teach, and assess millions of learners - and the backend those exact products run on. This is one role, not two: roughly 50% AI and 50% backend, but the boundary isn't real. The agent you design on Monday is the service you're scaling on Thursday. Whoever builds it, runs it. \\n\\n\n What You'll Do \\n\\n \\n\nBuild our AI products: LangGraph / LangChain agents that automate real workflows, RAG pipelines, tool integrations via MCP, prompt engineering and structured outputs, and multimodal features across text, image, audio, and video. \\n\nBuild the backend they run on: async FastAPI services, token streaming, clean APIs and data pipeline -where time-to-first-token is a product metric, not a nice-to-have. \\n\nOwn the data layer that makes retrieva"
+  },
+  {
+    "company": "Huvo Ai 3",
+    "title": "Prompt Engineer",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/4543729-prompt-engineer",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 12,
+    "fit_parts": {
+      "lane": 1,
+      "stack": 8,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 11
+    },
+    "desc": "Prompt Engineer at Huvo AI \u2022 Gurgaon | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Prompt Engineer\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"Huvo AI\",\"value\":\"4543729-forward-deployed-engineer\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"Huvo AI\",\"sameAs\":\"https://huvo.ai\",\"logo\":\"https://photos.wellfound.com/startups/i/11135533-dcebd0cd12dd6545c43fe838a6964091-medium_jpg.jpg?buster=1785328045\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Gurugram\",\"addressRegion\":\"Haryana\",\"addressCountry\":\"India\"},\"latitude\":28.4595,\"longitude\":77.0266}]},\"image\":\"https://photos.wellfound.com/startups/i/11135533-dcebd0cd12dd6545c43fe838a6964091-medium_jpg.jpg?buster=1785328045\",\"industry\":\"Artificial Intelligence / Machine Learning and B2B \u00b7 SaaS \u00b7 Mobile \u00b7 Artificial Intelligence / Machine Learning\",\"directApply\":true,\"description\":\"\nPrompt Engineer \nRole Overview \\n\nHuvo AI is hiring a Prompt Engineer to work directly with customers, our product and engineering teams. \\n\\n\nThis role is primarily focused on prompt engineering, agent behaviour design, testing, and optimisation , which will constitute approximately 60\u201370% of the work . You will design and improve AI voice-agent conversations, qualification logic, objection handling, follow-up flows, multilingual behaviour, and customer-specific instructions. \\n\\n\nThe remaining work involves customer deployments, workflow configuration, integrations, production troubleshooting, and converting recurring customer requirements into scalable product features. \\n\\n\nThis is not a conventional support role. You will own customer implementations from requirement gathering and prompt design to launch, optimisation, and post-launch performance. \\n\nKey Responsibilities \\n \\n\nDesign, test, and continuously improve prompts for Huvo AI\u2019s voice and conversational agents. \\n\nConvert customer sales processes, scripts, FAQs, and business r"
+  },
+  {
+    "company": "Huvo Ai 3",
+    "title": "Backend Engineer (Python)",
+    "location": "India",
+    "apply_url": "https://wellfound.com/jobs/4544645-backend-engineer-python",
+    "yoe_st": "ok",
+    "yoe_ev": "",
+    "fit_score": 14,
+    "fit_parts": {
+      "lane": 3,
+      "stack": 8,
+      "yoe": 1,
+      "location": 2,
+      "jd_profile_terms": 11
+    },
+    "desc": "Backend Engineer (Python) at Huvo AI \u2022 Gurugram | Wellfound \n {\"@context\":\"http://schema.org/\",\"@type\":\"JobPosting\",\"title\":\"Backend Engineer (Python)\",\"identifier\":{\"@type\":\"PropertyValue\",\"name\":\"Huvo AI\",\"value\":\"4544645-backend-engineer-python\"},\"employmentType\":\"FULL_TIME\",\"hiringOrganization\":{\"@type\":\"Organization\",\"name\":\"Huvo AI\",\"sameAs\":\"https://huvo.ai\",\"logo\":\"https://photos.wellfound.com/startups/i/11135533-dcebd0cd12dd6545c43fe838a6964091-medium_jpg.jpg?buster=1785328045\",\"location\":[{\"@type\":\"Place\",\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Gurugram\",\"addressRegion\":\"Haryana\",\"addressCountry\":\"India\"},\"latitude\":28.4595,\"longitude\":77.0266}]},\"image\":\"https://photos.wellfound.com/startups/i/11135533-dcebd0cd12dd6545c43fe838a6964091-medium_jpg.jpg?buster=1785328045\",\"industry\":\"Artificial Intelligence / Machine Learning and B2B \u00b7 SaaS \u00b7 Mobile \u00b7 Artificial Intelligence / Machine Learning\",\"directApply\":true,\"description\":\"\n About the role \n\\nWe\u2019re building a vertical AI Sales OS platform that automates and improves the sales process\n\\nend-to-end. The goal is simple: human-level sales capability at machine speed, with tight\n\\nintegrations into real workflows (telephony, WhatsApp/CRM handoffs, scheduling, reporting).\n\\nAs a Founding Backend Engineer, you\u2019ll own core systems that power real-time voice/chat\n\\ninteractions, campaign execution, data pipelines, and customer-facing reliability. This is a\n\\nhigh-ownership role with meaningful ESOP upside. \\n\\n\n What you\u2019ll do \n\\n\u25cf Build and ship backend services in Python for core product workflows (campaigns, lead\n\\norchestration, reporting, integrations).\n\\n\u25cf Design and maintain scalable REST APIs and internal services.\n\\n\u25cf Work on real-time systems: event-driven pipelines, queues, streaming workflows, and\n\\nlow-latency services.\n\\n\u25cf Implement caching and performance optimizations (Redis or equivalent), rate limiting,\n\\nretries, idempotency, and observability.\n\\n\u25cf Integrate with external APIs (te"
+  }
+]

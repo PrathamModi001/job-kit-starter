@@ -1,0 +1,1 @@
+async (page) => { return { ok: true, title: await page.title() }; }

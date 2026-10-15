@@ -38,14 +38,15 @@ def clean(t):
 seen_co = set()
 if os.path.exists(CSV):
     import csv as _csv
-    with open(CSV) as f:
+    with open(CSV, encoding="utf-8", errors="replace") as f:
         for row in _csv.DictReader(f):
             seen_co.add(row["Company"].strip().lower())
 
 # --- load index ---
 idx = {"threads": {}, "comment_ids": [], "assessed": {}}
 if os.path.exists(IDX):
-    idx = json.load(open(IDX))
+    with open(IDX, encoding="utf-8", errors="replace") as f:
+        idx = json.load(f)
 known_ids = set(idx.get("comment_ids", []))
 
 # --- find thread ---
@@ -116,5 +117,6 @@ for m in show:
 # --- persist index ---
 idx["comment_ids"] = sorted(known_ids | set(new_ids))
 idx["threads"][thread_id] = {"count": len(comments)}
-json.dump(idx, open(IDX, "w"), indent=2)
+with open(IDX, "w", encoding="utf-8") as f:
+    json.dump(idx, f, indent=2)
 print(f"index updated -> {IDX}  ({len(idx['comment_ids'])} comment ids tracked)")

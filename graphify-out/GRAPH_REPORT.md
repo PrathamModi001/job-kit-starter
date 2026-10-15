@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-15)
 
 ## Corpus Check
-- 285 files · ~167,298 words
+- 307 files · ~251,267 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 807 nodes · 606 edges · 262 communities (42 shown, 13 thin omitted)
+- 845 nodes · 666 edges · 276 communities (44 shown, 13 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `22a33865`
+- Built from commit: `dadefe52`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -56,7 +56,8 @@
 - daily_scan.md
 - fill_dpdzero_eval.js
 - test_dpdzero_upload.js
-- job_hunt.py
+- gates.py
+- outreach_targets.py
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
 - Bundle: Backend / Node.js / Distributed Systems Lane
 - Bundle: Full-Stack Lane
@@ -67,6 +68,7 @@
 - AI Fingerprint Rules
 - Skills Taxonomy
 - Handler
+- token_report.py
 - PNAHandler
 - batch_draft_runner.js
 - Batch Mode: single-path, ATS-first resume tailoring
@@ -81,22 +83,24 @@
 7. `/make-resume` - 10 edges
 8. `Job-Search Operations Runbook` - 10 edges
 9. `Shared Operations — All Skills` - 10 edges
-10. `Job Hunt Profile & Operations Rule` - 9 edges
+10. `yoe_check()` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `score()` --calls--> `title_skip()`  [EXTRACTED]
-  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
-- `score()` --calls--> `title_skip()`  [EXTRACTED]
+- `loc_tag()` --calls--> `region()`  [EXTRACTED]
   job-kit-starter/job_hunt.py → job-kit-starter/gates.py
-- `score()` --calls--> `yoe_check()`  [EXTRACTED]
-  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
-- `score()` --calls--> `yoe_check()`  [EXTRACTED]
+- `judge()` --calls--> `strip_html()`  [EXTRACTED]
+  job-kit-starter/workday_scan.py → job-kit-starter/gates.py
+- `main()` --calls--> `region()`  [EXTRACTED]
   job-kit-starter/job_hunt.py → job-kit-starter/gates.py
+- `score()` --calls--> `region()`  [EXTRACTED]
+  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
+- `main()` --calls--> `location_check()`  [EXTRACTED]
+  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (262 total, 13 thin omitted)
+## Communities (276 total, 13 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -143,8 +147,8 @@ Cohesion: 0.13
 Nodes (14): Final: Status Report, KB Build Status, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, Phase 1: Build Experience Files, Phase 2: Build Skills Taxonomy, Phase 3: Build Publication Metadata (+6 more)
 
 ### Community 13 - "PLAYBOOK — the full job-search campaign, end to end"
-Cohesion: 0.12
-Nodes (16): After every apply batch, ATS recipes (every quirk here was hit in production), Phase 0 — Setup (first session), Phase 1 — Platform profiles (do these early; they compound), Phase 2 — Daily scan (say "do the daily scan"), Phase 3 — Applying (auto-submit allowed once a lead clears the bar; see CLAUDE.md top rule), Phase 4 — Cold email outreach (startups without open roles), Phase 5 — X/Twitter cold DMs (+8 more)
+Cohesion: 0.11
+Nodes (18): After every apply batch, ATS recipes (every quirk here was hit in production), India portal list (browse in the browser; HTTP 200 without login on 2026-10-14 - search filters UNVERIFIED, set them in the page UI), Indian startups: target engineers/managers, not founders, Phase 0 — Setup (first session), Phase 1 — Platform profiles (do these early; they compound), Phase 2 — Daily scan (say "do the daily scan"), Phase 3 — Applying (auto-submit allowed once a lead clears the bar; see CLAUDE.md top rule) (+10 more)
 
 ### Community 14 - "Master Profile (SKILL_PROFILE) — Pratham Modi"
 Cohesion: 0.14
@@ -222,9 +226,13 @@ Nodes (4): 🔐 Authentication & 🎯 Candidate Bar — canonical source, 📄 C
 Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
-### Community 46 - "job_hunt.py"
-Cohesion: 0.08
-Nodes (33): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html() (+25 more)
+### Community 46 - "gates.py"
+Cohesion: 0.07
+Nodes (45): coverage(), dedup(), fit_score(), form_check(), location_check(), personal_info_valid(), 0-15 fit: lane (0-3) + profile-stack overlap (0-8) + stated YOE (0-2) +…, Row Status of the first existing row for this company… (+37 more)
+
+### Community 49 - "outreach_targets.py"
+Cohesion: 0.67
+Nodes (3): authors(), get(), Find engineers (not founders) at a company from PUBLIC GitHub commit-author…
 
 ### Community 52 - "Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)"
 Cohesion: 0.22
@@ -262,20 +270,24 @@ Nodes (4): AI Fingerprint Rules, Banned words / phrases (Tier 1 — hard fail if
 Cohesion: 0.50
 Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
+### Community 76 - "token_report.py"
+Cohesion: 0.67
+Nodes (3): find_usage(), Per-step + total token usage from a transcript.jsonl, run OUTSIDE the chat…, report()
+
 ### Community 145 - "Batch Mode: single-path, ATS-first resume tailoring"
 Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
 ## Knowledge Gaps
-- **340 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+335 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 638 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **342 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+337 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 662 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _340 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _342 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**

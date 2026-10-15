@@ -251,5 +251,14 @@
   "249": "scan_hn_more.py",
   "250": "search_hn.py",
   "251": "search_indian_cities.py",
-  "252": "verify_close.js"
+  "252": "verify_close.js",
+  "253": "attach_pagnos.js",
+  "254": "create_pagnos_draft.js",
+  "255": "fix_pagnos.js",
+  "256": "prepare_pagnos_attachment.py",
+  "257": "prepare_send_all.py",
+  "258": "safe_update_csvs.py",
+  "259": "send_all_robust.js",
+  "260": "send_batch.js",
+  "261": "update_csvs.py"
 }

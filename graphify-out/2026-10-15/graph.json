@@ -6051,6 +6051,83 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_attach_pagnos",
+      "label": "attach_pagnos.js",
+      "_origin": "ast",
+      "community": 253,
+      "community_name": "attach_pagnos.js",
+      "file_type": "code",
+      "norm_label": "attach_pagnos.js",
+      "source_file": "scratch/attach_pagnos.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_create_pagnos_draft",
+      "label": "create_pagnos_draft.js",
+      "_origin": "ast",
+      "community": 254,
+      "community_name": "create_pagnos_draft.js",
+      "file_type": "code",
+      "norm_label": "create_pagnos_draft.js",
+      "source_file": "scratch/create_pagnos_draft.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fix_pagnos",
+      "label": "fix_pagnos.js",
+      "_origin": "ast",
+      "community": 255,
+      "community_name": "fix_pagnos.js",
+      "file_type": "code",
+      "norm_label": "fix_pagnos.js",
+      "source_file": "scratch/fix_pagnos.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_prepare_pagnos_attachment",
+      "label": "prepare_pagnos_attachment.py",
+      "_origin": "ast",
+      "community": 256,
+      "community_name": "prepare_pagnos_attachment.py",
+      "file_type": "code",
+      "norm_label": "prepare_pagnos_attachment.py",
+      "source_file": "scratch/prepare_pagnos_attachment.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_prepare_send_all",
+      "label": "prepare_send_all.py",
+      "_origin": "ast",
+      "community": 257,
+      "community_name": "prepare_send_all.py",
+      "file_type": "code",
+      "norm_label": "prepare_send_all.py",
+      "source_file": "scratch/prepare_send_all.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_safe_update_csvs",
+      "label": "safe_update_csvs.py",
+      "_origin": "ast",
+      "community": 258,
+      "community_name": "safe_update_csvs.py",
+      "file_type": "code",
+      "norm_label": "safe_update_csvs.py",
+      "source_file": "scratch/safe_update_csvs.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_all_robust",
+      "label": "send_all_robust.js",
+      "_origin": "ast",
+      "community": 259,
+      "community_name": "send_all_robust.js",
+      "file_type": "code",
+      "norm_label": "send_all_robust.js",
+      "source_file": "scratch/send_all_robust.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_waas_scan",
       "label": "waas_scan.py",
       "_origin": "ast",
@@ -6071,6 +6148,28 @@
       "norm_label": "work-at-a-startup (yc) triage + index. waas is login-gated with no public api,...",
       "source_file": "job-kit-starter/waas_scan.py",
       "source_location": "L2"
+    },
+    {
+      "id": "scratch_send_batch",
+      "label": "send_batch.js",
+      "_origin": "ast",
+      "community": 260,
+      "community_name": "send_batch.js",
+      "file_type": "code",
+      "norm_label": "send_batch.js",
+      "source_file": "scratch/send_batch.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_update_csvs",
+      "label": "update_csvs.py",
+      "_origin": "ast",
+      "community": 261,
+      "community_name": "update_csvs.py",
+      "file_type": "code",
+      "norm_label": "update_csvs.py",
+      "source_file": "scratch/update_csvs.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_claude_agents_csv_logger",
@@ -16118,5 +16217,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "44254466c041bf20377b4f01e5c35054abd41790"
+  "built_at_commit": "22a33865a80c2a80c09b8d26dba01c960283a74e"
 }
