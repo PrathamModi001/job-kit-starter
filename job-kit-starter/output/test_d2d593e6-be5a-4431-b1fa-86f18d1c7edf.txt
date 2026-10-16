@@ -1,0 +1,51 @@
+About the Role
+
+Sarvam’s Work Agents team builds the harness for developing, evaluating, and serving autonomous agents at scale. The harness is the backbone behind how agents are run, tested, orchestrated, and deployed and it needs infrastructure that is as reliable and fast-moving as the agents themselves.
+
+This role sits across both sides of infrastructure. You will build the tooling, pipelines, and automation that make the harness self-service and reproducible, and you will operate the day-to-day keeping CI/CD healthy, environments consistent, networks and tunnels up, and deployments running smoothly. It is a mix of engineering and operations, not pure SRE-on-call and not pure platform-product work.
+
+You should be a hands-on DevOps engineer fluent in Kubernetes, comfortable with cloud infrastructure (AWS primarily, Azure secondarily), and literate in the networking and CI/CD concerns that keep a multi-cluster, multi-tenant environment running. You will work closely with the engineers building the harness; your job is to make their work shippable, observable, and operable at scale. 
+
+What You’ll Do
+
+• Kubernetes platform operations. Run and maintain multi-cluster Kubernetes environments — upgrades, node lifecycle, RBAC, namespace hygiene, policy enforcement, and troubleshooting across environments.
+
+• CI/CD and release engineering. Own the pipelines that take the harness from commit to production - build, test, scan, sign, and deploy across environments, with rollout patterns (canary, blue-green, rollback) wired into the platform.
+
+• Cloud infrastructure (AWS primary, Azure secondary). Provision and maintain cloud resources via infrastructure-as-code - VPCs, subnets, IAM, compute, storage, and managed services - with reproducibility and cost awareness built in.
+
+• Networking and connectivity. Manage platform-level network plumbing — CNI configuration, ingress and service routing, network policies, and secure cross-cluster and on-prem connectivity via VPN tunnels, peering, and transit paths.
+
+• Automation and tooling. Build the glue that makes the harness self-service — CLIs, scripts, operators, and internal tooling that reduce toil and let engineers get work done without filing tickets.
+
+• Observability and reliability. Maintain the metrics, logging, and tracing pipeline; set and tune alerts; and participate in incident response and postmortems so the platform keeps getting better.
+
+• Provisioning and infrastructure-as-code. Keep environments standing reproducibly — Terraform / Crossplane, image management, and multi-vendor cluster bring-up alongside the team.
+
+What We’re Looking For
+
+• 3+ years in DevOps, SRE, or platform / infrastructure engineering, with hands-on ownership of systems you ran and improved - not just scripts that worked once.
+
+• Kubernetes fluency - you can operate clusters day-to-day, understand the scheduler and API machinery well enough to debug failures, and have written or maintained operators, Helm charts, or controllers.
+
+• Cloud proficiency - solid AWS (VPC, EC2, EKS, IAM, storage, networking) with working knowledge of Azure equivalents; comfort provisioning via Terraform or similar IaC.
+
+• Networking depth - practical understanding of CNI, ingress, service routing, network policies, and VPN / tunneling (IPsec, WireGuard, site-to-site) for secure multi-cluster and hybrid connectivity.
+
+• CI/CD experience - you have built and maintained pipelines (GitLab CI, GitHub Actions, Argo CD, Flux, or similar) and understand release engineering at a level beyond “it deploys on push.”
+
+• DevOps tooling chops - comfort across the toolchain: container runtimes, Helm / Kustomize, Prometheus / Grafana, ELK or Loki, and the judgment to pick the right tool for the job.
+
+• Strong software engineering fundamentals - Python or Go preferred; you write maintainable automation, not throwaway scripts.
+
+• A product mindset toward internal users - you measure success by adoption and reduced toil, not by tickets closed.
+
+Bonus Points
+
+• Experience with on-premise infrastructure and deployments.
+
+• Experience operating in air-gapped or restricted-network environments - offline package management, image registries, and disconnected cluster bring-up.
+
+• Multi-cluster or multi-tenant Kubernetes in production, including RBAC and isolation as self-service.
+
+• Open-source contributions to Kubernetes, CI/CD, or infrastructure tooling.

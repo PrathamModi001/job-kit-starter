@@ -70,7 +70,7 @@ NEG = {
 def already_applied_companies():
     names = set()
     try:
-        with open(CSV_PATH) as f:
+        with open(CSV_PATH, encoding="utf-8") as f:
             for line in f.readlines()[1:]:
                 c = line.split(",")[0].strip().lower()
                 if c:
@@ -81,7 +81,7 @@ def already_applied_companies():
 
 def load_seen():
     try:
-        return set(json.load(open(SEEN_PATH)))
+        return set(json.load(open(SEEN_PATH, encoding="utf-8")))
     except (FileNotFoundError, json.JSONDecodeError):
         return set()
 

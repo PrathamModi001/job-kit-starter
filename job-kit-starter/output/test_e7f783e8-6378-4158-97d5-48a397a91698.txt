@@ -1,0 +1,87 @@
+About Sarvam
+
+Sarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across research, models, infrastructure and applications with a singular focus on making AI genuinely work for India. Sarvam works with leading enterprises and public institutions and is backed by Lightspeed, Peak XV, and Khosla Ventures. Sarvam partners with India's leading brands, including Tata Capital, SBI Life, CRED, IDFC, and LIC.
+
+ 
+
+About the Role
+
+The MLOps Engineer owns the model lifecycle across all defence and strategic sector deployments — from serving infrastructure and monitoring to evaluation pipelines and environment management. You ensure the system is always on, always accurate, and always auditable.
+
+You will work across both layers: supporting Strategic Deployment Engineers in the field, and owning the model deployment infrastructure for new products being built by the product engineering team. The standards here are uncompromising — a model failure is not a UX problem, it is an operational risk.
+
+ 
+
+What You'll Do
+
+• Design and operate model serving infrastructure across on-prem and cloud deployments
+
+• Build and maintain CI/CD pipelines for model updates, rollbacks, and evaluation-gated deployments
+
+• Monitor model performance in production — latency, accuracy drift, throughput, failure modes — and build systems that surface issues before clients do
+
+• Build evaluation infrastructure: harnesses, A/B testing, and model comparison tooling for field and lab use
+
+• Manage containerised model serving in constrained, air-gapped, and edge environments
+
+• Collaborate with Data Scientists on eval pipelines; own the infrastructure layer underneath
+
+• Create runbooks and operational playbooks that Strategic Deployment Engineers can use in the field
+
+• Own incident response for model-layer failures across all active deployments
+
+ 
+
+What We're Looking For
+
+• 3–5 years in ML engineering or MLOps with at least one production LLM or ML system in continuous operation
+
+• Deep expertise in model serving: vLLM, TGI, Triton Inference Server, or equivalent; experience with quantised model formats (GGUF, AWQ, GPTQ)
+
+• Experience fine-tuning and adapting models in constrained, on-prem, or air-gapped environments, including managing data pipelines and compute limitations specific to the environment
+
+• Containerisation experience with Docker, Kubernetes, or lightweight alternatives (K3s, K0s) for constrained and edge environments; familiarity with deploying across heterogeneous hardware and infrastructure configurations
+
+• Monitoring and observability using Prometheus, Grafana, or equivalent; ability to build custom eval dashboards
+
+• Python fluency; familiarity with fine-tuning workflows and model evaluation frameworks
+
+• Hands-on experience with CI/CD tooling for ML pipelines: GitHub Actions, ArgoCD, DVC, or similar
+
+ 
+
+Signals We Look For
+
+• You've kept a production ML system running under load — and debugged it when it broke
+
+• You don't wait for things to fail; you build systems that tell you when they're about to
+
+• You write documentation that actually gets used, by people who aren't you
+
+ 
+
+Who You Are
+
+• You treat uptime and correctness as equally non-negotiable
+
+• You understand that operational reliability is a form of trust-building
+
+• You're as comfortable optimising inference throughput as you are writing a field runbook for a deployment engineer
+
+• You take ownership of model and stack health across every active deployment — not just the ones you set up
+
+ 
+
+Why Sarvam?
+
+Sarvam is a fast-moving, high talent-density team building full-stack AI for India, working on problems that push the frontiers of AI with real population-scale impact.
+
+• Work alongside researchers, engineers, builders, and business leaders who move fast and hold each other to a very high bar
+
+• High ownership and high impact, from day one
+
+• Everything we do is AI-first, from the way we build and ship to the way we think about problems
+
+• You can work on problems that could change how an entire country learns, works, and communicates
+
+If you want to work on problems at the frontier of AI in India, Sarvam is the place to be.

@@ -1,0 +1,138 @@
+ 
+ 
+
+
+DEVOPS ENGINEER 
+
+ 
+ 
+
+
+ABOUT THE ROLE
+
+We’re looking for a hands-on DevOps and Site Reliability Engineer who enjoys building systems that run reliably in production.
+
+You’ve seen early-stage chaos, fast scale-ups, or have built serious infrastructure on your own. You understand that reliability is earned through ownership, automation, and clean engineering — not titles or years of experience.
+
+You will take approved system architecture and turn it into real, working infrastructure, translating High-Level Designs (HLD) into practical, battle-tested Low-Level Designs (LLD).
+
+This is a deeply execution-focused role.
+
+You will work on production systems every day — deploying, scaling, observing, fixing, and improving them continuously.
+
+At Smallest, infrastructure is not a support function — it is the product.
+
+ 
+ 
+
+
+WHAT WE CARE ABOUT (MORE THAN EXPERIENCE)
+
+We do not care about years of experience.
+
+We care about:
+
+ - Your understanding of our platform. This is important.
+
+ - Your approach towards client satisfaction
+
+ - Your ability to design and operate systems that don’t fall over
+
+ - Your instinct to determine what to automate and when to automate
+
+ - Your understanding of how systems behave under real traffic
+
+ - Your willingness to take ownership when production breaks
+
+ - Your ability to debug calmly, fix permanently, and document clearly
+
+ - You are flexible and agile
+
+If you’ve learned these skills through startups, side projects, homelabs, open source, or real production failures — you’re qualified.
+
+ 
+ 
+
+
+KEY RESPONSIBILITIES
+
+ - Implement and manage AWS-centric cloud infrastructure using Terraform
+
+ - Operate Kubernetes (EKS) clusters across multiple environments
+
+ - Build and maintain CI/CD pipelines using GitHub Actions
+
+ - Deploy services using Helm and Argo CD (GitOps)
+
+ - Implement canary, blue/green, and rolling deployments
+
+ - Build and manage Docker images and registries
+
+ - Configure monitoring, alerting, and logging using New Relic and CloudWatch
+
+ - Manage AWS networking: VPCs, subnets, routing, ALB/NLB, security groups
+
+ - Support RabbitMQ, Amazon SQS, Redis, and MongoDB infrastructure
+
+ - Support frontend delivery using CloudFront and AWS Amplify
+
+ - Write automation scripts in Bash, Python, or Go
+
+ - Troubleshoot incidents and participate in postmortems
+
+ 
+ 
+
+
+REQUIRED SKILL SET
+
+ - Strong hands-on experience with AWS and Kubernetes
+
+ - Solid Linux and networking fundamentals
+
+ - CI/CD pipeline design and ownership mindset
+
+ - Production debugging and incident handling experience
+
+ - Knowledge of SLOs, SLIs, and error budgets
+
+ 
+ 
+
+
+STRONG PLUS
+
+ - Startup or scale-up production exposure
+
+ - DevOps/SRE side projects or homelabs
+
+ - Open-source contributions in cloud-native ecosystem
+
+ - Experience with cost optimization and capacity planning
+
+ - Terraform-based infrastructure automation
+
+ - Helm and GitOps-based deployment workflows
+
+ 
+ 
+
+
+MINDSET WE VALUE
+
+ - High ownership and accountability
+
+ - Comfort working in ambiguity
+
+ - Automation-first thinking
+
+ - Reliability over velocity without safety
+
+ - Strong bias toward learning from failures
+
+If you have the need for speed, action bias, enjoy building infrastructure that scales, fixing real production problems, and making systems boringly reliable — this role is for you.
+
+ 
+ 
+
+

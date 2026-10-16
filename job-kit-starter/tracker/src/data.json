@@ -2868,6 +2868,66 @@
 "resume": "output/Okta - Site Reliability Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Akamai",
+"role": "Software Engineer (3475)",
+"loc": "India (Remote)",
+"via": "Oracle Cloud HCM",
+"found": "Oracle Cloud HCM",
+"comp": "Not listed",
+"status": "Blocked",
+"date": "2026-10-15",
+"url": "https://fa-extu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3475",
+"resume": "output/Akamai - Software Engineer (3475)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Cisco",
+"role": "Software Engineer (2021600)",
+"loc": "Bengaluru, India",
+"via": "Phenom Careers",
+"found": "Phenom Careers",
+"comp": "Not listed",
+"status": "Blocked",
+"date": "2026-10-15",
+"url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2021600EXTERNALENGLOBAL/Software-Engineer",
+"resume": "output/Cisco - Software Engineer (2021600)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Deepgram",
+"role": "Backend Software Engineer - Engine Team (Voice Agent)",
+"loc": "USA - Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": " - ",
+"status": "Blocked",
+"date": "2026-10-15",
+"url": "https://jobs.ashbyhq.com/deepgram/7c7064bb-2bf0-4f64-81cc-14afe79a15c1/application",
+"resume": "output/Deepgram - Backend Software Engineer - Engine Team (Voice Agent)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Deepgram",
+"role": "Backend Engineer- Inference Services",
+"loc": "USA - Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": " - ",
+"status": "Blocked",
+"date": "2026-10-15",
+"url": "https://jobs.ashbyhq.com/deepgram/2084edc0-2df0-4bd4-b759-0f05c38d5ef5/application",
+"resume": "output/Deepgram - Backend Engineer- Inference Services/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Deepgram",
+"role": "Research Engineer, Machine Learning Systems",
+"loc": "USA - Remote",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "$150K - $220K",
+"status": "Blocked",
+"date": "2026-10-15",
+"url": "https://jobs.ashbyhq.com/deepgram/9a030b32-d671-43e0-a221-4653bb73ba29",
+"resume": "output/Deepgram - Research Engineer, Machine Learning Systems/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Nvidia",
 "role": "System Software Engineer - Performance Verification Infrastructure",
 "loc": "India, Bengaluru",
