@@ -355,6 +355,18 @@
       "source_location": "L20"
     },
     {
+      "id": "scratch_draft_batch_1_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 252,
+      "community_name": "draft_batch_1.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/draft_batch_1.js",
+      "source_location": "L6"
+    },
+    {
       "id": "job_kit_starter_waas_scan_eligible",
       "label": "eligible()",
       "_callable": true,
@@ -403,6 +415,90 @@
       "source_location": "L33"
     },
     {
+      "id": "scratch_draft_batch_2_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 273,
+      "community_name": "draft_batch_2.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/draft_batch_2.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "scratch_draft_batch_3_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 274,
+      "community_name": "draft_batch_3.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/draft_batch_3.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "scratch_draft_batch_4_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 275,
+      "community_name": "draft_batch_4.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/draft_batch_4.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "scratch_draft_batch_5_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "draft_batch_5.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/draft_batch_5.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "scratch_draft_batch_6_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 277,
+      "community_name": "draft_batch_6.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/draft_batch_6.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "scratch_stage_20_chunk_0_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 278,
+      "community_name": "stage_20_chunk_0.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/stage_20_chunk_0.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "scratch_stage_20_chunk_1_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 279,
+      "community_name": "stage_20_chunk_1.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/stage_20_chunk_1.js",
+      "source_location": "L6"
+    },
+    {
       "id": "job_kit_starter_hn_scan_clean",
       "label": "clean()",
       "_callable": true,
@@ -449,6 +545,42 @@
       "norm_label": "get()",
       "source_file": "job-kit-starter/hn_scan.py",
       "source_location": "L29"
+    },
+    {
+      "id": "scratch_stage_20_chunk_2_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 280,
+      "community_name": "stage_20_chunk_2.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/stage_20_chunk_2.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "scratch_stage_20_chunk_3_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 281,
+      "community_name": "stage_20_chunk_3.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/stage_20_chunk_3.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "job_kit_starter_compile_resumes_generate_resume",
+      "label": "generate_resume()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 282,
+      "community_name": "compile_resumes.py",
+      "file_type": "code",
+      "norm_label": "generate_resume()",
+      "source_file": "job-kit-starter/compile_resumes.py",
+      "source_location": "L93"
     },
     {
       "id": "job_kit_starter_tracker_make_data_derive",
@@ -1060,7 +1192,19 @@
       "file_type": "code",
       "norm_label": ".do_options()",
       "source_file": "scratch/serve_resume.py",
-      "source_location": "L25"
+      "source_location": "L36"
+    },
+    {
+      "id": "scratch_draft_batch_0_b64toblob",
+      "label": "b64toBlob()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 76,
+      "community_name": "draft_batch_0.js",
+      "file_type": "code",
+      "norm_label": "b64toblob()",
+      "source_file": "scratch/draft_batch_0.js",
+      "source_location": "L6"
     },
     {
       "id": "scratch_fill_infisical_fast_setreactinput",
@@ -6040,14 +6184,14 @@
       "source_location": "L1"
     },
     {
-      "id": "gen_stepsecurity_resume",
-      "label": "gen_stepsecurity_resume.py",
+      "id": "scratch_draft_batch_1",
+      "label": "draft_batch_1.js",
       "_origin": "ast",
       "community": 252,
-      "community_name": "gen_stepsecurity_resume.py",
+      "community_name": "draft_batch_1.js",
       "file_type": "code",
-      "norm_label": "gen_stepsecurity_resume.py",
-      "source_file": "gen_stepsecurity_resume.py",
+      "norm_label": "draft_batch_1.js",
+      "source_file": "scratch/draft_batch_1.js",
       "source_location": "L1"
     },
     {
@@ -6359,6 +6503,83 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_draft_batch_2",
+      "label": "draft_batch_2.js",
+      "_origin": "ast",
+      "community": 273,
+      "community_name": "draft_batch_2.js",
+      "file_type": "code",
+      "norm_label": "draft_batch_2.js",
+      "source_file": "scratch/draft_batch_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_batch_3",
+      "label": "draft_batch_3.js",
+      "_origin": "ast",
+      "community": 274,
+      "community_name": "draft_batch_3.js",
+      "file_type": "code",
+      "norm_label": "draft_batch_3.js",
+      "source_file": "scratch/draft_batch_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_batch_4",
+      "label": "draft_batch_4.js",
+      "_origin": "ast",
+      "community": 275,
+      "community_name": "draft_batch_4.js",
+      "file_type": "code",
+      "norm_label": "draft_batch_4.js",
+      "source_file": "scratch/draft_batch_4.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_batch_5",
+      "label": "draft_batch_5.js",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "draft_batch_5.js",
+      "file_type": "code",
+      "norm_label": "draft_batch_5.js",
+      "source_file": "scratch/draft_batch_5.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_batch_6",
+      "label": "draft_batch_6.js",
+      "_origin": "ast",
+      "community": 277,
+      "community_name": "draft_batch_6.js",
+      "file_type": "code",
+      "norm_label": "draft_batch_6.js",
+      "source_file": "scratch/draft_batch_6.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_stage_20_chunk_0",
+      "label": "stage_20_chunk_0.js",
+      "_origin": "ast",
+      "community": 278,
+      "community_name": "stage_20_chunk_0.js",
+      "file_type": "code",
+      "norm_label": "stage_20_chunk_0.js",
+      "source_file": "scratch/stage_20_chunk_0.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_stage_20_chunk_1",
+      "label": "stage_20_chunk_1.js",
+      "_origin": "ast",
+      "community": 279,
+      "community_name": "stage_20_chunk_1.js",
+      "file_type": "code",
+      "norm_label": "stage_20_chunk_1.js",
+      "source_file": "scratch/stage_20_chunk_1.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_hn_scan",
       "label": "hn_scan.py",
       "_origin": "ast",
@@ -6379,6 +6600,116 @@
       "norm_label": "hn \"who is hiring?\" scanner with a persistent index. - auto-discovers the...",
       "source_file": "job-kit-starter/hn_scan.py",
       "source_location": "L2"
+    },
+    {
+      "id": "scratch_stage_20_chunk_2",
+      "label": "stage_20_chunk_2.js",
+      "_origin": "ast",
+      "community": 280,
+      "community_name": "stage_20_chunk_2.js",
+      "file_type": "code",
+      "norm_label": "stage_20_chunk_2.js",
+      "source_file": "scratch/stage_20_chunk_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_stage_20_chunk_3",
+      "label": "stage_20_chunk_3.js",
+      "_origin": "ast",
+      "community": 281,
+      "community_name": "stage_20_chunk_3.js",
+      "file_type": "code",
+      "norm_label": "stage_20_chunk_3.js",
+      "source_file": "scratch/stage_20_chunk_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_compile_resumes",
+      "label": "compile_resumes.py",
+      "_origin": "ast",
+      "community": 282,
+      "community_name": "compile_resumes.py",
+      "file_type": "code",
+      "norm_label": "compile_resumes.py",
+      "source_file": "job-kit-starter/compile_resumes.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_clean_draft_chunk_0",
+      "label": "clean_draft_chunk_0.js",
+      "_origin": "ast",
+      "community": 283,
+      "community_name": "clean_draft_chunk_0.js",
+      "file_type": "code",
+      "norm_label": "clean_draft_chunk_0.js",
+      "source_file": "scratch/clean_draft_chunk_0.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_clean_draft_chunk_1",
+      "label": "clean_draft_chunk_1.js",
+      "_origin": "ast",
+      "community": 284,
+      "community_name": "clean_draft_chunk_1.js",
+      "file_type": "code",
+      "norm_label": "clean_draft_chunk_1.js",
+      "source_file": "scratch/clean_draft_chunk_1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_clean_draft_chunk_2",
+      "label": "clean_draft_chunk_2.js",
+      "_origin": "ast",
+      "community": 285,
+      "community_name": "clean_draft_chunk_2.js",
+      "file_type": "code",
+      "norm_label": "clean_draft_chunk_2.js",
+      "source_file": "scratch/clean_draft_chunk_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_clean_draft_chunk_3",
+      "label": "clean_draft_chunk_3.js",
+      "_origin": "ast",
+      "community": 286,
+      "community_name": "clean_draft_chunk_3.js",
+      "file_type": "code",
+      "norm_label": "clean_draft_chunk_3.js",
+      "source_file": "scratch/clean_draft_chunk_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_all_20_drafts",
+      "label": "send_all_20_drafts.js",
+      "_origin": "ast",
+      "community": 287,
+      "community_name": "send_all_20_drafts.js",
+      "file_type": "code",
+      "norm_label": "send_all_20_drafts.js",
+      "source_file": "scratch/send_all_20_drafts.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_set_targets",
+      "label": "set_targets.js",
+      "_origin": "ast",
+      "community": 288,
+      "community_name": "set_targets.js",
+      "file_type": "code",
+      "norm_label": "set_targets.js",
+      "source_file": "scratch/set_targets.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_store_resume",
+      "label": "store_resume.js",
+      "_origin": "ast",
+      "community": 289,
+      "community_name": "store_resume.js",
+      "file_type": "code",
+      "norm_label": "store_resume.js",
+      "source_file": "scratch/store_resume.js",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_resume_builder_examples_example_session_file",
@@ -6499,6 +6830,17 @@
       "norm_label": "undergrad research -- eastgate (2016 -- 2018) [fixed, 2 bullets]",
       "source_file": "job-kit-starter/resume_builder/examples/example_session_file.md",
       "source_location": "L54"
+    },
+    {
+      "id": "job_kit_starter_draft_outreach",
+      "label": "draft_outreach.py",
+      "_origin": "ast",
+      "community": 290,
+      "community_name": "draft_outreach.py",
+      "file_type": "code",
+      "norm_label": "draft_outreach.py",
+      "source_file": "job-kit-starter/draft_outreach.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_resume_reference",
@@ -9166,14 +9508,14 @@
       "source_location": "L1"
     },
     {
-      "id": "build_resume_devsunite",
-      "label": "build_resume_devsunite.py",
+      "id": "scratch_draft_batch_0",
+      "label": "draft_batch_0.js",
       "_origin": "ast",
       "community": 76,
-      "community_name": "build_resume_devsunite.py",
+      "community_name": "draft_batch_0.js",
       "file_type": "code",
-      "norm_label": "build_resume_devsunite.py",
-      "source_file": "build_resume_devsunite.py",
+      "norm_label": "draft_batch_0.js",
+      "source_file": "scratch/draft_batch_0.js",
       "source_location": "L1"
     },
     {
@@ -11835,6 +12177,17 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/.claude/skills/setup-extract/SKILL.md",
       "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_compile_resumes",
+      "target": "job_kit_starter_compile_resumes_generate_resume",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/compile_resumes.py",
+      "source_location": "L93",
       "weight": 1.0
     },
     {
@@ -15743,6 +16096,83 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_draft_batch_0",
+      "target": "scratch_draft_batch_0_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/draft_batch_0.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_draft_batch_1",
+      "target": "scratch_draft_batch_1_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/draft_batch_1.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_draft_batch_2",
+      "target": "scratch_draft_batch_2_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/draft_batch_2.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_draft_batch_3",
+      "target": "scratch_draft_batch_3_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/draft_batch_3.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_draft_batch_4",
+      "target": "scratch_draft_batch_4_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/draft_batch_4.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_draft_batch_5",
+      "target": "scratch_draft_batch_5_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/draft_batch_5.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_draft_batch_6",
+      "target": "scratch_draft_batch_6_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/draft_batch_6.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_fetch_jds",
       "target": "scratch_fetch_jds_fetch",
       "relation": "contains",
@@ -15963,6 +16393,50 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_stage_20_chunk_0",
+      "target": "scratch_stage_20_chunk_0_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/stage_20_chunk_0.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_stage_20_chunk_1",
+      "target": "scratch_stage_20_chunk_1_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/stage_20_chunk_1.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_stage_20_chunk_2",
+      "target": "scratch_stage_20_chunk_2_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/stage_20_chunk_2.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_stage_20_chunk_3",
+      "target": "scratch_stage_20_chunk_3_b64toblob",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/stage_20_chunk_3.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_test_dpdzero_upload",
       "target": "scratch_test_dpdzero_upload_fs",
       "relation": "contains",
@@ -16179,7 +16653,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scratch/serve_resume.py",
-      "source_location": "L25",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -16477,5 +16951,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "815253f6bcda673623e56910e37e14ca4aa85f6c"
+  "built_at_commit": "387733b2eda8ecdb9d25c9c779439d7c1d8bd2df"
 }

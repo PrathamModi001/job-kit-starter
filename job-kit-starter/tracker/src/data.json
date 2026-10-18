@@ -1752,6 +1752,126 @@
 "resume": "job-kit-starter/output/StepSecurity - Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Beyond Technologies",
+"role": "Founding Engineer",
+"loc": "Gurugram, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹15L – ₹25L",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://wellfound.com/jobs/4849778-founding-engineer",
+"resume": "output/Beyond Technologies - Founding Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Decagon",
+"role": "Software Engineer, Agents",
+"loc": "London (On-site)",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Base Salary £125K – £180K • Offers Equity",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://jobs.ashbyhq.com/decagon/28366d07-ae89-428c-8593-1840591bfc18/application",
+"resume": "job-kit-starter/output/Decagon - Software Engineer, Agents/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Eudia",
+"role": "Software Engineer",
+"loc": "Bengaluru, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed (~18-20 LPA)",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://job-boards.greenhouse.io/eudia/jobs/4020070009",
+"resume": "job-kit-starter/output/Eudia - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Firecrawl",
+"role": "Product Engineer - Agent",
+"loc": "San Francisco HQ; Toronto Hub (Willing to relocate)",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "$235K – $260K • Offers Equity",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://jobs.ashbyhq.com/firecrawl/84c209e5-d65c-4b27-b42f-c53507461acd/application",
+"resume": "job-kit-starter/output/Firecrawl - Product Engineer - Agent/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "HackerRank",
+"role": "Forward Deployed Engineer",
+"loc": "Bengaluru, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://job-boards.greenhouse.io/hackerrank/jobs/7461142",
+"resume": "job-kit-starter/output/HackerRank - Forward Deployed Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Instead",
+"role": "Software Engineer (Bangalore)",
+"loc": "Bangalore, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed (~18-20 LPA)",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://job-boards.greenhouse.io/instead/jobs/7761473003",
+"resume": "job-kit-starter/output/Instead - Software Engineer (Bangalore)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Plane",
+"role": "Software Engineer, AI Application",
+"loc": "Bengaluru, India",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://jobs.ashbyhq.com/plane/73b37d4a-26d1-4d95-a4b1-82ad27466b75/application",
+"resume": "job-kit-starter/output/Plane - Software Engineer, AI Application/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Reacher",
+"role": "Backend Software Engineer - India",
+"loc": "Remote (India)",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "$30K – $60K • Offers Equity",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://jobs.ashbyhq.com/reacher/86a866da-dc3b-4d5d-ba94-599b642904ec/application",
+"resume": "job-kit-starter/output/Reacher - Backend Software Engineer - India/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "SuperApp",
+"role": "Software Engineer, Backend (Early Careers)",
+"loc": "Bengaluru, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://job-boards.greenhouse.io/superapp/jobs/8859685002",
+"resume": "job-kit-starter/output/SuperApp - Software Engineer, Backend (Early Careers)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Warp",
+"role": "Software Engineer, Product",
+"loc": "New York (On-site)",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "$150K – $220K • Offers Equity",
+"status": "Applied",
+"date": "2026-10-18",
+"url": "https://jobs.ashbyhq.com/warp/655962db-5fbe-40cc-a072-9522295b3cbc/application",
+"resume": "job-kit-starter/output/Warp - Software Engineer, Product/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -3010,5 +3130,17 @@
 "date": "2026-10-15",
 "url": "https://wellfound.com/jobs/1855211-software-engineer",
 "resume": ""
+},
+{
+"co": "Linear",
+"role": "Product Engineer",
+"loc": "North America (Remote)",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "",
+"status": "Blocked",
+"date": "2026-10-18",
+"url": "https://jobs.ashbyhq.com/linear/0c7c2e26-0a98-42cf-a47c-9a3999fb513b/application",
+"resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Linear - Product Engineer/Pratham_Modi_Resume.pdf"
 }
 ]
