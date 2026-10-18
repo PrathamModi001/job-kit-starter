@@ -6040,14 +6040,14 @@
       "source_location": "L1"
     },
     {
-      "id": "verify_close",
-      "label": "verify_close.js",
+      "id": "gen_stepsecurity_resume",
+      "label": "gen_stepsecurity_resume.py",
       "_origin": "ast",
       "community": 252,
-      "community_name": "verify_close.js",
+      "community_name": "gen_stepsecurity_resume.py",
       "file_type": "code",
-      "norm_label": "verify_close.js",
-      "source_file": "verify_close.js",
+      "norm_label": "gen_stepsecurity_resume.py",
+      "source_file": "gen_stepsecurity_resume.py",
       "source_location": "L1"
     },
     {
@@ -6172,6 +6172,94 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_ashby",
+      "label": "scratch_ashby.py",
+      "_origin": "ast",
+      "community": 262,
+      "community_name": "scratch_ashby.py",
+      "file_type": "code",
+      "norm_label": "scratch_ashby.py",
+      "source_file": "scratch_ashby.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_create_drafts_chunk_0",
+      "label": "create_drafts_chunk_0.js",
+      "_origin": "ast",
+      "community": 263,
+      "community_name": "create_drafts_chunk_0.js",
+      "file_type": "code",
+      "norm_label": "create_drafts_chunk_0.js",
+      "source_file": "scratch/create_drafts_chunk_0.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_create_drafts_chunk_1",
+      "label": "create_drafts_chunk_1.js",
+      "_origin": "ast",
+      "community": 264,
+      "community_name": "create_drafts_chunk_1.js",
+      "file_type": "code",
+      "norm_label": "create_drafts_chunk_1.js",
+      "source_file": "scratch/create_drafts_chunk_1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_create_drafts_chunk_2",
+      "label": "create_drafts_chunk_2.js",
+      "_origin": "ast",
+      "community": 265,
+      "community_name": "create_drafts_chunk_2.js",
+      "file_type": "code",
+      "norm_label": "create_drafts_chunk_2.js",
+      "source_file": "scratch/create_drafts_chunk_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_create_drafts_chunk_3",
+      "label": "create_drafts_chunk_3.js",
+      "_origin": "ast",
+      "community": 266,
+      "community_name": "create_drafts_chunk_3.js",
+      "file_type": "code",
+      "norm_label": "create_drafts_chunk_3.js",
+      "source_file": "scratch/create_drafts_chunk_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_chunk_0",
+      "label": "run_chunk_0.js",
+      "_origin": "ast",
+      "community": 267,
+      "community_name": "run_chunk_0.js",
+      "file_type": "code",
+      "norm_label": "run_chunk_0.js",
+      "source_file": "scratch/run_chunk_0.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_chunk_1",
+      "label": "run_chunk_1.js",
+      "_origin": "ast",
+      "community": 268,
+      "community_name": "run_chunk_1.js",
+      "file_type": "code",
+      "norm_label": "run_chunk_1.js",
+      "source_file": "scratch/run_chunk_1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_chunk_2",
+      "label": "run_chunk_2.js",
+      "_origin": "ast",
+      "community": 269,
+      "community_name": "run_chunk_2.js",
+      "file_type": "code",
+      "norm_label": "run_chunk_2.js",
+      "source_file": "scratch/run_chunk_2.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_claude_agents_csv_logger",
       "label": "csv-logger.md",
       "_origin": "ast",
@@ -6236,6 +6324,39 @@
       "norm_label": "output",
       "source_file": "job-kit-starter/.claude/agents/csv-logger.md",
       "source_location": "L27"
+    },
+    {
+      "id": "scratch_run_chunk_3",
+      "label": "run_chunk_3.js",
+      "_origin": "ast",
+      "community": 270,
+      "community_name": "run_chunk_3.js",
+      "file_type": "code",
+      "norm_label": "run_chunk_3.js",
+      "source_file": "scratch/run_chunk_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_stage_20_drafts_20261017",
+      "label": "stage_20_drafts_20261017.py",
+      "_origin": "ast",
+      "community": 271,
+      "community_name": "stage_20_drafts_20261017.py",
+      "file_type": "code",
+      "norm_label": "stage_20_drafts_20261017.py",
+      "source_file": "scratch/stage_20_drafts_20261017.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_upload_deepgram",
+      "label": "scratch_upload_deepgram.js",
+      "_origin": "ast",
+      "community": 272,
+      "community_name": "scratch_upload_deepgram.js",
+      "file_type": "code",
+      "norm_label": "scratch_upload_deepgram.js",
+      "source_file": "scratch_upload_deepgram.js",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_hn_scan",
@@ -7571,14 +7692,87 @@
       "source_location": "L1"
     },
     {
-      "id": "attach_script",
-      "label": "attach_script.js",
+      "id": "job_kit_starter_output_job_search_daily_run_report_2026_10_15",
+      "label": "daily_run_report_2026-10-15.md",
       "_origin": "ast",
       "community": 49,
-      "community_name": "attach_script.js",
-      "file_type": "code",
-      "norm_label": "attach_script.js",
-      "source_file": "attach_script.js",
+      "community_name": "Daily Job Search & Cold Outreach Run Report",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "daily_run_report_2026-10-15.md",
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_1_executive_summary",
+      "label": "1. Executive Summary",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "Daily Job Search & Cold Outreach Run Report",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. executive summary",
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L8"
+    },
+    {
+      "id": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_2_jobs_applied_num_jobs_5",
+      "label": "2. Jobs Applied (NUM_JOBS = 5)",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "Daily Job Search & Cold Outreach Run Report",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. jobs applied (num_jobs = 5)",
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L18"
+    },
+    {
+      "id": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_3_cold_outreach_sent_20_companies",
+      "label": "3. Cold Outreach Sent (20 Companies)",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "Daily Job Search & Cold Outreach Run Report",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. cold outreach sent (20 companies)",
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L38"
+    },
+    {
+      "id": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_4_reconciliation_system_invariants",
+      "label": "4. Reconciliation & System Invariants",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "Daily Job Search & Cold Outreach Run Report",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. reconciliation & system invariants",
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L67"
+    },
+    {
+      "id": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_audit_trail_of_form_values",
+      "label": "Audit Trail of Form Values",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "Daily Job Search & Cold Outreach Run Report",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "audit trail of form values",
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_daily_job_search_cold_outreach_run_report",
+      "label": "Daily Job Search & Cold Outreach Run Report",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "Daily Job Search & Cold Outreach Run Report",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "daily job search & cold outreach run report",
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
       "source_location": "L1"
     },
     {
@@ -8972,14 +9166,14 @@
       "source_location": "L1"
     },
     {
-      "id": "close_draft",
-      "label": "close_draft.js",
+      "id": "build_resume_devsunite",
+      "label": "build_resume_devsunite.py",
       "_origin": "ast",
       "community": 76,
-      "community_name": "close_draft.js",
+      "community_name": "build_resume_devsunite.py",
       "file_type": "code",
-      "norm_label": "close_draft.js",
-      "source_file": "close_draft.js",
+      "norm_label": "build_resume_devsunite.py",
+      "source_file": "build_resume_devsunite.py",
       "source_location": "L1"
     },
     {
@@ -8994,14 +9188,14 @@
       "source_location": "L1"
     },
     {
-      "id": "inject_runner",
-      "label": "inject_runner.js",
+      "id": "gen_js",
+      "label": "gen_js.py",
       "_origin": "ast",
       "community": 78,
-      "community_name": "inject_runner.js",
+      "community_name": "gen_js.py",
       "file_type": "code",
-      "norm_label": "inject_runner.js",
-      "source_file": "inject_runner.js",
+      "norm_label": "gen_js.py",
+      "source_file": "gen_js.py",
       "source_location": "L1"
     },
     {
@@ -12466,6 +12660,72 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/job_hunt_india.py",
       "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_daily_run_report_2026_10_15",
+      "target": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_daily_job_search_cold_outreach_run_report",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_2_jobs_applied_num_jobs_5",
+      "target": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_audit_trail_of_form_values",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_daily_job_search_cold_outreach_run_report",
+      "target": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_2_jobs_applied_num_jobs_5",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_daily_job_search_cold_outreach_run_report",
+      "target": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_3_cold_outreach_sent_20_companies",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_daily_job_search_cold_outreach_run_report",
+      "target": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_4_reconciliation_system_invariants",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_daily_job_search_cold_outreach_run_report",
+      "target": "job_kit_starter_output_job_search_daily_run_report_2026_10_15_1_executive_summary",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "job-kit-starter/output/job-search/daily_run_report_2026-10-15.md",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -16217,5 +16477,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "22a33865a80c2a80c09b8d26dba01c960283a74e"
+  "built_at_commit": "815253f6bcda673623e56910e37e14ca4aa85f6c"
 }

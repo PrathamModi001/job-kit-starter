@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-10-15)
+# Graph Report - job-kit-starter  (2026-10-17)
 
 ## Corpus Check
-- 285 files · ~167,298 words
+- 296 files · ~207,382 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 807 nodes · 606 edges · 262 communities (42 shown, 13 thin omitted)
+- 824 nodes · 612 edges · 273 communities (43 shown, 13 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `22a33865`
+- Built from commit: `815253f6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -57,6 +57,7 @@
 - fill_dpdzero_eval.js
 - test_dpdzero_upload.js
 - job_hunt.py
+- Daily Job Search & Cold Outreach Run Report
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
 - Bundle: Backend / Node.js / Distributed Systems Lane
 - Bundle: Full-Stack Lane
@@ -96,7 +97,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (262 total, 13 thin omitted)
+## Communities (273 total, 13 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -226,6 +227,10 @@ Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist 
 Cohesion: 0.08
 Nodes (33): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html() (+25 more)
 
+### Community 49 - "Daily Job Search & Cold Outreach Run Report"
+Cohesion: 0.29
+Nodes (6): 1. Executive Summary, 2. Jobs Applied (NUM_JOBS = 5), 3. Cold Outreach Sent (20 Companies), 4. Reconciliation & System Invariants, Audit Trail of Form Values, Daily Job Search & Cold Outreach Run Report
+
 ### Community 52 - "Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)"
 Cohesion: 0.22
 Nodes (8): 1. Tagline Formula, 2. Summary (copy-exact, minor trims only), 3. Experience Priority Matrix, 4. Skills Group Order, Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane), C3iHub, IIT Kanpur (pick 4 of 6), Playpower Labs (all 4 — this is the AI-heaviest position), Projects (pick 2 of 3)
@@ -267,15 +272,15 @@ Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
 ## Knowledge Gaps
-- **340 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+335 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 638 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **344 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+339 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 653 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _340 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _344 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
