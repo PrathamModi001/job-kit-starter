@@ -1,0 +1,146 @@
+{
+  "global": [
+    {
+      "company": "Val Town",
+      "email": "steve@val.town",
+      "contact": "Steve Krouse",
+      "domain": "val.town",
+      "notes": "Serverless JS/TS runtime in the browser and cloud platform"
+    },
+    {
+      "company": "Timescale",
+      "email": "careers@timescale.com",
+      "contact": "Ajay Kulkarni",
+      "domain": "timescale.com",
+      "notes": "Time-series and vector database built on PostgreSQL"
+    },
+    {
+      "company": "ScyllaDB",
+      "email": "careers@scylladb.com",
+      "contact": "Dor Laor",
+      "domain": "scylladb.com",
+      "notes": "High-performance NoSQL and low-latency distributed database engine"
+    },
+    {
+      "company": "Milvus",
+      "email": "careers@zilliz.com",
+      "contact": "Charles Xie",
+      "domain": "milvus.io",
+      "notes": "Cloud-native vector database for massive scale AI similarity search"
+    },
+    {
+      "company": "Weights & Biases",
+      "email": "careers@wandb.com",
+      "contact": "Lukas Biewald",
+      "domain": "wandb.ai",
+      "notes": "AI developer platform for experiment tracking and model evaluation"
+    },
+    {
+      "company": "Deepset",
+      "email": "careers@deepset.ai",
+      "contact": "Milos Rusic",
+      "domain": "deepset.ai",
+      "notes": "Haystack LLM orchestration and enterprise search infrastructure"
+    },
+    {
+      "company": "Lambda Labs",
+      "email": "careers@lambdalabs.com",
+      "contact": "Stephen Balaban",
+      "domain": "lambdalabs.com",
+      "notes": "GPU cloud compute infrastructure and deep learning cloud"
+    },
+    {
+      "company": "Tome",
+      "email": "careers@tome.app",
+      "contact": "Henri Liriani",
+      "domain": "tome.app",
+      "notes": "AI storytelling and collaborative presentation workspace platform"
+    },
+    {
+      "company": "Dust",
+      "email": "jobs@dust.tt",
+      "contact": "Gabriel Hubert",
+      "domain": "dust.tt",
+      "notes": "Enterprise AI assistant and customized internal knowledge engine"
+    },
+    {
+      "company": "Agenta",
+      "email": "careers@agenta.ai",
+      "contact": "Safuan Chen",
+      "domain": "agenta.ai",
+      "notes": "Open-source LLMOps platform for prompt evaluation and observability"
+    }
+  ],
+  "indian": [
+    {
+      "company": "River Mobility",
+      "email": "careers@rivermobility.com",
+      "contact": "Aravind Mani",
+      "domain": "rivermobility.com",
+      "notes": "Smart EV platform, IoT telematics backend and fleet infrastructure"
+    },
+    {
+      "company": "Greythr",
+      "email": "careers@greythr.com",
+      "contact": "Girish Rowjee",
+      "domain": "greythr.com",
+      "notes": "Cloud HR and payroll platform servicing millions of Indian employees"
+    },
+    {
+      "company": "Leena AI",
+      "email": "careers@leena.ai",
+      "contact": "Adit Jain",
+      "domain": "leena.ai",
+      "notes": "Enterprise AI agent work assistant automating corporate employee workflows"
+    },
+    {
+      "company": "Haptik",
+      "email": "careers@haptik.ai",
+      "contact": "Aakrit Vaish",
+      "domain": "haptik.ai",
+      "notes": "Conversational AI platform for customer engagement and commerce"
+    },
+    {
+      "company": "Glance",
+      "email": "careers@glance.com",
+      "contact": "Naveen Tewari",
+      "domain": "glance.com",
+      "notes": "Lock-screen content platform reaching 200M+ active mobile users"
+    },
+    {
+      "company": "Scrut Automation",
+      "email": "careers@scrut.io",
+      "contact": "Aayush Ghosh",
+      "domain": "scrut.io",
+      "notes": "Information security compliance automation and risk observability platform"
+    },
+    {
+      "company": "Korbit AI",
+      "email": "careers@korbit.ai",
+      "contact": "Ankit",
+      "domain": "korbit.ai",
+      "notes": "AI automated code review and mentor platform for developer workflows"
+    },
+    {
+      "company": "Kula AI",
+      "email": "careers@kula.ai",
+      "contact": "Achuthanand",
+      "domain": "kula.ai",
+      "notes": "AI recruitment and outbound talent sourcing automation platform"
+    },
+    {
+      "company": "Cutshort",
+      "email": "careers@cutshort.io",
+      "contact": "Nikunj Verma",
+      "domain": "cutshort.io",
+      "notes": "AI talent marketplace and high-trust hiring platform"
+    },
+    {
+      "company": "Vymo",
+      "email": "careers@getvymo.com",
+      "contact": "Yamini Bhat",
+      "domain": "getvymo.com",
+      "notes": "AI sales engagement platform and mobile field agent intelligent assistant"
+    }
+  ]
+}
