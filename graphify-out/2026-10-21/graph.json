@@ -7499,6 +7499,28 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_calc_tokens",
+      "label": "calc_tokens.py",
+      "_origin": "ast",
+      "community": 306,
+      "community_name": "calc_tokens.py",
+      "file_type": "code",
+      "norm_label": "calc_tokens.py",
+      "source_file": "scratch/calc_tokens.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_mark_outreach_sent",
+      "label": "mark_outreach_sent.py",
+      "_origin": "ast",
+      "community": 307,
+      "community_name": "mark_outreach_sent.py",
+      "file_type": "code",
+      "norm_label": "mark_outreach_sent.py",
+      "source_file": "scratch/mark_outreach_sent.py",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_resume_builder_reference_session_file_template",
       "label": "session_file_template.md",
       "_origin": "ast",
@@ -17953,5 +17975,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f5bed583a05ef627f1a05f0690c02fc36952717a"
+  "built_at_commit": "594b2905ae051418766dbdaf4a6c31e6ab911462"
 }

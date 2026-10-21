@@ -1932,6 +1932,66 @@
 "resume": "output/Renesas Electronics - Software Development Engineer -Backend/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Abnormal AI",
+"role": "Software Engineer 1 - Platform & Infrastructure",
+"loc": "Bengaluru, India (Hybrid)",
+"via": "Greenhouse ATS",
+"found": "Greenhouse ATS",
+"comp": "18-25 LPA",
+"status": "Applied",
+"date": "2026-10-21",
+"url": "https://job-boards.greenhouse.io/abnormalsecurity/jobs/8016870003",
+"resume": "output/Abnormal AI - Software Engineer 1 - Platform & Infrastructure/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Cleo India",
+"role": "Software Engineer",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Greenhouse ATS",
+"found": "Greenhouse ATS",
+"comp": "18-25 LPA",
+"status": "Applied",
+"date": "2026-10-21",
+"url": "https://job-boards.greenhouse.io/cleoindia/jobs/4741746005",
+"resume": "job-kit-starter/output/Cleo India - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Coface",
+"role": "Software Engineer",
+"loc": "Bengaluru, Karnataka, India",
+"via": "SmartRecruiters ATS",
+"found": "SmartRecruiters ATS",
+"comp": "18-24 LPA",
+"status": "Applied",
+"date": "2026-10-21",
+"url": "https://jobs.smartrecruiters.com/Coface/744000156467709-software-engineer",
+"resume": "job-kit-starter/output/Coface - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Linedata",
+"role": "Specialist - Python",
+"loc": "Mumbai, India",
+"via": "Company Direct Portal",
+"found": "Company Direct Portal",
+"comp": "18-24 LPA",
+"status": "Applied",
+"date": "2026-10-21",
+"url": "https://www.linedata.com/job-offer/specialist-python-2026-324",
+"resume": "output/Linedata - Specialist - Python/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "project44",
+"role": "Software Engineer - Backend",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Greenhouse ATS",
+"found": "Greenhouse ATS",
+"comp": "18-28 LPA",
+"status": "Applied",
+"date": "2026-10-21",
+"url": "https://job-boards.greenhouse.io/project44/jobs/7179793",
+"resume": "job-kit-starter/output/project44 - Software Engineer - Backend/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -3202,5 +3262,29 @@
 "date": "2026-10-18",
 "url": "https://jobs.ashbyhq.com/linear/0c7c2e26-0a98-42cf-a47c-9a3999fb513b/application",
 "resume": "/home/modi/Work/job-kit-starter/job-kit-starter/output/Linear - Product Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "FedEx",
+"role": "Full Stack Developer I",
+"loc": "Hyderabad, India",
+"via": "Paradox AI ATS",
+"found": "Paradox AI ATS",
+"comp": "15-22 LPA",
+"status": "Blocked",
+"date": "2026-10-21",
+"url": "https://fedex.paradox.ai/co/FederalExpressCorporation41/Job?job_id=P25-329778-1",
+"resume": "job-kit-starter/output/FedEx - Full Stack Developer I/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Skyhigh Security",
+"role": "Associate Software Engineer",
+"loc": "Bengaluru, India",
+"via": "Workday ATS",
+"found": "Workday ATS",
+"comp": "15-22 LPA",
+"status": "Blocked",
+"date": "2026-10-21",
+"url": "https://trellix.wd1.myworkdayjobs.com/en-US/EnterpriseCareers/job/Associate-Software-Engineer_JR0037995?source=jobfound.org",
+"resume": "output/Skyhigh Security - Associate Software Engineer/Pratham_Modi_Resume.pdf"
 }
 ]

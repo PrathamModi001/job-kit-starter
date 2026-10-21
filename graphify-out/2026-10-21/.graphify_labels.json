@@ -304,5 +304,7 @@
   "302": "inspect_jobfound_pages.py",
   "303": "parse_jobfound_leads.py",
   "304": "sync_outreach_csv.py",
-  "305": "verify_resumes.py"
+  "305": "verify_resumes.py",
+  "306": "calc_tokens.py",
+  "307": "mark_outreach_sent.py"
 }
