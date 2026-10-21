@@ -1992,6 +1992,18 @@
 "resume": "job-kit-starter/output/project44 - Software Engineer - Backend/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Skyhigh Security",
+"role": "Associate Software Engineer",
+"loc": "Bengaluru, India",
+"via": "Workday ATS",
+"found": "Workday ATS",
+"comp": "15-22 LPA",
+"status": "Applied",
+"date": "2026-10-21",
+"url": "https://trellix.wd1.myworkdayjobs.com/en-US/EnterpriseCareers/job/Associate-Software-Engineer_JR0037995?source=jobfound.org",
+"resume": "output/Skyhigh Security - Associate Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -3274,17 +3286,5 @@
 "date": "2026-10-21",
 "url": "https://fedex.paradox.ai/co/FederalExpressCorporation41/Job?job_id=P25-329778-1",
 "resume": "job-kit-starter/output/FedEx - Full Stack Developer I/Pratham_Modi_Resume.pdf"
-},
-{
-"co": "Skyhigh Security",
-"role": "Associate Software Engineer",
-"loc": "Bengaluru, India",
-"via": "Workday ATS",
-"found": "Workday ATS",
-"comp": "15-22 LPA",
-"status": "Blocked",
-"date": "2026-10-21",
-"url": "https://trellix.wd1.myworkdayjobs.com/en-US/EnterpriseCareers/job/Associate-Software-Engineer_JR0037995?source=jobfound.org",
-"resume": "output/Skyhigh Security - Associate Software Engineer/Pratham_Modi_Resume.pdf"
 }
 ]

@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-21)
 
 ## Corpus Check
-- 401 files · ~269,829 words
+- 339 files · ~256,412 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 972 nodes · 704 edges · 346 communities (51 shown, 14 thin omitted)
+- 900 nodes · 667 edges · 308 communities (50 shown, 14 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4e108ee3`
+- Built from commit: `ed195ff4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -79,7 +79,6 @@
 - scan_india_unicorns.py
 - scan_more_ats.py
 - check_all_ashby.py
-- gates.py
 
 ## God Nodes (most connected - your core abstractions)
 1. `PlaywrightClient` - 13 edges
@@ -106,7 +105,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (346 total, 14 thin omitted)
+## Communities (308 total, 14 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -233,8 +232,8 @@ Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
 ### Community 46 - "job_hunt.py"
-Cohesion: 0.13
-Nodes (25): Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, title_skip(), yoe_check(), fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn() (+17 more)
+Cohesion: 0.08
+Nodes (33): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html() (+25 more)
 
 ### Community 49 - "Daily Job Search & Cold Outreach Run Report"
 Cohesion: 0.29
@@ -308,22 +307,14 @@ Nodes (3): check_gh(), check_lever(), check_title_gate()
 Cohesion: 0.83
 Nodes (3): check_title_gate(), scan_ashby(), scan_gh()
 
-### Community 308 - "gates.py"
-Cohesion: 0.06
-Nodes (8): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html(), vocab()
-
 ## Knowledge Gaps
 - **356 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+351 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 767 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 699 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `yoe_check()` connect `job_hunt.py` to `gates.py`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
-- **Why does `title_skip()` connect `job_hunt.py` to `gates.py`?**
-  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
   _356 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
@@ -334,3 +325,7 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Resume & CV Generation — Reference` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
+- **Should `Documentation` be split into smaller, more focused modules?**
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+- **Should `Achievements` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
