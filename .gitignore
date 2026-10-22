@@ -43,7 +43,16 @@ Desktop.ini
 *.toc
 *.pdf
 
-# Job search transient outputs
+# Job search transient outputs and temporary test artifacts
+/output/
+**/test_*.txt
+**/base_resume_b64.txt
+**/account_credentials.txt
+job-kit-starter/output/*/
+!job-kit-starter/output/job-search/
+job-kit-starter/output/job-search/digest*.md
+job-kit-starter/output/job-search/seen_*.json
+job-kit-starter/output/job-search/waas_jobs.json
 output/*/
 !output/job-search/
 output/job-search/digest*.md
