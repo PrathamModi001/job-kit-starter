@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-22)
 
 ## Corpus Check
-- 336 files · ~211,098 words
+- 361 files · ~232,141 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 883 nodes · 652 edges · 306 communities (48 shown, 14 thin omitted)
+- 906 nodes · 654 edges · 327 communities (48 shown, 14 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `934f9091`
+- Built from commit: `a088de32`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -103,7 +103,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (306 total, 14 thin omitted)
+## Communities (327 total, 14 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -299,7 +299,7 @@ Nodes (3): check_title_gate(), scan_ashby(), scan_gh()
 
 ## Knowledge Gaps
 - **344 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+339 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 685 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 708 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions

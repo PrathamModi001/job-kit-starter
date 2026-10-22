@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-10-21)
+# Graph Report - job-kit-starter  (2026-10-22)
 
 ## Corpus Check
-- 339 files · ~256,412 words
+- 358 files · ~231,642 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 900 nodes · 667 edges · 308 communities (50 shown, 14 thin omitted)
+- 903 nodes · 654 edges · 324 communities (48 shown, 14 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ed195ff4`
+- Built from commit: `a088de32`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -68,11 +68,9 @@
 - AI Fingerprint Rules
 - Skills Taxonomy
 - Handler
-- Tier B cold email — slot template (volume lane)
 - PNAHandler
 - batch_draft_runner.js
 - Batch Mode: single-path, ATS-first resume tailoring
-- Daily Job Search & Cold Outreach Run Report
 - find_junior_roles.py
 - find_junior_roles_ashby.py
 - scan_all_ats.py
@@ -105,7 +103,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (308 total, 14 thin omitted)
+## Communities (324 total, 14 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -275,17 +273,9 @@ Nodes (4): AI Fingerprint Rules, Banned words / phrases (Tier 1 — hard fail if
 Cohesion: 0.50
 Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 
-### Community 76 - "Tier B cold email — slot template (volume lane)"
-Cohesion: 0.20
-Nodes (9): Body skeleton (75-100 words, plain text, no HTML/tracking links), Pre-approved metric pool (grounded in SKILL_PROFILE.md — pick, never paraphrase numbers), Slots (fill from a 2-minute lookup per company, never invent), Sounding human, not generated, Subject line variants (rotate — identical subjects across a batch is a spam-clustering signal), Tier B cold email — slot template (volume lane), Tracking, Volume + deliverability rules (+1 more)
-
 ### Community 145 - "Batch Mode: single-path, ATS-first resume tailoring"
 Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
-
-### Community 276 - "Daily Job Search & Cold Outreach Run Report"
-Cohesion: 0.29
-Nodes (6): 1. Executive Summary, 2. Jobs Applied (NUM_JOBS = 5), 3. Cold Outreach Sent (20 Companies), 4. Reconciliation & System Invariants, Audit Trail of Form Values, Daily Job Search & Cold Outreach Run Report
 
 ### Community 277 - "find_junior_roles.py"
 Cohesion: 0.70
@@ -308,15 +298,15 @@ Cohesion: 0.83
 Nodes (3): check_title_gate(), scan_ashby(), scan_gh()
 
 ## Knowledge Gaps
-- **356 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+351 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 699 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **344 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+339 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 705 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _356 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _344 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
