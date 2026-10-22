@@ -1,0 +1,72 @@
+\documentclass[10pt]{article}
+\usepackage[left=0.50in,right=0.50in,top=0.36in,bottom=0.36in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{parskip}
+\pagestyle{empty}
+
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+\newcommand{\rItemList}{\begin{itemize}[leftmargin=1.1em, itemsep=1.0pt, topsep=1.0pt, parsep=0pt, label=\textbullet]}
+\newcommand{\rEndItemList}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+{\Huge \textbf{Pratham Modi}} \\[2pt]
++91-9033393729 $\vert$ \href{mailto:prathammodi001@gmail.com}{prathammodi001@gmail.com} $\vert$ Bengaluru, Karnataka, India \\[1pt]
+\href{https://github.com/PrathamModi001}{github.com/PrathamModi001} $\vert$ \href{https://www.linkedin.com/in/prathammodii001/}{linkedin.com/in/prathammodii001} \\[2pt]
+\textbf{Founding AI Engineer $\vert$ Python, Real-Time Voice Pipelines, STT/TTS, LLM Orchestration}
+\end{center}
+
+\vspace{-6pt}
+\section{Summary}
+AI Systems Engineer with 2+ years of production experience building low-latency conversational voice pipelines, real-time audio streaming infrastructure, and LLM-driven agentic architectures. Engineered real-time WebSocket communication infrastructure and Kafka event-streaming pipelines handling 75K+ daily events with sub-50ms latency at C3iHub (IIT Kanpur), integrated STT/LLM/TTS tool-calling pipelines, and optimized state tracking across Redis and PostgreSQL. Strong engineering foundation in Python, FastAPI, WebSockets, WebRTC, and prompt engineering.
+
+\section{Technical Skills}
+\textbf{Languages \& Frameworks:} Python (Asyncio, Profiling), React, Node.js, TypeScript, SQL, Go, Java, C++ \\
+\textbf{AI, Voice \& Real-Time:} Artificial Intelligence, Machine Learning, Real-Time Audio Streaming, WebSockets, WebRTC, STT/TTS Integration, LLM Orchestration, Prompt Design, RAG Pipelines, Vector Databases \\
+\textbf{Backend Systems:} Python (FastAPI), RESTful APIs, Microservices, Distributed Systems, Event-Driven Architecture \\
+\textbf{Data \& Caching:} Redis, Redis Streams, PostgreSQL, Apache Kafka, Conversation State Stores, Compound Indexing \\
+\textbf{Cloud \& Observability:} AWS (EKS, EC2, S3), Docker, Kubernetes, CI/CD, OpenTelemetry, Prometheus, Grafana
+
+\section{Experience}
+
+\textbf{C3iHub, IIT Kanpur} \hfill Jul 2025 -- Present \\
+\textit{Software Development Engineer (Voice AI \& Infrastructure)} \hfill Bengaluru / Kanpur, India
+\rItemList
+\item Architected core platform backend and real-time streaming infrastructure serving 50K+ active users across distributed microservices, ensuring 99.9\% uptime via automated health reconciliation.
+\item Built real-time interactive audio and message streaming modules using WebSockets and async Python workers, achieving sub-100ms transport latencies under concurrent user sessions.
+\item Engineered event-driven streaming pipeline handling 75K+ daily events with sub-50ms latency using Apache Kafka and Redis Streams -- implemented consumer-group partition balancing and idempotent consumer processing.
+\item Optimized conversation state queries across PostgreSQL and Redis, slashing p99 state retrieval latency from 450ms to 135ms.
+\item Automated container build, vulnerability scanning, and deployment pipelines on AWS using GitHub Actions, cutting staging deploy cycles by 55\%.
+\rEndItemList
+
+\textbf{Playpower Labs} \hfill Jan 2024 -- Jun 2025 \\
+\textit{Software Development Engineer (Backend \& AI Services)} \hfill Bengaluru, India
+\rItemList
+\item Built high-performance async microservices in Python (FastAPI) and Node.js handling 500+ persistent concurrent WebSocket connections with p95 response latencies under 85ms.
+\item Orchestrated STT/LLM/TTS conversational pipelines with prompt engineering and structured tool execution for automated voice interactions.
+\item Implemented distributed caching and query optimization across PostgreSQL and Redis, improving database throughput by 40\% under burst traffic workloads.
+\item Integrated OpenTelemetry distributed tracing across 15+ backend services, instrumenting unified spans that reduced cross-service incident resolution time by 35\%.
+\rEndItemList
+
+\section{Projects}
+
+\textbf{Real-Time Voice Agent Orchestrator} $\vert$ \textit{Python, WebSockets, WebRTC, Redis, PostgreSQL, Docker, AWS} \\
+\rItemList
+\item Engineered real-time streaming voice agent connecting audio ingestion to STT, LLM reasoning, and TTS synthesis with voice activity detection and natural turn-taking controls.
+\item Implemented session context and persistent state management using Redis Streams and PostgreSQL, enabling seamless multi-turn conversation recovery.
+\rEndItemList
+
+\section{Education}
+
+\textbf{Pandit Deendayal Energy University} \hfill 2021 -- 2025 \\
+\textit{Bachelor of Technology in Computer Science and Engineering} \hfill CGPA: 9.20 / 10.0
+
+\end{document}

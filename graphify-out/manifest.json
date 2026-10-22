@@ -24,8 +24,8 @@
     "semantic_hash": ""
   },
   "job-kit-starter/output/job-search/seen.json": {
-    "mtime": 1792658478.0776045,
-    "seen": 1792661453.9112759,
+    "mtime": 1792675041.1363242,
+    "seen": 1792677453.6924233,
     "ast_hash": "56769cd32831536cb9d7f3bafd40407c",
     "semantic_hash": ""
   },
@@ -84,8 +84,8 @@
     "semantic_hash": "4bacdb467f88c9788c12e05eae4f2d40"
   },
   "job-kit-starter/tracker/src/meta.json": {
-    "mtime": 1792662786.3300772,
-    "seen": 1792662808.7191043,
+    "mtime": 1792677435.8989236,
+    "seen": 1792677453.6924453,
     "ast_hash": "09fd54d303866a1aef907c7123786d61",
     "semantic_hash": ""
   },
@@ -306,9 +306,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {
-    "mtime": 1792662786.329502,
-    "seen": 1792662808.719101,
-    "ast_hash": "e89529c75cc3423fb175c2a90d1caeb3",
+    "mtime": 1792677435.898387,
+    "seen": 1792677453.6924434,
+    "ast_hash": "67a6e7d901da64ed062416463811f5d2",
     "semantic_hash": ""
   },
   "scratch/playwright_client.py": {
@@ -2232,159 +2232,69 @@
     "semantic_hash": ""
   },
   "job-kit-starter/scratch/append_outreach.py": {
-    "mtime": 1792661407.6903489,
-    "seen": 1792661453.9112809,
-    "ast_hash": "83af2ae504261908949cf2bf0e9ab13b",
+    "mtime": 1792677418.4815295,
+    "seen": 1792677453.6924279,
+    "ast_hash": "8270fcec35d4447ea3ecdc8fddfababa",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/batch_1.js": {
-    "mtime": 1792661082.7171035,
-    "seen": 1792661453.911283,
-    "ast_hash": "63d64bb41e661795f4e30a00fe89f4e4",
+  "job-kit-starter/scratch/check_jobfound_leads.py": {
+    "mtime": 1792676324.8831735,
+    "seen": 1792677453.6924312,
+    "ast_hash": "e456c06428e1ce778a3d0026ae6d6b7d",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/batch_2.js": {
-    "mtime": 1792661082.7196155,
-    "seen": 1792661453.9112837,
-    "ast_hash": "6180e277448f32d5e6b1cd5cea57a180",
+  "job-kit-starter/scratch/outreach_candidates.json": {
+    "mtime": 1792677366.472915,
+    "seen": 1792677453.6924355,
+    "ast_hash": "013e8eba632249d2b58c78458d47c04a",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/batch_3.js": {
-    "mtime": 1792661082.7196155,
-    "seen": 1792661453.9112842,
-    "ast_hash": "7f86e897d21807943bdcab633bffd0a2",
+  "job-kit-starter/scratch/probe_jobs.py": {
+    "mtime": 1792675803.0786195,
+    "seen": 1792677453.6924367,
+    "ast_hash": "369a1b7ff39277aea1ad0f1a7927c269",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/batch_4.js": {
-    "mtime": 1792661082.7196155,
-    "seen": 1792661453.9112847,
-    "ast_hash": "a26605008ee6ee13634085a7f7c8fae7",
+  "job-kit-starter/scratch/scan_wellfound_deep.py": {
+    "mtime": 1792676150.9960394,
+    "seen": 1792677453.6924374,
+    "ast_hash": "6a7357df09db44bb62a57823a23af577",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/build_batches.py": {
-    "mtime": 1792661077.5898213,
-    "seen": 1792661453.9112866,
-    "ast_hash": "aa1b524f5923fa7fec3d14763f23b7f3",
+  "job-kit-starter/scratch/verify_leads.py": {
+    "mtime": 1792675824.1443577,
+    "seen": 1792677453.6924388,
+    "ast_hash": "30ddbf6031787aa5c25e9deecf3bc4d0",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/build_draft_js.py": {
-    "mtime": 1792661062.0689127,
-    "seen": 1792661453.9112873,
-    "ast_hash": "ca6a94778215cee80313f721c51cf529",
+  "job-kit-starter/temp_motive_api.json": {
+    "mtime": 1792675289.073713,
+    "seen": 1792677453.6924393,
+    "ast_hash": "90e9fc9cb513f1b8c78ae5ec34b719e3",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/build_safe_batches.py": {
-    "mtime": 1792661176.7398758,
-    "seen": 1792661453.9112883,
-    "ast_hash": "487968b518c50e75eed0092c851178c7",
+  "job-kit-starter/temp_haystack.html": {
+    "mtime": 1792675499.7628262,
+    "seen": 1792677453.6926675,
+    "ast_hash": "1ab1a7db074c52aeec540efd291d8885",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/debug_reasons.py": {
-    "mtime": 1792658421.6594884,
-    "seen": 1792661453.9112897,
-    "ast_hash": "a81f119e0fc4470823cef123659f7379",
+  "job-kit-starter/temp_haystack_clean.txt": {
+    "mtime": 1792675506.9572842,
+    "seen": 1792677453.692668,
+    "ast_hash": "36ba8380f3610a8f84a73e984b22c919",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/execute_drafts.js": {
-    "mtime": 1792661066.820238,
-    "seen": 1792661453.9112904,
-    "ast_hash": "a7d3f01dd9abf7631a35cdf599b52cff",
+  "job-kit-starter/temp_motive.html": {
+    "mtime": 1792675273.4492424,
+    "seen": 1792677453.6926687,
+    "ast_hash": "90e9fc9cb513f1b8c78ae5ec34b719e3",
     "semantic_hash": ""
   },
-  "job-kit-starter/scratch/make_outreach_targets.py": {
-    "mtime": 1792661048.1171856,
-    "seen": 1792661453.9112933,
-    "ast_hash": "f7da42b27b619a219ed2a43ac5afb1a1",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/outreach_targets.json": {
-    "mtime": 1792661052.4678411,
-    "seen": 1792661453.9112937,
-    "ast_hash": "c4d99248bd52fa78b04575b6c554f23c",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/qualifying_leads.json": {
-    "mtime": 1792658404.3989484,
-    "seen": 1792661453.911295,
-    "ast_hash": "d751713988987e9331980363e24189ce",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/safe_batch_1.js": {
-    "mtime": 1792661182.816674,
-    "seen": 1792661453.9112954,
-    "ast_hash": "0f378f7e9de1b70a606e239883339cee",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/safe_batch_2.js": {
-    "mtime": 1792661182.817783,
-    "seen": 1792661453.911296,
-    "ast_hash": "91058243df86413b717da997a1c95fb7",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/safe_batch_3.js": {
-    "mtime": 1792661182.817783,
-    "seen": 1792661453.9112968,
-    "ast_hash": "ad27d944d6ad44535327306fa901eee6",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/safe_batch_4.js": {
-    "mtime": 1792661182.817783,
-    "seen": 1792661453.9112973,
-    "ast_hash": "2ca2ec241742cde6ffe81f1417340ab4",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/safe_batch_5.js": {
-    "mtime": 1792661182.817783,
-    "seen": 1792661453.9112978,
-    "ast_hash": "c0f7992c05eac86f41c7464d814f1441",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/scan_jobfound.py": {
-    "mtime": 1792658296.0778196,
-    "seen": 1792661453.9112983,
-    "ast_hash": "081f7b512f070a2e1994420d9c598aec",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/test_jobfound_fields.py": {
-    "mtime": 1792658637.3244438,
-    "seen": 1792661453.9112988,
-    "ast_hash": "a23cd6bebee40ec92b5b3f2d23ae8ad1",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/test_links.py": {
-    "mtime": 1792658667.1509876,
-    "seen": 1792661453.9112992,
-    "ast_hash": "c1dba30b2f75486f14a718cfa64801ec",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/test_one_job.py": {
-    "mtime": 1792658679.8315182,
-    "seen": 1792661453.9113002,
-    "ast_hash": "6c10695143a7dadf1f1c6de5e110929d",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/all_job_hunt.txt": {
-    "mtime": 1792658478.0791607,
-    "seen": 1792661453.9115283,
-    "ast_hash": "abc2124f0960fa78fbecc2d1d67cb7db",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/send_20_outreach_drafts.js": {
-    "mtime": 1792662556.932575,
-    "seen": 1792662808.7190807,
-    "ast_hash": "f9bfbe1b26d96e03be78c5b57168b379",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/send_batch.js": {
-    "mtime": 1792662575.228248,
-    "seen": 1792662808.7190835,
-    "ast_hash": "dfd1b8adfbc153eb9ca4b9a46639a1fc",
-    "semantic_hash": ""
-  },
-  "job-kit-starter/scratch/update_csv.py": {
-    "mtime": 1792662771.1448765,
-    "seen": 1792662808.7190897,
-    "ast_hash": "a3db5e13afe210918017202fa9a1966a",
+  "job-kit-starter/temp_motive_clean.txt": {
+    "mtime": 1792675279.5091338,
+    "seen": 1792677453.6926692,
+    "ast_hash": "03c8a3d764ba778eeccc148630cba136",
     "semantic_hash": ""
   }
 }

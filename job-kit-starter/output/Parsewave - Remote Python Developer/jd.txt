@@ -1,0 +1,26 @@
+Parsewave - Remote Python Developers
+Location: Remote (India / Worldwide)
+Salary: ,000 - ,000 / year (No equity)
+Job URL: https://wellfound.com/jobs/4562482-hiring-full-time-remote-python-developers-parsewave-ai
+Application URL: https://tally.so/r/wLReJG
+
+About Us:
+At Parsewave we're building advanced datasets that help train the next generation of coding AI systems. Our contributors are engineers, researchers, and developers who create and test problems that challenge models to think and act like real-world programmers.
+So far this year, we've collaborated with engineers from across the world to craft realistic engineering environments, terminal workflows, and agentic debugging tasks used by leading AI research labs.
+
+What We Look For:
+- Strong familiarity with Linux, ubuntu, debian, shell scripting (bash, zsh, sh)
+- Proficiency in Docker and docker-compose container environments
+- Advanced Python development: async programming, pip, uv package management
+- Experience using modern AI developer tools: Cursor, Claude Code, Codex
+- Deep understanding of terminal workflows, developer CLI tools, and agentic workflows
+- Open to all programming languages (Node.js, Go, C++, SQL), CLI mastery is required
+- Ability to audit tasks where top frontier models struggle, design multi-step code reasoning benchmarks
+
+Detailed Scope & Responsibilities:
+At Parsewave, we craft production-grade benchmarks and evaluation datasets for frontier model training and evaluation. As a Remote Python Developer, you will construct isolated execution environments using Docker, implement deterministic test harnesses, capture terminal interaction traces, and build complex agentic evaluation scenarios. You will interface directly with Python execution runtimes, implement automated verifiers, and design edge cases spanning API integrations, distributed microservices, concurrent task execution, and modern package ecosystems.
+
+Requirements & Qualifications:
+- 1 to 3 years of hands-on software development experience with Python and Linux environments.
+- Practical experience with Docker containerization, bash scripting, and developer toolchains.
+- High degree of autonomy, technical rigor, and passion for testing AI coding agents.

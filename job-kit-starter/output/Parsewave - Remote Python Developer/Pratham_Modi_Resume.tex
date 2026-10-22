@@ -1,0 +1,73 @@
+\documentclass[10pt]{article}
+\usepackage[left=0.50in,right=0.50in,top=0.36in,bottom=0.36in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{parskip}
+\pagestyle{empty}
+
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+\newcommand{\rItemList}{\begin{itemize}[leftmargin=1.1em, itemsep=1.0pt, topsep=1.0pt, parsep=0pt, label=\textbullet]}
+\newcommand{\rEndItemList}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+{\Huge \textbf{Pratham Modi}} \\[2pt]
++91-9033393729 $\vert$ \href{mailto:prathammodi001@gmail.com}{prathammodi001@gmail.com} $\vert$ Bengaluru, Karnataka, India \\[1pt]
+\href{https://github.com/PrathamModi001}{github.com/PrathamModi001} $\vert$ \href{https://www.linkedin.com/in/prathammodii001/}{linkedin.com/in/prathammodii001} \\[2pt]
+\textbf{Python Developer $\vert$ Systems, Asyncio, Linux, Docker, AI Toolchains}
+\end{center}
+
+\vspace{-6pt}
+\section{Summary}
+Python Systems Engineer with 2+ years of production experience building high-throughput backend services, Linux CLI developer toolchains, containerized environments, and AI-driven automation workflows. Engineered real-time WebSocket communication infrastructure and Kafka event-streaming pipelines handling 75K+ daily events with sub-50ms latency at C3iHub (IIT Kanpur), built deterministic testing harnesses in Docker, and orchestrated LLM agent tool-calling pipelines. Proficient in Python (Asyncio, uv, pip), Bash scripting, Linux environments (Ubuntu, Debian), and containerization.
+
+\section{Technical Skills}
+\textbf{Languages:} Python (Asyncio, uv, pip), Bash, Shell (zsh, sh), TypeScript, Node.js, SQL, Go, Java, C++ \\
+\textbf{Environments \& Tools:} Linux (Ubuntu, Debian), Docker, Docker-Compose, Git, GitHub Actions, Cursor, Claude Code, CLI Tools \\
+\textbf{AI \& Agentic Systems:} Agentic Workflows, Tool Calling, Prompt Engineering, LLM Integration, LangGraph, RAG \\
+\textbf{Backend Systems:} Python (FastAPI), RESTful APIs, Microservices, Distributed Systems, Event-Driven Architecture \\
+\textbf{Data \& Caching:} Redis, Redis Streams, PostgreSQL, Apache Kafka \\
+\textbf{Cloud \& Observability:} AWS (EKS, EC2, S3), CI/CD, OpenTelemetry, Prometheus, Grafana
+
+\section{Experience}
+
+\textbf{C3iHub, IIT Kanpur} \hfill Jul 2025 -- Present \\
+\textit{Software Development Engineer (Python \& Infrastructure)} \hfill Bengaluru / Kanpur, India
+\rItemList
+\item Architected core platform backend and real-time streaming infrastructure serving 50K+ active users across distributed microservices, ensuring 99.9\% uptime via automated health reconciliation.
+\item Built real-time interactive audio and message streaming modules using WebSockets and async Python workers, achieving sub-100ms transport latencies under concurrent user sessions.
+\item Engineered event-driven streaming pipeline handling 75K+ daily events with sub-50ms latency using Apache Kafka and Redis Streams -- implemented consumer-group partition balancing and idempotent consumer processing.
+\item Automated container build, vulnerability scanning, and multi-stage Docker deployment pipelines on AWS using GitHub Actions, cutting staging deploy cycles by 55\%.
+\item Maintained Linux staging servers (Ubuntu), creating modular Bash automation scripts for log aggregation and daemon process recovery.
+\rEndItemList
+
+\textbf{Playpower Labs} \hfill Jan 2024 -- Jun 2025 \\
+\textit{Software Development Engineer (Backend \& AI Services)} \hfill Bengaluru, India
+\rItemList
+\item Built high-performance async microservices in Python (FastAPI) and Node.js handling 500+ persistent concurrent connections with p95 response latencies under 85ms.
+\item Orchestrated LLM conversational pipelines with prompt engineering and structured tool execution for automated coding workflows.
+\item Implemented distributed caching and query optimization across PostgreSQL and Redis, improving database throughput by 40\% under burst traffic workloads.
+\item Integrated OpenTelemetry distributed tracing across 15+ backend services, instrumenting unified spans that reduced cross-service incident resolution time by 35\%.
+\rEndItemList
+
+\section{Projects}
+
+\textbf{Agentic Developer CLI \& Evaluation Sandbox} $\vert$ \textit{Python, Docker, Bash, Linux, Redis, AWS} \\
+\rItemList
+\item Engineered an automated execution sandbox in Docker and Python to run and verify coding tasks with sandboxed environment execution, stdin/stdout trace capture, and deterministic assertions.
+\item Implemented multi-step agent reasoning loops with tool-calling harnesses, validating synthetic coding benchmarks against ground truth solutions.
+\rEndItemList
+
+\section{Education}
+
+\textbf{Pandit Deendayal Energy University} \hfill 2021 -- 2025 \\
+\textit{Bachelor of Technology in Computer Science and Engineering} \hfill CGPA: 9.20 / 10.0
+
+\end{document}

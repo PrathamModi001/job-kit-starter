@@ -6463,12 +6463,12 @@
     },
     {
       "id": "scratch_send_batch",
-      "label": "send_batch.js",
+      "label": "scratch/send_batch.js",
       "_origin": "ast",
       "community": 260,
       "community_name": "send_batch.js",
       "file_type": "code",
-      "norm_label": "send_batch.js",
+      "norm_label": "scratch/send_batch.js",
       "source_file": "scratch/send_batch.js",
       "source_location": "L1"
     },
@@ -7697,6 +7697,39 @@
       "file_type": "code",
       "norm_label": "test_one_job.py",
       "source_file": "job-kit-starter/scratch/test_one_job.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_scratch_send_20_outreach_drafts",
+      "label": "send_20_outreach_drafts.js",
+      "_origin": "ast",
+      "community": 324,
+      "community_name": "send_20_outreach_drafts.js",
+      "file_type": "code",
+      "norm_label": "send_20_outreach_drafts.js",
+      "source_file": "job-kit-starter/scratch/send_20_outreach_drafts.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_scratch_send_batch",
+      "label": "job-kit-starter/scratch/send_batch.js",
+      "_origin": "ast",
+      "community": 325,
+      "community_name": "job-kit-starter/scratch/send_batch.js",
+      "file_type": "code",
+      "norm_label": "job-kit-starter/scratch/send_batch.js",
+      "source_file": "job-kit-starter/scratch/send_batch.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_scratch_update_csv",
+      "label": "update_csv.py",
+      "_origin": "ast",
+      "community": 326,
+      "community_name": "update_csv.py",
+      "file_type": "code",
+      "norm_label": "update_csv.py",
+      "source_file": "job-kit-starter/scratch/update_csv.py",
       "source_location": "L1"
     },
     {

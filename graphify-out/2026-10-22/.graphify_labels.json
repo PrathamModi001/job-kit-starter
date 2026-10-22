@@ -322,5 +322,8 @@
   "320": "safe_batch_5.js",
   "321": "test_jobfound_fields.py",
   "322": "test_links.py",
-  "323": "test_one_job.py"
+  "323": "test_one_job.py",
+  "324": "send_20_outreach_drafts.js",
+  "325": "job-kit-starter/scratch/send_batch.js",
+  "326": "update_csv.py"
 }

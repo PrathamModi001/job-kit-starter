@@ -1,0 +1,21 @@
+{
+  "jd_terms_in_profile_vocab": [
+    "c++",
+    "docker",
+    "microservices",
+    "node.js",
+    "python",
+    "sql"
+  ],
+  "matched": [
+    "c++",
+    "docker",
+    "microservices",
+    "node.js",
+    "python",
+    "sql"
+  ],
+  "missing_but_in_profile": [],
+  "match_rate": 1.0,
+  "jd_flags": []
+}

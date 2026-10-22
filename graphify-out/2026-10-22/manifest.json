@@ -84,8 +84,8 @@
     "semantic_hash": "4bacdb467f88c9788c12e05eae4f2d40"
   },
   "job-kit-starter/tracker/src/meta.json": {
-    "mtime": 1792661428.9903064,
-    "seen": 1792661453.911307,
+    "mtime": 1792662786.3300772,
+    "seen": 1792662808.7191043,
     "ast_hash": "09fd54d303866a1aef907c7123786d61",
     "semantic_hash": ""
   },
@@ -306,8 +306,8 @@
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {
-    "mtime": 1792661428.9903064,
-    "seen": 1792661453.9113054,
+    "mtime": 1792662786.329502,
+    "seen": 1792662808.719101,
     "ast_hash": "e89529c75cc3423fb175c2a90d1caeb3",
     "semantic_hash": ""
   },
@@ -2367,6 +2367,24 @@
     "mtime": 1792658478.0791607,
     "seen": 1792661453.9115283,
     "ast_hash": "abc2124f0960fa78fbecc2d1d67cb7db",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/scratch/send_20_outreach_drafts.js": {
+    "mtime": 1792662556.932575,
+    "seen": 1792662808.7190807,
+    "ast_hash": "f9bfbe1b26d96e03be78c5b57168b379",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/scratch/send_batch.js": {
+    "mtime": 1792662575.228248,
+    "seen": 1792662808.7190835,
+    "ast_hash": "dfd1b8adfbc153eb9ca4b9a46639a1fc",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/scratch/update_csv.py": {
+    "mtime": 1792662771.1448765,
+    "seen": 1792662808.7190897,
+    "ast_hash": "a3db5e13afe210918017202fa9a1966a",
     "semantic_hash": ""
   }
 }

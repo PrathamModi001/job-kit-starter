@@ -1,0 +1,72 @@
+\documentclass[10pt]{article}
+\usepackage[left=0.50in,right=0.50in,top=0.36in,bottom=0.36in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{parskip}
+\pagestyle{empty}
+
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+\newcommand{\rItemList}{\begin{itemize}[leftmargin=1.1em, itemsep=1.0pt, topsep=1.0pt, parsep=0pt, label=\textbullet]}
+\newcommand{\rEndItemList}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+{\Huge \textbf{Pratham Modi}} \\[2pt]
++91-9033393729 $\vert$ \href{mailto:prathammodi001@gmail.com}{prathammodi001@gmail.com} $\vert$ Bengaluru, Karnataka, India \\[1pt]
+\href{https://github.com/PrathamModi001}{github.com/PrathamModi001} $\vert$ \href{https://www.linkedin.com/in/prathammodii001/}{linkedin.com/in/prathammodii001} \\[2pt]
+\textbf{AI Engineer $\vert$ Python, Generative AI, Data Pipelines, Cloud Infrastructure}
+\end{center}
+
+\vspace{-6pt}
+\section{Summary}
+AI Software Engineer with 2+ years of production experience building high-throughput data engineering pipelines, GenAI agent workflows, and scalable backend services on AWS. Engineered real-time WebSocket communication infrastructure and Kafka event-streaming pipelines handling 75K+ daily events with sub-50ms latency at C3iHub (IIT Kanpur), orchestrated multi-model GenAI workflows and RAG systems, and optimized state tracking across PostgreSQL and Redis. Hands-on expertise in Python, FastAPI, Docker, and distributed systems.
+
+\section{Technical Skills}
+\textbf{Languages:} Python (Asyncio, Profiling), Node.js, TypeScript, SQL, Go, Java, C++ \\
+\textbf{AI \& Machine Learning:} Generative AI (GenAI), LLM Orchestration, Prompt Engineering, RAG Pipelines, Vector Databases, Computer Vision Basics \\
+\textbf{Backend \& Data Engineering:} Python (FastAPI), RESTful APIs, Microservices, Data Pipelines, Event-Driven Architecture \\
+\textbf{Data \& Caching:} Redis, Redis Streams, PostgreSQL, Apache Kafka, Distributed Transactions \\
+\textbf{Cloud \& DevOps:} AWS (EC2, S3, EKS), Docker, Kubernetes, CI/CD, OpenTelemetry, Prometheus, Grafana
+
+\section{Experience}
+
+\textbf{C3iHub, IIT Kanpur} \hfill Jul 2025 -- Present \\
+\textit{Software Development Engineer (AI Systems \& Infrastructure)} \hfill Bengaluru / Kanpur, India
+\rItemList
+\item Architected core platform backend and real-time streaming infrastructure serving 50K+ active users across distributed microservices, ensuring 99.9\% uptime via automated health reconciliation.
+\item Built real-time interactive audio and message streaming modules using WebSockets and async Python workers, achieving sub-100ms transport latencies under concurrent user sessions.
+\item Engineered event-driven streaming pipeline handling 75K+ daily events with sub-50ms latency using Apache Kafka and Redis Streams -- implemented consumer-group partition balancing and idempotent consumer processing.
+\item Optimized data retrieval queries across PostgreSQL and Redis, slashing p99 state latency from 450ms to 135ms.
+\item Automated container build, vulnerability scanning, and deployment pipelines on AWS using GitHub Actions, cutting staging deploy cycles by 55\%.
+\rEndItemList
+
+\textbf{Playpower Labs} \hfill Jan 2024 -- Jun 2025 \\
+\textit{Software Development Engineer (Backend \& AI Services)} \hfill Bengaluru, India
+\rItemList
+\item Built high-performance async microservices in Python (FastAPI) and Node.js handling 500+ persistent concurrent connections with p95 response latencies under 85ms.
+\item Orchestrated Generative AI pipelines and automated tool execution for intelligent data extraction and reasoning workflows.
+\item Implemented distributed caching and query optimization across PostgreSQL and Redis, improving database throughput by 40\% under burst traffic workloads.
+\item Integrated OpenTelemetry distributed tracing across 15+ backend services, instrumenting unified spans that reduced cross-service incident resolution time by 35\%.
+\rEndItemList
+
+\section{Projects}
+
+\textbf{Autonomous Agent Orchestrator \& Data Pipeline} $\vert$ \textit{Python, FastAPI, Redis, PostgreSQL, Docker, AWS} \\
+\rItemList
+\item Engineered end-to-end multi-agent evaluation pipeline with automated verification, LLM tool-calling, and trace logging for deterministic execution benchmarks.
+\item Implemented session context and persistent state management using Redis Streams and PostgreSQL, enabling seamless multi-turn conversation recovery.
+\rEndItemList
+
+\section{Education}
+
+\textbf{Pandit Deendayal Energy University} \hfill 2021 -- 2025 \\
+\textit{Bachelor of Technology in Computer Science and Engineering} \hfill CGPA: 9.20 / 10.0
+
+\end{document}
