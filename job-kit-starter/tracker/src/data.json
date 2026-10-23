@@ -2100,6 +2100,66 @@
 "resume": "job-kit-starter/output/Zynnex AI - Founding AI Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "EaseOps",
+"role": "Backend Engineer (Gen AI)",
+"loc": "Bengaluru / Remote (Work from Home), India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "14-22 LPA",
+"status": "Applied",
+"date": "2026-10-23",
+"url": "https://wellfound.com/jobs/3544773-backend-engineer-gen-ai",
+"resume": "output/EaseOps - Backend Engineer (Gen AI)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "JuiceLabs AI",
+"role": "Software Engineer / AI Engineer",
+"loc": "Bangalore Urban, Karnataka, India (In office - WFH flexibility)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "15-25 LPA",
+"status": "Applied",
+"date": "2026-10-23",
+"url": "https://wellfound.com/jobs/4879023-software-engineer-ai-engineer",
+"resume": "output/JuiceLabs AI - Software Engineer AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Monsoon CreditTech",
+"role": "Python Developer",
+"loc": "Gurugram, Haryana, India (In office - WFH flexibility)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "9-14 LPA",
+"status": "Applied",
+"date": "2026-10-23",
+"url": "https://wellfound.com/jobs/3025954-python-developer",
+"resume": "output/Monsoon CreditTech - Python Developer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Muze",
+"role": "Junior Backend Developer (Go, GraphQL, gRPC)",
+"loc": "Bengaluru / Remote only, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "10-18 LPA",
+"status": "Applied",
+"date": "2026-10-23",
+"url": "https://wellfound.com/jobs/3363279-junior-backend-developer-go-graphql-grpc",
+"resume": "output/Muze - Junior Backend Developer (Go, GraphQL, gRPC)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Securelytix",
+"role": "Backend Engineer",
+"loc": "Bengaluru, Karnataka, India (In office)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "10-15 LPA",
+"status": "Applied",
+"date": "2026-10-23",
+"url": "https://wellfound.com/jobs/4867037-backend-engineer",
+"resume": "output/Securelytix - Backend Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -3382,5 +3442,29 @@
 "date": "2026-10-21",
 "url": "https://fedex.paradox.ai/co/FederalExpressCorporation41/Job?job_id=P25-329778-1",
 "resume": "job-kit-starter/output/FedEx - Full Stack Developer I/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "GoKwik",
+"role": "Software Development Engineer I (Backend)",
+"loc": "Bengaluru, India",
+"via": "Keka ATS",
+"found": "Keka ATS",
+"comp": "18-25 LPA",
+"status": "Blocked",
+"date": "2026-10-23",
+"url": "https://gokwik.keka.com/careers/applyjob/167259?source=jobfound.org",
+"resume": "job-kit-starter/output/GoKwik - Software Development Engineer I (Backend)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Zimperium",
+"role": "AI Software Engineer (DevOps)",
+"loc": "Bengaluru, Karnataka, India / Remote",
+"via": "Lever",
+"found": "ATS board scan",
+"comp": "18-24 LPA",
+"status": "Blocked",
+"date": "2026-10-23",
+"url": "https://jobs.lever.co/zimperium/5b35759a-d445-4fcb-b255-d719330af055/apply",
+"resume": "output/Zimperium - AI Software Engineer (DevOps)/Pratham_Modi_Resume.pdf"
 }
 ]
