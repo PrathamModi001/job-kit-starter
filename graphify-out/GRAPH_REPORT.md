@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-10-23)
+# Graph Report - job-kit-starter  (2026-10-28)
 
 ## Corpus Check
-- 366 files · ~224,565 words
+- 422 files · ~362,269 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 910 nodes · 655 edges · 330 communities (48 shown, 15 thin omitted)
+- 978 nodes · 680 edges · 377 communities (49 shown, 15 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6e402eb4`
+- Built from commit: `94cd71bc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -72,6 +72,7 @@
 - PNAHandler
 - batch_draft_runner.js
 - Batch Mode: single-path, ATS-first resume tailoring
+- gates.py
 - find_junior_roles.py
 - find_junior_roles_ashby.py
 - scan_all_ats.py
@@ -104,7 +105,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (330 total, 15 thin omitted)
+## Communities (377 total, 15 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -231,8 +232,8 @@ Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
 ### Community 46 - "job_hunt.py"
-Cohesion: 0.08
-Nodes (33): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html() (+25 more)
+Cohesion: 0.15
+Nodes (25): Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, title_skip(), yoe_check(), fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn() (+17 more)
 
 ### Community 49 - "Daily Job Search & Cold Outreach Run Report"
 Cohesion: 0.29
@@ -278,6 +279,10 @@ Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
+### Community 276 - "gates.py"
+Cohesion: 0.10
+Nodes (12): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html(), vocab() (+4 more)
+
 ### Community 277 - "find_junior_roles.py"
 Cohesion: 0.70
 Nodes (4): check_board(), check_title(), check_yoe(), clean_jd()
@@ -300,12 +305,14 @@ Nodes (3): check_title_gate(), scan_ashby(), scan_gh()
 
 ## Knowledge Gaps
 - **345 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+340 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 711 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 769 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `yoe_check()` connect `job_hunt.py` to `gates.py`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
   _345 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
@@ -318,5 +325,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Documentation` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
-- **Should `Achievements` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._

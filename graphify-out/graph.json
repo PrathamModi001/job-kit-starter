@@ -403,16 +403,172 @@
       "source_location": "L33"
     },
     {
-      "id": "job_kit_starter_inject_resume_base64toblob",
-      "label": "base64ToBlob()",
+      "id": "job_kit_starter_gates_clean_html",
+      "label": "clean_html()",
       "_callable": true,
       "_origin": "ast",
       "community": 276,
-      "community_name": "job-kit-starter/inject_resume.js",
+      "community_name": "gates.py",
       "file_type": "code",
-      "norm_label": "base64toblob()",
-      "source_file": "job-kit-starter/inject_resume.js",
-      "source_location": "L3"
+      "norm_label": "clean_html()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L123"
+    },
+    {
+      "id": "job_kit_starter_gates_coverage",
+      "label": "coverage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "coverage()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L109"
+    },
+    {
+      "id": "job_kit_starter_gates_facts",
+      "label": "facts()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "facts()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L53"
+    },
+    {
+      "id": "job_kit_starter_gates_form_check",
+      "label": "form_check()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "form_check()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L68"
+    },
+    {
+      "id": "job_kit_starter_gates_lint",
+      "label": "lint()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "lint()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L91"
+    },
+    {
+      "id": "job_kit_starter_gates_personal_info_valid",
+      "label": "personal_info_valid()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "personal_info_valid()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L58"
+    },
+    {
+      "id": "job_kit_starter_gates_strip_html",
+      "label": "strip_html()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "strip_html()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L18"
+    },
+    {
+      "id": "job_kit_starter_gates_vocab",
+      "label": "vocab()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "vocab()",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L97"
+    },
+    {
+      "id": "scratch_scan_boards_check_loc",
+      "label": "check_loc()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "check_loc()",
+      "source_file": "scratch/scan_boards.py",
+      "source_location": "L45"
+    },
+    {
+      "id": "scratch_scan_boards_now_get_json",
+      "label": "get_json()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "get_json()",
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "scratch_scan_boards_now_scan_ashby",
+      "label": "scan_ashby()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "scan_ashby()",
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L72"
+    },
+    {
+      "id": "scratch_scan_boards_now_scan_gh",
+      "label": "scan_gh()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "scan_gh()",
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L48"
+    },
+    {
+      "id": "scratch_scan_boards_now_scan_lever",
+      "label": "scan_lever()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "scan_lever()",
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L99"
+    },
+    {
+      "id": "scratch_scan_round2_check_loc",
+      "label": "check_loc()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "check_loc()",
+      "source_file": "scratch/scan_round2.py",
+      "source_location": "L36"
     },
     {
       "id": "scratch_find_junior_roles_check_board",
@@ -811,6 +967,162 @@
       "source_location": "L68"
     },
     {
+      "id": "scratch_fill_canonical_setcheckbox",
+      "label": "setCheckbox()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 308,
+      "community_name": "fill_canonical.js",
+      "file_type": "code",
+      "norm_label": "setcheckbox()",
+      "source_file": "scratch/fill_canonical.js",
+      "source_location": "L45"
+    },
+    {
+      "id": "scratch_fill_canonical_setinput",
+      "label": "setInput()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 308,
+      "community_name": "fill_canonical.js",
+      "file_type": "code",
+      "norm_label": "setinput()",
+      "source_file": "scratch/fill_canonical.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "scratch_fill_canonical_setselect",
+      "label": "setSelect()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 308,
+      "community_name": "fill_canonical.js",
+      "file_type": "code",
+      "norm_label": "setselect()",
+      "source_file": "scratch/fill_canonical.js",
+      "source_location": "L26"
+    },
+    {
+      "id": "scratch_fill_canonical_settextarea",
+      "label": "setTextarea()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 308,
+      "community_name": "fill_canonical.js",
+      "file_type": "code",
+      "norm_label": "settextarea()",
+      "source_file": "scratch/fill_canonical.js",
+      "source_location": "L15"
+    },
+    {
+      "id": "scratch_fill_servicenow_findinput",
+      "label": "findInput()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 309,
+      "community_name": "fill_servicenow.js",
+      "file_type": "code",
+      "norm_label": "findinput()",
+      "source_file": "scratch/fill_servicenow.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "scratch_fill_servicenow_setval",
+      "label": "setVal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 309,
+      "community_name": "fill_servicenow.js",
+      "file_type": "code",
+      "norm_label": "setval()",
+      "source_file": "scratch/fill_servicenow.js",
+      "source_location": "L14"
+    },
+    {
+      "id": "scratch_scan_jobfound_full_extract_job_details",
+      "label": "extract_job_details()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 310,
+      "community_name": "scan_jobfound_full.py",
+      "file_type": "code",
+      "norm_label": "extract_job_details()",
+      "source_file": "scratch/scan_jobfound_full.py",
+      "source_location": "L26"
+    },
+    {
+      "id": "scratch_scan_jobfound_full_get_page_jobs",
+      "label": "get_page_jobs()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 310,
+      "community_name": "scan_jobfound_full.py",
+      "file_type": "code",
+      "norm_label": "get_page_jobs()",
+      "source_file": "scratch/scan_jobfound_full.py",
+      "source_location": "L14"
+    },
+    {
+      "id": "scratch_attach_playwright_findinput",
+      "label": "findInput()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 311,
+      "community_name": "attach_playwright.js",
+      "file_type": "code",
+      "norm_label": "findinput()",
+      "source_file": "scratch/attach_playwright.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_attach_resume_servicenow_findinput",
+      "label": "findInput()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 312,
+      "community_name": "attach_resume_servicenow.js",
+      "file_type": "code",
+      "norm_label": "findinput()",
+      "source_file": "scratch/attach_resume_servicenow.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "scratch_autofill_servicenow_findinput",
+      "label": "findInput()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 313,
+      "community_name": "autofill_servicenow.js",
+      "file_type": "code",
+      "norm_label": "findinput()",
+      "source_file": "scratch/autofill_servicenow.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_log_app_log_application",
+      "label": "log_application()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 314,
+      "community_name": "log_app.py",
+      "file_type": "code",
+      "norm_label": "log_application()",
+      "source_file": "scratch/log_app.py",
+      "source_location": "L4"
+    },
+    {
+      "id": "scratch_test_jobfound_find_keys",
+      "label": "find_keys()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 315,
+      "community_name": "test_jobfound.py",
+      "file_type": "code",
+      "norm_label": "find_keys()",
+      "source_file": "scratch/test_jobfound.py",
+      "source_location": "L15"
+    },
+    {
       "id": "scratch_fill_dpdzero_findnode",
       "label": "findNode()",
       "_callable": true,
@@ -871,90 +1183,6 @@
       "source_location": "L6"
     },
     {
-      "id": "job_kit_starter_gates_clean_html",
-      "label": "clean_html()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "clean_html()",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L122"
-    },
-    {
-      "id": "job_kit_starter_gates_coverage",
-      "label": "coverage()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "coverage()",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L108"
-    },
-    {
-      "id": "job_kit_starter_gates_facts",
-      "label": "facts()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "facts()",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L52"
-    },
-    {
-      "id": "job_kit_starter_gates_form_check",
-      "label": "form_check()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "form_check()",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L67"
-    },
-    {
-      "id": "job_kit_starter_gates_lint",
-      "label": "lint()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "lint()",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L90"
-    },
-    {
-      "id": "job_kit_starter_gates_personal_info_valid",
-      "label": "personal_info_valid()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "personal_info_valid()",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L57"
-    },
-    {
-      "id": "job_kit_starter_gates_strip_html",
-      "label": "strip_html()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "strip_html()",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L18"
-    },
-    {
       "id": "job_kit_starter_gates_title_skip",
       "label": "title_skip()",
       "_callable": true,
@@ -964,19 +1192,7 @@
       "file_type": "code",
       "norm_label": "title_skip()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L32"
-    },
-    {
-      "id": "job_kit_starter_gates_vocab",
-      "label": "vocab()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "vocab()",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L96"
+      "source_location": "L33"
     },
     {
       "id": "job_kit_starter_gates_yoe_check",
@@ -988,7 +1204,7 @@
       "file_type": "code",
       "norm_label": "yoe_check()",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L37"
+      "source_location": "L38"
     },
     {
       "id": "job_kit_starter_job_hunt_fetch_aiven",
@@ -6728,15 +6944,136 @@
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_inject_resume",
-      "label": "job-kit-starter/inject_resume.js",
+      "id": "job_kit_starter_gates",
+      "label": "gates.py",
       "_origin": "ast",
       "community": 276,
-      "community_name": "job-kit-starter/inject_resume.js",
+      "community_name": "gates.py",
       "file_type": "code",
-      "norm_label": "job-kit-starter/inject_resume.js",
-      "source_file": "job-kit-starter/inject_resume.js",
+      "norm_label": "gates.py",
+      "source_file": "job-kit-starter/gates.py",
       "source_location": "L1"
+    },
+    {
+      "id": "scratch_check_lead_locations",
+      "label": "check_lead_locations.py",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "check_lead_locations.py",
+      "source_file": "scratch/check_lead_locations.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_filter_waas",
+      "label": "filter_waas.py",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "filter_waas.py",
+      "source_file": "scratch/filter_waas.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_get_all_job_hunt",
+      "label": "get_all_job_hunt.py",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "get_all_job_hunt.py",
+      "source_file": "scratch/get_all_job_hunt.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_parse_jobfound",
+      "label": "parse_jobfound.py",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "parse_jobfound.py",
+      "source_file": "scratch/parse_jobfound.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_scan_all_sources",
+      "label": "scan_all_sources.py",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "scan_all_sources.py",
+      "source_file": "scratch/scan_all_sources.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_scan_boards",
+      "label": "scan_boards.py",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "scan_boards.py",
+      "source_file": "scratch/scan_boards.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_scan_boards_now",
+      "label": "scan_boards_now.py",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "scan_boards_now.py",
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_scan_round2",
+      "label": "scan_round2.py",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "scan_round2.py",
+      "source_file": "scratch/scan_round2.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_19",
+      "label": "Tags off, entities decoded, whitespace collapsed. Shared by\u2026",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "rationale",
+      "norm_label": "tags off, entities decoded, whitespace collapsed. shared by...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L19"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_2",
+      "label": "Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py\u2026",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "rationale",
+      "norm_label": "pre-submit gates for the daily scan. run from job-kit-starter/. python gates.py...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L2"
+    },
+    {
+      "id": "job_kit_starter_gates_rationale_59",
+      "label": "True only if s is a 'key=value; key=value; ...' audit trail of what was\u2026",
+      "_origin": "ast",
+      "community": 276,
+      "community_name": "gates.py",
+      "file_type": "rationale",
+      "norm_label": "true only if s is a 'key=value; key=value; ...' audit trail of what was...",
+      "source_file": "job-kit-starter/gates.py",
+      "source_location": "L59"
     },
     {
       "id": "scratch_find_junior_roles",
@@ -7472,25 +7809,25 @@
       "source_location": "L1"
     },
     {
-      "id": "filter_10lpa_jobs",
-      "label": "filter_10lpa_jobs.py",
+      "id": "scratch_fill_canonical",
+      "label": "fill_canonical.js",
       "_origin": "ast",
       "community": 308,
-      "community_name": "filter_10lpa_jobs.py",
+      "community_name": "fill_canonical.js",
       "file_type": "code",
-      "norm_label": "filter_10lpa_jobs.py",
-      "source_file": "filter_10lpa_jobs.py",
+      "norm_label": "fill_canonical.js",
+      "source_file": "scratch/fill_canonical.js",
       "source_location": "L1"
     },
     {
-      "id": "filter_best_jobs",
-      "label": "filter_best_jobs.py",
+      "id": "scratch_fill_servicenow_js_scratch_fill_servicenow",
+      "label": "fill_servicenow.js",
       "_origin": "ast",
       "community": 309,
-      "community_name": "filter_best_jobs.py",
+      "community_name": "fill_servicenow.js",
       "file_type": "code",
-      "norm_label": "filter_best_jobs.py",
-      "source_file": "filter_best_jobs.py",
+      "norm_label": "fill_servicenow.js",
+      "source_file": "scratch/fill_servicenow.js",
       "source_location": "L1"
     },
     {
@@ -7542,113 +7879,113 @@
       "source_location": "L5"
     },
     {
-      "id": "job_kit_starter_clean_inject",
-      "label": "clean_inject.js",
+      "id": "scratch_scan_jobfound_full",
+      "label": "scan_jobfound_full.py",
       "_origin": "ast",
       "community": 310,
-      "community_name": "clean_inject.js",
+      "community_name": "scan_jobfound_full.py",
       "file_type": "code",
-      "norm_label": "clean_inject.js",
-      "source_file": "job-kit-starter/clean_inject.js",
+      "norm_label": "scan_jobfound_full.py",
+      "source_file": "scratch/scan_jobfound_full.py",
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_clean_inject_atob",
-      "label": "clean_inject_atob.js",
+      "id": "scratch_attach_playwright",
+      "label": "attach_playwright.js",
       "_origin": "ast",
       "community": 311,
-      "community_name": "clean_inject_atob.js",
+      "community_name": "attach_playwright.js",
       "file_type": "code",
-      "norm_label": "clean_inject_atob.js",
-      "source_file": "job-kit-starter/clean_inject_atob.js",
+      "norm_label": "attach_playwright.js",
+      "source_file": "scratch/attach_playwright.js",
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_inject_datauri",
-      "label": "inject_datauri.js",
+      "id": "scratch_attach_resume_servicenow",
+      "label": "attach_resume_servicenow.js",
       "_origin": "ast",
       "community": 312,
-      "community_name": "inject_datauri.js",
+      "community_name": "attach_resume_servicenow.js",
       "file_type": "code",
-      "norm_label": "inject_datauri.js",
-      "source_file": "job-kit-starter/inject_datauri.js",
+      "norm_label": "attach_resume_servicenow.js",
+      "source_file": "scratch/attach_resume_servicenow.js",
       "source_location": "L1"
     },
     {
-      "id": "make_upload_js",
-      "label": "make_upload_js.py",
+      "id": "scratch_autofill_servicenow",
+      "label": "autofill_servicenow.js",
       "_origin": "ast",
       "community": 313,
-      "community_name": "make_upload_js.py",
+      "community_name": "autofill_servicenow.js",
       "file_type": "code",
-      "norm_label": "make_upload_js.py",
-      "source_file": "make_upload_js.py",
+      "norm_label": "autofill_servicenow.js",
+      "source_file": "scratch/autofill_servicenow.js",
       "source_location": "L1"
     },
     {
-      "id": "make_upload_pw",
-      "label": "make_upload_pw.py",
+      "id": "scratch_log_app",
+      "label": "log_app.py",
       "_origin": "ast",
       "community": 314,
-      "community_name": "make_upload_pw.py",
+      "community_name": "log_app.py",
       "file_type": "code",
-      "norm_label": "make_upload_pw.py",
-      "source_file": "make_upload_pw.py",
+      "norm_label": "log_app.py",
+      "source_file": "scratch/log_app.py",
       "source_location": "L1"
     },
     {
-      "id": "parse_final_jobs",
-      "label": "parse_final_jobs.py",
+      "id": "scratch_test_jobfound",
+      "label": "test_jobfound.py",
       "_origin": "ast",
       "community": 315,
-      "community_name": "parse_final_jobs.py",
+      "community_name": "test_jobfound.py",
       "file_type": "code",
-      "norm_label": "parse_final_jobs.py",
-      "source_file": "parse_final_jobs.py",
+      "norm_label": "test_jobfound.py",
+      "source_file": "scratch/test_jobfound.py",
       "source_location": "L1"
     },
     {
-      "id": "parse_jobs",
-      "label": "parse_jobs.py",
+      "id": "scratch_build_and_gate_resumes",
+      "label": "build_and_gate_resumes.py",
       "_origin": "ast",
       "community": 316,
-      "community_name": "parse_jobs.py",
+      "community_name": "build_and_gate_resumes.py",
       "file_type": "code",
-      "norm_label": "parse_jobs.py",
-      "source_file": "parse_jobs.py",
+      "norm_label": "build_and_gate_resumes.py",
+      "source_file": "scratch/build_and_gate_resumes.py",
       "source_location": "L1"
     },
     {
-      "id": "parse_more_jobs",
-      "label": "parse_more_jobs.py",
+      "id": "scratch_build_draft_calls",
+      "label": "build_draft_calls.py",
       "_origin": "ast",
       "community": 317,
-      "community_name": "parse_more_jobs.py",
+      "community_name": "build_draft_calls.py",
       "file_type": "code",
-      "norm_label": "parse_more_jobs.py",
-      "source_file": "parse_more_jobs.py",
+      "norm_label": "build_draft_calls.py",
+      "source_file": "scratch/build_draft_calls.py",
       "source_location": "L1"
     },
     {
-      "id": "parse_python_jobs",
-      "label": "parse_python_jobs.py",
+      "id": "scratch_build_proofpoint_resume",
+      "label": "build_proofpoint_resume.py",
       "_origin": "ast",
       "community": 318,
-      "community_name": "parse_python_jobs.py",
+      "community_name": "build_proofpoint_resume.py",
       "file_type": "code",
-      "norm_label": "parse_python_jobs.py",
-      "source_file": "parse_python_jobs.py",
+      "norm_label": "build_proofpoint_resume.py",
+      "source_file": "scratch/build_proofpoint_resume.py",
       "source_location": "L1"
     },
     {
-      "id": "save_digit88_jd",
-      "label": "save_digit88_jd.py",
+      "id": "scratch_build_starburst_resume",
+      "label": "build_starburst_resume.py",
       "_origin": "ast",
       "community": 319,
-      "community_name": "save_digit88_jd.py",
+      "community_name": "build_starburst_resume.py",
       "file_type": "code",
-      "norm_label": "save_digit88_jd.py",
-      "source_file": "save_digit88_jd.py",
+      "norm_label": "build_starburst_resume.py",
+      "source_file": "scratch/build_starburst_resume.py",
       "source_location": "L1"
     },
     {
@@ -7680,69 +8017,69 @@
       "source_location": "L6"
     },
     {
-      "id": "save_ema_jd",
-      "label": "save_ema_jd.py",
+      "id": "scratch_check_b64",
+      "label": "check_b64.py",
       "_origin": "ast",
       "community": 320,
-      "community_name": "save_ema_jd.py",
+      "community_name": "check_b64.py",
       "file_type": "code",
-      "norm_label": "save_ema_jd.py",
-      "source_file": "save_ema_jd.py",
+      "norm_label": "check_b64.py",
+      "source_file": "scratch/check_b64.py",
       "source_location": "L1"
     },
     {
-      "id": "save_koireader_jd",
-      "label": "save_koireader_jd.py",
+      "id": "scratch_check_lead",
+      "label": "check_lead.py",
       "_origin": "ast",
       "community": 321,
-      "community_name": "save_koireader_jd.py",
+      "community_name": "check_lead.py",
       "file_type": "code",
-      "norm_label": "save_koireader_jd.py",
-      "source_file": "save_koireader_jd.py",
+      "norm_label": "check_lead.py",
+      "source_file": "scratch/check_lead.py",
       "source_location": "L1"
     },
     {
-      "id": "save_maxhome_jd",
-      "label": "save_maxhome_jd.py",
+      "id": "scratch_chunk_0",
+      "label": "chunk_0.js",
       "_origin": "ast",
       "community": 322,
-      "community_name": "save_maxhome_jd.py",
+      "community_name": "chunk_0.js",
       "file_type": "code",
-      "norm_label": "save_maxhome_jd.py",
-      "source_file": "save_maxhome_jd.py",
+      "norm_label": "chunk_0.js",
+      "source_file": "scratch/chunk_0.js",
       "source_location": "L1"
     },
     {
-      "id": "save_monsoon_jd",
-      "label": "save_monsoon_jd.py",
+      "id": "scratch_chunk_1",
+      "label": "chunk_1.js",
       "_origin": "ast",
       "community": 323,
-      "community_name": "save_monsoon_jd.py",
+      "community_name": "chunk_1.js",
       "file_type": "code",
-      "norm_label": "save_monsoon_jd.py",
-      "source_file": "save_monsoon_jd.py",
+      "norm_label": "chunk_1.js",
+      "source_file": "scratch/chunk_1.js",
       "source_location": "L1"
     },
     {
-      "id": "save_sardine_jd",
-      "label": "save_sardine_jd.py",
+      "id": "scratch_chunk_2",
+      "label": "chunk_2.js",
       "_origin": "ast",
       "community": 324,
-      "community_name": "save_sardine_jd.py",
+      "community_name": "chunk_2.js",
       "file_type": "code",
-      "norm_label": "save_sardine_jd.py",
-      "source_file": "save_sardine_jd.py",
+      "norm_label": "chunk_2.js",
+      "source_file": "scratch/chunk_2.js",
       "source_location": "L1"
     },
     {
-      "id": "save_xomiro_jd",
-      "label": "save_xomiro_jd.py",
+      "id": "scratch_chunk_3",
+      "label": "chunk_3.js",
       "_origin": "ast",
       "community": 325,
-      "community_name": "save_xomiro_jd.py",
+      "community_name": "chunk_3.js",
       "file_type": "code",
-      "norm_label": "save_xomiro_jd.py",
-      "source_file": "save_xomiro_jd.py",
+      "norm_label": "chunk_3.js",
+      "source_file": "scratch/chunk_3.js",
       "source_location": "L1"
     },
     {
@@ -7768,25 +8105,25 @@
       "source_location": "L1"
     },
     {
-      "id": "upload_zimperium",
-      "label": "upload_zimperium.js",
+      "id": "scratch_clean_b64",
+      "label": "clean_b64.py",
       "_origin": "ast",
       "community": 328,
-      "community_name": "upload_zimperium.js",
+      "community_name": "clean_b64.py",
       "file_type": "code",
-      "norm_label": "upload_zimperium.js",
-      "source_file": "upload_zimperium.js",
+      "norm_label": "clean_b64.py",
+      "source_file": "scratch/clean_b64.py",
       "source_location": "L1"
     },
     {
-      "id": "upload_zimperium_pw",
-      "label": "upload_zimperium_pw.js",
+      "id": "scratch_clean_jd",
+      "label": "clean_jd.py",
       "_origin": "ast",
       "community": 329,
-      "community_name": "upload_zimperium_pw.js",
+      "community_name": "clean_jd.py",
       "file_type": "code",
-      "norm_label": "upload_zimperium_pw.js",
-      "source_file": "upload_zimperium_pw.js",
+      "norm_label": "clean_jd.py",
+      "source_file": "scratch/clean_jd.py",
       "source_location": "L1"
     },
     {
@@ -7816,6 +8153,116 @@
       "norm_label": "workflow: graphify",
       "source_file": ".agents/workflows/graphify.md",
       "source_location": "L6"
+    },
+    {
+      "id": "scratch_compile_resume",
+      "label": "compile_resume.py",
+      "_origin": "ast",
+      "community": 330,
+      "community_name": "compile_resume.py",
+      "file_type": "code",
+      "norm_label": "compile_resume.py",
+      "source_file": "scratch/compile_resume.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_draft_batch_0",
+      "label": "draft_batch_0.js",
+      "_origin": "ast",
+      "community": 331,
+      "community_name": "draft_batch_0.js",
+      "file_type": "code",
+      "norm_label": "draft_batch_0.js",
+      "source_file": "scratch/draft_batch_0.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_eval_batch_0",
+      "label": "eval_batch_0.js",
+      "_origin": "ast",
+      "community": 332,
+      "community_name": "eval_batch_0.js",
+      "file_type": "code",
+      "norm_label": "eval_batch_0.js",
+      "source_file": "scratch/eval_batch_0.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_eval_batch_1",
+      "label": "eval_batch_1.js",
+      "_origin": "ast",
+      "community": 333,
+      "community_name": "eval_batch_1.js",
+      "file_type": "code",
+      "norm_label": "eval_batch_1.js",
+      "source_file": "scratch/eval_batch_1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_eval_batch_2",
+      "label": "eval_batch_2.js",
+      "_origin": "ast",
+      "community": 334,
+      "community_name": "eval_batch_2.js",
+      "file_type": "code",
+      "norm_label": "eval_batch_2.js",
+      "source_file": "scratch/eval_batch_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_eval_batch_3",
+      "label": "eval_batch_3.js",
+      "_origin": "ast",
+      "community": 335,
+      "community_name": "eval_batch_3.js",
+      "file_type": "code",
+      "norm_label": "eval_batch_3.js",
+      "source_file": "scratch/eval_batch_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_servicenow_py_scratch_fill_servicenow",
+      "label": "fill_servicenow.py",
+      "_origin": "ast",
+      "community": 336,
+      "community_name": "fill_servicenow.py",
+      "file_type": "code",
+      "norm_label": "fill_servicenow.py",
+      "source_file": "scratch/fill_servicenow.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_fill_starburst",
+      "label": "fill_starburst.py",
+      "_origin": "ast",
+      "community": 337,
+      "community_name": "fill_starburst.py",
+      "file_type": "code",
+      "norm_label": "fill_starburst.py",
+      "source_file": "scratch/fill_starburst.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_filter_round2",
+      "label": "filter_round2.py",
+      "_origin": "ast",
+      "community": 338,
+      "community_name": "filter_round2.py",
+      "file_type": "code",
+      "norm_label": "filter_round2.py",
+      "source_file": "scratch/filter_round2.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_filter_valid_leads",
+      "label": "filter_valid_leads.py",
+      "_origin": "ast",
+      "community": 339,
+      "community_name": "filter_valid_leads.py",
+      "file_type": "code",
+      "norm_label": "filter_valid_leads.py",
+      "source_file": "scratch/filter_valid_leads.py",
+      "source_location": "L1"
     },
     {
       "id": "claude",
@@ -7878,6 +8325,116 @@
       "source_location": "L16"
     },
     {
+      "id": "scratch_find_fresh_leads",
+      "label": "find_fresh_leads.py",
+      "_origin": "ast",
+      "community": 340,
+      "community_name": "find_fresh_leads.py",
+      "file_type": "code",
+      "norm_label": "find_fresh_leads.py",
+      "source_file": "scratch/find_fresh_leads.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_find_uncontacted_pool",
+      "label": "find_uncontacted_pool.py",
+      "_origin": "ast",
+      "community": 341,
+      "community_name": "find_uncontacted_pool.py",
+      "file_type": "code",
+      "norm_label": "find_uncontacted_pool.py",
+      "source_file": "scratch/find_uncontacted_pool.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_generate_js_batches",
+      "label": "generate_js_batches.py",
+      "_origin": "ast",
+      "community": 342,
+      "community_name": "generate_js_batches.py",
+      "file_type": "code",
+      "norm_label": "generate_js_batches.py",
+      "source_file": "scratch/generate_js_batches.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_inspect_jobfound_apply",
+      "label": "inspect_jobfound_apply.py",
+      "_origin": "ast",
+      "community": 343,
+      "community_name": "inspect_jobfound_apply.py",
+      "file_type": "code",
+      "norm_label": "inspect_jobfound_apply.py",
+      "source_file": "scratch/inspect_jobfound_apply.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_log_application",
+      "label": "log_application.py",
+      "_origin": "ast",
+      "community": 344,
+      "community_name": "log_application.py",
+      "file_type": "code",
+      "norm_label": "log_application.py",
+      "source_file": "scratch/log_application.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_make_attach_playwright",
+      "label": "make_attach_playwright.py",
+      "_origin": "ast",
+      "community": 345,
+      "community_name": "make_attach_playwright.py",
+      "file_type": "code",
+      "norm_label": "make_attach_playwright.py",
+      "source_file": "scratch/make_attach_playwright.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_make_autofill_servicenow",
+      "label": "make_autofill_servicenow.py",
+      "_origin": "ast",
+      "community": 346,
+      "community_name": "make_autofill_servicenow.py",
+      "file_type": "code",
+      "norm_label": "make_autofill_servicenow.py",
+      "source_file": "scratch/make_autofill_servicenow.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_make_chunks",
+      "label": "make_chunks.py",
+      "_origin": "ast",
+      "community": 347,
+      "community_name": "make_chunks.py",
+      "file_type": "code",
+      "norm_label": "make_chunks.py",
+      "source_file": "scratch/make_chunks.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_make_upload_hpe",
+      "label": "make_upload_hpe.py",
+      "_origin": "ast",
+      "community": 348,
+      "community_name": "make_upload_hpe.py",
+      "file_type": "code",
+      "norm_label": "make_upload_hpe.py",
+      "source_file": "scratch/make_upload_hpe.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_part1",
+      "label": "part1.js",
+      "_origin": "ast",
+      "community": 349,
+      "community_name": "part1.js",
+      "file_type": "code",
+      "norm_label": "part1.js",
+      "source_file": "scratch/part1.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_tracker_refresh",
       "label": "refresh.sh",
       "_origin": "ast",
@@ -7908,6 +8465,116 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_part2",
+      "label": "part2.js",
+      "_origin": "ast",
+      "community": 350,
+      "community_name": "part2.js",
+      "file_type": "code",
+      "norm_label": "part2.js",
+      "source_file": "scratch/part2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_patch_gates",
+      "label": "patch_gates.py",
+      "_origin": "ast",
+      "community": 351,
+      "community_name": "patch_gates.py",
+      "file_type": "code",
+      "norm_label": "patch_gates.py",
+      "source_file": "scratch/patch_gates.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_prep_idfy",
+      "label": "prep_idfy.py",
+      "_origin": "ast",
+      "community": 352,
+      "community_name": "prep_idfy.py",
+      "file_type": "code",
+      "norm_label": "prep_idfy.py",
+      "source_file": "scratch/prep_idfy.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_prepare_exact_b64",
+      "label": "prepare_exact_b64.py",
+      "_origin": "ast",
+      "community": 353,
+      "community_name": "prepare_exact_b64.py",
+      "file_type": "code",
+      "norm_label": "prepare_exact_b64.py",
+      "source_file": "scratch/prepare_exact_b64.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_batch_0",
+      "label": "run_batch_0.js",
+      "_origin": "ast",
+      "community": 354,
+      "community_name": "run_batch_0.js",
+      "file_type": "code",
+      "norm_label": "run_batch_0.js",
+      "source_file": "scratch/run_batch_0.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_batch_1",
+      "label": "run_batch_1.js",
+      "_origin": "ast",
+      "community": 355,
+      "community_name": "run_batch_1.js",
+      "file_type": "code",
+      "norm_label": "run_batch_1.js",
+      "source_file": "scratch/run_batch_1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_batch_2",
+      "label": "run_batch_2.js",
+      "_origin": "ast",
+      "community": 356,
+      "community_name": "run_batch_2.js",
+      "file_type": "code",
+      "norm_label": "run_batch_2.js",
+      "source_file": "scratch/run_batch_2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_batch_3",
+      "label": "run_batch_3.js",
+      "_origin": "ast",
+      "community": 357,
+      "community_name": "run_batch_3.js",
+      "file_type": "code",
+      "norm_label": "run_batch_3.js",
+      "source_file": "scratch/run_batch_3.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_run_highlight",
+      "label": "run_highlight.js",
+      "_origin": "ast",
+      "community": 358,
+      "community_name": "run_highlight.js",
+      "file_type": "code",
+      "norm_label": "run_highlight.js",
+      "source_file": "scratch/run_highlight.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_scan_lever_boards",
+      "label": "scan_lever_boards.py",
+      "_origin": "ast",
+      "community": 359,
+      "community_name": "scan_lever_boards.py",
+      "file_type": "code",
+      "norm_label": "scan_lever_boards.py",
+      "source_file": "scratch/scan_lever_boards.py",
+      "source_location": "L1"
+    },
+    {
       "id": "readme",
       "label": "README.md",
       "_origin": "ast",
@@ -7932,6 +8599,116 @@
       "source_location": "L1"
     },
     {
+      "id": "scratch_scan_wellfound",
+      "label": "scan_wellfound.py",
+      "_origin": "ast",
+      "community": 360,
+      "community_name": "scan_wellfound.py",
+      "file_type": "code",
+      "norm_label": "scan_wellfound.py",
+      "source_file": "scratch/scan_wellfound.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_20_drafts_tracked",
+      "label": "send_20_drafts_tracked.js",
+      "_origin": "ast",
+      "community": 361,
+      "community_name": "send_20_drafts_tracked.js",
+      "file_type": "code",
+      "norm_label": "send_20_drafts_tracked.js",
+      "source_file": "scratch/send_20_drafts_tracked.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_only_drafts",
+      "label": "send_only_drafts.js",
+      "_origin": "ast",
+      "community": 362,
+      "community_name": "send_only_drafts.js",
+      "file_type": "code",
+      "norm_label": "send_only_drafts.js",
+      "source_file": "scratch/send_only_drafts.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_set_b64",
+      "label": "set_b64.js",
+      "_origin": "ast",
+      "community": 363,
+      "community_name": "set_b64.js",
+      "file_type": "code",
+      "norm_label": "set_b64.js",
+      "source_file": "scratch/set_b64.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_set_part1",
+      "label": "set_part1.js",
+      "_origin": "ast",
+      "community": 364,
+      "community_name": "set_part1.js",
+      "file_type": "code",
+      "norm_label": "set_part1.js",
+      "source_file": "scratch/set_part1.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_set_part2",
+      "label": "set_part2.js",
+      "_origin": "ast",
+      "community": 365,
+      "community_name": "set_part2.js",
+      "file_type": "code",
+      "norm_label": "set_part2.js",
+      "source_file": "scratch/set_part2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_split_b64",
+      "label": "split_b64.py",
+      "_origin": "ast",
+      "community": 366,
+      "community_name": "split_b64.py",
+      "file_type": "code",
+      "norm_label": "split_b64.py",
+      "source_file": "scratch/split_b64.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_test_url",
+      "label": "test_url.py",
+      "_origin": "ast",
+      "community": 367,
+      "community_name": "test_url.py",
+      "file_type": "code",
+      "norm_label": "test_url.py",
+      "source_file": "scratch/test_url.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_upload_canonical",
+      "label": "upload_canonical.js",
+      "_origin": "ast",
+      "community": 368,
+      "community_name": "upload_canonical.js",
+      "file_type": "code",
+      "norm_label": "upload_canonical.js",
+      "source_file": "scratch/upload_canonical.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_upload_hpe",
+      "label": "upload_hpe.js",
+      "_origin": "ast",
+      "community": 369,
+      "community_name": "upload_hpe.js",
+      "file_type": "code",
+      "norm_label": "upload_hpe.js",
+      "source_file": "scratch/upload_hpe.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_resume",
       "label": "job-kit-starter/resume.cls",
       "_origin": "ast",
@@ -7940,6 +8717,83 @@
       "file_type": "code",
       "norm_label": "job-kit-starter/resume.cls",
       "source_file": "job-kit-starter/resume.cls",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_verify_and_build_20_targets",
+      "label": "verify_and_build_20_targets.py",
+      "_origin": "ast",
+      "community": 370,
+      "community_name": "verify_and_build_20_targets.py",
+      "file_type": "code",
+      "norm_label": "verify_and_build_20_targets.py",
+      "source_file": "scratch/verify_and_build_20_targets.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_verify_leads",
+      "label": "verify_leads.py",
+      "_origin": "ast",
+      "community": 371,
+      "community_name": "verify_leads.py",
+      "file_type": "code",
+      "norm_label": "verify_leads.py",
+      "source_file": "scratch/verify_leads.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_check_today",
+      "label": "check_today.py",
+      "_origin": "ast",
+      "community": 372,
+      "community_name": "check_today.py",
+      "file_type": "code",
+      "norm_label": "check_today.py",
+      "source_file": "scratch/check_today.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_generate_send_batches",
+      "label": "generate_send_batches.py",
+      "_origin": "ast",
+      "community": 373,
+      "community_name": "generate_send_batches.py",
+      "file_type": "code",
+      "norm_label": "generate_send_batches.py",
+      "source_file": "scratch/generate_send_batches.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_list_remaining",
+      "label": "list_remaining.py",
+      "_origin": "ast",
+      "community": 374,
+      "community_name": "list_remaining.py",
+      "file_type": "code",
+      "norm_label": "list_remaining.py",
+      "source_file": "scratch/list_remaining.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_reconcile_outreach",
+      "label": "reconcile_outreach.py",
+      "_origin": "ast",
+      "community": 375,
+      "community_name": "reconcile_outreach.py",
+      "file_type": "code",
+      "norm_label": "reconcile_outreach.py",
+      "source_file": "scratch/reconcile_outreach.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_send_remaining",
+      "label": "send_remaining.js",
+      "_origin": "ast",
+      "community": 376,
+      "community_name": "send_remaining.js",
+      "file_type": "code",
+      "norm_label": "send_remaining.js",
+      "source_file": "scratch/send_remaining.js",
       "source_location": "L1"
     },
     {
@@ -8479,17 +9333,6 @@
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_gates",
-      "label": "gates.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "gates.py",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_job_hunt",
       "label": "job_hunt.py",
       "_origin": "ast",
@@ -8512,73 +9355,7 @@
       "source_location": "L1"
     },
     {
-      "id": "scratch_check_lead_locations",
-      "label": "check_lead_locations.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "check_lead_locations.py",
-      "source_file": "scratch/check_lead_locations.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_get_all_job_hunt",
-      "label": "get_all_job_hunt.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "get_all_job_hunt.py",
-      "source_file": "scratch/get_all_job_hunt.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_parse_jobfound",
-      "label": "parse_jobfound.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "parse_jobfound.py",
-      "source_file": "scratch/parse_jobfound.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_scan_all_sources",
-      "label": "scan_all_sources.py",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "code",
-      "norm_label": "scan_all_sources.py",
-      "source_file": "scratch/scan_all_sources.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_gates_rationale_19",
-      "label": "Tags off, entities decoded, whitespace collapsed. Shared by\u2026",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "rationale",
-      "norm_label": "tags off, entities decoded, whitespace collapsed. shared by...",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L19"
-    },
-    {
-      "id": "job_kit_starter_gates_rationale_2",
-      "label": "Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py\u2026",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "rationale",
-      "norm_label": "pre-submit gates for the daily scan. run from job-kit-starter/. python gates.py...",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L2"
-    },
-    {
-      "id": "job_kit_starter_gates_rationale_38",
+      "id": "job_kit_starter_gates_rationale_39",
       "label": "Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range\u2026",
       "_origin": "ast",
       "community": 46,
@@ -8586,18 +9363,7 @@
       "file_type": "rationale",
       "norm_label": "return ('skip'|'borderline'|'ok', evidence). hard skip: n+ with n>=4, or range...",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L38"
-    },
-    {
-      "id": "job_kit_starter_gates_rationale_58",
-      "label": "True only if s is a 'key=value; key=value; ...' audit trail of what was\u2026",
-      "_origin": "ast",
-      "community": 46,
-      "community_name": "job_hunt.py",
-      "file_type": "rationale",
-      "norm_label": "true only if s is a 'key=value; key=value; ...' audit trail of what was...",
-      "source_file": "job-kit-starter/gates.py",
-      "source_location": "L58"
+      "source_location": "L39"
     },
     {
       "id": "job_kit_starter_job_hunt_india_rationale_2",
@@ -9802,12 +10568,12 @@
     },
     {
       "id": "scratch_inject_resume",
-      "label": "scratch/inject_resume.js",
+      "label": "inject_resume.js",
       "_origin": "ast",
       "community": 64,
       "community_name": "inject_resume.js",
       "file_type": "code",
-      "norm_label": "scratch/inject_resume.js",
+      "norm_label": "inject_resume.js",
       "source_file": "scratch/inject_resume.js",
       "source_location": "L1"
     },
@@ -10644,7 +11410,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L110",
+      "source_location": "L111",
       "weight": 1.0
     },
     {
@@ -10656,7 +11422,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L112",
+      "source_location": "L113",
       "weight": 1.0
     },
     {
@@ -10668,7 +11434,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L69",
+      "source_location": "L70",
       "weight": 1.0
     },
     {
@@ -10680,7 +11446,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L39",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -11392,6 +12158,42 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_scan_boards_now_scan_ashby",
+      "target": "scratch_scan_boards_now_get_json",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_boards_now_scan_gh",
+      "target": "scratch_scan_boards_now_get_json",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_boards_now_scan_lever",
+      "target": "scratch_scan_boards_now_get_json",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_scan_india_unicorns_check_gh",
       "target": "scratch_scan_india_unicorns_check_title_gate",
       "relation": "calls",
@@ -11668,6 +12470,18 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_filter_waas",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scratch/filter_waas.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_get_all_job_hunt",
       "target": "job_kit_starter_gates",
       "relation": "imports_from",
@@ -11700,6 +12514,42 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "scratch/scan_all_sources.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_boards",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scratch/scan_boards.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_boards_now",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_round2",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scratch/scan_round2.py",
       "source_location": "L4",
       "weight": 1.0
     },
@@ -13515,7 +14365,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L108",
+      "source_location": "L109",
       "weight": 1.0
     },
     {
@@ -13526,7 +14376,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L122",
+      "source_location": "L123",
       "weight": 1.0
     },
     {
@@ -13548,7 +14398,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L32",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -13559,7 +14409,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L37",
+      "source_location": "L38",
       "weight": 1.0
     },
     {
@@ -13570,7 +14420,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L52",
+      "source_location": "L53",
       "weight": 1.0
     },
     {
@@ -13581,7 +14431,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L57",
+      "source_location": "L58",
       "weight": 1.0
     },
     {
@@ -13592,7 +14442,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L67",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
@@ -13603,7 +14453,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L90",
+      "source_location": "L91",
       "weight": 1.0
     },
     {
@@ -13614,7 +14464,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L96",
+      "source_location": "L97",
       "weight": 1.0
     },
     {
@@ -13659,17 +14509,6 @@
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/hn_scan.py",
       "source_location": "L76",
-      "weight": 1.0
-    },
-    {
-      "source": "job_kit_starter_inject_resume",
-      "target": "job_kit_starter_inject_resume_base64toblob",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "job-kit-starter/inject_resume.js",
-      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -16841,6 +17680,39 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_attach_playwright",
+      "target": "scratch_attach_playwright_findinput",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/attach_playwright.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_attach_resume_servicenow",
+      "target": "scratch_attach_resume_servicenow_findinput",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/attach_resume_servicenow.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_autofill_servicenow",
+      "target": "scratch_autofill_servicenow_findinput",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/autofill_servicenow.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_batch_draft_runner",
       "target": "scratch_batch_draft_runner_targets",
       "relation": "contains",
@@ -16951,6 +17823,50 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_fill_canonical",
+      "target": "scratch_fill_canonical_settextarea",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_canonical.js",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_canonical",
+      "target": "scratch_fill_canonical_setselect",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_canonical.js",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_canonical",
+      "target": "scratch_fill_canonical_setinput",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_canonical.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_canonical",
+      "target": "scratch_fill_canonical_setcheckbox",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_canonical.js",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_fill_doordash_education",
       "target": "scratch_fill_doordash_education_selectoption",
       "relation": "contains",
@@ -17025,6 +17941,28 @@
       "confidence_score": 1.0,
       "source_file": "scratch/fill_potpie.js",
       "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_servicenow_js_scratch_fill_servicenow",
+      "target": "scratch_fill_servicenow_setval",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_servicenow.js",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_fill_servicenow_js_scratch_fill_servicenow",
+      "target": "scratch_fill_servicenow_findinput",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/fill_servicenow.js",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -17157,6 +18095,17 @@
       "confidence_score": 1.0,
       "source_file": "scratch/keep_tab_open.py",
       "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_log_app",
+      "target": "scratch_log_app_log_application",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/log_app.py",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -17303,6 +18252,61 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_scan_boards",
+      "target": "scratch_scan_boards_check_loc",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/scan_boards.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_boards_now",
+      "target": "scratch_scan_boards_now_get_json",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_boards_now",
+      "target": "scratch_scan_boards_now_scan_gh",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_boards_now",
+      "target": "scratch_scan_boards_now_scan_ashby",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_boards_now",
+      "target": "scratch_scan_boards_now_scan_lever",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/scan_boards_now.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_scan_india_unicorns",
       "target": "scratch_scan_india_unicorns_check_title_gate",
       "relation": "contains",
@@ -17347,6 +18351,28 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_scan_jobfound_full",
+      "target": "scratch_scan_jobfound_full_get_page_jobs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/scan_jobfound_full.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_jobfound_full",
+      "target": "scratch_scan_jobfound_full_extract_job_details",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/scan_jobfound_full.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_scan_more_ats",
       "target": "scratch_scan_more_ats_check_title_gate",
       "relation": "contains",
@@ -17377,6 +18403,17 @@
       "confidence_score": 1.0,
       "source_file": "scratch/scan_more_ats.py",
       "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_scan_round2",
+      "target": "scratch_scan_round2_check_loc",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/scan_round2.py",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -17454,6 +18491,17 @@
       "confidence_score": 1.0,
       "source_file": "scratch/test_full_submit_v2.py",
       "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_test_jobfound",
+      "target": "scratch_test_jobfound_find_keys",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/test_jobfound.py",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -17677,25 +18725,25 @@
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_gates_rationale_38",
+      "source": "job_kit_starter_gates_rationale_39",
       "target": "job_kit_starter_gates_yoe_check",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L38",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_gates_rationale_58",
+      "source": "job_kit_starter_gates_rationale_59",
       "target": "job_kit_starter_gates_personal_info_valid",
       "relation": "rationale_for",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "job-kit-starter/gates.py",
-      "source_location": "L58",
+      "source_location": "L59",
       "weight": 1.0
     },
     {
@@ -17938,5 +18986,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6e402eb40ef8fb60f7f692efe8eef59df7dba3ce"
+  "built_at_commit": "94cd71bc4feca87cc80362382814267c6683f65c"
 }

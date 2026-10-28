@@ -18,7 +18,8 @@ ROOT = Path(__file__).resolve().parent
 def strip_html(text):
     """Tags off, entities decoded, whitespace collapsed. Shared by yoe_check/coverage/clean
     so there's exactly one definition of 'clean JD text' instead of three inline copies."""
-    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", text or ""))).strip()
+    t = (text or "").replace("â€“", "-").replace("—", "-").replace("–", "-")
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", t))).strip()
 
 # Literal title check (daily_scan.md step 5 b2) + user-added terms (customer/client/mobile/React Native).
 TITLE_SKIP = re.compile(
