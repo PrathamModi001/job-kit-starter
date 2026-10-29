@@ -43,6 +43,9 @@ Desktop.ini
 *.toc
 *.pdf
 
+# Scratch / temporary working scripts (not tracked)
+scratch/
+
 # Job search transient outputs and temporary test artifacts
 /output/
 **/test_*.txt
