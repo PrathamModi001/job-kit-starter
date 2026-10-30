@@ -2364,6 +2364,66 @@
 "resume": "output/Spector.ai - Fullstack Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Coder",
+"role": "Software Engineer (Enterprise Experience, Backend)",
+"loc": "Europe / Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "£52K - £71K / €94K - €128K",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://jobs.ashbyhq.com/coder/8d76dce2-97f7-413e-a93e-9e3f0ba8d259/application",
+"resume": "output/Coder - Software Engineer (Enterprise Experience Backend)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "NetBird",
+"role": "Open Source Engineer",
+"loc": "Berlin/Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "18-20 LPA (or 80000 EUR / year)",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://jobs.ashbyhq.com/netbird/103f9e7d-e32b-4ac2-a041-501b470c9fc4/application",
+"resume": "output/NetBird - Open Source Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Speakeasy",
+"role": "Platform Engineer (SRE) - AI Control Plane",
+"loc": "San Francisco / Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (Profile: 18-20 LPA)",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://jobs.ashbyhq.com/speakeasy/43904ba3-3792-4cc4-b097-6e98ca9a1b4b/application",
+"resume": "output/Speakeasy - Platform Engineer (SRE)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Unstructured",
+"role": "AI Engineer - Public Sector",
+"loc": "Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (Profile: 18-20 LPA)",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://jobs.ashbyhq.com/unstructured/9df95483-7177-4f98-850e-4abbdf530434/application",
+"resume": "output/Unstructured - AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Writer",
+"role": "Software engineer, agents",
+"loc": "New York / SF / Seattle / London (Remote/Relocate)",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "$132K - $240K",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://jobs.ashbyhq.com/writer/40021ec1-fc21-4230-8d95-0eca8fd51bec/application",
+"resume": "output/Writer - Software Engineer Agents/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -4198,6 +4258,18 @@
 "date": "2026-10-29",
 "url": "https://jobs.lever.co/safe/91e23536-2a94-496c-9c74-9dbfd815923f",
 "resume": "output/Safe Security - Software Development Engineer I/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Render",
+"role": "Software Engineer, Compute Infrastructure",
+"loc": "Remote: United States",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "170K - 290K USD",
+"status": "Blocked",
+"date": "2026-10-30",
+"url": "https://jobs.ashbyhq.com/render/af5b6699-2e4a-47de-99f7-664baa738190/application",
+"resume": "output/Render - Software Engineer Compute Infrastructure/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Drivetrain",
