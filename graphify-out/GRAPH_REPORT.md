@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-30)
 
 ## Corpus Check
-- 103 files · ~108,530 words
+- 222 files · ~133,782 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 587 nodes · 547 edges · 87 communities (44 shown, 6 thin omitted)
+- 715 nodes · 567 edges · 195 communities (44 shown, 8 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `97f5da8a`
+- Built from commit: `d8a629a8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -64,6 +64,8 @@
 - Experience: Projects Pool
 - AI Fingerprint Rules
 - Skills Taxonomy
+- fill_scaleai.js
+- fill_resend.js
 - Batch Mode: single-path, ATS-first resume tailoring
 
 ## God Nodes (most connected - your core abstractions)
@@ -91,7 +93,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (87 total, 6 thin omitted)
+## Communities (195 total, 8 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -118,7 +120,7 @@ Cohesion: 0.10
 Nodes (19): Achievements, Achievements, Cross-Position Themes (for cover letters), Cross-Position Themes (for cover letters), Dates: Aug 2018 -- Jul 2023, Dates: Aug 2023 -- Present, L1: ML-Guided Enzyme Stability Screening, L2: Enzyme Solvent Tolerance Prediction (+11 more)
 
 ### Community 6 - "gates.py"
-Cohesion: 0.21
+Cohesion: 0.11
 Nodes (8): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html(), vocab()
 
 ### Community 7 - "/edit-resume"
@@ -270,17 +272,19 @@ Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
 ## Knowledge Gaps
-- **341 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+336 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 442 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **343 isolated node(s):** `fs`, `fs`, `name`, `private`, `version` (+338 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 566 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `yoe_check()` connect `job_hunt.py` to `gates.py`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **What connects `name`, `private`, `version` to the rest of the system?**
-  _341 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **Why does `title_skip()` connect `job_hunt.py` to `gates.py`?**
+  _High betweenness centrality (0.001) - this node is a cross-community bridge._
+- **What connects `fs`, `fs`, `name` to the rest of the system?**
+  _343 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
@@ -289,5 +293,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
 - **Should `Resume & CV Generation — Reference` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
-- **Should `Documentation` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._

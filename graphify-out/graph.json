@@ -592,6 +592,102 @@
       "source_location": "L97"
     },
     {
+      "id": "fill_scaleai_fill",
+      "label": "fill()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 64,
+      "community_name": "fill_scaleai.js",
+      "file_type": "code",
+      "norm_label": "fill()",
+      "source_file": "fill_scaleai.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "fill_scaleai_fill_selectoption",
+      "label": "selectOption()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 64,
+      "community_name": "fill_scaleai.js",
+      "file_type": "code",
+      "norm_label": "selectoption()",
+      "source_file": "fill_scaleai.js",
+      "source_location": "L50"
+    },
+    {
+      "id": "fill_resend_fillresend",
+      "label": "fillResend()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 65,
+      "community_name": "fill_resend.js",
+      "file_type": "code",
+      "norm_label": "fillresend()",
+      "source_file": "fill_resend.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "run_anthropic_fill_selectdropdown",
+      "label": "selectDropdown()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 66,
+      "community_name": "run_anthropic_fill.js",
+      "file_type": "code",
+      "norm_label": "selectdropdown()",
+      "source_file": "run_anthropic_fill.js",
+      "source_location": "L61"
+    },
+    {
+      "id": "run_anthropic_fill_setfield",
+      "label": "setField()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 66,
+      "community_name": "run_anthropic_fill.js",
+      "file_type": "code",
+      "norm_label": "setfield()",
+      "source_file": "run_anthropic_fill.js",
+      "source_location": "L23"
+    },
+    {
+      "id": "check_selects_getval",
+      "label": "getVal()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 67,
+      "community_name": "check_selects.js",
+      "file_type": "code",
+      "norm_label": "getval()",
+      "source_file": "check_selects.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "fill_cloudflare_setinput",
+      "label": "setInput()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 68,
+      "community_name": "fill_cloudflare.js",
+      "file_type": "code",
+      "norm_label": "setinput()",
+      "source_file": "fill_cloudflare.js",
+      "source_location": "L4"
+    },
+    {
+      "id": "fill_scaleai_complete_selectoption",
+      "label": "selectOption()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 69,
+      "community_name": "fill_scaleai_complete.js",
+      "file_type": "code",
+      "norm_label": "selectoption()",
+      "source_file": "fill_scaleai_complete.js",
+      "source_location": "L42"
+    },
+    {
       "id": "scratch_fill_infisical_fast_setreactinput",
       "label": "setReactInput()",
       "_callable": true,
@@ -1430,6 +1526,116 @@
       "source_location": "L6"
     },
     {
+      "id": "filter_candidates",
+      "label": "filter_candidates.py",
+      "_origin": "ast",
+      "community": 100,
+      "community_name": "filter_candidates.py",
+      "file_type": "code",
+      "norm_label": "filter_candidates.py",
+      "source_file": "filter_candidates.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_ashby_roles",
+      "label": "find_ashby_roles.py",
+      "_origin": "ast",
+      "community": 101,
+      "community_name": "find_ashby_roles.py",
+      "file_type": "code",
+      "norm_label": "find_ashby_roles.py",
+      "source_file": "find_ashby_roles.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_direct_gh_boards",
+      "label": "find_direct_gh_boards.py",
+      "_origin": "ast",
+      "community": 102,
+      "community_name": "find_direct_gh_boards.py",
+      "file_type": "code",
+      "norm_label": "find_direct_gh_boards.py",
+      "source_file": "find_direct_gh_boards.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_gh_boards",
+      "label": "find_gh_boards.py",
+      "_origin": "ast",
+      "community": 103,
+      "community_name": "find_gh_boards.py",
+      "file_type": "code",
+      "norm_label": "find_gh_boards.py",
+      "source_file": "find_gh_boards.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_ic_jobs",
+      "label": "find_ic_jobs.py",
+      "_origin": "ast",
+      "community": 104,
+      "community_name": "find_ic_jobs.py",
+      "file_type": "code",
+      "norm_label": "find_ic_jobs.py",
+      "source_file": "find_ic_jobs.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_india_greenhouse",
+      "label": "find_india_greenhouse.py",
+      "_origin": "ast",
+      "community": 105,
+      "community_name": "find_india_greenhouse.py",
+      "file_type": "code",
+      "norm_label": "find_india_greenhouse.py",
+      "source_file": "find_india_greenhouse.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_lead5",
+      "label": "find_lead5.py",
+      "_origin": "ast",
+      "community": 106,
+      "community_name": "find_lead5.py",
+      "file_type": "code",
+      "norm_label": "find_lead5.py",
+      "source_file": "find_lead5.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_lead5_more",
+      "label": "find_lead5_more.py",
+      "_origin": "ast",
+      "community": 107,
+      "community_name": "find_lead5_more.py",
+      "file_type": "code",
+      "norm_label": "find_lead5_more.py",
+      "source_file": "find_lead5_more.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_lever_roles",
+      "label": "find_lever_roles.py",
+      "_origin": "ast",
+      "community": 108,
+      "community_name": "find_lever_roles.py",
+      "file_type": "code",
+      "norm_label": "find_lever_roles.py",
+      "source_file": "find_lever_roles.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_resume_elements",
+      "label": "find_resume_elements.js",
+      "_origin": "ast",
+      "community": 109,
+      "community_name": "find_resume_elements.js",
+      "file_type": "code",
+      "norm_label": "find_resume_elements.js",
+      "source_file": "find_resume_elements.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_resume_builder_helpers_char_count",
       "label": "char_count.py",
       "_origin": "ast",
@@ -1516,6 +1722,116 @@
       "norm_label": "classify bullet into variant and check limits.",
       "source_file": "job-kit-starter/resume_builder/helpers/char_count.py",
       "source_location": "L87"
+    },
+    {
+      "id": "find_third",
+      "label": "find_third.py",
+      "_origin": "ast",
+      "community": 110,
+      "community_name": "find_third.py",
+      "file_type": "code",
+      "norm_label": "find_third.py",
+      "source_file": "find_third.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_third_batch2",
+      "label": "find_third_batch2.py",
+      "_origin": "ast",
+      "community": 111,
+      "community_name": "find_third_batch2.py",
+      "file_type": "code",
+      "norm_label": "find_third_batch2.py",
+      "source_file": "find_third_batch2.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_third_batch3",
+      "label": "find_third_batch3.py",
+      "_origin": "ast",
+      "community": 112,
+      "community_name": "find_third_batch3.py",
+      "file_type": "code",
+      "norm_label": "find_third_batch3.py",
+      "source_file": "find_third_batch3.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_title_passing",
+      "label": "find_title_passing.py",
+      "_origin": "ast",
+      "community": 113,
+      "community_name": "find_title_passing.py",
+      "file_type": "code",
+      "norm_label": "find_title_passing.py",
+      "source_file": "find_title_passing.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_valid_startups",
+      "label": "find_valid_startups.py",
+      "_origin": "ast",
+      "community": 114,
+      "community_name": "find_valid_startups.py",
+      "file_type": "code",
+      "norm_label": "find_valid_startups.py",
+      "source_file": "find_valid_startups.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "fix_cloudflare_fields",
+      "label": "fix_cloudflare_fields.js",
+      "_origin": "ast",
+      "community": 115,
+      "community_name": "fix_cloudflare_fields.js",
+      "file_type": "code",
+      "norm_label": "fix_cloudflare_fields.js",
+      "source_file": "fix_cloudflare_fields.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "gen_fill_anthropic",
+      "label": "gen_fill_anthropic.py",
+      "_origin": "ast",
+      "community": 116,
+      "community_name": "gen_fill_anthropic.py",
+      "file_type": "code",
+      "norm_label": "gen_fill_anthropic.py",
+      "source_file": "gen_fill_anthropic.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "gen_resend",
+      "label": "gen_resend.py",
+      "_origin": "ast",
+      "community": 117,
+      "community_name": "gen_resend.py",
+      "file_type": "code",
+      "norm_label": "gen_resend.py",
+      "source_file": "gen_resend.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "generate_upload_cloudflare",
+      "label": "generate_upload_cloudflare.py",
+      "_origin": "ast",
+      "community": 118,
+      "community_name": "generate_upload_cloudflare.py",
+      "file_type": "code",
+      "norm_label": "generate_upload_cloudflare.py",
+      "source_file": "generate_upload_cloudflare.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_applied_companies",
+      "label": "get_applied_companies.py",
+      "_origin": "ast",
+      "community": 119,
+      "community_name": "get_applied_companies.py",
+      "file_type": "code",
+      "norm_label": "get_applied_companies.py",
+      "source_file": "get_applied_companies.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_claude_skills_setup_build_kb_skill",
@@ -1700,6 +2016,116 @@
       "norm_label": "startup",
       "source_file": "job-kit-starter/.claude/skills/setup-build-kb/SKILL.md",
       "source_location": "L18"
+    },
+    {
+      "id": "get_chainguard_jd",
+      "label": "get_chainguard_jd.js",
+      "_origin": "ast",
+      "community": 120,
+      "community_name": "get_chainguard_jd.js",
+      "file_type": "code",
+      "norm_label": "get_chainguard_jd.js",
+      "source_file": "get_chainguard_jd.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_country",
+      "label": "get_country.js",
+      "_origin": "ast",
+      "community": 121,
+      "community_name": "get_country.js",
+      "file_type": "code",
+      "norm_label": "get_country.js",
+      "source_file": "get_country.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_dropdown_options",
+      "label": "get_dropdown_options.js",
+      "_origin": "ast",
+      "community": 122,
+      "community_name": "get_dropdown_options.js",
+      "file_type": "code",
+      "norm_label": "get_dropdown_options.js",
+      "source_file": "get_dropdown_options.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_form_fields",
+      "label": "get_form_fields.js",
+      "_origin": "ast",
+      "community": 123,
+      "community_name": "get_form_fields.js",
+      "file_type": "code",
+      "norm_label": "get_form_fields.js",
+      "source_file": "get_form_fields.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_jd",
+      "label": "get_jd.js",
+      "_origin": "ast",
+      "community": 124,
+      "community_name": "get_jd.js",
+      "file_type": "code",
+      "norm_label": "get_jd.js",
+      "source_file": "get_jd.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_phone_html",
+      "label": "get_phone_html.js",
+      "_origin": "ast",
+      "community": 125,
+      "community_name": "get_phone_html.js",
+      "file_type": "code",
+      "norm_label": "get_phone_html.js",
+      "source_file": "get_phone_html.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_resume_section",
+      "label": "get_resume_section.js",
+      "_origin": "ast",
+      "community": 126,
+      "community_name": "get_resume_section.js",
+      "file_type": "code",
+      "norm_label": "get_resume_section.js",
+      "source_file": "get_resume_section.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_samsara_apply",
+      "label": "get_samsara_apply.js",
+      "_origin": "ast",
+      "community": 127,
+      "community_name": "get_samsara_apply.js",
+      "file_type": "code",
+      "norm_label": "get_samsara_apply.js",
+      "source_file": "get_samsara_apply.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_submit_button",
+      "label": "get_submit_button.js",
+      "_origin": "ast",
+      "community": 128,
+      "community_name": "get_submit_button.js",
+      "file_type": "code",
+      "norm_label": "get_submit_button.js",
+      "source_file": "get_submit_button.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "get_tailscale_jd",
+      "label": "get_tailscale_jd.js",
+      "_origin": "ast",
+      "community": 129,
+      "community_name": "get_tailscale_jd.js",
+      "file_type": "code",
+      "norm_label": "get_tailscale_jd.js",
+      "source_file": "get_tailscale_jd.js",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_playbook",
@@ -1906,6 +2332,116 @@
       "source_location": "L55"
     },
     {
+      "id": "get_tailscale_sp_jd",
+      "label": "get_tailscale_sp_jd.js",
+      "_origin": "ast",
+      "community": 130,
+      "community_name": "get_tailscale_sp_jd.js",
+      "file_type": "code",
+      "norm_label": "get_tailscale_sp_jd.js",
+      "source_file": "get_tailscale_sp_jd.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "inspect_anthropic_form",
+      "label": "inspect_anthropic_form.py",
+      "_origin": "ast",
+      "community": 131,
+      "community_name": "inspect_anthropic_form.py",
+      "file_type": "code",
+      "norm_label": "inspect_anthropic_form.py",
+      "source_file": "inspect_anthropic_form.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "log_anthropic",
+      "label": "log_anthropic.py",
+      "_origin": "ast",
+      "community": 132,
+      "community_name": "log_anthropic.py",
+      "file_type": "code",
+      "norm_label": "log_anthropic.py",
+      "source_file": "log_anthropic.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "log_cred",
+      "label": "log_cred.py",
+      "_origin": "ast",
+      "community": 133,
+      "community_name": "log_cred.py",
+      "file_type": "code",
+      "norm_label": "log_cred.py",
+      "source_file": "log_cred.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "log_outreach_rows",
+      "label": "log_outreach_rows.py",
+      "_origin": "ast",
+      "community": 134,
+      "community_name": "log_outreach_rows.py",
+      "file_type": "code",
+      "norm_label": "log_outreach_rows.py",
+      "source_file": "log_outreach_rows.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "log_sarvam",
+      "label": "log_sarvam.py",
+      "_origin": "ast",
+      "community": 135,
+      "community_name": "log_sarvam.py",
+      "file_type": "code",
+      "norm_label": "log_sarvam.py",
+      "source_file": "log_sarvam.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "log_scaleai",
+      "label": "log_scaleai.py",
+      "_origin": "ast",
+      "community": 136,
+      "community_name": "log_scaleai.py",
+      "file_type": "code",
+      "norm_label": "log_scaleai.py",
+      "source_file": "log_scaleai.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "log_vercel",
+      "label": "log_vercel.py",
+      "_origin": "ast",
+      "community": 137,
+      "community_name": "log_vercel.py",
+      "file_type": "code",
+      "norm_label": "log_vercel.py",
+      "source_file": "log_vercel.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "make_20_drafts_script",
+      "label": "make_20_drafts_script.py",
+      "_origin": "ast",
+      "community": 138,
+      "community_name": "make_20_drafts_script.py",
+      "file_type": "code",
+      "norm_label": "make_20_drafts_script.py",
+      "source_file": "make_20_drafts_script.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "make_anthropic_fill_script",
+      "label": "make_anthropic_fill_script.py",
+      "_origin": "ast",
+      "community": 139,
+      "community_name": "make_anthropic_fill_script.py",
+      "file_type": "code",
+      "norm_label": "make_anthropic_fill_script.py",
+      "source_file": "make_anthropic_fill_script.py",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_skill_profile",
       "label": "SKILL_PROFILE.md",
       "_origin": "ast",
@@ -2074,6 +2610,61 @@
       "source_location": "L12"
     },
     {
+      "id": "make_anthropic_jd",
+      "label": "make_anthropic_jd.py",
+      "_origin": "ast",
+      "community": 140,
+      "community_name": "make_anthropic_jd.py",
+      "file_type": "code",
+      "norm_label": "make_anthropic_jd.py",
+      "source_file": "make_anthropic_jd.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "more_startups",
+      "label": "more_startups.py",
+      "_origin": "ast",
+      "community": 141,
+      "community_name": "more_startups.py",
+      "file_type": "code",
+      "norm_label": "more_startups.py",
+      "source_file": "more_startups.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "prepare_cred_upload",
+      "label": "prepare_cred_upload.py",
+      "_origin": "ast",
+      "community": 142,
+      "community_name": "prepare_cred_upload.py",
+      "file_type": "code",
+      "norm_label": "prepare_cred_upload.py",
+      "source_file": "prepare_cred_upload.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "prepare_outreach",
+      "label": "prepare_outreach.py",
+      "_origin": "ast",
+      "community": 143,
+      "community_name": "prepare_outreach.py",
+      "file_type": "code",
+      "norm_label": "prepare_outreach.py",
+      "source_file": "prepare_outreach.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "prepare_pinecone_upload",
+      "label": "prepare_pinecone_upload.py",
+      "_origin": "ast",
+      "community": 144,
+      "community_name": "prepare_pinecone_upload.py",
+      "file_type": "code",
+      "norm_label": "prepare_pinecone_upload.py",
+      "source_file": "prepare_pinecone_upload.py",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_docs_superpowers_specs_2026_09_27_batch_mode_resume_tailoring_design",
       "label": "2026-09-27-batch-mode-resume-tailoring-design.md",
       "_origin": "ast",
@@ -2216,6 +2807,50 @@
       "norm_label": "what's explicitly cut vs. kept",
       "source_file": "job-kit-starter/docs/superpowers/specs/2026-09-27-batch-mode-resume-tailoring-design.md",
       "source_location": "L172"
+    },
+    {
+      "id": "prepare_sarvam_upload",
+      "label": "prepare_sarvam_upload.py",
+      "_origin": "ast",
+      "community": 146,
+      "community_name": "prepare_sarvam_upload.py",
+      "file_type": "code",
+      "norm_label": "prepare_sarvam_upload.py",
+      "source_file": "prepare_sarvam_upload.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "prepare_scaleai_upload",
+      "label": "prepare_scaleai_upload.py",
+      "_origin": "ast",
+      "community": 147,
+      "community_name": "prepare_scaleai_upload.py",
+      "file_type": "code",
+      "norm_label": "prepare_scaleai_upload.py",
+      "source_file": "prepare_scaleai_upload.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "prepare_vercel_upload",
+      "label": "prepare_vercel_upload.py",
+      "_origin": "ast",
+      "community": 148,
+      "community_name": "prepare_vercel_upload.py",
+      "file_type": "code",
+      "norm_label": "prepare_vercel_upload.py",
+      "source_file": "prepare_vercel_upload.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "save_ps_jd",
+      "label": "save_ps_jd.py",
+      "_origin": "ast",
+      "community": 149,
+      "community_name": "save_ps_jd.py",
+      "file_type": "code",
+      "norm_label": "save_ps_jd.py",
+      "source_file": "save_ps_jd.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_cl_reference",
@@ -2362,6 +2997,116 @@
       "source_location": "L58"
     },
     {
+      "id": "save_resend_jd",
+      "label": "save_resend_jd.py",
+      "_origin": "ast",
+      "community": 150,
+      "community_name": "save_resend_jd.py",
+      "file_type": "code",
+      "norm_label": "save_resend_jd.py",
+      "source_file": "save_resend_jd.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "save_scaleai_jd",
+      "label": "save_scaleai_jd.py",
+      "_origin": "ast",
+      "community": 151,
+      "community_name": "save_scaleai_jd.py",
+      "file_type": "code",
+      "norm_label": "save_scaleai_jd.py",
+      "source_file": "save_scaleai_jd.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scan_51_unapplied",
+      "label": "scan_51_unapplied.py",
+      "_origin": "ast",
+      "community": 152,
+      "community_name": "scan_51_unapplied.py",
+      "file_type": "code",
+      "norm_label": "scan_51_unapplied.py",
+      "source_file": "scan_51_unapplied.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scan_active_boards",
+      "label": "scan_active_boards.py",
+      "_origin": "ast",
+      "community": 153,
+      "community_name": "scan_active_boards.py",
+      "file_type": "code",
+      "norm_label": "scan_active_boards.py",
+      "source_file": "scan_active_boards.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scan_batch5",
+      "label": "scan_batch5.py",
+      "_origin": "ast",
+      "community": 154,
+      "community_name": "scan_batch5.py",
+      "file_type": "code",
+      "norm_label": "scan_batch5.py",
+      "source_file": "scan_batch5.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scan_greenhouse",
+      "label": "scan_greenhouse.py",
+      "_origin": "ast",
+      "community": 155,
+      "community_name": "scan_greenhouse.py",
+      "file_type": "code",
+      "norm_label": "scan_greenhouse.py",
+      "source_file": "scan_greenhouse.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scan_indian_companies",
+      "label": "scan_indian_companies.py",
+      "_origin": "ast",
+      "community": 156,
+      "community_name": "scan_indian_companies.py",
+      "file_type": "code",
+      "norm_label": "scan_indian_companies.py",
+      "source_file": "scan_indian_companies.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scan_more_gh",
+      "label": "scan_more_gh.py",
+      "_origin": "ast",
+      "community": 157,
+      "community_name": "scan_more_gh.py",
+      "file_type": "code",
+      "norm_label": "scan_more_gh.py",
+      "source_file": "scan_more_gh.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_upload",
+      "label": "scratch_upload.py",
+      "_origin": "ast",
+      "community": 158,
+      "community_name": "scratch_upload.py",
+      "file_type": "code",
+      "norm_label": "scratch_upload.py",
+      "source_file": "scratch_upload.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_upload_startree",
+      "label": "scratch_upload_startree.js",
+      "_origin": "ast",
+      "community": 159,
+      "community_name": "scratch_upload_startree.js",
+      "file_type": "code",
+      "norm_label": "scratch_upload_startree.js",
+      "source_file": "scratch_upload_startree.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_claude_skills_setup_extract_skill",
       "label": "setup-extract/SKILL.md",
       "_origin": "ast",
@@ -2498,6 +3243,116 @@
       "source_location": "L17"
     },
     {
+      "id": "set_iti",
+      "label": "set_iti.js",
+      "_origin": "ast",
+      "community": 160,
+      "community_name": "set_iti.js",
+      "file_type": "code",
+      "norm_label": "set_iti.js",
+      "source_file": "set_iti.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "set_phone_event",
+      "label": "set_phone_event.js",
+      "_origin": "ast",
+      "community": 161,
+      "community_name": "set_phone_event.js",
+      "file_type": "code",
+      "norm_label": "set_phone_event.js",
+      "source_file": "set_phone_event.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "set_phone_india",
+      "label": "set_phone_india.js",
+      "_origin": "ast",
+      "community": 162,
+      "community_name": "set_phone_india.js",
+      "file_type": "code",
+      "norm_label": "set_phone_india.js",
+      "source_file": "set_phone_india.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "submit_cloudflare",
+      "label": "submit_cloudflare.js",
+      "_origin": "ast",
+      "community": 163,
+      "community_name": "submit_cloudflare.js",
+      "file_type": "code",
+      "norm_label": "submit_cloudflare.js",
+      "source_file": "submit_cloudflare.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "test_ai_boards",
+      "label": "test_ai_boards.py",
+      "_origin": "ast",
+      "community": 164,
+      "community_name": "test_ai_boards.py",
+      "file_type": "code",
+      "norm_label": "test_ai_boards.py",
+      "source_file": "test_ai_boards.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "test_draft_one",
+      "label": "test_draft_one.js",
+      "_origin": "ast",
+      "community": 165,
+      "community_name": "test_draft_one.js",
+      "file_type": "code",
+      "norm_label": "test_draft_one.js",
+      "source_file": "test_draft_one.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "test_infra_boards",
+      "label": "test_infra_boards.py",
+      "_origin": "ast",
+      "community": 166,
+      "community_name": "test_infra_boards.py",
+      "file_type": "code",
+      "norm_label": "test_infra_boards.py",
+      "source_file": "test_infra_boards.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "test_more_gh",
+      "label": "test_more_gh.py",
+      "_origin": "ast",
+      "community": 167,
+      "community_name": "test_more_gh.py",
+      "file_type": "code",
+      "norm_label": "test_more_gh.py",
+      "source_file": "test_more_gh.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "test_yoes",
+      "label": "test_yoes.py",
+      "_origin": "ast",
+      "community": 168,
+      "community_name": "test_yoes.py",
+      "file_type": "code",
+      "norm_label": "test_yoes.py",
+      "source_file": "test_yoes.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "upload_cloudflare",
+      "label": "upload_cloudflare.js",
+      "_origin": "ast",
+      "community": 169,
+      "community_name": "upload_cloudflare.js",
+      "file_type": "code",
+      "norm_label": "upload_cloudflare.js",
+      "source_file": "upload_cloudflare.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_resume_builder_reference_critical_rules",
       "label": "critical_rules.md",
       "_origin": "ast",
@@ -2628,6 +3483,94 @@
       "norm_label": "variant naming",
       "source_file": "job-kit-starter/resume_builder/reference/critical_rules.md",
       "source_location": "L22"
+    },
+    {
+      "id": "upload_cred",
+      "label": "upload_cred.js",
+      "_origin": "ast",
+      "community": 170,
+      "community_name": "upload_cred.js",
+      "file_type": "code",
+      "norm_label": "upload_cred.js",
+      "source_file": "upload_cred.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "upload_pinecone",
+      "label": "upload_pinecone.js",
+      "_origin": "ast",
+      "community": 171,
+      "community_name": "upload_pinecone.js",
+      "file_type": "code",
+      "norm_label": "upload_pinecone.js",
+      "source_file": "upload_pinecone.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "upload_sarvam",
+      "label": "upload_sarvam.js",
+      "_origin": "ast",
+      "community": 172,
+      "community_name": "upload_sarvam.js",
+      "file_type": "code",
+      "norm_label": "upload_sarvam.js",
+      "source_file": "upload_sarvam.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "upload_scaleai",
+      "label": "upload_scaleai.js",
+      "_origin": "ast",
+      "community": 173,
+      "community_name": "upload_scaleai.js",
+      "file_type": "code",
+      "norm_label": "upload_scaleai.js",
+      "source_file": "upload_scaleai.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "upload_startree",
+      "label": "upload_startree.js",
+      "_origin": "ast",
+      "community": 174,
+      "community_name": "upload_startree.js",
+      "file_type": "code",
+      "norm_label": "upload_startree.js",
+      "source_file": "upload_startree.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "upload_vercel",
+      "label": "upload_vercel.js",
+      "_origin": "ast",
+      "community": 175,
+      "community_name": "upload_vercel.js",
+      "file_type": "code",
+      "norm_label": "upload_vercel.js",
+      "source_file": "upload_vercel.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "verify_tally",
+      "label": "verify_tally.py",
+      "_origin": "ast",
+      "community": 176,
+      "community_name": "verify_tally.py",
+      "file_type": "code",
+      "norm_label": "verify_tally.py",
+      "source_file": "verify_tally.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "write_upload_js",
+      "label": "write_upload_js.py",
+      "_origin": "ast",
+      "community": 177,
+      "community_name": "write_upload_js.py",
+      "file_type": "code",
+      "norm_label": "write_upload_js.py",
+      "source_file": "write_upload_js.py",
+      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_shared_ops",
@@ -6414,6 +7357,94 @@
       "source_location": "L15"
     },
     {
+      "id": "check_anthropic_jobs",
+      "label": "check_anthropic_jobs.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "check_anthropic_jobs.py",
+      "source_file": "check_anthropic_jobs.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_anthropic_yoes",
+      "label": "check_anthropic_yoes.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "check_anthropic_yoes.py",
+      "source_file": "check_anthropic_yoes.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_braze_swe",
+      "label": "check_braze_swe.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "check_braze_swe.py",
+      "source_file": "check_braze_swe.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_cresta_jobs",
+      "label": "check_cresta_jobs.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "check_cresta_jobs.py",
+      "source_file": "check_cresta_jobs.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_terms",
+      "label": "check_terms.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "check_terms.py",
+      "source_file": "check_terms.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "fast_anthropic",
+      "label": "fast_anthropic.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "fast_anthropic.py",
+      "source_file": "fast_anthropic.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "fast_scan_gates",
+      "label": "fast_scan_gates.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "fast_scan_gates.py",
+      "source_file": "fast_scan_gates.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "find_swe_clean",
+      "label": "find_swe_clean.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "find_swe_clean.py",
+      "source_file": "find_swe_clean.py",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_gates",
       "label": "gates.py",
       "_origin": "ast",
@@ -6422,6 +7453,17 @@
       "file_type": "code",
       "norm_label": "gates.py",
       "source_file": "job-kit-starter/gates.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scan_anthropic",
+      "label": "scan_anthropic.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "gates.py",
+      "file_type": "code",
+      "norm_label": "scan_anthropic.py",
+      "source_file": "scan_anthropic.py",
       "source_location": "L1"
     },
     {
@@ -6536,6 +7578,94 @@
       "file_type": "code",
       "norm_label": "scratch_test_upload.js",
       "source_file": "scratch_test_upload.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fill_scaleai",
+      "label": "fill_scaleai.js",
+      "_origin": "ast",
+      "community": 64,
+      "community_name": "fill_scaleai.js",
+      "file_type": "code",
+      "norm_label": "fill_scaleai.js",
+      "source_file": "fill_scaleai.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fill_scaleai_fs",
+      "label": "fs",
+      "_origin": "ast",
+      "community": 64,
+      "community_name": "fill_scaleai.js",
+      "file_type": "code",
+      "norm_label": "fs",
+      "source_file": "fill_scaleai.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fill_resend",
+      "label": "fill_resend.js",
+      "_origin": "ast",
+      "community": 65,
+      "community_name": "fill_resend.js",
+      "file_type": "code",
+      "norm_label": "fill_resend.js",
+      "source_file": "fill_resend.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fill_resend_fs",
+      "label": "fs",
+      "_origin": "ast",
+      "community": 65,
+      "community_name": "fill_resend.js",
+      "file_type": "code",
+      "norm_label": "fs",
+      "source_file": "fill_resend.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "run_anthropic_fill",
+      "label": "run_anthropic_fill.js",
+      "_origin": "ast",
+      "community": 66,
+      "community_name": "run_anthropic_fill.js",
+      "file_type": "code",
+      "norm_label": "run_anthropic_fill.js",
+      "source_file": "run_anthropic_fill.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_selects",
+      "label": "check_selects.js",
+      "_origin": "ast",
+      "community": 67,
+      "community_name": "check_selects.js",
+      "file_type": "code",
+      "norm_label": "check_selects.js",
+      "source_file": "check_selects.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fill_cloudflare",
+      "label": "fill_cloudflare.js",
+      "_origin": "ast",
+      "community": 68,
+      "community_name": "fill_cloudflare.js",
+      "file_type": "code",
+      "norm_label": "fill_cloudflare.js",
+      "source_file": "fill_cloudflare.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fill_scaleai_complete",
+      "label": "fill_scaleai_complete.js",
+      "_origin": "ast",
+      "community": 69,
+      "community_name": "fill_scaleai_complete.js",
+      "file_type": "code",
+      "norm_label": "fill_scaleai_complete.js",
+      "source_file": "fill_scaleai_complete.js",
       "source_location": "L1"
     },
     {
@@ -6733,6 +7863,105 @@
       "norm_label": "when user approves / says \"looks good\" / finalizes:",
       "source_file": "job-kit-starter/.claude/skills/edit-resume/SKILL.md",
       "source_location": "L207"
+    },
+    {
+      "id": "find_clean_unapplied",
+      "label": "find_clean_unapplied.py",
+      "_origin": "ast",
+      "community": 70,
+      "community_name": "find_clean_unapplied.py",
+      "file_type": "code",
+      "norm_label": "find_clean_unapplied.py",
+      "source_file": "find_clean_unapplied.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "print_clean_jobs",
+      "label": "print_clean_jobs.py",
+      "_origin": "ast",
+      "community": 70,
+      "community_name": "find_clean_unapplied.py",
+      "file_type": "code",
+      "norm_label": "print_clean_jobs.py",
+      "source_file": "print_clean_jobs.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_applied_set",
+      "label": "check_applied_set.py",
+      "_origin": "ast",
+      "community": 71,
+      "community_name": "check_applied_set.py",
+      "file_type": "code",
+      "norm_label": "check_applied_set.py",
+      "source_file": "check_applied_set.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_atlan",
+      "label": "check_atlan.py",
+      "_origin": "ast",
+      "community": 72,
+      "community_name": "check_atlan.py",
+      "file_type": "code",
+      "norm_label": "check_atlan.py",
+      "source_file": "check_atlan.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_candidates",
+      "label": "check_candidates.py",
+      "_origin": "ast",
+      "community": 73,
+      "community_name": "check_candidates.py",
+      "file_type": "code",
+      "norm_label": "check_candidates.py",
+      "source_file": "check_candidates.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_chainguard",
+      "label": "check_chainguard.py",
+      "_origin": "ast",
+      "community": 74,
+      "community_name": "check_chainguard.py",
+      "file_type": "code",
+      "norm_label": "check_chainguard.py",
+      "source_file": "check_chainguard.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_cloudflare_status",
+      "label": "check_cloudflare_status.js",
+      "_origin": "ast",
+      "community": 75,
+      "community_name": "check_cloudflare_status.js",
+      "file_type": "code",
+      "norm_label": "check_cloudflare_status.js",
+      "source_file": "check_cloudflare_status.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_country_label",
+      "label": "check_country_label.js",
+      "_origin": "ast",
+      "community": 76,
+      "community_name": "check_country_label.js",
+      "file_type": "code",
+      "norm_label": "check_country_label.js",
+      "source_file": "check_country_label.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_cresta_infra_jd",
+      "label": "check_cresta_infra_jd.py",
+      "_origin": "ast",
+      "community": 77,
+      "community_name": "check_cresta_infra_jd.py",
+      "file_type": "code",
+      "norm_label": "check_cresta_infra_jd.py",
+      "source_file": "check_cresta_infra_jd.py",
+      "source_location": "L1"
     },
     {
       "id": "gen_js",
@@ -6965,6 +8194,50 @@
       "source_location": "L36"
     },
     {
+      "id": "check_elastic",
+      "label": "check_elastic.py",
+      "_origin": "ast",
+      "community": 80,
+      "community_name": "check_elastic.py",
+      "file_type": "code",
+      "norm_label": "check_elastic.py",
+      "source_file": "check_elastic.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_eng_roles",
+      "label": "check_eng_roles.py",
+      "_origin": "ast",
+      "community": 81,
+      "community_name": "check_eng_roles.py",
+      "file_type": "code",
+      "norm_label": "check_eng_roles.py",
+      "source_file": "check_eng_roles.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_form_validation",
+      "label": "check_form_validation.js",
+      "_origin": "ast",
+      "community": 82,
+      "community_name": "check_form_validation.js",
+      "file_type": "code",
+      "norm_label": "check_form_validation.js",
+      "source_file": "check_form_validation.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_in_jobs",
+      "label": "check_in_jobs.py",
+      "_origin": "ast",
+      "community": 83,
+      "community_name": "check_in_jobs.py",
+      "file_type": "code",
+      "norm_label": "check_in_jobs.py",
+      "source_file": "check_in_jobs.py",
+      "source_location": "L1"
+    },
+    {
       "id": "scratch_apply_infisical",
       "label": "scratch_apply_infisical.js",
       "_origin": "ast",
@@ -6998,6 +8271,39 @@
       "source_location": "L1"
     },
     {
+      "id": "check_indian_boards",
+      "label": "check_indian_boards.py",
+      "_origin": "ast",
+      "community": 87,
+      "community_name": "check_indian_boards.py",
+      "file_type": "code",
+      "norm_label": "check_indian_boards.py",
+      "source_file": "check_indian_boards.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_outreach_candidates",
+      "label": "check_outreach_candidates.py",
+      "_origin": "ast",
+      "community": 88,
+      "community_name": "check_outreach_candidates.py",
+      "file_type": "code",
+      "norm_label": "check_outreach_candidates.py",
+      "source_file": "check_outreach_candidates.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_phone_elem",
+      "label": "check_phone_elem.js",
+      "_origin": "ast",
+      "community": 89,
+      "community_name": "check_phone_elem.js",
+      "file_type": "code",
+      "norm_label": "check_phone_elem.js",
+      "source_file": "check_phone_elem.js",
+      "source_location": "L1"
+    },
+    {
       "id": "job_kit_starter_scratch_batch_1",
       "label": "batch_1.js",
       "_origin": "ast",
@@ -7007,9 +8313,131 @@
       "norm_label": "batch_1.js",
       "source_file": "job-kit-starter/scratch/batch_1.js",
       "source_location": "L1"
+    },
+    {
+      "id": "check_resume_attached",
+      "label": "check_resume_attached.js",
+      "_origin": "ast",
+      "community": 90,
+      "community_name": "check_resume_attached.js",
+      "file_type": "code",
+      "norm_label": "check_resume_attached.js",
+      "source_file": "check_resume_attached.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_samsara_page",
+      "label": "check_samsara_page.js",
+      "_origin": "ast",
+      "community": 91,
+      "community_name": "check_samsara_page.js",
+      "file_type": "code",
+      "norm_label": "check_samsara_page.js",
+      "source_file": "check_samsara_page.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_singlestore",
+      "label": "check_singlestore.py",
+      "_origin": "ast",
+      "community": 92,
+      "community_name": "check_singlestore.py",
+      "file_type": "code",
+      "norm_label": "check_singlestore.py",
+      "source_file": "check_singlestore.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_sources",
+      "label": "check_sources.py",
+      "_origin": "ast",
+      "community": 93,
+      "community_name": "check_sources.py",
+      "file_type": "code",
+      "norm_label": "check_sources.py",
+      "source_file": "check_sources.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "check_tavily",
+      "label": "check_tavily.py",
+      "_origin": "ast",
+      "community": 94,
+      "community_name": "check_tavily.py",
+      "file_type": "code",
+      "norm_label": "check_tavily.py",
+      "source_file": "check_tavily.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "click_samsara_apply",
+      "label": "click_samsara_apply.js",
+      "_origin": "ast",
+      "community": 95,
+      "community_name": "click_samsara_apply.js",
+      "file_type": "code",
+      "norm_label": "click_samsara_apply.js",
+      "source_file": "click_samsara_apply.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "create_all_20_drafts",
+      "label": "create_all_20_drafts.js",
+      "_origin": "ast",
+      "community": 96,
+      "community_name": "create_all_20_drafts.js",
+      "file_type": "code",
+      "norm_label": "create_all_20_drafts.js",
+      "source_file": "create_all_20_drafts.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fill_anthropic",
+      "label": "fill_anthropic.js",
+      "_origin": "ast",
+      "community": 97,
+      "community_name": "fill_anthropic.js",
+      "file_type": "code",
+      "norm_label": "fill_anthropic.js",
+      "source_file": "fill_anthropic.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fill_resend_complete",
+      "label": "fill_resend_complete.js",
+      "_origin": "ast",
+      "community": 98,
+      "community_name": "fill_resend_complete.js",
+      "file_type": "code",
+      "norm_label": "fill_resend_complete.js",
+      "source_file": "fill_resend_complete.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "fill_startree",
+      "label": "fill_startree.js",
+      "_origin": "ast",
+      "community": 99,
+      "community_name": "fill_startree.js",
+      "file_type": "code",
+      "norm_label": "fill_startree.js",
+      "source_file": "fill_startree.js",
+      "source_location": "L1"
     }
   ],
   "links": [
+    {
+      "source": "fill_scaleai_fill_selectoption",
+      "target": "fill_scaleai_fill",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "fill_scaleai.js",
+      "source_location": "L54",
+      "weight": 1.0
+    },
     {
       "source": "job_kit_starter_gates_coverage",
       "target": "job_kit_starter_gates_strip_html",
@@ -7491,6 +8919,18 @@
       "weight": 1.0
     },
     {
+      "source": "check_terms",
+      "target": "job_kit_starter_gates",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "check_terms.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_job_hunt",
       "target": "job_kit_starter_gates_title_skip",
       "relation": "imports",
@@ -7611,6 +9051,102 @@
       "weight": 1.0
     },
     {
+      "source": "scan_anthropic",
+      "target": "job_kit_starter_gates",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scan_anthropic.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "check_anthropic_jobs",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "check_anthropic_jobs.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "check_anthropic_yoes",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "check_anthropic_yoes.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "check_braze_swe",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "check_braze_swe.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "check_cresta_jobs",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "check_cresta_jobs.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "fast_anthropic",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fast_anthropic.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "fast_scan_gates",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "fast_scan_gates.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "find_swe_clean",
+      "target": "job_kit_starter_gates",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "find_swe_clean.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_tracker_src_app",
       "target": "ref_react",
       "relation": "imports_from",
@@ -7667,6 +9203,18 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "job-kit-starter/tracker/vite.config.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "print_clean_jobs",
+      "target": "find_clean_unapplied",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "print_clean_jobs.py",
       "source_location": "L2",
       "weight": 1.0
     },
@@ -7803,6 +9351,17 @@
       "weight": 1.0
     },
     {
+      "source": "check_selects",
+      "target": "check_selects_getval",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "check_selects.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "claude",
       "target": "claude_graphify",
       "relation": "contains",
@@ -7844,6 +9403,72 @@
       "confidence_score": 1.0,
       "source_file": "CLAUDE.md",
       "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "fill_cloudflare",
+      "target": "fill_cloudflare_setinput",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fill_cloudflare.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "fill_resend",
+      "target": "fill_resend_fs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fill_resend.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "fill_resend",
+      "target": "fill_resend_fillresend",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fill_resend.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "fill_scaleai",
+      "target": "fill_scaleai_fs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fill_scaleai.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "fill_scaleai",
+      "target": "fill_scaleai_fill",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fill_scaleai.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "fill_scaleai_complete",
+      "target": "fill_scaleai_complete_selectoption",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "fill_scaleai_complete.js",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -12786,6 +14411,28 @@
       "weight": 1.0
     },
     {
+      "source": "run_anthropic_fill",
+      "target": "run_anthropic_fill_setfield",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "run_anthropic_fill.js",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "run_anthropic_fill",
+      "target": "run_anthropic_fill_selectdropdown",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "run_anthropic_fill.js",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_fill_infisical_fast",
       "target": "scratch_fill_infisical_fast_setreactinput",
       "relation": "contains",
@@ -13091,5 +14738,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "97f5da8a2e82ee999e0fb09329f9ef99248d0aca"
+  "built_at_commit": "d8a629a8410705f64dccf4bc9b96b1efd5ab02d9"
 }

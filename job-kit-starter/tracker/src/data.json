@@ -2364,6 +2364,30 @@
 "resume": "output/Spector.ai - Fullstack Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Anthropic",
+"role": "Product Engineer, Computer Use",
+"loc": "San Francisco, CA | New York City, NY | Seattle, WA",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "$300,000 - $320,000 USD",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://job-boards.greenhouse.io/anthropic/jobs/5238637008",
+"resume": "output/Anthropic - Product Engineer Computer Use/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Cloudflare",
+"role": "Software Engineer, Deploy at Scale",
+"loc": "Austin, TX; San Francisco, CA; New York City; London",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": ",000 - ,000 USD",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://job-boards.greenhouse.io/cloudflare/jobs/7302931",
+"resume": "output/Cloudflare - Software Engineer Deploy at Scale/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Coder",
 "role": "Software Engineer (Enterprise Experience, Backend)",
 "loc": "Europe / Remote",
@@ -2388,6 +2412,18 @@
 "resume": "output/NetBird - Open Source Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Scale AI",
+"role": "Software Engineer, Platform",
+"loc": "San Francisco, CA; New York, NY",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "$180,000 - $225,000 USD",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://job-boards.greenhouse.io/scaleai/jobs/4594879005",
+"resume": "output/Scale AI - Software Engineer Platform/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Speakeasy",
 "role": "Platform Engineer (SRE) - AI Control Plane",
 "loc": "San Francisco / Remote",
@@ -2400,6 +2436,18 @@
 "resume": "output/Speakeasy - Platform Engineer (SRE)/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "StarTree",
+"role": "Software Engineer SRE",
+"loc": "India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://job-boards.greenhouse.io/startree/jobs/6147925004",
+"resume": "output/StarTree - Software Engineer SRE/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Unstructured",
 "role": "AI Engineer - Public Sector",
 "loc": "Remote",
@@ -2410,6 +2458,18 @@
 "date": "2026-10-30",
 "url": "https://jobs.ashbyhq.com/unstructured/9df95483-7177-4f98-850e-4abbdf530434/application",
 "resume": "output/Unstructured - AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Vercel",
+"role": "Software Engineer, Backend",
+"loc": "Remote (India / US)",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "$196,000 - $294,000",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://job-boards.greenhouse.io/vercel/jobs/5430088004",
+"resume": "output/Vercel - Software Engineer Backend/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Writer",
@@ -3348,6 +3408,42 @@
 "resume": ""
 },
 {
+"co": "Chainguard",
+"role": "Software Engineer, Sustaining Automation",
+"loc": "Canada - Remote; United States - Remote",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": ",000 - ,000 USD",
+"status": "Skipped",
+"date": "2026-10-30",
+"url": "https://job-boards.greenhouse.io/chainguard/jobs/4723523006",
+"resume": ""
+},
+{
+"co": "PlanetScale",
+"role": "Software Engineer - PlanetScale Postgres",
+"loc": "Remote",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": ",000 - ,000",
+"status": "Skipped",
+"date": "2026-10-30",
+"url": "https://job-boards.greenhouse.io/planetscale/jobs/4251150009",
+"resume": ""
+},
+{
+"co": "Truveta",
+"role": "Software Engineer - Backend Services",
+"loc": "Hyderabad, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-10-30",
+"url": "https://job-boards.greenhouse.io/truveta/jobs/6105750004",
+"resume": ""
+},
+{
 "co": "UniFit India",
 "role": "Junior Full-Stack Engineer (TypeScript · Next.js · React Native)",
 "loc": "https://wellfound.com/jobs/4884528-junior-full-stack-engineer-typescript-next-js-react-native",
@@ -4260,6 +4356,30 @@
 "resume": "output/Safe Security - Software Development Engineer I/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "100ms",
+"role": "AI Engineer – AI Agents (Healthcare)",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Lever",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Blocked",
+"date": "2026-10-30",
+"url": "https://jobs.lever.co/100ms/4c9f19c7-4432-4394-ba93-167319c68adc/apply",
+"resume": "output/100ms - AI Engineer - AI Agents (Healthcare)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "CRED",
+"role": "cloud security engineer",
+"loc": "Bengaluru, India",
+"via": "Lever",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Blocked",
+"date": "2026-10-30",
+"url": "https://jobs.lever.co/cred/9a746e68-0858-4190-9144-54b19a2cbf2c/apply",
+"resume": "output/CRED - cloud security engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Render",
 "role": "Software Engineer, Compute Infrastructure",
 "loc": "Remote: United States",
@@ -4270,6 +4390,18 @@
 "date": "2026-10-30",
 "url": "https://jobs.ashbyhq.com/render/af5b6699-2e4a-47de-99f7-664baa738190/application",
 "resume": "output/Render - Software Engineer Compute Infrastructure/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Sarvam",
+"role": "Agent Engineer",
+"loc": "Bengaluru, India",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Blocked",
+"date": "2026-10-30",
+"url": "https://jobs.ashbyhq.com/sarvam/36f89b00-2010-4d23-aae3-17a2f53d9eaa/application",
+"resume": "output/Sarvam - Agent Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Drivetrain",
