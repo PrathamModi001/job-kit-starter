@@ -1,0 +1,68 @@
+ABOUT KNOCK
+
+Knock is on a mission to help products communicate with their users in a more thoughtful way. Building product notifications in-house takes months, often leading to poor user experiences. We believe that—when done right—product notifications help users find value in the products they use every day. That’s why we built Knock.
+
+We're a remote-first (with a NYC base) Series A startup of 20+ employees that believe in the power of great software. We're APIs all the way down at Knock—Stripe for payments, Algolia for search, WorkOS for SSO. We're excited to add Knock to that list and to push forward the API-first movement. If you are, too, come join us and let's build something great together.
+
+We’re backed by top investors and operators including Craft Ventures, Afore Capital, Preface Ventures, Worklife Capital, Guillermo Rauch (CEO/Founder @ Vercel), Scott Belsky (CPO @ Adobe), Adam Gross (CEO @ Heroku), John Kodumal (CTO @ LaunchDarkly), Nate Stewart (CPO @ Cockroach Labs), Charley Ma, and Zach Holman, to name a few.
+
+
+
+ABOUT THE ROLE
+
+We're looking for am infrastructure engineer to join our small but growing platform team. The platform team at Knock are responsible for building, scaling, and maintaining the core services and infrastructure that run Knock.
+
+You will have a high degree of ownership and autonomy in improving the Knock platform, starting with our foundational infrastructure. We’re an engineer-led team that obsesses over the reliability and availability of our service.
+
+We care deeply about building a team and culture that is inclusive and equitable for people of all backgrounds and experiences, and believe firmly that the best teams are diverse. We particularly encourage people from underrepresented communities to apply.
+
+Last thing: you can be a great fit even if you don't perfectly match what's described below. We know there's a lot we don't know and haven't thought of yet, and we're looking for teammates that can tell us what those things are. If that's you, don't hesitate to apply and tell us about yourself!
+
+
+
+
+WHAT YOU’LL BE DOING IN THIS ROLE
+
+As an early stage company, everyone (including you) is involved in building every part of the company from the product and the infrastructure that it runs on, to how we get work done internally. Here are a collection of hats we need you to be OK with wearing:
+
+ 1. Adopting a Terraform-backed EKS cluster, modernizing & maintaining it for elastic scale, reliability, performance, security, etc.
+
+ 2. Going deep into troubleshooting Postgres performance, queues of every shape and size, and come out the other side with a plan for scaling another 10x to 100x.
+
+ 3. Identifying and correcting scaling issues before they affect our customers by relying on and improving our telemetry and traces in Datadog, AWS Cloudwatch, and Honeycomb. If you see a blind spot, you are comfortable getting into the codebase to fix it.
+
+ 4. Maintaining and improve upon our >99.95% uptime track record.
+
+ 5. Supporting our product engineering team at moving fast to deliver customer value. Improving the day-to-day developer experience through canaries, faster cycle time, blue/green deploys, etc.
+
+ 6. Joining on-call rotations on a schedule with the rest of the engineering team.
+
+This position is both high autonomy and high accountability: you will have a lot of room to work and raise our existing standards, while also communicating those changes and bringing the rest of the team along for the ride, often in the form of runbooks & internal documentation.
+
+
+
+
+WHAT WE’RE LOOKING FOR IN THIS ROLE
+
+ - 4+ years experience as a DevOps engineer or similar in a startup or mid-sized company working with complex systems that operate at scale.
+
+ - Experience working in and on production Kubernetes clusters using infrastructure as code (we use Terraform, but others like Pulumi or Cloudformation are fine too).
+
+ - Experience working on complex AWS deployments (multi-account, complex VPC structure to support EKS, EKS experience).
+
+ - Experience operating and scaling different database technologies. We use Aurora Postgres, Mongo, and ClickHouse so significant experience with at least one of these is a must.
+
+ - Some past experience or familiarity operating and scaling different queues and streams across SQS, Kinesis, Kafka or similar.
+
+ - Strong problem-solving skills with a focus on reliability, scalability, and performance.
+
+ - Strong communications skills, with the ability to work in a fully distributed, remote-first team. We love to write long-form documents for us, our future selves, and our AI companions.
+
+
+A NOTE ON AI AT KNOCK
+
+We’re a team that has fully embraced AI tools to help us in our day-to-day. We use these tools to accelerate us, but remain clear-eyed about where they shine and where the pitfalls lie.
+
+We’re not overly prescriptive about the tools you can use, and we encourage experimentation as we embrace this new method of working. We have a collaborative culture of figuring out together what works and what doesn’t — sharing what we’ve learned, comparing notes, and iterating on our workflows as the tooling landscape evolves. We’re not overly prescriptive about the tools you can use in your day-to-day.
+
+As a member of the Knock team, we expect you to be familiar with tools like Cursor, Claude Code, Codex, or similar to assist you in your job. You’ll be allowed to use these tools in some parts of your interview loop, but there will be times where we’ll ask that you refrain.

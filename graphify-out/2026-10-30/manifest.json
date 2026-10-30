@@ -66,10 +66,10 @@
     "semantic_hash": "7aeede5bc4675ff89054e3171d062d0b"
   },
   "job-kit-starter/tracker/refresh.sh": {
-    "mtime": 1788764450.2551231,
-    "seen": 1792417555.7892978,
-    "ast_hash": "e23c0421173d1264e0ec54aca69f20e4",
-    "semantic_hash": "e23c0421173d1264e0ec54aca69f20e4"
+    "mtime": 1793340211.5504649,
+    "seen": 1793340219.6182523,
+    "ast_hash": "6d4e6fd6a57dfe9483dcf72356481cbe",
+    "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/App.jsx": {
     "mtime": 1788764465.6138058,
@@ -84,9 +84,9 @@
     "semantic_hash": "4bacdb467f88c9788c12e05eae4f2d40"
   },
   "job-kit-starter/tracker/src/meta.json": {
-    "mtime": 1793290601.4786596,
-    "seen": 1793290634.1130385,
-    "ast_hash": "a93b093efa53a06814d562850208aa3f",
+    "mtime": 1793340747.56189,
+    "seen": 1793340770.3546321,
+    "ast_hash": "e6394ec6286d5d5da5c2a4135596f400",
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/vite.config.js": {
@@ -306,8 +306,8 @@
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {
-    "mtime": 1793290601.4786596,
-    "seen": 1793290634.1130369,
+    "mtime": 1793340747.56189,
+    "seen": 1793340770.3546302,
     "ast_hash": "d92232bea91cc56de4096eab9418b972",
     "semantic_hash": ""
   },
@@ -2397,6 +2397,12 @@
     "mtime": 1793287296.9793596,
     "seen": 1793290634.1130412,
     "ast_hash": "b36157594c88adfcd6651fc85c025840",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/tracker/refresh.ps1": {
+    "mtime": 1793340206.860168,
+    "seen": 1793340219.6182506,
+    "ast_hash": "a5a2e1cf26208cfd174ae5491073b756",
     "semantic_hash": ""
   }
 }

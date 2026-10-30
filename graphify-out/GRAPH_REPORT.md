@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-10-30)
 
 ## Corpus Check
-- 359 files · ~230,343 words
+- 103 files · ~108,530 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 906 nodes · 656 edges · 325 communities (48 shown, 15 thin omitted)
+- 587 nodes · 547 edges · 87 communities (44 shown, 6 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5d8365c8`
+- Built from commit: `97f5da8a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,7 +21,7 @@
 - Resume & CV Generation — Reference
 - Documentation
 - Achievements
-- PlaywrightClient
+- gates.py
 - /edit-resume
 - /make-resume
 - Tier B cold email — slot template (volume lane)
@@ -51,11 +51,8 @@
 - CLAUDE.md
 - refresh.sh script
 - README.md
-- fill_dpdzero.js
 - Job Hunt Profile & Operations Rule
 - daily_scan.md
-- fill_dpdzero_eval.js
-- test_dpdzero_upload.js
 - job_hunt.py
 - Daily Job Search & Cold Outreach Run Report
 - Bundle: AI / Agentic Systems Lane (bonus fit — not a primary lane)
@@ -67,29 +64,19 @@
 - Experience: Projects Pool
 - AI Fingerprint Rules
 - Skills Taxonomy
-- Handler
-- run_all_20_drafts_clean.js
-- PNAHandler
-- batch_draft_runner.js
 - Batch Mode: single-path, ATS-first resume tailoring
-- find_junior_roles.py
-- find_junior_roles_ashby.py
-- scan_all_ats.py
-- scan_india_unicorns.py
-- scan_more_ats.py
-- check_all_ashby.py
 
 ## God Nodes (most connected - your core abstractions)
-1. `PlaywrightClient` - 13 edges
-2. `claude-job-kit — Project Instructions` - 13 edges
-3. `Resume & CV Generation — Reference` - 13 edges
-4. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
-5. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
-6. `Cover Letter Generation — Reference` - 11 edges
-7. `/make-resume` - 10 edges
-8. `Job-Search Operations Runbook` - 10 edges
-9. `Shared Operations — All Skills` - 10 edges
-10. `Job Hunt Profile & Operations Rule` - 9 edges
+1. `claude-job-kit — Project Instructions` - 13 edges
+2. `Resume & CV Generation — Reference` - 13 edges
+3. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
+4. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
+5. `Cover Letter Generation — Reference` - 11 edges
+6. `/make-resume` - 10 edges
+7. `Job-Search Operations Runbook` - 10 edges
+8. `Shared Operations — All Skills` - 10 edges
+9. `Job Hunt Profile & Operations Rule` - 9 edges
+10. `/edit-resume` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `score()` --calls--> `title_skip()`  [EXTRACTED]
@@ -104,7 +91,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (325 total, 15 thin omitted)
+## Communities (87 total, 6 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -129,6 +116,10 @@ Nodes (23): Architecture, Concepts, Customization, Documentation, Everything in 
 ### Community 5 - "Achievements"
 Cohesion: 0.10
 Nodes (19): Achievements, Achievements, Cross-Position Themes (for cover letters), Cross-Position Themes (for cover letters), Dates: Aug 2018 -- Jul 2023, Dates: Aug 2023 -- Present, L1: ML-Guided Enzyme Stability Screening, L2: Enzyme Solvent Tolerance Prediction (+11 more)
+
+### Community 6 - "gates.py"
+Cohesion: 0.21
+Nodes (8): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html(), vocab()
 
 ### Community 7 - "/edit-resume"
 Cohesion: 0.12
@@ -231,8 +222,8 @@ Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
 ### Community 46 - "job_hunt.py"
-Cohesion: 0.08
-Nodes (33): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html() (+25 more)
+Cohesion: 0.15
+Nodes (25): Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, title_skip(), yoe_check(), fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn() (+17 more)
 
 ### Community 49 - "Daily Job Search & Cold Outreach Run Report"
 Cohesion: 0.29
@@ -278,36 +269,18 @@ Nodes (3): Bolding rule, Demonstrated vs. listed-only skills, Skills Taxonomy
 Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
-### Community 277 - "find_junior_roles.py"
-Cohesion: 0.70
-Nodes (4): check_board(), check_title(), check_yoe(), clean_jd()
-
-### Community 278 - "find_junior_roles_ashby.py"
-Cohesion: 0.70
-Nodes (4): check_ashby(), check_title(), check_yoe(), clean_jd()
-
-### Community 279 - "scan_all_ats.py"
-Cohesion: 0.70
-Nodes (4): check_title_gate(), scan_ashby(), scan_gh(), scan_lever()
-
-### Community 281 - "scan_india_unicorns.py"
-Cohesion: 0.83
-Nodes (3): check_gh(), check_lever(), check_title_gate()
-
-### Community 282 - "scan_more_ats.py"
-Cohesion: 0.83
-Nodes (3): check_title_gate(), scan_ashby(), scan_gh()
-
 ## Knowledge Gaps
-- **345 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+340 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 707 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **341 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+336 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 442 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `yoe_check()` connect `job_hunt.py` to `gates.py`?**
+  _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _345 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _341 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
@@ -318,5 +291,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Documentation` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
-- **Should `Achievements` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._

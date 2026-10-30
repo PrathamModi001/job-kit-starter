@@ -1,0 +1,100 @@
+ABOUT US
+
+Trigger.dev http://Trigger.dev is the platform for running reliable AI agents and workflows. Developers use it to build, deploy, and scale production systems with built-in tools for orchestration, scheduling, monitoring, and debugging.
+
+Our Cloud product is a managed service where we deploy our users' code and auto-scale from zero to millions of executions. Today, we serve thousands of teams building AI apps and agents, handling hundreds of millions of executions per month.
+
+
+
+ABOUT THE POSITION
+
+We're looking for a Recruiter to work closely with our founders & Chief of Staff to fill open roles - primarily technical (engineering) hiring, with some generalist roles in the mix too. This is a 3-month fixed-term contract with the possibility of moving to a permanent role, depending on how the first few months go and where our hiring needs land.
+
+We need a strong individual contributor who can take on the hands-on parts of hiring - sourcing, screening, interviewing, and managing agency relationships, giving time back to our leadership team and unlocking them for other priority projects without any drop in the quality of hire. We'd also love to see agency fees come down as you build out more of our own pipeline directly.
+
+
+
+WHAT YOU'LL BE DOING
+
+Executing hiring. Running sourcing, screening, and interviewing for our priority roles - you make hiring happen, they set the direction.
+
+Technical hiring, primarily. Most of your time will go on engineering roles - backend, infra, and similar - but you'll also pick up generalist roles as they come up.
+
+Headhunting and proactive sourcing. Building pipelines directly rather than waiting on inbound, including reaching out to passive candidates and using your network.
+
+Screening and interviewing. Running first-round screens and structured interviews, and generating shortlists of genuinely qualified candidates - not a raw pile of applicants to sift through.
+
+Managing agency relationships. Owning day-to-day contact with any recruitment agencies we use, and looking for ways to reduce our reliance on (and spend with) them over time.
+
+Giving time back to the team. Taking on recruiting coordination and admin as much as possible to unlock the team.
+
+Candidate experience. Making sure every candidate, hired or not, has a fast, clear, well-communicated process.
+
+Running our applicant tracking system. Keeping our Ashby pipeline accurate and up to date so the team always knows where things stand.
+
+
+
+REQUIREMENTS
+
+Proven recruiting experience, technical-leaning. You've run full-cycle hiring for engineering roles at a startup or scale-up, and are comfortable picking up generalist roles too.
+
+Fluency with engineering roles and stacks. You can hold a credible conversation about backend, infrastructure, or security roles well enough to screen and sell candidates on the role.
+
+Strong sourcing and headhunting skills. You're comfortable building pipelines directly rather than waiting on inbound.
+
+Experience managing agency relationships. You know how to get good work out of external recruiters and where it makes sense to bring hiring in-house instead.
+
+Great written and verbal communication. Candidates and hiring managers alike get clarity and a fast response.
+
+You'll be an amazing fit if you have:
+
+ - Experience recruiting for developer tools, open source, or infrastructure companies.
+
+ - Experience with Ashby or a similar modern ATS.
+
+ - A track record of reducing agency spend by building direct pipelines.
+
+ - Previous in-house (not just agency-side) recruiting experience.
+
+ - An interest in staying on longer-term - this role has a genuine path to permanent.
+
+
+ABOUT THE TEAM
+
+ - We are a small team with a flat hierarchy.
+
+ - We encourage continuous learning and personal development.
+
+ - Everyone operates autonomously; we trust you to get the job done, but to also quickly raise your hand if you need help.
+
+ - We care about our customers and the open-source community.
+
+ - Being a start-up, the work is challenging and fast-paced, but we also understand the importance of taking time off to recharge.
+
+
+CONTRACT TERMS
+
+3-month fixed-term contract, full time, with a genuine possibility of converting to a permanent role based on performance and ongoing hiring needs.
+
+
+
+BENEFITS
+
+Generous, transparent compensation - we hire the best talent and pay to reflect that.
+
+Async working - need a heads-down day or meeting-free days to stay productive? No problem!
+
+Home office - we help provide equipment for a comfortable setup so you're as productive at home as you are in the office.
+
+Sick leave and time off - even on a fixed-term contract, we make sure you can take the time you need.
+
+
+
+OUR VALUES
+
+We are proud to be open source - we believe in the open source community and building a great free-to-use product.
+
+We ship uncomfortably fast - as a startup, moving fast is key. We are pragmatic about what we build, when we build it.
+
+Working autonomously - we don't tell you what to do. We decide as a team what will have the biggest impact for our customers and prioritise from that.
+

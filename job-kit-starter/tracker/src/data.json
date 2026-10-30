@@ -36,6 +36,18 @@
 "resume": "output/AtomicAds - Member of Technical Staff/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "AtomicAds",
+"role": "Member of Technical Staff",
+"loc": "Bangalore",
+"via": "Instahyre",
+"found": "Instahyre",
+"comp": "Not listed (~18-25 LPA)",
+"status": "Applied",
+"date": "2026-09-11",
+"url": "https://www.instahyre.com/candidate/opportunities/?search=true",
+"resume": "output/AtomicAds - Member of Technical Staff/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Auditoria.AI",
 "role": "(role title not re-captured post-apply — see note)",
 "loc": "Hyderabad",
@@ -57,6 +69,18 @@
 "status": "Applied",
 "date": "2026-09-11",
 "url": "https://www.instahyre.com/candidate/opportunities/?search=true",
+"resume": "output/Wells Fargo - AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Brevo",
+"role": "Associate Platform Engineer - Data Storage",
+"loc": "Noida (Delhi NCR)",
+"via": "Lever ATS",
+"found": "Lever ATS",
+"comp": "20-30 LPA",
+"status": "Applied",
+"date": "2026-09-11",
+"url": "https://jobs.lever.co/brevo/bbe92888-3d41-4317-8345-38ba4a876ae5",
 "resume": "output/Wells Fargo - AI Engineer/Pratham_Modi_Resume.pdf"
 },
 {
@@ -2172,6 +2196,66 @@
 "resume": "output/Securelytix - Backend Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "AssemblyAI",
+"role": "Software Engineer, Agent Experience",
+"loc": "Remote (India / US)",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Applied",
+"date": "2026-10-25",
+"url": "https://job-boards.greenhouse.io/assemblyai/jobs/4744387005",
+"resume": "output/AssemblyAI - Software Engineer Agent Experience/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Enterpret",
+"role": "Applied AI Research Engineer",
+"loc": "Bengaluru",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Not listed (Profile: 18-20 LPA)",
+"status": "Applied",
+"date": "2026-10-25",
+"url": "https://job-boards.greenhouse.io/enterpret/jobs/7580532003",
+"resume": "output/Enterpret - Applied AI Research Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Mintlify",
+"role": "Backend Engineer",
+"loc": "San Francisco (Hybrid)",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Applied",
+"date": "2026-10-25",
+"url": "https://jobs.ashbyhq.com/mintlify/4da2f7a2-3d5a-4652-bf01-aed59f4cb72b/application",
+"resume": "output/Mintlify - Backend Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Pramaana Labs",
+"role": "Software Engineer, Full-Stack ML Infrastructure",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Applied",
+"date": "2026-10-25",
+"url": "https://jobs.ashbyhq.com/pramaana-labs/c27f2903-133c-4f4e-8c44-b302223ff23d/application",
+"resume": "output/Pramaana Labs - Software Engineer Full-Stack ML Infrastructure/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Trigger.dev",
+"role": "Backend Engineer (Security)",
+"loc": "Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Applied",
+"date": "2026-10-25",
+"url": "https://jobs.ashbyhq.com/triggerdev/cf7e7521-b323-41b8-917b-2972685c7791/application",
+"resume": "output/Trigger.dev - Backend Engineer Security/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Manufact",
 "role": "Founding Software Engineer (Product / MCP)",
 "loc": "San Francisco, CA, US",
@@ -2589,18 +2673,6 @@
 "status": "Skipped",
 "date": "2026-09-14",
 "url": "https://coloredcow.com/career/software-engineer/",
-"resume": ""
-},
-{
-"co": "Brevo",
-"role": "Associate Platform Engineer - Data Storage",
-"loc": "Noida, Uttar Pradesh (Hybrid), India",
-"via": "Jobfound",
-"found": "Jobfound",
-"comp": "Not listed",
-"status": "Skipped",
-"date": "2026-09-19",
-"url": "https://www.linkedin.com/jobs/view/4462691533/",
 "resume": ""
 },
 {
@@ -3432,18 +3504,6 @@
 "resume": "output/Impact Analytics - Software Engineer - Backend/Pratham_Modi_Resume.pdf"
 },
 {
-"co": "AtomicAds",
-"role": "Member of Technical Staff",
-"loc": "Bangalore Urban (In office)",
-"via": "Wellfound / Notion Form",
-"found": "Wellfound / Notion Form",
-"comp": "₹15L – ₹50L (~22 LPA)",
-"status": "Blocked",
-"date": "2026-09-19",
-"url": "https://wellfound.com/jobs/4012972-member-of-technical-staff",
-"resume": "output/AtomicAds - Member of Technical Staff/Pratham_Modi_Resume.pdf"
-},
-{
 "co": "Blue Machines AI",
 "role": "Backend Engineer - SDE 2 (Voice AI / Telephony Platform)",
 "loc": "Bengaluru, Karnataka (Work from Office)",
@@ -4006,6 +4066,54 @@
 "date": "2026-10-23",
 "url": "https://jobs.lever.co/zimperium/5b35759a-d445-4fcb-b255-d719330af055/apply",
 "resume": "output/Zimperium - AI Software Engineer (DevOps)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Ampd Energy",
+"role": "Full-Stack Software Engineer",
+"loc": "Hong Kong / Bengaluru",
+"via": "Lever",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Blocked",
+"date": "2026-10-25",
+"url": "https://jobs.lever.co/ampd-energy/0086eb9f-c55f-4774-862c-86680e2dfc1b/apply",
+"resume": "output/Ampd Energy - Full-Stack Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Baseten",
+"role": "Software Engineer - Infrastructure",
+"loc": "Remote / San Francisco",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Blocked",
+"date": "2026-10-25",
+"url": "https://jobs.ashbyhq.com/baseten/ae64d1d4-7b0a-4be4-8d77-7f5ce63849a7/application",
+"resume": "output/Baseten - Software Engineer Infrastructure/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Cerebras Systems",
+"role": "Full Stack Machine Learning Engineer",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed",
+"status": "Blocked",
+"date": "2026-10-25",
+"url": "https://jobs.ashbyhq.com/cerebras/c2198d42-ccad-4bee-aa43-83027aa5e46e/application",
+"resume": "output/Cerebras - Full Stack Machine Learning Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Schrödinger",
+"role": "Software Developer, LiveDesign Infrastructure - Hyderabad",
+"loc": "Hyderabad",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "18-20 LPA",
+"status": "Blocked",
+"date": "2026-10-25",
+"url": "https://job-boards.greenhouse.io/schrdinger/jobs/7657123003",
+"resume": "job-kit-starter/output/Schrodinger - Software Developer LiveDesign Infrastructure/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "HPE",

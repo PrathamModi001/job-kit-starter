@@ -1,0 +1,96 @@
+ABOUT TRIGGER.DEV
+
+Trigger.dev http://Trigger.dev is an open source platform used by developers to build production-grade AI agents. It's an SDK and the infrastructure to run agents reliably at scale, so teams can focus on the product instead of the plumbing.
+
+Our Cloud product is a managed service where we deploy our users' code and auto-scale from zero to millions of executions. With the rise of AI, being able to offload async tasks reliably is a key part of any developer's toolkit - we're building the infrastructure to make that a reality.
+
+
+
+ABOUT THE POSITION
+
+We're looking for someone based in San Francisco whose entire job is turning up to events, meeting developers, advocating for Trigger, and being brilliant. This role is deliberately narrow: it's 100% events, not product education, content strategy, or general marketing.
+
+The work breaks down into three things: showing up to existing events (meetups, AI Tinkers, YC events, conferences) and being visibly excellent in the room; getting speaking slots at those events and delivering awesome talks; and, over time, organizing our own events or co-hosting them with other big tech names, like joint hackathons at the YC offices.
+
+The goal is pure awareness. You might not even mention Trigger.dev http://Trigger.dev by name at most events - the point is being visibly excellent and well-liked in the rooms where developers already are, so that a groundswell of Trigger.dev http://Trigger.dev mentions builds naturally across the SF ecosystem over time.
+
+
+
+WHAT YOU'LL BE DOING
+
+You'll do a variety of things including:
+
+ - Turn up to events, meet developers, advocate for Trigger, be brilliant - attending SF developer events, meetups, AI Tinkers, YC events, and conferences, and building genuine relationships across the SF developer and founder ecosystem
+
+ - Get speaking slots at existing events, deliver awesome talks - pitching yourself for talks and panels, and showing up polished and memorable when you get the slot
+
+ - Organize our own events (or co-host them with other big tech names) - running Trigger.dev http://Trigger.dev meetups or talks, and exploring joint events like hackathons co-hosted at spaces such as the YC offices
+
+ - Optionally writing blog recaps or producing short YouTube clips of talks, where it's a natural byproduct of the work rather than the focus
+
+ - Working largely independently - you'll be on your own in SF a lot, so being deeply self-motivated is essential
+
+ - Reporting back on activity: number of events attended, video of any talks given, and a written recap of who you met
+
+
+REQUIREMENTS
+
+You really need to have:
+
+ - Genuine stage presence and charisma - we'll want to see video evidence of you speaking, presenting, or performing (YouTube is the bar)
+
+ - A developer background; you should be credible and comfortable in a room of engineers
+
+ - High self-motivation - this role has little day-to-day oversight and a real risk of isolation, so you need to thrive working independently
+
+ - Genuine belief in what Trigger.dev http://Trigger.dev is building, since you'll be representing us informally in every room you're in
+
+You'll be an amazing fit if you:
+
+ - Are an ex-YC founder, giving you access to YC-only events and community
+
+ - Existing relationships or an existing audience within the SF/AI developer or founder scene
+
+ - Been an early-stage founder yourself, or are very early in your career and highly self-directed
+
+ - A track record of speaking at or organizing developer events
+
+ - Have a social media presence
+
+
+ABOUT THE TEAM
+
+ - We are a small team with a flat hierarchy
+
+ - We encourage continuous learning and personal development
+
+ - Everyone operates autonomously; we trust you to get the job done, but to also quickly raise your hand if you need help
+
+ - We care about our customers and the open-source community
+
+ - Being a start-up, the work is challenging and fast-paced, but we also understand the importance of taking time off to recharge
+
+
+WORKING AT A COMMERCIAL OPEN SOURCE SOFTWARE COMPANY IS MORE THAN JUST YOUR DAY JOB
+
+ - We have an active community on Discord and GitHub. Everyone on the team helps customers, reviews PRs, and creates issues
+
+ - Great documentation matters more than ever, both for humans and for the AI tools that read it. Everyone here keeps docs up to date
+
+ - We are a product-led growth company so everyone is expected to get involved in creating content like code examples, blog articles, videos and tweets
+   
+
+
+BENEFITS
+
+ - Generous, transparent compensation and equity - We hire the best talent and pay to reflect that. We also offer equity as a way to ensure everyone is invested in the success of the company.
+
+ - Async working - Need a heads-down day or meeting-free days to stay productive? No problem!
+
+ - Home office - We will help provide equipment for a comfortable setup so you're as productive at home as you are in the office.
+
+ - Generous vacation - We believe it's important to take time off. We encourage you to take your 25 days vacation excluding national holidays, plus sick leave and generous parental leave.
+
+ - Training budget - An annual budget to contribute towards learning such as purchasing books, an Audible subscription or online courses.
+
+ - Pension and 401k contributions - Enroll in our company pension scheme or we'll contribute directly to your private pension.

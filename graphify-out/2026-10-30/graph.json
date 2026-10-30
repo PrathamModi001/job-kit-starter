@@ -7692,6 +7692,17 @@
       "source_location": "L6"
     },
     {
+      "id": "job_kit_starter_tracker_refresh_ps1_job_kit_starter_tracker_refresh",
+      "label": "refresh.ps1",
+      "_origin": "ast",
+      "community": 320,
+      "community_name": "refresh.ps1",
+      "file_type": "code",
+      "norm_label": "refresh.ps1",
+      "source_file": "job-kit-starter/tracker/refresh.ps1",
+      "source_location": "L1"
+    },
+    {
       "id": "scratch_run_20_drafts_inlined",
       "label": "run_20_drafts_inlined.js",
       "_origin": "ast",
@@ -7802,32 +7813,32 @@
       "source_location": "L16"
     },
     {
-      "id": "job_kit_starter_tracker_refresh",
-      "label": "refresh.sh",
-      "_origin": "ast",
-      "community": 35,
-      "community_name": "refresh.sh",
-      "file_type": "code",
-      "metadata": {
-        "language": "bash",
-        "kind": "file"
-      },
-      "norm_label": "refresh.sh",
-      "source_file": "job-kit-starter/tracker/refresh.sh",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_tracker_refresh_sh__entry",
       "label": "refresh.sh script",
       "_origin": "ast",
       "community": 35,
-      "community_name": "refresh.sh",
+      "community_name": "refresh.sh script",
       "file_type": "code",
       "metadata": {
         "language": "bash",
         "kind": "bash_entrypoint"
       },
       "norm_label": "refresh.sh script",
+      "source_file": "job-kit-starter/tracker/refresh.sh",
+      "source_location": "L1"
+    },
+    {
+      "id": "job_kit_starter_tracker_refresh_sh_job_kit_starter_tracker_refresh",
+      "label": "refresh.sh",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "refresh.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "norm_label": "refresh.sh",
       "source_file": "job-kit-starter/tracker/refresh.sh",
       "source_location": "L1"
     },
@@ -16688,7 +16699,7 @@
       "weight": 1.0
     },
     {
-      "source": "job_kit_starter_tracker_refresh",
+      "source": "job_kit_starter_tracker_refresh_sh_job_kit_starter_tracker_refresh",
       "target": "job_kit_starter_tracker_refresh_sh__entry",
       "relation": "contains",
       "_origin": "ast",
