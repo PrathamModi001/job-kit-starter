@@ -100,18 +100,6 @@
       "source_location": "L18"
     },
     {
-      "id": "scratch_query_tokens_analyze_db",
-      "label": "analyze_db()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 210,
-      "community_name": "scratch_query_tokens.py",
-      "file_type": "code",
-      "norm_label": "analyze_db()",
-      "source_file": "scratch_query_tokens.py",
-      "source_location": "L20"
-    },
-    {
       "id": "job_kit_starter_waas_scan_eligible",
       "label": "eligible()",
       "_callable": true,
@@ -590,18 +578,6 @@
       "norm_label": "vocab()",
       "source_file": "job-kit-starter/gates.py",
       "source_location": "L97"
-    },
-    {
-      "id": "scratch_fill_infisical_fast_setreactinput",
-      "label": "setReactInput()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 79,
-      "community_name": "scratch_fill_infisical_fast.js",
-      "file_type": "code",
-      "norm_label": "setreactinput()",
-      "source_file": "scratch_fill_infisical_fast.js",
-      "source_location": "L5"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_critique_framework",
@@ -3418,28 +3394,6 @@
       "source_location": "L106"
     },
     {
-      "id": "scratch_query_tokens",
-      "label": "scratch_query_tokens.py",
-      "_origin": "ast",
-      "community": 210,
-      "community_name": "scratch_query_tokens.py",
-      "file_type": "code",
-      "norm_label": "scratch_query_tokens.py",
-      "source_file": "scratch_query_tokens.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_tables",
-      "label": "scratch_tables.py",
-      "_origin": "ast",
-      "community": 217,
-      "community_name": "scratch_tables.py",
-      "file_type": "code",
-      "norm_label": "scratch_tables.py",
-      "source_file": "scratch_tables.py",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_resume_builder_examples_extractions_example_extraction",
       "label": "example_extraction.md",
       "_origin": "ast",
@@ -3728,72 +3682,6 @@
       "source_location": "L91"
     },
     {
-      "id": "scratch_upload_blue_machines",
-      "label": "scratch_upload_blue_machines.js",
-      "_origin": "ast",
-      "community": 243,
-      "community_name": "scratch_upload_blue_machines.js",
-      "file_type": "code",
-      "norm_label": "scratch_upload_blue_machines.js",
-      "source_file": "scratch_upload_blue_machines.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_upload_certa",
-      "label": "scratch_upload_certa.js",
-      "_origin": "ast",
-      "community": 244,
-      "community_name": "scratch_upload_certa.js",
-      "file_type": "code",
-      "norm_label": "scratch_upload_certa.js",
-      "source_file": "scratch_upload_certa.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_upload_infisical",
-      "label": "scratch_upload_infisical.js",
-      "_origin": "ast",
-      "community": 245,
-      "community_name": "scratch_upload_infisical.js",
-      "file_type": "code",
-      "norm_label": "scratch_upload_infisical.js",
-      "source_file": "scratch_upload_infisical.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_upload_infisical_wrapped",
-      "label": "scratch_upload_infisical_wrapped.js",
-      "_origin": "ast",
-      "community": 246,
-      "community_name": "scratch_upload_infisical_wrapped.js",
-      "file_type": "code",
-      "norm_label": "scratch_upload_infisical_wrapped.js",
-      "source_file": "scratch_upload_infisical_wrapped.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_upload_rupeezy",
-      "label": "scratch_upload_rupeezy.js",
-      "_origin": "ast",
-      "community": 247,
-      "community_name": "scratch_upload_rupeezy.js",
-      "file_type": "code",
-      "norm_label": "scratch_upload_rupeezy.js",
-      "source_file": "scratch_upload_rupeezy.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_upload_superkalam",
-      "label": "scratch_upload_superkalam.js",
-      "_origin": "ast",
-      "community": 248,
-      "community_name": "scratch_upload_superkalam.js",
-      "file_type": "code",
-      "norm_label": "scratch_upload_superkalam.js",
-      "source_file": "scratch_upload_superkalam.js",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_docs_superpowers_plans_2026_09_27_batch_mode_resume_tailoring",
       "label": "2026-09-27-batch-mode-resume-tailoring.md",
       "_origin": "ast",
@@ -3972,17 +3860,6 @@
       "source_location": "L2"
     },
     {
-      "id": "scratch_ashby",
-      "label": "scratch_ashby.py",
-      "_origin": "ast",
-      "community": 262,
-      "community_name": "scratch_ashby.py",
-      "file_type": "code",
-      "norm_label": "scratch_ashby.py",
-      "source_file": "scratch_ashby.py",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_claude_agents_csv_logger",
       "label": "csv-logger.md",
       "_origin": "ast",
@@ -4049,17 +3926,6 @@
       "source_location": "L27"
     },
     {
-      "id": "scratch_upload_deepgram",
-      "label": "scratch_upload_deepgram.js",
-      "_origin": "ast",
-      "community": 272,
-      "community_name": "scratch_upload_deepgram.js",
-      "file_type": "code",
-      "norm_label": "scratch_upload_deepgram.js",
-      "source_file": "scratch_upload_deepgram.js",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_hn_scan",
       "label": "hn_scan.py",
       "_origin": "ast",
@@ -4080,28 +3946,6 @@
       "norm_label": "hn \"who is hiring?\" scanner with a persistent index. - auto-discovers the...",
       "source_file": "job-kit-starter/hn_scan.py",
       "source_location": "L2"
-    },
-    {
-      "id": "job_kit_starter_scratch_attach_script",
-      "label": "attach_script.js",
-      "_origin": "ast",
-      "community": 288,
-      "community_name": "attach_script.js",
-      "file_type": "code",
-      "norm_label": "attach_script.js",
-      "source_file": "job-kit-starter/scratch/attach_script.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_scratch_batch_draft_runner",
-      "label": "batch_draft_runner.js",
-      "_origin": "ast",
-      "community": 289,
-      "community_name": "job-kit-starter/scratch/batch_draft_runner.js",
-      "file_type": "code",
-      "norm_label": "batch_draft_runner.js",
-      "source_file": "job-kit-starter/scratch/batch_draft_runner.js",
-      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_resume_builder_examples_example_session_file",
@@ -4222,50 +4066,6 @@
       "norm_label": "undergrad research -- eastgate (2016 -- 2018) [fixed, 2 bullets]",
       "source_file": "job-kit-starter/resume_builder/examples/example_session_file.md",
       "source_location": "L54"
-    },
-    {
-      "id": "job_kit_starter_scratch_clean_draft_runner",
-      "label": "clean_draft_runner.js",
-      "_origin": "ast",
-      "community": 290,
-      "community_name": "clean_draft_runner.js",
-      "file_type": "code",
-      "norm_label": "clean_draft_runner.js",
-      "source_file": "job-kit-starter/scratch/clean_draft_runner.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_scratch_make_attach",
-      "label": "make_attach.py",
-      "_origin": "ast",
-      "community": 291,
-      "community_name": "make_attach.py",
-      "file_type": "code",
-      "norm_label": "make_attach.py",
-      "source_file": "job-kit-starter/scratch/make_attach.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_scratch_make_batch_runner",
-      "label": "make_batch_runner.py",
-      "_origin": "ast",
-      "community": 292,
-      "community_name": "make_batch_runner.py",
-      "file_type": "code",
-      "norm_label": "make_batch_runner.py",
-      "source_file": "job-kit-starter/scratch/make_batch_runner.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_scratch_make_clean_runner",
-      "label": "make_clean_runner.py",
-      "_origin": "ast",
-      "community": 293,
-      "community_name": "make_clean_runner.py",
-      "file_type": "code",
-      "norm_label": "make_clean_runner.py",
-      "source_file": "job-kit-starter/scratch/make_clean_runner.py",
-      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_resume_builder_reference_resume_reference",
@@ -5080,17 +4880,6 @@
       "source_location": "L26"
     },
     {
-      "id": "job_kit_starter_scratch_batch_2",
-      "label": "batch_2.js",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "batch_2.js",
-      "file_type": "code",
-      "norm_label": "batch_2.js",
-      "source_file": "job-kit-starter/scratch/batch_2.js",
-      "source_location": "L1"
-    },
-    {
       "id": "agents_rules_job_hunt_profile",
       "label": "job_hunt_profile.md",
       "_origin": "ast",
@@ -5239,39 +5028,6 @@
       "source_location": "L6"
     },
     {
-      "id": "job_kit_starter_scratch_batch_3",
-      "label": "batch_3.js",
-      "_origin": "ast",
-      "community": 43,
-      "community_name": "batch_3.js",
-      "file_type": "code",
-      "norm_label": "batch_3.js",
-      "source_file": "job-kit-starter/scratch/batch_3.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_scratch_batch_4",
-      "label": "batch_4.js",
-      "_origin": "ast",
-      "community": 44,
-      "community_name": "batch_4.js",
-      "file_type": "code",
-      "norm_label": "batch_4.js",
-      "source_file": "job-kit-starter/scratch/batch_4.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_scratch_fill_cerebras",
-      "label": "fill_cerebras.js",
-      "_origin": "ast",
-      "community": 45,
-      "community_name": "fill_cerebras.js",
-      "file_type": "code",
-      "norm_label": "fill_cerebras.js",
-      "source_file": "job-kit-starter/scratch/fill_cerebras.js",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_job_hunt",
       "label": "job_hunt.py",
       "_origin": "ast",
@@ -5336,28 +5092,6 @@
       "norm_label": "job_hunt.py \u2014 on-demand job-match digest for you. pulls openings from target...",
       "source_file": "job-kit-starter/job_hunt.py",
       "source_location": "L2"
-    },
-    {
-      "id": "apply_infisical_tab0",
-      "label": "apply_infisical_tab0.js",
-      "_origin": "ast",
-      "community": 47,
-      "community_name": "apply_infisical_tab0.js",
-      "file_type": "code",
-      "norm_label": "apply_infisical_tab0.js",
-      "source_file": "apply_infisical_tab0.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "fill_databricks",
-      "label": "fill_databricks.js",
-      "_origin": "ast",
-      "community": 48,
-      "community_name": "fill_databricks.js",
-      "file_type": "code",
-      "norm_label": "fill_databricks.js",
-      "source_file": "fill_databricks.js",
-      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_output_job_search_daily_run_report_2026_10_15",
@@ -5682,28 +5416,6 @@
       "norm_label": "position: postdoctoral research associate at lakewood university",
       "source_file": "job-kit-starter/resume_builder/examples/experience/example_experience.md",
       "source_location": "L5"
-    },
-    {
-      "id": "job_kit_starter_scratch_fill_cerebras_tab",
-      "label": "fill_cerebras_tab.js",
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "fill_cerebras_tab.js",
-      "file_type": "code",
-      "norm_label": "fill_cerebras_tab.js",
-      "source_file": "job-kit-starter/scratch/fill_cerebras_tab.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_scratch_run_20_drafts",
-      "label": "run_20_drafts.js",
-      "_origin": "ast",
-      "community": 51,
-      "community_name": "run_20_drafts.js",
-      "file_type": "code",
-      "norm_label": "run_20_drafts.js",
-      "source_file": "job-kit-starter/scratch/run_20_drafts.js",
-      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_resume_builder_bundles_bundle_ai",
@@ -6506,39 +6218,6 @@
       "source_location": "L1"
     },
     {
-      "id": "job_kit_starter_gen_resume_indiahealthlink",
-      "label": "gen_resume_indiahealthlink.py",
-      "_origin": "ast",
-      "community": 61,
-      "community_name": "gen_resume_indiahealthlink.py",
-      "file_type": "code",
-      "norm_label": "gen_resume_indiahealthlink.py",
-      "source_file": "job-kit-starter/gen_resume_indiahealthlink.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_scratch_run_pylon",
-      "label": "run_pylon.js",
-      "_origin": "ast",
-      "community": 62,
-      "community_name": "run_pylon.js",
-      "file_type": "code",
-      "norm_label": "run_pylon.js",
-      "source_file": "job-kit-starter/scratch/run_pylon.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_test_upload",
-      "label": "scratch_test_upload.js",
-      "_origin": "ast",
-      "community": 63,
-      "community_name": "scratch_test_upload.js",
-      "file_type": "code",
-      "norm_label": "scratch_test_upload.js",
-      "source_file": "scratch_test_upload.js",
-      "source_location": "L1"
-    },
-    {
       "id": "job_kit_starter_claude_skills_edit_resume_skill",
       "label": "edit-resume/SKILL.md",
       "_origin": "ast",
@@ -6733,28 +6412,6 @@
       "norm_label": "when user approves / says \"looks good\" / finalizes:",
       "source_file": "job-kit-starter/.claude/skills/edit-resume/SKILL.md",
       "source_location": "L207"
-    },
-    {
-      "id": "gen_js",
-      "label": "gen_js.py",
-      "_origin": "ast",
-      "community": 78,
-      "community_name": "gen_js.py",
-      "file_type": "code",
-      "norm_label": "gen_js.py",
-      "source_file": "gen_js.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "scratch_fill_infisical_fast",
-      "label": "scratch_fill_infisical_fast.js",
-      "_origin": "ast",
-      "community": 79,
-      "community_name": "scratch_fill_infisical_fast.js",
-      "file_type": "code",
-      "norm_label": "scratch_fill_infisical_fast.js",
-      "source_file": "scratch_fill_infisical_fast.js",
-      "source_location": "L1"
     },
     {
       "id": "job_kit_starter_claude_skills_make_resume_skill",
@@ -6963,50 +6620,6 @@
       "norm_label": "user input during execution",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
       "source_location": "L36"
-    },
-    {
-      "id": "scratch_apply_infisical",
-      "label": "scratch_apply_infisical.js",
-      "_origin": "ast",
-      "community": 84,
-      "community_name": "scratch_apply_infisical.js",
-      "file_type": "code",
-      "norm_label": "scratch_apply_infisical.js",
-      "source_file": "scratch_apply_infisical.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "upload_databricks",
-      "label": "upload_databricks.js",
-      "_origin": "ast",
-      "community": 85,
-      "community_name": "upload_databricks.js",
-      "file_type": "code",
-      "norm_label": "upload_databricks.js",
-      "source_file": "upload_databricks.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "upload_databricks_wrapped",
-      "label": "upload_databricks_wrapped.js",
-      "_origin": "ast",
-      "community": 86,
-      "community_name": "upload_databricks_wrapped.js",
-      "file_type": "code",
-      "norm_label": "upload_databricks_wrapped.js",
-      "source_file": "upload_databricks_wrapped.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "job_kit_starter_scratch_batch_1",
-      "label": "batch_1.js",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "batch_1.js",
-      "file_type": "code",
-      "norm_label": "batch_1.js",
-      "source_file": "job-kit-starter/scratch/batch_1.js",
-      "source_location": "L1"
     }
   ],
   "links": [
@@ -12786,28 +12399,6 @@
       "weight": 1.0
     },
     {
-      "source": "scratch_fill_infisical_fast",
-      "target": "scratch_fill_infisical_fast_setreactinput",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch_fill_infisical_fast.js",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "scratch_query_tokens",
-      "target": "scratch_query_tokens_analyze_db",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scratch_query_tokens.py",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
       "source": "job_kit_starter_gates_rationale_19",
       "target": "job_kit_starter_gates_strip_html",
       "relation": "rationale_for",
@@ -13091,5 +12682,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e641c6199e5b0d56af0950043a9ff96cf831569e"
+  "built_at_commit": "6dabff84a4bae216724817520894aee5c22a85d3"
 }

@@ -45,6 +45,12 @@ Desktop.ini
 
 # Scratch / temporary working scripts (not tracked)
 scratch/
+**/scratch/
+scratch_*
+upload_*
+fill_*
+apply_*
+gen_*.py
 
 # Job search transient outputs and temporary test artifacts
 /output/
