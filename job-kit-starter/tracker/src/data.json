@@ -2400,6 +2400,42 @@
 "resume": "output/Coder - Software Engineer (Enterprise Experience Backend)/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Eximple",
+"role": "Founding Engineer",
+"loc": "Pune, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹18L – ₹22L",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://wellfound.com/jobs/4307317-founding-engineer",
+"resume": "output/Eximple - Founding Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Formi",
+"role": "Systems AI Engineer",
+"loc": "Bengaluru, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹25L – ₹35L",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://wellfound.com/jobs/4901518-systems-ai-engineer",
+"resume": "output/Formi - Systems AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "LearnTube.ai",
+"role": "AI Backend Engineer",
+"loc": "Mumbai, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹12L – ₹25L",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://wellfound.com/jobs/4493158-ai-backend-engineer",
+"resume": "output/LearnTube.ai - AI Backend Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "NetBird",
 "role": "Open Source Engineer",
 "loc": "Berlin/Remote",
@@ -2410,6 +2446,18 @@
 "date": "2026-10-30",
 "url": "https://jobs.ashbyhq.com/netbird/103f9e7d-e32b-4ac2-a041-501b470c9fc4/application",
 "resume": "output/NetBird - Open Source Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Return Rabbit (By ShipStation Global)",
+"role": "Software Engineer (Backend - Python + Django)",
+"loc": "Remote only • India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹22L – ₹27L",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://wellfound.com/jobs/3280557-software-engineer-backend-python-django",
+"resume": "output/Return Rabbit - Software Engineer (Backend - Python + Django)/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Scale AI",
@@ -2446,6 +2494,18 @@
 "date": "2026-10-30",
 "url": "https://job-boards.greenhouse.io/startree/jobs/6147925004",
 "resume": "output/StarTree - Software Engineer SRE/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "UiPath",
+"role": "Software Engineer I",
+"loc": "Bangalore, India",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "18-24 LPA",
+"status": "Applied",
+"date": "2026-10-30",
+"url": "https://jobs.ashbyhq.com/uipath/a6ed0fbe-3505-46ab-9ec5-469d8356f8d8",
+"resume": "output/UiPath - Software Engineer I/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Unstructured",
@@ -3405,6 +3465,18 @@
 "status": "Skipped",
 "date": "2026-10-29",
 "url": "https://job-boards.greenhouse.io/speechify/jobs/6229036004",
+"resume": ""
+},
+{
+"co": "Actioneer",
+"role": "Software Engineer",
+"loc": "Bengaluru, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Not listed",
+"status": "Skipped",
+"date": "2026-10-30",
+"url": "https://wellfound.com/jobs/4878930-software-engineer",
 "resume": ""
 },
 {
@@ -4402,6 +4474,18 @@
 "date": "2026-10-30",
 "url": "https://jobs.ashbyhq.com/sarvam/36f89b00-2010-4d23-aae3-17a2f53d9eaa/application",
 "resume": "output/Sarvam - Agent Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Wahed",
+"role": "Backend Engineer",
+"loc": "Mumbai, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Not listed (Profile: 18-24 LPA)",
+"status": "Blocked",
+"date": "2026-10-30",
+"url": "https://wellfound.com/jobs/4874980-backend-engineer",
+"resume": "output/Wahed - Backend Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Drivetrain",
