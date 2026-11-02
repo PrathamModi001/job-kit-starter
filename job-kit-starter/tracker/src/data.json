@@ -2544,6 +2544,66 @@
 "resume": "output/Writer - Software Engineer Agents/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Braintrust",
+"role": "Software Engineer, SDK",
+"loc": "Remote; New York City; Seattle",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (backed by Coatue/Greylock, well above floor)",
+"status": "Applied",
+"date": "2026-11-02",
+"url": "https://jobs.ashbyhq.com/braintrust/2a6c4ee9-063f-45d4-83ba-faf64b1f1a60",
+"resume": "output/Braintrust - Software Engineer, SDK/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Fal.ai",
+"role": "Software Engineer, Distributed Systems",
+"loc": "Remote - Global",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": " – ",
+"status": "Applied",
+"date": "2026-11-02",
+"url": "https://jobs.ashbyhq.com/fal-ai/0acf2909-a4c4-4ad5-a0fb-61fba66eb89e",
+"resume": "output/Fal.ai - Software Engineer, Distributed Systems/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Railway",
+"role": "Infrastructure Engineer",
+"loc": "Global Remote",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (well above floor)",
+"status": "Applied",
+"date": "2026-11-02",
+"url": "https://jobs.ashbyhq.com/railway/b8072f95-043f-404d-a313-f0bdf8dd3c81/application",
+"resume": "output/Railway - Infrastructure Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Supabase",
+"role": "SDK Engineer - Python",
+"loc": "Remote, Global",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (+ valuation co, well above floor)",
+"status": "Applied",
+"date": "2026-11-02",
+"url": "https://jobs.ashbyhq.com/supabase/b65287c7-2071-4bc6-8717-58c090e2a372/application",
+"resume": "output/Supabase - SDK Engineer - Python/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Tavus",
+"role": "Software Engineer, Infrastructure",
+"loc": "Remote; San Francisco",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Not listed (Series B Sequoia co, well above floor)",
+"status": "Applied",
+"date": "2026-11-02",
+"url": "https://jobs.ashbyhq.com/tavus/2cdc9932-1140-42d6-9fce-ee7e26192b15",
+"resume": "output/Tavus - Software Engineer, Infrastructure/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "HackerEarth",
 "role": "Backend Engineer",
 "loc": "Bangalore",
@@ -4486,6 +4546,30 @@
 "date": "2026-10-30",
 "url": "https://wellfound.com/jobs/4874980-backend-engineer",
 "resume": "output/Wahed - Backend Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Intuit",
+"role": "Software Engineer 1",
+"loc": "Bangalore, India",
+"via": "Intuit Careers / Avature ATS",
+"found": "Intuit Careers / Avature ATS",
+"comp": "24-32 LPA",
+"status": "Blocked",
+"date": "2026-11-02",
+"url": "https://jobs.intuit.com/job/-/-/27595/102630301904",
+"resume": "output/Intuit - Software Engineer 1/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Qubrid AI",
+"role": "Full Stack AI Engineer",
+"loc": "Remote (India / US hours)",
+"via": "Direct / Custom Portal",
+"found": "Direct / Custom Portal",
+"comp": "Market (18+ LPA)",
+"status": "Blocked",
+"date": "2026-11-02",
+"url": "https://www.qubrid.com/careers/jobs/35a677912add483a96497023cb47e0f6",
+"resume": "output/Qubrid AI - Full Stack AI Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Drivetrain",
