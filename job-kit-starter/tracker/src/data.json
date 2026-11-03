@@ -2652,6 +2652,18 @@
 "resume": "output/AiPrise - Software Engineer I/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Airveda",
+"role": "Full Stack Developer (ML)",
+"loc": "Gurugram (In office)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4722380-full-stack-developer-ml",
+"resume": "output/Airveda - Full Stack Developer (ML)/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "AnswerThis",
 "role": "Product Engineer",
 "loc": "Remote (India)",
@@ -2662,6 +2674,18 @@
 "date": "2026-11-03",
 "url": "https://www.workatastartup.com/jobs/100954",
 "resume": "output/AnswerThis - Product Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Asymmetric Labs",
+"role": "Backend Developer",
+"loc": "Bengaluru",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹25L – ₹30L • 0.01% – 0.25%",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4696208-backend-developer",
+"resume": "output/Asymmetric Labs - Backend Developer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Build AI",
@@ -2686,6 +2710,18 @@
 "date": "2026-11-03",
 "url": "https://wellfound.com/jobs/4903636-founding-engineer",
 "resume": "output/Chausar - Founding Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "DC Tech Consulting",
+"role": "Software Engineer",
+"loc": "Bangalore Urban / Remote",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4903437-software-engineer",
+"resume": "output/DC Tech Consulting - Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Diagrid",
@@ -2724,6 +2760,18 @@
 "resume": "output/Kalpa Labs - Founding ML Infrastructure Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Kuku Technologies",
+"role": "AI Engineer",
+"loc": "Mumbai",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹15L - ₹28L",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4901349-ai-engineer",
+"resume": "output/Kuku Technologies - AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "transcurators",
 "role": "Applied AI Engineer",
 "loc": "Remote (India)",
@@ -2734,6 +2782,18 @@
 "date": "2026-11-03",
 "url": "https://wellfound.com/jobs/4949401-applied-ai-engineer",
 "resume": "output/transcurators - Applied AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Trimpixel",
+"role": "Full Stack Developer",
+"loc": "Bangalore Urban / Remote",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹10L - ₹30L",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/1742128-full-stack-developer",
+"resume": "output/Trimpixel - Full Stack Developer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Xomiro Technologies",
@@ -3717,6 +3777,54 @@
 "status": "Skipped",
 "date": "2026-10-30",
 "url": "https://job-boards.greenhouse.io/truveta/jobs/6105750004",
+"resume": ""
+},
+{
+"co": "Dhara Technologies",
+"role": "Founding Engineer (Full Stack / Backend / AI)",
+"loc": "Delhi (In office)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹25L – ₹60L",
+"status": "Skipped",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4859114-founding-engineer-full-stack-backend-ai",
+"resume": ""
+},
+{
+"co": "PranaTree",
+"role": "Applied AI Engineer",
+"loc": "Remote (India)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "15L - 30L",
+"status": "Skipped",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4903412-applied-ai-engineer",
+"resume": ""
+},
+{
+"co": "Quixta",
+"role": "Mid-Level Backend, Data & ML Developer",
+"loc": "Bengaluru / Remote",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "15L - 19L",
+"status": "Skipped",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4943178-mid-level-backend-data-ml-developer",
+"resume": ""
+},
+{
+"co": "Sardine",
+"role": "Software Engineer - Backend",
+"loc": "Remote (India)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹30L – ₹50L",
+"status": "Skipped",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4844774-software-engineer-backend",
 "resume": ""
 },
 {
@@ -4726,6 +4834,18 @@
 "date": "2026-11-02",
 "url": "https://job-boards.greenhouse.io/saucelabs/jobs/8185664",
 "resume": "output/Sauce Labs - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "NeoGenCode Technologies Pvt Ltd",
+"role": "Full Stack Engineer (Python + React.js/Next.js)",
+"loc": "Bengaluru",
+"via": "Cutshort",
+"found": "Cutshort",
+"comp": "18L - 35L / yr",
+"status": "Blocked",
+"date": "2026-11-03",
+"url": "https://cutshort.io/job/Full-Stack-Engineer-Python-React-js-Next-js-Bengaluru-Bangalore-NeoGenCode-Technologies-Pvt-Ltd-kCjuPWyd",
+"resume": "output/NeoGenCode Technologies Pvt Ltd - Full Stack Engineer (Python + React.js/Next.js)/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Point72",

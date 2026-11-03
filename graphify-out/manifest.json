@@ -24,9 +24,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/output/job-search/seen.json": {
-    "mtime": 1793683767.8632405,
-    "seen": 1793689793.135195,
-    "ast_hash": "a3ae2f6dacd164a73a98798e85dd52f2",
+    "mtime": 1793697515.4148726,
+    "seen": 1793706263.969963,
+    "ast_hash": "fc3a81ee9036a09c4c07c33fb0637e6a",
     "semantic_hash": ""
   },
   "job-kit-starter/resume.cls": {
@@ -84,8 +84,8 @@
     "semantic_hash": "4bacdb467f88c9788c12e05eae4f2d40"
   },
   "job-kit-starter/tracker/src/meta.json": {
-    "mtime": 1793697435.692437,
-    "seen": 1793697462.2235887,
+    "mtime": 1793707060.4197452,
+    "seen": 1793707079.7264104,
     "ast_hash": "9c7e36a1a7240b507b9887cf5ce855fd",
     "semantic_hash": ""
   },
@@ -306,9 +306,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {
-    "mtime": 1793697435.6908946,
-    "seen": 1793697462.223586,
-    "ast_hash": "1e2da01a299e70f2f056082dff330f11",
+    "mtime": 1793707060.4192274,
+    "seen": 1793707079.726409,
+    "ast_hash": "6fc9355d4f81139b3466912b9d7bca7f",
     "semantic_hash": ""
   },
   "job-kit-starter/output/job-search/outreach/tier_b_template.md": {
@@ -399,12 +399,6 @@
     "mtime": 1793340206.860168,
     "seen": 1793606073.2145486,
     "ast_hash": "a5a2e1cf26208cfd174ae5491073b756",
-    "semantic_hash": ""
-  },
-  "wellfound_jobs.json": {
-    "mtime": 1793684233.4360833,
-    "seen": 1793689793.135208,
-    "ast_hash": "26af53477f947c59427a51929dbf8586",
     "semantic_hash": ""
   }
 }

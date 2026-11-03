@@ -1,16 +1,16 @@
 # Graph Report - job-kit-starter  (2026-11-03)
 
 ## Corpus Check
-- 65 files · ~73,258 words
+- 78 files · ~79,968 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 554 nodes · 545 edges · 56 communities (44 shown, 6 thin omitted)
+- 599 nodes · 581 edges · 68 communities (45 shown, 6 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c96e7af3`
+- Built from commit: `469fe53e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,9 +21,10 @@
 - Resume & CV Generation — Reference
 - Documentation
 - Achievements
-- gates.py
+- job-kit-starter/gates.py
 - /edit-resume
 - /make-resume
+- Master Profile (SKILL_PROFILE) — Pratham Modi
 - Tier B cold email — slot template (volume lane)
 - char_count.py
 - /setup-build-kb
@@ -71,27 +72,27 @@
 2. `Resume & CV Generation — Reference` - 13 edges
 3. `Critique Framework — Consolidated Multi-Perspective Protocol` - 12 edges
 4. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
-5. `Cover Letter Generation — Reference` - 11 edges
-6. `/make-resume` - 10 edges
-7. `Job-Search Operations Runbook` - 10 edges
-8. `Shared Operations — All Skills` - 10 edges
-9. `Job Hunt Profile & Operations Rule` - 9 edges
-10. `/edit-resume` - 9 edges
+5. `Master Profile (SKILL_PROFILE) — Pratham Modi` - 11 edges
+6. `Cover Letter Generation — Reference` - 11 edges
+7. `/make-resume` - 10 edges
+8. `Job-Search Operations Runbook` - 10 edges
+9. `Shared Operations — All Skills` - 10 edges
+10. `Job Hunt Profile & Operations Rule` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `score()` --calls--> `title_skip()`  [EXTRACTED]
-  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
+  job-kit-starter/job_hunt_india.py → gates.py
 - `score()` --calls--> `title_skip()`  [EXTRACTED]
-  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
+  job-kit-starter/job_hunt.py → gates.py
 - `score()` --calls--> `yoe_check()`  [EXTRACTED]
-  job-kit-starter/job_hunt_india.py → job-kit-starter/gates.py
+  job-kit-starter/job_hunt_india.py → gates.py
 - `score()` --calls--> `yoe_check()`  [EXTRACTED]
-  job-kit-starter/job_hunt.py → job-kit-starter/gates.py
+  job-kit-starter/job_hunt.py → gates.py
 
 ## Import Cycles
 - None detected.
 
-## Communities (56 total, 6 thin omitted)
+## Communities (68 total, 6 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -117,9 +118,9 @@ Nodes (23): Architecture, Concepts, Customization, Documentation, Everything in 
 Cohesion: 0.10
 Nodes (19): Achievements, Achievements, Cross-Position Themes (for cover letters), Cross-Position Themes (for cover letters), Dates: Aug 2018 -- Jul 2023, Dates: Aug 2023 -- Present, L1: ML-Guided Enzyme Stability Screening, L2: Enzyme Solvent Tolerance Prediction (+11 more)
 
-### Community 6 - "gates.py"
-Cohesion: 0.21
-Nodes (8): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html(), vocab()
+### Community 6 - "job-kit-starter/gates.py"
+Cohesion: 0.17
+Nodes (10): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html() (+2 more)
 
 ### Community 7 - "/edit-resume"
 Cohesion: 0.12
@@ -128,6 +129,10 @@ Nodes (15): Cover Letter Verification Gates (if CL was edited), /edit-resume, FI
 ### Community 8 - "/make-resume"
 Cohesion: 0.12
 Nodes (16): Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2), CHAR COUNT GATE (per position), COMPILE GATE, End of /make-resume, /make-resume, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<< (+8 more)
+
+### Community 9 - "Master Profile (SKILL_PROFILE) — Pratham Modi"
+Cohesion: 0.14
+Nodes (13): Achievements / Awards, Certifications, Education, Experience, Load-Bearing Facts (pin the current numbers here; grep for stale copies before every send), Log (append new wins here, fold up later), Master Profile (SKILL_PROFILE) — Pratham Modi, Projects (+5 more)
 
 ### Community 10 - "Tier B cold email — slot template (volume lane)"
 Cohesion: 0.20
@@ -222,8 +227,8 @@ Cohesion: 0.20
 Nodes (9): 📋 Application-Form Facts, 🌐 Approved Sources (STRICT allowlist — this is the complete list), 🔐 Authentication & Session Persistence Rule, 🚧 Blocker Handling (fully autonomous — no user check-ins mid-run), 🎯 Candidate Bar (Pratham Modi), 📧 Cold Outreach Operations, ⚡ Daily Scan Operations, Job Hunt Profile & Operations Rule (+1 more)
 
 ### Community 46 - "job_hunt.py"
-Cohesion: 0.15
-Nodes (25): Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, title_skip(), yoe_check(), fetch_aiven(), fetch_arbeitnow(), fetch_ashby(), fetch_gh(), fetch_hn() (+17 more)
+Cohesion: 0.09
+Nodes (33): coverage(), form_check(), personal_info_valid(), Tags off, entities decoded, whitespace collapsed. Shared by…, Pre-submit gates for the daily scan. Run from job-kit-starter/. python gates.py…, Return ('skip'|'borderline'|'ok', evidence). Hard skip: N+ with N>=4, or range…, True only if s is a 'key=value; key=value; ...' audit trail of what was…, strip_html() (+25 more)
 
 ### Community 49 - "Daily Job Search & Cold Outreach Run Report"
 Cohesion: 0.29
@@ -270,17 +275,15 @@ Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
 ## Knowledge Gaps
-- **341 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+336 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 409 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **352 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+347 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 445 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `yoe_check()` connect `job_hunt.py` to `gates.py`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _341 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _352 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
@@ -291,3 +294,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Documentation` be split into smaller, more focused modules?**
   _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+- **Should `Achievements` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
