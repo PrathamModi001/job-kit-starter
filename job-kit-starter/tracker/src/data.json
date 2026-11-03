@@ -2652,6 +2652,18 @@
 "resume": "output/AiPrise - Software Engineer I/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "AnswerThis",
+"role": "Product Engineer",
+"loc": "Remote (India)",
+"via": "Work at a Startup",
+"found": "Work at a Startup",
+"comp": " -  USD",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://www.workatastartup.com/jobs/100954",
+"resume": "output/AnswerThis - Product Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Build AI",
 "role": "Software Engineer, India",
 "loc": "India (Hybrid)",
@@ -2662,6 +2674,78 @@
 "date": "2026-11-03",
 "url": "https://jobs.ashbyhq.com/build-ai/6c6e4334-8219-49cc-926e-a5289cf95432/application",
 "resume": "output/Build AI - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Chausar",
+"role": "Founding Engineer",
+"loc": "Bengaluru, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "12-18 LPA",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4903636-founding-engineer",
+"resume": "output/Chausar - Founding Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Diagrid",
+"role": "Fullstack Software Engineer",
+"loc": "Remote India / Remote Bangalore",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "USD 80K-110K (Competitive US-backed Package)",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://jobs.ashbyhq.com/diagrid/06fdf2f3-fff0-4628-b58c-2c07d408e656/application",
+"resume": "output/Diagrid - Fullstack Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Evaboot",
+"role": "Agentic Python Engineer",
+"loc": "Remote (India)",
+"via": "Google Forms",
+"found": "Google Forms",
+"comp": "Competitive (€50K-€70K)",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://docs.google.com/forms/d/e/1FAIpQLScsVtcmb703DFvgbcX3NCzM0Z1amvvjLnKAg0SjduUiIBn-2g/formResponse",
+"resume": "output/Evaboot - Agentic Python Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Kalpa Labs",
+"role": "Founding ML Infrastructure Engineer",
+"loc": "Bengaluru, India",
+"via": "Work at a Startup",
+"found": "Work at a Startup",
+"comp": "$90K - $110K USD",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://www.workatastartup.com/jobs/119606",
+"resume": "output/Kalpa Labs - Founding ML Infrastructure Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "transcurators",
+"role": "Applied AI Engineer",
+"loc": "Remote (India)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "15-30 LPA",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4949401-applied-ai-engineer",
+"resume": "output/transcurators - Applied AI Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Xomiro Technologies",
+"role": "Full Stack Developer",
+"loc": "Bangalore Urban, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "20-24 LPA",
+"status": "Applied",
+"date": "2026-11-03",
+"url": "https://wellfound.com/jobs/4829593-full-stack-developer-node-js-react-typescript-generative-ai",
+"resume": "output/Xomiro Technologies - Full Stack Developer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "HackerEarth",
