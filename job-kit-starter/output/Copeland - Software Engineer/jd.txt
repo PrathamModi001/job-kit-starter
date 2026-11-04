@@ -1,0 +1,79 @@
+{
+ "jobLocation" : {
+ "@type" : "Place",
+ "address" : {
+ "@type" : "PostalAddress",
+ "addressCountry" : "India",
+ "addressLocality" : "Pune"
+ }
+ },
+ "hiringOrganization" : {
+ "name" : "Copeland India Private Ltd.",
+ "@type" : "Organization",
+ "sameAs" : ""
+ },
+ "identifier" : {
+ "name" : "Software Engineer",
+ "@type" : "PropertyValue",
+ "value" : "JR119136"
+ },
+ "datePosted" : "2026-11-03",
+ "employmentType" : "FULL_TIME",
+ "title" : "Software Engineer",
+ "description" : "About Us We are a global climate technologies company engineered for sustainability. We create sustainable and efficient residential, commercial and industrial spaces through HVACR technologies. We protect temperature-sensitive goods throughout the cold chain. And we bring comfort to people globally. Best-in-class engineering, design and manufacturing combined with category-leading brands in compression, controls, software and monitoring solutions result in next-generation climate technology that is built for the needs of the world ahead.  Whether you are a professional looking for a career change, an undergraduate student exploring your first opportunity, or recent graduate with an advanced degree, we have opportunities that will allow you to innovate, be challenged and make an impact. Join our team and start your journey today! React / Next.js Developer We are seeking a highly motivated React / Next.js Full Stack Developer to design, develop, and maintain modern, scalable, and secure web applications. The ideal candidate will have strong experience in React, Next.js, TypeScript, API integrations, and secure software development practices.a Person will work closely with Product Owners, UX Designers, Architects, and Backend Developers to deliver enterprise-grade digital solutions that are responsive, accessible, performant, and secure. The role requires a strong focus on code quality, user experience, application security, and long-term maintainability. Must Have Skills: 3+ years of experience in React.js, Next.js, and TypeScript. Experience converting Figma UX/UI designs into responsive React applications. Experience integrating with REST APIs and .NET Core backend services. Strong understanding of OAuth 2.0, OIDC, JWT, API security, and OWASP secure coding practices. Experience building scalable, accessible, and high-performance enterprise web applications. Strong knowledge of HTML5, CSS3, SCSS, JavaScript (ES6+). Experience with Git, Azure DevOps/GitHub, and CI/CD pipelines. Understanding of Clean Code, SOLID principles, unit testing, and modern software engineering practices. Preferred: Azure, APIM, C#, SQL Server, Tailwind/MUI, Docker. Education Bachelor's Degree in Computer Science, Software Engineering, Information Technology, or a related field. Equivalent professional experience will also be considered. Our Commitment to Our People Across the globe, we are united by a singular Purpose: Sustainability is no small ambition. That’s why everything we do is geared toward a sustainable future—for our generation and all those to come. Through groundbreaking innovations, HVACR technology and cold chain solutions, we are reducing carbon emissions and improving energy efficiency in spaces of all sizes, from residential to commercial to industrial. Our employees are our greatest strength. We believe that our culture of passion, openness, and collaboration empowers us to work toward the same goal - to make the world a better place. We invest in the end-to-end development of our people, beginning at onboarding and through senior leadership, so they can thrive personally and professionally. Flexible and competitive benefits plans offer the right options to meet your individual/family needs. We provide employees with flexible time off plans, including paid parental leave (maternal and paternal), vacation and holiday leave.  Together, we have the opportunity – and the power – to continue to revolutionize the technology behind air conditioning, heating and refrigeration, and cultivate a better future. Learn more about us and how you can join our team! Our Commitment to Inclusion & Belonging At Copeland, we cultivate a strong sense of inclusion and belonging where individuals of all backgrounds, and with diverse perspectives, are embraced and treated fairly to enable a stronger workforce. Our employee resource groups play an important role in culture and community building at Copeland. Equal Opportunity Employer Copeland is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to sex, race, color, religion, national origin, age, marital status, political affiliation, sexual orientation, gender identity, genetic information, disability or protected veteran status. We are committed to providing a workplace free of any discrimination or harassment. With $5B of global revenue, Copeland is a leading provider of compression products, electronics, software, and solutions across many applications within Heating, Ventilation, Air Conditioning, and Refrigeration (HVACR), where macro and regulatory trends towards environmental sustainability, leads to changes in HVACR technology. Other products include other heating applications, food service and retail, transportation, and healthcare/life sciences. This new business also has a solution portfolio that manages, monitors, and controls refrigeration units in the commercial setting, as well as software solutions that measure and monitor temperature conditions of refrigerated goods in transit, where there is a greater emphasis on energy management/sustainability solutions globally.",
+ "@context" : "http://schema.org",
+ "@type" : "JobPosting"
+}
+
+ window.workday = window.workday || {
+ tenant: "copeland",
+ siteId: "Copeland_External_Careers_Page",
+ locale: "",
+ requestLocale: "en-US",
+ supportedLocales:["cs-CZ","de-DE","en-US","es","fr-CA","it-IT","ro-RO","th-TH","zh-CN"],
+ clientOrigin: "https://wd5.myworkday.com",
+ language: null,
+ cdnEndpoint: "wd5.myworkdaycdn.com",
+ useCdn: true,
+ maintenancePageUrl: "https://wd5.myworkday.com/wday/drs/outage?t=copeland&s=Copeland_External_Careers_Page",
+ token: "91549800-b1f5-4e19-8990-758107aae163",
+ environment: "PROD",
+ isExternal: true,
+ appName: "cxs",
+ loggingEndpoint: "https://wd5.myworkday.com/wday/microscope/prelogin",
+ postingAvailable: true,
+ allowedFileTypes: [],
+ blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+ toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","32bccbf501f610002313c4ee6e9c0000","e702eb48468610000d6ad4a553cb0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","b6678cba4dbc10000a476842e3bb0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","96cc49ab4185100014c0824814050000","e4f054463fea1000274c8a0d22ad0000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","7412d755467b1000466a75950f5a0000","1fda372a2c2310002fdb093b08500000","10f7a56eb11c100024a6d65b625a0000","25e5d9d7d60010001a37bac5c8790000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000","2af7a0871946100029867d9279b30000"],
+ branding: {"button":{},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"981605274da1100116ba35b8f72f0000","altText":null}},"banner":{"image":{"id":"981605274da1100102ac0fbaefe10001","altText":null}}},"embedded":false},
+ geoIpCountryCode: "in" == null ? "": "in",
+
+ };
+ function createScriptTag (src) {
+ var scriptTag = document.createElement('script');
+ scriptTag.src = src;
+ scriptTag.setAttribute('defer', 'true');
+ scriptTag.setAttribute('crossorigin', 'anonymous');
+ return scriptTag;
+ }
+ var isIE = typeof Symbol === 'undefined';
+ var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+ var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+ var cdnOrigin = 'https://' + "wd5.myworkdaycdn.com";
+ var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+ var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+ sharedVendorsLoaderScript.onload = function () {
+ var jobsScriptSrcFilename = isIE
+ ? 'cx-jobs-ie.min.js'
+ : 'cx-jobs.min.js';
+ var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+ var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+ jobsScript.onerror = function () {
+ window.workday.useCdn = false;
+ var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+ document.head.removeChild(jobsScript);
+ document.head.appendChild(jobsScriptFromClientOrigin);
+ }
+ document.head.appendChild(jobsScript);
+ };
+ document.head.appendChild(sharedVendorsLoaderScript);

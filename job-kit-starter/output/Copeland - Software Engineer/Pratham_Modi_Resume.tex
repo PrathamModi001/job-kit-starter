@@ -1,0 +1,76 @@
+\documentclass[10pt]{article}
+\usepackage[left=0.50in,right=0.50in,top=0.35in,bottom=0.35in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{parskip}
+\pagestyle{empty}
+
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3.5pt}{1.5pt}
+
+\newcommand{\rItemList}{\begin{itemize}[leftmargin=1.1em, itemsep=0.8pt, topsep=0.8pt, parsep=0pt, label=\textbullet]}
+\newcommand{\rEndItemList}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+{\Huge \textbf{Pratham Modi}} \\[2pt]
++91-9033393729 $\vert$ \href{mailto:prathammodi001@gmail.com}{prathammodi001@gmail.com} $\vert$ Bengaluru, Karnataka, India \\[1pt]
+\href{https://github.com/PrathamModi001}{github.com/PrathamModi001} $\vert$ \href{https://www.linkedin.com/in/prathammodii001/}{linkedin.com/in/prathammodii001} \\[2pt]
+\textbf{Software Engineer $\vert$ Full-Stack \& Systems $\vert$ Node.js, Python, React, PostgreSQL, AWS}
+
+\end{center}
+
+\vspace{-6pt}
+\section{Summary}
+Software Engineer with 2+ years of production experience designing, developing, and operating scalable backend services, full-stack web applications, and cloud-native infrastructure. Engineered core platform services supporting 50K+ users at C3iHub (IIT Kanpur), deployed Next.js and FastAPI microservices at Playpower Labs, and automated deployment pipelines with blue-green CI/CD and comprehensive observability.
+
+\section{Technical Skills}
+\textbf{Languages \& Frameworks:} Node.js, Express.js, Python, FastAPI, React, Next.js, TypeScript, JavaScript, SQL \\
+\textbf{Backend \& APIs:} Microservices, RESTful APIs, WebSocket, Distributed Systems, System Design, Event-Driven Architecture \\
+\textbf{Databases \& Messaging:} PostgreSQL, MongoDB, Redis, Kafka, BullMQ \\
+\textbf{Cloud \& Observability:} AWS (EC2, S3, EKS), Docker, Kubernetes, CI/CD, GitHub Actions, OpenTelemetry, Prometheus, Grafana \\
+
+\section{Experience}
+
+\textbf{C3iHub, IIT Kanpur} \hfill Jul 2025 -- Present \\
+\textit{Software Development Engineer (Backend \& Infrastructure)} \hfill Bengaluru / Kanpur, India
+\rItemList
+\item Architected core platform backend and microservices using Express.js, MongoDB, Redis, and Socket.IO, serving 50K+ users and maintaining 99.9\% uptime under 10,000+ concurrent connections.
+\item Engineered event-driven notification pipeline handling 75K+ daily events at 99.5\% delivery reliability using Kafka, BullMQ, and Redis Pub/Sub with consumer-side deduplication.
+\item Improved incident response time 85\% by deploying distributed tracing across 15+ microservices with OpenTelemetry, Prometheus, and Grafana; defined alerting SLOs across cross-functional teams.
+\item Led engineering of official IITK platform onboarding 10K+ participants pan-India; productized into multi-tenant SaaS serving public and private enterprise deployments with RBAC.
+\rEndItemList
+
+\textbf{Playpower Labs} \hfill Nov 2024 -- Jun 2025 \\
+\textit{Software Development Engineer (Full-Stack \& AI Services)} \hfill Bengaluru, India
+\rItemList
+\item Developed AI tutoring platform using Next.js with SSR/ISR and React Server Components alongside FastAPI microservices, supporting 500+ concurrent WebSocket sessions with sub-100ms response times.
+\item Reduced release cycle time by 65\% by implementing blue-green CI/CD on AWS with GitHub Actions and automated rollback triggers for zero-downtime deployments.
+\item Increased user session depth by 35\% by integrating ChromaDB vector search over 10K+ documents via a RAG pipeline, achieving sub-200ms retrieval latency at p95.
+\rEndItemList
+
+\section{Projects}
+
+\textbf{Autonomous Invoice Processing Platform} $\vert$ \textit{Kafka, Redis Streams, FastAPI, PostgreSQL, AWS} \\
+\rItemList
+\item Engineered event-driven platform automating invoice intake across multi-channel APIs with automated validation, deduplication, and full audit trail.
+\item Built fault-tolerant microservices with consumer groups, dead-letter queues, exponential backoff retries, and RBAC-based human review workflow.
+\rEndItemList
+
+\textbf{DeployMind: AI-Powered GitOps Platform} $\vert$ \textit{Python, FastAPI, CrewAI, Redis, Docker, Kubernetes} \\
+\rItemList
+\item Built GitOps platform automating deployments from GitHub to EC2 and Kubernetes (EKS) via a 3-agent AI pipeline using CrewAI with security gates.
+\item Implemented rolling, canary, and blue-green deployment strategies with Redis-backed queue, distributed locking, and 200+ automated tests.
+\rEndItemList
+
+\section{Education}
+
+\textbf{Pandit Deendayal Energy University} \hfill 2021 -- 2025 \\
+\textit{Bachelor of Technology in Computer Science and Engineering} \hfill CGPA: 9.20 / 10.0
+
+\end{document}

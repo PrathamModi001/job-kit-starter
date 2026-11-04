@@ -1,0 +1,23 @@
+{
+  "jd_terms_in_profile_vocab": [
+    "ci/cd",
+    "docker",
+    "javascript",
+    "next.js",
+    "react",
+    "sql",
+    "typescript"
+  ],
+  "matched": [
+    "ci/cd",
+    "docker",
+    "javascript",
+    "next.js",
+    "react",
+    "sql",
+    "typescript"
+  ],
+  "missing_but_in_profile": [],
+  "match_rate": 1.0,
+  "jd_flags": []
+}

@@ -1,0 +1,79 @@
+{
+ "jobLocation" : {
+ "@type" : "Place",
+ "address" : {
+ "@type" : "PostalAddress",
+ "addressCountry" : "India",
+ "addressLocality" : "IND-Navi Mumbai"
+ }
+ },
+ "hiringOrganization" : {
+ "name" : "CGG Services India Private Limited",
+ "@type" : "Organization",
+ "sameAs" : ""
+ },
+ "identifier" : {
+ "name" : "Machine Learning Engineer - Agentic AI & Reinforcement Learning",
+ "@type" : "PropertyValue",
+ "value" : "JR101558"
+ },
+ "datePosted" : "2026-11-03",
+ "employmentType" : "FULL_TIME",
+ "title" : "Machine Learning Engineer - Agentic AI & Reinforcement Learning",
+ "description" : "Viridien (www.viridiengroup.com) is an advanced technology, digital and Earth data company that pushes the boundaries of science for a more prosperous and sustainable future. With our ingenuity, drive and deep curiosity we discover new insights, innovations, and solutions that efficiently and responsibly resolve complex natural resource, digital, energy transition and infrastructure challenges. Are you interested in building AI systems for real-world scientific problems? Viridien is expanding its capabilities in agentic AI, large language models and reinforcement learning for complex scientific and enterprise workflows. We operate global high-performance scientific computing infrastructure delivering more than 700 petaflops and executing over one million scientific computing jobs each day across areas including geophysical imaging, materials science, biotechnology and AI-driven research. We are looking for a hands-on Machine Learning Engineer to help build and evaluate intelligent agent systems, turning emerging AI methods into robust and adaptive solutions for scientific applications. Who you'll work with As a member of our AI Lab, you'll collaborate with senior machine learning engineers, software developers, HPC specialists and scientific domain experts across Viridien. Learn more about the team on our website, in a recent blog post featuring one of our senior machine learning engineers and from our Voices of Viridien. What you'll work on Designing and developing single-agent and multi-agent systems. Implementing and evaluating capabilities such as reasoning, planning, task decomposition, memory, tool use and agent collaboration. Integrating LLMs, vision-language models, retrieval systems and domain-specific tools. Experimenting with fine-tuning and adapting foundation models using supervised learning, preference optimisation and reinforcement learning where appropriate. Developing training environments, reward functions, graders and feedback mechanisms. Designing evaluations, guardrails and monitoring approaches for agent reliability. Helping turn successful prototypes into APIs, services and reusable software components. What we look for Essential Degree in computer science, artificial intelligence, machine learning, engineering or a related discipline, or equivalent practical experience. Good Python programming skills and an understanding of software engineering practices. Experience building machine-learning, generative-AI or LLM applications, gained through employment, industry or research internships, applied research or significant academic projects. Experience with PyTorch, JAX, TensorFlow or a similar framework. Familiarity with core agentic AI concepts such as tool calling, planning, memory and workflow orchestration. An understanding of reinforcement learning, preference optimisation or sequential decision-making. Some experience evaluating models or implementing ideas from machine-learning research. Desirable Familiarity with multi-agent systems using LangGraph, AutoGen, smolagents or similar frameworks. Some exposure to LLM fine-tuning or preference and reinforcement-learning approaches, such as DPO, GRPO, RLHF or RLAIF. Experience designing reward functions, graders or agent training environments. Familiarity with Model Context Protocol or other approaches to tool integration. Exposure to training or deploying open-source language or vision-language models using GPUs, including distributed training. Experience applying AI to scientific, engineering, energy or geoscience workflows. Why work with us? At Viridien, we are dedicated to providing the needs of our employees; and we know every employee has unique personal goals, family circumstances, and preferences. That is why we offer a wide array of benefits to promote and enhance your total well-being: India Flexible Hybrid Work Model Comprehensive Personal and Family Healthcare Fun Employee Wellness & Sustainable Activities Learning and development At Viridien, we foster a culture of continuous learning and provide tailored training programmes through our Learning Hub, designed to enhance technical, commercial, and personal growth. We care for the environment We encourage and actively support a strong sense of community, through volunteering and various company initiatives. As a company we are also committed to reducing our environmental impact, improving energy efficiency and accelerating sustainable solutions. Our Hiring Process At Viridien, we are committed to delivering a respectful, inclusive, and transparent recruitment experience. Due to the high volume of applications we receive, we may not be able to provide individual feedback to every applicant. Only candidates whose qualifications closely match the role criteria will be contacted for an interview. We do, however, aim to share personalized feedback with those who progress to the first round of interviews and beyond. We are also dedicated to ensuring that our hiring process accessible to all. If you require any reasonable adjustments to fully participate in the application or interview stages, please don’t hesitate to contact your recruiter directly. We see things differently. Diversity fuels our innovation, we value the unique ways in which we differ, and we are committed to equal employment opportunities for all professionals. Create a brighter future for yourself while taking on some of the world’s most complex geoscience challenges. Ready to join our team? Viridien (www.viridiengroup.com) is an advanced technology, digital and Earth data company that pushes the boundaries of science for a more prosperous and sustainable future. With our ingenuity, drive and deep curiosity we discover new insights, innovations, and solutions that efficiently and responsibly resolve complex natural resource, digital, energy transition and infrastructure challenges.",
+ "@context" : "http://schema.org",
+ "@type" : "JobPosting"
+}
+
+ window.workday = window.workday || {
+ tenant: "cgg",
+ siteId: "viridiencareers",
+ locale: "en-US",
+ requestLocale: "en-US",
+ supportedLocales:["en-US"],
+ clientOrigin: "https://wd103.myworkday.com",
+ language: null,
+ cdnEndpoint: "prod-wd103.myworkdaycdn.com",
+ useCdn: true,
+ maintenancePageUrl: "https://wd103.myworkday.com/wday/drs/outage?t=cgg&s=viridiencareers",
+ token: "b3e958b5-4bab-4f1b-8108-db713e9494be",
+ environment: "PROD",
+ isExternal: true,
+ appName: "cxs",
+ loggingEndpoint: "https://wd103.myworkday.com/wday/microscope/prelogin",
+ postingAvailable: true,
+ allowedFileTypes: ["csv","doc","docx","dwxf","gif","ics","jpeg","jpg","pdf","png","properties","rptdesign","svg","txt","xlm","xls","xlsm","xlsx","xml","xsl","xslt","zip"],
+ blockedFileTypes: ["bas","bat","com","exe","js","lnk","ocx","reg","sct","sys","vb","vbe","vbs","wsc","wsf","wsh"],
+ toggles: ["b9739002c86510002015dea9402c0000","36ce9cb779e5100019c1a5050b9a0000","32bccbf501f610002313c4ee6e9c0000","e702eb48468610000d6ad4a553cb0000","812c4a153c711000151c5ca11e310000","0d6ebcfdc39a10001bc8f95b3aac0000","43b4d9d7cb8e10000a703bad20420000","532bfa92863b100019ab08f4c04b0000","dac26076be8510002347bab78d5a0000","badb3f02bef210000e20c92ac0260000","e466d0b066ff10000c3605be74f10000","292c4bafc34210001a28e93bebcf0000","b3999fdcfb7310001ed650a18cc80000","e42e6d1d2524100010042528c43e0000","f45271d06fcd10001b2d8737149f0000","b8ce26d67ff9100014ec4b645b840000","bc9894c7142610001616fde6e0700000","6edcf8e6cd7f10001b1f86c9e3ef0000","a969fb8f4cfd10000ad4ba96cd820000","459bb3f1e4a9100014b8f73a20850000","ab2374beb65d10002c8233ca9b5a0000","13809c87a71610001b62b41c11800000","31177c86226910001079dc24b7110000","4706b65dd8ee100015f0034e1e480000","6c7d10abcf8e100015455f96664e0000","7d2bc1254b7d10000e2b5811864a0000","78b52d8385791000141adb10f19a0000","560b3d5bfd701000208972c8730e0000","158e13f2980210000e5f46c2d5ae0000","b6678cba4dbc10000a476842e3bb0000","2e8eb95af853100024f8c97124d40000","65f18e16aea0100010c0b34df7700000","96cc49ab4185100014c0824814050000","e4f054463fea1000274c8a0d22ad0000","466d58ad03691000185ddce1282a0000","75ecc5f3792b1000131d51fc86ab0000","bc814e895c1d10000d1fd3354f4b0000","258d1be19f40100013265e0888c90000","cdbf5f0a33931000115a15a023a40000","20ccbc6c60701000fafdc3dce74a0000","16593e8eb6ca10000935b558a50a0000","e1733537b151100014e202818e520000","db3fa9600f8810001798c5a6d2dd0000","1502396ba0ef1000103c22d48c570000","9c10810cc40b1000460d082ad8de0000","9c10810cc40b100045f3593f47b50000","6658d90adc4f100014da5605f7080000","195d457a6acb10001008bcba6e490000","7412d755467b1000466a75950f5a0000","1fda372a2c2310002fdb093b08500000","10f7a56eb11c100024a6d65b625a0000","25e5d9d7d60010001a37bac5c8790000","e1fdcb592a641000290e46a2b10f0000","5054a9c1a3eb1000262607b170020000","2af7a0871946100029867d9279b30000"],
+ branding: {"formFields":{"color":"#5000BB","textColor":"#5000BB"},"progressBar":{"color":"#5000BB"},"button":{"primary":{"color":"#5000BB","borderColor":"#5000BB","textColor":"#FFFFFF","hover":{"color":"#FFFFFF","borderColor":"#5000BB","textColor":"#5000BB"}},"secondary":{"color":"#FFFFFF","borderColor":"#5000BB","textColor":"#5000BB","hover":{"color":"#5000BB","borderColor":"#5000BB","textColor":"#FFFFFF"}},"shape":"ROUND"},"header":{"imageBanner":{"maintainAspectRatio":true,"image":{"id":"80fc4283080d1000ef17d1493edc0003","altText":null}},"banner":{"color":"#5000BB","borderColor":"#FFFFFF","textColor":"#FFFFFF","image":{"id":"e0f5c29c5181100174ab80705d840000","altText":null}}},"embedded":false},
+ geoIpCountryCode: "in" == null ? "": "in",
+
+ };
+ function createScriptTag (src) {
+ var scriptTag = document.createElement('script');
+ scriptTag.src = src;
+ scriptTag.setAttribute('defer', 'true');
+ scriptTag.setAttribute('crossorigin', 'anonymous');
+ return scriptTag;
+ }
+ var isIE = typeof Symbol === 'undefined';
+ var sharedAssetPath = '/wday/asset/uic-shared-vendors';
+ var sharedVendorLoaderAsset = sharedAssetPath + '/shared-vendors.min.js';
+ var cdnOrigin = 'https://' + "prod-wd103.myworkdaycdn.com";
+ var sharedVendorsLoaderUrlOrigin = workday.clientOrigin !== '' ? workday.clientOrigin : cdnOrigin;
+ var sharedVendorsLoaderScript = createScriptTag(sharedVendorsLoaderUrlOrigin + sharedVendorLoaderAsset);
+ sharedVendorsLoaderScript.onload = function () {
+ var jobsScriptSrcFilename = isIE
+ ? 'cx-jobs-ie.min.js'
+ : 'cx-jobs.min.js';
+ var cxJobsAsset = '/wday/asset/candidate-experience-jobs/' + jobsScriptSrcFilename;
+ var jobsScript = createScriptTag(cdnOrigin + cxJobsAsset);
+ jobsScript.onerror = function () {
+ window.workday.useCdn = false;
+ var jobsScriptFromClientOrigin = createScriptTag(workday.clientOrigin + cxJobsAsset);
+ document.head.removeChild(jobsScript);
+ document.head.appendChild(jobsScriptFromClientOrigin);
+ }
+ document.head.appendChild(jobsScript);
+ };
+ document.head.appendChild(sharedVendorsLoaderScript);

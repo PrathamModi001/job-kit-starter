@@ -1,0 +1,37 @@
+{
+  "jd_terms_in_profile_vocab": [
+    "aws",
+    "ci/cd",
+    "docker",
+    "fastapi",
+    "kubernetes",
+    "microservices",
+    "mongodb",
+    "next.js",
+    "postgresql",
+    "python",
+    "react",
+    "redis",
+    "system design",
+    "typescript"
+  ],
+  "matched": [
+    "aws",
+    "ci/cd",
+    "docker",
+    "fastapi",
+    "kubernetes",
+    "microservices",
+    "mongodb",
+    "next.js",
+    "postgresql",
+    "python",
+    "react",
+    "redis",
+    "system design",
+    "typescript"
+  ],
+  "missing_but_in_profile": [],
+  "match_rate": 1.0,
+  "jd_flags": []
+}

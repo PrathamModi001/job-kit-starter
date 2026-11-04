@@ -1,0 +1,51 @@
+Job Title : Full Stack Engineer (Python + React.js/Next.js)
+Experience : 1 to 6+ Years
+Location : Bengaluru (Indiranagar)
+Employment : Full-Time
+Working Days : 5 Days WFO
+Notice Period : Immediate to 30 Days
+
+Role Overview :
+We are seeking Full Stack Engineers to build scalable, high-performance fintech products.
+You will work on both frontend (Typescript/Next.js) and backend (Python/FastAPI/Django), owning features end-to-end and contributing to architecture, performance, and product innovation.
+
+Main Tech Stack :
+Frontend : Typescript, Next.js, React
+Backend : Python, FastAPI, Django
+Database : PostgreSQL, MongoDB, Redis
+Cloud : AWS/GCP, Docker, Kubernetes
+Tools : Git, GitHub, CI/CD, Elasticsearch
+
+Key Responsibilities :
+Develop full-stack applications with clean, scalable code.
+Build fast, responsive UIs using Typescript, Next.js, React.
+Develop backend APIs using Python, FastAPI, Django.
+Collaborate with product/design to implement solutions.
+Own development lifecycle: design -> build -> deploy -> monitor.
+Ensure performance, reliability, and security.
+
+Requirements :
+Must-Have :
+1-6+ years of full-stack experience.
+Product-based company background.
+Strong DSA + problem-solving skills.
+Proficiency in either frontend or backend with familiarity in both.
+Hands-on experience with APIs, microservices, Git, CI/CD, cloud.
+Strong communication & ownership mindset.
+
+Good-to-Have :
+Experience with containers, system design, observability tools.
+
+Interview Process :
+Coding Round : DSA + problem solving
+System Design : LLD + HLD, scalability, microservices
+CTO Round : Technical deep dive + cultural fit
+
+About NeoGenCode Technologies Pvt Ltd:
+NeoGenCode builds cutting-edge enterprise fintech and SaaS applications delivering high-performance financial systems with high concurrency and reliability.
+
+Company Overview:
+Industry: Financial Technology (Fintech) / SaaS / Enterprise Software.
+Product details: Scalable web applications, high throughput distributed processing, real-time analytics and financial transaction management.
+Engineering Culture: We prioritize engineering excellence, automated testing, continuous integration and deployment, and clean architecture. Developers have high ownership and direct impact on technical design and system scalability.
+Benefits: Competitive salary package, comprehensive health insurance, modern technology stack, agile development cycles, and high career growth.
