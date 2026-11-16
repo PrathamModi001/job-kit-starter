@@ -12,9 +12,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/job_hunt.py": {
-    "mtime": 1792071891.6888957,
-    "seen": 1793606073.214541,
-    "ast_hash": "747844bd1ebaf4eed61266f11a272711",
+    "mtime": 1794824872.7717462,
+    "seen": 1794824957.7337587,
+    "ast_hash": "75fd931b9f57edad000c5061aac9bc20",
     "semantic_hash": ""
   },
   "job-kit-starter/job_hunt_india.py": {
@@ -24,9 +24,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/output/job-search/seen.json": {
-    "mtime": 1793794476.5316377,
-    "seen": 1793798295.573439,
-    "ast_hash": "fafbee0d46d07fd2f551122fcd832146",
+    "mtime": 1794817990.5453467,
+    "seen": 1794823640.2697546,
+    "ast_hash": "8b20ad1469d789e094ef9be9ac56a46a",
     "semantic_hash": ""
   },
   "job-kit-starter/resume.cls": {
@@ -84,9 +84,9 @@
     "semantic_hash": "4bacdb467f88c9788c12e05eae4f2d40"
   },
   "job-kit-starter/tracker/src/meta.json": {
-    "mtime": 1793798278.519488,
-    "seen": 1793798295.5734491,
-    "ast_hash": "715f38a0612ca36bdd9b5a1ba02bfeac",
+    "mtime": 1794824950.9857585,
+    "seen": 1794824957.7337782,
+    "ast_hash": "2d36c1325ec5105733bfd3b171568e8d",
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/vite.config.js": {
@@ -174,9 +174,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/CLAUDE.md": {
-    "mtime": 1792036770.4379666,
-    "seen": 1793606073.214565,
-    "ast_hash": "b06d47c1c49a269f8a417aa7804807f4",
+    "mtime": 1794824918.2333212,
+    "seen": 1794824957.7337933,
+    "ast_hash": "2533e14b52a62f7a20a2cd95f7249360",
     "semantic_hash": ""
   },
   "job-kit-starter/DOCS.md": {
@@ -294,21 +294,21 @@
     "semantic_hash": ""
   },
   ".agents/rules/job_hunt_profile.md": {
-    "mtime": 1792388089.869231,
-    "seen": 1793606073.2145557,
-    "ast_hash": "1c6241f5be599997e721ab2aa78667cc",
+    "mtime": 1794824872.7722788,
+    "seen": 1794824957.7337818,
+    "ast_hash": "a09e6c4c7054b4c1a476db6e30a4cf83",
     "semantic_hash": ""
   },
   ".agents/workflows/daily_scan.md": {
-    "mtime": 1792388089.8795514,
-    "seen": 1793606073.2145565,
-    "ast_hash": "0e6a0616dc4bae91bb92b5e2c61ffe44",
+    "mtime": 1794824872.7728279,
+    "seen": 1794824957.7337825,
+    "ast_hash": "d65af0d6aae85d0f936c287f212f02b9",
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {
-    "mtime": 1793798278.518957,
-    "seen": 1793798295.5734477,
-    "ast_hash": "430e1df161e1d925767f3bfef54d4f7c",
+    "mtime": 1794824950.9852262,
+    "seen": 1794824957.7337763,
+    "ast_hash": "ca7a0e4b43bea966dbab01f83df958f5",
     "semantic_hash": ""
   },
   "job-kit-starter/output/job-search/outreach/tier_b_template.md": {
@@ -372,9 +372,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/gates.py": {
-    "mtime": 1793112503.5088766,
-    "seen": 1793606073.214538,
-    "ast_hash": "d936d7602a15cdff81882d4bf495f5e1",
+    "mtime": 1794824872.7707143,
+    "seen": 1794824957.7337544,
+    "ast_hash": "da69d4b4b1707f7b3f0dc13e0feb27c9",
     "semantic_hash": ""
   },
   "job-kit-starter/docs/superpowers/plans/2026-09-27-batch-mode-resume-tailoring.md": {
@@ -399,6 +399,102 @@
     "mtime": 1793340206.860168,
     "seen": 1793606073.2145486,
     "ast_hash": "a5a2e1cf26208cfd174ae5491073b756",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Copeland - Software Engineer/keyword_table.json": {
+    "mtime": 1793798254.572483,
+    "seen": 1794823640.26975,
+    "ast_hash": "327220b665cea190a5ca06f4e3ee80b7",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Fynd - SDE - 1 Fullstack Developer/keyword_table.json": {
+    "mtime": 1793798254.339634,
+    "seen": 1794823640.2697513,
+    "ast_hash": "43d94c8a658b7c14a1c3575ec1636935",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/NeoGenCode - Full Stack Engineer (Python + React.js)/keyword_table.json": {
+    "mtime": 1793798254.2249384,
+    "seen": 1794823640.269752,
+    "ast_hash": "85c2e6ccf93ebe81a40707c9eeb3bfd9",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Philips - Software Technologist I/keyword_table.json": {
+    "mtime": 1793798254.6709652,
+    "seen": 1794823640.2697527,
+    "ast_hash": "0a33a60c780b681eb7152280be0ca1bb",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Viridien - Machine Learning Engineer/keyword_table.json": {
+    "mtime": 1793798254.4686408,
+    "seen": 1794823640.2697537,
+    "ast_hash": "a75b8437aee0392e98757e48e044a700",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Copeland - Software Engineer/jd.txt": {
+    "mtime": 1793794814.5409112,
+    "seen": 1794823640.269784,
+    "ast_hash": "75bdbffdd4f8d785ddf56fac5dbf7be0",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Fynd - SDE - 1 Fullstack Developer/jd.txt": {
+    "mtime": 1793795434.1359696,
+    "seen": 1794823640.2697847,
+    "ast_hash": "97f3f874241d853ee827c4d474b14e54",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/NeoGenCode - Full Stack Engineer (Python + React.js)/jd.txt": {
+    "mtime": 1793795466.2271998,
+    "seen": 1794823640.2697854,
+    "ast_hash": "9501ce2a84fd9f8e762b5a6ce4121cda",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Philips - Software Technologist I/jd.txt": {
+    "mtime": 1793794817.8606465,
+    "seen": 1794823640.269786,
+    "ast_hash": "99434f767d9b6893c7c5eda3ec5fdd60",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Viridien - Machine Learning Engineer/jd.txt": {
+    "mtime": 1793794813.2077122,
+    "seen": 1794823640.2697866,
+    "ast_hash": "6862f5df92f2b2f04b96886bfeab61a0",
+    "semantic_hash": ""
+  },
+  "reports/daily_scan_report_2026_11_04.md": {
+    "mtime": 1793798336.4070554,
+    "seen": 1794823640.2698047,
+    "ast_hash": "db858ecfc0ff574a25fb6f0207462a6a",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Copeland - Software Engineer/Pratham_Modi_Resume.pdf": {
+    "mtime": 1793795587.627035,
+    "seen": 1794823640.2698057,
+    "ast_hash": "74da025a369eaa2ce3148bcfdb0e318a",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Fynd - SDE - 1 Fullstack Developer/Pratham_Modi_Resume.pdf": {
+    "mtime": 1793795586.4608843,
+    "seen": 1794823640.2698061,
+    "ast_hash": "b3aeefeedbdf55d1ec036817adf21c5b",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/NeoGenCode - Full Stack Engineer (Python + React.js)/Pratham_Modi_Resume.pdf": {
+    "mtime": 1793795585.2461727,
+    "seen": 1794823640.2698069,
+    "ast_hash": "6dde396f49c42ed6b0b65683f6d44eae",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Philips - Software Technologist I/Pratham_Modi_Resume.pdf": {
+    "mtime": 1793795588.2506275,
+    "seen": 1794823640.2698073,
+    "ast_hash": "3b542f3c5d95ba35e3372a914cea4b65",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/output/Viridien - Machine Learning Engineer/Pratham_Modi_Resume.pdf": {
+    "mtime": 1793795587.0272634,
+    "seen": 1794823640.269808,
+    "ast_hash": "b66e847b8a456a1af3a2e9265a8762a5",
     "semantic_hash": ""
   }
 }

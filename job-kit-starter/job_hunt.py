@@ -103,7 +103,7 @@ ROLE_EXCLUDE = re.compile(
     r"architect|sales|account|"
     r"marketing|recruit|talent|people ops|legal|finance|content|writer|"
     r"evangelist|advocate|designer|design eng|intern|analyst|support|success|"
-    r"solutions eng|field|security|data scien|ml research|research scien|"
+    r"solutions eng|field|security|data scien|machine learning|ml engineer|mle|deep learning|ml research|research scien|"
     r"hardware|firmware|mobile|android|ios|qa\b|test eng)\b", re.I)
 
 STACK = ["full stack", "full-stack", "react", "node", "typescript", "javascript",

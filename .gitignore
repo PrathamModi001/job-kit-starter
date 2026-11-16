@@ -67,3 +67,7 @@ output/*/
 output/job-search/digest*.md
 output/job-search/seen_*.json
 output/job-search/waas_jobs.json
+
+# Wrangler deployment artifacts
+.wrangler/
+**/.wrangler/

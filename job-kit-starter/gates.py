@@ -25,7 +25,9 @@ def strip_html(text):
 TITLE_SKIP = re.compile(
     r"\bjava\b|\.net\b|\bc#|asp\.net|c\+\+|\bruby\b|\brails\b|\bsenior\b|\bsr\.?(?=\W)|\bstaff\b|\bprincipal\b|"
     r"\barchitect\b|\blead\b|\bsde[- ]?(?:2|3|ii|iii)\b|\bproduct engineer\s*(?:2|ii)\b|\bpe\s*2\b|"
-    r"\b(?:ii|iii)\b|\b(?:engineer|developer)\s*[23]\b|\bmts\b|member of technical staff|\bcustomer\b|\bclient\b|\bmobile\b|react[- ]native", re.I)
+    r"\b(?:ii|iii)\b|\b(?:engineer|developer)\s*[23]\b|\bmts\b|member of technical staff|\bcustomer\b|\bclient\b|\bmobile\b|react[- ]native|"
+    r"\bmachine[- ]learning\b|\bml[- ]?(?:engineer|developer|scientist|specialist|intern|ops|infra)\b|\b(?:engineer|developer)\s*[-–—,]?\s*ml\b|\bml\b|\bmle\b|"
+    r"\bdeep[- ]learning\b|\bdata[- ](?:scientist|science)\b|\b(?:applied\s+)?ai[- ]?(?:engineer|developer|scientist)\b|\bai\s*(?:/|&|and)\s*ml\b", re.I)
 # Terms that, as the JD's primary focus, also disqualify (checked by a human/LLM; this only flags).
 JD_FLAG = re.compile(r"customer[- ]facing|client[- ]facing|react[- ]native|mobile (?:app|engineer|developer)", re.I)
 

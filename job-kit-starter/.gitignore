@@ -8,3 +8,6 @@ output/job-search/seen_*.json
 output/job-search/waas_jobs.json
 *.pdf
 .DS_Store
+
+.wrangler/
+**/.wrangler/
