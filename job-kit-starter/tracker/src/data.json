@@ -3096,6 +3096,30 @@
 "resume": "output/StockX - Software Development Engineer in Test/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "9Falcons",
+"role": "AI Automation Engineer",
+"loc": "Remote / London, UK",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive ($45k-$50k)",
+"status": "Applied",
+"date": "2026-11-18",
+"url": "https://wellfound.com/jobs/4985558-ai-automation-engineer",
+"resume": "output/9Falcons - AI Automation Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Commenda",
+"role": "Software Engineer – Product",
+"loc": "Bengaluru",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive (18+ LPA)",
+"status": "Applied",
+"date": "2026-11-18",
+"url": "https://wellfound.com/jobs/5101345-software-engineer-product",
+"resume": "output/Commenda - Software Engineer – Product/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Isomorph AI",
 "role": "Founding Engineer, Platform Capabilities",
 "loc": "Bengaluru, India",
@@ -3120,6 +3144,18 @@
 "resume": "output/Isomorph AI - Founding Engineer, Finance Agents and Apps/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Songbird Fusion Labs",
+"role": "Software Engineer",
+"loc": "Bengaluru / Remote, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive (18-20 LPA)",
+"status": "Applied",
+"date": "2026-11-18",
+"url": "https://wellfound.com/jobs/5067375-software-engineer",
+"resume": "output/Songbird Fusion Labs - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Springboard",
 "role": "Product Engineer (Full Stack, IC) - India",
 "loc": "Bengaluru, India (Remote)",
@@ -3130,6 +3166,18 @@
 "date": "2026-11-18",
 "url": "https://wellfound.com/jobs/4982389-product-engineer-full-stack-ic-india",
 "resume": "output/Springboard - Product Engineer (Full Stack, IC)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Tachys Capital",
+"role": "Loan Origination & Platform Developer",
+"loc": "Remote, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive (18-20 LPA)",
+"status": "Applied",
+"date": "2026-11-18",
+"url": "https://wellfound.com/jobs/4970438-loan-origination-platform-developer",
+"resume": "output/Tachys Capital - Loan Origination & Platform Developer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Tonbo Imaging Pvt.Ltd",
@@ -3154,6 +3202,18 @@
 "date": "2026-11-18",
 "url": "https://wellfound.com/jobs/4634106-software-development-engineer-in-test-sdet",
 "resume": "output/Tonbo Imaging - SDET/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Unnat AI Solutions",
+"role": "Founding AI Systems Engineer",
+"loc": "Remote / Sonipat, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive (18-20 LPA)",
+"status": "Applied",
+"date": "2026-11-18",
+"url": "https://wellfound.com/jobs/5035446-founding-ai-systems-engineer",
+"resume": "output/Unnat AI Solutions - Founding AI Systems Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "HackerEarth",
@@ -4176,6 +4236,18 @@
 "resume": ""
 },
 {
+"co": "Alpha Nodus",
+"role": "Forward Deployed Engineer",
+"loc": "Bengaluru, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive (18+ LPA)",
+"status": "Skipped",
+"date": "2026-11-18",
+"url": "https://wellfound.com/jobs/4692076-forward-deployed-engineer",
+"resume": ""
+},
+{
 "co": "Archetype Solutions Software",
 "role": "Full Stack Engineer - Python",
 "loc": "Hyderabad",
@@ -4221,6 +4293,18 @@
 "status": "Skipped",
 "date": "2026-11-18",
 "url": "https://wellfound.com/jobs/3049915-full-stack-engineer",
+"resume": ""
+},
+{
+"co": "Tracxn",
+"role": "Backend Developer",
+"loc": "Bengaluru, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "Competitive (18+ LPA)",
+"status": "Skipped",
+"date": "2026-11-18",
+"url": "https://wellfound.com/jobs/4632678-backend-developer",
 "resume": ""
 },
 {
@@ -5422,6 +5506,18 @@
 "date": "2026-11-16",
 "url": "https://jobs.ashbyhq.com/secfix/583140f4-b26c-47b4-a9be-c7a88dc3c0f5/application",
 "resume": "output/Secfix - Backend Engineer - GTM Engineering/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Wisdom AI",
+"role": "Software Engineer, Backend",
+"loc": "Bengaluru",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Competitive (18+ LPA)",
+"status": "Blocked",
+"date": "2026-11-18",
+"url": "https://jobs.ashbyhq.com/wisdom-ai/38997748-01fd-4a16-84e9-a135fb056908/application",
+"resume": "output/Wisdom AI - Software Engineer, Backend/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Drivetrain",
