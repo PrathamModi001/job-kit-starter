@@ -2940,6 +2940,30 @@
 "resume": "output/LovedByAI - Full-stack engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "MindFi",
+"role": "Product Engineer, Full-stack (React + Python)",
+"loc": "IN / Remote (IN)",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "$35K - $45K",
+"status": "Applied",
+"date": "2026-11-16",
+"url": "https://www.workatastartup.com/jobs/66744",
+"resume": "output/MindFi - Product Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "NeoGenCode Technologies",
+"role": "Full Stack Engineer (Python + React.js/Next.js)",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Cutshort",
+"found": "Cutshort",
+"comp": "8-35 LPA",
+"status": "Applied",
+"date": "2026-11-16",
+"url": "https://cutshort.io/job/Full-Stack-Engineer-Python-React-js-Next-js-Bengaluru-Bangalore-NeoGenCode-Technologies-Pvt-Ltd-kCjuPWyd",
+"resume": "output/NeoGenCode Technologies - Full Stack Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Openbenchmarks",
 "role": "Founding Engineer (AI + Backend)",
 "loc": "IN / Remote (IN)",
@@ -2964,6 +2988,18 @@
 "resume": "output/PayPal - Software Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "QualifyCode",
+"role": "Software Engineer",
+"loc": "Mumbai, India",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "₹12L - ₹20L",
+"status": "Applied",
+"date": "2026-11-16",
+"url": "https://wellfound.com/jobs/5081971-software-engineer",
+"resume": "output/QualifyCode - Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Simplismart",
 "role": "Machine Learning Engineer",
 "loc": "Bengaluru, India",
@@ -2976,6 +3012,18 @@
 "resume": "output/Simplismart - Machine Learning Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "Stardex",
+"role": "Full Stack Engineer",
+"loc": "Remote (India / Global)",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "$30K - $50K",
+"status": "Applied",
+"date": "2026-11-16",
+"url": "https://www.workatastartup.com/jobs/76236",
+"resume": "output/Stardex - Full Stack Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Wisdom AI",
 "role": "Software Engineer, Backend",
 "loc": "Bengaluru, India",
@@ -2986,6 +3034,66 @@
 "date": "2026-11-16",
 "url": "https://jobs.ashbyhq.com/Wisdom-AI/38997748-01fd-4a16-84e9-a135fb056908/application",
 "resume": "output/Wisdom AI - Software Engineer, Backend/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Commvault",
+"role": "Software Engineer (Python)- Product Development & Automation",
+"loc": "Bengaluru / Hyderabad, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Competitive (Undisclosed)",
+"status": "Applied",
+"date": "2026-11-17",
+"url": "https://job-boards.greenhouse.io/embed/job_app?for=commvault&token=5459809008",
+"resume": "output/Commvault - Software Engineer (Python)/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Cube",
+"role": "QA Engineer",
+"loc": "Bangalore, India",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "18 LPA",
+"status": "Applied",
+"date": "2026-11-17",
+"url": "https://jobs.ashbyhq.com/CUBE/d047c79a-f461-4702-a54d-1437ba9b992f",
+"resume": "output/Cube - QA Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Netskope",
+"role": "Software Development Engineer in Test, SASE",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Competitive (Undisclosed)",
+"status": "Applied",
+"date": "2026-11-17",
+"url": "https://job-boards.greenhouse.io/embed/job_app?for=netskope&token=8264291",
+"resume": "output/Netskope - Software Development Engineer in Test/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "SigNoz",
+"role": "Exceptional Engineer",
+"loc": "India (Remote)",
+"via": "Ashby",
+"found": "ATS board scan",
+"comp": "Competitive (18+ LPA)",
+"status": "Applied",
+"date": "2026-11-17",
+"url": "https://jobs.ashbyhq.com/SigNoz/3b07b93a-aa97-4a4e-8b12-7c9c3273cf8c",
+"resume": "output/SigNoz - Exceptional Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "StockX",
+"role": "Software Development Engineer in Test",
+"loc": "Bangalore, India",
+"via": "Greenhouse",
+"found": "ATS board scan",
+"comp": "Competitive (18+ LPA)",
+"status": "Applied",
+"date": "2026-11-17",
+"url": "https://job-boards.greenhouse.io/stockx/jobs/8602119002",
+"resume": "output/StockX - Software Development Engineer in Test/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "HackerEarth",
@@ -5112,6 +5220,18 @@
 "resume": "output/Viridien - Machine Learning Engineer/Pratham_Modi_Resume.pdf"
 },
 {
+"co": "AlemHealth",
+"role": "Full Stack Software Engineer (Python/ReactJS)",
+"loc": "Remote (India)",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "Competitive (Undisclosed)",
+"status": "Blocked",
+"date": "2026-11-16",
+"url": "https://www.workatastartup.com/jobs/23206",
+"resume": "output/AlemHealth - Full Stack Software Engineer/Pratham_Modi_Resume.pdf"
+},
+{
 "co": "Bain & Company",
 "role": "Associate Full Stack – Consumer Products AI",
 "loc": "New Delhi",
@@ -5122,6 +5242,54 @@
 "date": "2026-11-16",
 "url": "https://careers.bain.com/jobs/FolderDetail?folderId=112008",
 "resume": "output/Bain & Company - Associate Full Stack - Consumer Products AI/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Crowe",
+"role": "Junior Software Engineer 1",
+"loc": "Hyderabad, Telangāna, India",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "Competitive",
+"status": "Blocked",
+"date": "2026-11-16",
+"url": "https://careers.crowe.com/job/CROCROUSR52653EXTERNALENUS/Junior-Software-Engineer-1",
+"resume": "output/Crowe - Junior Software Engineer 1/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Discovered Labs",
+"role": "Full Stack Engineer",
+"loc": "Remote (Everywhere)",
+"via": "Wellfound",
+"found": "Wellfound",
+"comp": "$20k - $28k",
+"status": "Blocked",
+"date": "2026-11-16",
+"url": "https://wellfound.com/jobs/4523283-full-stack-engineer",
+"resume": "output/Discovered Labs - Full Stack Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Mindtickle",
+"role": "Security and Automation Engineer",
+"loc": "Pune, Maharashtra, India",
+"via": "Lever",
+"found": "ATS board scan",
+"comp": "Competitive (18+ LPA)",
+"status": "Blocked",
+"date": "2026-11-16",
+"url": "https://jobs.lever.co/mindtickle/d62b36db-b088-48c7-a606-4ed458e30208",
+"resume": "output/Mindtickle - Security and Automation Engineer/Pratham_Modi_Resume.pdf"
+},
+{
+"co": "Ritually",
+"role": "Founding Full Stack Engineer",
+"loc": "Bengaluru, Karnataka, India",
+"via": "Direct ATS",
+"found": "Direct ATS",
+"comp": "17-28 LPA",
+"status": "Blocked",
+"date": "2026-11-16",
+"url": "https://careers.ritually.ai/apply/full-stack-engineer",
+"resume": "output/Ritually - Founding Full Stack Engineer/Pratham_Modi_Resume.pdf"
 },
 {
 "co": "Sage",

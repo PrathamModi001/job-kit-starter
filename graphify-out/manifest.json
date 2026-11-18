@@ -24,8 +24,8 @@
     "semantic_hash": ""
   },
   "job-kit-starter/output/job-search/seen.json": {
-    "mtime": 1794832910.9190805,
-    "seen": 1794842035.1963983,
+    "mtime": 1794892194.956579,
+    "seen": 1794907658.977458,
     "ast_hash": "8b20ad1469d789e094ef9be9ac56a46a",
     "semantic_hash": ""
   },
@@ -84,9 +84,9 @@
     "semantic_hash": "4bacdb467f88c9788c12e05eae4f2d40"
   },
   "job-kit-starter/tracker/src/meta.json": {
-    "mtime": 1794842003.539485,
-    "seen": 1794842035.19642,
-    "ast_hash": "2d36c1325ec5105733bfd3b171568e8d",
+    "mtime": 1794918502.2477832,
+    "seen": 1794918506.7728605,
+    "ast_hash": "46d673d63b0fae5ab1df89135c48461a",
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/vite.config.js": {
@@ -306,9 +306,9 @@
     "semantic_hash": ""
   },
   "job-kit-starter/tracker/src/data.json": {
-    "mtime": 1794842003.539485,
-    "seen": 1794842035.1964169,
-    "ast_hash": "88f409ee70c1e3f8b4e59bc6632e632d",
+    "mtime": 1794918502.246751,
+    "seen": 1794918506.772858,
+    "ast_hash": "ff51e48aa624becd73849affc18aedb8",
     "semantic_hash": ""
   },
   "job-kit-starter/output/job-search/outreach/tier_b_template.md": {
@@ -495,6 +495,12 @@
     "mtime": 1793795587.0272634,
     "seen": 1794823640.269808,
     "ast_hash": "b66e847b8a456a1af3a2e9265a8762a5",
+    "semantic_hash": ""
+  },
+  "job-kit-starter/temp_job.html": {
+    "mtime": 1794843948.0363824,
+    "seen": 1794853345.6735067,
+    "ast_hash": "5c7857d6001398786fa7973c6404e6dd",
     "semantic_hash": ""
   }
 }
