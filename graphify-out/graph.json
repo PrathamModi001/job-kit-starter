@@ -6728,6 +6728,150 @@
       "norm_label": "user input during execution",
       "source_file": "job-kit-starter/.claude/skills/make-resume/SKILL.md",
       "source_location": "L36"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18",
+      "label": "daily_scan_report_2026_11_18.md",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "daily_scan_report_2026_11_18.md",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_1_executive_summary",
+      "label": "1. Executive Summary",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "1. executive summary",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L3"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_2_applied_roles_detail_num_jobs_5",
+      "label": "2. Applied Roles Detail (`NUM_JOBS = 5`)",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "2. applied roles detail (`num_jobs = 5`)",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_3_skipped_leads_gated_out",
+      "label": "3. Skipped Leads (Gated Out)",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "3. skipped leads (gated out)",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L46"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_4_cold_outreach_20_new_emails_dispatched_reconciled",
+      "label": "4. Cold Outreach (20 New Emails Dispatched & Reconciled)",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "4. cold outreach (20 new emails dispatched & reconciled)",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L57"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_5_token_usage_subagent_audit",
+      "label": "5. Token Usage & Subagent Audit",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "5. token usage & subagent audit",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L107"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_6_discrepancies_vs_spec",
+      "label": "6. Discrepancies vs. Spec",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "6. discrepancies vs. spec",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L129"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_a_10_global_hn_who_is_hiring_startups",
+      "label": "A. 10 Global / HN Who is Hiring Startups",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "a. 10 global / hn who is hiring startups",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L61"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_b_10_indian_tech_startups_direct_verified_founders",
+      "label": "B. 10 Indian Tech Startups (Direct Verified Founders)",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "b. 10 indian tech startups (direct verified founders)",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L83"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_daily_scan_outreach_execution_report_2026_11_18",
+      "label": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "daily scan & outreach execution report \u2014 2026-11-18",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_real_token_usage_extracted_from_session_transcript_logs",
+      "label": "Real Token Usage (Extracted from Session Transcript Logs)",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "real token usage (extracted from session transcript logs)",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L109"
+    },
+    {
+      "id": "reports_daily_scan_report_2026_11_18_subagents_tool_call_audit_budget_40_tool_calls_max_per_subagent",
+      "label": "Subagents Tool-Call Audit (Budget = 40 tool calls max per subagent)",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "Daily Scan & Outreach Execution Report \u2014 2026-11-18",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "subagents tool-call audit (budget = 40 tool calls max per subagent)",
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L115"
     }
   ],
   "links": [
@@ -12595,6 +12739,127 @@
       "weight": 1.0
     },
     {
+      "source": "reports_daily_scan_report_2026_11_18",
+      "target": "reports_daily_scan_report_2026_11_18_daily_scan_outreach_execution_report_2026_11_18",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_4_cold_outreach_20_new_emails_dispatched_reconciled",
+      "target": "reports_daily_scan_report_2026_11_18_a_10_global_hn_who_is_hiring_startups",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_4_cold_outreach_20_new_emails_dispatched_reconciled",
+      "target": "reports_daily_scan_report_2026_11_18_b_10_indian_tech_startups_direct_verified_founders",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_5_token_usage_subagent_audit",
+      "target": "reports_daily_scan_report_2026_11_18_real_token_usage_extracted_from_session_transcript_logs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_5_token_usage_subagent_audit",
+      "target": "reports_daily_scan_report_2026_11_18_subagents_tool_call_audit_budget_40_tool_calls_max_per_subagent",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_daily_scan_outreach_execution_report_2026_11_18",
+      "target": "reports_daily_scan_report_2026_11_18_5_token_usage_subagent_audit",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_daily_scan_outreach_execution_report_2026_11_18",
+      "target": "reports_daily_scan_report_2026_11_18_6_discrepancies_vs_spec",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_daily_scan_outreach_execution_report_2026_11_18",
+      "target": "reports_daily_scan_report_2026_11_18_2_applied_roles_detail_num_jobs_5",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_daily_scan_outreach_execution_report_2026_11_18",
+      "target": "reports_daily_scan_report_2026_11_18_1_executive_summary",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_daily_scan_outreach_execution_report_2026_11_18",
+      "target": "reports_daily_scan_report_2026_11_18_3_skipped_leads_gated_out",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "reports_daily_scan_report_2026_11_18_daily_scan_outreach_execution_report_2026_11_18",
+      "target": "reports_daily_scan_report_2026_11_18_4_cold_outreach_20_new_emails_dispatched_reconciled",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "reports/daily_scan_report_2026_11_18.md",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
       "source": "job_kit_starter_gates_rationale_19",
       "target": "job_kit_starter_gates_strip_html",
       "relation": "rationale_for",
@@ -12878,5 +13143,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "568b952eb4d08f4b771330d1b0b6568a8a254a3e"
+  "built_at_commit": "ea487eef2045dac220f14a2f562dce793a9159c7"
 }

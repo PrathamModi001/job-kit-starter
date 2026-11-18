@@ -1,16 +1,16 @@
-# Graph Report - job-kit-starter  (2026-11-16)
+# Graph Report - job-kit-starter  (2026-11-18)
 
 ## Corpus Check
-- 69 files · ~78,663 words
+- 70 files · ~81,064 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 561 nodes · 553 edges · 54 communities (44 shown, 6 thin omitted)
+- 573 nodes · 564 edges · 55 communities (45 shown, 6 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 7 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `568b952e`
+- Built from commit: `ea487eef`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,6 +24,7 @@
 - Daily Scan & Outreach Execution Report — 2026-11-04
 - /edit-resume
 - /make-resume
+- Daily Scan & Outreach Execution Report — 2026-11-18
 - Tier B cold email — slot template (volume lane)
 - char_count.py
 - /setup-build-kb
@@ -91,7 +92,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (54 total, 6 thin omitted)
+## Communities (55 total, 6 thin omitted)
 
 ### Community 0 - "Critique Framework — Consolidated Multi-Perspective Protocol"
 Cohesion: 0.06
@@ -128,6 +129,10 @@ Nodes (15): Cover Letter Verification Gates (if CL was edited), /edit-resume, FI
 ### Community 8 - "/make-resume"
 Cohesion: 0.12
 Nodes (16): Budget Gate (AFTER user confirms bullet plan, BEFORE Phase 2), CHAR COUNT GATE (per position), COMPILE GATE, End of /make-resume, /make-resume, >>>>>> MANDATORY STOP <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<<, >>>>>> MANDATORY STOP — DO NOT PROCEED <<<<<< (+8 more)
+
+### Community 9 - "Daily Scan & Outreach Execution Report — 2026-11-18"
+Cohesion: 0.17
+Nodes (11): 1. Executive Summary, 2. Applied Roles Detail (`NUM_JOBS = 5`), 3. Skipped Leads (Gated Out), 4. Cold Outreach (20 New Emails Dispatched & Reconciled), 5. Token Usage & Subagent Audit, 6. Discrepancies vs. Spec, A. 10 Global / HN Who is Hiring Startups, B. 10 Indian Tech Startups (Direct Verified Founders) (+3 more)
 
 ### Community 10 - "Tier B cold email — slot template (volume lane)"
 Cohesion: 0.20
@@ -270,15 +275,15 @@ Cohesion: 0.17
 Nodes (11): 1. Legacy archive, 2. `make-resume/SKILL.md` rewritten as Batch Mode only, 3. `resume_builder/helpers/fingerprint_check.py` (new script), 4. `daily_scan.md` step 5a, Batch Mode: single-path, ATS-first resume tailoring, Design, Goal, Non-goals (+3 more)
 
 ## Knowledge Gaps
-- **346 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+341 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 413 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **354 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+349 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 422 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `name`, `private`, `version` to the rest of the system?**
-  _346 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _354 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Critique Framework — Consolidated Multi-Perspective Protocol` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `package.json` be split into smaller, more focused modules?**
